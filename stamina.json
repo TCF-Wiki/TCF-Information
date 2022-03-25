@@ -1,0 +1,19 @@
+{
+  "maxAmount": 100,
+  "regenDelay": 1.5,
+  "regenBaseRate": 40,
+  "regenWalkMultiplier": 0.4,
+  "regenStationaryMultiplier": 1,
+  "regenJumpMultiplier": 0.4,
+  "consumptionJump": 10,
+  "consumptionJumpNoStamina": 1,
+  "consumptionRateSprint": 3,
+  "minStaminaSprint": 2,
+  "consumptionSlideRate": 8,
+  "minStaminaSlide": 5,
+  "consumptionClimb": 0,
+  "consumptionRateClimb": 5,
+  "noStaminaMelee?": true,
+  "noStaminaHeavyMelee?": false,
+  "reductionOnHit": 0
+}

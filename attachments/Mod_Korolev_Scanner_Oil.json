@@ -1,0 +1,25 @@
+{
+  "modType": "EYModificationSlotType::ScannerUpgrade4",
+  "itemWeight": 1,
+  "device_category": "EYDeviceCategory::AssaultRifle",
+  "sellingFPIncrement": 24,
+  "sellingReturnDefault": 10,
+  "sellingReturnsPerRarity": {
+    "EYItemRarityType::Epic": 2405
+  },
+  "unlockData": {
+    "m_factionUnlockData": [],
+    "m_contractLockPurchase": {
+      "DataTable": {
+        "ObjectName": "DataTable Contract_DT",
+        "ObjectPath": "Prospect/Content/DataTables/Contracts/Contract_DT.0"
+      },
+      "RowName": "Main-ICA-OilScanModule-2"
+    },
+    "m_contractLockCrafting": {
+      "DataTable": null,
+      "RowName": "None"
+    }
+  },
+  "flashlight": false
+}

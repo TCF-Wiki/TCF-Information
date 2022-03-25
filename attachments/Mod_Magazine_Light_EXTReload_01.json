@@ -1,0 +1,22 @@
+{
+  "modType": "EYModificationSlotType::Magazine",
+  "itemWeight": 3,
+  "device_category": "EYDeviceCategory::AssaultRifle",
+  "sellingFPIncrement": 10,
+  "sellingReturnDefault": 10,
+  "sellingReturnsPerRarity": {
+    "EYItemRarityType::Rare": 986
+  },
+  "unlockData": {
+    "m_factionUnlockData": [],
+    "m_contractLockPurchase": {
+      "DataTable": null,
+      "RowName": "None"
+    },
+    "m_contractLockCrafting": {
+      "DataTable": null,
+      "RowName": "None"
+    }
+  },
+  "flashlight": false
+}

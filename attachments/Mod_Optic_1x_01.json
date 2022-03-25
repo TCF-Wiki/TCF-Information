@@ -1,0 +1,22 @@
+{
+  "modType": "EYModificationSlotType::Optics",
+  "itemWeight": 2,
+  "device_category": "EYDeviceCategory::AssaultRifle",
+  "sellingFPIncrement": 1,
+  "sellingReturnDefault": 10,
+  "sellingReturnsPerRarity": {
+    "EYItemRarityType::Common": 90
+  },
+  "unlockData": {
+    "m_factionUnlockData": [],
+    "m_contractLockPurchase": {
+      "DataTable": null,
+      "RowName": "None"
+    },
+    "m_contractLockCrafting": {
+      "DataTable": null,
+      "RowName": "None"
+    }
+  },
+  "flashlight": false
+}

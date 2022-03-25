@@ -1,0 +1,2329 @@
+{
+  "NoOptics": {
+    "modType": "EYModificationSlotType::Optics",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 0,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "NoMagazine": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 0,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "NoBarrel": {
+    "modType": "EYModificationSlotType::Barrel",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 0,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "NoStock": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 0,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "NoGrip": {
+    "modType": "EYModificationSlotType::RearGrip",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 0,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "NoAttatchment": {
+    "modType": "EYModificationSlotType::Attachment",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 0,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Korolev_Scanner_AlienCrystals": {
+    "modType": "EYModificationSlotType::ScannerUpgrade3",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 3,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 304
+    },
+    "unlockData": {
+      "m_factionUnlockData": [
+        {
+          "m_rowHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable Factions_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+            },
+            "RowName": "Korolev"
+          },
+          "m_rarity": "EYItemRarityType::Rare",
+          "m_level": 5
+        }
+      ],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Korolev_Scanner_HeavyMetals": {
+    "modType": "EYModificationSlotType::ScannerUpgrade2",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 2,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 203
+    },
+    "unlockData": {
+      "m_factionUnlockData": [
+        {
+          "m_rowHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable Factions_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+            },
+            "RowName": "Korolev"
+          },
+          "m_rarity": "EYItemRarityType::Uncommon",
+          "m_level": 3
+        }
+      ],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Korolev_Scanner_Veltecite": {
+    "modType": "EYModificationSlotType::ScannerUpgrade1",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [
+        {
+          "m_rowHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable Factions_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Backend/Factions_DT.0"
+            },
+            "RowName": "Korolev"
+          },
+          "m_rarity": "EYItemRarityType::Common",
+          "m_level": 2
+        }
+      ],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Optic_2x_01": {
+    "modType": "EYModificationSlotType::Optics",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 8,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 764
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Optic_4x_01": {
+    "modType": "EYModificationSlotType::Optics",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 13,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 1288
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_03": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Heavy_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Shotgun_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Muzzle_Small_Supressor_01": {
+    "modType": "EYModificationSlotType::Muzzle",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 15,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 1478
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Muzzle_Standard_Supressor_01": {
+    "modType": "EYModificationSlotType::Muzzle",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 15,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 1478
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Light_01": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Medium_01": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Heavy_01": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Shotgun_01": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_ForeGrip_Angled_01": {
+    "modType": "EYModificationSlotType::ForeGrip",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_RearGrip_01": {
+    "modType": "EYModificationSlotType::RearGrip",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Tactical_Flashlight_01": {
+    "modType": "EYModificationSlotType::Tactical",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": true
+  },
+  "Mod_Stock_Marksman_01": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Standard_01": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_03": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Heavy_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Heavy_03": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Shotgun_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Shotgun_03": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_ReloadSpeed_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_ReloadSpeed_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_ReloadSpeed_03": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_ReloadSpeed_04": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_Reloadspeed_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_Reloadspeed_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_Reloadspeed_03": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_Reloadspeed_04": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_03": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_04": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_EXTReload_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Light_EXTReload_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_EXTReload_01": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Magazine_Medium_EXTReload_02": {
+    "modType": "EYModificationSlotType::Magazine",
+    "itemWeight": 3,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Standard_02": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Standard_Equip_01": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Standard_Equip_02": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Standard_ADS_01": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Standard_ADS_02": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Standard_ADSEquip_01": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Standard_ADSEquip_02": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Marksman_02": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Marksman_Equip_01": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Marksman_Equip_02": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Marksman_ADS_01": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Marksman_ADS_02": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Marksman_ADSEquip_01": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Stock_Marksman_ADSEquip_02": {
+    "modType": "EYModificationSlotType::Stock",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Muzzle_Small_Recoil_01": {
+    "modType": "EYModificationSlotType::Muzzle",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Muzzle_Small_Recoil_02": {
+    "modType": "EYModificationSlotType::Muzzle",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Muzzle_Small_Recoil_03": {
+    "modType": "EYModificationSlotType::Muzzle",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Muzzle_Standard_Recoil_01": {
+    "modType": "EYModificationSlotType::Muzzle",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Muzzle_Standard_Recoil_02": {
+    "modType": "EYModificationSlotType::Muzzle",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Muzzle_Standard_Recoil_03": {
+    "modType": "EYModificationSlotType::Muzzle",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Light_02": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Light_03": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Medium_02": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Medium_03": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Heavy_02": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Heavy_03": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Shotgun_02": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Shotgun_03": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Light_AIDMG_01": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Light_AIDMG_02": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Light_AIDMG_03": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Medium_AIDMG_01": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Medium_AIDMG_02": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Medium_AIDMG_03": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Converter_Shotgun_Slug_01": {
+    "modType": "EYModificationSlotType::AmmoConverter",
+    "itemWeight": 4,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_ForeGrip_Angled_02": {
+    "modType": "EYModificationSlotType::ForeGrip",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_ForeGrip_Equip_01": {
+    "modType": "EYModificationSlotType::ForeGrip",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_ForeGrip_Equip_02": {
+    "modType": "EYModificationSlotType::ForeGrip",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_ForeGrip_ADS_01": {
+    "modType": "EYModificationSlotType::ForeGrip",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_ForeGrip_ADS_02": {
+    "modType": "EYModificationSlotType::ForeGrip",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 10,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Rare": 986
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_ForeGrip_ADS_03": {
+    "modType": "EYModificationSlotType::ForeGrip",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_RearGrip_02": {
+    "modType": "EYModificationSlotType::RearGrip",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_RearGrip_ADS_01": {
+    "modType": "EYModificationSlotType::RearGrip",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_RearGrip_ADS_02": {
+    "modType": "EYModificationSlotType::RearGrip",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Optic_1x_01": {
+    "modType": "EYModificationSlotType::Optics",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 1,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Common": 90
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Optic_1x_02": {
+    "modType": "EYModificationSlotType::Optics",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 4,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Uncommon": 374
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Optic_Variable_01": {
+    "modType": "EYModificationSlotType::Optics",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Optic_8x_01": {
+    "modType": "EYModificationSlotType::Optics",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Optic_6x_01": {
+    "modType": "EYModificationSlotType::Optics",
+    "itemWeight": 2,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": null,
+        "RowName": "None"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  },
+  "Mod_Korolev_Scanner_Oil": {
+    "modType": "EYModificationSlotType::ScannerUpgrade4",
+    "itemWeight": 1,
+    "device_category": "EYDeviceCategory::AssaultRifle",
+    "sellingFPIncrement": 24,
+    "sellingReturnDefault": 10,
+    "sellingReturnsPerRarity": {
+      "EYItemRarityType::Epic": 2405
+    },
+    "unlockData": {
+      "m_factionUnlockData": [],
+      "m_contractLockPurchase": {
+        "DataTable": {
+          "ObjectName": "DataTable Contract_DT",
+          "ObjectPath": "Prospect/Content/DataTables/Contracts/Contract_DT.0"
+        },
+        "RowName": "Main-ICA-OilScanModule-2"
+      },
+      "m_contractLockCrafting": {
+        "DataTable": null,
+        "RowName": "None"
+      }
+    },
+    "flashlight": false
+  }
+}
