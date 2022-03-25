@@ -1,0 +1,356 @@
+{
+  "PlayerDefault": {
+    "rarity": "EYItemRarityType::Common",
+    "armorAmount": 0,
+    "durability": -1,
+    "weight": 0,
+    "bonus": {},
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": {
+      "sellingDefault": 0,
+      "sellingPerRarity": {
+        "EYItemRarityType::Common": 135
+      },
+      "factionProgressDefault": 1,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Common": 1
+      }
+    }
+  },
+  "Shield_01": {
+    "rarity": "EYItemRarityType::Common",
+    "armorAmount": 10,
+    "durability": 600,
+    "weight": 40,
+    "bonus": {},
+    "repair": {
+      "baseCost": 45,
+      "costModifierBroken": 113,
+      "maxPrice": 225,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 100,
+      "sellingPerRarity": {
+        "EYItemRarityType::Common": 135
+      },
+      "factionProgressDefault": 1,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Common": 1
+      }
+    }
+  },
+  "Shield_02": {
+    "rarity": "EYItemRarityType::Uncommon",
+    "armorAmount": 15,
+    "durability": 700,
+    "weight": 50,
+    "bonus": {},
+    "repair": {
+      "baseCost": 200,
+      "costModifierBroken": 496,
+      "maxPrice": 6000,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 1500,
+      "sellingPerRarity": {
+        "EYItemRarityType::Uncommon": 608
+      },
+      "factionProgressDefault": 6,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Uncommon": 6
+      }
+    }
+  },
+  "Shield_03": {
+    "rarity": "EYItemRarityType::Rare",
+    "armorAmount": 20,
+    "durability": 800,
+    "weight": 60,
+    "bonus": {},
+    "repair": {
+      "baseCost": 460,
+      "costModifierBroken": 1157,
+      "maxPrice": 13800,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 2500,
+      "sellingPerRarity": {
+        "EYItemRarityType::Rare": 1367
+      },
+      "factionProgressDefault": 14,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Rare": 14
+      }
+    }
+  },
+  "Shield_04": {
+    "rarity": "EYItemRarityType::Epic",
+    "armorAmount": 25,
+    "durability": 900,
+    "weight": 70,
+    "bonus": {},
+    "repair": {
+      "baseCost": 910,
+      "costModifierBroken": 2273,
+      "maxPrice": 27300,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 7500,
+      "sellingPerRarity": {
+        "EYItemRarityType::Epic": 2734
+      },
+      "factionProgressDefault": 27,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Epic": 27
+      }
+    }
+  },
+  "Shield_05": {
+    "rarity": "EYItemRarityType::Exotic",
+    "armorAmount": 30,
+    "durability": 1000,
+    "weight": 70,
+    "bonus": {},
+    "repair": {
+      "baseCost": 1700,
+      "costModifierBroken": 4237,
+      "maxPrice": 51000,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 7500,
+      "sellingPerRarity": {
+        "EYItemRarityType::Exotic": 5126
+      },
+      "factionProgressDefault": 51,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Exotic": 51
+      }
+    }
+  },
+  "Shield_Tactical_01": {
+    "rarity": "EYItemRarityType::Common",
+    "armorAmount": 7,
+    "durability": 500,
+    "weight": 40,
+    "bonus": {
+      "attribute": "EYGameplayAttribute::MaxStamina",
+      "type": "EYGPAModifierType::Additive",
+      "value": 20
+    },
+    "repair": {
+      "baseCost": 45,
+      "costModifierBroken": 113,
+      "maxPrice": 225,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 100,
+      "sellingPerRarity": {
+        "EYItemRarityType::Common": 135
+      },
+      "factionProgressDefault": 1,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Common": 1
+      }
+    }
+  },
+  "Shield_Tactical_02": {
+    "rarity": "EYItemRarityType::Uncommon",
+    "armorAmount": 12,
+    "durability": 600,
+    "weight": 50,
+    "bonus": {
+      "attribute": "EYGameplayAttribute::MaxStamina",
+      "type": "EYGPAModifierType::Additive",
+      "value": 25
+    },
+    "repair": {
+      "baseCost": 200,
+      "costModifierBroken": 496,
+      "maxPrice": 6000,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 1500,
+      "sellingPerRarity": {
+        "EYItemRarityType::Uncommon": 608
+      },
+      "factionProgressDefault": 6,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Uncommon": 6
+      }
+    }
+  },
+  "Shield_Tactical_03": {
+    "rarity": "EYItemRarityType::Rare",
+    "armorAmount": 17,
+    "durability": 700,
+    "weight": 60,
+    "bonus": {
+      "attribute": "EYGameplayAttribute::MaxStamina",
+      "type": "EYGPAModifierType::Additive",
+      "value": 35
+    },
+    "repair": {
+      "baseCost": 460,
+      "costModifierBroken": 1157,
+      "maxPrice": 13800,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 2500,
+      "sellingPerRarity": {
+        "EYItemRarityType::Rare": 1367
+      },
+      "factionProgressDefault": 14,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Rare": 14
+      }
+    }
+  },
+  "Shield_Restoration_01": {
+    "rarity": "EYItemRarityType::Uncommon",
+    "armorAmount": 12,
+    "durability": 600,
+    "weight": 50,
+    "bonus": {
+      "attribute": "EYGameplayAttribute::HealthRegenerationRate",
+      "type": "EYGPAModifierType::Additive",
+      "value": 0.2
+    },
+    "repair": {
+      "baseCost": 200,
+      "costModifierBroken": 496,
+      "maxPrice": 6000,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 1500,
+      "sellingPerRarity": {
+        "EYItemRarityType::Uncommon": 608
+      },
+      "factionProgressDefault": 6,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Uncommon": 6
+      }
+    }
+  },
+  "Shield_Restoration_02": {
+    "rarity": "EYItemRarityType::Rare",
+    "armorAmount": 17,
+    "durability": 700,
+    "weight": 60,
+    "bonus": {
+      "attribute": "EYGameplayAttribute::HealthRegenerationRate",
+      "type": "EYGPAModifierType::Additive",
+      "value": 0.2
+    },
+    "repair": {
+      "baseCost": 460,
+      "costModifierBroken": 1157,
+      "maxPrice": 13800,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 2500,
+      "sellingPerRarity": {
+        "EYItemRarityType::Rare": 1367
+      },
+      "factionProgressDefault": 14,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Rare": 14
+      }
+    }
+  },
+  "Test_Shield_FallDamage_01": {
+    "rarity": "EYItemRarityType::Common",
+    "armorAmount": 7,
+    "durability": 150,
+    "weight": 40,
+    "bonus": {
+      "attribute": "EYGameplayAttribute::FallingDamageReduction",
+      "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "value": 0.5
+    },
+    "repair": {
+      "baseCost": 20,
+      "costModifierBroken": 40,
+      "maxPrice": 60,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 100,
+      "sellingPerRarity": {
+        "EYItemRarityType::Common": 135
+      },
+      "factionProgressDefault": 1,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Common": 1
+      }
+    }
+  },
+  "Test_Shield_Spinup_01": {
+    "rarity": "EYItemRarityType::Common",
+    "armorAmount": 7,
+    "durability": 150,
+    "weight": 40,
+    "bonus": {
+      "attribute": "EYGameplayAttribute::SpinupDuration",
+      "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "value": 0.5
+    },
+    "repair": {
+      "baseCost": 20,
+      "costModifierBroken": 40,
+      "maxPrice": 60,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 100,
+      "sellingPerRarity": {
+        "EYItemRarityType::Common": 135
+      },
+      "factionProgressDefault": 1,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Common": 1
+      }
+    }
+  },
+  "Test_Shield_AIDefense_01": {
+    "rarity": "EYItemRarityType::Common",
+    "armorAmount": 7,
+    "durability": 150,
+    "weight": 40,
+    "bonus": {
+      "attribute": "EYGameplayAttribute::DamageScalingReceivedFromAI",
+      "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "value": 0.25
+    },
+    "repair": {
+      "baseCost": 20,
+      "costModifierBroken": 40,
+      "maxPrice": 60,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": {
+      "sellingDefault": 100,
+      "sellingPerRarity": {
+        "EYItemRarityType::Common": 135
+      },
+      "factionProgressDefault": 1,
+      "factionProgressPerRarity": {
+        "EYItemRarityType::Common": 1
+      }
+    }
+  }
+}
