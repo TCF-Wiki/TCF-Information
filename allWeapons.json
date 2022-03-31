@@ -1,7 +1,7 @@
 {
   "WP_A_Pistol_Bullet_01": {
     "penetration": 30,
-    "directDamage": 26,
+    "directDamage": 31,
     "radialDamage": 0,
     "refireTime": 0.4,
     "reloadTime": 2.175,
@@ -25,7 +25,7 @@
   },
   "WP_A_SGun_Energy_01": {
     "penetration": 20,
-    "directDamage": 7,
+    "directDamage": 8,
     "radialDamage": 0,
     "refireTime": 0.4,
     "reloadTime": 2.2,
@@ -53,7 +53,7 @@
     "radialDamage": 0,
     "refireTime": 0.085,
     "reloadTime": 2.3,
-    "ammoInClip": 18,
+    "ammoInClip": 17,
     "ammoType": "Light",
     "projectileSpeed": 28000,
     "amountOfBurst": 0,
@@ -73,7 +73,7 @@
   },
   "WP_A_AR_Bullet_01": {
     "penetration": 30,
-    "directDamage": 12,
+    "directDamage": 15,
     "radialDamage": 0,
     "refireTime": 0.12,
     "reloadTime": 3.2,
@@ -97,7 +97,7 @@
   },
   "WP_A_BR_Bullet_01": {
     "penetration": 25,
-    "directDamage": 35,
+    "directDamage": 39,
     "radialDamage": 0,
     "refireTime": 0.6,
     "reloadTime": 3.55,
@@ -193,7 +193,7 @@
   },
   "WP_D_SMG_Energy_01": {
     "penetration": 30,
-    "directDamage": 10,
+    "directDamage": 12,
     "radialDamage": 0,
     "refireTime": 0.075,
     "reloadTime": 2.53,
@@ -241,7 +241,7 @@
   },
   "WP_D_AR_Bullet_01": {
     "penetration": 25,
-    "directDamage": 8,
+    "directDamage": 10,
     "radialDamage": 0,
     "refireTime": 0.09,
     "reloadTime": 3.2,
@@ -265,7 +265,7 @@
   },
   "WP_D_BR_Shard_01": {
     "penetration": 20,
-    "directDamage": 25,
+    "directDamage": 27,
     "radialDamage": 0,
     "refireTime": 0.4,
     "reloadTime": 2.55,
@@ -385,9 +385,9 @@
   },
   "WP_E_AR_Energy_01": {
     "penetration": 10,
-    "directDamage": 12,
+    "directDamage": 13,
     "radialDamage": 0,
-    "refireTime": 0.13,
+    "refireTime": 0.11,
     "reloadTime": 2.75,
     "ammoInClip": 22,
     "ammoType": "Medium",
@@ -413,7 +413,7 @@
     "radialDamage": 0,
     "refireTime": 1.8,
     "reloadTime": 4.58,
-    "ammoInClip": 8,
+    "ammoInClip": 4,
     "ammoType": "Heavy",
     "projectileSpeed": 50000,
     "amountOfBurst": 0,
@@ -481,9 +481,9 @@
   },
   "WP_E_AR_Energy_01_scrappy": {
     "penetration": 5,
-    "directDamage": 12,
+    "directDamage": 13,
     "radialDamage": 0,
-    "refireTime": 0.13,
+    "refireTime": 0.11,
     "reloadTime": 2.75,
     "ammoInClip": 22,
     "ammoType": "Medium",
@@ -529,7 +529,7 @@
   },
   "WP_G_SMG_Needle_01": {
     "penetration": 25,
-    "directDamage": 11,
+    "directDamage": 12,
     "radialDamage": 0,
     "refireTime": 0.095,
     "reloadTime": 2.5,
@@ -553,7 +553,7 @@
   },
   "WP_G_AR_Energy_01": {
     "penetration": 20,
-    "directDamage": 11,
+    "directDamage": 13,
     "radialDamage": 0,
     "refireTime": 0.26,
     "reloadTime": 2.45,
@@ -581,10 +581,10 @@
     "radialDamage": 0,
     "refireTime": 0.17,
     "reloadTime": 2,
-    "ammoInClip": 30,
+    "ammoInClip": 24,
     "ammoType": "Medium",
     "projectileSpeed": 1000,
-    "amountOfBurst": 14,
+    "amountOfBurst": 11,
     "burstInterval": 0.027,
     "amountOfImmediateFires": 1,
     "movementSpeedMultiplier": 0.9,
@@ -601,7 +601,7 @@
   },
   "WP_G_AR_Needle_01": {
     "penetration": 15,
-    "directDamage": 11,
+    "directDamage": 13,
     "radialDamage": 0,
     "refireTime": 0.12,
     "reloadTime": 3.35,
@@ -625,7 +625,7 @@
   },
   "WP_G_Sniper_Energy_01": {
     "penetration": 30,
-    "directDamage": 34,
+    "directDamage": 40,
     "radialDamage": 0,
     "refireTime": 0.5,
     "reloadTime": 3.85,
