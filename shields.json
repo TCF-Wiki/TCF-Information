@@ -49,7 +49,7 @@
     "rarity": "EYItemRarityType::Uncommon",
     "armorAmount": 15,
     "durability": 700,
-    "weight": 50,
+    "weight": 40,
     "bonus": {},
     "repair": {
       "baseCost": 200,
@@ -72,7 +72,7 @@
     "rarity": "EYItemRarityType::Rare",
     "armorAmount": 20,
     "durability": 800,
-    "weight": 60,
+    "weight": 40,
     "bonus": {},
     "repair": {
       "baseCost": 460,
@@ -95,7 +95,7 @@
     "rarity": "EYItemRarityType::Epic",
     "armorAmount": 25,
     "durability": 900,
-    "weight": 70,
+    "weight": 40,
     "bonus": {},
     "repair": {
       "baseCost": 910,
@@ -118,7 +118,7 @@
     "rarity": "EYItemRarityType::Exotic",
     "armorAmount": 30,
     "durability": 1000,
-    "weight": 70,
+    "weight": 40,
     "bonus": {},
     "repair": {
       "baseCost": 1700,
@@ -168,7 +168,7 @@
     "rarity": "EYItemRarityType::Uncommon",
     "armorAmount": 12,
     "durability": 600,
-    "weight": 50,
+    "weight": 40,
     "bonus": {
       "attribute": "EYGameplayAttribute::MaxStamina",
       "type": "EYGPAModifierType::Additive",
@@ -195,7 +195,7 @@
     "rarity": "EYItemRarityType::Rare",
     "armorAmount": 17,
     "durability": 700,
-    "weight": 60,
+    "weight": 40,
     "bonus": {
       "attribute": "EYGameplayAttribute::MaxStamina",
       "type": "EYGPAModifierType::Additive",
@@ -222,7 +222,7 @@
     "rarity": "EYItemRarityType::Uncommon",
     "armorAmount": 12,
     "durability": 600,
-    "weight": 50,
+    "weight": 40,
     "bonus": {
       "attribute": "EYGameplayAttribute::HealthRegenerationRate",
       "type": "EYGPAModifierType::Additive",
@@ -249,7 +249,7 @@
     "rarity": "EYItemRarityType::Rare",
     "armorAmount": 17,
     "durability": 700,
-    "weight": 60,
+    "weight": 40,
     "bonus": {
       "attribute": "EYGameplayAttribute::HealthRegenerationRate",
       "type": "EYGPAModifierType::Additive",
