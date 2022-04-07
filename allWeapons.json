@@ -1,5 +1,12 @@
 {
   "WP_A_Pistol_Bullet_01": {
+    "rarity": "Exotic",
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "weight": 20,
+    "sellValue": 27457,
+    "factionRep": 275,
     "penetration": 30,
     "directDamage": 31,
     "radialDamage": 0,
@@ -24,6 +31,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_A_SGun_Energy_01": {
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "weight": 50,
+    "sellValue": 6611,
+    "factionRep": 66,
     "penetration": 20,
     "directDamage": 8,
     "radialDamage": 0,
@@ -48,6 +62,13 @@
     "m_immediateFireIncreasesSpread": true
   },
   "WP_A_SMG_Shard_01": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "weight": 50,
+    "sellValue": 1918,
+    "factionRep": 19,
     "penetration": 15,
     "directDamage": 11,
     "radialDamage": 0,
@@ -72,6 +93,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_A_AR_Bullet_01": {
+    "rarity": "Exotic",
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "weight": 50,
+    "sellValue": 63080,
+    "factionRep": 631,
     "penetration": 30,
     "directDamage": 15,
     "radialDamage": 0,
@@ -96,6 +124,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_A_BR_Bullet_01": {
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Category.DMR"
+    ],
+    "weight": 60,
+    "sellValue": 29776,
+    "factionRep": 298,
     "penetration": 25,
     "directDamage": 39,
     "radialDamage": 0,
@@ -120,6 +155,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_A_Sniper_Gauss_01": {
+    "rarity": "Legendary",
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "weight": 60,
+    "sellValue": 325513,
+    "factionRep": 3255,
     "penetration": 35,
     "directDamage": 75,
     "radialDamage": 0,
@@ -144,6 +186,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_D_Pistol_Bullet_01": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "weight": 20,
+    "sellValue": 1918,
+    "factionRep": 19,
     "penetration": 15,
     "directDamage": 12,
     "radialDamage": 0,
@@ -168,6 +217,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_D_SGun_Shard_01": {
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "weight": 35,
+    "sellValue": 16131,
+    "factionRep": 161,
     "penetration": 25,
     "directDamage": 8,
     "radialDamage": 0,
@@ -192,6 +248,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_D_SMG_Energy_01": {
+    "rarity": "Exotic",
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "weight": 50,
+    "sellValue": 44664,
+    "factionRep": 447,
     "penetration": 30,
     "directDamage": 12,
     "radialDamage": 0,
@@ -216,6 +279,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_D_LMG_Energy_01": {
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.LMG"
+    ],
+    "weight": 50,
+    "sellValue": 6611,
+    "factionRep": 66,
     "penetration": 20,
     "directDamage": 10,
     "radialDamage": 0,
@@ -240,6 +310,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_D_AR_Bullet_01": {
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "weight": 50,
+    "sellValue": 22781,
+    "factionRep": 228,
     "penetration": 25,
     "directDamage": 10,
     "radialDamage": 0,
@@ -264,6 +341,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_D_BR_Shard_01": {
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.DMR"
+    ],
+    "weight": 50,
+    "sellValue": 12203,
+    "factionRep": 122,
     "penetration": 20,
     "directDamage": 27,
     "radialDamage": 0,
@@ -288,6 +372,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_D_Sniper_Gauss_01": {
+    "rarity": "Exotic",
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "weight": 60,
+    "sellValue": 123462,
+    "factionRep": 1235,
     "penetration": 30,
     "directDamage": 62,
     "radialDamage": 0,
@@ -312,6 +403,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_E_Pistol_Bullet_01": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "weight": 20,
+    "sellValue": 228,
+    "factionRep": 2,
     "penetration": 10,
     "directDamage": 12,
     "radialDamage": 0,
@@ -336,6 +434,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_E_SGun_Bullet_01": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "weight": 35,
+    "sellValue": 371,
+    "factionRep": 4,
     "penetration": 10,
     "directDamage": 10,
     "radialDamage": 0,
@@ -360,6 +465,13 @@
     "m_immediateFireIncreasesSpread": true
   },
   "WP_E_SMG_Bullet_01": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "weight": 50,
+    "sellValue": 371,
+    "factionRep": 4,
     "penetration": 10,
     "directDamage": 10,
     "radialDamage": 0,
@@ -384,6 +496,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_E_AR_Energy_01": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "weight": 50,
+    "sellValue": 524,
+    "factionRep": 5,
     "penetration": 10,
     "directDamage": 13,
     "radialDamage": 0,
@@ -408,6 +527,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_E_Sniper_Bullet_01": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "weight": 60,
+    "sellValue": 2052,
+    "factionRep": 21,
     "penetration": 10,
     "directDamage": 57,
     "radialDamage": 0,
@@ -432,6 +558,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_E_SGun_Bullet_01_scrappy": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "weight": 35,
+    "sellValue": 124,
+    "factionRep": 1,
     "penetration": 5,
     "directDamage": 10,
     "radialDamage": 0,
@@ -456,6 +589,13 @@
     "m_immediateFireIncreasesSpread": true
   },
   "WP_E_SMG_Bullet_01_scrappy": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "weight": 50,
+    "sellValue": 124,
+    "factionRep": 1,
     "penetration": 5,
     "directDamage": 10,
     "radialDamage": 0,
@@ -480,6 +620,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_E_AR_Energy_01_scrappy": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "weight": 50,
+    "sellValue": 175,
+    "factionRep": 2,
     "penetration": 5,
     "directDamage": 13,
     "radialDamage": 0,
@@ -504,6 +651,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_G_Pistol_Energy_01": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "weight": 20,
+    "sellValue": 1179,
+    "factionRep": 12,
     "penetration": 15,
     "directDamage": 13,
     "radialDamage": 0,
@@ -528,6 +682,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_G_SMG_Needle_01": {
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "weight": 30,
+    "sellValue": 16131,
+    "factionRep": 161,
     "penetration": 25,
     "directDamage": 12,
     "radialDamage": 0,
@@ -552,6 +713,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_G_AR_Energy_01": {
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "weight": 50,
+    "sellValue": 9336,
+    "factionRep": 93,
     "penetration": 20,
     "directDamage": 13,
     "radialDamage": 0,
@@ -576,6 +744,13 @@
     "m_immediateFireIncreasesSpread": true
   },
   "WP_G_AR_Beam_01": {
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "weight": 50,
+    "sellValue": 22781,
+    "factionRep": 228,
     "penetration": 25,
     "directDamage": 4,
     "radialDamage": 0,
@@ -600,6 +775,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_G_AR_Needle_01": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "weight": 50,
+    "sellValue": 2709,
+    "factionRep": 27,
     "penetration": 15,
     "directDamage": 13,
     "radialDamage": 0,
@@ -624,6 +806,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_G_Sniper_Energy_01": {
+    "rarity": "Exotic",
+    "tags": [
+      "Weapon.Category.DMR"
+    ],
+    "weight": 60,
+    "sellValue": 82448,
+    "factionRep": 824,
     "penetration": 30,
     "directDamage": 40,
     "radialDamage": 0,
@@ -671,6 +860,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_A_HVY_Shell_01": {
+    "rarity": "Legendary",
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "weight": 60,
+    "sellValue": 117760,
+    "factionRep": 1178,
     "penetration": 10,
     "directDamage": 250,
     "radialDamage": 300,
@@ -695,6 +891,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_A_Launch_MSL_01": {
+    "rarity": "Legendary",
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "weight": 60,
+    "sellValue": 297815,
+    "factionRep": 2978,
     "penetration": 40,
     "directDamage": 0,
     "radialDamage": 100,
@@ -719,6 +922,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_E_Launch_Nade_01": {
+    "rarity": "Legendary",
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "weight": 60,
+    "sellValue": 51258,
+    "factionRep": 513,
     "penetration": 10,
     "directDamage": 0,
     "radialDamage": 375,
@@ -743,6 +953,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_D_HVY_Exotic_01": {
+    "rarity": "Legendary",
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "weight": 60,
+    "sellValue": 51258,
+    "factionRep": 513,
     "penetration": 20,
     "directDamage": 0,
     "radialDamage": 125,
@@ -767,6 +984,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_G_HVY_Beam_01": {
+    "rarity": "Legendary",
+    "tags": [
+      "Weapon.Category.LMG"
+    ],
+    "weight": 60,
+    "sellValue": 270540,
+    "factionRep": 2705,
     "penetration": 35,
     "directDamage": 4,
     "radialDamage": 0,
@@ -814,6 +1038,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "TOOL_Mining_01": {
+    "rarity": "Common",
+    "tags": [
+      "Tools"
+    ],
+    "weight": 30,
+    "sellValue": 180,
+    "factionRep": 2,
     "penetration": 1,
     "directDamage": 2,
     "radialDamage": 0,
@@ -838,6 +1069,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "TOOL_MineralScanner_01": {
+    "rarity": "Common",
+    "tags": [
+      "Tools"
+    ],
+    "weight": 10,
+    "sellValue": 45,
+    "factionRep": 0,
     "penetration": 1,
     "directDamage": 100,
     "radialDamage": 0,
@@ -1256,6 +1494,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "WP_E_Pistol_Bullet_01_scrappy": {
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "weight": 20,
+    "sellValue": 76,
+    "factionRep": 1,
     "penetration": 5,
     "directDamage": 12,
     "radialDamage": 0,
@@ -1280,6 +1525,13 @@
     "m_immediateFireIncreasesSpread": false
   },
   "TOOL_Flashlight_01": {
+    "rarity": "Common",
+    "tags": [
+      "Tools"
+    ],
+    "weight": 10,
+    "sellValue": 225,
+    "factionRep": 2,
     "penetration": 1,
     "directDamage": 100,
     "radialDamage": 0,
@@ -1327,6 +1579,11 @@
     "m_immediateFireIncreasesSpread": false
   },
   "CoatingPreview": {
+    "rarity": "Common",
+    "tags": [],
+    "weight": 20,
+    "sellValue": 4500,
+    "factionRep": 45,
     "penetration": 1,
     "directDamage": 0,
     "radialDamage": 0,
@@ -1350,6 +1607,11 @@
     "m_immediateFireIncreasesSpread": false
   },
   "CharmPreview": {
+    "rarity": "Common",
+    "tags": [],
+    "weight": 1,
+    "sellValue": 4500,
+    "factionRep": 45,
     "penetration": 1,
     "directDamage": 0,
     "radialDamage": 0,

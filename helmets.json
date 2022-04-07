@@ -1,6 +1,6 @@
 {
   "Helmet_01": {
-    "rarity": "EYItemRarityType::Common",
+    "rarity": "Common",
     "armorAmount": 10,
     "durability": 600,
     "weight": 20,
@@ -11,19 +11,11 @@
       "maxPrice": 190,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 20,
-      "sellingPerRarity": {
-        "EYItemRarityType::Common": 113
-      },
-      "factionProgressDefault": 1,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Common": 1
-      }
-    }
+    "sellValue": 113,
+    "factionRep": 1
   },
   "Helmet_02": {
-    "rarity": "EYItemRarityType::Uncommon",
+    "rarity": "Uncommon",
     "armorAmount": 15,
     "durability": 700,
     "weight": 20,
@@ -34,19 +26,11 @@
       "maxPrice": 5100,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 150,
-      "sellingPerRarity": {
-        "EYItemRarityType::Uncommon": 506
-      },
-      "factionProgressDefault": 5,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Uncommon": 5
-      }
-    }
+    "sellValue": 506,
+    "factionRep": 5
   },
   "Helmet_03": {
-    "rarity": "EYItemRarityType::Rare",
+    "rarity": "Rare",
     "armorAmount": 20,
     "durability": 800,
     "weight": 20,
@@ -57,19 +41,11 @@
       "maxPrice": 11400,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 250,
-      "sellingPerRarity": {
-        "EYItemRarityType::Rare": 1139
-      },
-      "factionProgressDefault": 11,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Rare": 11
-      }
-    }
+    "sellValue": 1139,
+    "factionRep": 11
   },
   "Helmet_04": {
-    "rarity": "EYItemRarityType::Epic",
+    "rarity": "Epic",
     "armorAmount": 25,
     "durability": 900,
     "weight": 20,
@@ -80,19 +56,11 @@
       "maxPrice": 22800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 800,
-      "sellingPerRarity": {
-        "EYItemRarityType::Epic": 2278
-      },
-      "factionProgressDefault": 23,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Epic": 23
-      }
-    }
+    "sellValue": 2278,
+    "factionRep": 23
   },
   "Helmet_05": {
-    "rarity": "EYItemRarityType::Exotic",
+    "rarity": "Exotic",
     "armorAmount": 30,
     "durability": 1000,
     "weight": 20,
@@ -103,25 +71,17 @@
       "maxPrice": 42000,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 800,
-      "sellingPerRarity": {
-        "EYItemRarityType::Exotic": 4271
-      },
-      "factionProgressDefault": 43,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Exotic": 43
-      }
-    }
+    "sellValue": 4271,
+    "factionRep": 43
   },
   "Helmet_Tactical_01": {
-    "rarity": "EYItemRarityType::Common",
+    "rarity": "Common",
     "armorAmount": 7,
     "durability": 500,
     "weight": 20,
     "bonus": {
-      "attribute": "EYGameplayAttribute::MaxStamina",
-      "type": "EYGPAModifierType::Additive",
+      "attribute": "MaxStamina",
+      "type": "Additive",
       "value": 7
     },
     "repair": {
@@ -130,25 +90,17 @@
       "maxPrice": 190,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 20,
-      "sellingPerRarity": {
-        "EYItemRarityType::Common": 113
-      },
-      "factionProgressDefault": 1,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Common": 1
-      }
-    }
+    "sellValue": 113,
+    "factionRep": 1
   },
   "Helmet_Tactical_02": {
-    "rarity": "EYItemRarityType::Uncommon",
+    "rarity": "Uncommon",
     "armorAmount": 12,
     "durability": 600,
     "weight": 20,
     "bonus": {
-      "attribute": "EYGameplayAttribute::MaxStamina",
-      "type": "EYGPAModifierType::Additive",
+      "attribute": "MaxStamina",
+      "type": "Additive",
       "value": 15
     },
     "repair": {
@@ -157,25 +109,17 @@
       "maxPrice": 2520,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 150,
-      "sellingPerRarity": {
-        "EYItemRarityType::Uncommon": 253
-      },
-      "factionProgressDefault": 3,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Uncommon": 3
-      }
-    }
+    "sellValue": 253,
+    "factionRep": 3
   },
   "Helmet_Tactical_03": {
-    "rarity": "EYItemRarityType::Rare",
+    "rarity": "Rare",
     "armorAmount": 17,
     "durability": 700,
     "weight": 20,
     "bonus": {
-      "attribute": "EYGameplayAttribute::MaxStamina",
-      "type": "EYGPAModifierType::Additive",
+      "attribute": "MaxStamina",
+      "type": "Additive",
       "value": 15
     },
     "repair": {
@@ -184,25 +128,17 @@
       "maxPrice": 7500,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 250,
-      "sellingPerRarity": {
-        "EYItemRarityType::Rare": 759
-      },
-      "factionProgressDefault": 8,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Rare": 8
-      }
-    }
+    "sellValue": 759,
+    "factionRep": 8
   },
   "Helmet_Restoration_01": {
-    "rarity": "EYItemRarityType::Uncommon",
+    "rarity": "Uncommon",
     "armorAmount": 12,
     "durability": 600,
     "weight": 20,
     "bonus": {
-      "attribute": "EYGameplayAttribute::HealthRegenerationRate",
-      "type": "EYGPAModifierType::Additive",
+      "attribute": "HealthRegenerationRate",
+      "type": "Additive",
       "value": 0.1
     },
     "repair": {
@@ -211,25 +147,17 @@
       "maxPrice": 2520,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 150,
-      "sellingPerRarity": {
-        "EYItemRarityType::Uncommon": 253
-      },
-      "factionProgressDefault": 3,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Uncommon": 3
-      }
-    }
+    "sellValue": 253,
+    "factionRep": 3
   },
   "Helmet_Restoration_02": {
-    "rarity": "EYItemRarityType::Rare",
+    "rarity": "Rare",
     "armorAmount": 17,
     "durability": 700,
     "weight": 20,
     "bonus": {
-      "attribute": "EYGameplayAttribute::HealthRegenerationRate",
-      "type": "EYGPAModifierType::Additive",
+      "attribute": "HealthRegenerationRate",
+      "type": "Additive",
       "value": 0.1
     },
     "repair": {
@@ -238,25 +166,17 @@
       "maxPrice": 7500,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 250,
-      "sellingPerRarity": {
-        "EYItemRarityType::Rare": 759
-      },
-      "factionProgressDefault": 8,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Rare": 8
-      }
-    }
+    "sellValue": 759,
+    "factionRep": 8
   },
   "Helmet_NV_01": {
-    "rarity": "EYItemRarityType::Legendary",
+    "rarity": "Legendary",
     "armorAmount": 30,
     "durability": 1000,
     "weight": 20,
     "bonus": {
-      "attribute": "EYGameplayAttribute::HelmetNV",
-      "type": "EYGPAModifierType::Override",
+      "attribute": "HelmetNV",
+      "type": "Override",
       "value": 1
     },
     "repair": {
@@ -265,15 +185,7 @@
       "maxPrice": 129000,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": {
-      "sellingDefault": 150,
-      "sellingPerRarity": {
-        "EYItemRarityType::Legendary": 12815
-      },
-      "factionProgressDefault": 128,
-      "factionProgressPerRarity": {
-        "EYItemRarityType::Legendary": 128
-      }
-    }
+    "sellValue": 12815,
+    "factionRep": 128
   }
 }
