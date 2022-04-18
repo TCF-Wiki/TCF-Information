@@ -23,7 +23,7 @@
     "repair": {
       "baseCost": 170,
       "costModifierBroken": 427,
-      "maxPrice": 5100,
+      "maxPrice": 850,
       "durabilityBrokenPriceModifier": 0.5
     },
     "sellValue": 506,
@@ -31,48 +31,48 @@
   },
   "Helmet_03": {
     "rarity": "Rare",
-    "armorAmount": 20,
+    "armorAmount": 19,
     "durability": 800,
     "weight": 20,
     "bonus": {},
     "repair": {
-      "baseCost": 380,
-      "costModifierBroken": 951,
-      "maxPrice": 11400,
+      "baseCost": 630,
+      "costModifierBroken": 1571,
+      "maxPrice": 3150,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 1139,
-    "factionRep": 11
+    "sellValue": 1898,
+    "factionRep": 19
   },
   "Helmet_04": {
     "rarity": "Epic",
-    "armorAmount": 25,
+    "armorAmount": 22,
     "durability": 900,
     "weight": 20,
     "bonus": {},
     "repair": {
-      "baseCost": 760,
-      "costModifierBroken": 1901,
-      "maxPrice": 22800,
+      "baseCost": 1900,
+      "costModifierBroken": 4753,
+      "maxPrice": 9500,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 2278,
-    "factionRep": 23
+    "sellValue": 5695,
+    "factionRep": 57
   },
   "Helmet_05": {
     "rarity": "Exotic",
-    "armorAmount": 30,
+    "armorAmount": 24,
     "durability": 1000,
     "weight": 20,
     "bonus": {},
     "repair": {
-      "baseCost": 1400,
-      "costModifierBroken": 3465,
-      "maxPrice": 42000,
+      "baseCost": 4300,
+      "costModifierBroken": 10793,
+      "maxPrice": 21500,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 4271,
-    "factionRep": 43
+    "sellValue": 12815,
+    "factionRep": 128
   },
   "Helmet_Tactical_01": {
     "rarity": "Common",
@@ -104,17 +104,17 @@
       "value": 15
     },
     "repair": {
-      "baseCost": 84,
-      "costModifierBroken": 210,
-      "maxPrice": 2520,
+      "baseCost": 170,
+      "costModifierBroken": 427,
+      "maxPrice": 850,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 253,
-    "factionRep": 3
+    "sellValue": 506,
+    "factionRep": 5
   },
   "Helmet_Tactical_03": {
     "rarity": "Rare",
-    "armorAmount": 17,
+    "armorAmount": 16,
     "durability": 700,
     "weight": 20,
     "bonus": {
@@ -123,13 +123,13 @@
       "value": 15
     },
     "repair": {
-      "baseCost": 250,
-      "costModifierBroken": 621,
-      "maxPrice": 7500,
+      "baseCost": 760,
+      "costModifierBroken": 1901,
+      "maxPrice": 3800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 759,
-    "factionRep": 8
+    "sellValue": 2278,
+    "factionRep": 23
   },
   "Helmet_Restoration_01": {
     "rarity": "Uncommon",
@@ -142,17 +142,17 @@
       "value": 0.1
     },
     "repair": {
-      "baseCost": 84,
-      "costModifierBroken": 210,
-      "maxPrice": 2520,
+      "baseCost": 170,
+      "costModifierBroken": 427,
+      "maxPrice": 850,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 253,
-    "factionRep": 3
+    "sellValue": 506,
+    "factionRep": 5
   },
   "Helmet_Restoration_02": {
     "rarity": "Rare",
-    "armorAmount": 17,
+    "armorAmount": 16,
     "durability": 700,
     "weight": 20,
     "bonus": {
@@ -161,17 +161,17 @@
       "value": 0.1
     },
     "repair": {
-      "baseCost": 250,
-      "costModifierBroken": 621,
-      "maxPrice": 7500,
+      "baseCost": 760,
+      "costModifierBroken": 1901,
+      "maxPrice": 3800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 759,
-    "factionRep": 8
+    "sellValue": 2278,
+    "factionRep": 23
   },
   "Helmet_NV_01": {
     "rarity": "Legendary",
-    "armorAmount": 30,
+    "armorAmount": 24,
     "durability": 1000,
     "weight": 20,
     "bonus": {
@@ -180,12 +180,12 @@
       "value": 1
     },
     "repair": {
-      "baseCost": 4300,
-      "costModifierBroken": 10793,
-      "maxPrice": 129000,
+      "baseCost": 6400,
+      "costModifierBroken": 15989,
+      "maxPrice": 32000,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 12815,
-    "factionRep": 128
+    "sellValue": 19222,
+    "factionRep": 192
   }
 }
