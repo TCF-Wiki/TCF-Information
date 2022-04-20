@@ -1,25 +1,17 @@
 {
-  "rarity": "Legendary",
-  "tags": [
-    "Weapon.Category.LMG"
-  ],
-  "weight": 60,
-  "sellValue": 270540,
-  "factionRep": 2705,
-  "penetration": 35,
-  "directDamage": 4,
+  "penetration": 1,
+  "directDamage": 0,
   "radialDamage": 0,
-  "refireTime": 0.03,
-  "reloadTime": 2.6,
-  "ammoInClip": 25,
-  "ammoType": "Special",
-  "projectileSpeed": 1000,
+  "refireTime": 0,
+  "reloadTime": 0,
+  "ammoInClip": 15,
+  "ammoType": "None",
   "amountOfBurst": 0,
   "burstInterval": -1,
   "amountOfImmediateFires": 1,
-  "movementSpeedMultiplier": 0.8,
+  "movementSpeedMultiplier": 1,
   "damageMultipliers": {
-    "weakDamageMultiplier": 1.8,
+    "weakDamageMultiplier": 1,
     "weakDamageMultiplierEnemy": 1,
     "directDamagePlayerMultiplier": 1,
     "directDamageEnemyMultiplier": 1,
@@ -27,12 +19,12 @@
     "radialDamageEnemyMultiplier": 1
   },
   "falloff": {
-    "FalloffStart": 3500,
-    "FalloffEnd": 5000,
-    "FalloffMultiplier": 1
+    "FalloffStart": 0,
+    "FalloffEnd": 0,
+    "FalloffMultiplier": 0
   },
-  "unequipTime": 0.5,
-  "equipTime": 1,
-  "animationEquipTime": 2,
+  "unequipTime": 0,
+  "equipTime": 0,
+  "animationEquipTime": -1,
   "m_immediateFireIncreasesSpread": false
 }
