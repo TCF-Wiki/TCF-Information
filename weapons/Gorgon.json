@@ -18,12 +18,19 @@
   "burstInterval": 0.027,
   "amountOfImmediateFires": 1,
   "movementSpeedMultiplier": 0.9,
-  "weakDamageMultiplier": 1.3,
-  "weakDamageMultiplierEnemy": 1,
-  "directDamagePlayerMultiplier": 1,
-  "directDamageEnemyMultiplier": 1,
-  "radialDamagePlayerMultiplier": 1,
-  "radialDamageEnemyMultiplier": 1,
+  "damageMultipliers": {
+    "weakDamageMultiplier": 1.3,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1
+  },
+  "falloff": {
+    "FalloffStart": 3500,
+    "FalloffEnd": 5000,
+    "FalloffMultiplier": 0.7
+  },
   "unequipTime": 0.5,
   "equipTime": 1,
   "animationEquipTime": 2,
