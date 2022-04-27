@@ -1,25 +1,26 @@
 {
+  "inGameName": "C-32 Bolt Action",
   "rarity": "Common",
   "tags": [
-    "Weapon.Category.AR"
+    "Weapon.Category.Sniper"
   ],
-  "weight": 35,
-  "sellValue": 175,
-  "factionRep": 2,
-  "penetration": 5,
-  "directDamage": 13,
+  "weight": 50,
+  "sellValue": 2052,
+  "factionRep": 21,
+  "penetration": 10,
+  "directDamage": 57,
   "radialDamage": 0,
-  "refireTime": 0.11,
-  "reloadTime": 2.75,
-  "ammoInClip": 22,
-  "ammoType": "Medium",
-  "projectileSpeed": 28000,
+  "refireTime": 1.8,
+  "reloadTime": 4.58,
+  "ammoInClip": 4,
+  "ammoType": "Heavy",
+  "projectileSpeed": 50000,
   "amountOfBurst": 0,
   "burstInterval": -1,
   "amountOfImmediateFires": 1,
-  "movementSpeedMultiplier": 0.9,
+  "movementSpeedMultiplier": 0.8,
   "damageMultipliers": {
-    "weakDamageMultiplier": 1.7,
+    "weakDamageMultiplier": 1.6,
     "weakDamageMultiplierEnemy": 1,
     "directDamagePlayerMultiplier": 1,
     "directDamageEnemyMultiplier": 1,
@@ -27,8 +28,8 @@
     "radialDamageEnemyMultiplier": 1
   },
   "falloff": {
-    "FalloffStart": 3500,
-    "FalloffEnd": 5000,
+    "FalloffStart": 10000,
+    "FalloffEnd": 15000,
     "FalloffMultiplier": 1
   },
   "unequipTime": 0.5,

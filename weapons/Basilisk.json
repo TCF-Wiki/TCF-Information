@@ -1,17 +1,26 @@
 {
-  "penetration": 1,
-  "directDamage": 25,
+  "inGameName": "Basilisk",
+  "rarity": "Exotic",
+  "tags": [
+    "Weapon.Category.DMR"
+  ],
+  "weight": 50,
+  "sellValue": 82448,
+  "factionRep": 824,
+  "penetration": 30,
+  "directDamage": 34,
   "radialDamage": 0,
-  "refireTime": 0.12,
-  "reloadTime": 3,
-  "ammoInClip": 15,
-  "ammoType": "None",
+  "refireTime": 0.5,
+  "reloadTime": 3.85,
+  "ammoInClip": 8,
+  "ammoType": "Heavy",
+  "projectileSpeed": 45000,
   "amountOfBurst": 0,
   "burstInterval": -1,
   "amountOfImmediateFires": 1,
-  "movementSpeedMultiplier": 1,
+  "movementSpeedMultiplier": 0.8,
   "damageMultipliers": {
-    "weakDamageMultiplier": 1,
+    "weakDamageMultiplier": 1.6,
     "weakDamageMultiplierEnemy": 1,
     "directDamagePlayerMultiplier": 1,
     "directDamageEnemyMultiplier": 1,
@@ -19,12 +28,12 @@
     "radialDamageEnemyMultiplier": 1
   },
   "falloff": {
-    "FalloffStart": 0,
-    "FalloffEnd": 0,
-    "FalloffMultiplier": 0
+    "FalloffStart": 5000,
+    "FalloffEnd": 10000,
+    "FalloffMultiplier": 1
   },
   "unequipTime": 0.5,
-  "equipTime": 0.5,
-  "animationEquipTime": 1,
-  "m_immediateFireIncreasesSpread": false
+  "equipTime": 1,
+  "animationEquipTime": 2,
+  "m_immediateFireIncreasesSpread": true
 }
