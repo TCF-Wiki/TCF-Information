@@ -1,0 +1,258 @@
+{
+  "Consumable_Health_01": {
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 5,
+    "weight": 3,
+    "sellValue": 27,
+    "factionRep": 0,
+    "attribute": "CurrentHealth",
+    "modifierType": "Additive",
+    "value": 15,
+    "duration": 0
+  },
+  "Consumable_Health_02": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 5,
+    "weight": 3,
+    "sellValue": 182,
+    "factionRep": 2,
+    "attribute": "CurrentHealth",
+    "modifierType": "Additive",
+    "value": 25,
+    "duration": 0
+  },
+  "Consumable_Health_03": {
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 2,
+    "weight": 20,
+    "sellValue": 135,
+    "factionRep": 1,
+    "attribute": "CurrentHealth",
+    "modifierType": "Additive",
+    "value": 100,
+    "duration": 0
+  },
+  "Consumable_Health_04": {
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 5,
+    "weight": 3,
+    "sellValue": 273,
+    "factionRep": 3,
+    "attribute": "CurrentHealth",
+    "modifierType": "Additive",
+    "value": 30,
+    "duration": 0
+  },
+  "Consumable_Health_05": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 2,
+    "weight": 15,
+    "sellValue": 911,
+    "factionRep": 9,
+    "attribute": "CurrentHealth",
+    "modifierType": "Additive",
+    "value": 100,
+    "duration": 0
+  },
+  "Consumable_Health_06": {
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 2,
+    "weight": 10,
+    "sellValue": 1367,
+    "factionRep": 14,
+    "attribute": "CurrentHealth",
+    "modifierType": "Additive",
+    "value": 100,
+    "duration": 0
+  },
+  "ShockGrenade_02": {
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 405,
+    "factionRep": 4
+  },
+  "Consumable_SmokeGrenade_01": {
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 135,
+    "factionRep": 1
+  },
+  "Consumable_GasGrenade_01": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 456,
+    "factionRep": 5
+  },
+  "Consumable_AudioDecoy_01": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 304,
+    "factionRep": 3
+  },
+  "OTecStim_Adrenaline": {
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 135,
+    "factionRep": 1,
+    "attribute": "MaxSpeed",
+    "modifierType": "Multiplicitive_PreAdd",
+    "value": 1.25,
+    "duration": 0
+  },
+  "KineticShield": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1,
+    "weight": 20,
+    "sellValue": 304,
+    "factionRep": 3
+  },
+  "Cloak": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1,
+    "weight": 5,
+    "sellValue": 304,
+    "factionRep": 3
+  },
+  "TurretHeavy": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1,
+    "weight": 20,
+    "sellValue": 304,
+    "factionRep": 3
+  },
+  "KineticShield_Dome": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1,
+    "weight": 20,
+    "sellValue": 304,
+    "factionRep": 3
+  },
+  "HealingWard": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1,
+    "weight": 20,
+    "sellValue": 304,
+    "factionRep": 3
+  },
+  "TurretHeavy_Ouroboros": {
+    "rarity": "Legendary",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1,
+    "weight": 20,
+    "sellValue": 1538,
+    "factionRep": 15
+  },
+  "Consumable_Shield_01": {
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 135,
+    "factionRep": 1,
+    "attribute": "CurrentShield",
+    "modifierType": "Additive",
+    "value": 400,
+    "duration": 0
+  },
+  "Consumable_Stamina_01": {
+    "rarity": "Epic",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 683,
+    "factionRep": 7,
+    "attribute": "StaminaConsumptionRate",
+    "modifierType": "Multiplicitive_PreAdd",
+    "value": 0.5,
+    "duration": 120
+  },
+  "Consumable_RoadFlare": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 304,
+    "factionRep": 3
+  },
+  "Consumable_LaserTrap": {
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 20,
+    "sellValue": 456,
+    "factionRep": 5
+  },
+  "Bombardment": {
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1,
+    "weight": 5,
+    "sellValue": 135,
+    "factionRep": 1
+  }
+}
