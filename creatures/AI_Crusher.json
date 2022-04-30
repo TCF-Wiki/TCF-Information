@@ -2,5 +2,12 @@
   "health": 3000,
   "regenRate": 0,
   "regenDelay": 60,
-  "regenDamageThreshold": -1
+  "regenDamageThreshold": -1,
+  "armorValue": 35,
+  "speed": 150,
+  "weakSpotMultiplier": 10,
+  "penetration": 30,
+  "armorConstant": 0.3,
+  "minDamageReduction": 0.1,
+  "maxDamageReduction": 2
 }
