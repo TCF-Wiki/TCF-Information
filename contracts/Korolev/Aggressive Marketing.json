@@ -1,0 +1,116 @@
+{
+  "inGameName": "Aggressive Marketing",
+  "description": "\"Defoaming reports show a big decline in our weapons landing the final blow, it makes Korolev look bad. Make sure other Prospectors understand Korolev is superior.\"",
+  "faction": "Korolev",
+  "factionReputation": 160,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_Pistol_Bullet_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_AR_Bullet_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_SGun_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_BR_Bullet_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_HVY_Shell_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_Sniper_Gauss_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_Launch_MSL_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_SMG_Shard_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_Sniper_Gauss_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_Launch_MSL_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Helmet",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 3,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 5300,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "A Pinch of Pure Power"
+  ],
+  "isMain": true
+}

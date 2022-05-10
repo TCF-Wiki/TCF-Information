@@ -1,0 +1,31 @@
+{
+  "inGameName": "Activities_Contract_Easy-Osiris-Zeal-1",
+  "faction": "Osiris",
+  "factionReputation": 15,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Flawed Veltecite"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 1800,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 4,
+  "unlockContracts": [],
+  "isMain": false
+}

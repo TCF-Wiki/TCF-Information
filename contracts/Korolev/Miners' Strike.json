@@ -1,0 +1,44 @@
+{
+  "inGameName": "Miners' Strike",
+  "description": "\"Ah, just the prospector I needed! We need you to go back to the Dig Site, it seems there are some... matters that need to be handled before those journalists arrive for their tour.\r\nSome of the site's workers refused to follow evacuation procedures and the creatures got to them before our rescue teams; we'd like you to retrieve their cameras, to protect their dignity.\" ",
+  "faction": "Korolev",
+  "factionReputation": 200,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Miner Cam #2F53"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Miner Cam #D027"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Miner Cam #A45D"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 4,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 5900,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Aggressive Marketing"
+  ],
+  "isMain": true
+}

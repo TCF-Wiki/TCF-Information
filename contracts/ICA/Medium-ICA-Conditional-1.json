@@ -1,0 +1,37 @@
+{
+  "inGameName": "Medium-ICA-Conditional-1",
+  "faction": "ICA",
+  "factionReputation": 25,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map01_CommsTower"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 3000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 3,
+  "unlockContracts": [],
+  "isMain": false
+}

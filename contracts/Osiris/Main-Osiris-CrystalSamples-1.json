@@ -1,0 +1,41 @@
+{
+  "inGameName": "Main-Osiris-CrystalSamples-1",
+  "description": "\"It's time to start testing our new anti-crystal laser, but first, it needs a power source. Retrieve Veltecite for me, Prospector, nothing else will do.\"",
+  "faction": "Osiris",
+  "factionReputation": 930,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Pure Veltecite"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Clear Veltecite"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 35,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 24000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true,
+  "chainName": "Everything is Crystals",
+  "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\nMake sure Osiris gets what it needs to get it working."
+}

@@ -1,0 +1,32 @@
+{
+  "inGameName": "NEW-Medium-Osiris-Stash-4",
+  "faction": "Osiris",
+  "factionReputation": 160,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "deadDropLocation": "Map01_WaterfallLab",
+      "deadDropItem": "Toxic Glands"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 13,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 10000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 13,
+  "unlockContracts": [],
+  "isMain": false
+}

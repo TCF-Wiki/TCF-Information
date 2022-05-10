@@ -1,0 +1,45 @@
+{
+  "inGameName": "B801BE9D41EC4909199EFDBC85186EEC",
+  "faction": "Osiris",
+  "factionReputation": 13,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "BigDrill"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "CircuitBoard",
+      "amount": 3,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Voltaic Brute",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "OsirisScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 1500,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Test-Rewards"
+  ],
+  "isMain": false
+}

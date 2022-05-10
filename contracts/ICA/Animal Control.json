@@ -1,0 +1,61 @@
+{
+  "inGameName": "Animal Control",
+  "description": "\"Critters at the Bright Sands Base Camp have an apetite for old electronics and other salvageable goods. Killing a few should scare them off for a while.\"",
+  "faction": "ICA",
+  "factionReputation": 50,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "itemToOwn": "Aluminum scrap",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [
+          "EYDeviceCategory::Pistol"
+        ],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map01_CentralStation"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "itemToOwn": "Aluminum scrap",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map01_CentralStation"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "C-32 Bolt Action",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "ICAScrip",
+      "amount": 2,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4400,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Don't Forget to Recycle"
+  ],
+  "isMain": true
+}

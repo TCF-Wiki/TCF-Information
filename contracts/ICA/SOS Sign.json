@@ -1,0 +1,42 @@
+{
+  "inGameName": "SOS Sign",
+  "description": "\"I'm glad you're here, something has just come and we need someone on the surface. An evac ship pilot caught sight of an 'SOS' after trying a new approach for the first time, but saw nobody in the area. We're not sure how long it's been there, but I'd like you to check the area for me.\"",
+  "faction": "ICA",
+  "factionReputation": 130,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "UniqueMissionLocation_SosSign"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 2,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4800,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "The Forester"
+  ],
+  "isMain": true,
+  "chainName": "Doing the Work",
+  "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+}

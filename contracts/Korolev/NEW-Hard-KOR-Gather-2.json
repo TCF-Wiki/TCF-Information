@@ -1,0 +1,36 @@
+{
+  "inGameName": "NEW-Hard-KOR-Gather-2",
+  "faction": "Korolev",
+  "factionReputation": 290,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Hardened Bone Plates"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 12,
+      "itemToOwn": "Compound Sheets"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 34,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 30000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 15,
+  "unlockContracts": [],
+  "isMain": false
+}

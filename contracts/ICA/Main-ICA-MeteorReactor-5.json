@@ -1,0 +1,53 @@
+{
+  "inGameName": "Main-ICA-MeteorReactor-5",
+  "description": "\"One of the supply crates for our project was left open under the rain, damaged most of the contents and now my team needs replacement parts. Stash them somewhere safe, we need to finish that prototype.\"",
+  "faction": "ICA",
+  "factionReputation": 750,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 2,
+      "deadDropLocation": "Map02_GreensProspect_Stockpile",
+      "deadDropItem": "MiniatureReactor"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 4,
+      "deadDropLocation": "Map02_GreensProspect_Stockpile",
+      "deadDropItem": "CircuitBoard"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 6,
+      "deadDropLocation": "Map02_GreensProspect_Stockpile",
+      "deadDropItem": "CopperWire"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Lacerator",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "ICAScrip",
+      "amount": 26,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 17000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

@@ -1,0 +1,58 @@
+{
+  "inGameName": "Main-Osiris-GruntWork-8",
+  "description": "\"I plan on sending down a team to collect more old samples. Make sure they're well supplied, stash some Portable Labs in Greens Prospect for them.\"",
+  "faction": "Osiris",
+  "factionReputation": 310,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map02_GreensProspect"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Bag_03",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "OsirisScrip",
+      "amount": 8,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 11000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Extinct Creatures"
+  ],
+  "isMain": true
+}

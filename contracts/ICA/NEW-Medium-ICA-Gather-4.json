@@ -1,0 +1,41 @@
+{
+  "inGameName": "NEW-Medium-ICA-Gather-4",
+  "faction": "ICA",
+  "factionReputation": 160,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 12,
+      "itemToOwn": "Hardened Metals"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Metallic Alloys"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Polymetallic Prefabricate"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 13,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 12000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 13,
+  "unlockContracts": [],
+  "isMain": false
+}

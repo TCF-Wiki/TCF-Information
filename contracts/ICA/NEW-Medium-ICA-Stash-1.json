@@ -1,0 +1,32 @@
+{
+  "inGameName": "NEW-Medium-ICA-Stash-1",
+  "faction": "ICA",
+  "factionReputation": 52,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 2,
+      "deadDropLocation": "Map01_CommsBase_Tower",
+      "deadDropItem": "MagneticFieldStabilizer"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 8,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 5100,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 7,
+  "unlockContracts": [],
+  "isMain": false
+}

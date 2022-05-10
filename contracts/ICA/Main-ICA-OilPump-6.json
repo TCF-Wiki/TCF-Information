@@ -1,0 +1,50 @@
+{
+  "inGameName": "Main-ICA-OilPump-6",
+  "description": "\"Getting these pumps to work isn't as simple as we'd hoped. The pumps need to refine the NiC to eliminate as much crude as possible and concentrate the nanites in one convenient package ready for use, and that process some higher tech components than a simple pump. Here's what we need for now.\"",
+  "faction": "ICA",
+  "factionReputation": 1800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 15,
+      "itemToOwn": "CircuitBoard"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Shard Slicer"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "CombatCPU_red"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Bag_04",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "ICAScrip",
+      "amount": 87,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 42000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

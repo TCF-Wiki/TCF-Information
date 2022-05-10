@@ -1,0 +1,50 @@
+{
+  "inGameName": "Exotic Leathers",
+  "description": "\"Excellent... now we just need enough raw materials for a sample run. Getting these shouldn't be an issue for you, right?\"",
+  "faction": "Korolev",
+  "factionReputation": 1200,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "AI_RattlerSkin"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Textiles"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Salvaged Insulation"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Bag_04",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 48,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 21000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Order Refill"
+  ],
+  "isMain": true
+}

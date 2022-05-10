@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-ICA-Uplink-3",
+  "faction": "ICA",
+  "factionReputation": 330,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "HardDrive_legendary"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 40,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 47000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 20,
+  "unlockContracts": [],
+  "isMain": false
+}

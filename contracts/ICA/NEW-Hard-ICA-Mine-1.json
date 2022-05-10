@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-ICA-Mine-1",
+  "faction": "ICA",
+  "factionReputation": 290,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Pure Focus Crystal"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 34,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 26000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 15,
+  "unlockContracts": [],
+  "isMain": false
+}

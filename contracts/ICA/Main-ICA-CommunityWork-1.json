@@ -1,0 +1,49 @@
+{
+  "inGameName": "Main-ICA-CommunityWork-1",
+  "description": "\"Good, you're here. We have a request from a former colonist to stash some items on the surface. We get these from time to time; it started out as people hoping their loved ones were still down there, in need of supplies... These days it's just a ritual for them. I guess this is how weird traditions start, huh?\"",
+  "faction": "ICA",
+  "factionReputation": 750,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 5,
+      "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+      "deadDropItem": "Pale Ivy Blossom"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+      "deadDropItem": "Jewellery"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 5000,
+      "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+      "deadDropItem": "Old Currency"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 26,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 21000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true,
+  "chainName": "Working for the Community",
+  "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too."
+}

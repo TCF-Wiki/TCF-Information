@@ -1,0 +1,56 @@
+{
+  "inGameName": "The Missing Engineer",
+  "description": "\"Prospector! We believe we've located where our Letium-covered friend was working, and our records show that at the time he was with one of our best mudloggers. Head out and find their remains, there might be something to this!\"",
+  "faction": "Korolev",
+  "factionReputation": 380,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "UniqueMissionLocation_MissingEngineerBody"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "UniqueMissionLocation_AroundMissingEngineerBody"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Letium Coated Helmet",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 11,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 7800,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Stormbringer"
+  ],
+  "isMain": true
+}

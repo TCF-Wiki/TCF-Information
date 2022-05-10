@@ -1,0 +1,46 @@
+{
+  "inGameName": "Building Blocks",
+  "description": "\"Extracting Letium from the surface will require heavy machinery. Heavy, durable, machinery, like the old Veltecite Laser Drills. Get us these materials, Prospector, and we can begin crafting a good frame for our new drilling platform.\"",
+  "faction": "Korolev",
+  "factionReputation": 1800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 20,
+      "itemToOwn": "Compound Sheets"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 15,
+      "itemToOwn": "Metallic Alloys"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "SmartMesh"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 87,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 29000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Trek for Data"
+  ],
+  "isMain": true,
+  "chainName": "Heavy Construction",
+  "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+}

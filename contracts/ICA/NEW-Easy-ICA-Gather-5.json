@@ -1,0 +1,36 @@
+{
+  "inGameName": "NEW-Easy-ICA-Gather-5",
+  "faction": "ICA",
+  "factionReputation": 15,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Compound Sheets"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Polymetallic Prefabricate"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4400,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 4,
+  "unlockContracts": [],
+  "isMain": false
+}

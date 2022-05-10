@@ -1,0 +1,39 @@
+{
+  "inGameName": "This isn't Science",
+  "description": "\"We have to hold on our efforts, Osiris suspects we're to blame for one of their top people suddenly quitting. I imagine they'll ease off if they see your efforts on the planet are purely unscientific.\"",
+  "faction": "Korolev",
+  "factionReputation": 3600,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 6,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 214,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 20000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "This is Goodbye"
+  ],
+  "isMain": true
+}

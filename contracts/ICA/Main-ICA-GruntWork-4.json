@@ -1,0 +1,39 @@
+{
+  "inGameName": "Main-ICA-GruntWork-4",
+  "description": "\"The ICA may run this station, but its Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.\"",
+  "faction": "ICA",
+  "factionReputation": 200,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_SouthEastUplink"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "HardDrive_uncommon"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 4,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 7900,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

@@ -1,0 +1,47 @@
+{
+  "inGameName": "Just a Call Away",
+  "description": "\"We haven't heard from our ground team in days... The Cycle is stronger in the wilds, their equipment may have malfunctioned. Take this Radio Equipment down to Bright Sands stashes; with luck we're right and they'll make contact!\"",
+  "faction": "Korolev",
+  "factionReputation": 930,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "Radio Equipment"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_CenterBase_Office",
+      "deadDropItem": "Radio Equipment"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_CommsBase_Tower",
+      "deadDropItem": "Radio Equipment"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 35,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 12000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Don't Dig Too Deep"
+  ],
+  "isMain": true
+}

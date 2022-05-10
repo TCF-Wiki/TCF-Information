@@ -1,0 +1,44 @@
+{
+  "inGameName": "Main-Osiris-CombatStims-2",
+  "description": "\"Excellent work, I imagine the donor didn't pose too much of a challenge for you. Now, my team will need some additional supplies; here's a list.\"",
+  "faction": "Osiris",
+  "factionReputation": 2800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Portable Lab"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "RadioactiveBrightcapMushroom"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Medical Supplies"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 158,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 31000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

@@ -1,0 +1,46 @@
+{
+  "inGameName": "Main-ICA-AudioDecoys-1",
+  "description": "\"Good to see you again! As you know the ICA likes to tinker and create its own tools, and I think prospectors like you will like what we're fixing up now! But first, you'll need to stash a few grenades for us, over in the Swamp Camp.\"",
+  "faction": "ICA",
+  "factionReputation": 160,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "itemToOwn": "Aluminum scrap",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [
+          "EYDeviceCategory::Pistol"
+        ],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 3,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 6500,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "The Forester"
+  ],
+  "isMain": true,
+  "chainName": "Audiophiles Beware",
+  "chainDescription": "An energetic engineer wants to develop a new kind of grenade, something particularly useful for anyone adventuring on the planet's surface.\r\nA decoy of some kind, to throw off rivals and bait hostile creatures, might be just the thing!"
+}

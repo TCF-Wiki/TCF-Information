@@ -1,0 +1,36 @@
+{
+  "inGameName": "NEW-Medium-Osiris-Gather-3",
+  "faction": "Osiris",
+  "factionReputation": 270,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Gyroscope"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Datapad"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 32,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 26000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 13,
+  "unlockContracts": [],
+  "isMain": false
+}

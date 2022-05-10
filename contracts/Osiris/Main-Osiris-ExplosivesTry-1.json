@@ -1,0 +1,44 @@
+{
+  "inGameName": "Main-Osiris-ExplosivesTry-1",
+  "description": "\"The notebook you brought back was most interesting, Prospector. Those Crystal Caverns appear to be made of a something similar to some of the Progenitor materials we've analyzed, and no one's ever managed to get past their walls and see what's inside. It's time to change that; get me some old explosives and I'll have a team blast their way in.\"",
+  "faction": "Osiris",
+  "factionReputation": 600,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Derelict Explosives",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 19,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 20000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Lost Scientist"
+  ],
+  "isMain": true,
+  "chainName": "Explosive Delivery",
+  "chainDescription": "The caverns you found are encased by a crystalline structure, far too strong for any of your weapons to break through. Sullivan believes there's a connection between them and the Progenitor terraforming tech.\r\nExplosives aren't the usual Osiris way, but they're a time-tested cheap way of opening holes in walls."
+}

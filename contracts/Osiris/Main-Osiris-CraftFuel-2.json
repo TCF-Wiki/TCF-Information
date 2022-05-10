@@ -1,0 +1,45 @@
+{
+  "inGameName": "Main-Osiris-CraftFuel-2",
+  "description": "\"Ah yes, I forgot to mention... we've made some adjustments to account for the increased operational range required; get me a Veltecite heart and some samples from storm-charged creatures, it should be enough to take our device to peak performance.\"",
+  "faction": "Osiris",
+  "factionReputation": 1500,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "VelteciteHeart"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 20,
+      "itemToOwn": "Charged Spinal Base"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Bag_04",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "OsirisScrip",
+      "amount": 64,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 29000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

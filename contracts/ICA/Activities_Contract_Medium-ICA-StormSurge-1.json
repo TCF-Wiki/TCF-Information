@@ -1,0 +1,31 @@
+{
+  "inGameName": "Activities_Contract_Medium-ICA-StormSurge-1",
+  "faction": "ICA",
+  "factionReputation": 62,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Storm Surge Crystal"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 9,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4800,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 8,
+  "unlockContracts": [],
+  "isMain": false
+}

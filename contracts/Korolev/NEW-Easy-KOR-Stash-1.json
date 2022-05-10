@@ -1,0 +1,32 @@
+{
+  "inGameName": "NEW-Easy-KOR-Stash-1",
+  "faction": "Korolev",
+  "factionReputation": 13,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_EastEvac_UndergroundElevator",
+      "deadDropItem": "Heavy Mining Tool"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 1700,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 3,
+  "unlockContracts": [],
+  "isMain": false
+}

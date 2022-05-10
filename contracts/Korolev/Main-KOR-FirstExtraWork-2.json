@@ -1,0 +1,40 @@
+{
+  "inGameName": "Main-KOR-FirstExtraWork-2",
+  "description": "\"A group of delegates from a trading partner will be visiting us soon, and they always expect gifts. See if you can find something shiny for them.\"",
+  "faction": "Korolev",
+  "factionReputation": 480,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Jewellery"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Tactical Helmet",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 14,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 14000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Forest Clearing"
+  ],
+  "isMain": true
+}

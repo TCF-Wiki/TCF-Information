@@ -1,0 +1,39 @@
+{
+  "inGameName": "Lab Heist",
+  "description": "\"Our new scientist friend believes Osiris was already researching the presence of Letium in various creatures. Head to their main lab on Bright Sands and bring back whatever samples they were studying.\"",
+  "faction": "Korolev",
+  "factionReputation": 1200,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_WaterfallLab"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Letium Bio Samples"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 48,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 13000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Collaborative Research"
+  ],
+  "isMain": true
+}

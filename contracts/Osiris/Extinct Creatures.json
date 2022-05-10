@@ -1,0 +1,39 @@
+{
+  "inGameName": "Extinct Creatures",
+  "description": "\"Remember those Old Bones you brought back earlier? There's a mystery there, something artificial. I need you to head to the Extinct Creatures lab in Crescent Falls and retrieve a Warden Skull, it might have the answers I seek.\"",
+  "faction": "Osiris",
+  "factionReputation": 310,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "UniqueMissionLocation_ExtinctCreaturesLab"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Warden Skull"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 8,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 7100,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

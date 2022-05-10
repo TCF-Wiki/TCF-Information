@@ -1,0 +1,59 @@
+{
+  "inGameName": "Main-Osiris-GruntWork-2",
+  "description": "\"The Lake in Bright Sands is home to a few very valuable endemic creatures, but the explosion in rattler and strider populations have all but pushed them out of their habitat. Cull their numbers, help return the balance.\"",
+  "faction": "Osiris",
+  "factionReputation": 130,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "itemToOwn": "AI_RattlerEyes",
+      "locationConditions": "Map01_Lake"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 10,
+      "itemToOwn": "AI_StriderMeat",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+      },
+      "locationConditions": "Map01_Lake"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "itemToOwn": "AI_StriderMeat",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+      },
+      "locationConditions": "Map01_Lake"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 2,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4800,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

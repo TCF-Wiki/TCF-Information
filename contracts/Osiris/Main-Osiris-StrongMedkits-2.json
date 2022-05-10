@@ -1,0 +1,39 @@
+{
+  "inGameName": "Main-Osiris-StrongMedkits-2",
+  "description": "\"The chemical properties of Fortuna III's flora and fauna is truly fascinating... one would expect it to be completely foreign to our own, yet it's so similar! Oh, right; we still need a few more items, Prospector.\"",
+  "faction": "Osiris",
+  "factionReputation": 930,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Pale Ivy Blossom"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "RadioactiveBrightcapMushroom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 35,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 20000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

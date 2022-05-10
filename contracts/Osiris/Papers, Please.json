@@ -1,0 +1,45 @@
+{
+  "inGameName": "Papers, Please",
+  "description": "\"We need to run some tests on how the creatures of Fortuna III identify each other, how they tell friend from foe. These samples should advance our research.\" ",
+  "faction": "Osiris",
+  "factionReputation": 50,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "AI_RattlerSkin"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "AI_StriderMeat"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Shield",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "OsirisScrip",
+      "amount": 2,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 8500,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Tick-Tock"
+  ],
+  "isMain": true
+}

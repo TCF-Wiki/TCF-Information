@@ -1,0 +1,89 @@
+{
+  "inGameName": "Main-Osiris-SatelliteRepairs-2",
+  "description": "\"The ICA has been following up on all our recent 'weapons' research on station and gotten curious about the lack of tangible results. Head to the surface and perform some 'tests' with Osiris gear on some unwilling participants, it should distract them for long enough to get our satellite fully operational.\"",
+  "faction": "Osiris",
+  "factionReputation": 2800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 6,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_Pistol_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_SMG_Needle_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_AR_Beam_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_AR_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_AR_Needle_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_Sniper_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_HVY_Beam_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 158,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

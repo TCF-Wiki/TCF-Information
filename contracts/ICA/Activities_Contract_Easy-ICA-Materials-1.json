@@ -1,0 +1,31 @@
+{
+  "inGameName": "Activities_Contract_Easy-ICA-Materials-1",
+  "faction": "ICA",
+  "factionReputation": 13,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Metallic Alloys"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 1800,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 2,
+  "unlockContracts": [],
+  "isMain": false
+}

@@ -1,0 +1,52 @@
+{
+  "inGameName": "Contaminated Waters",
+  "description": "\"We plan to send a team down to the old Bright Sands Water Facility to salvage some special parts, but too many creatures nest there now. Go clear it the area out, OK?\"",
+  "faction": "Korolev",
+  "factionReputation": 50,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_WaterFacility"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "itemToOwn": "Compound Sheets",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map01_WaterFacility"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Tactical Helmet",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 2,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4400,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Spare Parts"
+  ],
+  "isMain": true
+}

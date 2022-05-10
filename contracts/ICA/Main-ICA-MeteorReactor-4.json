@@ -1,0 +1,53 @@
+{
+  "inGameName": "Main-ICA-MeteorReactor-4",
+  "description": "\"I'm preparing to send a team down to the surface to finalize a prototype and run tests well away from the station; everyone assures me it's safe, but I've read the warning myself. I need you to cull the number of creatures at these locations, it should make life for my people easier.\"",
+  "faction": "ICA",
+  "factionReputation": 750,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 10,
+      "itemToOwn": "Meteor Core",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map01_Lake"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 10,
+      "itemToOwn": "Meteor Core",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map02_StarportWarehouse"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 26,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 10000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

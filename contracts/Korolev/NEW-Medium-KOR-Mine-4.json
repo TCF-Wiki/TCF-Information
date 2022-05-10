@@ -1,0 +1,36 @@
+{
+  "inGameName": "NEW-Medium-KOR-Mine-4",
+  "faction": "Korolev",
+  "factionReputation": 90,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Titan Ore"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Altered Nickel"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 9600,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 10,
+  "unlockContracts": [],
+  "isMain": false
+}

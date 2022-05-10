@@ -1,0 +1,6303 @@
+{
+  "Test-Kills-Creatures": {
+    "inGameName": "07CC5D68461347E095C0FA9C0F3E17DB",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Test-Kills-Rattlers": {
+    "inGameName": "1DEAAED941B4B2445868AEA8EE6ACAB4",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Test-DeadDrop": {
+    "inGameName": "7BDAC08446BDC5D811C6FEA1F46DB44D",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 20,
+        "deadDropLocation": "Test_01",
+        "deadDropItem": "Nickel",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Test_01",
+        "deadDropItem": "Heavy Mining Tool",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-Osiris-Zeal-1": {
+    "inGameName": "Activities_Contract_Easy-Osiris-Zeal-1",
+    "faction": "Osiris",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Flawed Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Zeal-1": {
+    "inGameName": "Activities_Contract_Medium-Osiris-Zeal-1",
+    "faction": "Osiris",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Flawed Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Zeal-1": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Zeal-1",
+    "faction": "Osiris",
+    "factionReputation": 310,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Flawed Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 18,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-Osiris-Brightcaps-1": {
+    "inGameName": "Activities_Contract_Easy-Osiris-Brightcaps-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "BrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Brightcaps-1": {
+    "inGameName": "Activities_Contract_Medium-Osiris-Brightcaps-1",
+    "faction": "Osiris",
+    "factionReputation": 43,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "BrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 6,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Brightcaps-1": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Brightcaps-1",
+    "faction": "Osiris",
+    "factionReputation": 250,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 25,
+        "itemToOwn": "BrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 30,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-Osiris-Hunt-1": {
+    "inGameName": "Activities_Contract_Easy-Osiris-Hunt-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Hunt-1": {
+    "inGameName": "Activities_Contract_Medium-Osiris-Hunt-1",
+    "faction": "Osiris",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Hunt-1": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Hunt-1",
+    "faction": "Osiris",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-Osiris-Data-1": {
+    "inGameName": "Activities_Contract_Easy-Osiris-Data-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Data-1": {
+    "inGameName": "Activities_Contract_Medium-Osiris-Data-1",
+    "faction": "Osiris",
+    "factionReputation": 25,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Data-1": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Data-1",
+    "faction": "Osiris",
+    "factionReputation": 200,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Tracking-1": {
+    "inGameName": "Activities_Contract_Medium-Osiris-Tracking-1",
+    "faction": "Osiris",
+    "factionReputation": 36,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Blue Runner Egg"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 7,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 5,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Minerals-1": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Minerals-1",
+    "faction": "Osiris",
+    "factionReputation": 200,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Flawed Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Hunt-1_0": {
+    "inGameName": "8949018140F121F83C22CEA2D7274F5E",
+    "faction": "Osiris",
+    "factionReputation": 25,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Blue Runner Egg"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-Osiris-Materials-1": {
+    "inGameName": "Activities_Contract_Easy-Osiris-Materials-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Optic Glass"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Materials-1": {
+    "inGameName": "Activities_Contract_Medium-Osiris-Materials-1",
+    "faction": "Osiris",
+    "factionReputation": 52,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Optic Glass"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 7,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Materials-1": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Materials-1",
+    "faction": "Osiris",
+    "factionReputation": 250,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Optic Glass"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 30,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-Osiris-Meteor-1": {
+    "inGameName": "Activities_Contract_Easy-Osiris-Meteor-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Fragment"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Meteor-1": {
+    "inGameName": "Activities_Contract_Medium-Osiris-Meteor-1",
+    "faction": "Osiris",
+    "factionReputation": 75,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Meteor Core"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 9,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Meteor-1": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Meteor-1",
+    "faction": "Osiris",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 37000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 16,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-Osiris_FTUE-Gather-1": {
+    "inGameName": "Activities_Contract_Easy-Osiris_FTUE-Gather-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Compound Sheets"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Conditional-1": {
+    "inGameName": "Medium-Osiris-Conditional-1",
+    "faction": "Osiris",
+    "factionReputation": 25,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "itemToOwn": "Datapad",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterfallLab"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Conditional-2": {
+    "inGameName": "Medium-Osiris-Conditional-2",
+    "faction": "Osiris",
+    "factionReputation": 25,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_ScienceCampus"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Conditional-3": {
+    "inGameName": "Medium-Osiris-Conditional-3",
+    "faction": "Osiris",
+    "factionReputation": 30,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_SwampCamp"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "BrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-Osiris-Conditional-4": {
+    "inGameName": "Medium-Osiris-Conditional-4",
+    "faction": "Osiris",
+    "factionReputation": 30,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CrashedShip"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Brightcaps-2": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Brightcaps-2",
+    "faction": "Osiris",
+    "factionReputation": 250,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 30,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-Osiris-Hunt-2": {
+    "inGameName": "Activities_Contract_Hard-Osiris-Hunt-2",
+    "faction": "Osiris",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Gather-1": {
+    "inGameName": "NEW-Easy-Osiris-Gather-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Gather-2": {
+    "inGameName": "NEW-Easy-Osiris-Gather-2",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Optic Glass"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Gather-1": {
+    "inGameName": "NEW-Medium-Osiris-Gather-1",
+    "faction": "Osiris",
+    "factionReputation": 43,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Datapad"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 6,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Gather-2": {
+    "inGameName": "NEW-Medium-Osiris-Gather-2",
+    "faction": "Osiris",
+    "factionReputation": 52,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "CopperWire"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 7,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Gather-3": {
+    "inGameName": "NEW-Medium-Osiris-Gather-3",
+    "faction": "Osiris",
+    "factionReputation": 250,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Gyroscope"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Datapad"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 30,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-1": {
+    "inGameName": "NEW-Hard-Osiris-Gather-1",
+    "faction": "Osiris",
+    "factionReputation": 260,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 7,
+        "itemToOwn": "Toxic Glands"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 31,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 12,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-2": {
+    "inGameName": "NEW-Hard-Osiris-Gather-2",
+    "faction": "Osiris",
+    "factionReputation": 270,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Optic Glass"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "Polymetallic Prefabricate"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Datapad"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 32,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 13,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-3": {
+    "inGameName": "NEW-Hard-Osiris-Gather-3",
+    "faction": "Osiris",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Charged Spinal Base"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Gyroscope"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-4": {
+    "inGameName": "NEW-Hard-Osiris-Gather-4",
+    "faction": "Osiris",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "CombatCPU_red"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 16,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-5": {
+    "inGameName": "NEW-Hard-Osiris-Gather-5",
+    "faction": "Osiris",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 16,
+        "itemToOwn": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-6": {
+    "inGameName": "NEW-Hard-Osiris-Gather-6",
+    "faction": "Osiris",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Gyroscope"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Autoloader"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 53000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Hunt-1": {
+    "inGameName": "NEW-Easy-Osiris-Hunt-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Hunt-2": {
+    "inGameName": "NEW-Easy-Osiris-Hunt-2",
+    "faction": "Osiris",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SMG"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Hunt-3": {
+    "inGameName": "NEW-Easy-Osiris-Hunt-3",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_ScienceCampus"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Hunt-4": {
+    "inGameName": "NEW-Easy-Osiris-Hunt-4",
+    "faction": "Osiris",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Hunt-1": {
+    "inGameName": "NEW-Medium-Osiris-Hunt-1",
+    "faction": "Osiris",
+    "factionReputation": 43,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 6,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Hunt-2": {
+    "inGameName": "NEW-Medium-Osiris-Hunt-2",
+    "faction": "Osiris",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 6,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Hunt-3": {
+    "inGameName": "NEW-Medium-Osiris-Hunt-3",
+    "faction": "Osiris",
+    "factionReputation": 52,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_VaccineLabs"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_ScienceCampus"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 7,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Hunt-4": {
+    "inGameName": "NEW-Medium-Osiris-Hunt-4",
+    "faction": "Osiris",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SMG"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Hunt-5": {
+    "inGameName": "NEW-Medium-Osiris-Hunt-5",
+    "faction": "Osiris",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        },
+        "locationConditions": "Map02_SkeletonObservation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Hunt-1": {
+    "inGameName": "NEW-Hard-Osiris-Hunt-1",
+    "faction": "Osiris",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 20,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Lake"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Hunt-2": {
+    "inGameName": "NEW-Hard-Osiris-Hunt-2",
+    "faction": "Osiris",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 34,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 15,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Hunt-3": {
+    "inGameName": "NEW-Hard-Osiris-Hunt-3",
+    "faction": "Osiris",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_CrashedShip"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 16,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        },
+        "locationConditions": "Map01_CrashedShip"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Hunt-4": {
+    "inGameName": "NEW-Hard-Osiris-Hunt-4",
+    "faction": "Osiris",
+    "factionReputation": 320,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle",
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 39,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Hunt-5": {
+    "inGameName": "NEW-Hard-Osiris-Hunt-5",
+    "faction": "Osiris",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        },
+        "locationConditions": "Map01_CrashedShip"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Hunt-6": {
+    "inGameName": "NEW-Hard-Osiris-Hunt-6",
+    "faction": "Osiris",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        },
+        "locationConditions": "Map02_SkeletonObservation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 34,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 15,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Hunt-7": {
+    "inGameName": "NEW-Hard-Osiris-Hunt-7",
+    "faction": "Osiris",
+    "factionReputation": 310,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        },
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 6,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        },
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 18,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-PvP-1": {
+    "inGameName": "NEW-Medium-Osiris-PvP-1",
+    "faction": "Osiris",
+    "factionReputation": 110,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-PvP-1": {
+    "inGameName": "NEW-Hard-Osiris-PvP-1",
+    "faction": "Osiris",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_VaccineLabs"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterfallLab"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 16,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-PvP-2": {
+    "inGameName": "NEW-Hard-Osiris-PvP-2",
+    "faction": "Osiris",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Brightcaps-1": {
+    "inGameName": "NEW-Easy-Osiris-Brightcaps-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "BrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Brightcaps-2": {
+    "inGameName": "NEW-Easy-Osiris-Brightcaps-2",
+    "faction": "Osiris",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "BrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Brightcaps-and-PvE-1": {
+    "inGameName": "NEW-Medium-Osiris-Brightcaps-and-PvE-1",
+    "faction": "Osiris",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "BrightcapMushroom"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Brightcaps-3": {
+    "inGameName": "NEW-Medium-Osiris-Brightcaps-3",
+    "faction": "Osiris",
+    "factionReputation": 110,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Brightcaps-and-PvE-1": {
+    "inGameName": "NEW-Hard-Osiris-Brightcaps-and-PvE-1",
+    "faction": "Osiris",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Acid"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Brightcaps-1": {
+    "inGameName": "NEW-Hard-Osiris-Brightcaps-1",
+    "faction": "Osiris",
+    "factionReputation": 320,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "BrightcapMushroom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 39,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 23000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-BlueRunnerEgg-1": {
+    "inGameName": "NEW-Easy-Osiris-BlueRunnerEgg-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Blue Runner Egg"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-BlueRunnerEgg-1": {
+    "inGameName": "NEW-Medium-Osiris-BlueRunnerEgg-1",
+    "faction": "Osiris",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Blue Runner Egg"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Meteor-1": {
+    "inGameName": "NEW-Medium-Osiris-Meteor-1",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Meteor Fragment"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 12,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 12,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Meteor-1": {
+    "inGameName": "NEW-Hard-Osiris-Meteor-1",
+    "faction": "Osiris",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Meteor Core"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 30000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 16,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Meteor-2": {
+    "inGameName": "NEW-Hard-Osiris-Meteor-2",
+    "faction": "Osiris",
+    "factionReputation": 310,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Meteor Core"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Meteor Fragment"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 37000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 18,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Stash-1": {
+    "inGameName": "NEW-Easy-Osiris-Stash-1",
+    "faction": "Osiris",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "BrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Stash-1": {
+    "inGameName": "NEW-Medium-Osiris-Stash-1",
+    "faction": "Osiris",
+    "factionReputation": 75,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "Optic Glass"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 9,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Stash-2": {
+    "inGameName": "NEW-Medium-Osiris-Stash-2",
+    "faction": "Osiris",
+    "factionReputation": 75,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "Datapad"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 9,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Stash-3": {
+    "inGameName": "NEW-Medium-Osiris-Stash-3",
+    "faction": "Osiris",
+    "factionReputation": 110,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map02_NutronFarms_StorageRoom",
+        "deadDropItem": "Asp Flechette Gun"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 39000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Stash-4": {
+    "inGameName": "NEW-Medium-Osiris-Stash-4",
+    "faction": "Osiris",
+    "factionReputation": 160,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map01_WaterfallLab",
+        "deadDropItem": "Toxic Glands"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 13,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 13,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Stash-1": {
+    "inGameName": "NEW-Hard-Osiris-Stash-1",
+    "faction": "Osiris",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 6,
+        "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+        "deadDropItem": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 34,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 15,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Stash-2": {
+    "inGameName": "NEW-Hard-Osiris-Stash-2",
+    "faction": "Osiris",
+    "factionReputation": 310,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 18,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Stash-3": {
+    "inGameName": "NEW-Hard-Osiris-Stash-3",
+    "faction": "Osiris",
+    "factionReputation": 320,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "Shield"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "Helmet"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "Bag_03"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 39,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 23000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Flora-and-PvE-1": {
+    "inGameName": "NEW-Easy-Osiris-Flora-and-PvE-1",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "BrightcapMushroom"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-Osiris-Flora-1": {
+    "inGameName": "NEW-Easy-Osiris-Flora-1",
+    "faction": "Osiris",
+    "factionReputation": 18,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Pale Ivy Blossom",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 5,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Flora-1": {
+    "inGameName": "NEW-Medium-Osiris-Flora-1",
+    "faction": "Osiris",
+    "factionReputation": 75,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Pale Ivy Blossom",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 9700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 9,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Flora-2": {
+    "inGameName": "NEW-Medium-Osiris-Flora-2",
+    "faction": "Osiris",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Dustbloom",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-7": {
+    "inGameName": "NEW-Medium-Osiris-Gather-3",
+    "faction": "Osiris",
+    "factionReputation": 270,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Gyroscope"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Datapad"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 32,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 26000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 13,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Hunt-8": {
+    "inGameName": "NEW-Medium-Osiris-Hunt-4",
+    "faction": "Osiris",
+    "factionReputation": 260,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SMG"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 31,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 12,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Test-VisitArea": {
+    "inGameName": "F2E7E0E64EDEE3BC57E8828186631D0D",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "BigDrill"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Test-Rewards": {
+    "inGameName": "B801BE9D41EC4909199EFDBC85186EEC",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "BigDrill"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "CircuitBoard",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Voltaic Brute",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Test-Rewards_Locked": {
+    "inGameName": "B801BE9D41EC4909199EFDBC85186EEC",
+    "faction": "Osiris",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "BigDrill"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "CircuitBoard",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Voltaic Brute",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Test-Rewards"
+    ],
+    "isMain": false
+  },
+  "Main-Osiris-FTUE-1": {
+    "inGameName": "Prove your Worth",
+    "description": "\"Another Prospector? I guess we could use the muscle. Show me you know how to handle yourself on the surface, then we'll talk.\"",
+    "faction": "Osiris",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Hardened Metals",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": true,
+    "chainName": "Dangerous Science",
+    "chainDescription": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as \"Progenitors\".\r\nHelping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
+  },
+  "Main-Osiris-GainTrust-1": {
+    "inGameName": "The Real Wetwork",
+    "description": "\"Not bad. I'm always in need of samples from the surface for our research. See if you can get me some of these.\"",
+    "faction": "Osiris",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Waterweed Filament"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Prove your Worth"
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GainTrust-2": {
+    "inGameName": "Fertile Grounds",
+    "description": "\"My team has seen an increase in Strider population in the Bright Sands Swamp; take down some of those creatures and return with the right samples.\"",
+    "faction": "Osiris",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_Swamp"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Waterweed Filament",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        },
+        "locationConditions": "Map01_Swamp"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Real Wetwork"
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GainTrust-3": {
+    "inGameName": "Tick-Tock",
+    "description": "\"Brightcaps are a marvel, one of only a handful of organisms originating from Earth to mutate into something new. Get me fresh samples, and get rid of the Blast Ticks that feast on them while you're at it.\"",
+    "faction": "Osiris",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 7,
+        "itemToOwn": "Waterweed Filament",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "BrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_02",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Fertile Grounds"
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GainTrust-4": {
+    "inGameName": "Papers, Please",
+    "description": "\"We need to run some tests on how the creatures of Fortuna III identify each other, how they tell friend from foe. These samples should advance our research.\" ",
+    "faction": "Osiris",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "AI_RattlerSkin"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "AI_StriderMeat"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Tick-Tock"
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GruntWork-1": {
+    "inGameName": "Main-Osiris-GruntWork-1",
+    "description": "\"You've proven to be more capable than the average prospector, so this shouldn't be too complicated. Clear out any hostile fauna at our old Science Campus on Bright Sands, and get me some Optic Glass while you're down there. Remember to be careful with it.\"",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "AI_RattlerEyes",
+        "locationConditions": "Map01_ScienceCampus"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "AI_StriderMeat",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_ScienceCampus"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Optic Glass"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Papers, Please"
+    ],
+    "isMain": true,
+    "chainName": "Field Research",
+    "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
+  },
+  "Main-Osiris-GruntWork-2": {
+    "inGameName": "Main-Osiris-GruntWork-2",
+    "description": "\"The Lake in Bright Sands is home to a few very valuable endemic creatures, but the explosion in rattler and strider populations have all but pushed them out of their habitat. Cull their numbers, help return the balance.\"",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "AI_RattlerEyes",
+        "locationConditions": "Map01_Lake"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "AI_StriderMeat",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        },
+        "locationConditions": "Map01_Lake"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "AI_StriderMeat",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_Lake"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GruntWork-3": {
+    "inGameName": "Main-Osiris-GruntWork-3",
+    "description": "\"Ah, you might appreciate this next job. Osiris Defense Systems R&D wants field data on our current weapons. As used on... real targets. I do hope you can figure out what to do.\"",
+    "faction": "Osiris",
+    "factionReputation": 160,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "AI_StriderMeat",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Scarab",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Old Bones"
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GruntWork-4": {
+    "inGameName": "Main-Osiris-GruntWork-4",
+    "description": "\"One of our more 'hands-on' researchers forgot how to pack their tool bag, and another picked a fight with some thorn bushes and lost. Again. Anyways, stash some Med Kits and a Biological Sampler for them at these locations.\"",
+    "faction": "Osiris",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "itemToOwn": "AI_StriderMeat",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "Biological Sampler",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "itemToOwn": "AI_StriderMeat",
+        "deadDropLocation": "Map01_WaterfallLab",
+        "deadDropItem": "Consumable_Health_03",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GruntWork-5": {
+    "inGameName": "Main-Osiris-GruntWork-5",
+    "description": "\"We sent another prospector for a simple milk run to the Vaccine Labs, and they've yet to return. I suspect due to the mass of creatures that've recently made the area their nest. Pacify the area, and while you're down there, get me some Pale Ivy.\"",
+    "faction": "Osiris",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_VaccineLabs"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_VaccineLabs"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Pale Ivy Blossom",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Manticore",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GruntWork-6": {
+    "inGameName": "Main-Osiris-GruntWork-6",
+    "description": "\"The financial team is struggling to figure out what project to waste money on for next quarter. How do you fit in? Well, I need prospectors to demonstrate the use of different weapons, and the straw I picked for you says 'SMG'. Now, off you go.\"",
+    "faction": "Osiris",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SMG"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_03",
+        "amount": 5,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Consumable_Health_05",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GruntWork-7": {
+    "inGameName": "Main-Osiris-GruntWork-7",
+    "description": "\"You're really adept at shooting things, aren't you? Unfortunately, so are rattlers. Head to the Bright Sands Jungle and get me some rattler eyes, I want to know how they spot and track targets.\"",
+    "faction": "Osiris",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Jungle"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_Jungle"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "AI_RattlerEyes"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-GruntWork-8": {
+    "inGameName": "Main-Osiris-GruntWork-8",
+    "description": "\"I plan on sending down a team to collect more old samples. Make sure they're well supplied, stash some Portable Labs in Greens Prospect for them.\"",
+    "faction": "Osiris",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_GreensProspect"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_03",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Extinct Creatures"
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-StrongStims-1": {
+    "inGameName": "Main-Osiris-StrongStims-1",
+    "description": "\"This should interest you: we have a small team researching new, stronger health stims, but we're low on certain materials that were never restocked on station. Head to the Vaccine Labs and bring back some Medical Supplies.\"",
+    "faction": "Osiris",
+    "factionReputation": 160,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "AI_StriderMeat",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterfallLab"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "AI_StriderMeat",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_VaccineLabs"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Medical Supplies",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Stimulating Developments",
+    "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet. Get Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
+  },
+  "Main-Osiris-StrongStims-2": {
+    "inGameName": "Main-Osiris-StrongStims-2",
+    "description": "\"There are a few more items from the surface our team needs, Prospector. Get what we need from this list if you want access to stronger stims.\"",
+    "faction": "Osiris",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Blue Runner Egg"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Toxic Glands"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Old Medicine"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_02",
+        "amount": 5,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-CaveRumors-1": {
+    "inGameName": "Main-Osiris-CaveRumors-1",
+    "description": "\"Prospector, one of our researchers has noticed rattler hides are particularly susceptible to cell pattern changes based on their diets. Head to Nutrion Farms Processing and help us by getting the right samples.\"",
+    "faction": "Osiris",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_NutrionFarmsProcessing"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "AI_RattlerSkin",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 25,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Lost Knowledge",
+    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
+  },
+  "Main-Osiris-CaveRumors-2": {
+    "inGameName": "Main-Osiris-CaveRumors-2",
+    "description": "\"We've received several reports of faulty weapons: jams, low power, misaligned sights... I need you to get me data on our weapons' performance against real targets. The old Favela in Crescent Falls should be a good test site.\"",
+    "faction": "Osiris",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_JungleFavela"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 6,
+        "itemToOwn": "AI_RattlerSkin",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Crashed Osiris Freighter"
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-CaveRumors-3": {
+    "inGameName": "Main-Osiris-CaveRumors-3",
+    "description": "\"I listened through parts of that crashed ship's flight recorder, and several conversations caught from the cabin had our man talking about 'Crystal Caverns' in relation to his research. Head there and see what you find, collect mineral and bio-samples from the area.\"",
+    "faction": "Osiris",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_EliteCrusherDungeonSeal"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "AI_RattlerSkin",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_EliteCrusherDungeonSeal"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Clear Veltecite",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Phasic Lancer",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-ExplosivesTry-1": {
+    "inGameName": "Main-Osiris-ExplosivesTry-1",
+    "description": "\"The notebook you brought back was most interesting, Prospector. Those Crystal Caverns appear to be made of a something similar to some of the Progenitor materials we've analyzed, and no one's ever managed to get past their walls and see what's inside. It's time to change that; get me some old explosives and I'll have a team blast their way in.\"",
+    "faction": "Osiris",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Lost Scientist"
+    ],
+    "isMain": true,
+    "chainName": "Explosive Delivery",
+    "chainDescription": "The caverns you found are encased by a crystalline structure, far too strong for any of your weapons to break through. Sullivan believes there's a connection between them and the Progenitor terraforming tech.\r\nExplosives aren't the usual Osiris way, but they're a time-tested cheap way of opening holes in walls."
+  },
+  "Main-Osiris-PrototypeLaser-1": {
+    "inGameName": "Main-Osiris-PrototypeLaser-1",
+    "description": "\"It appears Dr. Fedotov had already conferred with Dr. Farinha about how to break into the Crystal Caverns; it figures the man wouldn't write anything down and make our lives easy. He insists only a high powered laser drill can get through those walls, so you're to get us these items so we can build a prototype here.\"",
+    "faction": "Osiris",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Metallic Alloys",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "CircuitBoard",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Frozen"
+    ],
+    "isMain": true,
+    "chainName": "Laser Show",
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+  },
+  "Main-Osiris-PrototypeLaser-2": {
+    "inGameName": "Main-Osiris-PrototypeLaser-2",
+    "description": "\"Progress is slower than I'd hoped. Korolev refuses to share schematics for their decommissioned Veltecite Laser Drill platforms, so we're forced to reinvent the wheel. No matter, an Osiris original will be far better, anyway. Get us these additional materials, Prospector.\"",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Optic Glass",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Radio Equipment",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Gyroscope",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-StormSamples-1": {
+    "inGameName": "Main-Osiris-StormSamples-1",
+    "description": "\"You've experienced one of the planet's famed Storms already, correct? Well if you haven't it's now's you're time to. I need you to collect a number of Glowy Brightcaps for me, the sort that can only be found during a Storm. Good luck and all that.\"",
+    "faction": "Osiris",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Storm Rider",
+    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet. The creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
+  },
+  "Main-Osiris-StormSamples-2": {
+    "inGameName": "Main-Osiris-StormSamples-2",
+    "description": "\"Ah, you're back already. An Osiris team will be retrieving old equipment from the Starport Warehouse soon, I need you to soften the area before they arrive.\"",
+    "faction": "Osiris",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_StarportWarehouse"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-StormSamples-3": {
+    "inGameName": "Main-Osiris-StormSamples-3",
+    "description": "\"We're interested in running more tests on Storm-affected samples, this time while as close to the planet as possible. Meaning on it. I need you to stash some Charged Spinal Bases on the surface for one of our more 'adventurous' researchers to work with.\"",
+    "faction": "Osiris",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 8,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Asp Flechette Gun",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-SideWork1-1": {
+    "inGameName": "Main-Osiris-SideWork1-1",
+    "description": "\"Dr. Fedotov is... a character. He's requested an office with a garden and refuses to speak with anyone on his team until he gets it. Get me these items so we can just get this over with.\"",
+    "faction": "Osiris",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 25,
+        "itemToOwn": "BrightcapMushroom",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "BlueWood",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "\"Magic-GROW\" Fertilizer",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Frozen"
+    ],
+    "isMain": true,
+    "chainName": "The Needs of the One",
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+  },
+  "Main-Osiris-SideWork1-2": {
+    "inGameName": "Main-Osiris-SideWork1-2",
+    "description": "\"All right, now to get some real work done again. Apparently Waterweeds are poisonous to striders; get me some fresh samples of each, there might be something useful to learn here.\"",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 25,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "AI_StriderMeat",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-SideWork1-3": {
+    "inGameName": "Main-Osiris-SideWork1-3",
+    "description": "\"You've encountered Marauders on the surface, right? Fascinating creatures, I'd love to study a live specimen one day... In any case, go kill some and bring back their bone plates so we can advance our research.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Hardened Bone Plates",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-SideWork1-4": {
+    "inGameName": "Main-Osiris-SideWork1-4",
+    "description": "\"The good Dr. Fedotov is trying my patience with his absurd requests. You're to take down some of your rival Prospectors... and bring back some Dustblooms. I swear, if I see them as part of his little 'nature reserve'...\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Dustbloom",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Restoration Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-CrystalSamples-1": {
+    "inGameName": "Main-Osiris-CrystalSamples-1",
+    "description": "\"It's time to start testing our new anti-crystal laser, but first, it needs a power source. Retrieve Veltecite for me, Prospector, nothing else will do.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Pure Veltecite"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Clear Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Everything is Crystals",
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\nMake sure Osiris gets what it needs to get it working."
+  },
+  "Main-Osiris-CrystalSamples-2": {
+    "inGameName": "Main-Osiris-CrystalSamples-2",
+    "description": "\"Yes, this should be sufficient. Focus Crystals have an internal structure similar to that of the cavern walls; retrieve a few samples for us, and some extra lab kit while you're at it.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Portable Lab"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Focus Crystal"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Sample Container"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 28000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-CrystalSamples-3": {
+    "inGameName": "Main-Osiris-CrystalSamples-3",
+    "description": "\"Our laser cannon has proven to be... 'hazardous' to test on the station. We've developed a small portable version for further tests. Clear out the Pinnacle labs of hostile fauna and stash some Pure Focus Crystals there; a field research team will be down for further tests once you're done.\"",
+    "faction": "Osiris",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "Pure Focus Crystal"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Portable Lab",
+        "amount": 2,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Gyroscope",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-StrongMedkits-1": {
+    "inGameName": "Main-Osiris-StrongMedkits-1",
+    "description": "\"We're continuing to research better ways to keep prospectors like you alive on the planet, so I'm sure this interests you. Get me these materials and you'll be among the first to carry our new Strong Medkits.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_WeremoleMeat"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Medical Supplies"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Waterweed Filament"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  "Main-Osiris-StrongMedkits-2": {
+    "inGameName": "Main-Osiris-StrongMedkits-2",
+    "description": "\"The chemical properties of Fortuna III's flora and fauna is truly fascinating... one would expect it to be completely foreign to our own, yet it's so similar! Oh, right; we still need a few more items, Prospector.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Pale Ivy Blossom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-StrongMedkits-3": {
+    "inGameName": "Main-Osiris-StrongMedkits-3",
+    "description": "\"We have reason to believe Korolev has a mole and is trying to steal our work on these Medkits and put them to market before we do; I've seeded rumors to different members of my team, if Korolev acts on them I'll know who the leak is. Stash these old medicines at the Waterfall Labs in Bright Sands; if Korolev sends an agent to retrieve them, I'll have my man.\"",
+    "faction": "Osiris",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 8,
+        "deadDropLocation": "Map01_WaterfallLab",
+        "deadDropItem": "Old Medicine"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_05",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-CraftFuel-1": {
+    "inGameName": "Main-Osiris-CraftFuel-1",
+    "description": "\"Our recent tests have made it quite apparent our anti-crystal laser cannot be safely operated in atmosphere, unlike Korolev's crude designs. We'll need to mount the device on a repurposed low-orbit satellite to operate it. Retrieve these materials, they should improve booster fuel efficiency enough to handle the laser's mass.\"",
+    "faction": "Osiris",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Dustbloom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 26000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Building a better Death Ray",
+    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
+  },
+  "Main-Osiris-CraftFuel-2": {
+    "inGameName": "Main-Osiris-CraftFuel-2",
+    "description": "\"Ah yes, I forgot to mention... we've made some adjustments to account for the increased operational range required; get me a Veltecite heart and some samples from storm-charged creatures, it should be enough to take our device to peak performance.\"",
+    "faction": "Osiris",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_04",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 29000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-UplinkHack-1": {
+    "inGameName": "Main-Osiris-UplinkHack-1",
+    "description": "\"It's almost time to get our satellite into orbit. Hack into the surface Uplink network, get us all the data we need to keep the satellite on-target.\"",
+    "faction": "Osiris",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map01_SouthEastUplink"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map01_NorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 27000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Satellite Master",
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+  },
+  "Main-Osiris-UplinkHack-2": {
+    "inGameName": "Main-Osiris-UplinkHack-2",
+    "description": "\"It's been brought to my attention that orbital weapons are banned in this system, and that our satellite may be considered a weapon, what with its proven ability to vaporize sever- Well, in any case, I need you to get back into the Uplink network, get me data on old colonial satellites still in orbit; we should be able to spoof an ID off one to use for our own project.\"",
+    "faction": "Osiris",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map02_StarportPad"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_legendary"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 36000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-UplinkHack-3": {
+    "inGameName": "Main-Osiris-UplinkHack-3",
+    "description": "\"It appears that tricking the network to accept our satellite as legitimate is a more involved process than I had been lead to believe. A team of specialists will be heading to the surface soon to get the job done, make sure they have the tools they need stashed nearby by the time they arrive.\"",
+    "faction": "Osiris",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "CircuitBoard"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-CombatStims-1": {
+    "inGameName": "Main-Osiris-CombatStims-1",
+    "description": "\"Research into Fortuna III's biosphere has so much potential, yet there's so little interest by any other parties! Everyone needs immediate results! Well then, let's show them results! Get me tissue samples from a Crusher, studying their regenerative properties should allow us to develop even stronger health stims!\"",
+    "faction": "Osiris",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "AI_CrusherMeat"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 34000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Combat Ready",
+    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
+  },
+  "Main-Osiris-CombatStims-2": {
+    "inGameName": "Main-Osiris-CombatStims-2",
+    "description": "\"Excellent work, I imagine the donor didn't pose too much of a challenge for you. Now, my team will need some additional supplies; here's a list.\"",
+    "faction": "Osiris",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Portable Lab"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Medical Supplies"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 31000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-CombatStims-3": {
+    "inGameName": "Main-Osiris-CombatStims-3",
+    "description": "\"Initial trials have proven to be... disappointing. The near-immediate healing process works flawlessly, as I predicted, but it appears to be excruciatingly painful. Retrieve some Dustblooms for me, Prospector; their analgesic properties should be just what we need. And then you can test the first batch yourself!\"",
+    "faction": "Osiris",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Dustbloom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_04",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-SatelliteRepairs-1": {
+    "inGameName": "Main-Osiris-SatelliteRepairs-1",
+    "description": "\"Target calibration on our satellite is off; it was within acceptable parameters in our original designs, but wasn't accounted for when we switched to an orbital platform. I'm sending a team down to Pinnacle Labs for telemetry, make sure they have what they need, and clear the area of hostile creatures.\"",
+    "faction": "Osiris",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "Gyroscope",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Orbital Repairs",
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+  },
+  "Main-Osiris-SatelliteRepairs-2": {
+    "inGameName": "Main-Osiris-SatelliteRepairs-2",
+    "description": "\"The ICA has been following up on all our recent 'weapons' research on station and gotten curious about the lack of tangible results. Head to the surface and perform some 'tests' with Osiris gear on some unwilling participants, it should distract them for long enough to get our satellite fully operational.\"",
+    "faction": "Osiris",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 6,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-SatelliteRepairs-3": {
+    "inGameName": "Main-Osiris-SatelliteRepairs-3",
+    "description": "\"The worst outcome is of course the most likely. The satellite will need to be modified while in orbit and part of the outer casing replaced. Retrieve these materials, they should be light yet durable enough to do the job.\"",
+    "faction": "Osiris",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Hardened Bone Plates"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "SmartMesh"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Salvaged Insulation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 66000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-SatelliteRepairs-4": {
+    "inGameName": "Main-Osiris-SatelliteRepairs-4",
+    "description": "\"The satellite's orbit is too low for our technicians to safely operate at due to all the TEF radiation from the planet. We'll need to construct specialized EVA suits; a mesh made from crusher hide to envelop them might be enough to keep our people safe. For a short while, anyway.\"",
+    "faction": "Osiris",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_CrusherSkin"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Basilisk",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 55000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-TestRun-1": {
+    "inGameName": "Main-Osiris-TestRun-1",
+    "description": "\"It's time! Head to the Crystal Caverns' entrance and place the Orbital Cannon Beacon; once its finally served its purpose, search the caverns and retrieve whatever you find. We might finally have found a path to the internals of the planet's terraformers!\"",
+    "faction": "Osiris",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Mutated Biomass",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        },
+        "locationConditions": "Map02_EliteCrusherDungeon"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "Mutated Biomass",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_EliteCrusherDungeon"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Alpha Crusher Heart",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Basilisk",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 150000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Breaking and Entering",
+    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out.\r\nOnce the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
+  },
+  "Main-Osiris-Unique-1": {
+    "inGameName": "Old Bones",
+    "description": "\"I've been looking through old notes from before the evacuations and come upon something... interesting. There were some unique bone samples found at the Archeology site, distinctly mutated; retrieve them for me.\"",
+    "faction": "Osiris",
+    "factionReputation": 160,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "UniqueMissionLocation_FossilAreaEastCaverns"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Old Bones"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Unique-2": {
+    "inGameName": "Extinct Creatures",
+    "description": "\"Remember those Old Bones you brought back earlier? There's a mystery there, something artificial. I need you to head to the Extinct Creatures lab in Crescent Falls and retrieve a Warden Skull, it might have the answers I seek.\"",
+    "faction": "Osiris",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "UniqueMissionLocation_ExtinctCreaturesLab"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Warden Skull"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Unique-3": {
+    "inGameName": "Crashed Osiris Freighter",
+    "description": "\"I've been looking into everyone that worked at the Extinct Creatures lab, and it appears Dr. Farinha, its head of the operations, was lost when the ship getting him and his lab equipment off planet crashed. Check the ship's debris in the Bright Sands' Jungle, something might have survived the impact.\"",
+    "faction": "Osiris",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CrashedShip"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_InsideCrashedShip"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Flight Recorder",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Unique-4": {
+    "inGameName": "Lost Scientist",
+    "description": "\"It'll take some time to run tests on these. In the meantime, it seems Dr. Farinha survived the crash, though he never made it off planet. From what I gathered he might have sought shelter in this area... Head there and search for any more clues on his whereabouts, any research he carried with him would be of great value!\"",
+    "faction": "Osiris",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Nickel",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_LostScientist"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Old Notebook",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 9400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Unique-5": {
+    "inGameName": "Frozen",
+    "description": "\"That crystal structure enveloping the caverns is far more resistant than I thought imaginable, the team was barely able to scratch it. I was curious about whether this moment would come... It's time wake up Dr. Fedotov. He was reportedly an acerbic firebrand in Osiris, and the best materials researcher the world has ever seen. Stayed on the surface to work for as long as possible, then put himself in a cryochamber when it became too late to evacuate safely. Just another problem I inherited when taking this position...\"",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "UniqueMissionLocation_FrozenEngineer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  }
+}

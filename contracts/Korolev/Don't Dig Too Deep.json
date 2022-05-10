@@ -1,0 +1,62 @@
+{
+  "inGameName": "Don't Dig Too Deep",
+  "description": "\"It seems some creatures have higher concentrations of Letium than others... My people want some very specific samples now: head to the abandoned Dig Site mine in Bright Sands and hunt down what you can.\"",
+  "faction": "Korolev",
+  "factionReputation": 750,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_DigSite"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 10,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map01_DigSite"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 20,
+      "itemToOwn": "Spinal Base"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Radio Equipment",
+      "amount": 5,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SmartMesh",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 26,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 16000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Shopping List"
+  ],
+  "isMain": true
+}

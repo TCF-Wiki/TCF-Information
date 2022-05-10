@@ -1,0 +1,40 @@
+{
+  "inGameName": "Prove your Worth",
+  "description": "\"Another Prospector? I guess we could use the muscle. Show me you know how to handle yourself on the surface, then we'll talk.\"",
+  "faction": "Osiris",
+  "factionReputation": 50,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 1,
+      "itemToOwn": "Hardened Metals",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [],
+  "isMain": true,
+  "chainName": "Dangerous Science",
+  "chainDescription": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as \"Progenitors\".\r\nHelping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
+}

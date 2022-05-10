@@ -4,7 +4,14 @@
   "regenDelay": 60,
   "regenDamageThreshold": -1,
   "armorValue": 30,
-  "speed": 180,
+  "speed": {
+    "EYAIState::Reseting": 750,
+    "EYAIState::Idle": 180,
+    "EYAIState::Investigate": 180,
+    "EYAIState::Combat": 180,
+    "EYAIState::Suspicious": 180
+  },
+  "resetRadius": 9000,
   "weakSpotMultiplier": 10,
   "penetration": 15,
   "armorConstant": 0.15,

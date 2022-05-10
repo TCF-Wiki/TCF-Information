@@ -1,0 +1,41 @@
+{
+  "inGameName": "NEW-Medium-KOR-Gather-4",
+  "faction": "Korolev",
+  "factionReputation": 250,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "MagneticFieldStabilizer"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Compound Sheets"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Polymetallic Prefabricate"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 30,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 16000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 10,
+  "unlockContracts": [],
+  "isMain": false
+}

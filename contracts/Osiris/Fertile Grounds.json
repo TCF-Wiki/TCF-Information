@@ -1,0 +1,57 @@
+{
+  "inGameName": "Fertile Grounds",
+  "description": "\"My team has seen an increase in Strider population in the Bright Sands Swamp; take down some of those creatures and return with the right samples.\"",
+  "faction": "Osiris",
+  "factionReputation": 50,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_Swamp"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 5,
+      "itemToOwn": "Waterweed Filament",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+      },
+      "locationConditions": "Map01_Swamp"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Spinal Base"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Tactical Helmet",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "OsirisScrip",
+      "amount": 2,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 5300,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "The Real Wetwork"
+  ],
+  "isMain": true
+}

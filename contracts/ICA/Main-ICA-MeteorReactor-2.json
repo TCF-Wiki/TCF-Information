@@ -1,0 +1,50 @@
+{
+  "inGameName": "Main-ICA-MeteorReactor-2",
+  "description": "\"This sort of research requires equipment we don't have at hand, and I know Osiris isn't just going to give it to us... Check these locations and some Portable Labs for us, Prospector.\"",
+  "faction": "ICA",
+  "factionReputation": 480,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map02_OsirisWildlifePreserve"
+    },
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map02_SkeletonObservation"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Portable Lab"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Tactical Helmet",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "ICAScrip",
+      "amount": 14,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 12000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

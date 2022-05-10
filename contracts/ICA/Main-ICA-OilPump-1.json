@@ -1,0 +1,49 @@
+{
+  "inGameName": "Main-ICA-OilPump-1",
+  "description": "\"Our people on the surface analyzed everything at the locations you cleared, and they only found some crude oil-like sludge, but it barely burns. It might be nothing, but it's the only outlier. They need specialized equipment to transport samples back home, stash what they need at the Nutrion Farms Office, Prospector.\"",
+  "faction": "ICA",
+  "factionReputation": 1200,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 10,
+      "deadDropLocation": "Map02_NutronFarms_Office",
+      "deadDropItem": "Polymetallic Prefabricate"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 4,
+      "deadDropLocation": "Map02_NutronFarms_Office",
+      "deadDropItem": "Resin Gun"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 4,
+      "deadDropLocation": "Map02_NutronFarms_Office",
+      "deadDropItem": "MagneticFieldStabilizer"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 48,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true,
+  "chainName": "Back to Basics?",
+  "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+}

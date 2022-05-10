@@ -1,0 +1,51 @@
+{
+  "inGameName": "Tick-Tock",
+  "description": "\"Brightcaps are a marvel, one of only a handful of organisms originating from Earth to mutate into something new. Get me fresh samples, and get rid of the Blast Ticks that feast on them while you're at it.\"",
+  "faction": "Osiris",
+  "factionReputation": 50,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 7,
+      "itemToOwn": "Waterweed Filament",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast"
+      }
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "BrightcapMushroom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Consumable_Health_02",
+      "amount": 3,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "OsirisScrip",
+      "amount": 2,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4900,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Fertile Grounds"
+  ],
+  "isMain": true
+}

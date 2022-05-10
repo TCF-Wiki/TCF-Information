@@ -1,0 +1,33 @@
+{
+  "inGameName": "NEW-Easy-Osiris-Flora-1",
+  "faction": "Osiris",
+  "factionReputation": 18,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Pale Ivy Blossom",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 5,
+  "unlockContracts": [],
+  "isMain": false
+}

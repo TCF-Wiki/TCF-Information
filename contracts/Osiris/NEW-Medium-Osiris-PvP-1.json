@@ -1,0 +1,87 @@
+{
+  "inGameName": "NEW-Medium-Osiris-PvP-1",
+  "faction": "Osiris",
+  "factionReputation": 110,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 1,
+      "itemToOwn": "Flawed Veltecite",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_Pistol_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_SMG_Needle_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_AR_Beam_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_AR_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_AR_Needle_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_Sniper_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_G_HVY_Beam_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 11,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 6400,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 11,
+  "unlockContracts": [],
+  "isMain": false
+}

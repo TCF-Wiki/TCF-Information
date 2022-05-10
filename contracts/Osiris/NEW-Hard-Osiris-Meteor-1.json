@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-Osiris-Meteor-1",
+  "faction": "Osiris",
+  "factionReputation": 290,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Meteor Core"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 35,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 30000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 16,
+  "unlockContracts": [],
+  "isMain": false
+}

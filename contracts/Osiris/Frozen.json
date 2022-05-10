@@ -1,0 +1,34 @@
+{
+  "inGameName": "Frozen",
+  "description": "\"That crystal structure enveloping the caverns is far more resistant than I thought imaginable, the team was barely able to scratch it. I was curious about whether this moment would come... It's time wake up Dr. Fedotov. He was reportedly an acerbic firebrand in Osiris, and the best materials researcher the world has ever seen. Stayed on the surface to work for as long as possible, then put himself in a cryochamber when it became too late to evacuate safely. Just another problem I inherited when taking this position...\"",
+  "faction": "Osiris",
+  "factionReputation": 750,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "UniqueMissionLocation_FrozenEngineer"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 26,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 10000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

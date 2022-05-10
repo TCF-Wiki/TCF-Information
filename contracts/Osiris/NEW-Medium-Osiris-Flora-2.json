@@ -1,0 +1,33 @@
+{
+  "inGameName": "NEW-Medium-Osiris-Flora-2",
+  "faction": "Osiris",
+  "factionReputation": 90,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Dustbloom",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 6600,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 10,
+  "unlockContracts": [],
+  "isMain": false
+}

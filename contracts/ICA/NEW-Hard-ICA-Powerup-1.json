@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-ICA-Powerup-1",
+  "faction": "ICA",
+  "factionReputation": 310,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "MiniatureReactor"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 37,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 26000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 18,
+  "unlockContracts": [],
+  "isMain": false
+}

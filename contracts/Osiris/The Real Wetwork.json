@@ -1,0 +1,34 @@
+{
+  "inGameName": "The Real Wetwork",
+  "description": "\"Not bad. I'm always in need of samples from the surface for our research. See if you can get me some of these.\"",
+  "faction": "Osiris",
+  "factionReputation": 50,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Waterweed Filament"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4700,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Prove your Worth"
+  ],
+  "isMain": true
+}

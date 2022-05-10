@@ -1,0 +1,31 @@
+{
+  "inGameName": "Activities_Contract_Hard-ICA-BossHunt-1",
+  "faction": "ICA",
+  "factionReputation": 300,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Alpha Crusher Heart"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 36,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 404000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 17,
+  "unlockContracts": [],
+  "isMain": false
+}

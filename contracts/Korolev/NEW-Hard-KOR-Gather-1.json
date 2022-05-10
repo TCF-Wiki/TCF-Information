@@ -1,0 +1,41 @@
+{
+  "inGameName": "NEW-Hard-KOR-Gather-1",
+  "faction": "Korolev",
+  "factionReputation": 280,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Co-TEC MultiTool"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Ball Bearings"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Hydraulic Piston"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 33,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 14,
+  "unlockContracts": [],
+  "isMain": false
+}

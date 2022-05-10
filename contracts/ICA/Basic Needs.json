@@ -1,0 +1,45 @@
+{
+  "inGameName": "Basic Needs",
+  "description": "\"Some of our air filters are starting to show wear; get me these parts so we can fix them up before they fail.\"",
+  "faction": "ICA",
+  "factionReputation": 50,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Metallic Alloys"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "CircuitBoard"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Restoration Shield",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "ICAScrip",
+      "amount": 2,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 5200,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Animal Control"
+  ],
+  "isMain": true
+}

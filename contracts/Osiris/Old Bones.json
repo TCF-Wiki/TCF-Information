@@ -1,0 +1,39 @@
+{
+  "inGameName": "Old Bones",
+  "description": "\"I've been looking through old notes from before the evacuations and come upon something... interesting. There were some unique bone samples found at the Archeology site, distinctly mutated; retrieve them for me.\"",
+  "faction": "Osiris",
+  "factionReputation": 160,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "UniqueMissionLocation_FossilAreaEastCaverns"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Old Bones"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 3,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 5300,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

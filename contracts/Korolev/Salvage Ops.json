@@ -1,0 +1,44 @@
+{
+  "inGameName": "Salvage Ops",
+  "description": "\"There's not point in reinventing the wheel! Head out to the crashed Laser Drill on Bright Sands, there should still be some tech we can salvage to use for our prototype drill, it would save us a lot of time... and money.\"",
+  "faction": "Korolev",
+  "factionReputation": 2300,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_DerelictDrill"
+    },
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "UniqueMissionLocation_OldDrillHead"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Laser Drill Control Unit"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 117,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 17000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Building Blocks"
+  ],
+  "isMain": true
+}

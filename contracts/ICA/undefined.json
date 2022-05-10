@@ -1,0 +1,22 @@
+{
+  "faction": "ICA",
+  "factionReputation": 0,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_NorthUplink"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "HardDrive_rare"
+    }
+  ],
+  "rewards": [],
+  "unlockLevel": 0,
+  "unlockContracts": [],
+  "isMain": false
+}

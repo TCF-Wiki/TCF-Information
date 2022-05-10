@@ -1,0 +1,36 @@
+{
+  "inGameName": "NEW-Hard-ICA-Mine-2",
+  "faction": "ICA",
+  "factionReputation": 320,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Clear Veltecite"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Meteor Fragment"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 39,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 27000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 19,
+  "unlockContracts": [],
+  "isMain": false
+}

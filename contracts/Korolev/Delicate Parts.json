@@ -1,0 +1,44 @@
+{
+  "inGameName": "Delicate Parts",
+  "description": "\"Our drilling platform is nearly complete! Now we just need parts for its laser drill... It won't be of much use without it!\"",
+  "faction": "Korolev",
+  "factionReputation": 3600,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Gyroscope"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "MiniatureReactor"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 15,
+      "itemToOwn": "CopperWire"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 214,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 35000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Expensive Tastes"
+  ],
+  "isMain": true
+}

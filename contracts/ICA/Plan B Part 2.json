@@ -1,0 +1,57 @@
+{
+  "inGameName": "Plan B Part 2",
+  "description": "\"This looks very promising, if what the research you brought back is accurate, not only would we be solving our power issues here, but we'd have something to compete with Korolev's veltecite monopoly everywhere! There's references to a prototype being built at the Crescent Falls Power Plant; head there and find whatever you can, quick as you can!\"",
+  "faction": "ICA",
+  "factionReputation": 480,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Notes on Meteor Experiment - 2",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICA Guarantee",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "ICAScrip",
+      "amount": 14,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 8600,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Plan B Part 1"
+  ],
+  "isMain": true
+}

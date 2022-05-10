@@ -1,0 +1,44 @@
+{
+  "inGameName": "NEW-Hard-Osiris-Stash-3",
+  "faction": "Osiris",
+  "factionReputation": 320,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map02_PinnacleLab",
+      "deadDropItem": "Shield"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map02_PinnacleLab",
+      "deadDropItem": "Helmet"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map02_PinnacleLab",
+      "deadDropItem": "Bag_03"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 39,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 23000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 19,
+  "unlockContracts": [],
+  "isMain": false
+}

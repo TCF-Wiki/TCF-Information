@@ -1,0 +1,62 @@
+{
+  "inGameName": "NEW-Hard-Osiris-Hunt-7",
+  "faction": "Osiris",
+  "factionReputation": 310,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 4,
+      "itemToOwn": "Flawed Veltecite",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+      },
+      "locationConditions": "Map02_DesertPinnacleLabs"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 6,
+      "itemToOwn": "Flawed Veltecite",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+      },
+      "locationConditions": "Map02_DesertPinnacleLabs"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 12,
+      "itemToOwn": "Flawed Veltecite",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+      },
+      "locationConditions": "Map02_DesertPinnacleLabs"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 37,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 16000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 18,
+  "unlockContracts": [],
+  "isMain": false
+}

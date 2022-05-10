@@ -1,0 +1,50 @@
+{
+  "inGameName": "Main-ICA-OilPump-8",
+  "description": "\"You're back just in time; the tech guys have a new list of things they need to finalize NiC refiner and install them in the pumps. After that it will just be a matter of calling them down in the right spot...\"",
+  "faction": "ICA",
+  "factionReputation": 2800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "MiniatureReactor"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "SmartMesh"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Gyroscope"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Oil Pump Beacon",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "ICAScrip",
+      "amount": 158,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 47000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

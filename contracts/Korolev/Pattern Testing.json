@@ -1,0 +1,59 @@
+{
+  "inGameName": "Pattern Testing",
+  "description": "\"Something different this time... We need efficiency data on Shotgun style weapons to help improve our own. This shouldn't take you long, I hope.\"",
+  "faction": "Korolev",
+  "factionReputation": 2300,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [
+          "EYDeviceCategory::Shotgun"
+        ],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 25,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [
+          "EYDeviceCategory::Shotgun"
+        ],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Helmet",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 117,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 17000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Salvage Ops"
+  ],
+  "isMain": true
+}

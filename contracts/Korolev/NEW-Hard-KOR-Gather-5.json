@@ -1,0 +1,41 @@
+{
+  "inGameName": "NEW-Hard-KOR-Gather-5",
+  "faction": "Korolev",
+  "factionReputation": 330,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Derelict Explosives"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "CombatCPU_red"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 15,
+      "itemToOwn": "Compound Sheets"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 40,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 44000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 20,
+  "unlockContracts": [],
+  "isMain": false
+}

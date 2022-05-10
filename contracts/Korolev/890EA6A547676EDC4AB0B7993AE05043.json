@@ -1,0 +1,37 @@
+{
+  "inGameName": "890EA6A547676EDC4AB0B7993AE05043",
+  "faction": "Korolev",
+  "factionReputation": 200,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "HardDrive_epic"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Shield",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 16000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [],
+  "isMain": false
+}

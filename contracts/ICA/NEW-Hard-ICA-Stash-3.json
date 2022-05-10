@@ -1,0 +1,32 @@
+{
+  "inGameName": "NEW-Hard-ICA-Stash-3",
+  "faction": "ICA",
+  "factionReputation": 310,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 4,
+      "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+      "deadDropItem": "CombatCPU_Blue"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 37,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 18,
+  "unlockContracts": [],
+  "isMain": false
+}

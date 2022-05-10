@@ -1,0 +1,41 @@
+{
+  "inGameName": "NEW-Medium-ICA-Gather-2",
+  "faction": "ICA",
+  "factionReputation": 260,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Shard Slicer"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 12,
+      "itemToOwn": "Hardened Metals"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "CombatCPU_Blue"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 31,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 22000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 12,
+  "unlockContracts": [],
+  "isMain": false
+}

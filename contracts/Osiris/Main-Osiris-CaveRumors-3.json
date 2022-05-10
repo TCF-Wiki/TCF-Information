@@ -1,0 +1,73 @@
+{
+  "inGameName": "Main-Osiris-CaveRumors-3",
+  "description": "\"I listened through parts of that crashed ship's flight recorder, and several conversations caught from the cabin had our man talking about 'Crystal Caverns' in relation to his research. Head there and see what you find, collect mineral and bio-samples from the area.\"",
+  "faction": "Osiris",
+  "factionReputation": 480,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map02_EliteCrusherDungeonSeal"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 10,
+      "itemToOwn": "AI_RattlerSkin",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map02_EliteCrusherDungeonSeal"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Clear Veltecite",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Phasic Lancer",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "OsirisScrip",
+      "amount": 14,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 17000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

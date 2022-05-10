@@ -1,0 +1,5509 @@
+{
+  "Test-Location": {
+    "inGameName": "FB5F01384728CDB02EF6B083FD0D56E0",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "TestContract01"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-ICA-BossHunt-1": {
+    "inGameName": "Activities_Contract_Easy-ICA-BossHunt-1",
+    "faction": "ICA",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Alpha Crusher Heart"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 131000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-BossHunt-1": {
+    "inGameName": "Activities_Contract_Medium-ICA-BossHunt-1",
+    "faction": "ICA",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Alpha Crusher Heart"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 265000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-ICA-BossHunt-1": {
+    "inGameName": "Activities_Contract_Hard-ICA-BossHunt-1",
+    "faction": "ICA",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Alpha Crusher Heart"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 404000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-ICA-PowerUp-1": {
+    "inGameName": "Activities_Contract_Easy-ICA-PowerUp-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-PowerUp-1": {
+    "inGameName": "Activities_Contract_Medium-ICA-PowerUp-1",
+    "faction": "ICA",
+    "factionReputation": 25,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-ICA-PowerUp-1": {
+    "inGameName": "Activities_Contract_Hard-ICA-PowerUp-1",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-ICA-Uplink-1": {
+    "inGameName": "Activities_Contract_Easy-ICA-Uplink-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_uncommon"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-Uplink-1": {
+    "inGameName": "Activities_Contract_Medium-ICA-Uplink-1",
+    "faction": "ICA",
+    "factionReputation": 43,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_rare"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 6,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-ICA-Uplink-1": {
+    "inGameName": "Activities_Contract_Hard-ICA-Uplink-1",
+    "faction": "ICA",
+    "factionReputation": 250,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 30,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-ICA-StormSurge-1": {
+    "inGameName": "Activities_Contract_Easy-ICA-StormSurge-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Storm Surge Crystal"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-StormSurge-1": {
+    "inGameName": "Activities_Contract_Medium-ICA-StormSurge-1",
+    "faction": "ICA",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Storm Surge Crystal"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-ICA-StormSurge-1": {
+    "inGameName": "Activities_Contract_Hard-ICA-StormSurge-1",
+    "faction": "ICA",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Storm Surge Crystal"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-ICA-Materials-1": {
+    "inGameName": "Activities_Contract_Easy-ICA-Materials-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-Materials-1": {
+    "inGameName": "Activities_Contract_Medium-ICA-Materials-1",
+    "faction": "ICA",
+    "factionReputation": 52,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 7,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 7,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Hard-ICA-Materials-1": {
+    "inGameName": "Activities_Contract_Hard-ICA-Materials-1",
+    "faction": "ICA",
+    "factionReputation": 250,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 30,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Easy-ICA_FTUE-Hunt-1": {
+    "inGameName": "Activities_Contract_Easy-ICA_FTUE-Hunt-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Cadmium",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-Conditional-1": {
+    "inGameName": "Medium-ICA-Conditional-1",
+    "faction": "ICA",
+    "factionReputation": 25,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CommsTower"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-Conditional-2": {
+    "inGameName": "Medium-ICA-Conditional-2",
+    "faction": "ICA",
+    "factionReputation": 30,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CentralStation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-Conditional-3": {
+    "inGameName": "Medium-ICA-Conditional-3",
+    "faction": "ICA",
+    "factionReputation": 25,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_DigSite"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Compound Sheets"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Medium-ICA-Conditional-4": {
+    "inGameName": "Medium-ICA-Conditional-4",
+    "faction": "ICA",
+    "factionReputation": 30,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Gather-1": {
+    "inGameName": "NEW-Easy-ICA-Gather-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Aluminum scrap"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Gather-2": {
+    "inGameName": "NEW-Easy-ICA-Gather-2",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Polymetallic Prefabricate"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Gather-3": {
+    "inGameName": "NEW-Easy-ICA-Gather-3",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Gather-4": {
+    "inGameName": "NEW-Easy-ICA-Gather-4",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Gather-5": {
+    "inGameName": "NEW-Easy-ICA-Gather-5",
+    "faction": "ICA",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Compound Sheets"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Polymetallic Prefabricate"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Gather-1": {
+    "inGameName": "NEW-Medium-ICA-Gather-1",
+    "faction": "ICA",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "BlueWood"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Gather-2": {
+    "inGameName": "NEW-Medium-ICA-Gather-2",
+    "faction": "ICA",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Shard Slicer"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Hardened Metals"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 9900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Gather-3": {
+    "inGameName": "NEW-Medium-ICA-Gather-3",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Autoloader"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Optic Glass"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 12,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 12,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Gather-4": {
+    "inGameName": "NEW-Medium-ICA-Gather-4",
+    "faction": "ICA",
+    "factionReputation": 160,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "Hardened Metals"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Metallic Alloys"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Polymetallic Prefabricate"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 13,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 13,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-1": {
+    "inGameName": "NEW-Hard-ICA-Gather-1",
+    "faction": "ICA",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "CombatCPU_Blue"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Derelict Explosives"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 34,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 30000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 15,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-2": {
+    "inGameName": "NEW-Hard-ICA-Gather-2",
+    "faction": "ICA",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6000,
+        "itemToOwn": "Old Currency"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 16,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-3": {
+    "inGameName": "NEW-Hard-ICA-Gather-3",
+    "faction": "ICA",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Shock Absorber"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "Compound Sheets"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-and-PvE-4": {
+    "inGameName": "NEW-Hard-ICA-Gather-and-PvE-4",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 20,
+        "itemToOwn": "Charged Spinal Base",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 14,
+        "itemToOwn": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 18,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-5": {
+    "inGameName": "NEW-Hard-ICA-Gather-5",
+    "faction": "ICA",
+    "factionReputation": 320,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Autoloader"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Shard Slicer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 39,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 37000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Mine-1": {
+    "inGameName": "NEW-Hard-ICA-Mine-1",
+    "faction": "ICA",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Pure Focus Crystal"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 34,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 26000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 15,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Mine-2": {
+    "inGameName": "NEW-Hard-ICA-Mine-2",
+    "faction": "ICA",
+    "factionReputation": 320,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Clear Veltecite"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Meteor Fragment"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 39,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 27000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Hunt-1": {
+    "inGameName": "NEW-Easy-ICA-Hunt-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 2,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Hunt-2": {
+    "inGameName": "NEW-Easy-ICA-Hunt-2",
+    "faction": "ICA",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Hunt-3": {
+    "inGameName": "NEW-Easy-ICA-Hunt-3",
+    "faction": "ICA",
+    "factionReputation": 18,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CentralStation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 1800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 5,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Hunt-1": {
+    "inGameName": "NEW-Medium-ICA-Hunt-1",
+    "faction": "ICA",
+    "factionReputation": 75,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 9,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Hunt-2": {
+    "inGameName": "NEW-Medium-ICA-Hunt-2",
+    "faction": "ICA",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_NutrionFarmsWarehouse"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Hunt-1": {
+    "inGameName": "NEW-Hard-ICA-Hunt-1",
+    "faction": "ICA",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Hunt-2": {
+    "inGameName": "NEW-Hard-ICA-Hunt-2",
+    "faction": "ICA",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_CommsBase"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        },
+        "locationConditions": "Map01_CommsBase"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 16,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-PvP-1": {
+    "inGameName": "NEW-Medium-ICA-PvP-1",
+    "faction": "ICA",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-PvP-2": {
+    "inGameName": "NEW-Medium-ICA-PvP-2",
+    "faction": "ICA",
+    "factionReputation": 75,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 9,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-PvP-3": {
+    "inGameName": "NEW-Medium-ICA-PvP-3",
+    "faction": "ICA",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-PvP-and-PvE-1": {
+    "inGameName": "NEW-Hard-ICA-PvP-and-PvE-1",
+    "faction": "ICA",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 34,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 15,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-PvP-1": {
+    "inGameName": "NEW-Hard-ICA-PvP-1",
+    "faction": "ICA",
+    "factionReputation": 290,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CentralStation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 16,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-PvP-2": {
+    "inGameName": "NEW-Hard-ICA-PvP-2",
+    "faction": "ICA",
+    "factionReputation": 320,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 39,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-PvP-3": {
+    "inGameName": "NEW-Hard-ICA-PvP-3",
+    "faction": "ICA",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Jungle"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "Flawed Veltecite",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Jungle"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Uplink-1": {
+    "inGameName": "NEW-Easy-ICA-Uplink-1",
+    "faction": "ICA",
+    "factionReputation": 15,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_uncommon"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 4,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Uplink-1": {
+    "inGameName": "NEW-Medium-ICA-Uplink-1",
+    "faction": "ICA",
+    "factionReputation": 43,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_rare"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 6,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Uplink-2": {
+    "inGameName": "NEW-Medium-ICA-Uplink-2",
+    "faction": "ICA",
+    "factionReputation": 52,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_rare"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 9500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 7,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Uplink-1": {
+    "inGameName": "NEW-Hard-ICA-Uplink-1",
+    "faction": "ICA",
+    "factionReputation": 260,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 31,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 12,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Uplink-2": {
+    "inGameName": "NEW-Hard-ICA-Uplink-2",
+    "faction": "ICA",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_legendary"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Uplink-3": {
+    "inGameName": "NEW-Hard-ICA-Uplink-3",
+    "faction": "ICA",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_legendary"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 47000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Powerup-1": {
+    "inGameName": "NEW-Easy-ICA-Powerup-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MiniatureReactor"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 3500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Powerup-1": {
+    "inGameName": "NEW-Medium-ICA-Powerup-1",
+    "faction": "ICA",
+    "factionReputation": 43,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "MiniatureReactor"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 6,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Powerup-2": {
+    "inGameName": "NEW-Medium-ICA-Powerup-2",
+    "faction": "ICA",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "MiniatureReactor"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Powerup-1": {
+    "inGameName": "NEW-Hard-ICA-Powerup-1",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "MiniatureReactor"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 26000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 18,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Gather-and-PvE-1": {
+    "inGameName": "NEW-Medium-ICA-Gather-and-PvE-1",
+    "faction": "ICA",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "BlueWood",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Stash-1": {
+    "inGameName": "NEW-Easy-ICA-Stash-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Stash-1": {
+    "inGameName": "NEW-Medium-ICA-Stash-1",
+    "faction": "ICA",
+    "factionReputation": 52,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map01_CommsBase_Tower",
+        "deadDropItem": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 7,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Stash-2": {
+    "inGameName": "NEW-Medium-ICA-Stash-2",
+    "faction": "ICA",
+    "factionReputation": 75,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3000,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "Old Currency"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 9,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Stash-3": {
+    "inGameName": "NEW-Medium-ICA-Stash-3",
+    "faction": "ICA",
+    "factionReputation": 90,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "Shattergun"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 10,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Stash-4": {
+    "inGameName": "NEW-Medium-ICA-Stash-4",
+    "faction": "ICA",
+    "factionReputation": 110,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map02_NutronFarms_StorageRoom",
+        "deadDropItem": "MiniatureReactor"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Stash-5": {
+    "inGameName": "NEW-Medium-ICA-Stash-5",
+    "faction": "ICA",
+    "factionReputation": 110,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1000,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "Medium"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Stash-1": {
+    "inGameName": "NEW-Hard-ICA-Stash-1",
+    "faction": "ICA",
+    "factionReputation": 270,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+        "deadDropItem": "HardDrive_rare"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 32,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 13,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Stash-2": {
+    "inGameName": "NEW-Hard-ICA-Stash-2",
+    "faction": "ICA",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 20,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "Polymetallic Prefabricate"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Stash-3": {
+    "inGameName": "NEW-Hard-ICA-Stash-3",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "CombatCPU_Blue"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 18,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Stash-4": {
+    "inGameName": "NEW-Hard-ICA-Stash-4",
+    "faction": "ICA",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map02_StarportAdmin_Cafeteria",
+        "deadDropItem": "Advocate"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 39000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Easy-ICA-Flora-1": {
+    "inGameName": "NEW-Easy-ICA-Flora-1",
+    "faction": "ICA",
+    "factionReputation": 13,
+    "difficulty": "Easy",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 2900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 3,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Flora-1": {
+    "inGameName": "NEW-Medium-ICA-Flora-1",
+    "faction": "ICA",
+    "factionReputation": 52,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 7,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Flora-and-PvP-1": {
+    "inGameName": "NEW-Medium-ICA-Flora-and-PvP-1",
+    "faction": "ICA",
+    "factionReputation": 110,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Lake"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 11,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-and-PvE-1": {
+    "inGameName": "NEW-Medium-ICA-Gather-and-PvE-1",
+    "faction": "ICA",
+    "factionReputation": 270,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 20,
+        "itemToOwn": "BlueWood",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 32,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 13,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-6": {
+    "inGameName": "NEW-Medium-ICA-Gather-2",
+    "faction": "ICA",
+    "factionReputation": 260,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Shard Slicer"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "Hardened Metals"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "CombatCPU_Blue"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 31,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 12,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Main-ICA-FTUE-1": {
+    "inGameName": "Simple Needs",
+    "description": "\"Welcome! The ICA is always looking for new Prospectors to work with, but let's see if you have what it takes. Can you get us this item from the surface?\"",
+    "faction": "ICA",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Compound Sheets"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [],
+    "isMain": true,
+    "chainName": "Your Civic Duty",
+    "chainDescription": "The Independent Civilian Advisory are all about keeping Prospect Station afloat and everyone in it alive.\r\nWill you step up and help? A talented prospector could benefit from being on their good side..."
+  },
+  "Main-ICA-GainTrust-1": {
+    "inGameName": "Don't Forget to Recycle",
+    "description": "\"Great! We're always in need of basic materials to help maintain this station and all its thousands of parts. Speaking of which...\"",
+    "faction": "ICA",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Hardened Metals",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Spinal Base",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Simple Needs"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GainTrust-2": {
+    "inGameName": "Animal Control",
+    "description": "\"Critters at the Bright Sands Base Camp have an apetite for old electronics and other salvageable goods. Killing a few should scare them off for a while.\"",
+    "faction": "ICA",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Aluminum scrap",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CentralStation"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Aluminum scrap",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CentralStation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "C-32 Bolt Action",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Don't Forget to Recycle"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GainTrust-3": {
+    "inGameName": "Basic Needs",
+    "description": "\"Some of our air filters are starting to show wear; get me these parts so we can fix them up before they fail.\"",
+    "faction": "ICA",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Metallic Alloys"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "CircuitBoard"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Restoration Shield",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Animal Control"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GainTrust-4": {
+    "inGameName": "The Forester",
+    "description": "\"A lot of our crafts use Azure Tree Bark, but it's hard to obtain with all the dangerous creatures on the surface. Clear out the old Woodcutter Camp on Bright Sands, and bring back some wood while you're at it.\"",
+    "faction": "ICA",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Metallic Alloys",
+        "locationConditions": "Map01_WoodCutterCamp"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Metallic Alloys",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WoodCutterCamp"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "BlueWood"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_02",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Basic Needs"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-AudioDecoys-1": {
+    "inGameName": "Main-ICA-AudioDecoys-1",
+    "description": "\"Good to see you again! As you know the ICA likes to tinker and create its own tools, and I think prospectors like you will like what we're fixing up now! But first, you'll need to stash a few grenades for us, over in the Swamp Camp.\"",
+    "faction": "ICA",
+    "factionReputation": 160,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "itemToOwn": "Aluminum scrap",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Forester"
+    ],
+    "isMain": true,
+    "chainName": "Audiophiles Beware",
+    "chainDescription": "An energetic engineer wants to develop a new kind of grenade, something particularly useful for anyone adventuring on the planet's surface.\r\nA decoy of some kind, to throw off rivals and bait hostile creatures, might be just the thing!"
+  },
+  "Main-ICA-AudioDecoys-2": {
+    "inGameName": "Main-ICA-AudioDecoys-2",
+    "description": "\"Very good! We needed those for some live testing on the ground, see what works best against the planet's creatures. On that note, we need some more materials for our prototypes; fetch us these, OK?\"",
+    "faction": "ICA",
+    "factionReputation": 160,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "CopperWire",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Ball Bearings",
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "ShockGrenade_02",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-AudioDecoys-3": {
+    "inGameName": "Main-ICA-AudioDecoys-3",
+    "description": "\"The project's head engineer insists on building some of these new grenades on the planet itself, says it makes them 'authentic' and 'part of the planet'... Not worth arguing about. Make sure she gets the equipment she needs to work, back in the Swamp Camp.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "Electronic Cables"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "\"Fusion Cartridge\" Batteries"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_AudioDecoy_01",
+        "amount": 5,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GruntWork-1": {
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  "Main-ICA-GruntWork-2": {
+    "inGameName": "Main-ICA-GruntWork-2",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "MiniatureReactor",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Main-ICA-GruntWork-3": {
+    "inGameName": "Main-ICA-GruntWork-3",
+    "description": "\"So it was Tao, damn it. He took up prospecting in the early days, before word got out... and before foam kits came standard. Some said he must have just made it big and sneaked off to another system, but I never believed that. I have a lot to think about... and more work for you.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "CombatCPU_Blue"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Restoration Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Old Friend"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GruntWork-4": {
+    "inGameName": "Main-ICA-GruntWork-4",
+    "description": "\"The ICA may run this station, but its Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_SouthEastUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GruntWork-5": {
+    "inGameName": "Main-ICA-GruntWork-5",
+    "description": "\"I'm organizing a team to scout Bright Sands for Tao's comm signal; if he came close enough to an active repeater it should be logged in the network. And I need you to stash some spare equipment for them, just in case.\" ",
+    "faction": "ICA",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_CommsBase"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "CircuitBoard"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GruntWork-6": {
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_NorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Main-ICA-GruntWork-7": {
+    "inGameName": "Main-ICA-GruntWork-7",
+    "description": "\"At least I finally know for sure. I have a lot to go through from the data you retrieved, but it looks like Tao was thinking ahead, as always. He knew power would become an issue, and found something that could help. For now, get us Fusion Batteries, it's what he was looking for on his last drop. And shoot some aliens for him while you're down there, he'd have liked that.\"",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Stranded Prospector"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GruntWork-8": {
+    "inGameName": "Main-ICA-GruntWork-8",
+    "description": "\"Tao collected a lot of old research, it's hard to tell what's useful and what's just theory. Stash these items at the Bright Sands' Base Camp, I'll send someone down there to run some tests on the surface, don't want to risk blowing a hole out of the station.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-GasGrenades-1": {
+    "inGameName": "Main-ICA-GasGrenades-1",
+    "description": "\"There was something that will interest you among all the data you recovered; get these items to the Comms Tower stash and we can begin working on a new kind of grenade.\"",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CommsBase_Tower",
+        "deadDropItem": "HardDrive_rare"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map01_CommsBase_Tower",
+        "deadDropItem": "Consumable_SmokeGrenade_01"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Stranded Prospector"
+    ],
+    "isMain": true,
+    "chainName": "Toxic Love",
+    "chainDescription": "The ICA are developing a new grenade type, equipped with lethal toxic gasses.\r\nHelp them get what they need, those things would be great for area denial... or getting rid of anyone holed up in a fortified position."
+  },
+  "Main-ICA-GasGrenades-2": {
+    "inGameName": "Main-ICA-GasGrenades-2",
+    "description": "\"We'll need something 'special' for these; head down and retrieve these items for us, then we'll have a crack at synthesizing the right juices to make this work. I think you'll love the results...\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Toxic Glands"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Metallic Alloys"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 7,
+        "itemToOwn": "Hydraulic Piston"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_GasGrenade_01",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-MeteorReactor-1": {
+    "inGameName": "Main-ICA-MeteorReactor-1",
+    "description": "\"Our people have gone through more of the data Tao recovered, and this might just make sense. We'll need some mag stabs to start our tests, and more importantly, Meteor Fragments.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Meteor Fragment"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\nA prospector's life is definitely never boring."
+  },
+  "Main-ICA-MeteorReactor-2": {
+    "inGameName": "Main-ICA-MeteorReactor-2",
+    "description": "\"This sort of research requires equipment we don't have at hand, and I know Osiris isn't just going to give it to us... Check these locations and some Portable Labs for us, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_OsirisWildlifePreserve"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Portable Lab"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-MeteorReactor-3": {
+    "inGameName": "Main-ICA-MeteorReactor-3",
+    "description": "\"I read through the report you brought back; it's not the easy win I had hoped for, but my people assure me they can make improvements on the original designs to make it work. We'll need some meteor cores first, of course. Oh, and take out some other prospectors; reports of increased violence should keep any Korolev people on the field away, don't want them getting curious about what we're up to.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 31000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 2"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-MeteorReactor-4": {
+    "inGameName": "Main-ICA-MeteorReactor-4",
+    "description": "\"I'm preparing to send a team down to the surface to finalize a prototype and run tests well away from the station; everyone assures me it's safe, but I've read the warning myself. I need you to cull the number of creatures at these locations, it should make life for my people easier.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Lake"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_StarportWarehouse"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-MeteorReactor-5": {
+    "inGameName": "Main-ICA-MeteorReactor-5",
+    "description": "\"One of the supply crates for our project was left open under the rain, damaged most of the contents and now my team needs replacement parts. Stash them somewhere safe, we need to finish that prototype.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CircuitBoard"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 6,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CopperWire"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Lacerator",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-CommunityWork-1": {
+    "inGameName": "Main-ICA-CommunityWork-1",
+    "description": "\"Good, you're here. We have a request from a former colonist to stash some items on the surface. We get these from time to time; it started out as people hoping their loved ones were still down there, in need of supplies... These days it's just a ritual for them. I guess this is how weird traditions start, huh?\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+        "deadDropItem": "Pale Ivy Blossom"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+        "deadDropItem": "Jewellery"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5000,
+        "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+        "deadDropItem": "Old Currency"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Working for the Community",
+    "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too."
+  },
+  "Main-ICA-CommunityWork-2": {
+    "inGameName": "Main-ICA-CommunityWork-2",
+    "description": "\"Another prospector took a bad beating in Crescent Falls; foam kit failed to deploy fully and left his arm exposed. Not much left of it when the retrieval bot got to him, and he wants revenge. I hope you can satisfy his request?\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_GreensProspect"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_GreensProspect"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-CommunityWork-3": {
+    "inGameName": "Main-ICA-CommunityWork-3",
+    "description": "\"Fruit from Fortuna III fetches a nice price in the Artery systems, rare delicacy from a deadly world and all that. Growing it on the station would be a lot easier, don't you think?\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "SmartMesh"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "AlienFruit"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_03",
+        "amount": 2,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 28000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilSearch-1": {
+    "inGameName": "Main-ICA-OilSearch-1",
+    "description": "\"Project Fireball was a bust, barely any power output before all the safeties kicked in and deadlocked the system. At least we have a lead on alternative, something called 'NiC' they were searching for in several locations. Head to the first one on the list for me, once it's clear I can send a few people down to investigate.\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_PumpkinFields"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_PumpkinFields"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up.\r\nThe research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  "Main-ICA-OilSearch-2": {
+    "inGameName": "Main-ICA-OilSearch-2",
+    "description": "\"This whole ordeal has sapped too many of our funds and resources, we need to get back in people's minds, and their cash in our pockets. I want you to head to the old Geothermal Plant and remind anyone in the area that ICA sells the best weaponry. And bring back some loot while you're in the area, for the sake of appearances.\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_GeothermalPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Sample Container",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilSearch-3": {
+    "inGameName": "Main-ICA-OilSearch-3",
+    "description": "\"Another location mentioned is around the Skeleton Research area; head there and clear it out. Hrmm, the wrong people might start getting curious about what we're up to... bring back some Rattler Skins and salvaged equipment; you know, normal prospector work.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "AI_RattlerSkin",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Biological Sampler",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_02",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-ExtraWork-1": {
+    "inGameName": "Main-ICA-ExtraWork-1",
+    "description": "\"I've been sitting on a fairly 'particular' commission from an out of system arms company for some time, but I think you're up to the task. They want 'real world' data on the efficacy of pistols used against other armed opponents. Fortuna III's peculiar legal status and the use of emergency foam kits makes it a perfect testing ground, you see.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Private Business",
+    "chainDescription": "Some more private work has come up, and you're the right Prospector for the job."
+  },
+  "Main-ICA-ExtraWork-2": {
+    "inGameName": "Main-ICA-ExtraWork-2",
+    "description": "\"We have reports of increased creature activity in several locations; go to each and thin out their numbers.\"",
+    "faction": "ICA",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_CentralStation"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-ExtraWork-3": {
+    "inGameName": "Main-ICA-ExtraWork-3",
+    "description": "\"A private researcher has requested we help them acquire certain creature parts; apparently they usually got them from Osiris for free, but they've cut off his supply after some personal dispute.\"",
+    "faction": "ICA",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 35000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilPump-1": {
+    "inGameName": "Main-ICA-OilPump-1",
+    "description": "\"Our people on the surface analyzed everything at the locations you cleared, and they only found some crude oil-like sludge, but it barely burns. It might be nothing, but it's the only outlier. They need specialized equipment to transport samples back home, stash what they need at the Nutrion Farms Office, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 10,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "Polymetallic Prefabricate"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "Resin Gun"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Back to Basics?",
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+  },
+  "Main-ICA-OilPump-2": {
+    "inGameName": "Main-ICA-OilPump-2",
+    "description": "\"While our people look into the 'crude' samples, there might be something we can search for in the surface networks about it; you'll need to check Uplink stations on Crescent Falls, then we can see if there's anything there about that makes sense out of this.\"",
+    "faction": "ICA",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_StarportPad"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_legendary"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 45000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilPump-3": {
+    "inGameName": "Main-ICA-OilPump-3",
+    "description": "\"We finally know that 'NiC' stands for Nanite-infused Crude. Someone figured out a way to the trigger a reaction in the nanobots' own batteries and get a small burst of energy from them; not much, but with billions of bots in a liter of NiC, it could be the answer to our energy troubles. Now, we just need to build some pumps! Get us these materials so we can fix up a first batch.\"",
+    "faction": "ICA",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Metallic Alloys"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "Hydraulic Piston"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Shock Absorber"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Abandoned Oil Field"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilPump-4": {
+    "inGameName": "Main-ICA-OilPump-4",
+    "description": "\"While we work on building those pumps, a request from a local artist has come in for Hardened Bone Plates; they apparently make for a good crafting material. Kill some Marauders and complete the order for us, please.\"",
+    "faction": "ICA",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "itemToOwn": "Metallic Alloys",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilPump-6": {
+    "inGameName": "Main-ICA-OilPump-6",
+    "description": "\"Getting these pumps to work isn't as simple as we'd hoped. The pumps need to refine the NiC to eliminate as much crude as possible and concentrate the nanites in one convenient package ready for use, and that process some higher tech components than a simple pump. Here's what we need for now.\"",
+    "faction": "ICA",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "CircuitBoard"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Shard Slicer"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "CombatCPU_red"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_04",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 42000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilPump-7": {
+    "inGameName": "Main-ICA-OilPump-7",
+    "description": "\"That Dr. Sullivan is starting to poke around and ask questions, he likes to think Osiris are the only ones that can do any research around here. But if he's curious, then so is that Korolev snake. Head to the surface and perform some 'live' tests with ICA guns, and I'll spread scuttlebutt that we're workng on new weapon improvements.\"",
+    "faction": "ICA",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 6,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilPump-8": {
+    "inGameName": "Main-ICA-OilPump-8",
+    "description": "\"You're back just in time; the tech guys have a new list of things they need to finalize NiC refiner and install them in the pumps. After that it will just be a matter of calling them down in the right spot...\"",
+    "faction": "ICA",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "SmartMesh"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Gyroscope"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Oil Pump Beacon",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 47000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-OilScanModule-1": {
+    "inGameName": "Main-ICA-OilScanModule-1",
+    "description": "\"We've got working oil pumps, but the yield will never be what we need if we don't know where the best wells are. Thankfully we have plans for a new Scanner mod, able to pinpoint any nearby concentrations of nanites. Get us these items and we'll get one made as soon as we can.\"",
+    "faction": "ICA",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Radio Equipment"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "CopperWire"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Pure Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 28000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "An Eye for Oil",
+    "chainDescription": "You may be able to stumble upon a good oil well by chance, but the ICA can't depend on just dumb luck alone if they want this project to succeed. \r\nA new mod for your Scanner will ensure you always know where to call down Oil Pumps."
+  },
+  "Main-ICA-OilScanModule-2": {
+    "inGameName": "Main-ICA-OilScanModule-2",
+    "description": "\"Excellent, but you're not done yet. These are the last components we need, I promise.\"",
+    "faction": "ICA",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "CircuitBoard"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Datapad"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 42000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-TestRun-1": {
+    "inGameName": "Main-ICA-TestRun-1",
+    "description": "\"We've gotten reports of Crushers near several of the candidate locations for our oil pump test runs. If one of those beasts wanders into the area while the pumps are running, I don't imagine they'd just leave them alone. I'm putting out contracts for Crusher kills; you can take on the first.\"",
+    "faction": "ICA",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Put to the Test",
+    "chainDescription": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges.\r\nA lot is riding on this, Prospector."
+  },
+  "Main-ICA-TestRun-2": {
+    "inGameName": "Main-ICA-TestRun-2",
+    "description": "\"Time to see if our plans will pay out. Use your new Scanner mod find wells, place oil pumps, and bring back some NiC Cannisters. If this works, the entire station will be in your debt, Prospector!\"",
+    "faction": "ICA",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "NiC Oil Cannister"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Kinetic Arbiter",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 222000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-ExtraWork2-1": {
+    "inGameName": "Main-ICA-ExtraWork2-1",
+    "description": "\"Don't spread this around, but the freighter bringing fresh supplies for the station isn't just 'running late', it's missing. Our inventory on several items is already low and getting worse by the day. Thankfully the planet has all we need... it's just 'a bit' hard to get to. Here's a list of what we need the most.\"",
+    "faction": "ICA",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Textiles",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Shard Slicer",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "MiniatureReactor",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Community Needs You",
+    "chainDescription": ""
+  },
+  "Main-ICA-ExtraWork2-2": {
+    "inGameName": "Main-ICA-ExtraWork2-2",
+    "description": "\"I've been stumped trying to find a birthday gift for one of ICA's oldest members, but I think I've finally got it. This woman holds a real grudge against rattlers, says no matter she went in the final evac days, they were there hounding her. Head to these locations and take some out, I'm sure she'll love the footage.\"",
+    "faction": "ICA",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_WoodCutterCamp"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-ExtraWork2-3": {
+    "inGameName": "Main-ICA-ExtraWork2-3",
+    "description": "\"I appreciate you doing that for me... but I have one more thing to ask. If you could get me some rattler skins and bone plates, it'll make the presentation of my gift so much better. Thank you!\"",
+    "faction": "ICA",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "AI_RattlerSkin"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Advocate",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 41000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-Unique-1": {
+    "inGameName": "SOS Sign",
+    "description": "\"I'm glad you're here, something has just come and we need someone on the surface. An evac ship pilot caught sight of an 'SOS' after trying a new approach for the first time, but saw nobody in the area. We're not sure how long it's been there, but I'd like you to check the area for me.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_SosSign"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Forester"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  "Main-ICA-Unique-2": {
+    "inGameName": "Old Friend",
+    "description": "\"I'm not surprised you didn't find anyone... I think I know who left the SOS there, it's something he joked about in case he ever got stranded. Check this next location for me, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Sign of Life from Stranded Prospector"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "SOS Sign"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-Unique-3": {
+    "inGameName": "The Stranded Prospector",
+    "description": "\"We found a number of candidate locations Tao could have visited, but there's one only a skilled prospector can access. Head there, and check the nearby Uplink; if I kno- knew, Tao, he'll have saved something for us to find.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-Unique-4": {
+    "inGameName": "Plan B Part 1",
+    "description": "\"There were quite a few people involved with this research, it doesn't make sense that it was just forgotten. There should be more research kept in the surface power plants' head offices; check the one on Bright Sands first.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap1"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 1",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-ICA-Unique-5": {
+    "inGameName": "Plan B Part 2",
+    "description": "\"This looks very promising, if what the research you brought back is accurate, not only would we be solving our power issues here, but we'd have something to compete with Korolev's veltecite monopoly everywhere! There's references to a prototype being built at the Crescent Falls Power Plant; head there and find whatever you can, quick as you can!\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 2",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Guarantee",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 1"
+    ],
+    "isMain": true
+  },
+  "Main-ICA-Unique-6": {
+    "inGameName": "Abandoned Oil Field",
+    "description": "\"This stuff is actual crude oil... mixed with billions upon billions of dead nanobots. It must have been used by the Progenitors to help terraform the planet! My predecessors from before the storms set up some pumps to collect the stuff; head to them and retrieve what you can.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Oil Pump Part",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  }
+}

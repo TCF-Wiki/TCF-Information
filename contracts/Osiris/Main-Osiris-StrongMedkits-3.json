@@ -1,0 +1,41 @@
+{
+  "inGameName": "Main-Osiris-StrongMedkits-3",
+  "description": "\"We have reason to believe Korolev has a mole and is trying to steal our work on these Medkits and put them to market before we do; I've seeded rumors to different members of my team, if Korolev acts on them I'll know who the leak is. Stash these old medicines at the Waterfall Labs in Bright Sands; if Korolev sends an agent to retrieve them, I'll have my man.\"",
+  "faction": "Osiris",
+  "factionReputation": 1200,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 8,
+      "deadDropLocation": "Map01_WaterfallLab",
+      "deadDropItem": "Old Medicine"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Consumable_Health_05",
+      "amount": 10,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "OsirisScrip",
+      "amount": 48,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 14000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

@@ -1,0 +1,32 @@
+{
+  "inGameName": "NEW-Medium-Osiris-Stash-2",
+  "faction": "Osiris",
+  "factionReputation": 75,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "deadDropLocation": "Map01_CenterBase_Office",
+      "deadDropItem": "Datapad"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 10000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 9,
+  "unlockContracts": [],
+  "isMain": false
+}

@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-Osiris-Gather-5",
+  "faction": "Osiris",
+  "factionReputation": 300,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 16,
+      "itemToOwn": "Charged Spinal Base"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 36,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 22000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 17,
+  "unlockContracts": [],
+  "isMain": false
+}

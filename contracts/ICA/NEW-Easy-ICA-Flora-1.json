@@ -1,0 +1,33 @@
+{
+  "inGameName": "NEW-Easy-ICA-Flora-1",
+  "faction": "ICA",
+  "factionReputation": 13,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Waterweed Filament",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 2900,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 3,
+  "unlockContracts": [],
+  "isMain": false
+}

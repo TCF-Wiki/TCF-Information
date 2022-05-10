@@ -1,0 +1,32 @@
+{
+  "inGameName": "NEW-Hard-Osiris-Stash-2",
+  "faction": "Osiris",
+  "factionReputation": 310,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 4,
+      "deadDropLocation": "Map02_PinnacleLab",
+      "deadDropItem": "RadioactiveBrightcapMushroom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 37,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 18,
+  "unlockContracts": [],
+  "isMain": false
+}

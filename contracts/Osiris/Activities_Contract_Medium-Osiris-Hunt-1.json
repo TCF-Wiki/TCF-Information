@@ -1,0 +1,31 @@
+{
+  "inGameName": "Activities_Contract_Medium-Osiris-Hunt-1",
+  "faction": "Osiris",
+  "factionReputation": 62,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Spinal Base"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 9,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 7800,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 8,
+  "unlockContracts": [],
+  "isMain": false
+}

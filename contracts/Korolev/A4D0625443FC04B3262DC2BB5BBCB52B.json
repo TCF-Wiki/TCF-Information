@@ -1,0 +1,29 @@
+{
+  "inGameName": "A4D0625443FC04B3262DC2BB5BBCB52B",
+  "faction": "Korolev",
+  "factionReputation": 0,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_Jungle"
+    },
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_CentralStation"
+    },
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_PowerPlant"
+    }
+  ],
+  "rewards": [],
+  "unlockLevel": 1,
+  "unlockContracts": [],
+  "isMain": false,
+  "chainName": "584CA36642EE67B98FA5D19360B8C299"
+}

@@ -1,0 +1,47 @@
+{
+  "inGameName": "Main-ICA-MeteorReactor-3",
+  "description": "\"I read through the report you brought back; it's not the easy win I had hoped for, but my people assure me they can make improvements on the original designs to make it work. We'll need some meteor cores first, of course. Oh, and take out some other prospectors; reports of increased violence should keep any Korolev people on the field away, don't want them getting curious about what we're up to.\"",
+  "faction": "ICA",
+  "factionReputation": 480,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Meteor Core"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "itemToOwn": "Meteor Core",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [
+          "EYDeviceCategory::AssaultRifle"
+        ],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 14,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 31000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Plan B Part 2"
+  ],
+  "isMain": true
+}

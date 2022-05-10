@@ -1,0 +1,52 @@
+{
+  "inGameName": "Trek for Data",
+  "description": "\"Our research is nearly complete! Now we just need you to use the Uplink facilities on Crescent Falls; we should be able to use recent surface scans of the area to locate Letium vents.\"",
+  "faction": "Korolev",
+  "factionReputation": 1800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "itemToOwn": "HardDrive_legendary",
+      "locationConditions": "Map02_StarportPad"
+    },
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "itemToOwn": "HardDrive_legendary",
+      "locationConditions": "Map02_SkeletonObservation"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "HardDrive_legendary"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Tactical Shield",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 87,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 25000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Fresh Meat"
+  ],
+  "isMain": true
+}

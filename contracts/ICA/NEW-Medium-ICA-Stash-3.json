@@ -1,0 +1,32 @@
+{
+  "inGameName": "NEW-Medium-ICA-Stash-3",
+  "faction": "ICA",
+  "factionReputation": 90,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_CenterBase_Office",
+      "deadDropItem": "Shattergun"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 22000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 10,
+  "unlockContracts": [],
+  "isMain": false
+}

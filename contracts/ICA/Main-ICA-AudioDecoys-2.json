@@ -1,0 +1,59 @@
+{
+  "inGameName": "Main-ICA-AudioDecoys-2",
+  "description": "\"Very good! We needed those for some live testing on the ground, see what works best against the planet's creatures. On that note, we need some more materials for our prototypes; fetch us these, OK?\"",
+  "faction": "ICA",
+  "factionReputation": 160,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "CopperWire",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [
+          "EYDeviceCategory::Pistol"
+        ],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Ball Bearings",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [
+          "EYDeviceCategory::Pistol"
+        ],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 3,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 8200,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

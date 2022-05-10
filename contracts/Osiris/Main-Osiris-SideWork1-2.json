@@ -1,0 +1,55 @@
+{
+  "inGameName": "Main-Osiris-SideWork1-2",
+  "description": "\"All right, now to get some real work done again. Apparently Waterweeds are poisonous to striders; get me some fresh samples of each, there might be something useful to learn here.\"",
+  "faction": "Osiris",
+  "factionReputation": 750,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 25,
+      "itemToOwn": "Waterweed Filament",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 12,
+      "itemToOwn": "AI_StriderMeat",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 26,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 24000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

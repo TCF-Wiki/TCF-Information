@@ -1,0 +1,71 @@
+{
+  "inGameName": "Stormbringer",
+  "description": "\"The Federal Authority is upgrading some of its arsenal, and they've taken interest in our PKR Maelstrom. Take one down to the planet and gather some good real-use stats with it for us, OK?\"",
+  "faction": "Korolev",
+  "factionReputation": 380,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 25,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_SGun_Energy_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_A_SGun_Energy_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Helmet",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 11,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 7800,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Site Seeing"
+  ],
+  "isMain": true
+}

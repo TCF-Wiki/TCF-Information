@@ -1,0 +1,40 @@
+{
+  "inGameName": "Main-ICA-TestRun-2",
+  "description": "\"Time to see if our plans will pay out. Use your new Scanner mod find wells, place oil pumps, and bring back some NiC Cannisters. If this works, the entire station will be in your debt, Prospector!\"",
+  "faction": "ICA",
+  "factionReputation": 3600,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "NiC Oil Cannister"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "Kinetic Arbiter",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "ICAScrip",
+      "amount": 214,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 222000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

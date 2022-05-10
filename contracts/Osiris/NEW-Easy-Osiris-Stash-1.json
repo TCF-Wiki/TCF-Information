@@ -1,0 +1,32 @@
+{
+  "inGameName": "NEW-Easy-Osiris-Stash-1",
+  "faction": "Osiris",
+  "factionReputation": 15,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "BrightcapMushroom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 2200,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 4,
+  "unlockContracts": [],
+  "isMain": false
+}

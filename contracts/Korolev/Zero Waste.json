@@ -1,0 +1,39 @@
+{
+  "inGameName": "Zero Waste",
+  "description": "\"A shipping accident damaged a crate full of Scrappers already marked for sale. Get us these parts so we can repair them before it becomes an issue.\"",
+  "faction": "Korolev",
+  "factionReputation": 200,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Shard Slicer"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "CombatCPU_Blue"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 4,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 10000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    "Miners' Strike"
+  ],
+  "isMain": true
+}

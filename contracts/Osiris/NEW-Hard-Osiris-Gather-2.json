@@ -1,0 +1,41 @@
+{
+  "inGameName": "NEW-Hard-Osiris-Gather-2",
+  "faction": "Osiris",
+  "factionReputation": 270,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Optic Glass"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 12,
+      "itemToOwn": "Polymetallic Prefabricate"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Datapad"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 32,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 20000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 13,
+  "unlockContracts": [],
+  "isMain": false
+}
