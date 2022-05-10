@@ -1,0 +1,34 @@
+{
+  "inGameName": "Pale Ivy",
+  "description": "We have received reports of strange Ivy-like plants growing on walls and cliffs, bearing rare beautiful blossoms. Needless to say, we need samples.",
+  "faction": "Osiris",
+  "factionReputation": 18,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Pale Ivy Blossom",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 5,
+  "unlockContracts": [],
+  "isMain": false
+}

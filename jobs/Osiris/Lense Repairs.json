@@ -1,0 +1,33 @@
+{
+  "inGameName": "Lense Repairs",
+  "description": "It's time to replace the lenses of the Satellite Dish at Comms Tower. Look for the Dead Drop there and stash Optic Glass in it.",
+  "faction": "Osiris",
+  "factionReputation": 75,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "deadDropLocation": "Map01_CommsBase_Satellite",
+      "deadDropItem": "Optic Glass"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 6300,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 9,
+  "unlockContracts": [],
+  "isMain": false
+}

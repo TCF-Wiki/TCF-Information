@@ -1,0 +1,37 @@
+{
+  "inGameName": "A new Energy Source?",
+  "description": "We've found a way to gain energy from Charged Spinal Bases from creatures affected by the Storm. We need some... and some Gyroscopes while you're down there.",
+  "faction": "Osiris",
+  "factionReputation": 280,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Charged Spinal Base"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Gyroscope"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 33,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 25000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 14,
+  "unlockContracts": [],
+  "isMain": false
+}

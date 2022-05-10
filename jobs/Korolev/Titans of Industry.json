@@ -1,0 +1,37 @@
+{
+  "inGameName": "Titans of Industry",
+  "description": "Scouts have found Titan Ore deposits on Fortuna III! Go see if the rumours are true and bring us samples. And some Altered Nickel, while you're at it.",
+  "faction": "Korolev",
+  "factionReputation": 90,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Titan Ore"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Altered Nickel"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 9600,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 10,
+  "unlockContracts": [],
+  "isMain": false
+}

@@ -1,0 +1,32 @@
+{
+  "inGameName": "Explosive Excavation",
+  "description": "One of our mines collapsed with valuable equipment inside. Bring us Derelict Explosives so we can blast it free!",
+  "faction": "Korolev",
+  "factionReputation": 52,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Derelict Explosives"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 8,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 11000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 7,
+  "unlockContracts": [],
+  "isMain": false
+}

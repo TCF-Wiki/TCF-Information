@@ -1,0 +1,45 @@
+{
+  "inGameName": "Loadout Drop",
+  "description": "One of our more... lethal assets on Fortuna requires some gear for her next job. Go stash some in the Pinnacle Labs Dead Drop for her.",
+  "faction": "Osiris",
+  "factionReputation": 320,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map02_PinnacleLab",
+      "deadDropItem": "Shield"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map02_PinnacleLab",
+      "deadDropItem": "Helmet"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map02_PinnacleLab",
+      "deadDropItem": "Bag_03"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 39,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 23000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 19,
+  "unlockContracts": [],
+  "isMain": false
+}

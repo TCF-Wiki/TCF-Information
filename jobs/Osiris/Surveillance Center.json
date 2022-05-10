@@ -1,0 +1,37 @@
+{
+  "inGameName": "Surveillance Center",
+  "description": "We want to expand our surveillance operations here on Prospect Station. Bring us Interactive Screens and Magnetic Field Stabilizers.",
+  "faction": "Osiris",
+  "factionReputation": 43,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Datapad"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "MagneticFieldStabilizer"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 8,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 8100,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 6,
+  "unlockContracts": [],
+  "isMain": false
+}

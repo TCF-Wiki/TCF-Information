@@ -1,0 +1,33 @@
+{
+  "inGameName": "Ambush",
+  "description": "We are preparing an ambush on a spy that stole essential plans from us. For this, go stash a Shattergun in the Main Office Dead Drop at Base Camp.",
+  "faction": "ICA",
+  "factionReputation": 90,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_CenterBase_Office",
+      "deadDropItem": "Shattergun"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 22000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 10,
+  "unlockContracts": [],
+  "isMain": false
+}

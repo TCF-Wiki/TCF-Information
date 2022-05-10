@@ -1,0 +1,33 @@
+{
+  "inGameName": "Toxin Testing",
+  "description": "This mission requires maximum discretion, Prospector. Stash Toxic Glands at the Waterfall Lab for an experiment that is none of your business.",
+  "faction": "Osiris",
+  "factionReputation": 160,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "deadDropLocation": "Map01_WaterfallLab",
+      "deadDropItem": "Toxic Glands"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 13,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 10000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 13,
+  "unlockContracts": [],
+  "isMain": false
+}

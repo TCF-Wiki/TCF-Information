@@ -1,0 +1,37 @@
+{
+  "inGameName": "New Beds",
+  "description": "The ICA community housing project has been expanding fast, and we need Blue Wood and Alloys to build some new beds.",
+  "faction": "ICA",
+  "factionReputation": 62,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "BlueWood"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Metallic Alloys"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 9,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 7500,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 8,
+  "unlockContracts": [],
+  "isMain": false
+}

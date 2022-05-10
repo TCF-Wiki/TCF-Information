@@ -1,0 +1,33 @@
+{
+  "inGameName": "Data Drop",
+  "description": "Prospector. One of our Scienctists is convinced she can predict the Storm, but she needs Data. Stash Rare Data Drives at Fulfilment Center for her.",
+  "faction": "ICA",
+  "factionReputation": 270,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 2,
+      "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+      "deadDropItem": "HardDrive_rare"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 32,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 19000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 13,
+  "unlockContracts": [],
+  "isMain": false
+}

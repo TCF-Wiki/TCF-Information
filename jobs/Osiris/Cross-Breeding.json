@@ -1,0 +1,41 @@
+{
+  "inGameName": "Cross-Breeding",
+  "description": "We want to cross-breed Pale Ivy with Waterweed, to hopefully create a plant with vast medicinal applications. Go get us the needed Mother Plants. ",
+  "faction": "Osiris",
+  "factionReputation": 75,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Pale Ivy Blossom",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Waterweed Filament",
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "ShockGrenade_02"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 9700,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 9,
+  "unlockContracts": [],
+  "isMain": false
+}

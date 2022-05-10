@@ -1,0 +1,45 @@
+{
+  "inGameName": "Stability is Key",
+  "description": "Our Comms are jammed. We need you to stash a Magnetic Field Stabilizer at each of the three Base Camp Dead Drops, Main Office, Gate A and Gate C.",
+  "faction": "Korolev",
+  "factionReputation": 43,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_CenterBase_Office",
+      "deadDropItem": "MagneticFieldStabilizer"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_CenterBase_GateC",
+      "deadDropItem": "MagneticFieldStabilizer"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_CenterBase_GateA",
+      "deadDropItem": "MagneticFieldStabilizer"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 8,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 5000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 6,
+  "unlockContracts": [],
+  "isMain": false
+}

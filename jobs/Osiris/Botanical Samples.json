@@ -1,0 +1,33 @@
+{
+  "inGameName": "Botanical Samples",
+  "description": "Prospector! We need you to get your hands on some Brightcaps and stash them in one of Badums hidden Dead Drop Containers at Swamp Camp.",
+  "faction": "Osiris",
+  "factionReputation": 15,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "BrightcapMushroom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 2200,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 4,
+  "unlockContracts": [],
+  "isMain": false
+}

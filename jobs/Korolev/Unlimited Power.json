@@ -1,0 +1,42 @@
+{
+  "inGameName": "Unlimited Power?",
+  "description": "Fine. I guess you need to know. We are trying to charge Veltecite with power, the same way the Storm does. Bring us more Veltecite Samples.",
+  "faction": "Korolev",
+  "factionReputation": 320,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Clear Veltecite"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Pure Veltecite"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "VelteciteHeart"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 39,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 33000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 19,
+  "unlockContracts": [],
+  "isMain": false
+}

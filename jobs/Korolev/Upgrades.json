@@ -1,0 +1,33 @@
+{
+  "inGameName": "Upgrades",
+  "description": "We want to take over an ICA Data Center. Stash a Master Unit CPU at the Server Room so that our Tech Staff can use it to splice the System.",
+  "faction": "Korolev",
+  "factionReputation": 320,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+      "deadDropItem": "CombatCPU_red"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 39,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 20000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 19,
+  "unlockContracts": [],
+  "isMain": false
+}

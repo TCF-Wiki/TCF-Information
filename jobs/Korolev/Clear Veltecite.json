@@ -1,0 +1,32 @@
+{
+  "inGameName": "Clear Veltecite",
+  "description": "The Veltecite you brought us the other day is already spent. We need more energy! Get us some Clear Veltecite this time!",
+  "faction": "Korolev",
+  "factionReputation": 43,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Clear Veltecite"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 8,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 5700,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 6,
+  "unlockContracts": [],
+  "isMain": false
+}

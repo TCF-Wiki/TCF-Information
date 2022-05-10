@@ -1,0 +1,33 @@
+{
+  "inGameName": "Tools for the Job",
+  "description": "Prospector. Go deposit a Hammer Pistol in a Dead Drop at Base Camp for one of our Agents on Fortuna. They will take care of the rest.",
+  "faction": "Korolev",
+  "factionReputation": 90,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map01_CenterBase_GateC",
+      "deadDropItem": "Hammer"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 33000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 10,
+  "unlockContracts": [],
+  "isMain": false
+}

@@ -1,0 +1,84 @@
+{
+  "inGameName": "On Our Team",
+  "description": "A big arms merchant is on station looking to buy; head down and take out Striders, Rattlers, and Prospectors with the Advocate to help secure us a sale.",
+  "faction": "ICA",
+  "factionReputation": 290,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 2,
+      "itemToOwn": "Flawed Veltecite",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_AR_Bullet_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      }
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "itemToOwn": "Flawed Veltecite",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_AR_Bullet_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+      }
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 5,
+      "itemToOwn": "Flawed Veltecite",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_AR_Bullet_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 34,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 14000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 15,
+  "unlockContracts": [],
+  "isMain": false
+}

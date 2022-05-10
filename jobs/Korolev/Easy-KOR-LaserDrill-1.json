@@ -1,0 +1,30 @@
+{
+  "inGameName": "Easy-KOR-LaserDrill-1",
+  "faction": "Korolev",
+  "factionReputation": 13,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Invalid",
+      "maxProgress": 100
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 1500,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 1,
+  "unlockContracts": [],
+  "isMain": false
+}

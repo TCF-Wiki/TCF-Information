@@ -1,0 +1,32 @@
+{
+  "inGameName": "Meteor Core",
+  "description": "Prospector! Osiris seems to have gotten their hands on a Meteor Core from the main Meteor of a Meteor Shower. We need one as well!",
+  "faction": "Korolev",
+  "factionReputation": 260,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Meteor Core"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 31,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 21000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 12,
+  "unlockContracts": [],
+  "isMain": false
+}

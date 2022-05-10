@@ -1,0 +1,32 @@
+{
+  "inGameName": "Cooking Equipment",
+  "description": "Prospector, we need you to bring us Scrap Metal so we can produce more cooking equipment for the ICA community kitchen.",
+  "faction": "ICA",
+  "factionReputation": 13,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 6,
+      "itemToOwn": "Aluminum scrap"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 4500,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 2,
+  "unlockContracts": [],
+  "isMain": false
+}

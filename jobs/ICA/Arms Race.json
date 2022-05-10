@@ -1,0 +1,32 @@
+{
+  "inGameName": "Arms Race",
+  "description": "Prospector. It seems like Korolev is working on some sort of new laser rifle that uses Pure Focus Crystals. Go get us some, and be discrete about it.",
+  "faction": "ICA",
+  "factionReputation": 290,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Pure Focus Crystal"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 34,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 26000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 15,
+  "unlockContracts": [],
+  "isMain": false
+}

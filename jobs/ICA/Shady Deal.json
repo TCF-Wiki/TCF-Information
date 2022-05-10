@@ -1,0 +1,33 @@
+{
+  "inGameName": "Shady Deal",
+  "description": "We'll have to do business with a rather shady arms dealer to supply our troops. They want us to stash Old Currency near Nutrion Farms as payment. Go.",
+  "faction": "ICA",
+  "factionReputation": 75,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3000,
+      "deadDropLocation": "Map02_NutronFarms_Office",
+      "deadDropItem": "Old Currency"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 8300,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 9,
+  "unlockContracts": [],
+  "isMain": false
+}

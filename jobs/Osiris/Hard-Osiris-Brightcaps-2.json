@@ -1,0 +1,31 @@
+{
+  "inGameName": "Hard-Osiris-Brightcaps-2",
+  "faction": "Osiris",
+  "factionReputation": 250,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "RadioactiveBrightcapMushroom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 30,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 15000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 11,
+  "unlockContracts": [],
+  "isMain": false
+}

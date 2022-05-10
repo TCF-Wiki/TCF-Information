@@ -1,0 +1,32 @@
+{
+  "inGameName": "Pure Veltecite",
+  "description": "The Clear Veltecite was an improvement, we gained much more energy from it, but we need more! See if you can get your hands on some Pure Veltecite.",
+  "faction": "Korolev",
+  "factionReputation": 75,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Pure Veltecite"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 9200,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 9,
+  "unlockContracts": [],
+  "isMain": false
+}

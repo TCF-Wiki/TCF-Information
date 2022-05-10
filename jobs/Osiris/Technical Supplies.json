@@ -1,0 +1,33 @@
+{
+  "inGameName": "Technical Supplies",
+  "description": "The field technician in charge of our on-planet biosurveillance systems requires new Interactive Screens. Go stash some at Main Office.",
+  "faction": "Osiris",
+  "factionReputation": 75,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "deadDropLocation": "Map01_CenterBase_Office",
+      "deadDropItem": "Datapad"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 10,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 10000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 9,
+  "unlockContracts": [],
+  "isMain": false
+}

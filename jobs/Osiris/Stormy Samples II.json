@@ -1,0 +1,33 @@
+{
+  "inGameName": "Stormy Samples II",
+  "description": "Head down to Pinnacle Labs, look for the Dead Drop there and stash Glowy Brightcap Mushrooms in it. Our Field Scientists will pick them up later. ",
+  "faction": "Osiris",
+  "factionReputation": 310,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 4,
+      "deadDropLocation": "Map02_PinnacleLab",
+      "deadDropItem": "RadioactiveBrightcapMushroom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 37,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 18,
+  "unlockContracts": [],
+  "isMain": false
+}

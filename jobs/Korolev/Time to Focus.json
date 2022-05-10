@@ -1,0 +1,43 @@
+{
+  "inGameName": "Time to Focus",
+  "description": "One of our miners searching the Jungle for Focus Crystals was wounded by creatures. Go clear the area, and bring back Focus Crystals they should have. ",
+  "faction": "Korolev",
+  "factionReputation": 52,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Focus Crystal"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 10,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map01_Jungle"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 8,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 8200,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 7,
+  "unlockContracts": [],
+  "isMain": false
+}

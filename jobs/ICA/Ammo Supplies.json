@@ -1,0 +1,33 @@
+{
+  "inGameName": "Ammo Supplies",
+  "description": "Our Field Agents need more Ammo if they are to protect our Research Installations. Go stash Medium Ammo at Stockpile near Greens Prospect for them.",
+  "faction": "ICA",
+  "factionReputation": 110,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1000,
+      "deadDropLocation": "Map02_GreensProspect_Stockpile",
+      "deadDropItem": "Medium"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 11,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 17000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 11,
+  "unlockContracts": [],
+  "isMain": false
+}

@@ -1,0 +1,37 @@
+{
+  "inGameName": "Crystal Frenzy",
+  "description": "We're working on a new type of laser for our latest mining platforms. For the lenses, we will need Clear Veltecite and Focus Crystals. Off you go!",
+  "faction": "Korolev",
+  "factionReputation": 110,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Clear Veltecite"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Focus Crystal"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 11,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 16000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 11,
+  "unlockContracts": [],
+  "isMain": false
+}

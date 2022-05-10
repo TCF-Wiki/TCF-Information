@@ -1,0 +1,33 @@
+{
+  "inGameName": "Jamming the Comms",
+  "description": "Prospector. Acquire some Derelict Explosives and go stash them in the specified Dead Drop at Comms Tower. Be discrete about it, and no questions.",
+  "faction": "Korolev",
+  "factionReputation": 62,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 2,
+      "deadDropLocation": "Map01_CommsBase_Satellite",
+      "deadDropItem": "Derelict Explosives"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 9,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 8300,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 8,
+  "unlockContracts": [],
+  "isMain": false
+}

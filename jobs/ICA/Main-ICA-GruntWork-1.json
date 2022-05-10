@@ -1,0 +1,32 @@
+{
+  "inGameName": "Main-ICA-GruntWork-1",
+  "description": "",
+  "faction": "ICA",
+  "factionReputation": 0,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "locationConditions": "Map01_WaterFacility"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 10,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+      },
+      "locationConditions": "Map01_WaterFacility"
+    }
+  ],
+  "rewards": [],
+  "unlockLevel": 0,
+  "unlockContracts": [],
+  "isMain": false,
+  "chainName": "Doing the Work",
+  "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+}

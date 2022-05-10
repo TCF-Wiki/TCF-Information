@@ -1,0 +1,32 @@
+{
+  "inGameName": "Data Center Upgrades",
+  "description": "Turns out our data center was not powerful enough for the calculations needed for our energy experiment. Bring us Master Unit CPUs!",
+  "faction": "Osiris",
+  "factionReputation": 290,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "CombatCPU_red"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 35,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 22000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 16,
+  "unlockContracts": [],
+  "isMain": false
+}

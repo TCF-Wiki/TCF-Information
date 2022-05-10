@@ -1,0 +1,33 @@
+{
+  "inGameName": "Field Repairs",
+  "description": "Ah, there you are. Search for the Dead Drop Container at Swamp Camp and stash some Ball Bearings in there. Our miners need them for field repairs.",
+  "faction": "Korolev",
+  "factionReputation": 18,
+  "difficulty": "Easy",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 2,
+      "deadDropLocation": "Map01_SwampCamp",
+      "deadDropItem": "Ball Bearings"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 1,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 2500,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 5,
+  "unlockContracts": [],
+  "isMain": false
+}

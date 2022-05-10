@@ -1,0 +1,37 @@
+{
+  "inGameName": "Sabotage",
+  "description": "Prospector! Those Korolev simpletons are drilling near one of our Uplinks. Bring us Zero Systems CPUs and Derelict Explosives. You know why.",
+  "faction": "ICA",
+  "factionReputation": 290,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "CombatCPU_Blue"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Derelict Explosives"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 34,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 30000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 15,
+  "unlockContracts": [],
+  "isMain": false
+}

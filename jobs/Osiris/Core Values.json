@@ -1,0 +1,32 @@
+{
+  "inGameName": "Core Values",
+  "description": "Ah, there you are, Prospector. We need you to drop down there and get us the Meteor Core of a Meteor Shower for some experiments. Off you go.",
+  "faction": "Osiris",
+  "factionReputation": 290,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 2,
+      "itemToOwn": "Meteor Core"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 35,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 30000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 16,
+  "unlockContracts": [],
+  "isMain": false
+}
