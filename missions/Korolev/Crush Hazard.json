@@ -1,0 +1,50 @@
+[
+  {
+    "inGameName": "Tough as Nails",
+    "description": "\"One of our researchers is concerned that Crushers are an unstoppable force that could easily wreck our mining platforms. I'm sure you can prove them wrong!\"",
+    "faction": "Korolev",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Hammer",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "This is Goodbye"
+    ],
+    "isMain": true,
+    "chainName": "Crush Hazard",
+    "chainDescription": "Crushers aren't known for their curiosity, or really anything other than very efficiently crushing things, which on the off chance they pay a visit to a Laser Drill, it's best we all know you're up to the task of taking one down.\r\nGood hunting, Prospector!"
+  }
+]

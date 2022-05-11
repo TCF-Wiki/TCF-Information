@@ -1,0 +1,393 @@
+[
+  {
+    "inGameName": "Main-ICA-OilPump-1",
+    "description": "\"Our people on the surface analyzed everything at the locations you cleared, and they only found some crude oil-like sludge, but it barely burns. It might be nothing, but it's the only outlier. They need specialized equipment to transport samples back home, stash what they need at the Nutrion Farms Office, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 10,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "Polymetallic Prefabricate"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "Resin Gun"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Back to Basics",
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+  },
+  {
+    "inGameName": "Main-ICA-OilPump-2",
+    "description": "\"While our people look into the 'crude' samples, there might be something we can search for in the surface networks about it; you'll need to check Uplink stations on Crescent Falls, then we can see if there's anything there about that makes sense out of this.\"",
+    "faction": "ICA",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_StarportPad"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_legendary"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 45000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Back to Basics",
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+  },
+  {
+    "inGameName": "Main-ICA-OilPump-3",
+    "description": "\"We finally know that 'NiC' stands for Nanite-infused Crude. Someone figured out a way to the trigger a reaction in the nanobots' own batteries and get a small burst of energy from them; not much, but with billions of bots in a liter of NiC, it could be the answer to our energy troubles. Now, we just need to build some pumps! Get us these materials so we can fix up a first batch.\"",
+    "faction": "ICA",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Metallic Alloys"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "Hydraulic Piston"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Shock Absorber"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Abandoned Oil Field"
+    ],
+    "isMain": true,
+    "chainName": "Back to Basics",
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+  },
+  {
+    "inGameName": "Main-ICA-OilPump-4",
+    "description": "\"While we work on building those pumps, a request from a local artist has come in for Hardened Bone Plates; they apparently make for a good crafting material. Kill some Marauders and complete the order for us, please.\"",
+    "faction": "ICA",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "itemToOwn": "Metallic Alloys",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Back to Basics",
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+  },
+  {
+    "inGameName": "Main-ICA-OilPump-6",
+    "description": "\"Getting these pumps to work isn't as simple as we'd hoped. The pumps need to refine the NiC to eliminate as much crude as possible and concentrate the nanites in one convenient package ready for use, and that process some higher tech components than a simple pump. Here's what we need for now.\"",
+    "faction": "ICA",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "CircuitBoard"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Shard Slicer"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "CombatCPU_red"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_04",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 42000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Back to Basics",
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+  },
+  {
+    "inGameName": "Main-ICA-OilPump-7",
+    "description": "\"That Dr. Sullivan is starting to poke around and ask questions, he likes to think Osiris are the only ones that can do any research around here. But if he's curious, then so is that Korolev snake. Head to the surface and perform some 'live' tests with ICA guns, and I'll spread scuttlebutt that we're workng on new weapon improvements.\"",
+    "faction": "ICA",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 6,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Back to Basics",
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+  },
+  {
+    "inGameName": "Main-ICA-OilPump-8",
+    "description": "\"You're back just in time; the tech guys have a new list of things they need to finalize NiC refiner and install them in the pumps. After that it will just be a matter of calling them down in the right spot...\"",
+    "faction": "ICA",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "SmartMesh"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Gyroscope"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Oil Pump Beacon",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 47000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Back to Basics",
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
+  }
+]

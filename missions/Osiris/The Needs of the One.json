@@ -1,0 +1,243 @@
+[
+  {
+    "inGameName": "Main-Osiris-SideWork1-1",
+    "description": "\"Dr. Fedotov is... a character. He's requested an office with a garden and refuses to speak with anyone on his team until he gets it. Get me these items so we can just get this over with.\"",
+    "faction": "Osiris",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 25,
+        "itemToOwn": "BrightcapMushroom",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "BlueWood",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "\"Magic-GROW\" Fertilizer",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Frozen"
+    ],
+    "isMain": true,
+    "chainName": "The Needs of the One",
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+  },
+  {
+    "inGameName": "Main-Osiris-SideWork1-2",
+    "description": "\"All right, now to get some real work done again. Apparently Waterweeds are poisonous to striders; get me some fresh samples of each, there might be something useful to learn here.\"",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 25,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "AI_StriderMeat",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Needs of the One",
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+  },
+  {
+    "inGameName": "Main-Osiris-SideWork1-3",
+    "description": "\"You've encountered Marauders on the surface, right? Fascinating creatures, I'd love to study a live specimen one day... In any case, go kill some and bring back their bone plates so we can advance our research.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Waterweed Filament",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Hardened Bone Plates",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Needs of the One",
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+  },
+  {
+    "inGameName": "Main-Osiris-SideWork1-4",
+    "description": "\"The good Dr. Fedotov is trying my patience with his absurd requests. You're to take down some of your rival Prospectors... and bring back some Dustblooms. I swear, if I see them as part of his little 'nature reserve'...\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Dustbloom",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Restoration Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Needs of the One",
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+  }
+]

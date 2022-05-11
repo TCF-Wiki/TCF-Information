@@ -1,0 +1,154 @@
+[
+  {
+    "inGameName": "Main-Osiris-CrystalSamples-1",
+    "description": "\"It's time to start testing our new anti-crystal laser, but first, it needs a power source. Retrieve Veltecite for me, Prospector, nothing else will do.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Pure Veltecite"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Clear Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Everything is Crystals",
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\nMake sure Osiris gets what it needs to get it working."
+  },
+  {
+    "inGameName": "Main-Osiris-CrystalSamples-2",
+    "description": "\"Yes, this should be sufficient. Focus Crystals have an internal structure similar to that of the cavern walls; retrieve a few samples for us, and some extra lab kit while you're at it.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Portable Lab"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Focus Crystal"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Sample Container"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 28000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Everything is Crystals",
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\nMake sure Osiris gets what it needs to get it working."
+  },
+  {
+    "inGameName": "Main-Osiris-CrystalSamples-3",
+    "description": "\"Our laser cannon has proven to be... 'hazardous' to test on the station. We've developed a small portable version for further tests. Clear out the Pinnacle labs of hostile fauna and stash some Pure Focus Crystals there; a field research team will be down for further tests once you're done.\"",
+    "faction": "Osiris",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "Pure Focus Crystal"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Portable Lab",
+        "amount": 2,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Gyroscope",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Everything is Crystals",
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\nMake sure Osiris gets what it needs to get it working."
+  }
+]

@@ -1,60 +1,62 @@
-{
-  "inGameName": "The Test Run",
-  "description": "\"Finally! Our first Laser Drill is fully operational, and you get to test it! Locate a Letium vent, plant a beacon, and operate the platform. Return to me once you have our prize!\"",
-  "faction": "Korolev",
-  "factionReputation": 3600,
-  "difficulty": "Invalid",
-  "failConditions": [],
-  "objectives": [
-    {
-      "type": "VisitArea",
-      "maxProgress": 1,
-      "itemToOwn": "Letium",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+[
+  {
+    "inGameName": "The Test Run",
+    "description": "\"Finally! Our first Laser Drill is fully operational, and you get to test it! Locate a Letium vent, plant a beacon, and operate the platform. Return to me once you have our prize!\"",
+    "faction": "Korolev",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Letium",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        },
+        "locationConditions": "LetiumLocations"
       },
-      "locationConditions": "LetiumLocations"
-    },
-    {
-      "type": "OwnNumOfItem",
-      "maxProgress": 10,
-      "itemToOwn": "Letium",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Letium",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
       }
-    }
-  ],
-  "rewards": [
-    {
-      "item": "Shield",
-      "amount": 1,
-      "isEndOfChainReward": true,
-      "isUnlockReward": false
-    },
-    {
-      "item": "KorolevScrip",
-      "amount": 214,
-      "isEndOfChainReward": false,
-      "isUnlockReward": false
-    },
-    {
-      "item": "SoftCurrency",
-      "amount": 136000,
-      "isEndOfChainReward": false,
-      "isUnlockReward": false
-    }
-  ],
-  "unlockLevel": 0,
-  "unlockContracts": [
-    "Unlimited Power"
-  ],
-  "isMain": true,
-  "chainName": "The Test Run",
-  "chainDescription": "With the Laser Drill complete, it's up to you to test it out and finally retrieve some Letium for Korolev.\r\nRemember to be careful, that thing will draw a lot of unwanted attention during descent, and it'll take a while to produce results!"
-}
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 136000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Unlimited Power"
+    ],
+    "isMain": true,
+    "chainName": "The Test Run",
+    "chainDescription": "With the Laser Drill complete, it's up to you to test it out and finally retrieve some Letium for Korolev.\r\nRemember to be careful, that thing will draw a lot of unwanted attention during descent, and it'll take a while to produce results!"
+  }
+]
