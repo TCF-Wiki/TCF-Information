@@ -130,5 +130,137 @@
     "isMain": true,
     "chainName": "Storm Rider",
     "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet. The creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
+  },
+  {
+    "inGameName": "Main-Osiris-StormSamples-1",
+    "description": "\"You've experienced one of the planet's famed Storms already, correct? Well if you haven't it's now's you're time to. I need you to collect a number of Glowy Brightcaps for me, the sort that can only be found during a Storm. Good luck and all that.\"",
+    "faction": "Osiris",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Storm Rider",
+    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet. The creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
+  },
+  {
+    "inGameName": "Main-Osiris-StormSamples-2",
+    "description": "\"Ah, you're back already. An Osiris team will be retrieving old equipment from the Starport Warehouse soon, I need you to soften the area before they arrive.\"",
+    "faction": "Osiris",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_StarportWarehouse"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Storm Rider",
+    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet. The creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
+  },
+  {
+    "inGameName": "Main-Osiris-StormSamples-3",
+    "description": "\"We're interested in running more tests on Storm-affected samples, this time while as close to the planet as possible. Meaning on it. I need you to stash some Charged Spinal Bases on the surface for one of our more 'adventurous' researchers to work with.\"",
+    "faction": "Osiris",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 8,
+        "deadDropLocation": "Map02_NutronFarms_Office",
+        "deadDropItem": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Asp Flechette Gun",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Storm Rider",
+    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet. The creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
   }
 ]

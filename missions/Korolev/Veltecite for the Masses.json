@@ -50,5 +50,57 @@
     "isMain": true,
     "chainName": "Veltecite for the Masses",
     "chainDescription": "Veltecite fuels Prospect Station's power generators, foundries, engines, and is its main export. The few mineral deposits exposed to the surface can generally be found near water, but tracking one down can be time consuming, and dangerous.\r\nWouldn't it be nice to have an easier and faster way to get to it? Fortunately Korolev has a few techs working on just the thing."
+  },
+  {
+    "inGameName": "Active Scan",
+    "description": "\"Ah, Prospector, this will interest you. We think we can modify a Scanner to zero in on Veltecite; get us these parts so we can build a protype.\"",
+    "faction": "Korolev",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Clear Veltecite"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Optic Glass"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "CircuitBoard"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Mod_Korolev_Scanner_Veltecite",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Spring Cleaning "
+    ],
+    "isMain": true,
+    "chainName": "Veltecite for the Masses",
+    "chainDescription": "Veltecite fuels Prospect Station's power generators, foundries, engines, and is its main export. The few mineral deposits exposed to the surface can generally be found near water, but tracking one down can be time consuming, and dangerous.\r\nWouldn't it be nice to have an easier and faster way to get to it? Fortunately Korolev has a few techs working on just the thing."
   }
 ]
