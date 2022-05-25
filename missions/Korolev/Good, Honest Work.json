@@ -890,5 +890,451 @@
     "isMain": true,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
+  },
+  {
+    "inGameName": "Spring Cleaning ",
+    "description": "\"Some journalists have talked their way through all the red tape and will be getting a tour of the old Dig Site soon. Soften up the area for them, I don't trust their security team alone will be up for the task.\"",
+    "faction": "Korolev",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        },
+        "locationConditions": "Map01_DigSite"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_DigSite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Company Identity"
+    ],
+    "isMain": true,
+    "chainName": "Good, Honest Work",
+    "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
+  },
+  {
+    "inGameName": "Through the Optic Glass",
+    "description": "\"A new factory robot malfunctioned and took out another's eyes. It's best we don't advertise the accident, so get us replacement parts from the surface.\"",
+    "faction": "Korolev",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 7,
+        "itemToOwn": "UncommonVelticite"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Optic Glass"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KM-9 'Scrapper'",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Spring Cleaning "
+    ],
+    "isMain": true,
+    "chainName": "Good, Honest Work",
+    "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
+  },
+  {
+    "inGameName": "A Pinch of Pure Power",
+    "description": "\"One of our Researchers thinks mixing Pure Veltecite with Titan Ore can increase reactor efficiency. Get us what she needs to prove that theory.\"",
+    "faction": "Korolev",
+    "factionReputation": 160,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 7,
+        "itemToOwn": "Brittle Titan Ore"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Pure Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Through the Optic Glass"
+    ],
+    "isMain": true,
+    "chainName": "Good, Honest Work",
+    "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
+  },
+  {
+    "inGameName": "Aggressive Marketing",
+    "description": "\"Defoaming reports show a big decline in our weapons landing the final blow, it makes Korolev look bad. Make sure other Prospectors understand Korolev is superior.\"",
+    "faction": "Korolev",
+    "factionReputation": 160,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SGun_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_HVY_Shell_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SMG_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "A Pinch of Pure Power"
+    ],
+    "isMain": true,
+    "chainName": "Good, Honest Work",
+    "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
+  },
+  {
+    "inGameName": "Zero Waste",
+    "description": "\"A shipping accident damaged a crate full of Scrappers already marked for sale. Get us these parts so we can repair them before it becomes an issue.\"",
+    "faction": "Korolev",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Shard Slicer"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "CombatCPU_Blue"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Miners' Strike"
+    ],
+    "isMain": true,
+    "chainName": "Good, Honest Work",
+    "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
+  },
+  {
+    "inGameName": "For all the Trees",
+    "description": "\"The Bright Sands Jungle area has an overpopulation problem, maybe you can be the solution?\"",
+    "faction": "Korolev",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_Jungle"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Jungle"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Shield",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Zero Waste"
+    ],
+    "isMain": true,
+    "chainName": "Good, Honest Work",
+    "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
+  },
+  {
+    "inGameName": "From Above",
+    "description": "\"Osiris are doing experiments with Meteor Fragments and Focus Crystals. Get us some samples, I want to find out what's so interesting...\"",
+    "faction": "Korolev",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Meteor Fragment"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Focus Crystal"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "For all the Trees"
+    ],
+    "isMain": true,
+    "chainName": "Good, Honest Work",
+    "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
+  },
+  {
+    "inGameName": "Thick Skinned",
+    "description": "\"Marauders are made of something much tougher than Striders. Kill one and bring back some of its remains, for testing.\"",
+    "faction": "Korolev",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Hardened Bone Plates"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "PKR Maelstrom",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "From Above"
+    ],
+    "isMain": true,
+    "chainName": "Good, Honest Work",
+    "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   }
 ]

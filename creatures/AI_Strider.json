@@ -13,6 +13,12 @@
   },
   "resetRadius": 7000,
   "weakSpotMultiplier": 1,
+  "damageAreas": {
+    "Head": 1.8,
+    "Neck": 1.8,
+    "Jaw": 1.8,
+    "Spine4": 1.8
+  },
   "penetration": 0,
   "armorConstant": 0.05,
   "minDamageReduction": 0.1,

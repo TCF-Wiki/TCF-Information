@@ -184,5 +184,98 @@
     "isMain": true,
     "chainName": "Building a better Death Ray",
     "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
+  },
+  {
+    "inGameName": "Main-Osiris-CraftFuel-1",
+    "description": "\"Our recent tests have made it quite apparent our anti-crystal laser cannot be safely operated in atmosphere, unlike Korolev's crude designs. We'll need to mount the device on a repurposed low-orbit satellite to operate it. Retrieve these materials, they should improve booster fuel efficiency enough to handle the laser's mass.\"",
+    "faction": "Osiris",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Dustbloom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 26000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Building a better Death Ray",
+    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
+  },
+  {
+    "inGameName": "Main-Osiris-CraftFuel-2",
+    "description": "\"Ah yes, I forgot to mention... we've made some adjustments to account for the increased operational range required; get me a Veltecite heart and some samples from storm-charged creatures, it should be enough to take our device to peak performance.\"",
+    "faction": "Osiris",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Charged Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_04",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 29000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Building a better Death Ray",
+    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
   }
 ]

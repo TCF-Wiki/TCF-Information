@@ -28,6 +28,12 @@
     },
     "resetRadius": 7000,
     "weakSpotMultiplier": 1,
+    "damageAreas": {
+      "Head": 1.8,
+      "Neck": 1.8,
+      "Jaw": 1.8,
+      "Spine4": 1.8
+    },
     "penetration": 0,
     "armorConstant": 0.05,
     "minDamageReduction": 0.1,
@@ -90,6 +96,12 @@
     },
     "resetRadius": 9000,
     "weakSpotMultiplier": 1,
+    "damageAreas": {
+      "Head": 1.8,
+      "Neck": 1.8,
+      "Jaw": 1.8,
+      "Spine4": 1.8
+    },
     "penetration": 5,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -152,6 +164,12 @@
     },
     "resetRadius": 7000,
     "weakSpotMultiplier": 1,
+    "damageAreas": {
+      "Head": 1.8,
+      "Neck": 1.8,
+      "Jaw": 1.8,
+      "Spine4": 1.8
+    },
     "penetration": 10,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -214,6 +232,12 @@
     },
     "resetRadius": 9000,
     "weakSpotMultiplier": 1,
+    "damageAreas": {
+      "Head": 1.8,
+      "Neck": 1.8,
+      "Jaw": 1.8,
+      "Spine4": 1.8
+    },
     "penetration": 15,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -276,6 +300,12 @@
     },
     "resetRadius": 9000,
     "weakSpotMultiplier": 1,
+    "damageAreas": {
+      "Head": 1.8,
+      "Neck": 1.8,
+      "Jaw": 1.8,
+      "Spine4": 1.8
+    },
     "penetration": 20,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -338,6 +368,12 @@
     },
     "resetRadius": 7000,
     "weakSpotMultiplier": 10,
+    "damageAreas": {
+      "Head": 2,
+      "Neck1": 2,
+      "Jaw": 2,
+      "Spine2": 2
+    },
     "penetration": 5,
     "armorConstant": 0.1,
     "minDamageReduction": 0.1,
@@ -445,6 +481,12 @@
     },
     "resetRadius": 9000,
     "weakSpotMultiplier": 10,
+    "damageAreas": {
+      "Head": 2,
+      "Neck1": 2,
+      "Jaw": 2,
+      "Spine2": 2
+    },
     "penetration": 10,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -552,6 +594,12 @@
     },
     "resetRadius": 7000,
     "weakSpotMultiplier": 10,
+    "damageAreas": {
+      "Head": 2.5,
+      "Neck1": 2.5,
+      "Jaw": 2.5,
+      "Spine2": 2.5
+    },
     "penetration": 15,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -659,6 +707,12 @@
     },
     "resetRadius": 9000,
     "weakSpotMultiplier": 10,
+    "damageAreas": {
+      "Head": 2.5,
+      "Neck1": 2.5,
+      "Jaw": 2.5,
+      "Spine2": 2.5
+    },
     "penetration": 20,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -766,6 +820,12 @@
     },
     "resetRadius": 9000,
     "weakSpotMultiplier": 10,
+    "damageAreas": {
+      "Head": 1,
+      "Neck2": 1,
+      "Neck3": 1,
+      "EggSackC": 1
+    },
     "penetration": 15,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -958,6 +1018,12 @@
     },
     "resetRadius": 9000,
     "weakSpotMultiplier": 10,
+    "damageAreas": {
+      "Head": 1,
+      "Neck2": 1,
+      "Neck3": 1,
+      "EggSackC": 1
+    },
     "penetration": 25,
     "armorConstant": 0.15,
     "minDamageReduction": 0.1,
@@ -1150,6 +1216,23 @@
     },
     "resetRadius": 9000,
     "weakSpotMultiplier": 10,
+    "damageAreas": {
+      "Spine5": 3,
+      "NeckSpikeA1": 3,
+      "NeckSpikeA2": 3,
+      "NeckSpikeA3": 3,
+      "Neck1": 3,
+      "NeckSpikeC": 3,
+      "Spine3": 3,
+      "Spine2": 3,
+      "Knee_R": 1,
+      "Ankle_R": 1,
+      "Knee_L": 1,
+      "Ankle_L": 1,
+      "Spine4": 3,
+      "Ankle_WeakSpot_L": 1,
+      "Ankle_WeakSpot_R": 1
+    },
     "penetration": 30,
     "armorConstant": 0.3,
     "minDamageReduction": 0.1,
