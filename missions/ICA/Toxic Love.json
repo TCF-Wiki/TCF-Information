@@ -283,5 +283,100 @@
     "isMain": true,
     "chainName": "Toxic Love",
     "chainDescription": "The ICA are developing a new grenade type, equipped with lethal toxic gasses.\r\nHelp them get what they need, those things would be great for area denial... or getting rid of anyone holed up in a fortified position."
+  },
+  {
+    "inGameName": "Main-ICA-GasGrenades-1",
+    "description": "\"There was something that will interest you among all the data you recovered; get these items to the Comms Tower stash and we can begin working on a new kind of grenade.\"",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CommsBase_Tower",
+        "deadDropItem": "HardDrive_rare"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map01_CommsBase_Tower",
+        "deadDropItem": "Consumable_SmokeGrenade_01"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Stranded Prospector"
+    ],
+    "isMain": true,
+    "chainName": "Toxic Love",
+    "chainDescription": "The ICA are developing a new grenade type, equipped with lethal toxic gasses.\r\nHelp them get what they need, those things would be great for area denial... or getting rid of anyone holed up in a fortified position."
+  },
+  {
+    "inGameName": "Main-ICA-GasGrenades-2",
+    "description": "\"We'll need something 'special' for these; head down and retrieve these items for us, then we'll have a crack at synthesizing the right juices to make this work. I think you'll love the results...\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Toxic Glands"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Metallic Alloys"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 7,
+        "itemToOwn": "Hydraulic Piston"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_GasGrenade_01",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Toxic Love",
+    "chainDescription": "The ICA are developing a new grenade type, equipped with lethal toxic gasses.\r\nHelp them get what they need, those things would be great for area denial... or getting rid of anyone holed up in a fortified position."
   }
 ]

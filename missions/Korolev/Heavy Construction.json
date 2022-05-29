@@ -1216,5 +1216,411 @@
     "isMain": true,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+  },
+  {
+    "inGameName": "Building Blocks",
+    "description": "\"Extracting Letium from the surface will require heavy machinery. Heavy, durable, machinery, like the old Veltecite Laser Drills. Get us these materials, Prospector, and we can begin crafting a good frame for our new drilling platform.\"",
+    "faction": "Korolev",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Compound Sheets"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Metallic Alloys"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "SmartMesh"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 29000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Trek for Data"
+    ],
+    "isMain": true,
+    "chainName": "Heavy Construction",
+    "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+  },
+  {
+    "inGameName": "Pattern Testing",
+    "description": "\"Something different this time... We need efficiency data on Shotgun style weapons to help improve our own. This shouldn't take you long, I hope.\"",
+    "faction": "Korolev",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Shotgun"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 25,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Shotgun"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Salvage Ops"
+    ],
+    "isMain": true,
+    "chainName": "Heavy Construction",
+    "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+  },
+  {
+    "inGameName": "Custom Rig",
+    "description": "\"Our hunt for parts continues. Ordering these off the market would take forever, and attract too much attention. Thankfully, we have you!\"",
+    "faction": "Korolev",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "MagneticFieldStabilizer",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Shotgun"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "CircuitBoard",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Shotgun"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Co-TEC MultiTool",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Shotgun"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 29000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Pattern Testing"
+    ],
+    "isMain": true,
+    "chainName": "Heavy Construction",
+    "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+  },
+  {
+    "inGameName": "Expensive Tastes",
+    "description": "\"Our Osiris \"friend\" is expecting another payment to continue their services. See that they get what they want.\"",
+    "faction": "Korolev",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "Pure Focus Crystal"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map02_PinnacleLab",
+        "deadDropItem": "Pure Veltecite"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_DesertPinnacleLabs"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 29000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Custom Rig"
+    ],
+    "isMain": true,
+    "chainName": "Heavy Construction",
+    "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+  },
+  {
+    "inGameName": "Delicate Parts",
+    "description": "\"Our drilling platform is nearly complete! Now we just need parts for its laser drill... It won't be of much use without it!\"",
+    "faction": "Korolev",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Gyroscope"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "CopperWire"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 35000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Expensive Tastes"
+    ],
+    "isMain": true,
+    "chainName": "Heavy Construction",
+    "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+  },
+  {
+    "inGameName": "This is Goodbye",
+    "description": "\"Our Osiris scientist plans to leave Fortuna, and is holding back the final key details needed to fully stabilize Letium until their last payment! You'll need to get me what they want, quick!\"",
+    "faction": "Korolev",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "OsirisScrip"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8000,
+        "itemToOwn": "Old Currency"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 35000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Delicate Parts"
+    ],
+    "isMain": true,
+    "chainName": "Heavy Construction",
+    "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+  },
+  {
+    "inGameName": "This isn't Science",
+    "description": "\"We have to hold on our efforts, Osiris suspects we're to blame for one of their top people suddenly quitting. I imagine they'll ease off if they see your efforts on the planet are purely unscientific.\"",
+    "faction": "Korolev",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 6,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "This is Goodbye"
+    ],
+    "isMain": true,
+    "chainName": "Heavy Construction",
+    "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
+  },
+  {
+    "inGameName": "Unlimited Power",
+    "description": "\"The Laser Drill needs something with more kick than even Veltecite. Get us some Meteor Cores, that should be enough for our first drill!\"",
+    "faction": "Korolev",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Meteor Core"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Laser Drill Beacon",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 35000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "This isn't Science"
+    ],
+    "isMain": true,
+    "chainName": "Heavy Construction",
+    "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Flaked Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   }
 ]
