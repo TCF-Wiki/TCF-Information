@@ -1,11 +1,13 @@
 {
   "modType": "Muzzle",
   "itemWeight": 2,
-  "effect": {
-    "attribute": "WeaponRecoilIncreaseRate",
-    "type": "Multiplicitive_PreAdd",
-    "value": 0.95
-  },
+  "effects": [
+    {
+      "attribute": "WeaponRecoilIncreaseRate",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,

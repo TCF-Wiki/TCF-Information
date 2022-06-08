@@ -1,11 +1,13 @@
 {
   "modType": "ScannerUpgrade4",
   "itemWeight": 1,
-  "effect": {
-    "attribute": "None",
-    "type": "Additive",
-    "value": 5
-  },
+  "effects": [
+    {
+      "attribute": "None",
+      "type": "Additive",
+      "value": 5
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 24,
   "sellingReturnDefault": 10,

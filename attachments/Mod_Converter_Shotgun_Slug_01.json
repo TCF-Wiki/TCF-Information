@@ -1,11 +1,23 @@
 {
   "modType": "AmmoConverter",
   "itemWeight": 4,
-  "effect": {
-    "attribute": "WeaponDamageRange",
-    "type": "Additive",
-    "value": 7000
-  },
+  "effects": [
+    {
+      "attribute": "WeaponDamageRange",
+      "type": "Additive",
+      "value": 7000
+    },
+    {
+      "attribute": "WeaponAmountOfShots",
+      "type": "Override",
+      "value": 1
+    },
+    {
+      "attribute": "WeaponTargetingSpreadMultiplier",
+      "type": "Override",
+      "value": 0
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,

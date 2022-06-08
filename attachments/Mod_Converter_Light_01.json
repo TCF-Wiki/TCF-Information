@@ -1,11 +1,13 @@
 {
   "modType": "AmmoConverter",
   "itemWeight": 4,
-  "effect": {
-    "attribute": "WeaponPenetration",
-    "type": "Additive",
-    "value": 1
-  },
+  "effects": [
+    {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 1
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,

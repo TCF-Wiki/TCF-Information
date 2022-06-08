@@ -1,11 +1,13 @@
 {
   "modType": "ForeGrip",
   "itemWeight": 2,
-  "effect": {
-    "attribute": "WeaponRecoilVertical",
-    "type": "Multiplicitive_PreAdd",
-    "value": 0.9
-  },
+  "effects": [
+    {
+      "attribute": "WeaponRecoilVertical",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,

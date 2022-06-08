@@ -1,11 +1,13 @@
 {
   "modType": "Magazine",
   "itemWeight": 3,
-  "effect": {
-    "attribute": "WeaponReloadTime",
-    "type": "Multiplicitive_PreAdd",
-    "value": 0.95
-  },
+  "effects": [
+    {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,

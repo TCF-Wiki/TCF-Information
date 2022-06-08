@@ -1,11 +1,13 @@
 {
   "modType": "ScannerUpgrade2",
   "itemWeight": 1,
-  "effect": {
-    "attribute": "None",
-    "type": "Override",
-    "value": 3
-  },
+  "effects": [
+    {
+      "attribute": "None",
+      "type": "Override",
+      "value": 3
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 2,
   "sellingReturnDefault": 10,

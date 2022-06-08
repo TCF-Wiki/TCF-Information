@@ -1,11 +1,13 @@
 {
   "modType": "ForeGrip",
   "itemWeight": 2,
-  "effect": {
-    "attribute": "WeaponEquipTime",
-    "type": "Multiplicitive_PreAdd",
-    "value": 0.9
-  },
+  "effects": [
+    {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,

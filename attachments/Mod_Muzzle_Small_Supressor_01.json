@@ -1,11 +1,13 @@
 {
   "modType": "Muzzle",
   "itemWeight": 2,
-  "effect": {
-    "attribute": "WeaponIsSilenced",
-    "type": "Override",
-    "value": 1
-  },
+  "effects": [
+    {
+      "attribute": "WeaponIsSilenced",
+      "type": "Override",
+      "value": 1
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 15,
   "sellingReturnDefault": 10,

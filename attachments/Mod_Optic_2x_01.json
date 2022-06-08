@@ -1,11 +1,13 @@
 {
   "modType": "Optics",
   "itemWeight": 2,
-  "effect": {
-    "attribute": "WeaponTargetingFOV",
-    "type": "Multiplicitive_PreAdd",
-    "value": 0.8
-  },
+  "effects": [
+    {
+      "attribute": "WeaponTargetingFOV",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 8,
   "sellingReturnDefault": 10,

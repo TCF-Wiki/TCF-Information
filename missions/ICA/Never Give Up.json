@@ -1183,5 +1183,716 @@
     "isMain": true,
     "chainName": "Never Give Up",
     "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-1",
+    "description": "\"Project Fireball was a bust, barely any power output before all the safeties kicked in and deadlocked the system. At least we have a lead on alternative, something called 'NiC' they were searching for in several locations. Head to the first one on the list for me, once it's clear I can send a few people down to investigate.\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_PumpkinFields"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_PumpkinFields"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-2",
+    "description": "\"This whole ordeal has sapped too many of our funds and resources, we need to get back in people's minds, and their cash in our pockets. I want you to head to the old Geothermal Plant and remind anyone in the area that ICA sells the best weaponry. And bring back some loot while you're in the area, for the sake of appearances.\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_GeothermalPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Sample Container",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_06",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-3",
+    "description": "\"Another location mentioned is around the Skeleton Research area; head there and clear it out. Hrmm, the wrong people might start getting curious about what we're up to... bring back some Rattler Skins and salvaged equipment; you know, normal prospector work.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "AI_RattlerSkin",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Biological Sampler",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_02",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-1",
+    "description": "\"Project Fireball was a bust, barely any power output before all the safeties kicked in and deadlocked the system. At least we have a lead on alternative, something called 'NiC' they were searching for in several locations. Head to the first one on the list for me, once it's clear I can send a few people down to investigate.\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_PumpkinFields"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_PumpkinFields"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-2",
+    "description": "\"This whole ordeal has sapped too many of our funds and resources, we need to get back in people's minds, and their cash in our pockets. I want you to head to the old Geothermal Plant and remind anyone in the area that ICA sells the best weaponry. And bring back some loot while you're in the area, for the sake of appearances.\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_GeothermalPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Sample Container",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_06",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-3",
+    "description": "\"Another location mentioned is around the Skeleton Research area; head there and clear it out. Hrmm, the wrong people might start getting curious about what we're up to... bring back some Rattler Skins and salvaged equipment; you know, normal prospector work.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "AI_RattlerSkin",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Biological Sampler",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_02",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-1",
+    "description": "\"Project Fireball was a bust, barely any power output before all the safeties kicked in and deadlocked the system. At least we have a lead on alternative, something called 'NiC' they were searching for in several locations. Head to the first one on the list for me, once it's clear I can send a few people down to investigate.\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_PumpkinFields"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_PumpkinFields"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-2",
+    "description": "\"This whole ordeal has sapped too many of our funds and resources, we need to get back in people's minds, and their cash in our pockets. I want you to head to the old Geothermal Plant and remind anyone in the area that ICA sells the best weaponry. And bring back some loot while you're in the area, for the sake of appearances.\"",
+    "faction": "ICA",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_GeothermalPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Sample Container",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_06",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
+  },
+  {
+    "inGameName": "Main-ICA-OilSearch-3",
+    "description": "\"Another location mentioned is around the Skeleton Research area; head there and clear it out. Hrmm, the wrong people might start getting curious about what we're up to... bring back some Rattler Skins and salvaged equipment; you know, normal prospector work.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "AI_RattlerSkin",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Biological Sampler",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_02",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Never Give Up",
+    "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up. The research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
   }
 ]

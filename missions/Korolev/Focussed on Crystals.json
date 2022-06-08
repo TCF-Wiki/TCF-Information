@@ -208,5 +208,131 @@
     "isMain": true,
     "chainName": "Focussed on Crystals",
     "chainDescription": "Focus Crystals are a staple in many new electronics, particularly those built in the Fortuna system. It would be nice if some of those electronics could help with locating them, and with the right materials the techs at Korolev might have just the thing."
+  },
+  {
+    "inGameName": "Clear Focus",
+    "description": "\"We have a new Scanner mod in the works, one that can find Focus Crystals. We'll need some high purity samples for callibration.\"",
+    "faction": "Korolev",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Pure Focus Crystal"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Mod_Korolev_Scanner_AlienCrystals",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Thick Skinned"
+    ],
+    "isMain": true,
+    "chainName": "Focussed on Crystals",
+    "chainDescription": "Focus Crystals are a staple in many new electronics, particularly those built in the Fortuna system. It would be nice if some of those electronics could help with locating them, and with the right materials the techs at Korolev might have just the thing."
+  },
+  {
+    "inGameName": "Clear Focus",
+    "description": "\"We have a new Scanner mod in the works, one that can find Focus Crystals. We'll need some high purity samples for callibration.\"",
+    "faction": "Korolev",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Pure Focus Crystal"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Mod_Korolev_Scanner_AlienCrystals",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Thick Skinned"
+    ],
+    "isMain": true,
+    "chainName": "Focussed on Crystals",
+    "chainDescription": "Focus Crystals are a staple in many new electronics, particularly those built in the Fortuna system. It would be nice if some of those electronics could help with locating them, and with the right materials the techs at Korolev might have just the thing."
+  },
+  {
+    "inGameName": "Clear Focus",
+    "description": "\"We have a new Scanner mod in the works, one that can find Focus Crystals. We'll need some high purity samples for callibration.\"",
+    "faction": "Korolev",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Pure Focus Crystal"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Mod_Korolev_Scanner_AlienCrystals",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Thick Skinned"
+    ],
+    "isMain": true,
+    "chainName": "Focussed on Crystals",
+    "chainDescription": "Focus Crystals are a staple in many new electronics, particularly those built in the Fortuna system. It would be nice if some of those electronics could help with locating them, and with the right materials the techs at Korolev might have just the thing."
   }
 ]

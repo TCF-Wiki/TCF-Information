@@ -648,5 +648,395 @@
     "isMain": true,
     "chainName": "Path to Strong Medkits",
     "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-1",
+    "description": "\"We're continuing to research better ways to keep prospectors like you alive on the planet, so I'm sure this interests you. Get me these materials and you'll be among the first to carry our new Strong Medkits.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_WeremoleMeat"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Medical Supplies"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Waterweed Filament"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-2",
+    "description": "\"The chemical properties of Fortuna III's flora and fauna is truly fascinating... one would expect it to be completely foreign to our own, yet it's so similar! Oh, right; we still need a few more items, Prospector.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Pale Ivy Blossom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-3",
+    "description": "\"We have reason to believe Korolev has a mole and is trying to steal our work on these Medkits and put them to market before we do; I've seeded rumors to different members of my team, if Korolev acts on them I'll know who the leak is. Stash these old medicines at the Waterfall Labs in Bright Sands; if Korolev sends an agent to retrieve them, I'll have my man.\"",
+    "faction": "Osiris",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 8,
+        "deadDropLocation": "Map01_WaterfallLab",
+        "deadDropItem": "Old Medicine"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_05",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-1",
+    "description": "\"We're continuing to research better ways to keep prospectors like you alive on the planet, so I'm sure this interests you. Get me these materials and you'll be among the first to carry our new Strong Medkits.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_WeremoleMeat"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Medical Supplies"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Waterweed Filament"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-2",
+    "description": "\"The chemical properties of Fortuna III's flora and fauna is truly fascinating... one would expect it to be completely foreign to our own, yet it's so similar! Oh, right; we still need a few more items, Prospector.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Pale Ivy Blossom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-3",
+    "description": "\"We have reason to believe Korolev has a mole and is trying to steal our work on these Medkits and put them to market before we do; I've seeded rumors to different members of my team, if Korolev acts on them I'll know who the leak is. Stash these old medicines at the Waterfall Labs in Bright Sands; if Korolev sends an agent to retrieve them, I'll have my man.\"",
+    "faction": "Osiris",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 8,
+        "deadDropLocation": "Map01_WaterfallLab",
+        "deadDropItem": "Old Medicine"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_05",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-1",
+    "description": "\"We're continuing to research better ways to keep prospectors like you alive on the planet, so I'm sure this interests you. Get me these materials and you'll be among the first to carry our new Strong Medkits.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_WeremoleMeat"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Medical Supplies"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Waterweed Filament"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-2",
+    "description": "\"The chemical properties of Fortuna III's flora and fauna is truly fascinating... one would expect it to be completely foreign to our own, yet it's so similar! Oh, right; we still need a few more items, Prospector.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Pale Ivy Blossom"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+  },
+  {
+    "inGameName": "Main-Osiris-StrongMedkits-3",
+    "description": "\"We have reason to believe Korolev has a mole and is trying to steal our work on these Medkits and put them to market before we do; I've seeded rumors to different members of my team, if Korolev acts on them I'll know who the leak is. Stash these old medicines at the Waterfall Labs in Bright Sands; if Korolev sends an agent to retrieve them, I'll have my man.\"",
+    "faction": "Osiris",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 8,
+        "deadDropLocation": "Map01_WaterfallLab",
+        "deadDropItem": "Old Medicine"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Consumable_Health_05",
+        "amount": 10,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Path to Strong Medkits",
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   }
 ]

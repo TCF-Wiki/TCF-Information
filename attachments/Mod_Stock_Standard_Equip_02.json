@@ -1,11 +1,13 @@
 {
   "modType": "Stock",
   "itemWeight": 2,
-  "effect": {
-    "attribute": "WeaponEquipTime",
-    "type": "Multiplicitive_PreAdd",
-    "value": 0.8
-  },
+  "effects": [
+    {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,

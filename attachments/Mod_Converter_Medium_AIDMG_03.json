@@ -1,11 +1,13 @@
 {
   "modType": "AmmoConverter",
   "itemWeight": 4,
-  "effect": {
-    "attribute": "DamageEnemyMultiplier",
-    "type": "Multiplicitive_PreAdd",
-    "value": 1.75
-  },
+  "effects": [
+    {
+      "attribute": "DamageEnemyMultiplier",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.75
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 24,
   "sellingReturnDefault": 10,

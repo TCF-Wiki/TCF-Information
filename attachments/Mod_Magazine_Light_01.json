@@ -1,11 +1,13 @@
 {
   "modType": "Magazine",
   "itemWeight": 3,
-  "effect": {
-    "attribute": "WeaponClipSize",
-    "type": "Multiplicitive_PreAdd",
-    "value": 1.15
-  },
+  "effects": [
+    {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.15
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,

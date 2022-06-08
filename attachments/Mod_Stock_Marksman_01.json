@@ -1,11 +1,13 @@
 {
   "modType": "Stock",
   "itemWeight": 2,
-  "effect": {
-    "attribute": "WeaponRecoilVertical",
-    "type": "Multiplicitive_PreAdd",
-    "value": 0.95
-  },
+  "effects": [
+    {
+      "attribute": "WeaponRecoilVertical",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,

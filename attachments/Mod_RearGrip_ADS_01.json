@@ -1,11 +1,13 @@
 {
   "modType": "RearGrip",
   "itemWeight": 1,
-  "effect": {
-    "attribute": "TargetingTime",
-    "type": "Multiplicitive_PreAdd",
-    "value": 0.9
-  },
+  "effects": [
+    {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    }
+  ],
   "device_category": "AssaultRifle",
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,
