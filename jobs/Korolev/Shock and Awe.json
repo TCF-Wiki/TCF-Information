@@ -1,31 +1,32 @@
 {
-  "inGameName": "NEW-Hard-KOR-LaserDrill-1",
+  "inGameName": "Shock and Awe",
+  "description": "Prospector, get us some Shock Absorbers from the surface, our equipment here needs maintenance. Get us the parts, if they're Korolev they'll still work for sure! Well... probably.",
   "faction": "Korolev",
-  "factionReputation": 330,
+  "factionReputation": 310,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 10,
-      "itemToOwn": "Letium"
+      "maxProgress": 3,
+      "itemToOwn": "Shock Absorber"
     }
   ],
   "rewards": [
     {
       "item": "KorolevScrip",
-      "amount": 40,
+      "amount": 37,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 132000,
+      "amount": 18000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
   ],
-  "unlockLevel": 20,
+  "unlockLevel": 18,
   "unlockContracts": [],
   "isMain": false
 }

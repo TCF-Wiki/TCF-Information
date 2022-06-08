@@ -1,31 +1,32 @@
 {
-  "inGameName": "NEW-Medium-ICA-Gather-5",
+  "inGameName": "Striking Big",
+  "description": "Damn it! We ran out of Fuel for our Radiation Shields here on the Station. And there's no replacement for Nanite Infused Crude Oil. You know what to do.",
   "faction": "ICA",
-  "factionReputation": 43,
-  "difficulty": "Medium",
+  "factionReputation": 330,
+  "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 8,
-      "itemToOwn": "\"Magic-GROW\" Fertilizer"
+      "maxProgress": 10,
+      "itemToOwn": "NiC Oil Cannister"
     }
   ],
   "rewards": [
     {
       "item": "ICAScrip",
-      "amount": 8,
+      "amount": 40,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 6700,
+      "amount": 218000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
   ],
-  "unlockLevel": 6,
+  "unlockLevel": 20,
   "unlockContracts": [],
   "isMain": false
 }

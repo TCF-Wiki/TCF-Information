@@ -1,31 +1,32 @@
 {
-  "inGameName": "NEW-Hard-ICA-Gather-8",
+  "inGameName": "Let it grow",
+  "description": "Aha, there's our new rising star! Prospector, see if you can find us some Magic-GROW Fertilizer, it'll help with our nutrient farms on the station.",
   "faction": "ICA",
-  "factionReputation": 300,
-  "difficulty": "Hard",
+  "factionReputation": 43,
+  "difficulty": "Medium",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 10,
-      "itemToOwn": "Jewellery"
+      "maxProgress": 8,
+      "itemToOwn": "\"Magic-GROW\" Fertilizer"
     }
   ],
   "rewards": [
     {
       "item": "ICAScrip",
-      "amount": 36,
+      "amount": 8,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 25000,
+      "amount": 6700,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
   ],
-  "unlockLevel": 17,
+  "unlockLevel": 6,
   "unlockContracts": [],
   "isMain": false
 }

@@ -1,31 +1,32 @@
 {
-  "inGameName": "NEW-Hard-ICA-Gather-7",
+  "inGameName": "Energy Crisis III",
+  "description": "Our Security Systems ran out of power and are runnning on emergency backup. This is not sustainable. We need more Miniature Reactors.",
   "faction": "ICA",
-  "factionReputation": 280,
-  "difficulty": "Hard",
+  "factionReputation": 90,
+  "difficulty": "Medium",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 8,
-      "itemToOwn": "Nutritional Bar"
+      "maxProgress": 3,
+      "itemToOwn": "MiniatureReactor"
     }
   ],
   "rewards": [
     {
       "item": "ICAScrip",
-      "amount": 33,
+      "amount": 10,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 18000,
+      "amount": 12000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
   ],
-  "unlockLevel": 14,
+  "unlockLevel": 10,
   "unlockContracts": [],
   "isMain": false
 }

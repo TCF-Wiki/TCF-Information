@@ -1,31 +1,32 @@
 {
-  "inGameName": "NEW-Hard-KOR-Gather-6",
+  "inGameName": "Exclusive Drilling Rights",
+  "description": "Alright Prospector; gear up and go get us some more Letium. We will of course pay extra for the risks, as well as you absolute secrecy...",
   "faction": "Korolev",
-  "factionReputation": 300,
+  "factionReputation": 330,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 16,
-      "itemToOwn": "Brittle Titan Ore"
+      "maxProgress": 10,
+      "itemToOwn": "Letium"
     }
   ],
   "rewards": [
     {
       "item": "KorolevScrip",
-      "amount": 36,
+      "amount": 40,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 24000,
+      "amount": 132000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
   ],
-  "unlockLevel": 17,
+  "unlockLevel": 20,
   "unlockContracts": [],
   "isMain": false
 }

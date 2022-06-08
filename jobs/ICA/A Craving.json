@@ -1,32 +1,32 @@
 {
-  "inGameName": "Energy Crysis III",
-  "description": "Our Security Systems ran out of power and are runnning on emergency backup. This is not sustainable. We need more Miniature Reactors.",
+  "inGameName": "A Craving",
+  "description": "Wanna make some extra cash? We would pay well for some Nutritional Bars. They taste funny, but nostalgia has deep pockets.",
   "faction": "ICA",
-  "factionReputation": 90,
-  "difficulty": "Medium",
+  "factionReputation": 280,
+  "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 3,
-      "itemToOwn": "MiniatureReactor"
+      "maxProgress": 8,
+      "itemToOwn": "Nutritional Bar"
     }
   ],
   "rewards": [
     {
       "item": "ICAScrip",
-      "amount": 10,
+      "amount": 33,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 12000,
+      "amount": 18000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
   ],
-  "unlockLevel": 10,
+  "unlockLevel": 14,
   "unlockContracts": [],
   "isMain": false
 }

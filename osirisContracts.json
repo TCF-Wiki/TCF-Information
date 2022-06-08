@@ -1059,7 +1059,7 @@
   },
   "NEW-Easy-Osiris-Gather-2": {
     "inGameName": "Lab equipment",
-    "description": "Improvements to our lab equipment are long overdue. Go get us Optic Glass for better microscopes!\" ",
+    "description": "Improvements to our lab equipment are long overdue. Go get us Optic Glass for better microscopes! ",
     "faction": "Osiris",
     "factionReputation": 13,
     "difficulty": "Easy",
@@ -1576,7 +1576,7 @@
   },
   "NEW-Medium-Osiris-Hunt-1": {
     "inGameName": "Behavioral Analysis III",
-    "description": "Time for more cehavioral combat data, Prospector. Get yourself a Sniper Rifle and test it out by hunting any creatures on Fortuna.",
+    "description": "Time for more behavioral combat data, Prospector. Get yourself a Sniper Rifle and test it out by hunting any creatures on Fortuna.",
     "faction": "Osiris",
     "factionReputation": 43,
     "difficulty": "Medium",
@@ -2672,7 +2672,7 @@
   },
   "NEW-Easy-Osiris-Stash-1": {
     "inGameName": "Botanical Samples",
-    "description": "Prospector! We need you to get your hands on some Brightcaps and stash them in one of Badums hidden Dead Drop Containers at Swamp Camp.",
+    "description": "Prospector! We need you to get your hands on some Brightcaps and stash them in one of Badums hidden Dead Drop Containers at Swamp Skeleton.",
     "faction": "Osiris",
     "factionReputation": 15,
     "difficulty": "Easy",
@@ -3331,7 +3331,7 @@
     "unlockContracts": [],
     "isMain": true,
     "chainName": "Dangerous Science",
-    "chainDescription": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as \"Progenitors\".\r\nHelping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
+    "chainDescription": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as \"Progenitors\". Helping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
   },
   "Main-Osiris-GainTrust-1": {
     "inGameName": "The Real Wetwork",
@@ -4081,7 +4081,7 @@
   },
   "Main-Osiris-GruntWork-8": {
     "inGameName": "Main-Osiris-GruntWork-8",
-    "description": "\"I plan on sending down a team to collect more old samples. Make sure they're well supplied, stash some Portable Labs in Greens Prospect for them.\"",
+    "description": "\"I plan on sending down a team to collect more old samples. Make sure they're well supplied, stash some Resin Guns in the Greens Prospect Office for them.\"",
     "faction": "Osiris",
     "factionReputation": 310,
     "difficulty": "Invalid",
@@ -4479,7 +4479,7 @@
     ],
     "isMain": true,
     "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
+    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy.  It seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
   "Main-Osiris-CaveRumors-2": {
     "inGameName": "Main-Osiris-CaveRumors-2",
@@ -4590,7 +4590,7 @@
     ],
     "isMain": true,
     "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
+    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy.  It seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
   "Main-Osiris-CaveRumors-3": {
     "inGameName": "Main-Osiris-CaveRumors-3",
@@ -4659,7 +4659,7 @@
     ],
     "isMain": true,
     "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
+    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy.  It seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
   "Main-Osiris-ExplosivesTry-1": {
     "inGameName": "Main-Osiris-ExplosivesTry-1",
@@ -4709,7 +4709,7 @@
     ],
     "isMain": true,
     "chainName": "Explosive Delivery",
-    "chainDescription": "The caverns you found are encased by a crystalline structure, far too strong for any of your weapons to break through. Sullivan believes there's a connection between them and the Progenitor terraforming tech.\r\nExplosives aren't the usual Osiris way, but they're a time-tested cheap way of opening holes in walls."
+    "chainDescription": "The caverns you found are encased by a crystalline structure, far too strong for any of your weapons to break through. Sullivan believes there's a connection between them and the Progenitor terraforming tech. Explosives aren't the usual Osiris way, but they're a time-tested cheap way of opening holes in walls."
   },
   "Main-Osiris-PrototypeLaser-1": {
     "inGameName": "Main-Osiris-PrototypeLaser-1",
@@ -4722,7 +4722,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "\"Fusion Cartridge\" Batteries",
+        "itemToOwn": "\"Fusion Cartridge\" Batteries ",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
         "killConditions": {
@@ -4779,7 +4779,7 @@
     ],
     "isMain": true,
     "chainName": "Laser Show",
-    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser. At least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   },
   "Main-Osiris-PrototypeLaser-2": {
     "inGameName": "Main-Osiris-PrototypeLaser-2",
@@ -4855,7 +4855,7 @@
     ],
     "isMain": true,
     "chainName": "Laser Show",
-    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser. At least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   },
   "Main-Osiris-StormSamples-1": {
     "inGameName": "Main-Osiris-StormSamples-1",
@@ -5057,7 +5057,7 @@
     ],
     "isMain": true,
     "chainName": "The Needs of the One",
-    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met. It'll be best to keep him content, if only for his new assistant's sake."
   },
   "Main-Osiris-SideWork1-2": {
     "inGameName": "Main-Osiris-SideWork1-2",
@@ -5114,7 +5114,7 @@
     ],
     "isMain": true,
     "chainName": "The Needs of the One",
-    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met. It'll be best to keep him content, if only for his new assistant's sake."
   },
   "Main-Osiris-SideWork1-3": {
     "inGameName": "Main-Osiris-SideWork1-3",
@@ -5171,7 +5171,7 @@
     ],
     "isMain": true,
     "chainName": "The Needs of the One",
-    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met. It'll be best to keep him content, if only for his new assistant's sake."
   },
   "Main-Osiris-SideWork1-4": {
     "inGameName": "Main-Osiris-SideWork1-4",
@@ -5228,7 +5228,7 @@
     ],
     "isMain": true,
     "chainName": "The Needs of the One",
-    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\nIt'll be best to keep him content, if only for his new assistant's sake."
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met. It'll be best to keep him content, if only for his new assistant's sake."
   },
   "Main-Osiris-CrystalSamples-1": {
     "inGameName": "Main-Osiris-CrystalSamples-1",
@@ -5269,7 +5269,7 @@
     ],
     "isMain": true,
     "chainName": "Everything is Crystals",
-    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\nMake sure Osiris gets what it needs to get it working."
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to. Make sure Osiris gets what it needs to get it working."
   },
   "Main-Osiris-CrystalSamples-2": {
     "inGameName": "Main-Osiris-CrystalSamples-2",
@@ -5315,7 +5315,7 @@
     ],
     "isMain": true,
     "chainName": "Everything is Crystals",
-    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\nMake sure Osiris gets what it needs to get it working."
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to. Make sure Osiris gets what it needs to get it working."
   },
   "Main-Osiris-CrystalSamples-3": {
     "inGameName": "Main-Osiris-CrystalSamples-3",
@@ -5380,7 +5380,7 @@
     ],
     "isMain": true,
     "chainName": "Everything is Crystals",
-    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\nMake sure Osiris gets what it needs to get it working."
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to. Make sure Osiris gets what it needs to get it working."
   },
   "Main-Osiris-StrongMedkits-1": {
     "inGameName": "Main-Osiris-StrongMedkits-1",
@@ -5426,7 +5426,7 @@
     ],
     "isMain": true,
     "chainName": "Path to Strong Medkits",
-    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
   "Main-Osiris-StrongMedkits-2": {
     "inGameName": "Main-Osiris-StrongMedkits-2",
@@ -5467,7 +5467,7 @@
     ],
     "isMain": true,
     "chainName": "Path to Strong Medkits",
-    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
   "Main-Osiris-StrongMedkits-3": {
     "inGameName": "Main-Osiris-StrongMedkits-3",
@@ -5510,7 +5510,7 @@
     ],
     "isMain": true,
     "chainName": "Path to Strong Medkits",
-    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
   "Main-Osiris-CraftFuel-1": {
     "inGameName": "Main-Osiris-CraftFuel-1",
@@ -5562,7 +5562,7 @@
     ],
     "isMain": true,
     "chainName": "Building a better Death Ray",
-    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
+    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior.  The laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
   },
   "Main-Osiris-CraftFuel-2": {
     "inGameName": "Main-Osiris-CraftFuel-2",
@@ -5609,7 +5609,7 @@
     ],
     "isMain": true,
     "chainName": "Building a better Death Ray",
-    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
+    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior.  The laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
   },
   "Main-Osiris-UplinkHack-1": {
     "inGameName": "Main-Osiris-UplinkHack-1",
@@ -5657,7 +5657,7 @@
     ],
     "isMain": true,
     "chainName": "Satellite Master",
-    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
   "Main-Osiris-UplinkHack-2": {
     "inGameName": "Main-Osiris-UplinkHack-2",
@@ -5705,7 +5705,7 @@
     ],
     "isMain": true,
     "chainName": "Satellite Master",
-    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
   "Main-Osiris-UplinkHack-3": {
     "inGameName": "Main-Osiris-UplinkHack-3",
@@ -5760,7 +5760,7 @@
     ],
     "isMain": true,
     "chainName": "Satellite Master",
-    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
   "Main-Osiris-CombatStims-1": {
     "inGameName": "Main-Osiris-CombatStims-1",
@@ -5806,7 +5806,7 @@
     ],
     "isMain": true,
     "chainName": "Combat Ready",
-    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
+    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference. Osiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
   "Main-Osiris-CombatStims-2": {
     "inGameName": "Main-Osiris-CombatStims-2",
@@ -5852,7 +5852,7 @@
     ],
     "isMain": true,
     "chainName": "Combat Ready",
-    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
+    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference. Osiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
   "Main-Osiris-CombatStims-3": {
     "inGameName": "Main-Osiris-CombatStims-3",
@@ -5894,7 +5894,7 @@
     ],
     "isMain": true,
     "chainName": "Combat Ready",
-    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
+    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference. Osiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
   "Main-Osiris-SatelliteRepairs-1": {
     "inGameName": "Main-Osiris-SatelliteRepairs-1",
@@ -6205,7 +6205,7 @@
     ],
     "isMain": true,
     "chainName": "Breaking and Entering",
-    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out.\r\nOnce the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
+    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out. Once the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
   },
   "Main-Osiris-Unique-1": {
     "inGameName": "Old Bones",
@@ -6475,7 +6475,8 @@
     "isMain": false
   },
   "NEW-Medium-Osiris-Gather-4": {
-    "inGameName": "NEW-Medium-Osiris-Gather-4",
+    "inGameName": "Flexible Sealant",
+    "description": "A number of our weather balloons took damage from recent storms, and we urgently need them back in the sky. Some Resin Guns should help patch them up.",
     "faction": "Osiris",
     "factionReputation": 62,
     "difficulty": "Medium",
@@ -6506,7 +6507,8 @@
     "isMain": false
   },
   "NEW-Medium-Osiris-Gather-5": {
-    "inGameName": "NEW-Medium-Osiris-Gather-5",
+    "inGameName": "Indigenous Fruit",
+    "description": "Ah, Prospector, have you come across any Indigenous Fruit on the surface? They seem to be a remarkably high source of potassium, they could make for good, cheap supplements.",
     "faction": "Osiris",
     "factionReputation": 52,
     "difficulty": "Medium",
@@ -6542,7 +6544,8 @@
     "isMain": false
   },
   "NEW-Hard-Osiris-Gather-8": {
-    "inGameName": "NEW-Hard-Osiris-Gather-8",
+    "inGameName": "Don't get crushed",
+    "description": "Gear up, Prospector! We need Crusher Skins for our Material Sciences Department. The tissue is said to be resistant to radiation, we must test that theory.",
     "faction": "Osiris",
     "factionReputation": 300,
     "difficulty": "Hard",

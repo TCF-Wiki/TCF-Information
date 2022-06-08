@@ -1,31 +1,32 @@
 {
-  "inGameName": "NEW-Hard-ICA-Oil-1",
+  "inGameName": "Energy Crisis II",
+  "description": "We need more power for our Community Life Support Systems, Prospector! Go get us more Miniature Reactors.",
   "faction": "ICA",
-  "factionReputation": 330,
-  "difficulty": "Hard",
+  "factionReputation": 43,
+  "difficulty": "Medium",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 10,
-      "itemToOwn": "NiC Oil Cannister"
+      "maxProgress": 2,
+      "itemToOwn": "MiniatureReactor"
     }
   ],
   "rewards": [
     {
       "item": "ICAScrip",
-      "amount": 40,
+      "amount": 8,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 218000,
+      "amount": 8000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
   ],
-  "unlockLevel": 20,
+  "unlockLevel": 6,
   "unlockContracts": [],
   "isMain": false
 }

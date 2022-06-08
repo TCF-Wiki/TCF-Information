@@ -1,31 +1,32 @@
 {
-  "inGameName": "NEW-Hard-KOR-Gather-7",
+  "inGameName": "Stocking Up",
+  "description": "We need Brittle Titan Ore, Prospector. And lots of it! I trust you know where to look for it by now? As they say, this is not your first rodeo.",
   "faction": "Korolev",
-  "factionReputation": 310,
+  "factionReputation": 300,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 3,
-      "itemToOwn": "Shock Absorber"
+      "maxProgress": 16,
+      "itemToOwn": "Brittle Titan Ore"
     }
   ],
   "rewards": [
     {
       "item": "KorolevScrip",
-      "amount": 37,
+      "amount": 36,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 18000,
+      "amount": 24000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
   ],
-  "unlockLevel": 18,
+  "unlockLevel": 17,
   "unlockContracts": [],
   "isMain": false
 }

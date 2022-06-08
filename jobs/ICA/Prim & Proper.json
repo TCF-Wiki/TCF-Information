@@ -1,26 +1,27 @@
 {
-  "inGameName": "NEW-Hard-Osiris-Gather-8",
-  "faction": "Osiris",
+  "inGameName": "Prim & Proper",
+  "description": "A delegation from off system just arrived, and our people need to look their best to woo them for patronage. Get us some Jewellery from the surface, hopefully we can impress.",
+  "faction": "ICA",
   "factionReputation": 300,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 3,
-      "itemToOwn": "AI_CrusherSkin"
+      "maxProgress": 10,
+      "itemToOwn": "Jewellery"
     }
   ],
   "rewards": [
     {
-      "item": "OsirisScrip",
+      "item": "ICAScrip",
       "amount": 36,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 50000,
+      "amount": 25000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     }
