@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-ICA-Gather-7",
+  "faction": "ICA",
+  "factionReputation": 280,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 8,
+      "itemToOwn": "Nutritional Bar"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 33,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 14,
+  "unlockContracts": [],
+  "isMain": false
+}

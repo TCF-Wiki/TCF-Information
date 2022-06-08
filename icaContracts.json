@@ -1991,7 +1991,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "itemToOwn": "Flawed Veltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -3018,7 +3018,7 @@
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
         },
-        "locationConditions": "Map01_CentralStation"
+        "locationConditions": "Map01_Lagoon"
       },
       {
         "type": "Kills",
@@ -3030,7 +3030,7 @@
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
         },
-        "locationConditions": "Map01_CentralStation"
+        "locationConditions": "Map01_Lagoon"
       }
     ],
     "rewards": [
@@ -3152,6 +3152,12 @@
       {
         "item": "SoftCurrency",
         "amount": 4900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_03",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -3442,6 +3448,12 @@
         "amount": 7900,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -3590,7 +3602,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 4,
         "itemToOwn": "HardDrive_rare",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -3622,6 +3634,12 @@
       {
         "item": "SoftCurrency",
         "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_02",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -3788,12 +3806,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Meteor Fragment"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "MagneticFieldStabilizer"
       }
     ],
@@ -3807,6 +3825,12 @@
       {
         "item": "SoftCurrency",
         "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_05",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -3839,8 +3863,8 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 1,
-        "itemToOwn": "Portable Lab"
+        "maxProgress": 3,
+        "itemToOwn": "Co-TEC MultiTool"
       }
     ],
     "rewards": [
@@ -3950,7 +3974,7 @@
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
         },
-        "locationConditions": "Map02_StarportWarehouse"
+        "locationConditions": "Map02_Starport"
       }
     ],
     "rewards": [
@@ -3963,6 +3987,12 @@
       {
         "item": "SoftCurrency",
         "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_07",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -4069,6 +4099,12 @@
         "amount": 21000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_04",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -4102,7 +4138,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -4203,7 +4239,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4261,7 +4297,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -4339,6 +4375,12 @@
         "amount": 14000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_06",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -4359,7 +4401,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 12,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4752,6 +4794,12 @@
         "amount": 32000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -5085,6 +5133,12 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_06",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -5637,5 +5691,129 @@
     "isMain": true,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  "NEW-Hard-ICA-Oil-1": {
+    "inGameName": "NEW-Hard-ICA-Oil-1",
+    "faction": "ICA",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "NiC Oil Cannister"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 218000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Gather-5": {
+    "inGameName": "NEW-Medium-ICA-Gather-5",
+    "faction": "ICA",
+    "factionReputation": 43,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 6,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-7": {
+    "inGameName": "NEW-Hard-ICA-Gather-7",
+    "faction": "ICA",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Nutritional Bar"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-8": {
+    "inGameName": "NEW-Hard-ICA-Gather-8",
+    "faction": "ICA",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Jewellery"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
   }
 }

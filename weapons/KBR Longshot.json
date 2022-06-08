@@ -7,7 +7,7 @@
   "weight": 50,
   "sellValue": 29776,
   "factionRep": 298,
-  "penetration": 25,
+  "penetration": 26,
   "directDamage": 35,
   "radialDamage": 0,
   "refireTime": 0.6,
@@ -30,7 +30,7 @@
   "falloff": {
     "FalloffStart": 5000,
     "FalloffEnd": 10000,
-    "FalloffMultiplier": 1
+    "FalloffMultiplier": 0.75
   },
   "unequipTime": 0.5,
   "equipTime": 1,

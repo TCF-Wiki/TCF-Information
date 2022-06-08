@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Medium-KOR-Gather-6",
+  "faction": "Korolev",
+  "factionReputation": 62,
+  "difficulty": "Medium",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Old Medicine"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 9,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 6300,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 8,
+  "unlockContracts": [],
+  "isMain": false
+}

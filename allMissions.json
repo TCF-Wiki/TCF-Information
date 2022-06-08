@@ -1009,7 +1009,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1378,7 +1378,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 25,
+        "maxProgress": 15,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1396,7 +1396,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1458,7 +1458,7 @@
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
         },
-        "locationConditions": "Map02_StarportWarehouse"
+        "locationConditions": "Map02_Starport"
       },
       {
         "type": "Kills",
@@ -1606,7 +1606,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1665,7 +1665,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 3,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1909,7 +1909,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2250,6 +2250,12 @@
       {
         "item": "SoftCurrency",
         "amount": 44000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_01",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -2608,7 +2614,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2628,6 +2634,12 @@
       {
         "item": "SoftCurrency",
         "amount": 29000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_06",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -2761,6 +2773,12 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_08",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -3032,7 +3050,7 @@
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
         },
-        "locationConditions": "Map01_CentralStation"
+        "locationConditions": "Map01_Lagoon"
       },
       {
         "type": "Kills",
@@ -3044,7 +3062,7 @@
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
         },
-        "locationConditions": "Map01_CentralStation"
+        "locationConditions": "Map01_Lagoon"
       }
     ],
     "rewards": [
@@ -3166,6 +3184,12 @@
       {
         "item": "SoftCurrency",
         "amount": 4900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_03",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -3380,6 +3404,12 @@
         "amount": 7900,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -3502,7 +3532,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 4,
         "itemToOwn": "HardDrive_rare",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -3534,6 +3564,12 @@
       {
         "item": "SoftCurrency",
         "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_02",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -3700,12 +3736,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Meteor Fragment"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "MagneticFieldStabilizer"
       }
     ],
@@ -3719,6 +3755,12 @@
       {
         "item": "SoftCurrency",
         "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_05",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -3751,8 +3793,8 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 1,
-        "itemToOwn": "Portable Lab"
+        "maxProgress": 3,
+        "itemToOwn": "Co-TEC MultiTool"
       }
     ],
     "rewards": [
@@ -3862,7 +3904,7 @@
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
         },
-        "locationConditions": "Map02_StarportWarehouse"
+        "locationConditions": "Map02_Starport"
       }
     ],
     "rewards": [
@@ -3875,6 +3917,12 @@
       {
         "item": "SoftCurrency",
         "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_07",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -3981,6 +4029,12 @@
         "amount": 21000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_04",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -4014,7 +4068,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -4115,7 +4169,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4173,7 +4227,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -4251,6 +4305,12 @@
         "amount": 14000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_06",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -4271,7 +4331,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 12,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4664,6 +4724,12 @@
         "amount": 32000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -4997,6 +5063,12 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_06",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -5644,6 +5716,12 @@
         "amount": 7700,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_04",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -5794,7 +5872,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 8,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5852,9 +5930,9 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 1,
+        "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "Resin Gun",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5878,7 +5956,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 11000,
+        "amount": 8600,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -6180,7 +6258,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6193,7 +6271,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 25,
+        "maxProgress": 12,
         "itemToOwn": "Waterweed Filament",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6254,7 +6332,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 3,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6328,6 +6406,12 @@
         "amount": 7800,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_07",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -6359,7 +6443,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 5,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6373,7 +6457,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 8,
         "itemToOwn": "Clear Veltecite",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6386,12 +6470,6 @@
       }
     ],
     "rewards": [
-      {
-        "item": "Phasic Lancer",
-        "amount": 1,
-        "isEndOfChainReward": true,
-        "isUnlockReward": false
-      },
       {
         "item": "OsirisScrip",
         "amount": 14,
@@ -6447,6 +6525,12 @@
         "amount": 20000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_05",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -6467,7 +6551,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "itemToOwn": "\"Fusion Cartridge\" Batteries",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6480,7 +6564,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "itemToOwn": "Metallic Alloys",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6493,7 +6577,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 8,
         "itemToOwn": "CircuitBoard",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6667,7 +6751,7 @@
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
         },
-        "locationConditions": "Map02_StarportWarehouse"
+        "locationConditions": "Map02_Starport"
       }
     ],
     "rewards": [
@@ -7027,7 +7111,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "Portable Lab"
       },
       {
@@ -7084,7 +7168,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -7292,6 +7376,12 @@
       {
         "item": "SoftCurrency",
         "amount": 26000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_08",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       }
@@ -7771,6 +7861,12 @@
         "amount": 18000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
+      },
+      {
+        "item": "Map02_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
       }
     ],
     "unlockLevel": 0,
@@ -7915,7 +8011,7 @@
     ],
     "rewards": [
       {
-        "item": "Basilisk",
+        "item": "QuestItem_OrbitalCanonTargetBeacon",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -8711,7 +8807,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -8810,6 +8906,12 @@
         "item": "SoftCurrency",
         "amount": 9400,
         "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Phasic Lancer",
+        "amount": 1,
+        "isEndOfChainReward": true,
         "isUnlockReward": false
       }
     ],

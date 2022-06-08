@@ -657,49 +657,49 @@
     "PQLevelRequired": 2,
     "tier": 2,
     "Level_0": {
-      "upgradeAmount": 50,
+      "upgradeAmount": 100,
       "upgradeTime": 2520,
       "costs": {
-        "SoftCurrency": 4690,
+        "SoftCurrency": 3964,
         "Cables": 5,
         "RadioSpareParts": 3,
         "OsirisScrip": 6
       }
     },
     "Level_1": {
-      "upgradeAmount": 100,
+      "upgradeAmount": 200,
       "upgradeTime": 3360,
       "costs": {
-        "SoftCurrency": 6566,
+        "SoftCurrency": 4690,
         "PureNickel": 10,
         "Jewellery": 4,
         "OsirisScrip": 8
       }
     },
     "Level_2": {
-      "upgradeAmount": 150,
+      "upgradeAmount": 300,
       "upgradeTime": 4320,
       "costs": {
-        "SoftCurrency": 9193,
+        "SoftCurrency": 5549,
         "HardDrive_rare": 1,
         "OsirisScrip": 9
       }
     },
     "Level_3": {
-      "upgradeAmount": 200,
+      "upgradeAmount": 400,
       "upgradeTime": 5400,
       "costs": {
-        "SoftCurrency": 12870,
+        "SoftCurrency": 6566,
         "OpticGlass": 11,
         "CircuitBoard": 11,
         "OsirisScrip": 11
       }
     },
     "Level_4": {
-      "upgradeAmount": 250,
+      "upgradeAmount": 500,
       "upgradeTime": 6600,
       "costs": {
-        "SoftCurrency": 18018,
+        "SoftCurrency": 7769,
         "BallBearings": 15,
         "CombatCPU_Blue": 8,
         "OsirisScrip": 14
@@ -711,50 +711,50 @@
     "PQLevelRequired": 5,
     "tier": 3,
     "Level_0": {
-      "upgradeAmount": 50,
+      "upgradeAmount": 200,
       "upgradeTime": 27720,
       "costs": {
-        "SoftCurrency": 25226,
+        "SoftCurrency": 9192,
         "SamplingDevice": 6,
         "HardenedBoneAlloy": 5,
         "OsirisScrip": 17
       }
     },
     "Level_1": {
-      "upgradeAmount": 100,
+      "upgradeAmount": 400,
       "upgradeTime": 30360,
       "costs": {
-        "SoftCurrency": 35316,
+        "SoftCurrency": 10876,
         "BrittleTitanOre": 10,
         "RareVeltecite": 2,
         "OsirisScrip": 21
       }
     },
     "Level_2": {
-      "upgradeAmount": 150,
+      "upgradeAmount": 600,
       "upgradeTime": 33120,
       "costs": {
-        "SoftCurrency": 49442,
+        "SoftCurrency": 12869,
         "MeteorCore": 3,
         "TitanOre": 1,
         "OsirisScrip": 26
       }
     },
     "Level_3": {
-      "upgradeAmount": 200,
+      "upgradeAmount": 800,
       "upgradeTime": 36000,
       "costs": {
-        "SoftCurrency": 69219,
+        "SoftCurrency": 15227,
         "OldCurrency": 5625,
         "MultiTool": 9,
         "OsirisScrip": 31
       }
     },
     "Level_4": {
-      "upgradeAmount": 250,
+      "upgradeAmount": 1000,
       "upgradeTime": 39000,
       "costs": {
-        "SoftCurrency": 96907,
+        "SoftCurrency": 18016,
         "PrintResin": 12,
         "CombatCPU_Blue": 12,
         "OsirisScrip": 38
@@ -766,49 +766,49 @@
     "PQLevelRequired": 8,
     "tier": 4,
     "Level_0": {
-      "upgradeAmount": 50,
+      "upgradeAmount": 500,
       "upgradeTime": 98400,
       "costs": {
-        "SoftCurrency": 135670,
+        "SoftCurrency": 25223,
         "Datapad": 10,
         "AI_WeremoleMeat_02": 4,
         "OsirisScrip": 58
       }
     },
     "Level_1": {
-      "upgradeAmount": 100,
+      "upgradeAmount": 1000,
       "upgradeTime": 103320,
       "costs": {
-        "SoftCurrency": 189938,
+        "SoftCurrency": 35312,
         "ShardSlicer": 11,
         "DesertPlant": 4,
         "OsirisScrip": 86
       }
     },
     "Level_2": {
-      "upgradeAmount": 150,
+      "upgradeAmount": 1500,
       "upgradeTime": 108360,
       "costs": {
-        "SoftCurrency": 265913,
+        "SoftCurrency": 49437,
         "CombatCPU_red": 1,
         "PureFocusCrystal": 2,
         "OsirisScrip": 130
       }
     },
     "Level_3": {
-      "upgradeAmount": 200,
+      "upgradeAmount": 2000,
       "upgradeTime": 113520,
       "costs": {
-        "SoftCurrency": 372278,
+        "SoftCurrency": 69212,
         "AlphaWardenHeart": 1,
         "OsirisScrip": 195
       }
     },
     "Level_4": {
-      "upgradeAmount": 250,
+      "upgradeAmount": 2500,
       "upgradeTime": 118800,
       "costs": {
-        "SoftCurrency": 521189,
+        "SoftCurrency": 96897,
         "VelteciteHeart": 1,
         "OsirisScrip": 292
       }
@@ -831,7 +831,7 @@
       "upgradeAmount": 2,
       "upgradeTime": 360,
       "costs": {
-        "SoftCurrency": 2180,
+        "SoftCurrency": 1378,
         "CompoundSheets": 3,
         "ICAScrip": 2
       }
@@ -845,17 +845,17 @@
       "upgradeAmount": 1,
       "upgradeTime": 7920,
       "costs": {
-        "SoftCurrency": 5451,
+        "SoftCurrency": 2177,
         "Nickel": 15,
         "AluminumParts": 4,
-        "ICAScrip": 3
+        "ICAScrip": 2
       }
     },
     "Level_1": {
       "upgradeAmount": 2,
       "upgradeTime": 9360,
       "costs": {
-        "SoftCurrency": 13626,
+        "SoftCurrency": 5434,
         "Insulation": 8,
         "HydraulicPiston": 8,
         "ICAScrip": 5
@@ -870,7 +870,7 @@
       "upgradeAmount": 1,
       "upgradeTime": 27720,
       "costs": {
-        "SoftCurrency": 34066,
+        "SoftCurrency": 13566,
         "Fabrics": 14,
         "BallBearings": 12,
         "ICAScrip": 11
@@ -880,10 +880,10 @@
       "upgradeAmount": 2,
       "upgradeTime": 30360,
       "costs": {
-        "SoftCurrency": 85165,
+        "SoftCurrency": 33867,
         "ShockAbsorber": 1,
         "MagneticFieldStabilizer": 14,
-        "ICAScrip": 17
+        "ICAScrip": 26
       }
     }
   },
@@ -895,20 +895,20 @@
       "upgradeAmount": 1,
       "upgradeTime": 59520,
       "costs": {
-        "SoftCurrency": 212913,
+        "SoftCurrency": 84545,
         "SmartMesh": 6,
         "MultiTool": 8,
-        "ICAScrip": 38
+        "ICAScrip": 58
       }
     },
     "Level_1": {
       "upgradeAmount": 2,
       "upgradeTime": 63360,
       "costs": {
-        "SoftCurrency": 532283,
+        "SoftCurrency": 211058,
         "PortableLabEquipmentBox": 1,
         "AnaestheticsContainers": 20,
-        "ICAScrip": 86
+        "ICAScrip": 130
       }
     }
   },
@@ -920,7 +920,7 @@
       "upgradeAmount": 2500,
       "upgradeTime": 120,
       "costs": {
-        "SoftCurrency": 870,
+        "SoftCurrency": 872,
         "SpareCasing": 3,
         "KorolevScrip": 1
       }
@@ -929,7 +929,7 @@
       "upgradeAmount": 5000,
       "upgradeTime": 600,
       "costs": {
-        "SoftCurrency": 1400,
+        "SoftCurrency": 1221,
         "Nickel": 5,
         "KorolevScrip": 2
       }
@@ -938,7 +938,7 @@
       "upgradeAmount": 7500,
       "upgradeTime": 1200,
       "costs": {
-        "SoftCurrency": 2200,
+        "SoftCurrency": 1709,
         "Battery": 1,
         "CommonVeltecite": 3,
         "KorolevScrip": 2
@@ -948,7 +948,7 @@
       "upgradeAmount": 10000,
       "upgradeTime": 1800,
       "costs": {
-        "SoftCurrency": 3400,
+        "SoftCurrency": 2393,
         "PureNickel": 4,
         "Insulation": 3,
         "KorolevScrip": 3
@@ -960,50 +960,50 @@
     "PQLevelRequired": 2,
     "tier": 2,
     "Level_0": {
-      "upgradeAmount": 2500,
+      "upgradeAmount": 5000,
       "upgradeTime": 2520,
       "costs": {
-        "SoftCurrency": 4300,
+        "SoftCurrency": 2393,
         "HydraulicPiston": 3,
         "BlueWood": 3,
         "KorolevScrip": 3
       }
     },
     "Level_1": {
-      "upgradeAmount": 5000,
+      "upgradeAmount": 10000,
       "upgradeTime": 3360,
       "costs": {
-        "SoftCurrency": 5400,
+        "SoftCurrency": 3350,
         "SampleContainer": 2,
         "PrintResin": 1,
         "KorolevScrip": 5
       }
     },
     "Level_2": {
-      "upgradeAmount": 7500,
+      "upgradeAmount": 15000,
       "upgradeTime": 4320,
       "costs": {
-        "SoftCurrency": 8600,
+        "SoftCurrency": 4690,
         "SmartMesh": 2,
         "UncommonVelticite": 3,
         "KorolevScrip": 8
       }
     },
     "Level_3": {
-      "upgradeAmount": 10000,
+      "upgradeAmount": 20000,
       "upgradeTime": 5400,
       "costs": {
-        "SoftCurrency": 10400,
+        "SoftCurrency": 6566,
         "MeteorFragment": 5,
         "MagneticFieldStabilizer": 10,
         "KorolevScrip": 11
       }
     },
     "Level_4": {
-      "upgradeAmount": 12500,
+      "upgradeAmount": 25000,
       "upgradeTime": 6600,
       "costs": {
-        "SoftCurrency": 14000,
+        "SoftCurrency": 9192,
         "Cables": 18,
         "Adhesive": 9,
         "KorolevScrip": 17
@@ -1015,52 +1015,52 @@
     "PQLevelRequired": 5,
     "tier": 3,
     "Level_0": {
-      "upgradeAmount": 2500,
+      "upgradeAmount": 10000,
       "upgradeTime": 27720,
       "costs": {
         "MultiTool": 6,
         "CircuitBoard": 15,
-        "SoftCurrency": 17000,
+        "SoftCurrency": 9192,
         "KorolevScrip": 17
       }
     },
     "Level_1": {
-      "upgradeAmount": 5000,
+      "upgradeAmount": 20000,
       "upgradeTime": 30360,
       "costs": {
         "BrittleTitanOre": 10,
         "Datapad": 5,
-        "SoftCurrency": 21400,
+        "SoftCurrency": 10876,
         "KorolevScrip": 21
       }
     },
     "Level_2": {
-      "upgradeAmount": 7500,
+      "upgradeAmount": 30000,
       "upgradeTime": 33120,
       "costs": {
         "BlueRunnerEgg": 9,
         "Insulation": 21,
-        "SoftCurrency": 34000,
+        "SoftCurrency": 12869,
         "KorolevScrip": 26
       }
     },
     "Level_3": {
-      "upgradeAmount": 10000,
+      "upgradeAmount": 40000,
       "upgradeTime": 36000,
       "costs": {
         "Gyroscope": 1,
         "TitanOre": 2,
-        "SoftCurrency": 53500,
+        "SoftCurrency": 15227,
         "KorolevScrip": 31
       }
     },
     "Level_4": {
-      "upgradeAmount": 12500,
+      "upgradeAmount": 50000,
       "upgradeTime": 39000,
       "costs": {
         "RareVeltecite": 4,
         "AI_WeremoleMeat": 8,
-        "SoftCurrency": 67000,
+        "SoftCurrency": 18016,
         "KorolevScrip": 38
       }
     }
@@ -1070,51 +1070,51 @@
     "PQLevelRequired": 6,
     "tier": 4,
     "Level_0": {
-      "upgradeAmount": 2500,
+      "upgradeAmount": 20000,
       "upgradeTime": 98400,
       "costs": {
         "EpicVeltecite": 2,
         "AI_StriderMeat_03": 12,
-        "SoftCurrency": 84500,
+        "SoftCurrency": 25223,
         "KorolevScrip": 58
       }
     },
     "Level_1": {
-      "upgradeAmount": 5000,
+      "upgradeAmount": 40000,
       "upgradeTime": 103320,
       "costs": {
         "SmartMesh": 11,
         "ShardSlicer": 11,
-        "SoftCurrency": 133500,
+        "SoftCurrency": 35312,
         "KorolevScrip": 86
       }
     },
     "Level_2": {
-      "upgradeAmount": 7500,
+      "upgradeAmount": 60000,
       "upgradeTime": 108360,
       "costs": {
         "MeteorCore": 4,
         "PortableLabEquipmentBox": 2,
-        "SoftCurrency": 211000,
+        "SoftCurrency": 49437,
         "KorolevScrip": 130
       }
     },
     "Level_3": {
-      "upgradeAmount": 10000,
+      "upgradeAmount": 80000,
       "upgradeTime": 113520,
       "costs": {
-        "Letium": 107,
+        "EpicVeltecite": 2,
         "PureFocusCrystal": 2,
-        "SoftCurrency": 333500,
+        "SoftCurrency": 69212,
         "KorolevScrip": 195
       }
     },
     "Level_4": {
-      "upgradeAmount": 12500,
+      "upgradeAmount": 100000,
       "upgradeTime": 118800,
       "costs": {
-        "OilTank": 38,
-        "SoftCurrency": 527000,
+        "VelteciteHeart": 1,
+        "SoftCurrency": 96897,
         "KorolevScrip": 292
       }
     }

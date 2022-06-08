@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-Osiris-EliteCrusher-1",
+  "faction": "Osiris",
+  "factionReputation": 330,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Alpha Crusher Heart"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 40,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 146000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 20,
+  "unlockContracts": [],
+  "isMain": false
+}

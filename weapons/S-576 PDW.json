@@ -8,7 +8,7 @@
   "sellValue": 371,
   "factionRep": 4,
   "penetration": 10,
-  "directDamage": 10,
+  "directDamage": 9,
   "radialDamage": 0,
   "refireTime": 0.07,
   "reloadTime": 3.05,
@@ -29,8 +29,8 @@
   },
   "falloff": {
     "FalloffStart": 2000,
-    "FalloffEnd": 3000,
-    "FalloffMultiplier": 1
+    "FalloffEnd": 5000,
+    "FalloffMultiplier": 0.7
   },
   "unequipTime": 0.5,
   "equipTime": 0.8,

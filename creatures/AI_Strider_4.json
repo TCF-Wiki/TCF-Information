@@ -3,11 +3,11 @@
   "regenRate": 0,
   "regenDelay": 60,
   "regenDamageThreshold": -1,
-  "armorValue": 30,
+  "armorValue": 28,
   "speed": {
     "EYAIState::Reseting": 750,
     "EYAIState::Idle": 202,
-    "EYAIState::Investigate": 600,
+    "EYAIState::Investigate": 300,
     "EYAIState::Combat": 750,
     "EYAIState::Suspicious": 700
   },
@@ -19,8 +19,8 @@
     "Jaw": 1.8,
     "Spine4": 1.8
   },
-  "penetration": 15,
-  "armorConstant": 0.15,
+  "penetration": 17,
+  "armorConstant": 0.17,
   "minDamageReduction": 0.1,
   "maxDamageReduction": 2,
   "attacks": {

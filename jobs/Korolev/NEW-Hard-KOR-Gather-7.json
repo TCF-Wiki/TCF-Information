@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-KOR-Gather-7",
+  "faction": "Korolev",
+  "factionReputation": 310,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 3,
+      "itemToOwn": "Shock Absorber"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 37,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 18,
+  "unlockContracts": [],
+  "isMain": false
+}

@@ -11,7 +11,7 @@
   "directDamage": 13,
   "radialDamage": 0,
   "refireTime": 0.11,
-  "reloadTime": 2.75,
+  "reloadTime": 2.7,
   "ammoInClip": 22,
   "ammoType": "Medium",
   "projectileSpeed": 28000,
@@ -28,9 +28,9 @@
     "radialDamageEnemyMultiplier": 1
   },
   "falloff": {
-    "FalloffStart": 3500,
-    "FalloffEnd": 5000,
-    "FalloffMultiplier": 1
+    "FalloffStart": 3000,
+    "FalloffEnd": 6000,
+    "FalloffMultiplier": 0.75
   },
   "unequipTime": 0.5,
   "equipTime": 1,

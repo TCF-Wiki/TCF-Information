@@ -5,9 +5,9 @@
     "Weapon.Category.LMG"
   ],
   "weight": 50,
-  "sellValue": 6611,
-  "factionRep": 66,
-  "penetration": 20,
+  "sellValue": 9336,
+  "factionRep": 93,
+  "penetration": 23,
   "directDamage": 10,
   "radialDamage": 0,
   "refireTime": 0.09,
@@ -29,8 +29,8 @@
   },
   "falloff": {
     "FalloffStart": 3500,
-    "FalloffEnd": 5000,
-    "FalloffMultiplier": 1
+    "FalloffEnd": 6000,
+    "FalloffMultiplier": 0.75
   },
   "unequipTime": 0.5,
   "equipTime": 1,

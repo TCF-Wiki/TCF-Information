@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-KOR-LaserDrill-1",
+  "faction": "Korolev",
+  "factionReputation": 330,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Letium"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 40,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 132000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 20,
+  "unlockContracts": [],
+  "isMain": false
+}

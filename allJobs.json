@@ -4240,7 +4240,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6713,7 +6713,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "itemToOwn": "Flawed Veltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -9479,6 +9479,383 @@
     "unlockContracts": [
       "Test-Rewards"
     ],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Oil-1": {
+    "inGameName": "NEW-Hard-ICA-Oil-1",
+    "faction": "ICA",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "NiC Oil Cannister"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 218000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-EliteCrusher-1": {
+    "inGameName": "NEW-Hard-Osiris-EliteCrusher-1",
+    "faction": "Osiris",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Alpha Crusher Heart"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 146000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-KOR-LaserDrill-1": {
+    "inGameName": "NEW-Hard-KOR-LaserDrill-1",
+    "faction": "Korolev",
+    "factionReputation": 330,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Letium"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 132000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-KOR-Gather-6": {
+    "inGameName": "NEW-Hard-KOR-Gather-6",
+    "faction": "Korolev",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 16,
+        "itemToOwn": "Brittle Titan Ore"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-KOR-Gather-7": {
+    "inGameName": "NEW-Hard-KOR-Gather-7",
+    "faction": "Korolev",
+    "factionReputation": 310,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Shock Absorber"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 18,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-KOR-Gather-6": {
+    "inGameName": "NEW-Medium-KOR-Gather-6",
+    "faction": "Korolev",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Old Medicine"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-ICA-Gather-5": {
+    "inGameName": "NEW-Medium-ICA-Gather-5",
+    "faction": "ICA",
+    "factionReputation": 43,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 6,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-7": {
+    "inGameName": "NEW-Hard-ICA-Gather-7",
+    "faction": "ICA",
+    "factionReputation": 280,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Nutritional Bar"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 33,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 14,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-Gather-8": {
+    "inGameName": "NEW-Hard-ICA-Gather-8",
+    "faction": "ICA",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Jewellery"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Gather-4": {
+    "inGameName": "NEW-Medium-Osiris-Gather-4",
+    "faction": "Osiris",
+    "factionReputation": 62,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Resin Gun"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 9,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 8,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Medium-Osiris-Gather-5": {
+    "inGameName": "NEW-Medium-Osiris-Gather-5",
+    "faction": "Osiris",
+    "factionReputation": 52,
+    "difficulty": "Medium",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "AlienFruit"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "Biological Sampler"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 7,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-8": {
+    "inGameName": "NEW-Hard-Osiris-Gather-8",
+    "faction": "Osiris",
+    "factionReputation": 300,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_CrusherSkin"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 36,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 50000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [],
     "isMain": false
   }
 }

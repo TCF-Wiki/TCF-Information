@@ -6,9 +6,9 @@
       "Weapon.Category.Pistol"
     ],
     "weight": 20,
-    "sellValue": 27457,
-    "factionRep": 275,
-    "penetration": 30,
+    "sellValue": 21965,
+    "factionRep": 220,
+    "penetration": 28,
     "directDamage": 28,
     "radialDamage": 0,
     "refireTime": 0.4,
@@ -29,9 +29,9 @@
       "radialDamageEnemyMultiplier": 1
     },
     "falloff": {
-      "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 1
+      "FalloffStart": 3000,
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.4,
     "equipTime": 0.6,
@@ -48,7 +48,7 @@
     "weight": 25,
     "sellValue": 6611,
     "factionRep": 66,
-    "penetration": 20,
+    "penetration": 23,
     "directDamage": 7,
     "radialDamage": 0,
     "refireTime": 0.4,
@@ -88,8 +88,8 @@
     "weight": 30,
     "sellValue": 1918,
     "factionRep": 19,
-    "penetration": 15,
-    "directDamage": 11,
+    "penetration": 17,
+    "directDamage": 10,
     "radialDamage": 0,
     "refireTime": 0.085,
     "reloadTime": 2.3,
@@ -110,8 +110,8 @@
     },
     "falloff": {
       "FalloffStart": 2000,
-      "FalloffEnd": 3000,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 5000,
+      "FalloffMultiplier": 0.7
     },
     "unequipTime": 0.5,
     "equipTime": 0.8,
@@ -128,7 +128,7 @@
     "weight": 35,
     "sellValue": 63080,
     "factionRep": 631,
-    "penetration": 30,
+    "penetration": 28,
     "directDamage": 13,
     "radialDamage": 0,
     "refireTime": 0.12,
@@ -149,9 +149,9 @@
       "radialDamageEnemyMultiplier": 1
     },
     "falloff": {
-      "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 1
+      "FalloffStart": 3000,
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -168,7 +168,7 @@
     "weight": 50,
     "sellValue": 29776,
     "factionRep": 298,
-    "penetration": 25,
+    "penetration": 26,
     "directDamage": 35,
     "radialDamage": 0,
     "refireTime": 0.6,
@@ -191,7 +191,7 @@
     "falloff": {
       "FalloffStart": 5000,
       "FalloffEnd": 10000,
-      "FalloffMultiplier": 1
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -208,7 +208,7 @@
     "weight": 60,
     "sellValue": 325513,
     "factionRep": 3255,
-    "penetration": 35,
+    "penetration": 31,
     "directDamage": 75,
     "radialDamage": 0,
     "refireTime": 1.4,
@@ -248,11 +248,11 @@
     "weight": 20,
     "sellValue": 1918,
     "factionRep": 19,
-    "penetration": 15,
+    "penetration": 17,
     "directDamage": 12,
     "radialDamage": 0,
     "refireTime": 0.5,
-    "reloadTime": 1.8,
+    "reloadTime": 1.78,
     "ammoInClip": 2,
     "ammoType": "Shotgun",
     "projectileSpeed": 28000,
@@ -288,7 +288,7 @@
     "weight": 25,
     "sellValue": 16131,
     "factionRep": 161,
-    "penetration": 25,
+    "penetration": 26,
     "directDamage": 8,
     "radialDamage": 0,
     "refireTime": 1.255,
@@ -328,11 +328,11 @@
     "weight": 30,
     "sellValue": 44664,
     "factionRep": 447,
-    "penetration": 30,
-    "directDamage": 10,
+    "penetration": 28,
+    "directDamage": 9,
     "radialDamage": 0,
     "refireTime": 0.075,
-    "reloadTime": 2.53,
+    "reloadTime": 2.54,
     "ammoInClip": 25,
     "ammoType": "Light",
     "projectileSpeed": 28000,
@@ -350,8 +350,8 @@
     },
     "falloff": {
       "FalloffStart": 2000,
-      "FalloffEnd": 3000,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 5000,
+      "FalloffMultiplier": 0.7
     },
     "unequipTime": 0.5,
     "equipTime": 0.8,
@@ -366,9 +366,9 @@
       "Weapon.Category.LMG"
     ],
     "weight": 50,
-    "sellValue": 6611,
-    "factionRep": 66,
-    "penetration": 20,
+    "sellValue": 9336,
+    "factionRep": 93,
+    "penetration": 23,
     "directDamage": 10,
     "radialDamage": 0,
     "refireTime": 0.09,
@@ -390,8 +390,8 @@
     },
     "falloff": {
       "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -408,10 +408,10 @@
     "weight": 35,
     "sellValue": 22781,
     "factionRep": 228,
-    "penetration": 25,
-    "directDamage": 9,
+    "penetration": 26,
+    "directDamage": 11,
     "radialDamage": 0,
-    "refireTime": 0.09,
+    "refireTime": 0.105,
     "reloadTime": 3.2,
     "ammoInClip": 24,
     "ammoType": "Medium",
@@ -429,9 +429,9 @@
       "radialDamageEnemyMultiplier": 1
     },
     "falloff": {
-      "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 1
+      "FalloffStart": 3000,
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -448,7 +448,7 @@
     "weight": 50,
     "sellValue": 12203,
     "factionRep": 122,
-    "penetration": 20,
+    "penetration": 23,
     "directDamage": 27,
     "radialDamage": 0,
     "refireTime": 0.4,
@@ -471,7 +471,7 @@
     "falloff": {
       "FalloffStart": 5000,
       "FalloffEnd": 10000,
-      "FalloffMultiplier": 1
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -488,8 +488,8 @@
     "weight": 50,
     "sellValue": 123462,
     "factionRep": 1235,
-    "penetration": 30,
-    "directDamage": 62,
+    "penetration": 28,
+    "directDamage": 63,
     "radialDamage": 0,
     "refireTime": 1.7,
     "reloadTime": 5.3,
@@ -501,7 +501,7 @@
     "amountOfImmediateFires": 1,
     "movementSpeedMultiplier": 0.8,
     "damageMultipliers": {
-      "weakDamageMultiplier": 1.4,
+      "weakDamageMultiplier": 1.45,
       "weakDamageMultiplierEnemy": 1,
       "directDamagePlayerMultiplier": 1,
       "directDamageEnemyMultiplier": 1,
@@ -550,8 +550,8 @@
     },
     "falloff": {
       "FalloffStart": 1500,
-      "FalloffEnd": 2500,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 3000,
+      "FalloffMultiplier": 0.5
     },
     "unequipTime": 0.4,
     "equipTime": 0.6,
@@ -609,7 +609,7 @@
     "sellValue": 371,
     "factionRep": 4,
     "penetration": 10,
-    "directDamage": 10,
+    "directDamage": 9,
     "radialDamage": 0,
     "refireTime": 0.07,
     "reloadTime": 3.05,
@@ -630,8 +630,8 @@
     },
     "falloff": {
       "FalloffStart": 2000,
-      "FalloffEnd": 3000,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 5000,
+      "FalloffMultiplier": 0.7
     },
     "unequipTime": 0.5,
     "equipTime": 0.8,
@@ -652,7 +652,7 @@
     "directDamage": 13,
     "radialDamage": 0,
     "refireTime": 0.11,
-    "reloadTime": 2.75,
+    "reloadTime": 2.7,
     "ammoInClip": 22,
     "ammoType": "Medium",
     "projectileSpeed": 28000,
@@ -669,9 +669,9 @@
       "radialDamageEnemyMultiplier": 1
     },
     "falloff": {
-      "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 1
+      "FalloffStart": 3000,
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -767,7 +767,7 @@
     "sellValue": 124,
     "factionRep": 1,
     "penetration": 5,
-    "directDamage": 10,
+    "directDamage": 9,
     "radialDamage": 0,
     "refireTime": 0.07,
     "reloadTime": 3.05,
@@ -788,8 +788,8 @@
     },
     "falloff": {
       "FalloffStart": 2000,
-      "FalloffEnd": 3000,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 5000,
+      "FalloffMultiplier": 0.7
     },
     "unequipTime": 0.5,
     "equipTime": 0.8,
@@ -826,9 +826,9 @@
       "radialDamageEnemyMultiplier": 1
     },
     "falloff": {
-      "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 1
+      "FalloffStart": 3000,
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -845,7 +845,7 @@
     "weight": 20,
     "sellValue": 1179,
     "factionRep": 12,
-    "penetration": 15,
+    "penetration": 17,
     "directDamage": 13,
     "radialDamage": 0,
     "refireTime": 0.34,
@@ -867,8 +867,8 @@
     },
     "falloff": {
       "FalloffStart": 1500,
-      "FalloffEnd": 2500,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 3000,
+      "FalloffMultiplier": 0.5
     },
     "unequipTime": 0.4,
     "equipTime": 0.6,
@@ -885,8 +885,8 @@
     "weight": 30,
     "sellValue": 16131,
     "factionRep": 161,
-    "penetration": 25,
-    "directDamage": 10,
+    "penetration": 26,
+    "directDamage": 9,
     "radialDamage": 0,
     "refireTime": 0.095,
     "reloadTime": 2.5,
@@ -907,8 +907,8 @@
     },
     "falloff": {
       "FalloffStart": 2000,
-      "FalloffEnd": 3000,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 5000,
+      "FalloffMultiplier": 0.7
     },
     "unequipTime": 0.5,
     "equipTime": 0.8,
@@ -925,7 +925,7 @@
     "weight": 35,
     "sellValue": 9336,
     "factionRep": 93,
-    "penetration": 20,
+    "penetration": 23,
     "directDamage": 13,
     "radialDamage": 0,
     "refireTime": 0.26,
@@ -946,9 +946,9 @@
       "radialDamageEnemyMultiplier": 1
     },
     "falloff": {
-      "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 1
+      "FalloffStart": 3000,
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -965,8 +965,8 @@
     "weight": 35,
     "sellValue": 22781,
     "factionRep": 228,
-    "penetration": 25,
-    "directDamage": 4,
+    "penetration": 26,
+    "directDamage": 5,
     "radialDamage": 0,
     "refireTime": 0.17,
     "reloadTime": 2,
@@ -986,9 +986,9 @@
       "radialDamageEnemyMultiplier": 1
     },
     "falloff": {
-      "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 0.7
+      "FalloffStart": 3000,
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -1005,7 +1005,7 @@
     "weight": 35,
     "sellValue": 2709,
     "factionRep": 27,
-    "penetration": 15,
+    "penetration": 17,
     "directDamage": 13,
     "radialDamage": 0,
     "refireTime": 0.12,
@@ -1026,9 +1026,9 @@
       "radialDamageEnemyMultiplier": 1
     },
     "falloff": {
-      "FalloffStart": 3500,
-      "FalloffEnd": 5000,
-      "FalloffMultiplier": 1
+      "FalloffStart": 3000,
+      "FalloffEnd": 6000,
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -1045,7 +1045,7 @@
     "weight": 50,
     "sellValue": 82448,
     "factionRep": 824,
-    "penetration": 30,
+    "penetration": 28,
     "directDamage": 34,
     "radialDamage": 0,
     "refireTime": 0.5,
@@ -1068,7 +1068,7 @@
     "falloff": {
       "FalloffStart": 5000,
       "FalloffEnd": 10000,
-      "FalloffMultiplier": 1
+      "FalloffMultiplier": 0.75
     },
     "unequipTime": 0.5,
     "equipTime": 1,
@@ -1156,7 +1156,7 @@
     "weight": 60,
     "sellValue": 297815,
     "factionRep": 2978,
-    "penetration": 40,
+    "penetration": 31,
     "directDamage": 0,
     "radialDamage": 100,
     "refireTime": 1,
@@ -1276,7 +1276,7 @@
     "weight": 60,
     "sellValue": 270540,
     "factionRep": 2705,
-    "penetration": 35,
+    "penetration": 31,
     "directDamage": 4,
     "radialDamage": 0,
     "refireTime": 0.03,
@@ -1980,8 +1980,8 @@
     },
     "falloff": {
       "FalloffStart": 1500,
-      "FalloffEnd": 2500,
-      "FalloffMultiplier": 1
+      "FalloffEnd": 3000,
+      "FalloffMultiplier": 0.5
     },
     "unequipTime": 0.4,
     "equipTime": 0.6,

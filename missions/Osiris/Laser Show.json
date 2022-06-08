@@ -582,5 +582,297 @@
     "isMain": true,
     "chainName": "Laser Show",
     "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+  },
+  {
+    "inGameName": "Main-Osiris-PrototypeLaser-1",
+    "description": "\"It appears Dr. Fedotov had already conferred with Dr. Farinha about how to break into the Crystal Caverns; it figures the man wouldn't write anything down and make our lives easy. He insists only a high powered laser drill can get through those walls, so you're to get us these items so we can build a prototype here.\"",
+    "faction": "Osiris",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Metallic Alloys",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "CircuitBoard",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Frozen"
+    ],
+    "isMain": true,
+    "chainName": "Laser Show",
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+  },
+  {
+    "inGameName": "Main-Osiris-PrototypeLaser-2",
+    "description": "\"Progress is slower than I'd hoped. Korolev refuses to share schematics for their decommissioned Veltecite Laser Drill platforms, so we're forced to reinvent the wheel. No matter, an Osiris original will be far better, anyway. Get us these additional materials, Prospector.\"",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Optic Glass",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Radio Equipment",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Gyroscope",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Laser Show",
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+  },
+  {
+    "inGameName": "Main-Osiris-PrototypeLaser-1",
+    "description": "\"It appears Dr. Fedotov had already conferred with Dr. Farinha about how to break into the Crystal Caverns; it figures the man wouldn't write anything down and make our lives easy. He insists only a high powered laser drill can get through those walls, so you're to get us these items so we can build a prototype here.\"",
+    "faction": "Osiris",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Metallic Alloys",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "CircuitBoard",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Frozen"
+    ],
+    "isMain": true,
+    "chainName": "Laser Show",
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+  },
+  {
+    "inGameName": "Main-Osiris-PrototypeLaser-2",
+    "description": "\"Progress is slower than I'd hoped. Korolev refuses to share schematics for their decommissioned Veltecite Laser Drill platforms, so we're forced to reinvent the wheel. No matter, an Osiris original will be far better, anyway. Get us these additional materials, Prospector.\"",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Optic Glass",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Radio Equipment",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Gyroscope",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Laser Show",
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   }
 ]

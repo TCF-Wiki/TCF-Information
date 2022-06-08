@@ -2,7 +2,7 @@
   "CommonVeltecite": {
     "rarity": "Common",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 3,
@@ -12,7 +12,7 @@
   "UncommonVelticite": {
     "rarity": "Uncommon",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 3,
@@ -22,7 +22,7 @@
   "RareVeltecite": {
     "rarity": "Rare",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 3,
@@ -32,7 +32,7 @@
   "EpicVeltecite": {
     "rarity": "Epic",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 3,
@@ -42,7 +42,7 @@
   "VelteciteHeart": {
     "rarity": "Legendary",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 1,
     "weight": 3,
@@ -52,7 +52,7 @@
   "FocusCrystal": {
     "rarity": "Rare",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 4,
@@ -62,7 +62,7 @@
   "PureFocusCrystal": {
     "rarity": "Epic",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 4,
@@ -72,7 +72,7 @@
   "Nickel": {
     "rarity": "Common",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 2,
@@ -82,7 +82,7 @@
   "PureNickel": {
     "rarity": "Uncommon",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 2,
@@ -92,7 +92,7 @@
   "Polonium": {
     "rarity": "Epic",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 3,
@@ -102,7 +102,7 @@
   "BrittleTitanOre": {
     "rarity": "Uncommon",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 3,
@@ -112,7 +112,7 @@
   "TitanOre": {
     "rarity": "Rare",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 3,
@@ -122,7 +122,7 @@
   "StormSurgeCrystal": {
     "rarity": "Rare",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 5,
@@ -142,7 +142,7 @@
   "MeteorCore": {
     "rarity": "Epic",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 1,
     "weight": 25,
@@ -152,7 +152,7 @@
   "MeteorFragment": {
     "rarity": "Rare",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 5,
@@ -310,7 +310,7 @@
     ],
     "stackSize": 10,
     "weight": 5,
-    "sellValue": 3844,
+    "sellValue": 3845,
     "factionRep": 38
   },
   "MiniatureReactor": {
@@ -340,7 +340,7 @@
     ],
     "stackSize": 10,
     "weight": 6,
-    "sellValue": 3844,
+    "sellValue": 3845,
     "factionRep": 38
   },
   "MagneticFieldStabilizer": {
@@ -524,7 +524,7 @@
     ],
     "stackSize": 10,
     "weight": 15,
-    "sellValue": 3844,
+    "sellValue": 3845,
     "factionRep": 38
   },
   "Battery": {
@@ -644,9 +644,9 @@
       "Loot.Category.Creature"
     ],
     "stackSize": 10,
-    "weight": 15,
-    "sellValue": 0,
-    "factionRep": 0
+    "weight": 10,
+    "sellValue": 6812,
+    "factionRep": 68
   },
   "AI_RattlerHead": {
     "rarity": "Legendary",
@@ -654,9 +654,9 @@
       "Loot.Category.Creature"
     ],
     "stackSize": 10,
-    "weight": 20,
-    "sellValue": 0,
-    "factionRep": 0
+    "weight": 15,
+    "sellValue": 15570,
+    "factionRep": 156
   },
   "AI_WeremoleHead": {
     "rarity": "Legendary",
@@ -664,9 +664,9 @@
       "Loot.Category.Creature"
     ],
     "stackSize": 10,
-    "weight": 30,
-    "sellValue": 0,
-    "factionRep": 0
+    "weight": 20,
+    "sellValue": 38924,
+    "factionRep": 389
   },
   "AI_CrusherHead": {
     "rarity": "Legendary",
@@ -674,9 +674,9 @@
       "Loot.Category.Creature"
     ],
     "stackSize": 10,
-    "weight": 50,
-    "sellValue": 0,
-    "factionRep": 0
+    "weight": 30,
+    "sellValue": 97310,
+    "factionRep": 973
   },
   "AlphaCrusherSkull": {
     "rarity": "Legendary",
@@ -823,7 +823,7 @@
   "Letium": {
     "rarity": "Epic",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 3,
@@ -833,7 +833,7 @@
   "OilTank": {
     "rarity": "Epic",
     "tags": [
-      "Loot.Category.Mineral"
+      "Loot.Category.Resource"
     ],
     "stackSize": 10,
     "weight": 5,
@@ -869,5 +869,35 @@
     "weight": 10,
     "sellValue": 11533,
     "factionRep": 115
+  },
+  "AI_StriderHead_03": {
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "weight": 10,
+    "sellValue": 52547,
+    "factionRep": 525
+  },
+  "AI_RattlerHead_02": {
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "weight": 15,
+    "sellValue": 52547,
+    "factionRep": 525
+  },
+  "AI_WeremoleHead_02": {
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "weight": 20,
+    "sellValue": 116772,
+    "factionRep": 1168
   }
 }

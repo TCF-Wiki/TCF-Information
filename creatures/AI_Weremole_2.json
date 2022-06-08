@@ -3,13 +3,13 @@
   "regenRate": 0,
   "regenDelay": 60,
   "regenDamageThreshold": -1,
-  "armorValue": 35,
+  "armorValue": 31,
   "speed": {
     "EYAIState::Reseting": 750,
-    "EYAIState::Idle": 180,
-    "EYAIState::Investigate": 180,
-    "EYAIState::Combat": 180,
-    "EYAIState::Suspicious": 180
+    "EYAIState::Idle": 300,
+    "EYAIState::Investigate": 300,
+    "EYAIState::Combat": 300,
+    "EYAIState::Suspicious": 300
   },
   "resetRadius": 9000,
   "weakSpotMultiplier": 10,
@@ -19,8 +19,8 @@
     "Neck3": 1,
     "EggSackC": 1
   },
-  "penetration": 25,
-  "armorConstant": 0.15,
+  "penetration": 26,
+  "armorConstant": 0.18,
   "minDamageReduction": 0.1,
   "maxDamageReduction": 2,
   "attacks": {

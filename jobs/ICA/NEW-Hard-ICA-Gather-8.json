@@ -1,0 +1,31 @@
+{
+  "inGameName": "NEW-Hard-ICA-Gather-8",
+  "faction": "ICA",
+  "factionReputation": 300,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 10,
+      "itemToOwn": "Jewellery"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 36,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 25000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    }
+  ],
+  "unlockLevel": 17,
+  "unlockContracts": [],
+  "isMain": false
+}
