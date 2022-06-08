@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::AmmoConverter",
+  "modType": "AmmoConverter",
   "itemWeight": 4,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "WeaponDamageRange",
+    "type": "Additive",
+    "value": 7000
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

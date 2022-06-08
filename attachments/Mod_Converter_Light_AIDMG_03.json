@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::AmmoConverter",
+  "modType": "AmmoConverter",
   "itemWeight": 4,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "DamageEnemyMultiplier",
+    "type": "Multiplicitive_PreAdd",
+    "value": 1.75
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 24,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

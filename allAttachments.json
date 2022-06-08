@@ -1,8 +1,9 @@
 {
   "NoOptics": {
-    "modType": "EYModificationSlotType::Optics",
+    "modType": "Optics",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 0,
     "sellingReturnsPerRarity": {
@@ -23,9 +24,10 @@
     "flashlight": false
   },
   "NoMagazine": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 0,
     "sellingReturnsPerRarity": {
@@ -46,9 +48,10 @@
     "flashlight": false
   },
   "NoBarrel": {
-    "modType": "EYModificationSlotType::Barrel",
+    "modType": "Barrel",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 0,
     "sellingReturnsPerRarity": {
@@ -69,9 +72,10 @@
     "flashlight": false
   },
   "NoStock": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 0,
     "sellingReturnsPerRarity": {
@@ -92,9 +96,10 @@
     "flashlight": false
   },
   "NoGrip": {
-    "modType": "EYModificationSlotType::RearGrip",
+    "modType": "RearGrip",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 0,
     "sellingReturnsPerRarity": {
@@ -115,9 +120,10 @@
     "flashlight": false
   },
   "NoAttatchment": {
-    "modType": "EYModificationSlotType::Attachment",
+    "modType": "Attachment",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 0,
     "sellingReturnsPerRarity": {
@@ -138,9 +144,14 @@
     "flashlight": false
   },
   "Mod_Korolev_Scanner_AlienCrystals": {
-    "modType": "EYModificationSlotType::ScannerUpgrade3",
+    "modType": "ScannerUpgrade3",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "None",
+      "type": "Override",
+      "value": 1
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 3,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -167,9 +178,14 @@
     "flashlight": false
   },
   "Mod_Korolev_Scanner_HeavyMetals": {
-    "modType": "EYModificationSlotType::ScannerUpgrade2",
+    "modType": "ScannerUpgrade2",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "None",
+      "type": "Override",
+      "value": 3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 2,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -196,9 +212,14 @@
     "flashlight": false
   },
   "Mod_Korolev_Scanner_Veltecite": {
-    "modType": "EYModificationSlotType::ScannerUpgrade1",
+    "modType": "ScannerUpgrade1",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "None",
+      "type": "Additive",
+      "value": 5
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -225,9 +246,14 @@
     "flashlight": false
   },
   "Mod_Optic_2x_01": {
-    "modType": "EYModificationSlotType::Optics",
+    "modType": "Optics",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponTargetingFOV",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 8,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -248,9 +274,10 @@
     "flashlight": false
   },
   "Mod_Optic_4x_01": {
-    "modType": "EYModificationSlotType::Optics",
+    "modType": "Optics",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 13,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -271,9 +298,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_03": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.5
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -294,9 +326,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -317,9 +354,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.15
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -340,9 +382,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.15
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -363,9 +410,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.15
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -386,9 +438,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.25
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -409,9 +466,14 @@
     "flashlight": false
   },
   "Mod_Muzzle_Small_Supressor_01": {
-    "modType": "EYModificationSlotType::Muzzle",
+    "modType": "Muzzle",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponIsSilenced",
+      "type": "Override",
+      "value": 1
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 15,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -432,9 +494,14 @@
     "flashlight": false
   },
   "Mod_Muzzle_Standard_Supressor_01": {
-    "modType": "EYModificationSlotType::Muzzle",
+    "modType": "Muzzle",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponIsSilenced",
+      "type": "Override",
+      "value": 1
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 15,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -455,9 +522,14 @@
     "flashlight": false
   },
   "Mod_Converter_Light_01": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 1
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -478,9 +550,14 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_01": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 1
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -501,9 +578,14 @@
     "flashlight": false
   },
   "Mod_Converter_Heavy_01": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 1
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -524,9 +606,14 @@
     "flashlight": false
   },
   "Mod_Converter_Shotgun_01": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 1
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -547,9 +634,14 @@
     "flashlight": false
   },
   "Mod_ForeGrip_Angled_01": {
-    "modType": "EYModificationSlotType::ForeGrip",
+    "modType": "ForeGrip",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilVertical",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -570,9 +662,14 @@
     "flashlight": false
   },
   "Mod_RearGrip_01": {
-    "modType": "EYModificationSlotType::RearGrip",
+    "modType": "RearGrip",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -593,9 +690,10 @@
     "flashlight": false
   },
   "Mod_Tactical_Flashlight_01": {
-    "modType": "EYModificationSlotType::Tactical",
+    "modType": "Tactical",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -616,9 +714,14 @@
     "flashlight": true
   },
   "Mod_Stock_Marksman_01": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilVertical",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -639,9 +742,14 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_01": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilVertical",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -662,9 +770,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -685,9 +798,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_03": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.5
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -708,9 +826,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.4
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -731,9 +854,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_03": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.7
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -754,9 +882,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.45
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -777,9 +910,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_03": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.65
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -800,9 +938,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_ReloadSpeed_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -823,9 +966,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_ReloadSpeed_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -846,9 +994,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_ReloadSpeed_03": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -869,9 +1022,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.75
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -892,9 +1050,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_Reloadspeed_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -915,9 +1078,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_Reloadspeed_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -938,9 +1106,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_Reloadspeed_03": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -961,9 +1134,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.75
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -984,9 +1162,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_ReloadSpeed_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1007,9 +1190,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_ReloadSpeed_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1030,9 +1218,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_ReloadSpeed_03": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1053,9 +1246,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.75
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1076,9 +1274,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1099,9 +1302,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1122,9 +1330,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1145,9 +1358,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponReloadTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.75
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1168,9 +1386,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_EXTReload_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.15
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1191,9 +1414,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_EXTReload_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1214,9 +1442,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_EXTReload_01": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.15
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1237,9 +1470,14 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_EXTReload_02": {
-    "modType": "EYModificationSlotType::Magazine",
+    "modType": "Magazine",
     "itemWeight": 3,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponClipSize",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1260,9 +1498,14 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_02": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilVertical",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1283,9 +1526,14 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_Equip_01": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1306,9 +1554,14 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_Equip_02": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1329,9 +1582,14 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_ADS_01": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1352,9 +1610,14 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_ADS_02": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1375,9 +1638,14 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_ADSEquip_01": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1398,9 +1666,14 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_ADSEquip_02": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1421,9 +1694,14 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_02": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilVertical",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1444,9 +1722,14 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_Equip_01": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1467,9 +1750,14 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_Equip_02": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1490,9 +1778,14 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_ADS_01": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1513,9 +1806,14 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_ADS_02": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1536,9 +1834,14 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_ADSEquip_01": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1559,9 +1862,14 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
-    "modType": "EYModificationSlotType::Stock",
+    "modType": "Stock",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1582,9 +1890,14 @@
     "flashlight": false
   },
   "Mod_Muzzle_Small_Recoil_01": {
-    "modType": "EYModificationSlotType::Muzzle",
+    "modType": "Muzzle",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilIncreaseRate",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1605,9 +1918,14 @@
     "flashlight": false
   },
   "Mod_Muzzle_Small_Recoil_02": {
-    "modType": "EYModificationSlotType::Muzzle",
+    "modType": "Muzzle",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilIncreaseRate",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1628,9 +1946,14 @@
     "flashlight": false
   },
   "Mod_Muzzle_Small_Recoil_03": {
-    "modType": "EYModificationSlotType::Muzzle",
+    "modType": "Muzzle",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilIncreaseRate",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1651,9 +1974,14 @@
     "flashlight": false
   },
   "Mod_Muzzle_Standard_Recoil_01": {
-    "modType": "EYModificationSlotType::Muzzle",
+    "modType": "Muzzle",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilIncreaseRate",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.95
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1674,9 +2002,14 @@
     "flashlight": false
   },
   "Mod_Muzzle_Standard_Recoil_02": {
-    "modType": "EYModificationSlotType::Muzzle",
+    "modType": "Muzzle",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilIncreaseRate",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1697,9 +2030,14 @@
     "flashlight": false
   },
   "Mod_Muzzle_Standard_Recoil_03": {
-    "modType": "EYModificationSlotType::Muzzle",
+    "modType": "Muzzle",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilIncreaseRate",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1720,9 +2058,14 @@
     "flashlight": false
   },
   "Mod_Converter_Light_02": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 2
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1743,9 +2086,14 @@
     "flashlight": false
   },
   "Mod_Converter_Light_03": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1766,9 +2114,14 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_02": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 2
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1789,9 +2142,14 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_03": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1812,9 +2170,14 @@
     "flashlight": false
   },
   "Mod_Converter_Heavy_02": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 2
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1835,9 +2198,14 @@
     "flashlight": false
   },
   "Mod_Converter_Heavy_03": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1858,9 +2226,14 @@
     "flashlight": false
   },
   "Mod_Converter_Shotgun_02": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 2
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1881,9 +2254,14 @@
     "flashlight": false
   },
   "Mod_Converter_Shotgun_03": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponPenetration",
+      "type": "Additive",
+      "value": 3
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1904,9 +2282,14 @@
     "flashlight": false
   },
   "Mod_Converter_Light_AIDMG_01": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "DamageEnemyMultiplier",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.25
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1927,9 +2310,14 @@
     "flashlight": false
   },
   "Mod_Converter_Light_AIDMG_02": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "DamageEnemyMultiplier",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.5
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1950,9 +2338,14 @@
     "flashlight": false
   },
   "Mod_Converter_Light_AIDMG_03": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "DamageEnemyMultiplier",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.75
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1973,9 +2366,14 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_AIDMG_01": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "DamageEnemyMultiplier",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.25
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -1996,9 +2394,14 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_AIDMG_02": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "DamageEnemyMultiplier",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.5
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2019,9 +2422,14 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_AIDMG_03": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "DamageEnemyMultiplier",
+      "type": "Multiplicitive_PreAdd",
+      "value": 1.75
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2042,9 +2450,14 @@
     "flashlight": false
   },
   "Mod_Converter_Shotgun_Slug_01": {
-    "modType": "EYModificationSlotType::AmmoConverter",
+    "modType": "AmmoConverter",
     "itemWeight": 4,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponDamageRange",
+      "type": "Additive",
+      "value": 7000
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2065,9 +2478,14 @@
     "flashlight": false
   },
   "Mod_ForeGrip_Angled_02": {
-    "modType": "EYModificationSlotType::ForeGrip",
+    "modType": "ForeGrip",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponRecoilVertical",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2088,9 +2506,14 @@
     "flashlight": false
   },
   "Mod_ForeGrip_Equip_01": {
-    "modType": "EYModificationSlotType::ForeGrip",
+    "modType": "ForeGrip",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2111,9 +2534,14 @@
     "flashlight": false
   },
   "Mod_ForeGrip_Equip_02": {
-    "modType": "EYModificationSlotType::ForeGrip",
+    "modType": "ForeGrip",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2134,9 +2562,14 @@
     "flashlight": false
   },
   "Mod_ForeGrip_ADS_01": {
-    "modType": "EYModificationSlotType::ForeGrip",
+    "modType": "ForeGrip",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2157,9 +2590,14 @@
     "flashlight": false
   },
   "Mod_ForeGrip_ADS_02": {
-    "modType": "EYModificationSlotType::ForeGrip",
+    "modType": "ForeGrip",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 10,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2180,9 +2618,14 @@
     "flashlight": false
   },
   "Mod_ForeGrip_ADS_03": {
-    "modType": "EYModificationSlotType::ForeGrip",
+    "modType": "ForeGrip",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2203,9 +2646,14 @@
     "flashlight": false
   },
   "Mod_RearGrip_02": {
-    "modType": "EYModificationSlotType::RearGrip",
+    "modType": "RearGrip",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponEquipTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2226,9 +2674,14 @@
     "flashlight": false
   },
   "Mod_RearGrip_ADS_01": {
-    "modType": "EYModificationSlotType::RearGrip",
+    "modType": "RearGrip",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.9
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2249,9 +2702,14 @@
     "flashlight": false
   },
   "Mod_RearGrip_ADS_02": {
-    "modType": "EYModificationSlotType::RearGrip",
+    "modType": "RearGrip",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "TargetingTime",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.85
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2272,9 +2730,10 @@
     "flashlight": false
   },
   "Mod_Optic_1x_01": {
-    "modType": "EYModificationSlotType::Optics",
+    "modType": "Optics",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 1,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2295,9 +2754,10 @@
     "flashlight": false
   },
   "Mod_Optic_1x_02": {
-    "modType": "EYModificationSlotType::Optics",
+    "modType": "Optics",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {},
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 4,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2318,9 +2778,14 @@
     "flashlight": false
   },
   "Mod_Optic_Variable_01": {
-    "modType": "EYModificationSlotType::Optics",
+    "modType": "Optics",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponTargetingFOV",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2341,9 +2806,14 @@
     "flashlight": false
   },
   "Mod_Optic_8x_01": {
-    "modType": "EYModificationSlotType::Optics",
+    "modType": "Optics",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponTargetingFOV",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2364,9 +2834,14 @@
     "flashlight": false
   },
   "Mod_Optic_6x_01": {
-    "modType": "EYModificationSlotType::Optics",
+    "modType": "Optics",
     "itemWeight": 2,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "WeaponTargetingFOV",
+      "type": "Multiplicitive_PreAdd",
+      "value": 0.8
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {
@@ -2387,9 +2862,14 @@
     "flashlight": false
   },
   "Mod_Korolev_Scanner_Oil": {
-    "modType": "EYModificationSlotType::ScannerUpgrade4",
+    "modType": "ScannerUpgrade4",
     "itemWeight": 1,
-    "device_category": "EYDeviceCategory::AssaultRifle",
+    "effect": {
+      "attribute": "None",
+      "type": "Additive",
+      "value": 5
+    },
+    "device_category": "AssaultRifle",
     "sellingFPIncrement": 24,
     "sellingReturnDefault": 10,
     "sellingReturnsPerRarity": {

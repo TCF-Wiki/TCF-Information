@@ -262,5 +262,1061 @@
     "isMain": true,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-1",
+    "description": "\"Our people have gone through more of the data Tao recovered, and this might just make sense. We'll need some mag stabs to start our tests, and more importantly, Meteor Fragments.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Fragment"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_05",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-2",
+    "description": "\"This sort of research requires equipment we don't have at hand, and I know Osiris isn't just going to give it to us... Check these locations and get us some Co-Tec Multitools, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_OsirisWildlifePreserve"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Co-TEC MultiTool"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-3",
+    "description": "\"I read through the report you brought back; it's not the easy win I had hoped for, but my people assure me they can make improvements on the original designs to make it work. We'll need some meteor cores first, of course. Oh, and take out some other prospectors; reports of increased violence should keep any Korolev people on the field away, don't want them getting curious about what we're up to.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 31000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 2"
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-4",
+    "description": "\"I'm preparing to send a team down to the surface to finalize a prototype and run tests well away from the station; everyone assures me it's safe, but I've read the warning myself. I need you to cull the number of creatures at these locations, it should make life for my people easier.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Lake"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_Starport"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_07",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-5",
+    "description": "\"One of the supply crates for our project was left open under the rain, damaged most of the contents and now my team needs replacement parts. Stash them somewhere safe, we need to finish that prototype.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CircuitBoard"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 6,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CopperWire"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Lacerator",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-1",
+    "description": "\"Our people have gone through more of the data Tao recovered, and this might just make sense. We'll need some mag stabs to start our tests, and more importantly, Meteor Fragments.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Fragment"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_05",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-2",
+    "description": "\"This sort of research requires equipment we don't have at hand, and I know Osiris isn't just going to give it to us... Check these locations and get us some Co-Tec Multitools, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_OsirisWildlifePreserve"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Co-TEC MultiTool"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-3",
+    "description": "\"I read through the report you brought back; it's not the easy win I had hoped for, but my people assure me they can make improvements on the original designs to make it work. We'll need some meteor cores first, of course. Oh, and take out some other prospectors; reports of increased violence should keep any Korolev people on the field away, don't want them getting curious about what we're up to.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 31000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 2"
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-4",
+    "description": "\"I'm preparing to send a team down to the surface to finalize a prototype and run tests well away from the station; everyone assures me it's safe, but I've read the warning myself. I need you to cull the number of creatures at these locations, it should make life for my people easier.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Lake"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_Starport"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_07",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-5",
+    "description": "\"One of the supply crates for our project was left open under the rain, damaged most of the contents and now my team needs replacement parts. Stash them somewhere safe, we need to finish that prototype.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CircuitBoard"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 6,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CopperWire"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Lacerator",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-1",
+    "description": "\"Our people have gone through more of the data Tao recovered, and this might just make sense. We'll need some mag stabs to start our tests, and more importantly, Meteor Fragments.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Fragment"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_05",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-2",
+    "description": "\"This sort of research requires equipment we don't have at hand, and I know Osiris isn't just going to give it to us... Check these locations and get us some Co-Tec Multitools, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_OsirisWildlifePreserve"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Co-TEC MultiTool"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-3",
+    "description": "\"I read through the report you brought back; it's not the easy win I had hoped for, but my people assure me they can make improvements on the original designs to make it work. We'll need some meteor cores first, of course. Oh, and take out some other prospectors; reports of increased violence should keep any Korolev people on the field away, don't want them getting curious about what we're up to.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 31000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 2"
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-4",
+    "description": "\"I'm preparing to send a team down to the surface to finalize a prototype and run tests well away from the station; everyone assures me it's safe, but I've read the warning myself. I need you to cull the number of creatures at these locations, it should make life for my people easier.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Lake"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_Starport"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_07",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-5",
+    "description": "\"One of the supply crates for our project was left open under the rain, damaged most of the contents and now my team needs replacement parts. Stash them somewhere safe, we need to finish that prototype.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CircuitBoard"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 6,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CopperWire"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Lacerator",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-1",
+    "description": "\"Our people have gone through more of the data Tao recovered, and this might just make sense. We'll need some mag stabs to start our tests, and more importantly, Meteor Fragments.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Fragment"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_05",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-2",
+    "description": "\"This sort of research requires equipment we don't have at hand, and I know Osiris isn't just going to give it to us... Check these locations and get us some Co-Tec Multitools, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_OsirisWildlifePreserve"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Co-TEC MultiTool"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-3",
+    "description": "\"I read through the report you brought back; it's not the easy win I had hoped for, but my people assure me they can make improvements on the original designs to make it work. We'll need some meteor cores first, of course. Oh, and take out some other prospectors; reports of increased violence should keep any Korolev people on the field away, don't want them getting curious about what we're up to.\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 31000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 2"
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-4",
+    "description": "\"I'm preparing to send a team down to the surface to finalize a prototype and run tests well away from the station; everyone assures me it's safe, but I've read the warning myself. I need you to cull the number of creatures at these locations, it should make life for my people easier.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_Lake"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Meteor Core",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_Starport"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_07",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
+  },
+  {
+    "inGameName": "Main-ICA-MeteorReactor-5",
+    "description": "\"One of the supply crates for our project was left open under the rain, damaged most of the contents and now my team needs replacement parts. Stash them somewhere safe, we need to finish that prototype.\"",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CircuitBoard"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 6,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "CopperWire"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Lacerator",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Project Fireball",
+    "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator. A prospector's life is definitely never boring."
   }
 ]

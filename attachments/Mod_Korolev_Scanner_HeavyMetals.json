@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::ScannerUpgrade2",
+  "modType": "ScannerUpgrade2",
   "itemWeight": 1,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "None",
+    "type": "Override",
+    "value": 3
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 2,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

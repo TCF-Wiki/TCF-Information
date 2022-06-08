@@ -693,5 +693,2785 @@
     "isMain": true,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-1",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-2",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "MiniatureReactor",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-3",
+    "description": "\"So it was Tao, damn it. He took up prospecting in the early days, before word got out... and before foam kits came standard. Some said he must have just made it big and sneaked off to another system, but I never believed that. I have a lot to think about... and more work for you.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "CombatCPU_Blue"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Restoration Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Old Friend"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-4",
+    "description": "\"The ICA may run this station, but its Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_SouthEastUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-5",
+    "description": "\"I'm organizing a team to scout Bright Sands for Tao's comm signal; if he came close enough to an active repeater it should be logged in the network. And I need you to stash some spare equipment for them, just in case.\"",
+    "faction": "ICA",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_CommsBase"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "CircuitBoard"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-6",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_NorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-7",
+    "description": "\"At least I finally know for sure. I have a lot to go through from the data you retrieved, but it looks like Tao was thinking ahead, as always. He knew power would become an issue, and found something that could help. For now, get us Fusion Batteries, it's what he was looking for on his last drop. And shoot some aliens for him while you're down there, he'd have liked that.\"",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_02",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Stranded Prospector"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-8",
+    "description": "\"Tao collected a lot of old research, it's hard to tell what's useful and what's just theory. Stash these items at the Bright Sands' Base Camp, I'll send someone down there to run some tests on the surface, don't want to risk blowing a hole out of the station.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "SOS Sign",
+    "description": "\"I'm glad you're here, something has just come and we need someone on the surface. An evac ship pilot caught sight of an 'SOS' after trying a new approach for the first time, but saw nobody in the area. We're not sure how long it's been there, but I'd like you to check the area for me.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_SosSign"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Forester"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Old Friend",
+    "description": "\"I'm not surprised you didn't find anyone... I think I know who left the SOS there, it's something he joked about in case he ever got stranded. Check this next location for me, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Sign of Life from Stranded Prospector"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "SOS Sign"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "The Stranded Prospector",
+    "description": "\"We found a number of candidate locations Tao could have visited, but there's one only a skilled prospector can access. Head there, and check the nearby Uplink; if I kno- knew, Tao, he'll have saved something for us to find.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Plan B Part 1",
+    "description": "\"There were quite a few people involved with this research, it doesn't make sense that it was just forgotten. There should be more research kept in the surface power plants' head offices; check the one on Bright Sands first.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap1"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 1",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Plan B Part 2",
+    "description": "\"This looks very promising, if what the research you brought back is accurate, not only would we be solving our power issues here, but we'd have something to compete with Korolev's veltecite monopoly everywhere! There's references to a prototype being built at the Crescent Falls Power Plant; head there and find whatever you can, quick as you can!\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 2",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Guarantee",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 1"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Abandoned Oil Field",
+    "description": "\"This stuff is actual crude oil... mixed with billions upon billions of dead nanobots. It must have been used by the Progenitors to help terraform the planet! My predecessors from before the storms set up some pumps to collect the stuff; head to them and retrieve what you can.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Oil Pump Part",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-1",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-2",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "MiniatureReactor",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-3",
+    "description": "\"So it was Tao, damn it. He took up prospecting in the early days, before word got out... and before foam kits came standard. Some said he must have just made it big and sneaked off to another system, but I never believed that. I have a lot to think about... and more work for you.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "CombatCPU_Blue"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Restoration Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Old Friend"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-4",
+    "description": "\"The ICA may run this station, but its Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_SouthEastUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-5",
+    "description": "\"I'm organizing a team to scout Bright Sands for Tao's comm signal; if he came close enough to an active repeater it should be logged in the network. And I need you to stash some spare equipment for them, just in case.\"",
+    "faction": "ICA",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_CommsBase"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "CircuitBoard"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-6",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_NorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-7",
+    "description": "\"At least I finally know for sure. I have a lot to go through from the data you retrieved, but it looks like Tao was thinking ahead, as always. He knew power would become an issue, and found something that could help. For now, get us Fusion Batteries, it's what he was looking for on his last drop. And shoot some aliens for him while you're down there, he'd have liked that.\"",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_02",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Stranded Prospector"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-8",
+    "description": "\"Tao collected a lot of old research, it's hard to tell what's useful and what's just theory. Stash these items at the Bright Sands' Base Camp, I'll send someone down there to run some tests on the surface, don't want to risk blowing a hole out of the station.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "SOS Sign",
+    "description": "\"I'm glad you're here, something has just come and we need someone on the surface. An evac ship pilot caught sight of an 'SOS' after trying a new approach for the first time, but saw nobody in the area. We're not sure how long it's been there, but I'd like you to check the area for me.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_SosSign"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Forester"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Old Friend",
+    "description": "\"I'm not surprised you didn't find anyone... I think I know who left the SOS there, it's something he joked about in case he ever got stranded. Check this next location for me, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Sign of Life from Stranded Prospector"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "SOS Sign"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "The Stranded Prospector",
+    "description": "\"We found a number of candidate locations Tao could have visited, but there's one only a skilled prospector can access. Head there, and check the nearby Uplink; if I kno- knew, Tao, he'll have saved something for us to find.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Plan B Part 1",
+    "description": "\"There were quite a few people involved with this research, it doesn't make sense that it was just forgotten. There should be more research kept in the surface power plants' head offices; check the one on Bright Sands first.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap1"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 1",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Plan B Part 2",
+    "description": "\"This looks very promising, if what the research you brought back is accurate, not only would we be solving our power issues here, but we'd have something to compete with Korolev's veltecite monopoly everywhere! There's references to a prototype being built at the Crescent Falls Power Plant; head there and find whatever you can, quick as you can!\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 2",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Guarantee",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 1"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Abandoned Oil Field",
+    "description": "\"This stuff is actual crude oil... mixed with billions upon billions of dead nanobots. It must have been used by the Progenitors to help terraform the planet! My predecessors from before the storms set up some pumps to collect the stuff; head to them and retrieve what you can.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Oil Pump Part",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-1",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-2",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "MiniatureReactor",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-3",
+    "description": "\"So it was Tao, damn it. He took up prospecting in the early days, before word got out... and before foam kits came standard. Some said he must have just made it big and sneaked off to another system, but I never believed that. I have a lot to think about... and more work for you.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "CombatCPU_Blue"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Restoration Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Old Friend"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-4",
+    "description": "\"The ICA may run this station, but its Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_SouthEastUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-5",
+    "description": "\"I'm organizing a team to scout Bright Sands for Tao's comm signal; if he came close enough to an active repeater it should be logged in the network. And I need you to stash some spare equipment for them, just in case.\"",
+    "faction": "ICA",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_CommsBase"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "CircuitBoard"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-6",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_NorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-7",
+    "description": "\"At least I finally know for sure. I have a lot to go through from the data you retrieved, but it looks like Tao was thinking ahead, as always. He knew power would become an issue, and found something that could help. For now, get us Fusion Batteries, it's what he was looking for on his last drop. And shoot some aliens for him while you're down there, he'd have liked that.\"",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_02",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Stranded Prospector"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-8",
+    "description": "\"Tao collected a lot of old research, it's hard to tell what's useful and what's just theory. Stash these items at the Bright Sands' Base Camp, I'll send someone down there to run some tests on the surface, don't want to risk blowing a hole out of the station.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "SOS Sign",
+    "description": "\"I'm glad you're here, something has just come and we need someone on the surface. An evac ship pilot caught sight of an 'SOS' after trying a new approach for the first time, but saw nobody in the area. We're not sure how long it's been there, but I'd like you to check the area for me.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_SosSign"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Forester"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Old Friend",
+    "description": "\"I'm not surprised you didn't find anyone... I think I know who left the SOS there, it's something he joked about in case he ever got stranded. Check this next location for me, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Sign of Life from Stranded Prospector"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "SOS Sign"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "The Stranded Prospector",
+    "description": "\"We found a number of candidate locations Tao could have visited, but there's one only a skilled prospector can access. Head there, and check the nearby Uplink; if I kno- knew, Tao, he'll have saved something for us to find.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Plan B Part 1",
+    "description": "\"There were quite a few people involved with this research, it doesn't make sense that it was just forgotten. There should be more research kept in the surface power plants' head offices; check the one on Bright Sands first.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap1"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 1",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Plan B Part 2",
+    "description": "\"This looks very promising, if what the research you brought back is accurate, not only would we be solving our power issues here, but we'd have something to compete with Korolev's veltecite monopoly everywhere! There's references to a prototype being built at the Crescent Falls Power Plant; head there and find whatever you can, quick as you can!\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 2",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Guarantee",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 1"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Abandoned Oil Field",
+    "description": "\"This stuff is actual crude oil... mixed with billions upon billions of dead nanobots. It must have been used by the Progenitors to help terraform the planet! My predecessors from before the storms set up some pumps to collect the stuff; head to them and retrieve what you can.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Oil Pump Part",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-1",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-2",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "MiniatureReactor"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "MiniatureReactor",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-3",
+    "description": "\"So it was Tao, damn it. He took up prospecting in the early days, before word got out... and before foam kits came standard. Some said he must have just made it big and sneaked off to another system, but I never believed that. I have a lot to think about... and more work for you.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "CombatCPU_Blue"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Metallic Alloys"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Restoration Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Old Friend"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-4",
+    "description": "\"The ICA may run this station, but its Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_SouthEastUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-5",
+    "description": "\"I'm organizing a team to scout Bright Sands for Tao's comm signal; if he came close enough to an active repeater it should be logged in the network. And I need you to stash some spare equipment for them, just in case.\"",
+    "faction": "ICA",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_CommsBase"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_uncommon",
+        "deadDropLocation": "Map01_CommsBase_Satellite",
+        "deadDropItem": "CircuitBoard"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-6",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_NorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare"
+      }
+    ],
+    "rewards": [],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMain": false,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-7",
+    "description": "\"At least I finally know for sure. I have a lot to go through from the data you retrieved, but it looks like Tao was thinking ahead, as always. He knew power would become an issue, and found something that could help. For now, get us Fusion Batteries, it's what he was looking for on his last drop. And shoot some aliens for him while you're down there, he'd have liked that.\"",
+    "faction": "ICA",
+    "factionReputation": 310,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 8,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8300,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_02",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Stranded Prospector"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Main-ICA-GruntWork-8",
+    "description": "\"Tao collected a lot of old research, it's hard to tell what's useful and what's just theory. Stash these items at the Bright Sands' Base Camp, I'll send someone down there to run some tests on the surface, don't want to risk blowing a hole out of the station.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "MiniatureReactor"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Helmet",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "SOS Sign",
+    "description": "\"I'm glad you're here, something has just come and we need someone on the surface. An evac ship pilot caught sight of an 'SOS' after trying a new approach for the first time, but saw nobody in the area. We're not sure how long it's been there, but I'd like you to check the area for me.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_SosSign"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "The Forester"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Old Friend",
+    "description": "\"I'm not surprised you didn't find anyone... I think I know who left the SOS there, it's something he joked about in case he ever got stranded. Check this next location for me, Prospector.\"",
+    "faction": "ICA",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_WaterFacility_PowerUpLoot"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Sign of Life from Stranded Prospector"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "SOS Sign"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "The Stranded Prospector",
+    "description": "\"We found a number of candidate locations Tao could have visited, but there's one only a skilled prospector can access. Head there, and check the nearby Uplink; if I kno- knew, Tao, he'll have saved something for us to find.\"",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "HardDrive_rare",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Plan B Part 1",
+    "description": "\"There were quite a few people involved with this research, it doesn't make sense that it was just forgotten. There should be more research kept in the surface power plants' head offices; check the one on Bright Sands first.\"",
+    "faction": "ICA",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap1"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 1",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Plan B Part 2",
+    "description": "\"This looks very promising, if what the research you brought back is accurate, not only would we be solving our power issues here, but we'd have something to compete with Korolev's veltecite monopoly everywhere! There's references to a prototype being built at the Crescent Falls Power Plant; head there and find whatever you can, quick as you can!\"",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Notes on Meteor Experiment - 2",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Guarantee",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 1"
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
+  },
+  {
+    "inGameName": "Abandoned Oil Field",
+    "description": "\"This stuff is actual crude oil... mixed with billions upon billions of dead nanobots. It must have been used by the Progenitors to help terraform the planet! My predecessors from before the storms set up some pumps to collect the stuff; head to them and retrieve what you can.\"",
+    "faction": "ICA",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "UniqueMissionLocation_AbandonedOilField"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Oil Pump Part",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Doing the Work",
+    "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit. There's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   }
 ]

@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::Magazine",
+  "modType": "Magazine",
   "itemWeight": 3,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "WeaponReloadTime",
+    "type": "Multiplicitive_PreAdd",
+    "value": 0.75
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 24,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

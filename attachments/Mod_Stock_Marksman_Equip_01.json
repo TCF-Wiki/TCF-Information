@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::Stock",
+  "modType": "Stock",
   "itemWeight": 2,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "WeaponEquipTime",
+    "type": "Multiplicitive_PreAdd",
+    "value": 0.9
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

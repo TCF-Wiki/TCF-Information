@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::ForeGrip",
+  "modType": "ForeGrip",
   "itemWeight": 2,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "TargetingTime",
+    "type": "Multiplicitive_PreAdd",
+    "value": 0.9
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

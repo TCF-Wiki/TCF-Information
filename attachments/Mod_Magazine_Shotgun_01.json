@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::Magazine",
+  "modType": "Magazine",
   "itemWeight": 3,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "WeaponClipSize",
+    "type": "Multiplicitive_PreAdd",
+    "value": 1.25
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

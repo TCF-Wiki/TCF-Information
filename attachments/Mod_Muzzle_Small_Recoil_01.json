@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::Muzzle",
+  "modType": "Muzzle",
   "itemWeight": 2,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "WeaponRecoilIncreaseRate",
+    "type": "Multiplicitive_PreAdd",
+    "value": 0.95
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

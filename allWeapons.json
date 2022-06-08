@@ -37,7 +37,14 @@
     "equipTime": 0.6,
     "animationEquipTime": 1,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Magazine",
+      "Muzzle",
+      "AmmoConverter",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_A_SGun_Energy_01": {
     "inGameName": "PKR Maelstrom",
@@ -77,7 +84,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": true,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_A_SMG_Shard_01": {
     "inGameName": "KM-9 'Scrapper'",
@@ -117,7 +134,16 @@
     "equipTime": 0.8,
     "animationEquipTime": 1.4,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_A_AR_Bullet_01": {
     "inGameName": "KOR-47",
@@ -157,7 +183,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_A_BR_Bullet_01": {
     "inGameName": "KBR Longshot",
@@ -197,7 +233,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_A_Sniper_Gauss_01": {
     "inGameName": "KARMA-1",
@@ -237,7 +283,8 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0.5
+    "spinupTime": 0.5,
+    "modSlots": []
   },
   "WP_D_Pistol_Bullet_01": {
     "inGameName": "Bulldog",
@@ -277,7 +324,8 @@
     "equipTime": 0.6,
     "animationEquipTime": 1,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "WP_D_SGun_Shard_01": {
     "inGameName": "Shattergun",
@@ -317,7 +365,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_D_SMG_Energy_01": {
     "inGameName": "Voltaic Brute",
@@ -357,7 +415,17 @@
     "equipTime": 0.8,
     "animationEquipTime": 1.4,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_D_LMG_Energy_01": {
     "inGameName": "ICA Guarantee",
@@ -397,7 +465,16 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_D_AR_Bullet_01": {
     "inGameName": "Advocate",
@@ -437,7 +514,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_D_BR_Shard_01": {
     "inGameName": "Lacerator",
@@ -477,7 +564,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_D_Sniper_Gauss_01": {
     "inGameName": "Kinetic Arbiter",
@@ -517,7 +614,16 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_E_Pistol_Bullet_01": {
     "inGameName": "K-28",
@@ -557,7 +663,14 @@
     "equipTime": 0.6,
     "animationEquipTime": 1,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Magazine",
+      "Muzzle",
+      "AmmoConverter",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_E_SGun_Bullet_01": {
     "inGameName": "B9 Trenchgun",
@@ -597,7 +710,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": true,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_E_SMG_Bullet_01": {
     "inGameName": "S-576 PDW",
@@ -637,7 +760,17 @@
     "equipTime": 0.8,
     "animationEquipTime": 1.4,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_E_AR_Energy_01": {
     "inGameName": "AR-55 Autorifle",
@@ -677,7 +810,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_E_Sniper_Bullet_01": {
     "inGameName": "C-32 Bolt Action",
@@ -717,7 +860,16 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_E_SGun_Bullet_01_scrappy": {
     "rarity": "Common",
@@ -756,7 +908,8 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": true,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "WP_E_SMG_Bullet_01_scrappy": {
     "rarity": "Common",
@@ -795,7 +948,8 @@
     "equipTime": 0.8,
     "animationEquipTime": 1.4,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "WP_E_AR_Energy_01_scrappy": {
     "rarity": "Common",
@@ -834,7 +988,8 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "WP_G_Pistol_Energy_01": {
     "inGameName": "Scarab",
@@ -874,7 +1029,14 @@
     "equipTime": 0.6,
     "animationEquipTime": 1,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Magazine",
+      "Muzzle",
+      "AmmoConverter",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_G_SMG_Needle_01": {
     "inGameName": "Asp Flechette Gun",
@@ -914,7 +1076,17 @@
     "equipTime": 0.8,
     "animationEquipTime": 1.4,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_G_AR_Energy_01": {
     "inGameName": "Phasic Lancer",
@@ -954,7 +1126,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": true,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_G_AR_Beam_01": {
     "inGameName": "Gorgon",
@@ -994,7 +1176,15 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0.35
+    "spinupTime": 0.35,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_G_AR_Needle_01": {
     "inGameName": "Manticore",
@@ -1034,7 +1224,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "WP_G_Sniper_Energy_01": {
     "inGameName": "Basilisk",
@@ -1074,7 +1274,17 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": true,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   },
   "DefaultTuning": {
     "penetration": 1,
@@ -1145,7 +1355,8 @@
     "equipTime": 1.2,
     "animationEquipTime": 1.8,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "WP_A_Launch_MSL_01": {
     "inGameName": "KOMRAD",
@@ -1185,7 +1396,8 @@
     "equipTime": 0.5,
     "animationEquipTime": 1.2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "WP_E_Launch_Nade_01": {
     "inGameName": "FF4 Detonator",
@@ -1225,7 +1437,8 @@
     "equipTime": 1.2,
     "animationEquipTime": 3.2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "WP_D_HVY_Exotic_01": {
     "inGameName": "HAZE",
@@ -1265,7 +1478,8 @@
     "equipTime": 1.2,
     "animationEquipTime": 3.4,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "WP_G_HVY_Beam_01": {
     "inGameName": "Zeus Beam",
@@ -1305,7 +1519,8 @@
     "equipTime": 1,
     "animationEquipTime": 2,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0.7
+    "spinupTime": 0.7,
+    "modSlots": []
   },
   "AutomationTestTuning": {
     "penetration": 1,
@@ -1376,7 +1591,8 @@
     "equipTime": 1.2,
     "animationEquipTime": 1.8,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0.7
+    "spinupTime": 0.7,
+    "modSlots": []
   },
   "TOOL_MineralScanner_01": {
     "inGameName": "Mineral Scanner",
@@ -1416,7 +1632,13 @@
     "equipTime": 0.4,
     "animationEquipTime": 0.7,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": [
+      "ScannerUpgrade1",
+      "ScannerUpgrade2",
+      "ScannerUpgrade3",
+      "ScannerUpgrade4"
+    ]
   },
   "TOOL_AdvancedMineralScanner": {
     "inGameName": "Advanced Mineral Scanner",
@@ -1987,7 +2209,8 @@
     "equipTime": 0.6,
     "animationEquipTime": 1,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "TOOL_Flashlight_01": {
     "inGameName": "Flashlight",
@@ -2027,7 +2250,8 @@
     "equipTime": 0.4,
     "animationEquipTime": 0.7,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "TOOL_BinocularBasic_01": {
     "penetration": 1,
@@ -2094,7 +2318,8 @@
     "equipTime": 0.5,
     "animationEquipTime": -1,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   },
   "CharmPreview": {
     "rarity": "Common",
@@ -2130,6 +2355,7 @@
     "equipTime": 0.5,
     "animationEquipTime": -1,
     "m_immediateFireIncreasesSpread": false,
-    "spinupTime": 0
+    "spinupTime": 0,
+    "modSlots": []
   }
 }

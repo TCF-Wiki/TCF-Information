@@ -91,5 +91,377 @@
     "isMain": true,
     "chainName": "Crafting Better Bags",
     "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
+  },
+  {
+    "inGameName": "Order Refill",
+    "description": "\"The synthetics team is close to a breakthrough on a lighter and more durable fabric, but they've run out of basic resources. We can't wait for a restock, get them what they need.\"",
+    "faction": "Korolev",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Resin Gun"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Print Resin"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Just a Call Away"
+    ],
+    "isMain": true,
+    "chainName": "Crafting Better Bags",
+    "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
+  },
+  {
+    "inGameName": "Exotic Leathers",
+    "description": "\"Excellent... now we just need enough raw materials for a sample run. Getting these shouldn't be an issue for you, right?\"",
+    "faction": "Korolev",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "AI_RattlerSkin"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Textiles"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Salvaged Insulation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_04",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Order Refill"
+    ],
+    "isMain": true,
+    "chainName": "Crafting Better Bags",
+    "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
+  },
+  {
+    "inGameName": "Order Refill",
+    "description": "\"The synthetics team is close to a breakthrough on a lighter and more durable fabric, but they've run out of basic resources. We can't wait for a restock, get them what they need.\"",
+    "faction": "Korolev",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Resin Gun"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Print Resin"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Just a Call Away"
+    ],
+    "isMain": true,
+    "chainName": "Crafting Better Bags",
+    "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
+  },
+  {
+    "inGameName": "Exotic Leathers",
+    "description": "\"Excellent... now we just need enough raw materials for a sample run. Getting these shouldn't be an issue for you, right?\"",
+    "faction": "Korolev",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "AI_RattlerSkin"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Textiles"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Salvaged Insulation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_04",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Order Refill"
+    ],
+    "isMain": true,
+    "chainName": "Crafting Better Bags",
+    "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
+  },
+  {
+    "inGameName": "Order Refill",
+    "description": "\"The synthetics team is close to a breakthrough on a lighter and more durable fabric, but they've run out of basic resources. We can't wait for a restock, get them what they need.\"",
+    "faction": "Korolev",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Resin Gun"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Print Resin"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Just a Call Away"
+    ],
+    "isMain": true,
+    "chainName": "Crafting Better Bags",
+    "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
+  },
+  {
+    "inGameName": "Exotic Leathers",
+    "description": "\"Excellent... now we just need enough raw materials for a sample run. Getting these shouldn't be an issue for you, right?\"",
+    "faction": "Korolev",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "AI_RattlerSkin"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Textiles"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Salvaged Insulation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_04",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Order Refill"
+    ],
+    "isMain": true,
+    "chainName": "Crafting Better Bags",
+    "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
+  },
+  {
+    "inGameName": "Order Refill",
+    "description": "\"The synthetics team is close to a breakthrough on a lighter and more durable fabric, but they've run out of basic resources. We can't wait for a restock, get them what they need.\"",
+    "faction": "Korolev",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Resin Gun"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Print Resin"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Just a Call Away"
+    ],
+    "isMain": true,
+    "chainName": "Crafting Better Bags",
+    "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
+  },
+  {
+    "inGameName": "Exotic Leathers",
+    "description": "\"Excellent... now we just need enough raw materials for a sample run. Getting these shouldn't be an issue for you, right?\"",
+    "faction": "Korolev",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "AI_RattlerSkin"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Textiles"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Salvaged Insulation"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Bag_04",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Order Refill"
+    ],
+    "isMain": true,
+    "chainName": "Crafting Better Bags",
+    "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
   }
 ]

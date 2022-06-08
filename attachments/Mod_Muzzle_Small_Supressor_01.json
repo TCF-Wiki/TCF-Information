@@ -1,7 +1,12 @@
 {
-  "modType": "EYModificationSlotType::Muzzle",
+  "modType": "Muzzle",
   "itemWeight": 2,
-  "device_category": "EYDeviceCategory::AssaultRifle",
+  "effect": {
+    "attribute": "WeaponIsSilenced",
+    "type": "Override",
+    "value": 1
+  },
+  "device_category": "AssaultRifle",
   "sellingFPIncrement": 15,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {
