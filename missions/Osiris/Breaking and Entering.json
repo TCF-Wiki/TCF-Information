@@ -574,5 +574,149 @@
     "isMain": true,
     "chainName": "Breaking and Entering",
     "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out. Once the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
+  },
+  {
+    "inGameName": "Main-Osiris-TestRun-1",
+    "description": "\"It's time! Head to the Crystal Caverns' entrance and place the Orbital Cannon Beacon; once its finally served its purpose, search the caverns and retrieve whatever you find. We might finally have found a path to the internals of the planet's terraformers!\"",
+    "faction": "Osiris",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Mutated Biomass",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        },
+        "locationConditions": "Map02_EliteCrusherDungeon"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "Mutated Biomass",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_EliteCrusherDungeon"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Alpha Crusher Heart",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "QuestItem_OrbitalCanonTargetBeacon",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 150000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Breaking and Entering",
+    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out. Once the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
+  },
+  {
+    "inGameName": "Main-Osiris-TestRun-1",
+    "description": "\"It's time! Head to the Crystal Caverns' entrance and place the Orbital Cannon Beacon; once its finally served its purpose, search the caverns and retrieve whatever you find. We might finally have found a path to the internals of the planet's terraformers!\"",
+    "faction": "Osiris",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Mutated Biomass",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        },
+        "locationConditions": "Map02_EliteCrusherDungeon"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "Mutated Biomass",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map02_EliteCrusherDungeon"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Alpha Crusher Heart",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "QuestItem_OrbitalCanonTargetBeacon",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 150000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Breaking and Entering",
+    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out. Once the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
   }
 ]

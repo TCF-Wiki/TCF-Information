@@ -1206,5 +1206,307 @@
     "isMain": true,
     "chainName": "Satellite Master",
     "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+  },
+  {
+    "inGameName": "Main-Osiris-UplinkHack-1",
+    "description": "\"It's almost time to get our satellite into orbit. Hack into the surface Uplink network, get us all the data we need to keep the satellite on-target.\"",
+    "faction": "Osiris",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map01_SouthEastUplink"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map01_NorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 27000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Satellite Master",
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+  },
+  {
+    "inGameName": "Main-Osiris-UplinkHack-2",
+    "description": "\"It's been brought to my attention that orbital weapons are banned in this system, and that our satellite may be considered a weapon, what with its proven ability to vaporize sever- Well, in any case, I need you to get back into the Uplink network, get me data on old colonial satellites still in orbit; we should be able to spoof an ID off one to use for our own project.\"",
+    "faction": "Osiris",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map02_StarportPad"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_legendary"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 36000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Satellite Master",
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+  },
+  {
+    "inGameName": "Main-Osiris-UplinkHack-3",
+    "description": "\"It appears that tricking the network to accept our satellite as legitimate is a more involved process than I had been lead to believe. A team of specialists will be heading to the surface soon to get the job done, make sure they have the tools they need stashed nearby by the time they arrive.\"",
+    "faction": "Osiris",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "CircuitBoard"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Satellite Master",
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+  },
+  {
+    "inGameName": "Main-Osiris-UplinkHack-1",
+    "description": "\"It's almost time to get our satellite into orbit. Hack into the surface Uplink network, get us all the data we need to keep the satellite on-target.\"",
+    "faction": "Osiris",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map01_SouthEastUplink"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map01_NorthUplink"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_epic"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 27000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Satellite Master",
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+  },
+  {
+    "inGameName": "Main-Osiris-UplinkHack-2",
+    "description": "\"It's been brought to my attention that orbital weapons are banned in this system, and that our satellite may be considered a weapon, what with its proven ability to vaporize sever- Well, in any case, I need you to get back into the Uplink network, get me data on old colonial satellites still in orbit; we should be able to spoof an ID off one to use for our own project.\"",
+    "faction": "Osiris",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map02_StarportPad"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "HardDrive_legendary"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 36000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Satellite Master",
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+  },
+  {
+    "inGameName": "Main-Osiris-UplinkHack-3",
+    "description": "\"It appears that tricking the network to accept our satellite as legitimate is a more involved process than I had been lead to believe. A team of specialists will be heading to the surface soon to get the job done, make sure they have the tools they need stashed nearby by the time they arrive.\"",
+    "faction": "Osiris",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "CircuitBoard"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "MagneticFieldStabilizer"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Satellite Master",
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   }
 ]

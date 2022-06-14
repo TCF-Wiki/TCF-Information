@@ -1542,5 +1542,391 @@
     "isMain": true,
     "chainName": "Time for More Work",
     "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
+  },
+  {
+    "inGameName": "Forest Clearing",
+    "description": "\"Creatures from the Jungle are still bleeding into nearby sites. Thin their numbers.\"",
+    "faction": "Korolev",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_Jungle"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        },
+        "locationConditions": "Map01_Jungle"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Stormbringer"
+    ],
+    "isMain": true,
+    "chainName": "Time for More Work",
+    "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
+  },
+  {
+    "inGameName": "Main-KOR-FirstExtraWork-2",
+    "description": "\"A group of delegates from a trading partner will be visiting us soon, and they always expect gifts. See if you can find something shiny for them.\"",
+    "faction": "Korolev",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Jewellery"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Forest Clearing"
+    ],
+    "isMain": true,
+    "chainName": "Time for More Work",
+    "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
+  },
+  {
+    "inGameName": "Show Them How It's Done",
+    "description": "\"Our small arms team is working on iterations to new SMG type weapons and could do with more real world data. Give them a good show.\"",
+    "faction": "Korolev",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SMG"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 9400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Time for More Work",
+    "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
+  },
+  {
+    "inGameName": "A Pick Me Up",
+    "description": "\"One of our agents operating in Bright Sands needs to replace their equipment. Stash these items at the Base Camp for them.\"",
+    "faction": "Korolev",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_GateC",
+        "deadDropItem": "Restoration Shield"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_GateC",
+        "deadDropItem": "Bag_02"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KM-9 'Scrapper'",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Show Them How It's Done"
+    ],
+    "isMain": true,
+    "chainName": "Time for More Work",
+    "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
+  },
+  {
+    "inGameName": "Forest Clearing",
+    "description": "\"Creatures from the Jungle are still bleeding into nearby sites. Thin their numbers.\"",
+    "faction": "Korolev",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_Jungle"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        },
+        "locationConditions": "Map01_Jungle"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7800,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Stormbringer"
+    ],
+    "isMain": true,
+    "chainName": "Time for More Work",
+    "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
+  },
+  {
+    "inGameName": "Main-KOR-FirstExtraWork-2",
+    "description": "\"A group of delegates from a trading partner will be visiting us soon, and they always expect gifts. See if you can find something shiny for them.\"",
+    "faction": "Korolev",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Jewellery"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Forest Clearing"
+    ],
+    "isMain": true,
+    "chainName": "Time for More Work",
+    "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
+  },
+  {
+    "inGameName": "Show Them How It's Done",
+    "description": "\"Our small arms team is working on iterations to new SMG type weapons and could do with more real world data. Give them a good show.\"",
+    "faction": "Korolev",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SMG"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 9400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Time for More Work",
+    "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
+  },
+  {
+    "inGameName": "A Pick Me Up",
+    "description": "\"One of our agents operating in Bright Sands needs to replace their equipment. Stash these items at the Base Camp for them.\"",
+    "faction": "Korolev",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_GateC",
+        "deadDropItem": "Restoration Shield"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_GateC",
+        "deadDropItem": "Bag_02"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KM-9 'Scrapper'",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 19,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Show Them How It's Done"
+    ],
+    "isMain": true,
+    "chainName": "Time for More Work",
+    "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
   }
 ]

@@ -270,5 +270,73 @@
     "isMain": true,
     "chainName": "Your Civic Duty",
     "chainDescription": "The Independent Civilian Advisory are all about keeping Prospect Station afloat and everyone in it alive. Will you step up and help? A talented prospector could benefit from being on their good side..."
+  },
+  {
+    "inGameName": "Simple Needs",
+    "description": "\"Welcome! The ICA is always looking for new Prospectors to work with, but let's see if you have what it takes. Can you get us this item from the surface?\"",
+    "faction": "ICA",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Compound Sheets"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [],
+    "isMain": true,
+    "chainName": "Your Civic Duty",
+    "chainDescription": "The Independent Civilian Advisory are all about keeping Prospect Station afloat and everyone in it alive. Will you step up and help? A talented prospector could benefit from being on their good side..."
+  },
+  {
+    "inGameName": "Simple Needs",
+    "description": "\"Welcome! The ICA is always looking for new Prospectors to work with, but let's see if you have what it takes. Can you get us this item from the surface?\"",
+    "faction": "ICA",
+    "factionReputation": 50,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Compound Sheets"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 4200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [],
+    "isMain": true,
+    "chainName": "Your Civic Duty",
+    "chainDescription": "The Independent Civilian Advisory are all about keeping Prospect Station afloat and everyone in it alive. Will you step up and help? A talented prospector could benefit from being on their good side..."
   }
 ]
