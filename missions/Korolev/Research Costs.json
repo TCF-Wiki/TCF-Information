@@ -5212,5 +5212,479 @@
     "isMain": true,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+  },
+  {
+    "inGameName": "Shopping List",
+    "description": "\"Our researchers on the station have been analyzing the data you retrieved, and have requested a few items to speed things up. I suggest checking old Osiris labs, I'm sure they won't mind.\"",
+    "faction": "Korolev",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Optic Glass"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "AI_RattlerSkin"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Portable Lab"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 19000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Clearing the Way"
+    ],
+    "isMain": true,
+    "chainName": "Research Costs",
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+  },
+  {
+    "inGameName": "Don't Dig Too Deep",
+    "description": "\"It seems some creatures have higher concentrations of Letium than others... My people want some very specific samples now: head to the abandoned Dig Site mine in Bright Sands and hunt down what you can.\"",
+    "faction": "Korolev",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map01_DigSite"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 6,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        },
+        "locationConditions": "Map01_DigSite"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Spinal Base"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Radio Equipment",
+        "amount": 5,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SmartMesh",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 16000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Shopping List"
+    ],
+    "isMain": true,
+    "chainName": "Research Costs",
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+  },
+  {
+    "inGameName": "Just a Call Away",
+    "description": "\"We haven't heard from our ground team in days... The Cycle is stronger in the wilds, their equipment may have malfunctioned. Take this Radio Equipment down to Bright Sands stashes; with luck we're right and they'll make contact!\"",
+    "faction": "Korolev",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_SwampCamp",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CenterBase_Office",
+        "deadDropItem": "Radio Equipment"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CommsBase_Tower",
+        "deadDropItem": "Radio Equipment"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Don't Dig Too Deep"
+    ],
+    "isMain": true,
+    "chainName": "Research Costs",
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+  },
+  {
+    "inGameName": "Collaborative Research",
+    "description": "\"We've contacted an Osiris scientist willing to switch to help with our Letium research, but they'll only take payment in Veltecite, off the books. Deliver some to this Dead Drop on Crescent Falls.\"",
+    "faction": "Korolev",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "deadDropLocation": "Map01_CommsBase_Tower",
+        "deadDropItem": "Radio Equipment",
+        "locationConditions": "Map02_GreensProspect"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 6,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "Clear Veltecite"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 2,
+        "deadDropLocation": "Map02_GreensProspect_Stockpile",
+        "deadDropItem": "Pure Veltecite"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KBR Longshot",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Just a Call Away"
+    ],
+    "isMain": true,
+    "chainName": "Research Costs",
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+  },
+  {
+    "inGameName": "It's All About Branding",
+    "description": "\"Our team made it back home! It will be a while before they can get back to work... why not take some time and let everyone Korolev is still king of the hill?\"",
+    "faction": "Korolev",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 30,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::All",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SGun_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_HVY_Shell_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SMG_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Lab Heist"
+    ],
+    "isMain": true,
+    "chainName": "Research Costs",
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+  },
+  {
+    "inGameName": "It's in the Blood",
+    "description": "\"Our people have been able to extract stable Letium from biological samples, but they need more to test with. Hunt down some more creatures, for science.\"",
+    "faction": "Korolev",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Toxic Glands"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 37000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "It's All About Branding"
+    ],
+    "isMain": true,
+    "chainName": "Research Costs",
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+  },
+  {
+    "inGameName": "Fresh Meat",
+    "description": "\"We've narrowed down the process that allows these creatures to absorb and stabilize Letium. Get us more samples, we're close to a breakthrough!\"",
+    "faction": "Korolev",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_WeremoleMeat"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "AI_RattlerEyes"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "AI_StriderMeat"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 44000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Map01_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "It's in the Blood"
+    ],
+    "isMain": true,
+    "chainName": "Research Costs",
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+  },
+  {
+    "inGameName": "Trek for Data",
+    "description": "\"Our research is nearly complete! Now we just need you to use the Uplink facilities on Crescent Falls; we should be able to use recent surface scans of the area to locate Letium vents.\"",
+    "faction": "Korolev",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_legendary",
+        "locationConditions": "Map02_StarportPad"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_legendary",
+        "locationConditions": "Map02_SkeletonObservation"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "HardDrive_legendary"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Tactical Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Fresh Meat"
+    ],
+    "isMain": true,
+    "chainName": "Research Costs",
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   }
 ]
