@@ -1748,5 +1748,180 @@
     "isMain": true,
     "chainName": "The Community Needs You",
     "chainDescription": ""
+  },
+  {
+    "inGameName": "Main-ICA-ExtraWork2-1",
+    "description": "\"Don't spread this around, but the freighter bringing fresh supplies for the station isn't just 'running late', it's missing. Our inventory on several items is already low and getting worse by the day. Thankfully the planet has all we need... it's just 'a bit' hard to get to. Here's a list of what we need the most.\"",
+    "faction": "ICA",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Textiles",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Shard Slicer",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "MiniatureReactor",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Community Needs You",
+    "chainDescription": ""
+  },
+  {
+    "inGameName": "Main-ICA-ExtraWork2-2",
+    "description": "\"I've been stumped trying to find a birthday gift for one of ICA's oldest members, but I think I've finally got it. This woman holds a real grudge against rattlers, says no matter she went in the final evac days, they were there hounding her. Head to these locations and take some out, I'm sure she'll love the footage.\"",
+    "faction": "ICA",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_WoodCutterCamp"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_WaterFacility"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        },
+        "locationConditions": "Map01_PowerPlant"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Community Needs You",
+    "chainDescription": ""
+  },
+  {
+    "inGameName": "Main-ICA-ExtraWork2-3",
+    "description": "\"I appreciate you doing that for me... but I have one more thing to ask. If you could get me some rattler skins and bone plates, it'll make the presentation of my gift so much better. Thank you!\"",
+    "faction": "ICA",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "AI_RattlerSkin"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Hardened Bone Plates"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Advocate",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICAScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 41000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Community Needs You",
+    "chainDescription": ""
   }
 ]
