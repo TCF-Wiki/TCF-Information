@@ -1522,7 +1522,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_SmokeGrenade_01",
+        "item": "Smoke Grenade",
         "amount": 5,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -3336,7 +3336,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_AudioDecoy_01",
+        "item": "Audio Decoy",
         "amount": 5,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -3649,7 +3649,7 @@
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "Consumable_SmokeGrenade_01"
+        "deadDropItem": "Smoke Grenade"
       }
     ],
     "rewards": [
@@ -3700,7 +3700,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_GasGrenade_01",
+        "item": "Gas Grenade",
         "amount": 10,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -4365,7 +4365,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_02",
+        "item": "Strong Stim",
         "amount": 10,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -5281,7 +5281,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_02",
+        "item": "Strong Stim",
         "amount": 3,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -5645,7 +5645,7 @@
         "maxProgress": 5,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Consumable_Health_03",
+        "deadDropItem": "Weak Medkit",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -5819,13 +5819,13 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_03",
+        "item": "Weak Medkit",
         "amount": 5,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
-        "item": "Consumable_Health_05",
+        "item": "Strong Medkit",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -6211,7 +6211,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_02",
+        "item": "Strong Stim",
         "amount": 5,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -7316,7 +7316,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_05",
+        "item": "Strong Medkit",
         "amount": 10,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -7700,7 +7700,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_04",
+        "item": "Combat Stim",
         "amount": 10,
         "isEndOfChainReward": true,
         "isUnlockReward": false

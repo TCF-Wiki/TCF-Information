@@ -3451,7 +3451,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_02",
+        "item": "Strong Stim",
         "amount": 3,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -3815,7 +3815,7 @@
         "maxProgress": 5,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Consumable_Health_03",
+        "deadDropItem": "Weak Medkit",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -3989,13 +3989,13 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_03",
+        "item": "Weak Medkit",
         "amount": 5,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
-        "item": "Consumable_Health_05",
+        "item": "Strong Medkit",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -4381,7 +4381,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_02",
+        "item": "Strong Stim",
         "amount": 5,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -5486,7 +5486,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_05",
+        "item": "Strong Medkit",
         "amount": 10,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -5870,7 +5870,7 @@
     ],
     "rewards": [
       {
-        "item": "Consumable_Health_04",
+        "item": "Combat Stim",
         "amount": 10,
         "isEndOfChainReward": true,
         "isUnlockReward": false
