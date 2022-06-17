@@ -22,7 +22,12 @@
         "locationConditions": "Map01_PowerPlant"
       }
     ],
-    "rewards": [],
+    "rewards": [
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
     "unlockLevel": 1,
     "unlockContracts": [],
     "isMain": false,
