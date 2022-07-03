@@ -8,7 +8,12 @@
       "value": 0.9
     }
   ],
-  "device_category": "AssaultRifle",
+  "compatible": [
+    "Weapon.Category.Shotgun",
+    "Weapon.Category.SMG",
+    "Weapon.Category.AR",
+    "Weapon.Category.LMG"
+  ],
   "sellingFPIncrement": 4,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

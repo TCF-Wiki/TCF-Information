@@ -8,7 +8,9 @@
       "value": 0.95
     }
   ],
-  "device_category": "AssaultRifle",
+  "compatible": [
+    "Weapon.Ammo.Shotgun"
+  ],
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

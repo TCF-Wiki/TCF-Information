@@ -13,7 +13,9 @@
       "value": 0.95
     }
   ],
-  "device_category": "AssaultRifle",
+  "compatible": [
+    "Weapon.Ammo.Light"
+  ],
   "sellingFPIncrement": 10,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

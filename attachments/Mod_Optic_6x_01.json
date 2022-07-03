@@ -8,7 +8,10 @@
       "value": 0.8
     }
   ],
-  "device_category": "AssaultRifle",
+  "compatible": [
+    "Weapon.Category.Sniper",
+    "Weapon.Category.DMR"
+  ],
   "sellingFPIncrement": 24,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {

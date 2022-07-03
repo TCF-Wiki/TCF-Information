@@ -8,7 +8,9 @@
       "value": 5
     }
   ],
-  "device_category": "AssaultRifle",
+  "compatible": [
+    "Tools.Scanner.Scanner1"
+  ],
   "sellingFPIncrement": 1,
   "sellingReturnDefault": 10,
   "sellingReturnsPerRarity": {
