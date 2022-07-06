@@ -1,8 +1,8 @@
 {
   "NoOptics": {
-    "IGN": "17348771467FF6FBFFDD14A72A7EF7EC",
     "modType": "Optics",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 1,
@@ -25,9 +25,9 @@
     "flashlight": false
   },
   "NoMagazine": {
-    "IGN": "BB9C095D4770A7C37569F899815ECAFD",
     "modType": "Magazine",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 1,
@@ -50,9 +50,9 @@
     "flashlight": false
   },
   "NoBarrel": {
-    "IGN": "BB9C095D4770A7C37569F899815ECAFD",
     "modType": "Barrel",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 1,
@@ -75,9 +75,9 @@
     "flashlight": false
   },
   "NoStock": {
-    "IGN": "BB9C095D4770A7C37569F899815ECAFD",
     "modType": "Stock",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 1,
@@ -100,9 +100,9 @@
     "flashlight": false
   },
   "NoGrip": {
-    "IGN": "BB9C095D4770A7C37569F899815ECAFD",
     "modType": "RearGrip",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 1,
@@ -125,9 +125,9 @@
     "flashlight": false
   },
   "NoAttatchment": {
-    "IGN": "BB9C095D4770A7C37569F899815ECAFD",
     "modType": "Attachment",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 1,
@@ -150,9 +150,9 @@
     "flashlight": false
   },
   "Mod_Korolev_Scanner_AlienCrystals": {
-    "IGN": "Focus Crystal Scanning Module",
     "modType": "ScannerUpgrade3",
     "itemWeight": 1,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "None",
@@ -189,9 +189,9 @@
     "flashlight": false
   },
   "Mod_Korolev_Scanner_HeavyMetals": {
-    "IGN": "Titan Ore Scanning Module",
     "modType": "ScannerUpgrade2",
     "itemWeight": 1,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "None",
@@ -228,9 +228,9 @@
     "flashlight": false
   },
   "Mod_Korolev_Scanner_Veltecite": {
-    "IGN": "Veltecite Scanning Module",
     "modType": "ScannerUpgrade1",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "None",
@@ -267,9 +267,9 @@
     "flashlight": false
   },
   "Mod_Optic_2x_01": {
-    "IGN": "2x Optic",
     "modType": "Optics",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponTargetingFOV",
@@ -298,9 +298,9 @@
     "flashlight": false
   },
   "Mod_Optic_4x_01": {
-    "IGN": "4x Optic",
     "modType": "Optics",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 13,
@@ -323,9 +323,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_03": {
-    "IGN": "Light Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -356,9 +356,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_02": {
-    "IGN": "Light Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -389,9 +389,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_01": {
-    "IGN": "Light Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -422,9 +422,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_01": {
-    "IGN": "Medium Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -455,9 +455,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_01": {
-    "IGN": "Heavy Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -488,9 +488,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_01": {
-    "IGN": "Shotgun Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -521,9 +521,9 @@
     "flashlight": false
   },
   "Mod_Muzzle_Small_Supressor_01": {
-    "IGN": "Small Suppressor",
     "modType": "Muzzle",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponIsSilenced",
@@ -555,9 +555,9 @@
     "flashlight": false
   },
   "Mod_Muzzle_Standard_Supressor_01": {
-    "IGN": "Medium Suppressor",
     "modType": "Muzzle",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponIsSilenced",
@@ -590,9 +590,9 @@
     "flashlight": false
   },
   "Mod_Converter_Light_01": {
-    "IGN": "Light Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -623,9 +623,9 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_01": {
-    "IGN": "Medium Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -656,9 +656,9 @@
     "flashlight": false
   },
   "Mod_Converter_Heavy_01": {
-    "IGN": "Heavy Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -689,9 +689,9 @@
     "flashlight": false
   },
   "Mod_Converter_Shotgun_01": {
-    "IGN": "Shotgun Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -722,9 +722,9 @@
     "flashlight": false
   },
   "Mod_ForeGrip_Angled_01": {
-    "IGN": "Angled Foregrip",
     "modType": "ForeGrip",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponRecoilVertical",
@@ -753,9 +753,9 @@
     "flashlight": false
   },
   "Mod_RearGrip_01": {
-    "IGN": "Ergonomic Grip",
     "modType": "RearGrip",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponEquipTime",
@@ -784,9 +784,9 @@
     "flashlight": false
   },
   "Mod_Tactical_Flashlight_01": {
-    "IGN": "Tactical Light",
     "modType": "Tactical",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 1,
@@ -809,9 +809,9 @@
     "flashlight": true
   },
   "Mod_Stock_Marksman_01": {
-    "IGN": "Marksman Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponRecoilVertical",
@@ -843,9 +843,9 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_01": {
-    "IGN": "Standard Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponRecoilVertical",
@@ -879,9 +879,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_02": {
-    "IGN": "Medium Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -912,9 +912,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_03": {
-    "IGN": "Medium Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -945,9 +945,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_02": {
-    "IGN": "Heavy Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -978,9 +978,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_03": {
-    "IGN": "Heavy Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -1011,9 +1011,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_02": {
-    "IGN": "Shotgun Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -1044,9 +1044,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_03": {
-    "IGN": "Shotgun Extended",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -1077,9 +1077,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_ReloadSpeed_01": {
-    "IGN": "Light Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1110,9 +1110,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_ReloadSpeed_02": {
-    "IGN": "Light Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1143,9 +1143,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_ReloadSpeed_03": {
-    "IGN": "Light Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1176,9 +1176,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
-    "IGN": "Light Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1209,9 +1209,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_Reloadspeed_01": {
-    "IGN": "Medium Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1242,9 +1242,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_Reloadspeed_02": {
-    "IGN": "Medium Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1275,9 +1275,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_Reloadspeed_03": {
-    "IGN": "Medium Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1308,9 +1308,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
-    "IGN": "Medium Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1341,9 +1341,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_ReloadSpeed_01": {
-    "IGN": "Heavy Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1374,9 +1374,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_ReloadSpeed_02": {
-    "IGN": "Heavy Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1407,9 +1407,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_ReloadSpeed_03": {
-    "IGN": "Heavy Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1440,9 +1440,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
-    "IGN": "Heavy Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1473,9 +1473,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_01": {
-    "IGN": "Shotgun Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1506,9 +1506,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_02": {
-    "IGN": "Shotgun Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1539,9 +1539,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-    "IGN": "Shotgun Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1572,9 +1572,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-    "IGN": "Shotgun Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponReloadTime",
@@ -1605,9 +1605,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_EXTReload_01": {
-    "IGN": "Light Extended Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -1643,9 +1643,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Light_EXTReload_02": {
-    "IGN": "Light Extended Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -1681,9 +1681,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_EXTReload_01": {
-    "IGN": "Medium Extended Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -1719,9 +1719,9 @@
     "flashlight": false
   },
   "Mod_Magazine_Medium_EXTReload_02": {
-    "IGN": "Medium Extended Quickdraw",
     "modType": "Magazine",
     "itemWeight": 3,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponClipSize",
@@ -1757,9 +1757,9 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_02": {
-    "IGN": "Standard Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponRecoilVertical",
@@ -1793,9 +1793,9 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_Equip_01": {
-    "IGN": "Quickdraw Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponEquipTime",
@@ -1829,9 +1829,9 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_Equip_02": {
-    "IGN": "Quickdraw Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponEquipTime",
@@ -1865,9 +1865,9 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_ADS_01": {
-    "IGN": "Tactical Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -1901,9 +1901,9 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_ADS_02": {
-    "IGN": "Tactical Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -1937,9 +1937,9 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_ADSEquip_01": {
-    "IGN": "Ultralight Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -1978,9 +1978,9 @@
     "flashlight": false
   },
   "Mod_Stock_Standard_ADSEquip_02": {
-    "IGN": "Ultralight Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -2019,9 +2019,9 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_02": {
-    "IGN": "Marksman Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponRecoilVertical",
@@ -2053,9 +2053,9 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_Equip_01": {
-    "IGN": "MKM Quickdraw Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponEquipTime",
@@ -2087,9 +2087,9 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_Equip_02": {
-    "IGN": "MKM Quickdraw Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponEquipTime",
@@ -2121,9 +2121,9 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_ADS_01": {
-    "IGN": "MKM Tactical Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -2155,9 +2155,9 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_ADS_02": {
-    "IGN": "MKM Tactical Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -2189,9 +2189,9 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_ADSEquip_01": {
-    "IGN": "MKM Ultralight Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -2228,9 +2228,9 @@
     "flashlight": false
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
-    "IGN": "MKM Ultralight Stock",
     "modType": "Stock",
     "itemWeight": 2,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -2267,9 +2267,9 @@
     "flashlight": false
   },
   "Mod_Muzzle_Small_Recoil_01": {
-    "IGN": "Small Muzzle Brake",
     "modType": "Muzzle",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponRecoilIncreaseRate",
@@ -2301,9 +2301,9 @@
     "flashlight": false
   },
   "Mod_Muzzle_Small_Recoil_02": {
-    "IGN": "Small Muzzle Brake",
     "modType": "Muzzle",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponRecoilIncreaseRate",
@@ -2335,9 +2335,9 @@
     "flashlight": false
   },
   "Mod_Muzzle_Small_Recoil_03": {
-    "IGN": "Small Muzzle Brake",
     "modType": "Muzzle",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponRecoilIncreaseRate",
@@ -2369,9 +2369,9 @@
     "flashlight": false
   },
   "Mod_Muzzle_Standard_Recoil_01": {
-    "IGN": "Medium Muzzle Brake",
     "modType": "Muzzle",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponRecoilIncreaseRate",
@@ -2404,9 +2404,9 @@
     "flashlight": false
   },
   "Mod_Muzzle_Standard_Recoil_02": {
-    "IGN": "Medium Muzzle Brake",
     "modType": "Muzzle",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponRecoilIncreaseRate",
@@ -2439,9 +2439,9 @@
     "flashlight": false
   },
   "Mod_Muzzle_Standard_Recoil_03": {
-    "IGN": "Medium Muzzle Brake",
     "modType": "Muzzle",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponRecoilIncreaseRate",
@@ -2474,9 +2474,9 @@
     "flashlight": false
   },
   "Mod_Converter_Light_02": {
-    "IGN": "Light Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -2507,9 +2507,9 @@
     "flashlight": false
   },
   "Mod_Converter_Light_03": {
-    "IGN": "Light Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -2540,9 +2540,9 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_02": {
-    "IGN": "Medium Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -2573,9 +2573,9 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_03": {
-    "IGN": "Medium Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -2606,9 +2606,9 @@
     "flashlight": false
   },
   "Mod_Converter_Heavy_02": {
-    "IGN": "Heavy Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -2639,9 +2639,9 @@
     "flashlight": false
   },
   "Mod_Converter_Heavy_03": {
-    "IGN": "Heavy Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -2672,9 +2672,9 @@
     "flashlight": false
   },
   "Mod_Converter_Shotgun_02": {
-    "IGN": "Shotgun Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -2705,9 +2705,9 @@
     "flashlight": false
   },
   "Mod_Converter_Shotgun_03": {
-    "IGN": "Shotgun Converter",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponPenetration",
@@ -2738,9 +2738,9 @@
     "flashlight": false
   },
   "Mod_Converter_Light_AIDMG_01": {
-    "IGN": "Light Creature Dmg",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "DamageEnemyMultiplier",
@@ -2771,9 +2771,9 @@
     "flashlight": false
   },
   "Mod_Converter_Light_AIDMG_02": {
-    "IGN": "Light Creature Dmg",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "DamageEnemyMultiplier",
@@ -2804,9 +2804,9 @@
     "flashlight": false
   },
   "Mod_Converter_Light_AIDMG_03": {
-    "IGN": "Light Creature Dmg",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "DamageEnemyMultiplier",
@@ -2837,9 +2837,9 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_AIDMG_01": {
-    "IGN": "Medium Creature Dmg",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "DamageEnemyMultiplier",
@@ -2870,9 +2870,9 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_AIDMG_02": {
-    "IGN": "Medium Creature Dmg",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "DamageEnemyMultiplier",
@@ -2903,9 +2903,9 @@
     "flashlight": false
   },
   "Mod_Converter_Medium_AIDMG_03": {
-    "IGN": "Medium Creature Dmg",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "DamageEnemyMultiplier",
@@ -2936,9 +2936,9 @@
     "flashlight": false
   },
   "Mod_Converter_Shotgun_Slug_01": {
-    "IGN": "Shotgun Slugs",
     "modType": "AmmoConverter",
     "itemWeight": 4,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponDamageRange",
@@ -2979,9 +2979,9 @@
     "flashlight": false
   },
   "Mod_ForeGrip_Angled_02": {
-    "IGN": "Angled Foregrip",
     "modType": "ForeGrip",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponRecoilVertical",
@@ -3010,9 +3010,9 @@
     "flashlight": false
   },
   "Mod_ForeGrip_Equip_01": {
-    "IGN": "Quickdraw Foregrip",
     "modType": "ForeGrip",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "WeaponEquipTime",
@@ -3041,9 +3041,9 @@
     "flashlight": false
   },
   "Mod_ForeGrip_Equip_02": {
-    "IGN": "Quickdraw Foregrip",
     "modType": "ForeGrip",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponEquipTime",
@@ -3072,9 +3072,9 @@
     "flashlight": false
   },
   "Mod_ForeGrip_ADS_01": {
-    "IGN": "Tactical Foregrip",
     "modType": "ForeGrip",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -3103,9 +3103,9 @@
     "flashlight": false
   },
   "Mod_ForeGrip_ADS_02": {
-    "IGN": "Tactical Foregrip",
     "modType": "ForeGrip",
     "itemWeight": 2,
+    "rarity": "Rare",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -3134,9 +3134,9 @@
     "flashlight": false
   },
   "Mod_ForeGrip_ADS_03": {
-    "IGN": "Tactical Foregrip",
     "modType": "ForeGrip",
     "itemWeight": 2,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -3165,9 +3165,9 @@
     "flashlight": false
   },
   "Mod_RearGrip_02": {
-    "IGN": "Ergonomic Grip",
     "modType": "RearGrip",
     "itemWeight": 1,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "WeaponEquipTime",
@@ -3196,9 +3196,9 @@
     "flashlight": false
   },
   "Mod_RearGrip_ADS_01": {
-    "IGN": "Tactical Rear Grip",
     "modType": "RearGrip",
     "itemWeight": 1,
+    "rarity": "Common",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -3227,9 +3227,9 @@
     "flashlight": false
   },
   "Mod_RearGrip_ADS_02": {
-    "IGN": "Tactical Rear Grip",
     "modType": "RearGrip",
     "itemWeight": 1,
+    "rarity": "Uncommon",
     "effects": [
       {
         "attribute": "TargetingTime",
@@ -3258,9 +3258,9 @@
     "flashlight": false
   },
   "Mod_Optic_1x_01": {
-    "IGN": "Red Dot Sight",
     "modType": "Optics",
     "itemWeight": 2,
+    "rarity": "Common",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 1,
@@ -3283,9 +3283,9 @@
     "flashlight": false
   },
   "Mod_Optic_1x_02": {
-    "IGN": "Holographic Sight",
     "modType": "Optics",
     "itemWeight": 2,
+    "rarity": "Uncommon",
     "effects": [],
     "compatible": [],
     "sellingFPIncrement": 4,
@@ -3308,9 +3308,9 @@
     "flashlight": false
   },
   "Mod_Optic_Variable_01": {
-    "IGN": "2 - 4x Variable Optic",
     "modType": "Optics",
     "itemWeight": 2,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponTargetingFOV",
@@ -3339,9 +3339,9 @@
     "flashlight": false
   },
   "Mod_Optic_8x_01": {
-    "IGN": "8x Optic",
     "modType": "Optics",
     "itemWeight": 2,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponTargetingFOV",
@@ -3373,9 +3373,9 @@
     "flashlight": false
   },
   "Mod_Optic_6x_01": {
-    "IGN": "6x Optic",
     "modType": "Optics",
     "itemWeight": 2,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "WeaponTargetingFOV",
@@ -3407,9 +3407,9 @@
     "flashlight": false
   },
   "Mod_Korolev_Scanner_Oil": {
-    "IGN": "Crude Oil Scanning Module",
     "modType": "ScannerUpgrade4",
     "itemWeight": 1,
+    "rarity": "Epic",
     "effects": [
       {
         "attribute": "None",
