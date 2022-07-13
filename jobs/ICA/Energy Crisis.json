@@ -1,36 +1,41 @@
 {
   "inGameName": "Energy Crisis",
-  "description": "The ICA draws a majority of its power from Miniature Reactors scavenged in old Power Facilities. Bring us one, Prospector.",
+  "description": "Gear up and go get us some Meteor Fragments and Clear Veltecite! If the rumors are true, this stuff could power our station systems for weeks!",
   "faction": "ICA",
-  "factionReputation": 13,
-  "difficulty": "Easy",
+  "factionReputation": 320,
+  "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 1,
-      "itemToOwn": "MiniatureReactor"
+      "maxProgress": 8,
+      "itemToOwn": "Clear Veltecite"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 4,
+      "itemToOwn": "Meteor Fragment"
     }
   ],
   "rewards": [
     {
       "item": "ICAScrip",
-      "amount": 1,
+      "amount": 39,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "SoftCurrency",
-      "amount": 3500,
+      "amount": 27000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 13
+      "amount": 320
     }
   ],
-  "unlockLevel": 3,
+  "unlockLevel": 19,
   "unlockContracts": [],
   "isMain": false
 }
