@@ -112,7 +112,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [

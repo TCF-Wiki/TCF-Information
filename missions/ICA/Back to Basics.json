@@ -163,7 +163,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8,
+        "maxProgress": 7,
         "itemToOwn": "Metallic Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -276,7 +276,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -383,7 +383,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 6,
         "itemToOwn": "SmartMesh"
       },
       {

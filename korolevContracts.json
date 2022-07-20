@@ -2210,7 +2210,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "Altered Nickel",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2743,7 +2743,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Optic Glass"
       }
     ],
@@ -3425,7 +3425,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -3817,7 +3817,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [

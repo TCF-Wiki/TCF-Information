@@ -79,7 +79,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 7,
         "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -475,7 +475,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [

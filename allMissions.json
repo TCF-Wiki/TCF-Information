@@ -273,7 +273,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "Altered Nickel",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -806,7 +806,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Optic Glass"
       }
     ],
@@ -1488,7 +1488,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1880,7 +1880,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -4116,7 +4116,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "Meteor Core",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
@@ -4713,7 +4713,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -5033,7 +5033,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8,
+        "maxProgress": 7,
         "itemToOwn": "Metallic Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -5146,7 +5146,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -5253,7 +5253,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 6,
         "itemToOwn": "SmartMesh"
       },
       {
@@ -5309,7 +5309,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 15,
+        "maxProgress": 9,
         "itemToOwn": "CopperWire"
       },
       {
@@ -5818,7 +5818,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 7,
         "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -6214,7 +6214,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -6764,7 +6764,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -8330,7 +8330,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],

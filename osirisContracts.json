@@ -833,7 +833,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Flawed Veltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -919,7 +919,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "itemToOwn": "Flawed Veltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2256,7 +2256,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 7,
         "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2652,7 +2652,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -3202,7 +3202,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -4768,7 +4768,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],

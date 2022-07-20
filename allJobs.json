@@ -2593,7 +2593,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Flawed Veltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2679,7 +2679,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "itemToOwn": "Flawed Veltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
