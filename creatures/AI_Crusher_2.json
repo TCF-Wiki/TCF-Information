@@ -34,6 +34,42 @@
   "armorConstant": 0.3,
   "minDamageReduction": 0.1,
   "maxDamageReduction": 2,
+  "normalLoot": {
+    "Crusher Hide": {
+      "chance": 30.000002,
+      "rolls": 3
+    },
+    "Alpha Crusher Heart": {
+      "chance": 100,
+      "rolls": 1
+    },
+    "Crusher Flesh": {
+      "chance": 25,
+      "rolls": 1
+    },
+    "Alpha Crusher Skull": {
+      "chance": 1,
+      "rolls": 1
+    }
+  },
+  "stormLoot": {
+    "Crusher Hide": {
+      "chance": 45,
+      "rolls": 4
+    },
+    "Alpha Crusher Heart": {
+      "chance": 100,
+      "rolls": 1
+    },
+    "Crusher Flesh": {
+      "chance": 30.000002,
+      "rolls": 1
+    },
+    "Alpha Crusher Skull": {
+      "chance": 1,
+      "rolls": 1
+    }
+  },
   "attacks": {
     "AIMEL_Crusher_Melee_Light": {
       "fireDelay": 0,

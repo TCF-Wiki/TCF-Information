@@ -23,6 +23,34 @@
   "armorConstant": 0.035,
   "minDamageReduction": 0.1,
   "maxDamageReduction": 2,
+  "normalLoot": {
+    "Spinal Base": {
+      "chance": 100,
+      "rolls": 1
+    },
+    "Strider Flesh": {
+      "chance": 25,
+      "rolls": 1
+    },
+    "Strider Head": {
+      "chance": 1,
+      "rolls": 1
+    }
+  },
+  "stormLoot": {
+    "Charged Spinal Base": {
+      "chance": 100,
+      "rolls": 1
+    },
+    "Strider Flesh": {
+      "chance": 30.000002,
+      "rolls": 1
+    },
+    "Strider Head": {
+      "chance": 1,
+      "rolls": 1
+    }
+  },
   "attacks": {
     "AIMEL_Strider": {
       "fireDelay": 0,
