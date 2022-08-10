@@ -2,7 +2,7 @@
   "inGameName": "Loadout Drop",
   "description": "One of our more... lethal assets on Fortuna requires some gear for her next job. Go stash some in the Pinnacle Labs Dead Drop for her.",
   "faction": "Osiris",
-  "factionReputation": 320,
+  "factionReputation": 480,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -34,13 +34,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 23000,
+      "amount": 33000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 320
+      "amount": 480
     }
   ],
   "unlockLevel": 19,

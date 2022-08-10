@@ -2,7 +2,7 @@
   "inGameName": "Cretins",
   "description": "Don't ask me how, but those Korolev numbskulls managed to extract powerful toxins from Toxic Glands. We need some samples, Prospector!",
   "faction": "Osiris",
-  "factionReputation": 260,
+  "factionReputation": 390,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 19000,
+      "amount": 26000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 260
+      "amount": 390
     }
   ],
   "unlockLevel": 12,

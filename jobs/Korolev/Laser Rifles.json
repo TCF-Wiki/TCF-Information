@@ -2,7 +2,7 @@
   "inGameName": "Laser Rifles",
   "description": "We are prototyping a new laser rifle that can penetrate even Crusher skulls. Get us Focus Crystals and Pure Focus Crystals for the lenses.",
   "faction": "Korolev",
-  "factionReputation": 290,
+  "factionReputation": 440,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -26,13 +26,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 33000,
+      "amount": 40000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 290
+      "amount": 440
     }
   ],
   "unlockLevel": 16,

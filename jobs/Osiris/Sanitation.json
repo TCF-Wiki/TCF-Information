@@ -2,7 +2,7 @@
   "inGameName": "Sanitation",
   "description": "I'm sending a team down to check soil samples around the Crashed Ship; I need you to clear the area of vermin before they arrive.",
   "faction": "Osiris",
-  "factionReputation": 300,
+  "factionReputation": 450,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -14,7 +14,9 @@
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       },
       "locationConditions": "Map01_CrashedShip"
     },
@@ -26,7 +28,9 @@
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       },
       "locationConditions": "Map01_CrashedShip"
     }
@@ -40,13 +44,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 15000,
+      "amount": 23000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 300
+      "amount": 450
     }
   ],
   "unlockLevel": 17,

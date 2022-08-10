@@ -2,7 +2,7 @@
   "inGameName": "New 3D Printer",
   "description": "Prospector! To help us provide our troops with the gear and supplies they require, we need Shard Slicers and Autoloaders for a new 3D printer.",
   "faction": "ICA",
-  "factionReputation": 320,
+  "factionReputation": 480,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -26,13 +26,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 37000,
+      "amount": 45000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 320
+      "amount": 480
     }
   ],
   "unlockLevel": 19,

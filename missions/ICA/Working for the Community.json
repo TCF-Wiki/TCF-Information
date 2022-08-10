@@ -28,6 +28,12 @@
     ],
     "rewards": [
       {
+        "item": "Overseers Office",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 26,
         "isEndOfChainReward": false,
@@ -36,12 +42,6 @@
       {
         "item": "SoftCurrency",
         "amount": 21000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Overseers Office",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -75,7 +75,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       },
@@ -88,7 +90,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       }

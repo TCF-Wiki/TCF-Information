@@ -2,7 +2,7 @@
   "inGameName": "Internal Combustion",
   "description": "The IFA filed a report that the Basilisk is \"an unnecessarily cruel weapon\"; take out some Prospectors with one and prove its efficacy outweighs all drawbacks.",
   "faction": "Osiris",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -22,7 +22,9 @@
             "RowName": "WP_G_Sniper_Energy_01"
           }
         ],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -35,13 +37,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 17000,
+      "amount": 25000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

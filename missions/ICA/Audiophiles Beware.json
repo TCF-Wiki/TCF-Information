@@ -9,7 +9,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "Aluminum scrap",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
@@ -19,7 +19,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -32,7 +34,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 6500,
+        "amount": 6700,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -69,7 +71,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -84,7 +88,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],

@@ -65,7 +65,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterfallLab"
       },
@@ -127,7 +129,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_VaccineLabs"
       },
@@ -189,7 +193,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],

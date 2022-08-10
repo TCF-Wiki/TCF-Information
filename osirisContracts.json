@@ -121,7 +121,7 @@
     "inGameName": "Cretins",
     "description": "Don't ask me how, but those Korolev numbskulls managed to extract powerful toxins from Toxic Glands. We need some samples, Prospector!",
     "faction": "Osiris",
-    "factionReputation": 260,
+    "factionReputation": 390,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -140,13 +140,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 19000,
+        "amount": 26000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 260
+        "amount": 390
       }
     ],
     "unlockLevel": 12,
@@ -157,7 +157,7 @@
     "inGameName": "Sensor Array Repairs",
     "description": "A Marauder damaged one of our sensor arrays. Bring us Interactive Screens, Optic Glass and Polymetallic Prefabricate so we can fix it.",
     "faction": "Osiris",
-    "factionReputation": 270,
+    "factionReputation": 400,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -186,13 +186,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 20000,
+        "amount": 27000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 270
+        "amount": 400
       }
     ],
     "unlockLevel": 13,
@@ -203,7 +203,7 @@
     "inGameName": "A new Energy Source",
     "description": "We've found a way to gain energy from Charged Spinal Bases from creatures affected by the Storm. We need some... and some Gyroscopes while you're down there.",
     "faction": "Osiris",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -227,13 +227,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 25000,
+        "amount": 32000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -244,7 +244,7 @@
     "inGameName": "Data Center Upgrades",
     "description": "Turns out our data center was not powerful enough for the calculations needed for our energy experiment. Bring us Master Unit CPUs!",
     "faction": "Osiris",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -263,13 +263,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 22000,
+        "amount": 30000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -280,7 +280,7 @@
     "inGameName": "Keep the Experiment running",
     "description": "Good news, Prospector! The experiment seems to be a success! Bring us more Charged Spinal Bases to keep it running!",
     "faction": "Osiris",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -299,13 +299,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 22000,
+        "amount": 30000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,
@@ -316,7 +316,7 @@
     "inGameName": "Safety Measures",
     "description": "Wonderful. The Meteor Core we acquired is powering our Drone Fleet nicely. But we need Gyroscopes and Autoloaders to stabilize the Reactor.",
     "faction": "Osiris",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -345,13 +345,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 53000,
+        "amount": 61000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -374,7 +374,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_ScienceCampus"
       }
@@ -417,7 +419,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -461,7 +465,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -503,7 +509,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -514,7 +522,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -556,7 +566,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_VaccineLabs"
       },
@@ -568,7 +580,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_ScienceCampus"
       }
@@ -611,7 +625,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_SkeletonObservation"
       }
@@ -642,7 +658,7 @@
     "inGameName": "Muddied Waters",
     "description": "Creatures roaming the Lake around our Lab have been obstructing research retrieval efforts. Take them out.",
     "faction": "Osiris",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -654,7 +670,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lake"
       }
@@ -668,13 +686,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 14000,
+        "amount": 21000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -685,7 +703,7 @@
     "inGameName": "Brains over brawn",
     "description": "Some of the lab techs here hold the belief Crushers are Fortuna III's apex predator. Prove them wrong.",
     "faction": "Osiris",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -697,7 +715,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -710,13 +730,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 14000,
+        "amount": 21000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -727,7 +747,7 @@
     "inGameName": "Sanitation",
     "description": "I'm sending a team down to check soil samples around the Crashed Ship; I need you to clear the area of vermin before they arrive.",
     "faction": "Osiris",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -739,7 +759,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CrashedShip"
       },
@@ -751,7 +773,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CrashedShip"
       }
@@ -765,13 +789,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 15000,
+        "amount": 23000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,
@@ -782,7 +806,7 @@
     "inGameName": "Behavioral Analysis V",
     "description": "Time for another test: find out how thick a live Crusher's hide really is using an Assault Rifle or Sniper Rifle.",
     "faction": "Osiris",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -797,7 +821,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -810,13 +836,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 16000,
+        "amount": 24000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -827,19 +853,21 @@
     "inGameName": "Living Black Box",
     "description": "Marauders have been lingering around the Bright Sands Crashed Ship site; get rid of them so I can send someone to find out why.",
     "faction": "Osiris",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Flawed Veltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CrashedShip"
       }
@@ -853,13 +881,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -870,7 +898,7 @@
     "inGameName": "Xeno-Archaeology II",
     "description": "Prospector! The Archaeology Team we sent to Skeleton Observation was attacked by Marauders. These beasts have to die so we can continue our research!",
     "faction": "Osiris",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -882,7 +910,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_SkeletonObservation"
       }
@@ -896,13 +926,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 14000,
+        "amount": 21000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -913,19 +943,21 @@
     "inGameName": "Pinnacle of Evolution",
     "description": "The Pinnacle Labs have been overrun by creatures. There is highly sensitive and valuable research equipment in there, Prospector, so get to work.",
     "faction": "Osiris",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "itemToOwn": "Flawed Veltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       },
@@ -937,7 +969,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       },
@@ -949,7 +983,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
@@ -963,13 +999,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 16000,
+        "amount": 23000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,
@@ -1042,7 +1078,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1072,7 +1110,7 @@
     "inGameName": "Lab Rats",
     "description": "An opportunity has presented itself that requires some \"special\" testing. Head to the Waterfall and Vaccine Labs and prepare some \"volunteers\" for us to pick up.",
     "faction": "Osiris",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1084,7 +1122,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_VaccineLabs"
       },
@@ -1096,7 +1136,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterfallLab"
       }
@@ -1110,13 +1152,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 15000,
+        "amount": 22000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -1127,7 +1169,7 @@
     "inGameName": "Internal Combustion",
     "description": "The IFA filed a report that the Basilisk is \"an unnecessarily cruel weapon\"; take out some Prospectors with one and prove its efficacy outweighs all drawbacks.",
     "faction": "Osiris",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1147,7 +1189,9 @@
               "RowName": "WP_G_Sniper_Energy_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1160,13 +1204,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -1193,7 +1237,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1259,7 +1305,7 @@
     "inGameName": "Bad Acid",
     "description": "Of course it would be that Acid Ticks feed on Glowy Brightcaps. Prospector, get me more samples, and kill some of those pests for good measure!",
     "faction": "Osiris",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1275,7 +1321,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Acid"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Acid",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1288,13 +1336,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 24000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -1305,7 +1353,7 @@
     "inGameName": "Harvest Day",
     "description": "A lab contamination has cost us dozens of samples! You need to get down there and get more Brightcaps, glowing ones too. Now!",
     "faction": "Osiris",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1329,13 +1377,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 23000,
+        "amount": 31000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -1418,7 +1466,7 @@
     "inGameName": "Core Values",
     "description": "Ah, there you are, Prospector. We need you to drop down there and get us the Meteor Core of a Meteor Shower for some experiments. Off you go.",
     "faction": "Osiris",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1437,13 +1485,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 30000,
+        "amount": 37000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -1454,7 +1502,7 @@
     "inGameName": "Promising Results",
     "description": "Prospector, both Meteor Shards and Meteor Cores proved invaluable in our Xenological Research. Bring us more of both, and be discrete about it.",
     "faction": "Osiris",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1478,13 +1526,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 37000,
+        "amount": 45000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,
@@ -1606,7 +1654,7 @@
     "inGameName": "Stormy Samples",
     "description": "Ah, there you are. We need someone to go stash Charged Spinal Bases at the Fulfilment Center for our Field Scientists to pick up. Can you do it?",
     "faction": "Osiris",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1626,13 +1674,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 24000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -1643,7 +1691,7 @@
     "inGameName": "Stormy Samples II",
     "description": "Head down to Pinnacle Labs, look for the Dead Drop there and stash Glowy Brightcap Mushrooms in it. Our Field Scientists will pick them up later. ",
     "faction": "Osiris",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1663,13 +1711,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,
@@ -1680,7 +1728,7 @@
     "inGameName": "Loadout Drop",
     "description": "One of our more... lethal assets on Fortuna requires some gear for her next job. Go stash some in the Pinnacle Labs Dead Drop for her.",
     "faction": "Osiris",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1712,13 +1760,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 23000,
+        "amount": 33000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -1849,7 +1897,7 @@
   "NEW-Hard-Osiris-Gather-7": {
     "inGameName": "NEW-Hard-Osiris-Gather-7",
     "faction": "Osiris",
-    "factionReputation": 270,
+    "factionReputation": 400,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1873,13 +1921,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 26000,
+        "amount": 33000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 270
+        "amount": 400
       }
     ],
     "unlockLevel": 13,
@@ -1889,7 +1937,7 @@
   "NEW-Hard-Osiris-Hunt-8": {
     "inGameName": "NEW-Hard-Osiris-Hunt-8",
     "faction": "Osiris",
-    "factionReputation": 260,
+    "factionReputation": 390,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1903,7 +1951,9 @@
             "EYDeviceCategory::SMG"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1916,13 +1966,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 13000,
+        "amount": 20000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 260
+        "amount": 390
       }
     ],
     "unlockLevel": 12,
@@ -1945,7 +1995,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2032,7 +2084,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Swamp"
       },
@@ -2088,7 +2142,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2198,7 +2254,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_ScienceCampus"
       },
@@ -2256,13 +2314,15 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 7,
         "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lake"
       },
@@ -2274,7 +2334,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lake"
       }
@@ -2371,7 +2433,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2475,7 +2539,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2538,11 +2604,19 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Bright Sands Observation Room Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 4,
@@ -2552,12 +2626,6 @@
       {
         "item": "SoftCurrency",
         "amount": 7700,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Bright Sands Observation Room Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2594,7 +2662,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_VaccineLabs"
       },
@@ -2606,7 +2676,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2652,14 +2724,16 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
             "EYDeviceCategory::SMG"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2716,7 +2790,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       },
@@ -2727,7 +2803,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       },
@@ -2778,7 +2856,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       },
@@ -2791,7 +2871,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2893,7 +2975,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterfallLab"
       },
@@ -2955,7 +3039,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_VaccineLabs"
       },
@@ -3017,7 +3103,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3118,7 +3206,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_NutrionFarmsProcessing"
       },
@@ -3132,7 +3222,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3145,7 +3237,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3164,7 +3258,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 20000,
+        "amount": 15000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3196,13 +3290,15 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_JungleFavela"
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -3260,11 +3356,19 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Luggage Saferoom Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 11,
@@ -3274,12 +3378,6 @@
       {
         "item": "SoftCurrency",
         "amount": 7800,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Luggage Saferoom Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3311,7 +3409,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_EliteCrusherDungeonSeal"
       },
@@ -3325,7 +3425,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_EliteCrusherDungeonSeal"
       },
@@ -3339,7 +3441,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3352,7 +3456,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 15000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3387,11 +3491,19 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Skeleton Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 19,
@@ -3401,12 +3513,6 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Skeleton Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3441,7 +3547,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3454,7 +3562,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3467,7 +3577,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3480,7 +3592,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 15000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3515,7 +3627,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3528,7 +3642,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3541,7 +3657,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3595,7 +3713,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3643,7 +3763,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_Starport"
       }
@@ -3739,7 +3861,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3752,7 +3876,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3765,7 +3891,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3813,7 +3941,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3826,7 +3956,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3874,7 +4006,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3887,7 +4021,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3942,7 +4078,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4056,7 +4194,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 28000,
+        "amount": 24000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4099,7 +4237,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
@@ -4310,6 +4450,12 @@
     ],
     "rewards": [
       {
+        "item": "Community Room",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "OsirisScrip",
         "amount": 64,
         "isEndOfChainReward": false,
@@ -4318,12 +4464,6 @@
       {
         "item": "SoftCurrency",
         "amount": 26000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Community Room",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4569,7 +4709,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4717,7 +4859,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4727,7 +4871,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
@@ -4768,7 +4914,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -4823,11 +4969,19 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Boss' Office",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 158,
@@ -4837,12 +4991,6 @@
       {
         "item": "SoftCurrency",
         "amount": 18000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Boss' Office",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4925,9 +5073,15 @@
     ],
     "rewards": [
       {
-        "item": "Basilisk",
+        "item": "QuestItem_OrbitalCanonTargetBeacon",
         "amount": 1,
         "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Basilisk",
+        "amount": 1,
+        "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
@@ -4971,7 +5125,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_EliteCrusherDungeon"
       },
@@ -4983,7 +5139,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_EliteCrusherDungeon"
       },
@@ -4995,7 +5153,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -5132,7 +5292,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CrashedShip"
       },
@@ -5143,7 +5305,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_InsideCrashedShip"
       },
@@ -5155,7 +5319,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -5201,7 +5367,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_LostScientist"
       },
@@ -5215,11 +5383,19 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Phasic Lancer",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 19,
@@ -5230,12 +5406,6 @@
         "item": "SoftCurrency",
         "amount": 9400,
         "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Phasic Lancer",
-        "amount": 1,
-        "isEndOfChainReward": true,
         "isUnlockReward": false
       },
       {
@@ -5290,7 +5460,7 @@
   "NEW-Hard-Osiris-EliteCrusher-1": {
     "inGameName": "NEW-Hard-Osiris-EliteCrusher-1",
     "faction": "Osiris",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -5309,13 +5479,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 146000,
+        "amount": 155000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -5403,7 +5573,7 @@
     "inGameName": "Don't get crushed",
     "description": "Gear up, Prospector! We need Crusher Skins for our Material Sciences Department. The tissue is said to be resistant to radiation, we must test that theory.",
     "faction": "Osiris",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -5422,13 +5592,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 50000,
+        "amount": 57000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,

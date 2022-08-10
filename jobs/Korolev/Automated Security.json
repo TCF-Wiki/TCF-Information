@@ -2,7 +2,7 @@
   "inGameName": "Automated Security",
   "description": "We will have to build new turrets to help protect our mining sites and landing pads. Bring us Zero Systems CPUs and Hardened Metals.",
   "faction": "Korolev",
-  "factionReputation": 290,
+  "factionReputation": 440,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -26,13 +26,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 20000,
+      "amount": 27000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 290
+      "amount": 440
     }
   ],
   "unlockLevel": 16,

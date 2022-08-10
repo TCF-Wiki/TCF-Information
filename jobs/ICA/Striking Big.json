@@ -2,7 +2,7 @@
   "inGameName": "Striking Big",
   "description": "Damn it! We ran out of Fuel for our Radiation Shields here on the Station. And there's no replacement for Nanite Infused Crude Oil. You know what to do.",
   "faction": "ICA",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 218000,
+      "amount": 227000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

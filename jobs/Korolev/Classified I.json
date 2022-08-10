@@ -2,7 +2,7 @@
   "inGameName": "Classified I",
   "description": "Prospector! We need Derelict Explosives, Master Unit CPUs and Compound Sheets. Dont ask questions, just go acquire the materials.",
   "faction": "Korolev",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -31,13 +31,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 44000,
+      "amount": 52000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

@@ -14,7 +14,9 @@
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],

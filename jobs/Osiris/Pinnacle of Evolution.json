@@ -2,19 +2,21 @@
   "inGameName": "Pinnacle of Evolution",
   "description": "The Pinnacle Labs have been overrun by creatures. There is highly sensitive and valuable research equipment in there, Prospector, so get to work.",
   "faction": "Osiris",
-  "factionReputation": 310,
+  "factionReputation": 470,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "Kills",
-      "maxProgress": 4,
+      "maxProgress": 3,
       "itemToOwn": "Flawed Veltecite",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       },
       "locationConditions": "Map02_DesertPinnacleLabs"
     },
@@ -26,7 +28,9 @@
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       },
       "locationConditions": "Map02_DesertPinnacleLabs"
     },
@@ -38,7 +42,9 @@
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       },
       "locationConditions": "Map02_DesertPinnacleLabs"
     }
@@ -52,13 +58,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 16000,
+      "amount": 23000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 310
+      "amount": 470
     }
   ],
   "unlockLevel": 18,

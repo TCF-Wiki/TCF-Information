@@ -2,7 +2,7 @@
   "inGameName": "Battery Day",
   "description": "Prospector, we have developed a new type of Battery based on Meteor Cores that will fuel a drop ship or excavator for years. You know what to do!",
   "faction": "Korolev",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 39000,
+      "amount": 48000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

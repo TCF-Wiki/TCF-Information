@@ -2,7 +2,7 @@
   "inGameName": "Keep the Experiment running",
   "description": "Good news, Prospector! The experiment seems to be a success! Bring us more Charged Spinal Bases to keep it running!",
   "faction": "Osiris",
-  "factionReputation": 300,
+  "factionReputation": 450,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 22000,
+      "amount": 30000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 300
+      "amount": 450
     }
   ],
   "unlockLevel": 17,

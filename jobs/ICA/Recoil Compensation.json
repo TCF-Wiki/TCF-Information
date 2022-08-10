@@ -2,7 +2,7 @@
   "inGameName": "Recoil Compensation",
   "description": "Upgrades to our rifles are long overdue. To go into production with improved Recoil Compensators, we need Shock Absorbers and Compound Sheets.",
   "faction": "ICA",
-  "factionReputation": 300,
+  "factionReputation": 450,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -26,13 +26,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 18000,
+      "amount": 26000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 300
+      "amount": 450
     }
   ],
   "unlockLevel": 17,

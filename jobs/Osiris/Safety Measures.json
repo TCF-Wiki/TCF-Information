@@ -2,7 +2,7 @@
   "inGameName": "Safety Measures",
   "description": "Wonderful. The Meteor Core we acquired is powering our Drone Fleet nicely. But we need Gyroscopes and Autoloaders to stabilize the Reactor.",
   "faction": "Osiris",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -31,13 +31,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 53000,
+      "amount": 61000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

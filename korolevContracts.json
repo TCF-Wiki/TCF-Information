@@ -193,7 +193,7 @@
     "inGameName": "Excavator Improvements",
     "description": "The suspension on our mining excavators need improvements to handle rocky terrain. We need Multitools, Ball Bearings and Hydraulic Pistons.",
     "faction": "Korolev",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -222,13 +222,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -239,7 +239,7 @@
     "inGameName": "A new type of Alloy",
     "description": "Our scientists are confident they can create a new, extremely durable alloy from Hardened Bone Plates and Compound Sheets! Bring us what we need.",
     "faction": "Korolev",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -263,13 +263,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 30000,
+        "amount": 37000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -280,7 +280,7 @@
     "inGameName": "Automated Security",
     "description": "We will have to build new turrets to help protect our mining sites and landing pads. Bring us Zero Systems CPUs and Hardened Metals.",
     "faction": "Korolev",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -304,13 +304,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 20000,
+        "amount": 27000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -321,7 +321,7 @@
     "inGameName": "Energy Crisis",
     "description": "Veltecite supplies are low, but we need energy! Get your hands on one of those fabled ICA Miniature Reactors and deliver it to us. Discreetly.",
     "faction": "Korolev",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -340,13 +340,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 23000,
+        "amount": 31000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,
@@ -357,7 +357,7 @@
     "inGameName": "Classified I",
     "description": "Prospector! We need Derelict Explosives, Master Unit CPUs and Compound Sheets. Dont ask questions, just go acquire the materials.",
     "faction": "Korolev",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -386,13 +386,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 44000,
+        "amount": 52000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -455,7 +455,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       }
@@ -604,7 +606,7 @@
     "inGameName": "Geologist",
     "description": "You got time for a job, Prospector? The samples you brought us weren't pure enough. Get us Pure Veltecite and some Pure Focus Crystals this time.",
     "faction": "Korolev",
-    "factionReputation": 270,
+    "factionReputation": 400,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -628,13 +630,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 20000,
+        "amount": 27000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 270
+        "amount": 400
       }
     ],
     "unlockLevel": 13,
@@ -645,7 +647,7 @@
     "inGameName": "Industry Secret",
     "description": "Hm. Interesting. The Pure Focus Crystals you brought us worked perfectly for the new lenses. Bring us more! I can already taste Osiris' envy.",
     "faction": "Korolev",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -664,13 +666,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 22000,
+        "amount": 29000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -681,7 +683,7 @@
     "inGameName": "Veltecite Hearts",
     "description": "Bring us some Veltecite Hearts, the highest purity of Veltecite, for us to experiment on.",
     "faction": "Korolev",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -700,13 +702,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 27000,
+        "amount": 34000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -717,7 +719,7 @@
     "inGameName": "Laser Rifles",
     "description": "We are prototyping a new laser rifle that can penetrate even Crusher skulls. Get us Focus Crystals and Pure Focus Crystals for the lenses.",
     "faction": "Korolev",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -741,13 +743,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 33000,
+        "amount": 40000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -758,7 +760,7 @@
     "inGameName": "Classified II",
     "description": "Ah, Prospector. We need Clear Veltecite and Derelict Explosives for an experiment. I cannot say any more and expect utmost discretion.",
     "faction": "Korolev",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -782,13 +784,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 40000,
+        "amount": 47000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,
@@ -799,7 +801,7 @@
     "inGameName": "Unlimited Power",
     "description": "Fine. I guess you need to know. We are trying to charge Veltecite with power, the same way the Storm does. Bring us more Veltecite Samples.",
     "faction": "Korolev",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -828,13 +830,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 33000,
+        "amount": 41000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -859,7 +861,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -903,7 +907,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -945,7 +951,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_DigSite"
       }
@@ -988,7 +996,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1018,7 +1028,7 @@
     "inGameName": "Crashed Ship",
     "description": "According to Intel, a ship with valuable Osiris tech crashed in the Jungle. Go clear the area of Rattlers so our troops can loot the wreck!",
     "faction": "Korolev",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1030,7 +1040,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CrashedShip"
       },
@@ -1042,7 +1054,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CrashedShip"
       }
@@ -1056,13 +1070,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 16000,
+        "amount": 23000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,
@@ -1073,7 +1087,7 @@
     "inGameName": "Protect our Claim",
     "description": "Greedy Prospectors have been filling their own pockets with valuable minerals from our Dig Site. Go eliminate any Prospector there, send a message!",
     "faction": "Korolev",
-    "factionReputation": 270,
+    "factionReputation": 400,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1085,7 +1099,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_DigSite"
       }
@@ -1099,13 +1115,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 13000,
+        "amount": 20000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 270
+        "amount": 400
       }
     ],
     "unlockLevel": 13,
@@ -1116,7 +1132,7 @@
     "inGameName": "Leaving a Mark",
     "description": "Some are saying Korolev is afraid of conflict! Get that idea out of their heads! Take out rival Prospectors, let them know Korolev sent you!",
     "faction": "Korolev",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1128,7 +1144,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1141,13 +1159,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 14000,
+        "amount": 21000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -1158,7 +1176,7 @@
     "inGameName": "Live Fire",
     "description": "Prospector, marketing department wants more test data to sell our superior weapons; go take out rival Prospectors with Korolev Weapons!",
     "faction": "Korolev",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1241,7 +1259,9 @@
               "RowName": "WP_A_Launch_MSL_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1254,13 +1274,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 15000,
+        "amount": 23000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,
@@ -1271,7 +1291,7 @@
     "inGameName": "Sales Pitch",
     "description": "Habitat Civil Protection doesn't believe our guns are worth the price; take out some rival Prospectors with a Korolev Pistol and Shotgun to shut them up!",
     "faction": "Korolev",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1285,7 +1305,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -1298,7 +1320,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1311,13 +1335,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 16000,
+        "amount": 24000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -1328,7 +1352,7 @@
     "inGameName": "Burying the Lead",
     "description": "KBR Longshot sales need a boost back home; let's show them what a Korolev rifle can do to Marauders and Prospectors!",
     "faction": "Korolev",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1348,7 +1372,9 @@
               "RowName": "WP_A_BR_Bullet_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -1366,7 +1392,9 @@
               "RowName": "WP_A_BR_Bullet_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1379,13 +1407,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -1432,7 +1460,7 @@
     "inGameName": "Meteor Core",
     "description": "Prospector! Osiris seems to have gotten their hands on a Meteor Core from the main Meteor of a Meteor Shower. We need one as well!",
     "faction": "Korolev",
-    "factionReputation": 260,
+    "factionReputation": 390,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1451,13 +1479,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 21000,
+        "amount": 27000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 260
+        "amount": 390
       }
     ],
     "unlockLevel": 12,
@@ -1468,7 +1496,7 @@
     "inGameName": "Shards of pure Power",
     "description": "These Meteor Shards are incredibly valuable. We can use them to power our mining machinery. Bring us more, Prospector.",
     "faction": "Korolev",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1487,13 +1515,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 23000,
+        "amount": 30000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -1504,7 +1532,7 @@
     "inGameName": "Battery Day",
     "description": "Prospector, we have developed a new type of Battery based on Meteor Cores that will fuel a drop ship or excavator for years. You know what to do!",
     "faction": "Korolev",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1523,13 +1551,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 39000,
+        "amount": 48000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -1743,7 +1771,7 @@
     "inGameName": "Stashing Safety",
     "description": "One of our Miners has been injured and is hiding near Base Camp. Go stash a Rare Shield for them there and clear the area of creatures.",
     "faction": "Korolev",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1760,7 +1788,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CentralStation"
       }
@@ -1774,13 +1804,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 26000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -1791,7 +1821,7 @@
     "inGameName": "Upgrades",
     "description": "We want to take over an ICA Data Center. Stash a Master Unit CPU at the Server Room so that our Tech Staff can use it to splice the System.",
     "faction": "Korolev",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1811,13 +1841,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 20000,
+        "amount": 28000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -1827,7 +1857,7 @@
   "NEW-Hard-KOR-PvP-6": {
     "inGameName": "NEW-Hard-KOR-PvP-6",
     "faction": "Korolev",
-    "factionReputation": 260,
+    "factionReputation": 390,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1910,7 +1940,9 @@
               "RowName": "WP_A_Launch_MSL_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1923,13 +1955,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 13000,
+        "amount": 20000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 260
+        "amount": 390
       }
     ],
     "unlockLevel": 12,
@@ -1990,7 +2022,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2036,7 +2070,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2049,7 +2085,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2104,7 +2142,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterFacility"
       }
@@ -2155,7 +2195,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2166,7 +2208,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2210,13 +2254,15 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "Altered Nickel",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2227,14 +2273,16 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
       {
         "item": "ShockGrenade_02",
-        "amount": 10,
+        "amount": 5,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2246,7 +2294,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 12000,
+        "amount": 11000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2279,7 +2327,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2290,7 +2340,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2406,7 +2458,9 @@
               "RowName": "WP_A_Launch_MSL_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2510,7 +2564,9 @@
               "RowName": "WP_A_SMG_Shard_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2579,7 +2635,9 @@
               "RowName": "WP_A_SMG_Shard_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2686,7 +2744,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_DigSite"
       },
@@ -2697,7 +2757,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_DigSite"
       }
@@ -2743,7 +2805,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Optic Glass"
       }
     ],
@@ -2762,7 +2824,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 11000,
+        "amount": 9800,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2910,7 +2972,9 @@
               "RowName": "WP_A_Launch_MSL_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3011,7 +3075,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       }
@@ -3108,7 +3174,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3220,7 +3288,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3420,12 +3490,14 @@
               "RowName": "WP_A_SGun_Energy_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
         "type": "Kills",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -3438,7 +3510,9 @@
               "RowName": "WP_A_SGun_Energy_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3489,7 +3563,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_Starport"
       },
@@ -3500,7 +3576,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_JungleFavela"
       },
@@ -3656,7 +3734,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       },
@@ -3667,7 +3747,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
@@ -3719,7 +3801,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       },
@@ -3730,7 +3814,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       }
@@ -3817,14 +3903,16 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
             "EYDeviceCategory::SMG"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3983,7 +4071,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_DigSite"
       },
@@ -4230,7 +4320,9 @@
               "RowName": "WP_A_Launch_MSL_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4331,6 +4423,12 @@
     ],
     "rewards": [
       {
+        "item": "Server Access Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "KorolevScrip",
         "amount": 64,
         "isEndOfChainReward": false,
@@ -4339,12 +4437,6 @@
       {
         "item": "SoftCurrency",
         "amount": 44000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Server Access Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4587,7 +4679,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4599,7 +4693,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4653,7 +4749,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4666,7 +4764,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4679,7 +4779,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4736,12 +4838,20 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
     ],
     "rewards": [
+      {
+        "item": "Armory Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "KorolevScrip",
         "amount": 158,
@@ -4751,12 +4861,6 @@
       {
         "item": "SoftCurrency",
         "amount": 29000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Armory Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4888,11 +4992,19 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Community Room",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "KorolevScrip",
         "amount": 214,
@@ -4902,12 +5014,6 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Community Room",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4986,7 +5092,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -5038,7 +5146,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "LetiumLocations"
       },
@@ -5050,7 +5160,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -5154,7 +5266,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_AroundMissingEngineerBody"
       },
@@ -5166,7 +5280,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -5289,7 +5405,7 @@
     "inGameName": "Exclusive Drilling Rights",
     "description": "Alright Prospector; gear up and go get us some more Letium. We will of course pay extra for the risks, as well as you absolute secrecy...",
     "faction": "Korolev",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -5308,13 +5424,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 132000,
+        "amount": 140000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -5325,7 +5441,7 @@
     "inGameName": "Stocking Up",
     "description": "We need Brittle Titan Ore, Prospector. And lots of it! I trust you know where to look for it by now? As they say, this is not your first rodeo.",
     "faction": "Korolev",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -5344,13 +5460,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 24000,
+        "amount": 32000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,
@@ -5361,7 +5477,7 @@
     "inGameName": "Shock and Awe",
     "description": "Prospector, get us some Shock Absorbers from the surface, our equipment here needs maintenance. Get us the parts, if they're Korolev they'll still work for sure! Well... probably.",
     "faction": "Korolev",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -5380,13 +5496,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 26000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,

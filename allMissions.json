@@ -53,7 +53,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -99,7 +101,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -112,7 +116,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -167,7 +173,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterFacility"
       }
@@ -218,7 +226,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -229,7 +239,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -273,13 +285,15 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "Altered Nickel",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -290,14 +304,16 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
       {
         "item": "ShockGrenade_02",
-        "amount": 10,
+        "amount": 5,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -309,7 +325,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 12000,
+        "amount": 11000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -342,7 +358,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -353,7 +371,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -469,7 +489,9 @@
               "RowName": "WP_A_Launch_MSL_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -573,7 +595,9 @@
               "RowName": "WP_A_SMG_Shard_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -642,7 +666,9 @@
               "RowName": "WP_A_SMG_Shard_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -749,7 +775,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_DigSite"
       },
@@ -760,7 +788,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_DigSite"
       }
@@ -806,7 +836,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Optic Glass"
       }
     ],
@@ -825,7 +855,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 11000,
+        "amount": 9800,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -973,7 +1003,9 @@
               "RowName": "WP_A_Launch_MSL_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1074,7 +1106,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       }
@@ -1171,7 +1205,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -1283,7 +1319,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -1483,12 +1521,14 @@
               "RowName": "WP_A_SGun_Energy_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
         "type": "Kills",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1501,7 +1541,9 @@
               "RowName": "WP_A_SGun_Energy_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1552,7 +1594,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_Starport"
       },
@@ -1563,7 +1607,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_JungleFavela"
       },
@@ -1719,7 +1765,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       },
@@ -1730,7 +1778,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
@@ -1782,7 +1832,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       },
@@ -1793,7 +1845,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       }
@@ -1880,14 +1934,16 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
             "EYDeviceCategory::SMG"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2046,7 +2102,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_DigSite"
       },
@@ -2293,7 +2351,9 @@
               "RowName": "WP_A_Launch_MSL_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2394,6 +2454,12 @@
     ],
     "rewards": [
       {
+        "item": "Server Access Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "KorolevScrip",
         "amount": 64,
         "isEndOfChainReward": false,
@@ -2402,12 +2468,6 @@
       {
         "item": "SoftCurrency",
         "amount": 44000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Server Access Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2650,7 +2710,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2662,7 +2724,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2716,7 +2780,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2729,7 +2795,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2742,7 +2810,9 @@
             "EYDeviceCategory::Shotgun"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2799,12 +2869,20 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
     ],
     "rewards": [
+      {
+        "item": "Armory Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "KorolevScrip",
         "amount": 158,
@@ -2814,12 +2892,6 @@
       {
         "item": "SoftCurrency",
         "amount": 29000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Armory Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2951,11 +3023,19 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Community Room",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "KorolevScrip",
         "amount": 214,
@@ -2965,12 +3045,6 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Community Room",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3049,7 +3123,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3101,7 +3177,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "LetiumLocations"
       },
@@ -3113,7 +3191,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3205,7 +3285,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3218,7 +3300,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3264,7 +3348,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lagoon"
       },
@@ -3276,7 +3362,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lagoon"
       }
@@ -3382,7 +3470,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WoodCutterCamp"
       },
@@ -3400,6 +3490,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Tall House Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 2,
         "isEndOfChainReward": false,
@@ -3408,12 +3504,6 @@
       {
         "item": "SoftCurrency",
         "amount": 4900,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Tall House Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3438,7 +3528,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "Aluminum scrap",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
@@ -3448,7 +3538,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3461,7 +3553,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 6500,
+        "amount": 6700,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3498,7 +3590,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3513,7 +3607,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3634,6 +3730,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Server Access Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 4,
         "isEndOfChainReward": false,
@@ -3642,12 +3744,6 @@
       {
         "item": "SoftCurrency",
         "amount": 7900,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Server Access Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3790,7 +3886,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_PowerPlant"
       },
@@ -3808,6 +3906,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Mine Access Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 8,
         "isEndOfChainReward": false,
@@ -3816,12 +3920,6 @@
       {
         "item": "SoftCurrency",
         "amount": 8300,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Mine Access Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4015,6 +4113,12 @@
     ],
     "rewards": [
       {
+        "item": "Skeleton Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 11,
         "isEndOfChainReward": false,
@@ -4022,13 +4126,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 16000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Skeleton Key",
-        "amount": 1,
+        "amount": 13000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4116,7 +4214,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "Meteor Core",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
@@ -4124,7 +4222,9 @@
             "EYDeviceCategory::AssaultRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4170,7 +4270,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lake"
       },
@@ -4182,12 +4284,20 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_Starport"
       }
     ],
     "rewards": [
+      {
+        "item": "Luggage Saferoom Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "ICAScrip",
         "amount": 26,
@@ -4197,12 +4307,6 @@
       {
         "item": "SoftCurrency",
         "amount": 10000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Luggage Saferoom Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4307,6 +4411,12 @@
     ],
     "rewards": [
       {
+        "item": "Overseers Office",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 26,
         "isEndOfChainReward": false,
@@ -4315,12 +4425,6 @@
       {
         "item": "SoftCurrency",
         "amount": 21000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Overseers Office",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4354,7 +4458,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       },
@@ -4367,7 +4473,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       }
@@ -4474,7 +4582,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_PumpkinFields"
       }
@@ -4526,7 +4636,9 @@
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4593,11 +4705,19 @@
               "RowName": "WP_D_HVY_Exotic_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Armory Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "ICAScrip",
         "amount": 35,
@@ -4607,12 +4727,6 @@
       {
         "item": "SoftCurrency",
         "amount": 14000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Armory Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4644,7 +4758,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_SkeletonObservation"
       },
@@ -4656,7 +4772,9 @@
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4667,7 +4785,9 @@
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4713,14 +4833,16 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4765,7 +4887,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CentralStation"
       },
@@ -4776,7 +4900,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_PowerPlant"
       },
@@ -4787,7 +4913,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterFacility"
       }
@@ -5033,13 +5161,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8,
+        "maxProgress": 7,
         "itemToOwn": "Metallic Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -5050,6 +5180,12 @@
     ],
     "rewards": [
       {
+        "item": "Boss' Office",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 87,
         "isEndOfChainReward": false,
@@ -5058,12 +5194,6 @@
       {
         "item": "SoftCurrency",
         "amount": 32000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Boss' Office",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -5146,7 +5276,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -5208,7 +5338,9 @@
               "RowName": "WP_D_HVY_Exotic_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -5253,7 +5385,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 6,
         "itemToOwn": "SmartMesh"
       },
       {
@@ -5277,7 +5409,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 47000,
+        "amount": 44000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -5309,7 +5441,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 15,
+        "maxProgress": 9,
         "itemToOwn": "CopperWire"
       },
       {
@@ -5327,7 +5459,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 28000,
+        "amount": 27000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -5409,11 +5541,19 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Lab Keycard",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "ICAScrip",
         "amount": 214,
@@ -5423,12 +5563,6 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Lab Keycard",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -5507,7 +5641,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -5594,7 +5730,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Swamp"
       },
@@ -5650,7 +5788,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -5760,7 +5900,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_ScienceCampus"
       },
@@ -5818,13 +5960,15 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 7,
         "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lake"
       },
@@ -5836,7 +5980,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lake"
       }
@@ -5933,7 +6079,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -6037,7 +6185,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -6100,11 +6250,19 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Bright Sands Observation Room Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 4,
@@ -6114,12 +6272,6 @@
       {
         "item": "SoftCurrency",
         "amount": 7700,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Bright Sands Observation Room Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -6156,7 +6308,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_VaccineLabs"
       },
@@ -6168,7 +6322,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -6214,14 +6370,16 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
             "EYDeviceCategory::SMG"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -6278,7 +6436,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       },
@@ -6289,7 +6449,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       },
@@ -6340,7 +6502,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       },
@@ -6353,7 +6517,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -6455,7 +6621,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterfallLab"
       },
@@ -6517,7 +6685,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_VaccineLabs"
       },
@@ -6579,7 +6749,9 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -6680,7 +6852,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_NutrionFarmsProcessing"
       },
@@ -6694,7 +6868,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -6707,7 +6883,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -6726,7 +6904,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 20000,
+        "amount": 15000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -6758,13 +6936,15 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_JungleFavela"
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
         "deadDropItem": "Portable Lab",
@@ -6822,11 +7002,19 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Luggage Saferoom Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 11,
@@ -6836,12 +7024,6 @@
       {
         "item": "SoftCurrency",
         "amount": 7800,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Luggage Saferoom Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -6873,7 +7055,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_EliteCrusherDungeonSeal"
       },
@@ -6887,7 +7071,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_EliteCrusherDungeonSeal"
       },
@@ -6901,7 +7087,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -6914,7 +7102,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 15000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -6949,11 +7137,19 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Skeleton Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 19,
@@ -6963,12 +7159,6 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Skeleton Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -7003,7 +7193,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -7016,7 +7208,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -7029,7 +7223,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -7042,7 +7238,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 15000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -7077,7 +7273,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -7090,7 +7288,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -7103,7 +7303,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -7157,7 +7359,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -7205,7 +7409,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_Starport"
       }
@@ -7301,7 +7507,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -7314,7 +7522,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -7327,7 +7537,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -7375,7 +7587,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -7388,7 +7602,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -7436,7 +7652,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -7449,7 +7667,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -7504,7 +7724,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -7618,7 +7840,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 28000,
+        "amount": 24000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -7661,7 +7883,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
@@ -7872,6 +8096,12 @@
     ],
     "rewards": [
       {
+        "item": "Community Room",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "OsirisScrip",
         "amount": 64,
         "isEndOfChainReward": false,
@@ -7880,12 +8110,6 @@
       {
         "item": "SoftCurrency",
         "amount": 26000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Community Room",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -8131,7 +8355,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -8279,7 +8505,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -8289,7 +8517,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_DesertPinnacleLabs"
       }
@@ -8330,7 +8560,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -8385,11 +8615,19 @@
               "RowName": "WP_G_HVY_Beam_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Boss' Office",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 158,
@@ -8399,12 +8637,6 @@
       {
         "item": "SoftCurrency",
         "amount": 18000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Boss' Office",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -8487,9 +8719,15 @@
     ],
     "rewards": [
       {
-        "item": "Basilisk",
+        "item": "QuestItem_OrbitalCanonTargetBeacon",
         "amount": 1,
         "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Basilisk",
+        "amount": 1,
+        "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
@@ -8533,7 +8771,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_EliteCrusherDungeon"
       },
@@ -8545,7 +8785,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_EliteCrusherDungeon"
       },
@@ -8557,7 +8799,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -8609,7 +8853,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -8620,7 +8866,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -8631,7 +8879,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -8676,7 +8926,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WoodCutterCamp"
       },
@@ -8687,7 +8939,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterFacility"
       },
@@ -8698,7 +8952,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_PowerPlant"
       }
@@ -8848,7 +9104,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_AroundMissingEngineerBody"
       },
@@ -8860,7 +9118,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -8994,7 +9254,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_SosSign"
       }
@@ -9040,7 +9302,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterFacility_PowerUpLoot"
       },
@@ -9097,7 +9361,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
       },
@@ -9109,7 +9375,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -9154,7 +9422,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap1"
       },
@@ -9166,7 +9436,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -9211,7 +9483,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
       },
@@ -9223,7 +9497,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -9274,7 +9550,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_AbandonedOilField"
       },
@@ -9285,7 +9563,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_AbandonedOilField"
       },
@@ -9297,7 +9577,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -9428,7 +9710,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CrashedShip"
       },
@@ -9439,7 +9723,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_InsideCrashedShip"
       },
@@ -9451,7 +9737,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -9497,7 +9785,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_LostScientist"
       },
@@ -9511,11 +9801,19 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Phasic Lancer",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
       {
         "item": "OsirisScrip",
         "amount": 19,
@@ -9526,12 +9824,6 @@
         "item": "SoftCurrency",
         "amount": 9400,
         "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Phasic Lancer",
-        "amount": 1,
-        "isEndOfChainReward": true,
         "isUnlockReward": false
       },
       {

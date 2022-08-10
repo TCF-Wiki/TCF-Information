@@ -2,7 +2,7 @@
   "inGameName": "Core Values",
   "description": "Ah, there you are, Prospector. We need you to drop down there and get us the Meteor Core of a Meteor Shower for some experiments. Off you go.",
   "faction": "Osiris",
-  "factionReputation": 290,
+  "factionReputation": 440,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 30000,
+      "amount": 37000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 290
+      "amount": 440
     }
   ],
   "unlockLevel": 16,

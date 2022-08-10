@@ -2,7 +2,7 @@
   "inGameName": "Excavator Improvements",
   "description": "The suspension on our mining excavators need improvements to handle rocky terrain. We need Multitools, Ball Bearings and Hydraulic Pistons.",
   "faction": "Korolev",
-  "factionReputation": 280,
+  "factionReputation": 420,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -31,13 +31,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 18000,
+      "amount": 25000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 280
+      "amount": 420
     }
   ],
   "unlockLevel": 14,

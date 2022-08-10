@@ -1,7 +1,7 @@
 {
   "inGameName": "NEW-Hard-Osiris-Gather-7",
   "faction": "Osiris",
-  "factionReputation": 270,
+  "factionReputation": 400,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -25,13 +25,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 26000,
+      "amount": 33000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 270
+      "amount": 400
     }
   ],
   "unlockLevel": 13,

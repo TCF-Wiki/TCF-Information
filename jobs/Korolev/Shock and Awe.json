@@ -2,7 +2,7 @@
   "inGameName": "Shock and Awe",
   "description": "Prospector, get us some Shock Absorbers from the surface, our equipment here needs maintenance. Get us the parts, if they're Korolev they'll still work for sure! Well... probably.",
   "faction": "Korolev",
-  "factionReputation": 310,
+  "factionReputation": 470,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 18000,
+      "amount": 26000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 310
+      "amount": 470
     }
   ],
   "unlockLevel": 18,

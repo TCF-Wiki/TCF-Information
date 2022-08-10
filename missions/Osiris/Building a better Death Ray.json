@@ -25,6 +25,12 @@
     ],
     "rewards": [
       {
+        "item": "Community Room",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "OsirisScrip",
         "amount": 64,
         "isEndOfChainReward": false,
@@ -33,12 +39,6 @@
       {
         "item": "SoftCurrency",
         "amount": 26000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Community Room",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },

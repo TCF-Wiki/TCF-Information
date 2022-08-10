@@ -163,13 +163,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8,
+        "maxProgress": 7,
         "itemToOwn": "Metallic Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -180,6 +182,12 @@
     ],
     "rewards": [
       {
+        "item": "Boss' Office",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 87,
         "isEndOfChainReward": false,
@@ -188,12 +196,6 @@
       {
         "item": "SoftCurrency",
         "amount": 32000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Boss' Office",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -276,7 +278,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -338,7 +340,9 @@
               "RowName": "WP_D_HVY_Exotic_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -383,7 +387,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 6,
         "itemToOwn": "SmartMesh"
       },
       {
@@ -407,7 +411,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 47000,
+        "amount": 44000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },

@@ -1,7 +1,7 @@
 {
   "inGameName": "NEW-Hard-Osiris-Hunt-8",
   "faction": "Osiris",
-  "factionReputation": 260,
+  "factionReputation": 390,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -15,7 +15,9 @@
           "EYDeviceCategory::SMG"
         ],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -28,13 +30,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 13000,
+      "amount": 20000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 260
+      "amount": 390
     }
   ],
   "unlockLevel": 12,

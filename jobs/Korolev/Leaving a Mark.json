@@ -2,7 +2,7 @@
   "inGameName": "Leaving a Mark",
   "description": "Some are saying Korolev is afraid of conflict! Get that idea out of their heads! Take out rival Prospectors, let them know Korolev sent you!",
   "faction": "Korolev",
-  "factionReputation": 280,
+  "factionReputation": 420,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -14,7 +14,9 @@
         "m_killTarget": "EYKillTypeAction::Players",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -27,13 +29,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 14000,
+      "amount": 21000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 280
+      "amount": 420
     }
   ],
   "unlockLevel": 14,

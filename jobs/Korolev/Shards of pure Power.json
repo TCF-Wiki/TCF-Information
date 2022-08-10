@@ -2,7 +2,7 @@
   "inGameName": "Shards of pure Power",
   "description": "These Meteor Shards are incredibly valuable. We can use them to power our mining machinery. Bring us more, Prospector.",
   "faction": "Korolev",
-  "factionReputation": 290,
+  "factionReputation": 440,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 23000,
+      "amount": 30000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 290
+      "amount": 440
     }
   ],
   "unlockLevel": 16,

@@ -2,7 +2,7 @@
   "inGameName": "Data Drive VI",
   "description": "We're finding more than just Storm data now... Get us more Unique Data Drives, Prospector, what we might find could have immeasurable value!",
   "faction": "ICA",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 47000,
+      "amount": 56000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

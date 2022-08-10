@@ -2,7 +2,7 @@
   "inGameName": "Burying the Lead",
   "description": "KBR Longshot sales need a boost back home; let's show them what a Korolev rifle can do to Marauders and Prospectors!",
   "faction": "Korolev",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -22,7 +22,9 @@
             "RowName": "WP_A_BR_Bullet_01"
           }
         ],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     },
     {
@@ -40,7 +42,9 @@
             "RowName": "WP_A_BR_Bullet_01"
           }
         ],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -53,13 +57,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 17000,
+      "amount": 25000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

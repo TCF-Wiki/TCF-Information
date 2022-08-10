@@ -2,7 +2,7 @@
   "inGameName": "Old Currency",
   "description": "We have received reports of Old Currency being found on Fortuna. That stuff is pretty valuable. Bring us some!",
   "faction": "ICA",
-  "factionReputation": 290,
+  "factionReputation": 440,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 21000,
+      "amount": 28000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 290
+      "amount": 440
     }
   ],
   "unlockLevel": 16,

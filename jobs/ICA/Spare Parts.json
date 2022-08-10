@@ -2,7 +2,7 @@
   "inGameName": "Spare Parts",
   "description": "One of the Servers at Starport has been failing. Before we can send down a Technician, stash new Zero Systems CPUs for them in the Server Room.",
   "faction": "ICA",
-  "factionReputation": 310,
+  "factionReputation": 470,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -22,13 +22,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 18000,
+      "amount": 25000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 310
+      "amount": 470
     }
   ],
   "unlockLevel": 18,

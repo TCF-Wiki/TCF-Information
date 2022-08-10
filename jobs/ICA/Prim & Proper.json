@@ -2,7 +2,7 @@
   "inGameName": "Prim & Proper",
   "description": "A delegation from off system just arrived, and our people need to look their best to woo them for patronage. Get us some Jewellery from the surface, hopefully we can impress.",
   "faction": "ICA",
-  "factionReputation": 300,
+  "factionReputation": 450,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 25000,
+      "amount": 33000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 300
+      "amount": 450
     }
   ],
   "unlockLevel": 17,

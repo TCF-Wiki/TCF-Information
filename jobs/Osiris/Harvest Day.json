@@ -2,7 +2,7 @@
   "inGameName": "Harvest Day",
   "description": "A lab contamination has cost us dozens of samples! You need to get down there and get more Brightcaps, glowing ones too. Now!",
   "faction": "Osiris",
-  "factionReputation": 320,
+  "factionReputation": 480,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -26,13 +26,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 23000,
+      "amount": 31000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 320
+      "amount": 480
     }
   ],
   "unlockLevel": 19,

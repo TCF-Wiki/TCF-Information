@@ -2,7 +2,7 @@
   "inGameName": "Geologist",
   "description": "You got time for a job, Prospector? The samples you brought us weren't pure enough. Get us Pure Veltecite and some Pure Focus Crystals this time.",
   "faction": "Korolev",
-  "factionReputation": 270,
+  "factionReputation": 400,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -26,13 +26,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 20000,
+      "amount": 27000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 270
+      "amount": 400
     }
   ],
   "unlockLevel": 13,

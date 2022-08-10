@@ -2,7 +2,7 @@
   "inGameName": "Exclusive Drilling Rights",
   "description": "Alright Prospector; gear up and go get us some more Letium. We will of course pay extra for the risks, as well as you absolute secrecy...",
   "faction": "Korolev",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 132000,
+      "amount": 140000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

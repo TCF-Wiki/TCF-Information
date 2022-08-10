@@ -2,7 +2,7 @@
   "inGameName": "Live Fire",
   "description": "Prospector, marketing department wants more test data to sell our superior weapons; go take out rival Prospectors with Korolev Weapons!",
   "faction": "Korolev",
-  "factionReputation": 300,
+  "factionReputation": 450,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -85,7 +85,9 @@
             "RowName": "WP_A_Launch_MSL_01"
           }
         ],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -98,13 +100,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 15000,
+      "amount": 23000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 300
+      "amount": 450
     }
   ],
   "unlockLevel": 17,

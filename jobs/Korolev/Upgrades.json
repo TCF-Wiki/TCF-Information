@@ -2,7 +2,7 @@
   "inGameName": "Upgrades",
   "description": "We want to take over an ICA Data Center. Stash a Master Unit CPU at the Server Room so that our Tech Staff can use it to splice the System.",
   "faction": "Korolev",
-  "factionReputation": 320,
+  "factionReputation": 480,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -22,13 +22,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 20000,
+      "amount": 28000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 320
+      "amount": 480
     }
   ],
   "unlockLevel": 19,

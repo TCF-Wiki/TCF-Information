@@ -2,7 +2,7 @@
   "inGameName": "Brains over brawn",
   "description": "Some of the lab techs here hold the belief Crushers are Fortuna III's apex predator. Prove them wrong.",
   "faction": "Osiris",
-  "factionReputation": 290,
+  "factionReputation": 430,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -14,7 +14,9 @@
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -27,13 +29,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 14000,
+      "amount": 21000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 290
+      "amount": 430
     }
   ],
   "unlockLevel": 15,

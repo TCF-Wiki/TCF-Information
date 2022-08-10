@@ -2,19 +2,21 @@
   "inGameName": "Living Black Box",
   "description": "Marauders have been lingering around the Bright Sands Crashed Ship site; get rid of them so I can send someone to find out why.",
   "faction": "Osiris",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
     {
       "type": "Kills",
-      "maxProgress": 5,
+      "maxProgress": 3,
       "itemToOwn": "Flawed Veltecite",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       },
       "locationConditions": "Map01_CrashedShip"
     }
@@ -28,13 +30,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 17000,
+      "amount": 25000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

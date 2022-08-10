@@ -1,7 +1,7 @@
 {
   "inGameName": "NEW-Hard-KOR-PvP-6",
   "faction": "Korolev",
-  "factionReputation": 260,
+  "factionReputation": 390,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -84,7 +84,9 @@
             "RowName": "WP_A_Launch_MSL_01"
           }
         ],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -97,13 +99,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 13000,
+      "amount": 20000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 260
+      "amount": 390
     }
   ],
   "unlockLevel": 12,

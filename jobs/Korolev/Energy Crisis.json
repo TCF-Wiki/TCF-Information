@@ -2,7 +2,7 @@
   "inGameName": "Energy Crisis",
   "description": "Veltecite supplies are low, but we need energy! Get your hands on one of those fabled ICA Miniature Reactors and deliver it to us. Discreetly.",
   "faction": "Korolev",
-  "factionReputation": 300,
+  "factionReputation": 450,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 23000,
+      "amount": 31000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 300
+      "amount": 450
     }
   ],
   "unlockLevel": 17,

@@ -2,7 +2,7 @@
   "inGameName": "Field Supplies",
   "description": "We need to make more construction materials available to building sites on Crescent Falls. Go stash Polymetallic Prefabricate near Greens Prospect.",
   "faction": "ICA",
-  "factionReputation": 300,
+  "factionReputation": 450,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -22,13 +22,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 18000,
+      "amount": 26000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 300
+      "amount": 450
     }
   ],
   "unlockLevel": 17,

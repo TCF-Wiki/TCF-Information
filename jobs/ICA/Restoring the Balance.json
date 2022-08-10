@@ -2,7 +2,7 @@
   "inGameName": "Restoring the Balance",
   "description": "Some believe Osiris and Korolev weapons outclass ours. Use ICA weapons to \"educate\" rival Prospectors as to who really makes the best guns.",
   "faction": "ICA",
-  "factionReputation": 320,
+  "factionReputation": 480,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -71,7 +71,9 @@
             "RowName": "WP_D_HVY_Exotic_01"
           }
         ],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -84,13 +86,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 16000,
+      "amount": 24000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 320
+      "amount": 480
     }
   ],
   "unlockLevel": 19,

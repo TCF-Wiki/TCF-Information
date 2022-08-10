@@ -2,7 +2,7 @@
   "inGameName": "Sensor Array Repairs",
   "description": "A Marauder damaged one of our sensor arrays. Bring us Interactive Screens, Optic Glass and Polymetallic Prefabricate so we can fix it.",
   "faction": "Osiris",
-  "factionReputation": 270,
+  "factionReputation": 400,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -31,13 +31,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 20000,
+      "amount": 27000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 270
+      "amount": 400
     }
   ],
   "unlockLevel": 13,

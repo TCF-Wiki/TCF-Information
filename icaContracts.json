@@ -172,7 +172,7 @@
     "inGameName": "Sabotage",
     "description": "Prospector! Those Korolev simpletons are drilling near one of our Uplinks. Bring us Zero Systems CPUs and Derelict Explosives. You know why.",
     "faction": "ICA",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -196,13 +196,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 30000,
+        "amount": 37000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -213,7 +213,7 @@
     "inGameName": "Old Currency",
     "description": "We have received reports of Old Currency being found on Fortuna. That stuff is pretty valuable. Bring us some!",
     "faction": "ICA",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -232,13 +232,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 21000,
+        "amount": 28000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -249,7 +249,7 @@
     "inGameName": "Recoil Compensation",
     "description": "Upgrades to our rifles are long overdue. To go into production with improved Recoil Compensators, we need Shock Absorbers and Compound Sheets.",
     "faction": "ICA",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -273,13 +273,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 26000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,
@@ -290,7 +290,7 @@
     "inGameName": "Espionnage II",
     "description": "Osiris is gaining an incredible amount of energy from Charged Spinal Bases. Go kill creatures to cut off their supply and get us some samples.",
     "faction": "ICA",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -302,7 +302,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -320,13 +322,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 22000,
+        "amount": 30000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,
@@ -337,7 +339,7 @@
     "inGameName": "New 3D Printer",
     "description": "Prospector! To help us provide our troops with the gear and supplies they require, we need Shard Slicers and Autoloaders for a new 3D printer.",
     "faction": "ICA",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -361,13 +363,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 37000,
+        "amount": 45000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -378,7 +380,7 @@
     "inGameName": "Arms Race",
     "description": "Prospector. It seems like Korolev is working on some sort of new laser rifle that uses Pure Focus Crystals. Go get us some, and be discrete about it.",
     "faction": "ICA",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -397,13 +399,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 26000,
+        "amount": 33000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -414,7 +416,7 @@
     "inGameName": "Energy Crisis",
     "description": "Gear up and go get us some Meteor Fragments and Clear Veltecite! If the rumors are true, this stuff could power our station systems for weeks!",
     "faction": "ICA",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -438,13 +440,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 27000,
+        "amount": 35000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -467,7 +469,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CentralStation"
       }
@@ -510,7 +514,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -521,7 +527,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -563,7 +571,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_NutrionFarmsWarehouse"
       }
@@ -594,7 +604,7 @@
     "inGameName": "Target Practice",
     "description": "We want you to test out killing Marauders from a distance, see how easy they are to track... and how fast they can close in.",
     "faction": "ICA",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -608,7 +618,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -621,13 +633,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 14000,
+        "amount": 21000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -638,7 +650,7 @@
     "inGameName": "Debugging",
     "description": "Rattlers are messing with what's left of the old Bright Sands Comms Tower facility; make sure they don't turn the place into a new nest.",
     "faction": "ICA",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -650,7 +662,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CommsBase"
       },
@@ -662,7 +676,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CommsBase"
       }
@@ -676,13 +692,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 15000,
+        "amount": 22000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -762,7 +778,9 @@
               "RowName": "WP_D_HVY_Exotic_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -804,7 +822,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -848,7 +868,9 @@
             "EYDeviceCategory::AssaultRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -878,7 +900,7 @@
     "inGameName": "On Our Team",
     "description": "A big arms merchant is on station looking to buy; head down and take out Striders, Rattlers, and Prospectors with the Advocate to help secure us a sale.",
     "faction": "ICA",
-    "factionReputation": 290,
+    "factionReputation": 430,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -898,7 +920,9 @@
               "RowName": "WP_D_AR_Bullet_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -917,7 +941,9 @@
               "RowName": "WP_D_AR_Bullet_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -936,7 +962,9 @@
               "RowName": "WP_D_AR_Bullet_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -949,13 +977,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 14000,
+        "amount": 21000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 430
       }
     ],
     "unlockLevel": 15,
@@ -966,7 +994,7 @@
     "inGameName": "Hallowed Ground",
     "description": "Prospectors have been vandalizing what's left of the Bright Sands Base Camp; go down there and teach them some manners.",
     "faction": "ICA",
-    "factionReputation": 290,
+    "factionReputation": 440,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -978,7 +1006,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CentralStation"
       }
@@ -992,13 +1022,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 15000,
+        "amount": 22000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 290
+        "amount": 440
       }
     ],
     "unlockLevel": 16,
@@ -1009,7 +1039,7 @@
     "inGameName": "Restoring the Balance",
     "description": "Some believe Osiris and Korolev weapons outclass ours. Use ICA weapons to \"educate\" rival Prospectors as to who really makes the best guns.",
     "faction": "ICA",
-    "factionReputation": 320,
+    "factionReputation": 480,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1078,7 +1108,9 @@
               "RowName": "WP_D_HVY_Exotic_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -1091,13 +1123,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 16000,
+        "amount": 24000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 320
+        "amount": 480
       }
     ],
     "unlockLevel": 19,
@@ -1108,7 +1140,7 @@
     "inGameName": "Forest Clearing",
     "description": "I need someone to head down to the Bright Sands Jungle and make sure other Prospectors and the local wildlife learn to stay out of it. No, you don't need to know why.",
     "faction": "ICA",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1120,7 +1152,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       },
@@ -1132,7 +1166,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Jungle"
       }
@@ -1146,13 +1182,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 17000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -1235,7 +1271,7 @@
     "inGameName": "Data Drive IV",
     "description": "In order to be able to predict Storm Behaviour more precisely, we will need higher quality Data. Bring us a Valuable Data Drive.",
     "faction": "ICA",
-    "factionReputation": 260,
+    "factionReputation": 390,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1254,13 +1290,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 19000,
+        "amount": 26000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 260
+        "amount": 390
       }
     ],
     "unlockLevel": 12,
@@ -1271,7 +1307,7 @@
     "inGameName": "Data Drive V",
     "description": "Yes! The more precise Data you brought us was a great success! Do you think you are ready to bring us a Unique Data Drive?",
     "faction": "ICA",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1290,13 +1326,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 24000,
+        "amount": 31000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -1307,7 +1343,7 @@
     "inGameName": "Data Drive VI",
     "description": "We're finding more than just Storm data now... Get us more Unique Data Drives, Prospector, what we might find could have immeasurable value!",
     "faction": "ICA",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1326,13 +1362,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 47000,
+        "amount": 56000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -1415,7 +1451,7 @@
     "inGameName": "A Solution",
     "description": "Prospector. We have gotten our hands on a load of powerful Energy Rifles Korolev has been working on. We need Miniature Reactors to charge them.",
     "faction": "ICA",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1434,13 +1470,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 26000,
+        "amount": 33000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,
@@ -1457,7 +1493,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02"
       }
@@ -1471,7 +1507,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 2300,
+        "amount": 2400,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -1636,7 +1672,7 @@
     "inGameName": "Data Drop",
     "description": "Prospector. One of our Scientists is convinced she can predict the Storm, but she needs Data. Stash Rare Data Drives at Fulfilment Center for her.",
     "faction": "ICA",
-    "factionReputation": 270,
+    "factionReputation": 400,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1656,13 +1692,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 19000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 270
+        "amount": 400
       }
     ],
     "unlockLevel": 13,
@@ -1673,7 +1709,7 @@
     "inGameName": "Field Supplies",
     "description": "We need to make more construction materials available to building sites on Crescent Falls. Go stash Polymetallic Prefabricate near Greens Prospect.",
     "faction": "ICA",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1693,13 +1729,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 26000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,
@@ -1710,7 +1746,7 @@
     "inGameName": "Spare Parts",
     "description": "One of the Servers at Starport has been failing. Before we can send down a Technician, stash new Zero Systems CPUs for them in the Server Room.",
     "faction": "ICA",
-    "factionReputation": 310,
+    "factionReputation": 470,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1730,13 +1766,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 310
+        "amount": 470
       }
     ],
     "unlockLevel": 18,
@@ -1747,7 +1783,7 @@
     "inGameName": "Provide an Advocate",
     "description": "Our field agent requested better gear to take down some creatures hindering his mission. Stash an Advocate Rifle at the Starport Cafeteria for him.",
     "faction": "ICA",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1767,13 +1803,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 39000,
+        "amount": 48000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -1878,7 +1914,9 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lake"
       }
@@ -1908,7 +1946,7 @@
   "NEW-Hard-ICA-Gather-and-PvE-1": {
     "inGameName": "NEW-Hard-ICA-Gather-and-PvE-1",
     "faction": "ICA",
-    "factionReputation": 270,
+    "factionReputation": 400,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1920,7 +1958,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -1938,13 +1978,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 270
+        "amount": 400
       }
     ],
     "unlockLevel": 13,
@@ -1954,7 +1994,7 @@
   "NEW-Hard-ICA-Gather-6": {
     "inGameName": "NEW-Hard-ICA-Gather-6",
     "faction": "ICA",
-    "factionReputation": 260,
+    "factionReputation": 390,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -1983,13 +2023,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 22000,
+        "amount": 29000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 260
+        "amount": 390
       }
     ],
     "unlockLevel": 12,
@@ -2052,7 +2092,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2065,7 +2107,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2111,7 +2155,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lagoon"
       },
@@ -2123,7 +2169,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lagoon"
       }
@@ -2229,7 +2277,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WoodCutterCamp"
       },
@@ -2247,6 +2297,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Tall House Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 2,
         "isEndOfChainReward": false,
@@ -2255,12 +2311,6 @@
       {
         "item": "SoftCurrency",
         "amount": 4900,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Tall House Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2285,7 +2335,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "Aluminum scrap",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
@@ -2295,7 +2345,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2308,7 +2360,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 6500,
+        "amount": 6700,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2345,7 +2397,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -2360,7 +2414,9 @@
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -2481,6 +2537,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Server Access Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 4,
         "isEndOfChainReward": false,
@@ -2489,12 +2551,6 @@
       {
         "item": "SoftCurrency",
         "amount": 7900,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Server Access Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2637,7 +2693,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_PowerPlant"
       },
@@ -2655,6 +2713,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Mine Access Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 8,
         "isEndOfChainReward": false,
@@ -2663,12 +2727,6 @@
       {
         "item": "SoftCurrency",
         "amount": 8300,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Mine Access Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2862,6 +2920,12 @@
     ],
     "rewards": [
       {
+        "item": "Skeleton Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 11,
         "isEndOfChainReward": false,
@@ -2869,13 +2933,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 16000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Skeleton Key",
-        "amount": 1,
+        "amount": 13000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -2963,7 +3021,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "Meteor Core",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
@@ -2971,7 +3029,9 @@
             "EYDeviceCategory::AssaultRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3017,7 +3077,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_Lake"
       },
@@ -3029,12 +3091,20 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_Starport"
       }
     ],
     "rewards": [
+      {
+        "item": "Luggage Saferoom Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "ICAScrip",
         "amount": 26,
@@ -3044,12 +3114,6 @@
       {
         "item": "SoftCurrency",
         "amount": 10000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Luggage Saferoom Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3154,6 +3218,12 @@
     ],
     "rewards": [
       {
+        "item": "Overseers Office",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 26,
         "isEndOfChainReward": false,
@@ -3162,12 +3232,6 @@
       {
         "item": "SoftCurrency",
         "amount": 21000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Overseers Office",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3201,7 +3265,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       },
@@ -3214,7 +3280,9 @@
             "EYDeviceCategory::SniperRifle"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_GreensProspect"
       }
@@ -3321,7 +3389,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_PumpkinFields"
       }
@@ -3373,7 +3443,9 @@
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3440,11 +3512,19 @@
               "RowName": "WP_D_HVY_Exotic_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Armory Key",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "ICAScrip",
         "amount": 35,
@@ -3454,12 +3534,6 @@
       {
         "item": "SoftCurrency",
         "amount": 14000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Armory Key",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3491,7 +3565,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map02_SkeletonObservation"
       },
@@ -3503,7 +3579,9 @@
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3514,7 +3592,9 @@
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3560,14 +3640,16 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
             "EYDeviceCategory::Pistol"
           ],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -3612,7 +3694,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_CentralStation"
       },
@@ -3623,7 +3707,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_PowerPlant"
       },
@@ -3634,7 +3720,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterFacility"
       }
@@ -3880,13 +3968,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8,
+        "maxProgress": 7,
         "itemToOwn": "Metallic Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -3897,6 +3987,12 @@
     ],
     "rewards": [
       {
+        "item": "Boss' Office",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 87,
         "isEndOfChainReward": false,
@@ -3905,12 +4001,6 @@
       {
         "item": "SoftCurrency",
         "amount": 32000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Boss' Office",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -3993,7 +4083,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -4055,7 +4145,9 @@
               "RowName": "WP_D_HVY_Exotic_01"
             }
           ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4100,7 +4192,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 6,
         "itemToOwn": "SmartMesh"
       },
       {
@@ -4124,7 +4216,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 47000,
+        "amount": 44000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4156,7 +4248,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 15,
+        "maxProgress": 9,
         "itemToOwn": "CopperWire"
       },
       {
@@ -4174,7 +4266,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 28000,
+        "amount": 27000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4256,11 +4348,19 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
     "rewards": [
+      {
+        "item": "Lab Keycard",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
       {
         "item": "ICAScrip",
         "amount": 214,
@@ -4270,12 +4370,6 @@
       {
         "item": "SoftCurrency",
         "amount": 20000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Lab Keycard",
-        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4354,7 +4448,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4365,7 +4461,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       },
       {
@@ -4376,7 +4474,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4421,7 +4521,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WoodCutterCamp"
       },
@@ -4432,7 +4534,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterFacility"
       },
@@ -4443,7 +4547,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_PowerPlant"
       }
@@ -4540,7 +4646,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_SosSign"
       }
@@ -4586,7 +4694,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "Map01_WaterFacility_PowerUpLoot"
       },
@@ -4643,7 +4753,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
       },
@@ -4655,7 +4767,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4700,7 +4814,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap1"
       },
@@ -4712,7 +4828,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4757,7 +4875,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
       },
@@ -4769,7 +4889,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4820,7 +4942,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_AbandonedOilField"
       },
@@ -4831,7 +4955,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         },
         "locationConditions": "UniqueMissionLocation_AbandonedOilField"
       },
@@ -4843,7 +4969,9 @@
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
         }
       }
     ],
@@ -4877,7 +5005,7 @@
     "inGameName": "Striking Big",
     "description": "Damn it! We ran out of Fuel for our Radiation Shields here on the Station. And there's no replacement for Nanite Infused Crude Oil. You know what to do.",
     "faction": "ICA",
-    "factionReputation": 330,
+    "factionReputation": 500,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -4896,13 +5024,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 218000,
+        "amount": 227000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 330
+        "amount": 500
       }
     ],
     "unlockLevel": 20,
@@ -4949,7 +5077,7 @@
     "inGameName": "A Craving",
     "description": "Wanna make some extra cash? We would pay well for some Nutritional Bars. They taste funny, but nostalgia has deep pockets.",
     "faction": "ICA",
-    "factionReputation": 280,
+    "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -4968,13 +5096,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 18000,
+        "amount": 25000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 280
+        "amount": 420
       }
     ],
     "unlockLevel": 14,
@@ -4985,7 +5113,7 @@
     "inGameName": "Prim & Proper",
     "description": "A delegation from off system just arrived, and our people need to look their best to woo them for patronage. Get us some Jewellery from the surface, hopefully we can impress.",
     "faction": "ICA",
-    "factionReputation": 300,
+    "factionReputation": 450,
     "difficulty": "Hard",
     "failConditions": [],
     "objectives": [
@@ -5004,13 +5132,13 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 25000,
+        "amount": 33000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 300
+        "amount": 450
       }
     ],
     "unlockLevel": 17,

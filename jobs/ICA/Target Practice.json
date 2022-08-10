@@ -2,7 +2,7 @@
   "inGameName": "Target Practice",
   "description": "We want you to test out killing Marauders from a distance, see how easy they are to track... and how fast they can close in.",
   "faction": "ICA",
-  "factionReputation": 280,
+  "factionReputation": 420,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -16,7 +16,9 @@
           "EYDeviceCategory::SniperRifle"
         ],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       }
     }
   ],
@@ -29,13 +31,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 14000,
+      "amount": 21000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 280
+      "amount": 420
     }
   ],
   "unlockLevel": 14,

@@ -2,7 +2,7 @@
   "inGameName": "Data Drop",
   "description": "Prospector. One of our Scientists is convinced she can predict the Storm, but she needs Data. Stash Rare Data Drives at Fulfilment Center for her.",
   "faction": "ICA",
-  "factionReputation": 270,
+  "factionReputation": 400,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -22,13 +22,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 19000,
+      "amount": 25000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 270
+      "amount": 400
     }
   ],
   "unlockLevel": 13,

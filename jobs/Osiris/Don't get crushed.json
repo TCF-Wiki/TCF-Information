@@ -2,7 +2,7 @@
   "inGameName": "Don't get crushed",
   "description": "Gear up, Prospector! We need Crusher Skins for our Material Sciences Department. The tissue is said to be resistant to radiation, we must test that theory.",
   "faction": "Osiris",
-  "factionReputation": 300,
+  "factionReputation": 450,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -21,13 +21,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 50000,
+      "amount": 57000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 300
+      "amount": 450
     }
   ],
   "unlockLevel": 17,

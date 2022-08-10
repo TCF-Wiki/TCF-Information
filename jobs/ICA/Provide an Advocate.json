@@ -2,7 +2,7 @@
   "inGameName": "Provide an Advocate",
   "description": "Our field agent requested better gear to take down some creatures hindering his mission. Stash an Advocate Rifle at the Starport Cafeteria for him.",
   "faction": "ICA",
-  "factionReputation": 330,
+  "factionReputation": 500,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -22,13 +22,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 39000,
+      "amount": 48000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 330
+      "amount": 500
     }
   ],
   "unlockLevel": 20,

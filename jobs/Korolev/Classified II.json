@@ -2,7 +2,7 @@
   "inGameName": "Classified II",
   "description": "Ah, Prospector. We need Clear Veltecite and Derelict Explosives for an experiment. I cannot say any more and expect utmost discretion.",
   "faction": "Korolev",
-  "factionReputation": 310,
+  "factionReputation": 470,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -26,13 +26,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 40000,
+      "amount": 47000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 310
+      "amount": 470
     }
   ],
   "unlockLevel": 18,

@@ -2,7 +2,7 @@
   "inGameName": "Hallowed Ground",
   "description": "Prospectors have been vandalizing what's left of the Bright Sands Base Camp; go down there and teach them some manners.",
   "faction": "ICA",
-  "factionReputation": 290,
+  "factionReputation": 440,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -14,7 +14,9 @@
         "m_killTarget": "EYKillTypeAction::Players",
         "m_allowedWeaponCategories": [],
         "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None"
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
       },
       "locationConditions": "Map01_CentralStation"
     }
@@ -28,13 +30,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 15000,
+      "amount": 22000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 290
+      "amount": 440
     }
   ],
   "unlockLevel": 16,

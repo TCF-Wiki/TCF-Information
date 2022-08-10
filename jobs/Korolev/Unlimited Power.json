@@ -2,7 +2,7 @@
   "inGameName": "Unlimited Power",
   "description": "Fine. I guess you need to know. We are trying to charge Veltecite with power, the same way the Storm does. Bring us more Veltecite Samples.",
   "faction": "Korolev",
-  "factionReputation": 320,
+  "factionReputation": 480,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -31,13 +31,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 33000,
+      "amount": 41000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 320
+      "amount": 480
     }
   ],
   "unlockLevel": 19,

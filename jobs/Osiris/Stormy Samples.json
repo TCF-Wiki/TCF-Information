@@ -2,7 +2,7 @@
   "inGameName": "Stormy Samples",
   "description": "Ah, there you are. We need someone to go stash Charged Spinal Bases at the Fulfilment Center for our Field Scientists to pick up. Can you do it?",
   "faction": "Osiris",
-  "factionReputation": 290,
+  "factionReputation": 430,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -22,13 +22,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 17000,
+      "amount": 24000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 290
+      "amount": 430
     }
   ],
   "unlockLevel": 15,

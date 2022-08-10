@@ -2,7 +2,7 @@
   "inGameName": "Energy Crisis",
   "description": "Gear up and go get us some Meteor Fragments and Clear Veltecite! If the rumors are true, this stuff could power our station systems for weeks!",
   "faction": "ICA",
-  "factionReputation": 320,
+  "factionReputation": 480,
   "difficulty": "Hard",
   "failConditions": [],
   "objectives": [
@@ -26,13 +26,13 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 27000,
+      "amount": 35000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 320
+      "amount": 480
     }
   ],
   "unlockLevel": 19,
