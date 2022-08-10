@@ -38,74 +38,34 @@
     "armorConstant": 0.035,
     "minDamageReduction": 0.1,
     "maxDamageReduction": 2,
-    "attacks": {
-      "AIMEL_Strider": {
-        "fireDelay": 0,
-        "refireTime": 0.15,
-        "targetTime": 0.15,
-        "targetSpeedMultiplier": 1,
-        "penetration": 0,
-        "directDamage": 20,
-        "directPlayerMultiplier": 1,
-        "directEnemyMultiplier": 1,
-        "stabilityDamage": 0,
-        "radialPlayerMultiplier": 1,
-        "radialEnemyMultiplier": 1,
-        "damageIgnoreShield": false,
-        "radialFalloffStartRange": 100000,
-        "radialFalloffMultiplier": 1,
-        "radialRadius": 100,
-        "radialCapsuleRadius": 0,
-        "radialCapsuleHalfHeight": 0,
-        "directFalloffStartRange": 0,
-        "directFalloffEndRange": 0,
-        "directFalloffMultiplier": 0,
-        "damageSelfMultiplier": 0,
-        "burstInterval": -1,
-        "amountOfBurst": 0,
-        "amountOfImmediateFires": 1,
-        "movementSpeedMultiplier": 1,
-        "firingMovementSpeedMultiplier": 1,
-        "firingTurnSpeedMultiplier": 1,
-        "startAmmo": 60,
-        "ammoInClip": 15,
-        "haveInfiniteAmmo": false,
-        "ignoreDamagePrevention": false,
-        "requiredInputTimeForHeavyAttack": 0.1,
-        "lightAttackRecoveryTime": 0.1,
-        "lowStaminaLightAttackRecoveryTime": 0.1,
-        "lightAttackStaminaConsumption": 15,
-        "heavyAttackRecoveryTime": 0.2,
-        "lowStaminaHeavyAttackRecoveryTime": 0.2,
-        "heavyAttackStaminaConsumption": 15
+    "normalLoot": {
+      "Spinal Base": {
+        "chance": 100,
+        "rolls": 1
+      },
+      "Strider Flesh": {
+        "chance": 25,
+        "rolls": 1
+      },
+      "Strider Head": {
+        "chance": 1,
+        "rolls": 1
       }
-    }
-  },
-  "AI_Strider_2": {
-    "health": 100,
-    "regenRate": 0,
-    "regenDelay": 60,
-    "regenDamageThreshold": -1,
-    "armorValue": 23,
-    "speed": {
-      "EYAIState::Reseting": 750,
-      "EYAIState::Idle": 202,
-      "EYAIState::Investigate": 300,
-      "EYAIState::Combat": 750,
-      "EYAIState::Suspicious": 700
     },
-    "resetRadius": 9000,
-    "weakSpotMultiplier": 1,
-    "damageAreas": {
-      "Head": 1.8,
-      "Neck": 1.8,
-      "Jaw": 1.8,
-      "Spine4": 1.8
+    "stormLoot": {
+      "Charged Spinal Base": {
+        "chance": 100,
+        "rolls": 1
+      },
+      "Strider Flesh": {
+        "chance": 30.000002,
+        "rolls": 1
+      },
+      "Strider Head": {
+        "chance": 1,
+        "rolls": 1
+      }
     },
-    "penetration": 5,
-    "armorConstant": 0.115,
-    "minDamageReduction": 0.1,
-    "maxDamageReduction": 2,
     "attacks": {
       "AIMEL_Strider": {
         "fireDelay": 0,
@@ -174,142 +134,42 @@
     "armorConstant": 0.14,
     "minDamageReduction": 0.1,
     "maxDamageReduction": 2,
-    "attacks": {
-      "AIMEL_Strider": {
-        "fireDelay": 0,
-        "refireTime": 0.15,
-        "targetTime": 0.15,
-        "targetSpeedMultiplier": 1,
-        "penetration": 0,
-        "directDamage": 20,
-        "directPlayerMultiplier": 1,
-        "directEnemyMultiplier": 1,
-        "stabilityDamage": 0,
-        "radialPlayerMultiplier": 1,
-        "radialEnemyMultiplier": 1,
-        "damageIgnoreShield": false,
-        "radialFalloffStartRange": 100000,
-        "radialFalloffMultiplier": 1,
-        "radialRadius": 100,
-        "radialCapsuleRadius": 0,
-        "radialCapsuleHalfHeight": 0,
-        "directFalloffStartRange": 0,
-        "directFalloffEndRange": 0,
-        "directFalloffMultiplier": 0,
-        "damageSelfMultiplier": 0,
-        "burstInterval": -1,
-        "amountOfBurst": 0,
-        "amountOfImmediateFires": 1,
-        "movementSpeedMultiplier": 1,
-        "firingMovementSpeedMultiplier": 1,
-        "firingTurnSpeedMultiplier": 1,
-        "startAmmo": 60,
-        "ammoInClip": 15,
-        "haveInfiniteAmmo": false,
-        "ignoreDamagePrevention": false,
-        "requiredInputTimeForHeavyAttack": 0.1,
-        "lightAttackRecoveryTime": 0.1,
-        "lowStaminaLightAttackRecoveryTime": 0.1,
-        "lightAttackStaminaConsumption": 15,
-        "heavyAttackRecoveryTime": 0.2,
-        "lowStaminaHeavyAttackRecoveryTime": 0.2,
-        "heavyAttackStaminaConsumption": 15
+    "normalLoot": {
+      "Spinal Base": {
+        "chance": 100,
+        "rolls": 1
+      },
+      "Strider Flesh": {
+        "chance": 25,
+        "rolls": 1
+      },
+      "Heavy Strider Flesh": {
+        "chance": 15.000001,
+        "rolls": 1
+      },
+      "Heavy Strider Head": {
+        "chance": 1,
+        "rolls": 1
       }
-    }
-  },
-  "AI_Strider_4": {
-    "health": 200,
-    "regenRate": 0,
-    "regenDelay": 60,
-    "regenDamageThreshold": -1,
-    "armorValue": 28,
-    "speed": {
-      "EYAIState::Reseting": 750,
-      "EYAIState::Idle": 202,
-      "EYAIState::Investigate": 300,
-      "EYAIState::Combat": 750,
-      "EYAIState::Suspicious": 700
     },
-    "resetRadius": 9000,
-    "weakSpotMultiplier": 1,
-    "damageAreas": {
-      "Head": 1.8,
-      "Neck": 1.8,
-      "Jaw": 1.8,
-      "Spine4": 1.8
-    },
-    "penetration": 17,
-    "armorConstant": 0.17,
-    "minDamageReduction": 0.1,
-    "maxDamageReduction": 2,
-    "attacks": {
-      "AIMEL_Strider": {
-        "fireDelay": 0,
-        "refireTime": 0.15,
-        "targetTime": 0.15,
-        "targetSpeedMultiplier": 1,
-        "penetration": 0,
-        "directDamage": 20,
-        "directPlayerMultiplier": 1,
-        "directEnemyMultiplier": 1,
-        "stabilityDamage": 0,
-        "radialPlayerMultiplier": 1,
-        "radialEnemyMultiplier": 1,
-        "damageIgnoreShield": false,
-        "radialFalloffStartRange": 100000,
-        "radialFalloffMultiplier": 1,
-        "radialRadius": 100,
-        "radialCapsuleRadius": 0,
-        "radialCapsuleHalfHeight": 0,
-        "directFalloffStartRange": 0,
-        "directFalloffEndRange": 0,
-        "directFalloffMultiplier": 0,
-        "damageSelfMultiplier": 0,
-        "burstInterval": -1,
-        "amountOfBurst": 0,
-        "amountOfImmediateFires": 1,
-        "movementSpeedMultiplier": 1,
-        "firingMovementSpeedMultiplier": 1,
-        "firingTurnSpeedMultiplier": 1,
-        "startAmmo": 60,
-        "ammoInClip": 15,
-        "haveInfiniteAmmo": false,
-        "ignoreDamagePrevention": false,
-        "requiredInputTimeForHeavyAttack": 0.1,
-        "lightAttackRecoveryTime": 0.1,
-        "lowStaminaLightAttackRecoveryTime": 0.1,
-        "lightAttackStaminaConsumption": 15,
-        "heavyAttackRecoveryTime": 0.2,
-        "lowStaminaHeavyAttackRecoveryTime": 0.2,
-        "heavyAttackStaminaConsumption": 15
+    "stormLoot": {
+      "Charged Spinal Base": {
+        "chance": 100,
+        "rolls": 1
+      },
+      "Strider Flesh": {
+        "chance": 30.000002,
+        "rolls": 1
+      },
+      "Heavy Strider Flesh": {
+        "chance": 20,
+        "rolls": 1
+      },
+      "Heavy Strider Head": {
+        "chance": 1,
+        "rolls": 1
       }
-    }
-  },
-  "AI_Strider_5": {
-    "health": 300,
-    "regenRate": 0,
-    "regenDelay": 60,
-    "regenDamageThreshold": -1,
-    "armorValue": 28,
-    "speed": {
-      "EYAIState::Reseting": 750,
-      "EYAIState::Idle": 202,
-      "EYAIState::Investigate": 300,
-      "EYAIState::Combat": 750,
-      "EYAIState::Suspicious": 700
     },
-    "resetRadius": 9000,
-    "weakSpotMultiplier": 1,
-    "damageAreas": {
-      "Head": 1.8,
-      "Neck": 1.8,
-      "Jaw": 1.8,
-      "Spine4": 1.8
-    },
-    "penetration": 23,
-    "armorConstant": 0.18,
-    "minDamageReduction": 0.1,
-    "maxDamageReduction": 2,
     "attacks": {
       "AIMEL_Strider": {
         "fireDelay": 0,
@@ -378,6 +238,34 @@
     "armorConstant": 0.095,
     "minDamageReduction": 0.1,
     "maxDamageReduction": 2,
+    "normalLoot": {
+      "Rattler Skin": {
+        "chance": 15.000001,
+        "rolls": 1
+      },
+      "Rattler Eyes": {
+        "chance": 25,
+        "rolls": 1
+      },
+      "Rattler Head": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
+    "stormLoot": {
+      "Rattler Skin": {
+        "chance": 19.047619,
+        "rolls": 1
+      },
+      "Rattler Eyes": {
+        "chance": 30.000002,
+        "rolls": 1
+      },
+      "Rattler Head": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
     "attacks": {
       "AIRAN_Rattler": {
         "fireDelay": 0,
@@ -491,232 +379,42 @@
     "armorConstant": 0.17,
     "minDamageReduction": 0.1,
     "maxDamageReduction": 2,
-    "attacks": {
-      "AIRAN_Rattler": {
-        "fireDelay": 0,
-        "refireTime": 0.15,
-        "targetTime": 0.15,
-        "targetSpeedMultiplier": 1,
-        "penetration": 0,
-        "directDamage": 10,
-        "directPlayerMultiplier": 1,
-        "directEnemyMultiplier": 1,
-        "stabilityDamage": 0,
-        "radialPlayerMultiplier": 1,
-        "radialEnemyMultiplier": 1,
-        "damageIgnoreShield": false,
-        "radialFalloffStartRange": 100000,
-        "radialFalloffMultiplier": 1,
-        "radialRadius": 300,
-        "radialCapsuleRadius": 0,
-        "radialCapsuleHalfHeight": 0,
-        "directFalloffStartRange": 0,
-        "directFalloffEndRange": 0,
-        "directFalloffMultiplier": 0,
-        "damageSelfMultiplier": 0,
-        "burstInterval": -1,
-        "amountOfBurst": 0,
-        "amountOfImmediateFires": 1,
-        "movementSpeedMultiplier": 1,
-        "firingMovementSpeedMultiplier": 1,
-        "firingTurnSpeedMultiplier": 1,
-        "startAmmo": 60,
-        "ammoInClip": 15,
-        "haveInfiniteAmmo": false,
-        "ignoreDamagePrevention": false,
-        "requiredInputTimeForHeavyAttack": 0.1,
-        "lightAttackRecoveryTime": 0.1,
-        "lowStaminaLightAttackRecoveryTime": 0.1,
-        "lightAttackStaminaConsumption": 15,
-        "heavyAttackRecoveryTime": 0.2,
-        "lowStaminaHeavyAttackRecoveryTime": 0.2,
-        "heavyAttackStaminaConsumption": 15,
-        "gravityOverride": -1,
-        "straightShot": true,
-        "accuracy": 0.1,
-        "arc": 0,
-        "shootAtGround": false
+    "normalLoot": {
+      "Rattler Skin": {
+        "chance": 15.000001,
+        "rolls": 1
       },
-      "AIMEL_Rattler_Melee": {
-        "fireDelay": 0,
-        "refireTime": 0.15,
-        "targetTime": 0.15,
-        "targetSpeedMultiplier": 1,
-        "penetration": 0,
-        "directDamage": 20,
-        "directPlayerMultiplier": 1,
-        "directEnemyMultiplier": 1,
-        "stabilityDamage": 0,
-        "radialPlayerMultiplier": 1,
-        "radialEnemyMultiplier": 1,
-        "damageIgnoreShield": false,
-        "radialFalloffStartRange": 100000,
-        "radialFalloffMultiplier": 1,
-        "radialRadius": 100,
-        "radialCapsuleRadius": 0,
-        "radialCapsuleHalfHeight": 0,
-        "directFalloffStartRange": 0,
-        "directFalloffEndRange": 0,
-        "directFalloffMultiplier": 0,
-        "damageSelfMultiplier": 0,
-        "burstInterval": -1,
-        "amountOfBurst": 0,
-        "amountOfImmediateFires": 1,
-        "movementSpeedMultiplier": 1,
-        "firingMovementSpeedMultiplier": 1,
-        "firingTurnSpeedMultiplier": 1,
-        "startAmmo": 60,
-        "ammoInClip": 15,
-        "haveInfiniteAmmo": false,
-        "ignoreDamagePrevention": false,
-        "requiredInputTimeForHeavyAttack": 0.1,
-        "lightAttackRecoveryTime": 0.1,
-        "lowStaminaLightAttackRecoveryTime": 0.1,
-        "lightAttackStaminaConsumption": 15,
-        "heavyAttackRecoveryTime": 0.2,
-        "lowStaminaHeavyAttackRecoveryTime": 0.2,
-        "heavyAttackStaminaConsumption": 15
-      }
-    }
-  },
-  "AI_Rattler_3": {
-    "health": 350,
-    "regenRate": 0,
-    "regenDelay": 60,
-    "regenDamageThreshold": -1,
-    "armorValue": 31,
-    "speed": {
-      "EYAIState::Reseting": 700,
-      "EYAIState::Idle": 160,
-      "EYAIState::Investigate": 160,
-      "EYAIState::Combat": 700,
-      "EYAIState::Suspicious": 700
-    },
-    "resetRadius": 7000,
-    "weakSpotMultiplier": 10,
-    "damageAreas": {
-      "Head": 2.5,
-      "Neck1": 2.5,
-      "Jaw": 2.5,
-      "Spine2": 2.5
-    },
-    "penetration": 17,
-    "armorConstant": 0.18,
-    "minDamageReduction": 0.1,
-    "maxDamageReduction": 2,
-    "attacks": {
-      "AIRAN_Rattler": {
-        "fireDelay": 0,
-        "refireTime": 0.15,
-        "targetTime": 0.15,
-        "targetSpeedMultiplier": 1,
-        "penetration": 0,
-        "directDamage": 10,
-        "directPlayerMultiplier": 1,
-        "directEnemyMultiplier": 1,
-        "stabilityDamage": 0,
-        "radialPlayerMultiplier": 1,
-        "radialEnemyMultiplier": 1,
-        "damageIgnoreShield": false,
-        "radialFalloffStartRange": 100000,
-        "radialFalloffMultiplier": 1,
-        "radialRadius": 300,
-        "radialCapsuleRadius": 0,
-        "radialCapsuleHalfHeight": 0,
-        "directFalloffStartRange": 0,
-        "directFalloffEndRange": 0,
-        "directFalloffMultiplier": 0,
-        "damageSelfMultiplier": 0,
-        "burstInterval": -1,
-        "amountOfBurst": 0,
-        "amountOfImmediateFires": 1,
-        "movementSpeedMultiplier": 1,
-        "firingMovementSpeedMultiplier": 1,
-        "firingTurnSpeedMultiplier": 1,
-        "startAmmo": 60,
-        "ammoInClip": 15,
-        "haveInfiniteAmmo": false,
-        "ignoreDamagePrevention": false,
-        "requiredInputTimeForHeavyAttack": 0.1,
-        "lightAttackRecoveryTime": 0.1,
-        "lowStaminaLightAttackRecoveryTime": 0.1,
-        "lightAttackStaminaConsumption": 15,
-        "heavyAttackRecoveryTime": 0.2,
-        "lowStaminaHeavyAttackRecoveryTime": 0.2,
-        "heavyAttackStaminaConsumption": 15,
-        "gravityOverride": -1,
-        "straightShot": true,
-        "accuracy": 0.1,
-        "arc": 0,
-        "shootAtGround": false
+      "Rattler Eyes": {
+        "chance": 30.000002,
+        "rolls": 1
       },
-      "AIMEL_Rattler_Melee": {
-        "fireDelay": 0,
-        "refireTime": 0.15,
-        "targetTime": 0.15,
-        "targetSpeedMultiplier": 1,
-        "penetration": 0,
-        "directDamage": 20,
-        "directPlayerMultiplier": 1,
-        "directEnemyMultiplier": 1,
-        "stabilityDamage": 0,
-        "radialPlayerMultiplier": 1,
-        "radialEnemyMultiplier": 1,
-        "damageIgnoreShield": false,
-        "radialFalloffStartRange": 100000,
-        "radialFalloffMultiplier": 1,
-        "radialRadius": 100,
-        "radialCapsuleRadius": 0,
-        "radialCapsuleHalfHeight": 0,
-        "directFalloffStartRange": 0,
-        "directFalloffEndRange": 0,
-        "directFalloffMultiplier": 0,
-        "damageSelfMultiplier": 0,
-        "burstInterval": -1,
-        "amountOfBurst": 0,
-        "amountOfImmediateFires": 1,
-        "movementSpeedMultiplier": 1,
-        "firingMovementSpeedMultiplier": 1,
-        "firingTurnSpeedMultiplier": 1,
-        "startAmmo": 60,
-        "ammoInClip": 15,
-        "haveInfiniteAmmo": false,
-        "ignoreDamagePrevention": false,
-        "requiredInputTimeForHeavyAttack": 0.1,
-        "lightAttackRecoveryTime": 0.1,
-        "lowStaminaLightAttackRecoveryTime": 0.1,
-        "lightAttackStaminaConsumption": 15,
-        "heavyAttackRecoveryTime": 0.2,
-        "lowStaminaHeavyAttackRecoveryTime": 0.2,
-        "heavyAttackStaminaConsumption": 15
+      "Mature Rattler Eyes": {
+        "chance": 15.000001,
+        "rolls": 1
+      },
+      "Mature Rattler Head": {
+        "chance": 1,
+        "rolls": 1
       }
-    }
-  },
-  "AI_Rattler_4": {
-    "health": 500,
-    "regenRate": 0,
-    "regenDelay": 60,
-    "regenDamageThreshold": -1,
-    "armorValue": 33,
-    "speed": {
-      "EYAIState::Reseting": 700,
-      "EYAIState::Idle": 160,
-      "EYAIState::Investigate": 160,
-      "EYAIState::Combat": 700,
-      "EYAIState::Suspicious": 700
     },
-    "resetRadius": 9000,
-    "weakSpotMultiplier": 10,
-    "damageAreas": {
-      "Head": 2.5,
-      "Neck1": 2.5,
-      "Jaw": 2.5,
-      "Spine2": 2.5
+    "stormLoot": {
+      "Rattler Skin": {
+        "chance": 20,
+        "rolls": 1
+      },
+      "Rattler Eyes": {
+        "chance": 25,
+        "rolls": 1
+      },
+      "Mature Rattler Eyes": {
+        "chance": 20,
+        "rolls": 1
+      },
+      "Mature Rattler Head": {
+        "chance": 1,
+        "rolls": 1
+      }
     },
-    "penetration": 23,
-    "armorConstant": 0.15,
-    "minDamageReduction": 0.1,
-    "maxDamageReduction": 2,
     "attacks": {
       "AIRAN_Rattler": {
         "fireDelay": 0,
@@ -830,6 +528,34 @@
     "armorConstant": 0.17,
     "minDamageReduction": 0.1,
     "maxDamageReduction": 2,
+    "normalLoot": {
+      "Hardened Bone Plates": {
+        "chance": 15.000001,
+        "rolls": 1
+      },
+      "Marauder Flesh": {
+        "chance": 25,
+        "rolls": 1
+      },
+      "Marauder Head": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
+    "stormLoot": {
+      "Hardened Bone Plates": {
+        "chance": 20,
+        "rolls": 2
+      },
+      "Marauder Flesh": {
+        "chance": 30.000002,
+        "rolls": 2
+      },
+      "Marauder Head": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
     "attacks": {
       "AIRAN_Weremoled_Ranged": {
         "fireDelay": 0,
@@ -1028,6 +754,42 @@
     "armorConstant": 0.18,
     "minDamageReduction": 0.1,
     "maxDamageReduction": 2,
+    "normalLoot": {
+      "Hardened Bone Plates": {
+        "chance": 15.000001,
+        "rolls": 1
+      },
+      "Marauder Flesh": {
+        "chance": 25,
+        "rolls": 1
+      },
+      "Savage Marauder Flesh": {
+        "chance": 15.000001,
+        "rolls": 1
+      },
+      "Savage Marauder Head": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
+    "stormLoot": {
+      "Hardened Bone Plates": {
+        "chance": 20,
+        "rolls": 2
+      },
+      "Marauder Flesh": {
+        "chance": 30.000002,
+        "rolls": 1
+      },
+      "Savage Marauder Flesh": {
+        "chance": 20,
+        "rolls": 2
+      },
+      "Savage Marauder Head": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
     "attacks": {
       "AIRAN_Weremoled_Ranged": {
         "fireDelay": 0,
@@ -1237,6 +999,34 @@
     "armorConstant": 0.3,
     "minDamageReduction": 0.1,
     "maxDamageReduction": 2,
+    "normalLoot": {
+      "Crusher Hide": {
+        "chance": 15.000001,
+        "rolls": 1
+      },
+      "Crusher Flesh": {
+        "chance": 25,
+        "rolls": 1
+      },
+      "Crusher Head": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
+    "stormLoot": {
+      "Crusher Hide": {
+        "chance": 20,
+        "rolls": 2
+      },
+      "Crusher Flesh": {
+        "chance": 30.000002,
+        "rolls": 2
+      },
+      "Crusher Head": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
     "attacks": {
       "AIMEL_Crusher_Melee_Light": {
         "fireDelay": 0,
@@ -1486,6 +1276,42 @@
     "armorConstant": 0.3,
     "minDamageReduction": 0.1,
     "maxDamageReduction": 2,
+    "normalLoot": {
+      "Crusher Hide": {
+        "chance": 30.000002,
+        "rolls": 3
+      },
+      "Alpha Crusher Heart": {
+        "chance": 100,
+        "rolls": 1
+      },
+      "Crusher Flesh": {
+        "chance": 25,
+        "rolls": 1
+      },
+      "Alpha Crusher Skull": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
+    "stormLoot": {
+      "Crusher Hide": {
+        "chance": 45,
+        "rolls": 4
+      },
+      "Alpha Crusher Heart": {
+        "chance": 100,
+        "rolls": 1
+      },
+      "Crusher Flesh": {
+        "chance": 30.000002,
+        "rolls": 1
+      },
+      "Alpha Crusher Skull": {
+        "chance": 1,
+        "rolls": 1
+      }
+    },
     "attacks": {
       "AIMEL_Crusher_Melee_Light": {
         "fireDelay": 0,

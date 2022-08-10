@@ -34,6 +34,34 @@
   "armorConstant": 0.3,
   "minDamageReduction": 0.1,
   "maxDamageReduction": 2,
+  "normalLoot": {
+    "Crusher Hide": {
+      "chance": 15.000001,
+      "rolls": 1
+    },
+    "Crusher Flesh": {
+      "chance": 25,
+      "rolls": 1
+    },
+    "Crusher Head": {
+      "chance": 1,
+      "rolls": 1
+    }
+  },
+  "stormLoot": {
+    "Crusher Hide": {
+      "chance": 20,
+      "rolls": 2
+    },
+    "Crusher Flesh": {
+      "chance": 30.000002,
+      "rolls": 2
+    },
+    "Crusher Head": {
+      "chance": 1,
+      "rolls": 1
+    }
+  },
   "attacks": {
     "AIMEL_Crusher_Melee_Light": {
       "fireDelay": 0,
