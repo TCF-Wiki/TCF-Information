@@ -3034,6 +3034,11 @@
         "attribute": "WeaponTargetingSpreadMultiplier",
         "type": "Override",
         "value": 0
+      },
+      {
+        "attribute": "WeaponDamageDirect",
+        "type": "Multiplicitive_PreAdd",
+        "value": 5
       }
     ],
     "compatible": [
