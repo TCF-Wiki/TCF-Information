@@ -1,0 +1,812 @@
+{
+  "Consumable_Offensive": {
+    "name": "Offensive Consumable",
+    "rarity": "Unknown",
+    "description": "",
+    "icon": "Offensive Consumable.png"
+  },
+  "Consumable_Health": {
+    "name": "Health Consumable",
+    "rarity": "Unknown",
+    "description": "",
+    "icon": "Health Consumable.png"
+  },
+  "Insulation": {
+    "name": "Insulation",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Insulation.png"
+  },
+  "AluminumParts": {
+    "name": "AluminumParts",
+    "rarity": "Common",
+    "description": "",
+    "icon": "AluminumParts.png"
+  },
+  "BallBearings": {
+    "name": "BallBearings",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "BallBearings.png"
+  },
+  "MagneticFieldStabilizer": {
+    "name": "MagneticFieldStabilizer",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "MagneticFieldStabilizer.png"
+  },
+  "SpareCasing": {
+    "name": "SpareCasing",
+    "rarity": "Common",
+    "description": "",
+    "icon": "SpareCasing.png"
+  },
+  "CompoundSheets": {
+    "name": "CompoundSheets",
+    "rarity": "Common",
+    "description": "",
+    "icon": "CompoundSheets.png"
+  },
+  "PrintResin": {
+    "name": "PrintResin",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "PrintResin.png"
+  },
+  "Attachment": {
+    "name": "Attachment",
+    "rarity": "Unknown",
+    "description": "",
+    "icon": "Attachment.png"
+  },
+  "DerelictExplosives": {
+    "name": "DerelictExplosives",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "DerelictExplosives.png"
+  },
+  "Alloys": {
+    "name": "Alloys",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Alloys.png"
+  },
+  "CopperWire": {
+    "name": "CopperWire",
+    "rarity": "Common",
+    "description": "",
+    "icon": "CopperWire.png"
+  },
+  "SmartMesh": {
+    "name": "SmartMesh",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "SmartMesh.png"
+  },
+  "ShockAbsorber": {
+    "name": "ShockAbsorber",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "ShockAbsorber.png"
+  },
+  "HydraulicPiston": {
+    "name": "HydraulicPiston",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "HydraulicPiston.png"
+  },
+  "Antibiotics": {
+    "name": "Antibiotics",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Antibiotics.png"
+  },
+  "Battery": {
+    "name": "Battery",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Battery.png"
+  },
+  "Helmet_01": {
+    "name": "Helmet_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Helmet_01.png"
+  },
+  "Shield_01": {
+    "name": "Shield_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Shield_01.png"
+  },
+  "PolymetallicPrefabricate": {
+    "name": "PolymetallicPrefabricate",
+    "rarity": "Common",
+    "description": "",
+    "icon": "PolymetallicPrefabricate.png"
+  },
+  "BlueWood": {
+    "name": "BlueWood",
+    "rarity": "Common",
+    "description": "",
+    "icon": "BlueWood.png"
+  },
+  "CircuitBoard": {
+    "name": "CircuitBoard",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "CircuitBoard.png"
+  },
+  "RadioSpareParts": {
+    "name": "RadioSpareParts",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "RadioSpareParts.png"
+  },
+  "WP_E_Pistol_Bullet_01": {
+    "name": "WP_E_Pistol_Bullet_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_Pistol_Bullet_01.png"
+  },
+  "Bag_01": {
+    "name": "Bag_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Bag_01.png"
+  },
+  "Helmet_02": {
+    "name": "Helmet_02",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "Helmet_02.png"
+  },
+  "Shield_02": {
+    "name": "Shield_02",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "Shield_02.png"
+  },
+  "WP_E_SMG_Bullet_01": {
+    "name": "WP_E_SMG_Bullet_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_SMG_Bullet_01.png"
+  },
+  "LiquidFertilizer": {
+    "name": "LiquidFertilizer",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "LiquidFertilizer.png"
+  },
+  "OpticGlass": {
+    "name": "OpticGlass",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "OpticGlass.png"
+  },
+  "Bag_02": {
+    "name": "Bag_02",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "Bag_02.png"
+  },
+  "WP_E_SGun_Bullet_01": {
+    "name": "WP_E_SGun_Bullet_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_SGun_Bullet_01.png"
+  },
+  "WP_E_AR_Energy_01": {
+    "name": "WP_E_AR_Energy_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_AR_Energy_01.png"
+  },
+  "Helmet_03": {
+    "name": "Helmet_03",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "Helmet_03.png"
+  },
+  "Bag_03": {
+    "name": "Bag_03",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "Bag_03.png"
+  },
+  "Shield_03": {
+    "name": "Shield_03",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "Shield_03.png"
+  },
+  "Shield_04": {
+    "name": "Shield_04",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "Shield_04.png"
+  },
+  "Helmet_04": {
+    "name": "Helmet_04",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "Helmet_04.png"
+  },
+  "Helmet_05": {
+    "name": "Helmet_05",
+    "rarity": "Exotic",
+    "description": "",
+    "icon": "Helmet_05.png"
+  },
+  "Shield_05": {
+    "name": "Shield_05",
+    "rarity": "Exotic",
+    "description": "",
+    "icon": "Shield_05.png"
+  },
+  "Bag_04": {
+    "name": "Bag_04",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "Bag_04.png"
+  },
+  "WP_A_SMG_Shard_01": {
+    "name": "WP_A_SMG_Shard_01",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "WP_A_SMG_Shard_01.png"
+  },
+  "WP_D_Pistol_Bullet_01": {
+    "name": "WP_D_Pistol_Bullet_01",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "WP_D_Pistol_Bullet_01.png"
+  },
+  "WP_G_Pistol_Energy_01": {
+    "name": "WP_G_Pistol_Energy_01",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "WP_G_Pistol_Energy_01.png"
+  },
+  "WP_G_AR_Needle_01": {
+    "name": "WP_G_AR_Needle_01",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "WP_G_AR_Needle_01.png"
+  },
+  "WP_A_SGun_Energy_01": {
+    "name": "WP_A_SGun_Energy_01",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "WP_A_SGun_Energy_01.png"
+  },
+  "WP_G_AR_Energy_01": {
+    "name": "WP_G_AR_Energy_01",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "WP_G_AR_Energy_01.png"
+  },
+  "Fabrics": {
+    "name": "Fabrics",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Fabrics.png"
+  },
+  "WP_E_Sniper_Bullet_01": {
+    "name": "WP_E_Sniper_Bullet_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_Sniper_Bullet_01.png"
+  },
+  "WP_D_LMG_Energy_01": {
+    "name": "WP_D_LMG_Energy_01",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "WP_D_LMG_Energy_01.png"
+  },
+  "AnaestheticsContainers": {
+    "name": "AnaestheticsContainers",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "AnaestheticsContainers.png"
+  },
+  "AlienFruit": {
+    "name": "AlienFruit",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "AlienFruit.png"
+  },
+  "WP_G_SMG_Needle_01": {
+    "name": "WP_G_SMG_Needle_01",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "WP_G_SMG_Needle_01.png"
+  },
+  "MultiTool": {
+    "name": "MultiTool",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "MultiTool.png"
+  },
+  "SamplingDevice": {
+    "name": "SamplingDevice",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "SamplingDevice.png"
+  },
+  "WP_D_BR_Shard_01": {
+    "name": "WP_D_BR_Shard_01",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "WP_D_BR_Shard_01.png"
+  },
+  "WP_D_SGun_Shard_01": {
+    "name": "WP_D_SGun_Shard_01",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "WP_D_SGun_Shard_01.png"
+  },
+  "Datapad": {
+    "name": "Datapad",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "Datapad.png"
+  },
+  "WP_A_Pistol_Bullet_01": {
+    "name": "WP_A_Pistol_Bullet_01",
+    "rarity": "Exotic",
+    "description": "",
+    "icon": "WP_A_Pistol_Bullet_01.png"
+  },
+  "WP_D_SMG_Energy_01": {
+    "name": "WP_D_SMG_Energy_01",
+    "rarity": "Exotic",
+    "description": "",
+    "icon": "WP_D_SMG_Energy_01.png"
+  },
+  "WP_D_AR_Bullet_01": {
+    "name": "WP_D_AR_Bullet_01",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "WP_D_AR_Bullet_01.png"
+  },
+  "WP_G_AR_Beam_01": {
+    "name": "WP_G_AR_Beam_01",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "WP_G_AR_Beam_01.png"
+  },
+  "Gyroscope": {
+    "name": "Gyroscope",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "Gyroscope.png"
+  },
+  "AutoLoader": {
+    "name": "AutoLoader",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "AutoLoader.png"
+  },
+  "WP_A_AR_Bullet_01": {
+    "name": "WP_A_AR_Bullet_01",
+    "rarity": "Exotic",
+    "description": "",
+    "icon": "WP_A_AR_Bullet_01.png"
+  },
+  "WP_A_BR_Bullet_01": {
+    "name": "WP_A_BR_Bullet_01",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "WP_A_BR_Bullet_01.png"
+  },
+  "WP_G_Sniper_Energy_01": {
+    "name": "WP_G_Sniper_Energy_01",
+    "rarity": "Exotic",
+    "description": "",
+    "icon": "WP_G_Sniper_Energy_01.png"
+  },
+  "WP_D_Sniper_Gauss_01": {
+    "name": "WP_D_Sniper_Gauss_01",
+    "rarity": "Exotic",
+    "description": "",
+    "icon": "WP_D_Sniper_Gauss_01.png"
+  },
+  "WP_E_Pistol_Bullet_01_scrappy": {
+    "name": "WP_E_Pistol_Bullet_01_scrappy",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_Pistol_Bullet_01_scrappy.png"
+  },
+  "WP_E_SMG_Bullet_01_scrappy": {
+    "name": "WP_E_SMG_Bullet_01_scrappy",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_SMG_Bullet_01_scrappy.png"
+  },
+  "WP_E_SGun_Bullet_01_scrappy": {
+    "name": "WP_E_SGun_Bullet_01_scrappy",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_SGun_Bullet_01_scrappy.png"
+  },
+  "WP_E_AR_Energy_01_scrappy": {
+    "name": "WP_E_AR_Energy_01_scrappy",
+    "rarity": "Common",
+    "description": "",
+    "icon": "WP_E_AR_Energy_01_scrappy.png"
+  },
+  "ProteinBar": {
+    "name": "ProteinBar",
+    "rarity": "Common",
+    "description": "",
+    "icon": "ProteinBar.png"
+  },
+  "Adhesive": {
+    "name": "Adhesive",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "Adhesive.png"
+  },
+  "ShardSlicer": {
+    "name": "ShardSlicer",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "ShardSlicer.png"
+  },
+  "SampleContainer": {
+    "name": "SampleContainer",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "SampleContainer.png"
+  },
+  "OldCurrency": {
+    "name": "OldCurrency",
+    "rarity": "Common",
+    "description": "",
+    "icon": "OldCurrency.png"
+  },
+  "Cables": {
+    "name": "Cables",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Cables.png"
+  },
+  "CombatCPU_Blue": {
+    "name": "CombatCPU_Blue",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "CombatCPU_Blue.png"
+  },
+  "Jewellery": {
+    "name": "Jewellery",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "Jewellery.png"
+  },
+  "PortableLabEquipmentBox": {
+    "name": "PortableLabEquipmentBox",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "PortableLabEquipmentBox.png"
+  },
+  "Map02_KeyCard_04": {
+    "name": "Map02_KeyCard_04",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "Map02_KeyCard_04.png"
+  },
+  "CombatCPU_red": {
+    "name": "CombatCPU_red",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "CombatCPU_red.png"
+  },
+  "Map01_KeyCard_03": {
+    "name": "Map01_KeyCard_03",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Map01_KeyCard_03.png"
+  },
+  "Map01_KeyCard_05": {
+    "name": "Map01_KeyCard_05",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Map01_KeyCard_05.png"
+  },
+  "Map02_KeyCard_02": {
+    "name": "Map02_KeyCard_02",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Map02_KeyCard_02.png"
+  },
+  "Map02_KeyCard_05": {
+    "name": "Map02_KeyCard_05",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Map02_KeyCard_05.png"
+  },
+  "Map01_KeyCard_01": {
+    "name": "Map01_KeyCard_01",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "Map01_KeyCard_01.png"
+  },
+  "Map01_KeyCard_04": {
+    "name": "Map01_KeyCard_04",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "Map01_KeyCard_04.png"
+  },
+  "Map01_KeyCard_02": {
+    "name": "Map01_KeyCard_02",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "Map01_KeyCard_02.png"
+  },
+  "Map02_KeyCard_03": {
+    "name": "Map02_KeyCard_03",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "Map02_KeyCard_03.png"
+  },
+  "Map01_KeyCard_06": {
+    "name": "Map01_KeyCard_06",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "Map01_KeyCard_06.png"
+  },
+  "Map01_KeyCard_07": {
+    "name": "Map01_KeyCard_07",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "Map01_KeyCard_07.png"
+  },
+  "Map02_KeyCard_01": {
+    "name": "Map02_KeyCard_01",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "Map02_KeyCard_01.png"
+  },
+  "Map02_KeyCard_06": {
+    "name": "Map02_KeyCard_06",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "Map02_KeyCard_06.png"
+  },
+  "Map02_KeyCard_07": {
+    "name": "Map02_KeyCard_07",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "Map02_KeyCard_07.png"
+  },
+  "Map02_KeyCard_08": {
+    "name": "Map02_KeyCard_08",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "Map02_KeyCard_08.png"
+  },
+  "HardDrive_common": {
+    "name": "HardDrive_common",
+    "rarity": "Common",
+    "description": "",
+    "icon": "HardDrive_common.png"
+  },
+  "HardDrive_uncommon": {
+    "name": "HardDrive_uncommon",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "HardDrive_uncommon.png"
+  },
+  "HardDrive_rare": {
+    "name": "HardDrive_rare",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "HardDrive_rare.png"
+  },
+  "HardDrive_epic": {
+    "name": "HardDrive_epic",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "HardDrive_epic.png"
+  },
+  "HardDrive_legendary": {
+    "name": "HardDrive_legendary",
+    "rarity": "Legendary",
+    "description": "",
+    "icon": "HardDrive_legendary.png"
+  },
+  "MiniatureReactor": {
+    "name": "MiniatureReactor",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "MiniatureReactor.png"
+  },
+  "Bag_05": {
+    "name": "Bag_05",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Bag_05.png"
+  },
+  "TOOL_MineralScanner_01": {
+    "name": "TOOL_MineralScanner_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "TOOL_MineralScanner_01.png"
+  },
+  "TOOL_Mining_01": {
+    "name": "TOOL_Mining_01",
+    "rarity": "Common",
+    "description": "",
+    "icon": "TOOL_Mining_01.png"
+  },
+  "BrittleTitanOre": {
+    "name": "BrittleTitanOre",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "BrittleTitanOre.png"
+  },
+  "TitanOre": {
+    "name": "TitanOre",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "TitanOre.png"
+  },
+  "IvyPlant": {
+    "name": "IvyPlant",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "IvyPlant.png"
+  },
+  "FocusCrystal": {
+    "name": "FocusCrystal",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "FocusCrystal.png"
+  },
+  "PureFocusCrystal": {
+    "name": "PureFocusCrystal",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "PureFocusCrystal.png"
+  },
+  "Nickel": {
+    "name": "Nickel",
+    "rarity": "Common",
+    "description": "",
+    "icon": "Nickel.png"
+  },
+  "PureNickel": {
+    "name": "PureNickel",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "PureNickel.png"
+  },
+  "CommonVeltecite": {
+    "name": "CommonVeltecite",
+    "rarity": "Common",
+    "description": "",
+    "icon": "CommonVeltecite.png"
+  },
+  "UncommonVelticite": {
+    "name": "UncommonVelticite",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "UncommonVelticite.png"
+  },
+  "RareVeltecite": {
+    "name": "RareVeltecite",
+    "rarity": "Rare",
+    "description": "",
+    "icon": "RareVeltecite.png"
+  },
+  "EpicVeltecite": {
+    "name": "EpicVeltecite",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "EpicVeltecite.png"
+  },
+  "VelteciteHeart": {
+    "name": "VelteciteHeart",
+    "rarity": "Legendary",
+    "description": "",
+    "icon": "VelteciteHeart.png"
+  },
+  "WaterPlant": {
+    "name": "WaterPlant",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "WaterPlant.png"
+  },
+  "BrightcapMushroom": {
+    "name": "BrightcapMushroom",
+    "rarity": "Uncommon",
+    "description": "",
+    "icon": "BrightcapMushroom.png"
+  },
+  "FlightRecorder": {
+    "name": "FlightRecorder",
+    "rarity": "Common",
+    "description": "",
+    "icon": "FlightRecorder.png"
+  },
+  "PowerPlantItem1": {
+    "name": "PowerPlantItem1",
+    "rarity": "Common",
+    "description": "",
+    "icon": "PowerPlantItem1.png"
+  },
+  "MinerItem2": {
+    "name": "MinerItem2",
+    "rarity": "Common",
+    "description": "",
+    "icon": "MinerItem2.png"
+  },
+  "MinerItem3": {
+    "name": "MinerItem3",
+    "rarity": "Common",
+    "description": "",
+    "icon": "MinerItem3.png"
+  },
+  "MinerItem1": {
+    "name": "MinerItem1",
+    "rarity": "Common",
+    "description": "",
+    "icon": "MinerItem1.png"
+  },
+  "ICAPersonalItem": {
+    "name": "ICAPersonalItem",
+    "rarity": "Common",
+    "description": "",
+    "icon": "ICAPersonalItem.png"
+  },
+  "LaserDrillPart": {
+    "name": "LaserDrillPart",
+    "rarity": "Common",
+    "description": "",
+    "icon": "LaserDrillPart.png"
+  },
+  "CreatureSample": {
+    "name": "CreatureSample",
+    "rarity": "Common",
+    "description": "",
+    "icon": "CreatureSample.png"
+  },
+  "OldBones": {
+    "name": "OldBones",
+    "rarity": "Common",
+    "description": "",
+    "icon": "OldBones.png"
+  },
+  "DesertPlant": {
+    "name": "DesertPlant",
+    "rarity": "Epic",
+    "description": "",
+    "icon": "DesertPlant.png"
+  },
+  "OilPumpPart": {
+    "name": "OilPumpPart",
+    "rarity": "Common",
+    "description": "",
+    "icon": "OilPumpPart.png"
+  },
+  "EngineerItem": {
+    "name": "EngineerItem",
+    "rarity": "Common",
+    "description": "",
+    "icon": "EngineerItem.png"
+  },
+  "AlphaSkull": {
+    "name": "AlphaSkull",
+    "rarity": "Common",
+    "description": "",
+    "icon": "AlphaSkull.png"
+  },
+  "PowerPlantItem2": {
+    "name": "PowerPlantItem2",
+    "rarity": "Common",
+    "description": "",
+    "icon": "PowerPlantItem2.png"
+  }
+}
