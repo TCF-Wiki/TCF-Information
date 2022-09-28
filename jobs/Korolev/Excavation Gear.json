@@ -2,7 +2,7 @@
   "inGameName": "Excavation Gear",
   "description": "For excavations, we need you to stash a Heavy Mining Tool in one of Badums Dead Drop Containers underground at East Collection Point. You'll find it.",
   "faction": "Korolev",
-  "factionReputation": 13,
+  "factionReputation": 18,
   "difficulty": "Easy",
   "failConditions": [],
   "objectives": [
@@ -22,16 +22,16 @@
     },
     {
       "item": "SoftCurrency",
-      "amount": 1700,
+      "amount": 2000,
       "isEndOfChainReward": false,
       "isUnlockReward": false
     },
     {
       "item": "Faction Reputation",
-      "amount": 13
+      "amount": 18
     }
   ],
-  "unlockLevel": 3,
+  "unlockLevel": 5,
   "unlockContracts": [],
   "isMain": false
 }

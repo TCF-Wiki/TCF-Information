@@ -47,7 +47,7 @@
     ],
     "isMain": true,
     "chainName": "Research Costs",
-    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
   {
     "inGameName": "Don't Dig Too Deep",
@@ -64,7 +64,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 6,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -117,7 +117,7 @@
     ],
     "isMain": true,
     "chainName": "Research Costs",
-    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
   {
     "inGameName": "Just a Call Away",
@@ -170,7 +170,7 @@
     ],
     "isMain": true,
     "chainName": "Research Costs",
-    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
   {
     "inGameName": "Collaborative Research",
@@ -230,7 +230,7 @@
     ],
     "isMain": true,
     "chainName": "Research Costs",
-    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
   {
     "inGameName": "It's All About Branding",
@@ -250,70 +250,70 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Pistol_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_AR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_SGun_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_BR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_HVY_Shell_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Launch_MSL_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_SMG_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Launch_MSL_01"
             }
@@ -348,7 +348,7 @@
     ],
     "isMain": true,
     "chainName": "Research Costs",
-    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
   {
     "inGameName": "It's in the Blood",
@@ -393,7 +393,7 @@
     ],
     "isMain": true,
     "chainName": "Research Costs",
-    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
   {
     "inGameName": "Fresh Meat",
@@ -449,7 +449,7 @@
     ],
     "isMain": true,
     "chainName": "Research Costs",
-    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
   {
     "inGameName": "Trek for Data",
@@ -507,6 +507,6 @@
     ],
     "isMain": true,
     "chainName": "Research Costs",
-    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials. Help Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
+    "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   }
 ]

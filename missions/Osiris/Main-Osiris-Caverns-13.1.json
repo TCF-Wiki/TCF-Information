@@ -1,0 +1,79 @@
+{
+  "inGameName": "Main-Osiris-Caverns-13.1",
+  "description": "\"Fascinating, it appears you found what's essentially an instruction manual... But something urgent has come up, on Crescent Falls. Scans found a cavern near the south of the Fallen Tree, with curious energy readings during a recent storm event. I want you to explore it; make short work of any creatures you find inside, and stash their remains for my people on the surface to collect.\"",
+  "faction": "Osiris",
+  "factionReputation": 3600,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 10,
+      "itemToOwn": "Cultist Scribblings",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": true
+      },
+      "locationConditions": "Map02_EliteCrusherDungeon"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 3,
+      "itemToOwn": "Charged Tharis Iron Ingot",
+      "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+      "deadDropItem": "AI_WeremoleMeat_02",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      }
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 5,
+      "itemToOwn": "Charged Tharis Iron Ingot",
+      "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+      "deadDropItem": "AI_RattlerEyes_02",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 214,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 80000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 3600
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

@@ -3,7 +3,7 @@
     "inGameName": "New Mining Tools",
     "description": "We are producing new Mining Tools for new Prospectors and need Hydraulic Pistons and Hardened Metals for it. You know what to do.",
     "faction": "Korolev",
-    "factionReputation": 15,
+    "factionReputation": 13,
     "difficulty": "Easy",
     "failConditions": [],
     "objectives": [
@@ -27,16 +27,16 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 3800,
+        "amount": 3700,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 15
+        "amount": 13
       }
     ],
-    "unlockLevel": 4,
+    "unlockLevel": 3,
     "unlockContracts": [],
     "isMain": false
   },
@@ -687,7 +687,7 @@
     "isMain": false
   },
   "NEW-Hard-ICA-Gather-and-PvE-4": {
-    "inGameName": "Espionnage II",
+    "inGameName": "Espionage II",
     "description": "Osiris is gaining an incredible amount of energy from Charged Spinal Bases. Go kill creatures to cut off their supply and get us some samples.",
     "faction": "ICA",
     "factionReputation": 470,
@@ -778,7 +778,7 @@
   },
   "NEW-Easy-Osiris-Gather-2": {
     "inGameName": "Lab equipment",
-    "description": "Improvements to our lab equipment are long overdue. Go get us Optic Glass for better microscopes! ",
+    "description": "Improvements to our lab equipment are long overdue. Go get us Optic Glass for better microscopes!\" ",
     "faction": "Osiris",
     "factionReputation": 13,
     "difficulty": "Easy",
@@ -2910,70 +2910,70 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Pistol_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_AR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_SGun_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_BR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_HVY_Shell_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Launch_MSL_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_SMG_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Launch_MSL_01"
             }
@@ -3086,7 +3086,7 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_BR_Bullet_01"
             }
@@ -3106,7 +3106,7 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_BR_Bullet_01"
             }
@@ -3158,56 +3158,56 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_Pistol_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_SMG_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_AR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_SGun_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_BR_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_LMG_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_HVY_Exotic_01"
             }
@@ -3349,7 +3349,7 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_AR_Bullet_01"
             }
@@ -3370,7 +3370,7 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_AR_Bullet_01"
             }
@@ -3391,7 +3391,7 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_AR_Bullet_01"
             }
@@ -3488,56 +3488,56 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_Pistol_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_SMG_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_AR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_SGun_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_BR_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_LMG_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_HVY_Exotic_01"
             }
@@ -3648,49 +3648,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -3801,7 +3801,7 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             }
@@ -3905,7 +3905,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 7900,
+        "amount": 8000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -4592,7 +4592,7 @@
     "inGameName": "Excavation Gear",
     "description": "For excavations, we need you to stash a Heavy Mining Tool in one of Badums Dead Drop Containers underground at East Collection Point. You'll find it.",
     "faction": "Korolev",
-    "factionReputation": 13,
+    "factionReputation": 18,
     "difficulty": "Easy",
     "failConditions": [],
     "objectives": [
@@ -4612,16 +4612,16 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 1700,
+        "amount": 2000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 13
+        "amount": 18
       }
     ],
-    "unlockLevel": 3,
+    "unlockLevel": 5,
     "unlockContracts": [],
     "isMain": false
   },
@@ -4629,7 +4629,7 @@
     "inGameName": "Field Repairs",
     "description": "Ah, there you are. Search for the Dead Drop Container at the Swamp Skeleton and stash some Ball Bearings in there. Our miners need them for field repairs.",
     "faction": "Korolev",
-    "factionReputation": 18,
+    "factionReputation": 15,
     "difficulty": "Easy",
     "failConditions": [],
     "objectives": [
@@ -4649,16 +4649,16 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 2500,
+        "amount": 2300,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
         "item": "Faction Reputation",
-        "amount": 18
+        "amount": 15
       }
     ],
-    "unlockLevel": 5,
+    "unlockLevel": 4,
     "unlockContracts": [],
     "isMain": false
   },
@@ -4748,49 +4748,6 @@
     "unlockContracts": [],
     "isMain": false
   },
-  "NEW-Medium-KOR-Stash-4": {
-    "inGameName": "And two smoking Barrels",
-    "description": "Prospector. Get down there and stash a PKR Maelstrom Shotgun and some Ammo at the Comms Tower for one of our Field Agents. And be discrete about it.",
-    "faction": "Korolev",
-    "factionReputation": 160,
-    "difficulty": "Medium",
-    "failConditions": [],
-    "objectives": [
-      {
-        "type": "DeadDrop",
-        "maxProgress": 1,
-        "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "PKR Maelstrom"
-      },
-      {
-        "type": "DeadDrop",
-        "maxProgress": 200,
-        "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "Shotgun"
-      }
-    ],
-    "rewards": [
-      {
-        "item": "KorolevScrip",
-        "amount": 13,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "SoftCurrency",
-        "amount": 19000,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Faction Reputation",
-        "amount": 160
-      }
-    ],
-    "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
-  },
   "NEW-Hard-KOR-Stash-1": {
     "inGameName": "Stashing Safety",
     "description": "One of our Miners has been injured and is hiding near Base Camp. Go stash a Rare Shield for them there and clear the area of creatures.",
@@ -4875,43 +4832,6 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
-  },
-  "NEW-Easy-ICA-Stash-1": {
-    "inGameName": "Grenadier",
-    "description": "Prospector. You have heard of Badum's Dead Drop Containers, right? We need you to find the one at Swamp Skeleton and stash Grenades in it for our Troops.",
-    "faction": "ICA",
-    "factionReputation": 13,
-    "difficulty": "Easy",
-    "failConditions": [],
-    "objectives": [
-      {
-        "type": "DeadDrop",
-        "maxProgress": 1,
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
-      }
-    ],
-    "rewards": [
-      {
-        "item": "ICAScrip",
-        "amount": 1,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "SoftCurrency",
-        "amount": 2400,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Faction Reputation",
-        "amount": 13
-      }
-    ],
-    "unlockLevel": 3,
     "unlockContracts": [],
     "isMain": false
   },
@@ -5711,70 +5631,70 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Pistol_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_AR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_SGun_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_BR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_HVY_Shell_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Launch_MSL_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_SMG_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_A_Launch_MSL_01"
             }
@@ -6418,6 +6338,171 @@
       }
     ],
     "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Flora-1": {
+    "inGameName": "Fascinating Flora",
+    "description": "These Spine Briars are highly interesting. They seem to thrive on TEF radiation. I think we should try to grow some in our Lab, so get us some more specimens!",
+    "faction": "Osiris",
+    "factionReputation": 480,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "TentaclePlant"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 39,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 63000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 480
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-9": {
+    "inGameName": "In Charge",
+    "description": "Tssk. These Korolev Simpletons have been mining Tharis Iron without even understanding its true potential. Get us Charged Tharis Iron Ingots, and make sure to keep it confidential.",
+    "faction": "Osiris",
+    "factionReputation": 500,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Charged Tharis Iron Ingot"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 51000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 500
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-KOR-Gather-8": {
+    "inGameName": "Wastage Replacement",
+    "description": "Prospector. We are still having some difficulties really making Tharis Iron work with our Manufacturing Processes. Get us some more of it as a basis for further Experiments.",
+    "faction": "Korolev",
+    "factionReputation": 500,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 12,
+        "itemToOwn": "Tharis Iron"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 40000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 500
+      }
+    ],
+    "unlockLevel": 20,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-ICA-PvP-and-PvE-2": {
+    "inGameName": "Negating the Area",
+    "description": "Ah, finally. Our best Enforcer. We need you to drop down to Tharis Island and clear the area. We want to send our Scouts further in than ever before, so make sure it's safe.",
+    "faction": "ICA",
+    "factionReputation": 500,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "itemToOwn": "TentaclePlant",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "MP_AlienCaverns_P",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 4,
+        "itemToOwn": "TentaclePlant",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "MP_AlienCaverns_P",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICAScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 25000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 500
+      }
+    ],
+    "unlockLevel": 20,
     "unlockContracts": [],
     "isMain": false
   }

@@ -3,7 +3,7 @@
   "regenRate": 0,
   "regenDelay": 60,
   "regenDamageThreshold": -1,
-  "armorValue": 26,
+  "armorValue": 27,
   "speed": {
     "EYAIState::Reseting": 700,
     "EYAIState::Idle": 160,
@@ -103,7 +103,7 @@
       "targetTime": 0.15,
       "targetSpeedMultiplier": 1,
       "penetration": 0,
-      "directDamage": 20,
+      "directDamage": 30,
       "directPlayerMultiplier": 1,
       "directEnemyMultiplier": 1,
       "stabilityDamage": 0,

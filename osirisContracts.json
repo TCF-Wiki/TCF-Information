@@ -1,7 +1,7 @@
 {
   "NEW-Easy-Osiris-Gather-2": {
     "inGameName": "Lab equipment",
-    "description": "Improvements to our lab equipment are long overdue. Go get us Optic Glass for better microscopes! ",
+    "description": "Improvements to our lab equipment are long overdue. Go get us Optic Glass for better microscopes!\" ",
     "faction": "Osiris",
     "factionReputation": 13,
     "difficulty": "Easy",
@@ -1031,49 +1031,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -1184,7 +1184,7 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             }
@@ -1288,7 +1288,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 7900,
+        "amount": 8000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -1996,7 +1996,7 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
-          "m_mapName": "",
+          "m_mapName": "MP_Map01_P",
           "m_onlyDuringStorm": false
         }
       }
@@ -2023,7 +2023,7 @@
     "unlockContracts": [],
     "isMain": true,
     "chainName": "Dangerous Science",
-    "chainDescription": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as \"Progenitors\". Helping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
+    "chainDescription": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as \"Progenitors\".\r\n\r\nHelping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
   },
   "Main-Osiris-GainTrust-1": {
     "inGameName": "The Real Wetwork",
@@ -2369,12 +2369,76 @@
   },
   "Main-Osiris-GruntWork-3": {
     "inGameName": "Main-Osiris-GruntWork-3",
-    "description": "\"Ah, you might appreciate this next job. Osiris Defense Systems R&D wants field data on our current weapons. As used on... real targets. I do hope you can figure out what to do.\"",
+    "description": "\"Ah, you might appreciate this next job. Osiris Defense Systems R&D wants field data on what's behind these powered doors scattered around Fortuna, as well as on our current weapons. As used on... real targets. I do hope you can figure out what to do.\"",
     "faction": "Osiris",
     "factionReputation": 160,
     "difficulty": "Invalid",
     "failConditions": [],
     "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "AI_StriderMeat",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map01_EastKorolevStation_PowerUpLoot"
+      },
       {
         "type": "Kills",
         "maxProgress": 1,
@@ -2386,49 +2450,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -2492,49 +2556,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -2557,49 +2621,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -2875,6 +2939,19 @@
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map02_CenterCamp_PowerUpLoot"
       }
     ],
     "rewards": [
@@ -2928,49 +3005,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -2992,49 +3069,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -3056,49 +3133,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -3133,7 +3210,7 @@
     ],
     "isMain": true,
     "chainName": "Stimulating Developments",
-    "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet. Get Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
+    "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
   },
   "Main-Osiris-StrongStims-2": {
     "inGameName": "Main-Osiris-StrongStims-2",
@@ -3189,7 +3266,7 @@
     ],
     "isMain": true,
     "chainName": "Stimulating Developments",
-    "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet. Get Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
+    "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
   },
   "Main-Osiris-CaveRumors-1": {
     "inGameName": "Main-Osiris-CaveRumors-1",
@@ -3273,7 +3350,7 @@
     ],
     "isMain": true,
     "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy.  It seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
+    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
   "Main-Osiris-CaveRumors-2": {
     "inGameName": "Main-Osiris-CaveRumors-2",
@@ -3309,49 +3386,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -3392,7 +3469,7 @@
     ],
     "isMain": true,
     "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy.  It seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
+    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
   "Main-Osiris-CaveRumors-3": {
     "inGameName": "Main-Osiris-CaveRumors-3",
@@ -3471,7 +3548,7 @@
     ],
     "isMain": true,
     "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy.  It seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
+    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
   "Main-Osiris-ExplosivesTry-1": {
     "inGameName": "Main-Osiris-ExplosivesTry-1",
@@ -3499,12 +3576,6 @@
     ],
     "rewards": [
       {
-        "item": "Skeleton Key",
-        "amount": 1,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
         "item": "OsirisScrip",
         "amount": 19,
         "isEndOfChainReward": false,
@@ -3527,7 +3598,7 @@
     ],
     "isMain": true,
     "chainName": "Explosive Delivery",
-    "chainDescription": "The caverns you found are encased by a crystalline structure, far too strong for any of your weapons to break through. Sullivan believes there's a connection between them and the Progenitor terraforming tech. Explosives aren't the usual Osiris way, but they're a time-tested cheap way of opening holes in walls."
+    "chainDescription": "The caverns you found are encased by a crystalline structure, far too strong for any of your weapons to break through. Sullivan believes there's a connection between them and the Progenitor terraforming tech.\r\n\r\nExplosives aren't the usual Osiris way, but they're a time-tested cheap way of opening holes in walls."
   },
   "Main-Osiris-PrototypeLaser-1": {
     "inGameName": "Main-Osiris-PrototypeLaser-1",
@@ -3607,7 +3678,7 @@
     ],
     "isMain": true,
     "chainName": "Laser Show",
-    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser. At least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\n\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   },
   "Main-Osiris-PrototypeLaser-2": {
     "inGameName": "Main-Osiris-PrototypeLaser-2",
@@ -3693,7 +3764,7 @@
     ],
     "isMain": true,
     "chainName": "Laser Show",
-    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser. At least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
+    "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\n\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   },
   "Main-Osiris-StormSamples-1": {
     "inGameName": "Main-Osiris-StormSamples-1",
@@ -3743,7 +3814,7 @@
     ],
     "isMain": true,
     "chainName": "Storm Rider",
-    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet. The creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
+    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet.\r\n\r\nThe creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
   },
   "Main-Osiris-StormSamples-2": {
     "inGameName": "Main-Osiris-StormSamples-2",
@@ -3794,7 +3865,7 @@
     ],
     "isMain": true,
     "chainName": "Storm Rider",
-    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet. The creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
+    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet.\r\n\r\nThe creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
   },
   "Main-Osiris-StormSamples-3": {
     "inGameName": "Main-Osiris-StormSamples-3",
@@ -3841,7 +3912,7 @@
     ],
     "isMain": true,
     "chainName": "Storm Rider",
-    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet. The creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
+    "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet.\r\n\r\nThe creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
   },
   "Main-Osiris-SideWork1-1": {
     "inGameName": "Main-Osiris-SideWork1-1",
@@ -3921,7 +3992,7 @@
     ],
     "isMain": true,
     "chainName": "The Needs of the One",
-    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met. It'll be best to keep him content, if only for his new assistant's sake."
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
   "Main-Osiris-SideWork1-2": {
     "inGameName": "Main-Osiris-SideWork1-2",
@@ -3986,7 +4057,7 @@
     ],
     "isMain": true,
     "chainName": "The Needs of the One",
-    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met. It'll be best to keep him content, if only for his new assistant's sake."
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
   "Main-Osiris-SideWork1-3": {
     "inGameName": "Main-Osiris-SideWork1-3",
@@ -4051,7 +4122,7 @@
     ],
     "isMain": true,
     "chainName": "The Needs of the One",
-    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met. It'll be best to keep him content, if only for his new assistant's sake."
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
   "Main-Osiris-SideWork1-4": {
     "inGameName": "Main-Osiris-SideWork1-4",
@@ -4114,7 +4185,7 @@
     ],
     "isMain": true,
     "chainName": "The Needs of the One",
-    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met. It'll be best to keep him content, if only for his new assistant's sake."
+    "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
   "Main-Osiris-CrystalSamples-1": {
     "inGameName": "Main-Osiris-CrystalSamples-1",
@@ -4159,7 +4230,7 @@
     ],
     "isMain": true,
     "chainName": "Everything is Crystals",
-    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to. Make sure Osiris gets what it needs to get it working."
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\n\r\nMake sure Osiris gets what it needs to get it working."
   },
   "Main-Osiris-CrystalSamples-2": {
     "inGameName": "Main-Osiris-CrystalSamples-2",
@@ -4209,7 +4280,7 @@
     ],
     "isMain": true,
     "chainName": "Everything is Crystals",
-    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to. Make sure Osiris gets what it needs to get it working."
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\n\r\nMake sure Osiris gets what it needs to get it working."
   },
   "Main-Osiris-CrystalSamples-3": {
     "inGameName": "Main-Osiris-CrystalSamples-3",
@@ -4280,7 +4351,7 @@
     ],
     "isMain": true,
     "chainName": "Everything is Crystals",
-    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to. Make sure Osiris gets what it needs to get it working."
+    "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\n\r\nMake sure Osiris gets what it needs to get it working."
   },
   "Main-Osiris-StrongMedkits-1": {
     "inGameName": "Main-Osiris-StrongMedkits-1",
@@ -4330,7 +4401,7 @@
     ],
     "isMain": true,
     "chainName": "Path to Strong Medkits",
-    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\n\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
   "Main-Osiris-StrongMedkits-2": {
     "inGameName": "Main-Osiris-StrongMedkits-2",
@@ -4375,7 +4446,7 @@
     ],
     "isMain": true,
     "chainName": "Path to Strong Medkits",
-    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\n\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
   "Main-Osiris-StrongMedkits-3": {
     "inGameName": "Main-Osiris-StrongMedkits-3",
@@ -4422,7 +4493,7 @@
     ],
     "isMain": true,
     "chainName": "Path to Strong Medkits",
-    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected. Now, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
+    "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\n\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
   "Main-Osiris-CraftFuel-1": {
     "inGameName": "Main-Osiris-CraftFuel-1",
@@ -4478,7 +4549,7 @@
     ],
     "isMain": true,
     "chainName": "Building a better Death Ray",
-    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior.  The laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
+    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\n\r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
   },
   "Main-Osiris-CraftFuel-2": {
     "inGameName": "Main-Osiris-CraftFuel-2",
@@ -4529,7 +4600,7 @@
     ],
     "isMain": true,
     "chainName": "Building a better Death Ray",
-    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior.  The laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
+    "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\n\r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
   },
   "Main-Osiris-UplinkHack-1": {
     "inGameName": "Main-Osiris-UplinkHack-1",
@@ -4581,7 +4652,7 @@
     ],
     "isMain": true,
     "chainName": "Satellite Master",
-    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\n\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
   "Main-Osiris-UplinkHack-2": {
     "inGameName": "Main-Osiris-UplinkHack-2",
@@ -4633,7 +4704,7 @@
     ],
     "isMain": true,
     "chainName": "Satellite Master",
-    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\n\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
   "Main-Osiris-UplinkHack-3": {
     "inGameName": "Main-Osiris-UplinkHack-3",
@@ -4692,7 +4763,7 @@
     ],
     "isMain": true,
     "chainName": "Satellite Master",
-    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed. Help Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
+    "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\n\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
   "Main-Osiris-CombatStims-1": {
     "inGameName": "Main-Osiris-CombatStims-1",
@@ -4744,7 +4815,7 @@
     ],
     "isMain": true,
     "chainName": "Combat Ready",
-    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference. Osiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
+    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\n\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
   "Main-Osiris-CombatStims-2": {
     "inGameName": "Main-Osiris-CombatStims-2",
@@ -4794,7 +4865,7 @@
     ],
     "isMain": true,
     "chainName": "Combat Ready",
-    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference. Osiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
+    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\n\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
   "Main-Osiris-CombatStims-3": {
     "inGameName": "Main-Osiris-CombatStims-3",
@@ -4840,7 +4911,7 @@
     ],
     "isMain": true,
     "chainName": "Combat Ready",
-    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference. Osiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
+    "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\n\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
   "Main-Osiris-SatelliteRepairs-1": {
     "inGameName": "Main-Osiris-SatelliteRepairs-1",
@@ -4902,7 +4973,7 @@
     ],
     "isMain": true,
     "chainName": "Orbital Repairs",
-    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
   "Main-Osiris-SatelliteRepairs-2": {
     "inGameName": "Main-Osiris-SatelliteRepairs-2",
@@ -4922,49 +4993,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -5005,7 +5076,7 @@
     ],
     "isMain": true,
     "chainName": "Orbital Repairs",
-    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
   "Main-Osiris-SatelliteRepairs-3": {
     "inGameName": "Main-Osiris-SatelliteRepairs-3",
@@ -5055,7 +5126,7 @@
     ],
     "isMain": true,
     "chainName": "Orbital Repairs",
-    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
   "Main-Osiris-SatelliteRepairs-4": {
     "inGameName": "Main-Osiris-SatelliteRepairs-4",
@@ -5076,12 +5147,6 @@
         "item": "QuestItem_OrbitalCanonTargetBeacon",
         "amount": 1,
         "isEndOfChainReward": true,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Basilisk",
-        "amount": 1,
-        "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
@@ -5107,7 +5172,7 @@
     ],
     "isMain": true,
     "chainName": "Orbital Repairs",
-    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
   "Main-Osiris-TestRun-1": {
     "inGameName": "Main-Osiris-TestRun-1",
@@ -5162,6 +5227,12 @@
     "rewards": [
       {
         "item": "QuestItem_OrbitalCanonTargetBeacon",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Basilisk",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -5189,11 +5260,11 @@
     ],
     "isMain": true,
     "chainName": "Breaking and Entering",
-    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out. Once the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
+    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out.\r\n\r\nOnce the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
   },
   "Main-Osiris-Unique-1": {
     "inGameName": "Old Bones",
-    "description": "\"I've been looking through old notes from before the evacuations and come upon something... interesting. There were some unique bone samples found at the Archeology site, distinctly mutated; retrieve them for me.\"",
+    "description": "\"I've been looking through old notes from before the evacuations and come upon something... interesting. There were some unique bone samples found at the Archaeology site, distinctly mutated; retrieve them for me.\"",
     "faction": "Osiris",
     "factionReputation": 160,
     "difficulty": "Invalid",
@@ -5236,7 +5307,7 @@
   },
   "Main-Osiris-Unique-2": {
     "inGameName": "Extinct Creatures",
-    "description": "\"Remember those Old Bones you brought back earlier? There's a mystery there, something artificial. I need you to head to the Extinct Creatures lab in Crescent Falls and retrieve a Warden Skull, it might have the answers I seek.\"",
+    "description": "\"Remember those Old Bones you brought back earlier? There's a mystery there, something artificial. I need you to head to the Extinct Creatures lab in Crescent Falls and retrieve a Warden Tooth, it might have the answers I seek.\"",
     "faction": "Osiris",
     "factionReputation": 310,
     "difficulty": "Invalid",
@@ -5250,7 +5321,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Warden Skull"
+        "itemToOwn": "Warden Tooth"
       }
     ],
     "rewards": [
@@ -5435,6 +5506,12 @@
     ],
     "rewards": [
       {
+        "item": "Skeleton Key",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
         "item": "OsirisScrip",
         "amount": 26,
         "isEndOfChainReward": false,
@@ -5602,6 +5679,1356 @@
       }
     ],
     "unlockLevel": 17,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "Main-Osiris-Caverns-1": {
+    "inGameName": "Main-Osiris-Caverns-1",
+    "description": "\"I have some recon work for you, Prospector. Recent survey data shows a dip in TEF radiation on a 'Tharis Island', the spot of one our old field labs. The installation was just being set up when the evac order came through, and with all the chaos, the records don't show any researchers making it out, nor why they were there in the first place. Head down there, check the outpost, and report back to me.\"",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map03_OsirisOutpost2"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_SlaughteredResearcher"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 750
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Lost Scientist"
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-1.1": {
+    "inGameName": "Main-Osiris-Caverns-1.1",
+    "description": "\"All killed. Not surprising, of course, but definitely not all were killed by surface beasts. The obvious suspects would be Korolev's goons; our people may have found something important those meatheads wanted for themselves, or maybe it was something more basic, like commandeering the site's vessels to evac. I need to think... this happened decades ago, but it would still be an unacceptable transgression. For now, just go back to those caverns and do some field work; apparently the caverns had some unique flora.\"",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 15,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "MP_AlienCaverns_P",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "TentaclePlant"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 30000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 750
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Caverns-2": {
+    "inGameName": "Main-Osiris-Caverns-2",
+    "description": "\"I need more information before I act; get into the Korolev Island HQ and retrieve whatever information that might shed some light on what happened. If Korolev truly is responsible for what happened, there will be hell to pay.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map03_KorolevMain"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Korolev Data Drive #473-D"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Korolev Notes"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 930
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-3": {
+    "inGameName": "Main-Osiris-Caverns-3",
+    "description": "\"Unexpected. Both our people and Korolev's were attacked by a third party, what a Korolev foreman referred as 'cultists'. From the description, this group behaved similar to those afflicted by prolonged exposure to the TEF's radiation, but the first recorded encounter predates the first storms by a matter of months.\r\nProspector, I need you to search for the Surveyor Pods deployed in the caverns, they would have recorded evidence of any exotic radiation, even before they knew what it was.\"",
+    "faction": "Osiris",
+    "factionReputation": 930,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_OsirisResearchBall1"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_OsirisResearchBall2"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_OsirisResearchBall3"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 11000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 930
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-4": {
+    "inGameName": "Main-Osiris-Caverns-4",
+    "description": "\"Just as I suspected, those caverns had been leaking TEF radiation for years before anyone ever set foot in them. That entire area can give us a preview of what sites on the surface may look like decades from now, if the field continues to affect the planet.\r\nBut first things first: hunt down some Crushers from one of the affected areas and stash samples of their remains at one of our outpost so we can analyze the radiation.\"",
+    "faction": "Osiris",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_Crusher"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Map03_OsirisOutpost1",
+        "deadDropItem": "AI_CrusherSkin"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1200
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-4.1": {
+    "inGameName": "Main-Osiris-Caverns-4.1",
+    "description": "\"One of my researchers working in the Crescent Falls area has some theories on those Spine Briar plants, and why they're unique to the Tharis caverns. I need you to take some new samples to a stash in the area; hopefully he does something more useful than just replanting them.\"",
+    "faction": "Osiris",
+    "factionReputation": 1200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 10,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+        "deadDropItem": "TentaclePlant",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 48,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 51000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1200
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Caverns-5": {
+    "inGameName": "Main-Osiris-Caverns-5",
+    "description": "\"The results came back on the Crushers irradiated by Tharis: inconclusive; none of the creatures you dispatched seemed to be over a decade old, which may hint at the limits their natural lifespan, or at how efficient your fellow prospectors have been at thinning their numbers. One thing did stand out, though; a foreign bioluminescent compound. I've found mentions of a 'Cave of Stars', the likely source. Search the area, and bring back anything that may be of interest.\"",
+    "faction": "Osiris",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map03_GlowWormCave"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map03_GlowWormCave"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Mysterious Glowing Contraption",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1500
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-6": {
+    "inGameName": "Main-Osiris-Caverns-6",
+    "description": "\"These 'cultists' weren't merely men gone feral, they had kept some level of organization, and built a devotion to the Tharis caverns. They seemed obsessed with clusters of a glowing crystaline compound unique to the island; bring me some samples, this merits study.\"",
+    "faction": "Osiris",
+    "factionReputation": 1500,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Teratomorphic Crystal Core",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 64,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1500
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-7": {
+    "inGameName": "Main-Osiris-Caverns-7",
+    "description": "\"These 'Teratomorphic Crystals' are proving to be an interesting puzzle. There's nothing organic or 'living' about them, but they don't resemble any natural formation I've ever seen. And they appear to absorb TEF energy like a battery.\r\nPerhaps the cultists knew more about them. The records you recovered mention of wall markings scattered throughout the caverns, perhaps they hold some cyphered information. Find them, Prospector.\"",
+    "faction": "Osiris",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_Marking1"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_Marking2"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_Marking3"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1800
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-8": {
+    "inGameName": "Main-Osiris-Caverns-8",
+    "description": "\"It appears the cultists were fixated on the same rare ore that kept Korolev and our own Osiris people, 'Tharis Ore' as they called it. Bring me samples, normal and the 'refined' type. If the Teratomorphic Crystals interacted with TEF radiation, it's reasonable to believe this material might too.\"",
+    "faction": "Osiris",
+    "factionReputation": 1800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map03_AlienQuarry"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Tharis Iron",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Pure Tharis Iron",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 87,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 24000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1800
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-9": {
+    "inGameName": "Main-Osiris-Caverns-9",
+    "description": "\"Our experiments with Tharis Iron proved very productive; concentrated blasts of TEF radiation caused the samples to react by warping into different shapes. Some, almost organic, and very reminiscent of patterns seen in Fortuna III's newer flora and fauna. Bring me samples of creatures killed at the peak of a storm. And some Charged Brightcaps, too.\"",
+    "faction": "Osiris",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "MP_AlienCaverns_P",
+          "m_onlyDuringStorm": true
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Charged Spinal Base"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "RadioactiveBrightcapMushroom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 21000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 2300
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
+  },
+  "Main-Osiris-Caverns-10": {
+    "inGameName": "Main-Osiris-Caverns-10",
+    "description": "\"It's clear that the importance of these caverns can't be overstated; Korolev stumbled upon a Progenitor terraforming artifact and they simply decided to mine around it, for rocks! I need you to go deeper, recover anything else the cultists deemed valuable; they may have been insane, but they knew something.\"",
+    "faction": "Osiris",
+    "factionReputation": 2300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map03_CultistArea"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 5,
+        "itemToOwn": "Cultist Ritual Item"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Map03_KeyCard_01",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 117,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 2300
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Caverns-11": {
+    "inGameName": "Main-Osiris-Caverns-11",
+    "description": "\"Korolev had people block off the deepest caverns, fearing the unknown and wanting to bury the 'dangerous' mysteries beneath. Everything points to there being something important down there, something connected to Tharis Iron, something the cultists killed to protect.\r\nDown the Abyss, Prospector, discovery awaits!\"",
+    "faction": "Osiris",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map03_AlienForge"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_ForgeConsole"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 18000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 2800
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Caverns-12": {
+    "inGameName": "Main-Osiris-Caverns-12",
+    "description": "\"Fascinating... The installation on Tharis Island may not have been part of the Progenitor terraformer network, but perhaps a small outpost of some sort? It makes sense that they would place self-sufficient outposts on the planets they terraformed. You must remain my proxy on this venture, the island is still far too dangerous for a team to investigate directly; head back to the Forge, feed it Tharis Iron, and bring back the results.\r\nAnd get rid of any onlookers.\"",
+    "faction": "Osiris",
+    "factionReputation": 2800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Tharis Iron Ingot",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "MP_AlienCaverns_P",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 158,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 2800
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Caverns-13": {
+    "inGameName": "Main-Osiris-Caverns-13",
+    "description": "\"Excellent work down there, Prospector. It's doubtful, though, that this lone machine's purpose would be solely to transform Tharis Iron into Forge Alloy, not without additional support or transport systems to put it to use. No, this must be an intermediate product... Return to the machine, there must be something we've missed.\"",
+    "faction": "Osiris",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map03_AlienForge"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "itemToOwn": "Derelict Explosives",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "UniqueMissionLocation_ShieldRecipe"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Cultist Scribblings"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 3600
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Caverns-13.1": {
+    "inGameName": "Main-Osiris-Caverns-13.1",
+    "description": "\"Fascinating, it appears you found what's essentially an instruction manual... But something urgent has come up, on Crescent Falls. Scans found a cavern near the south of the Fallen Tree, with curious energy readings during a recent storm event. I want you to explore it; make short work of any creatures you find inside, and stash their remains for my people on the surface to collect.\"",
+    "faction": "Osiris",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "itemToOwn": "Cultist Scribblings",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": true
+        },
+        "locationConditions": "Map02_EliteCrusherDungeon"
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "itemToOwn": "Charged Tharis Iron Ingot",
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "AI_WeremoleMeat_02",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 5,
+        "itemToOwn": "Charged Tharis Iron Ingot",
+        "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
+        "deadDropItem": "AI_RattlerEyes_02",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 80000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 3600
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-Caverns-14": {
+    "inGameName": "Main-Osiris-Caverns-14",
+    "description": "\"I think it's time to move forward with our work on the Abyss Forge. Use the 'recipe' you found earlier, and whatever that device prints out, deliver it back to me. If we can put this Progenitor technology to work for us... well, you can imagine the implications.\"",
+    "faction": "Osiris",
+    "factionReputation": 3600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Huge Forged Backpack",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "Charged Tharis Iron Ingot",
+        "deadDropLocation": "Map02_GreensProspect_Office",
+        "deadDropItem": "Portable Lab",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Zeus Beam",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 214,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 34000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 3600
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true
+  },
+  "Main-Osiris-EarlyMap2-1": {
+    "inGameName": "Main-Osiris-EarlyMap2-1",
+    "description": "Ah, Prospector! Grab some decent Gear and drop down to Crescent Falls, an Area that used to be of great Interest to our Research and that now might be accessible again, if the bragging from Korolev numbskulls is to be trusted. Go check!",
+    "faction": "Osiris",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_StarportPad"
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_PumpkinFields"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 200
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "A Whole New Ecosystem",
+    "chainDescription": "Osiris has been studying both the Fauna and Flora on Crescent Falls for years before the Storm made the Area uninhabitable. According to recent reports, that beautiful Ecosystem might slowly become accessible again. Help Osiris reclaim their Research Facilities."
+  },
+  "Main-Osiris-EarlyMap2-2": {
+    "inGameName": "Main-Osiris-EarlyMap2-2",
+    "description": "Hmm... yes. Radiation Levels would be too high for me to spend my Weekend down there, but we have you for that. We used to research the Flora on Crescent Falls quite extensively, see if you can find some of the Pale Ivy Blossoms we used in Material Science and Medicine Synthesis back then!",
+    "faction": "Osiris",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_JungleFallenTree"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Pale Ivy Blossom"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7100,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 200
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "A Whole New Ecosystem",
+    "chainDescription": "Osiris has been studying both the Fauna and Flora on Crescent Falls for years before the Storm made the Area uninhabitable. According to recent reports, that beautiful Ecosystem might slowly become accessible again. Help Osiris reclaim their Research Facilities."
+  },
+  "Main-Osiris-EarlyMap2-3": {
+    "inGameName": "Main-Osiris-EarlyMap2-3",
+    "description": "Hah. Can't wait to see Vadim's face once we start manufacturing the best Stims on Prospect Station again! Thank you. Now, last but not least, see if you can clear the Area around the big Skeleton of hostile Fauna so we can resurrect our old Observation Site there!",
+    "faction": "Osiris",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_Skeleton"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "itemToOwn": "Pale Ivy Blossom",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map02_Skeleton"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Pure Veltecite",
+        "amount": 2,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "OsirisScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 240
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "A Whole New Ecosystem",
+    "chainDescription": "Osiris has been studying both the Fauna and Flora on Crescent Falls for years before the Storm made the Area uninhabitable. According to recent reports, that beautiful Ecosystem might slowly become accessible again. Help Osiris reclaim their Research Facilities."
+  },
+  "NEW-Hard-Osiris-Flora-1": {
+    "inGameName": "Fascinating Flora",
+    "description": "These Spine Briars are highly interesting. They seem to thrive on TEF radiation. I think we should try to grow some in our Lab, so get us some more specimens!",
+    "faction": "Osiris",
+    "factionReputation": 480,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "TentaclePlant"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 39,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 63000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 480
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": [],
+    "isMain": false
+  },
+  "NEW-Hard-Osiris-Gather-9": {
+    "inGameName": "In Charge",
+    "description": "Tssk. These Korolev Simpletons have been mining Tharis Iron without even understanding its true potential. Get us Charged Tharis Iron Ingots, and make sure to keep it confidential.",
+    "faction": "Osiris",
+    "factionReputation": 500,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Charged Tharis Iron Ingot"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "OsirisScrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 51000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 500
+      }
+    ],
+    "unlockLevel": 20,
     "unlockContracts": [],
     "isMain": false
   }

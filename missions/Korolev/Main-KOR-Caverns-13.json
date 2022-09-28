@@ -1,0 +1,71 @@
+{
+  "inGameName": "Main-KOR-Caverns-13",
+  "description": "\"The records you brought back... they paint a bad picture. One of Gregor's trusted men went missing down there carrying the only true records of the operation, and evidence that he just kept sending more and more men down to die. Head to the abyss, Prospector, find out what this is all about, and store it in one of our safe stashes.\"",
+  "faction": "Korolev",
+  "factionReputation": 2800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      },
+      "locationConditions": "Map03_AbyssShaft"
+    },
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      },
+      "locationConditions": "UniqueMissionLocation_VadimPreItem"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 1,
+      "deadDropLocation": "Map03_KorolevOutpost1",
+      "deadDropItem": "The Tharis Files"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KOMRAD",
+      "amount": 1,
+      "isEndOfChainReward": true,
+      "isUnlockReward": false
+    },
+    {
+      "item": "KorolevScrip",
+      "amount": 158,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 2800
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

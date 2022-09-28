@@ -1,0 +1,61 @@
+{
+  "inGameName": "Main-KOR-Caverns-12",
+  "description": "\"We've mapped out the areas my men can access safely, and what machinery may still be in operational condition. It will be some time before I can send anyone back into those caverns, not with last team still out of commission, but we'll need fuel for the machines ready for when I do. Stash some Letium Clots at these locations; it will help us kickstart the operation, again.\"",
+  "faction": "Korolev",
+  "factionReputation": 2300,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 12,
+      "deadDropLocation": "Map01_EastEvac_UndergroundElevator",
+      "deadDropItem": "Letium",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      }
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 12,
+      "deadDropLocation": "Map01_CenterBase_GateC",
+      "deadDropItem": "Letium",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 117,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 294000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 2300
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

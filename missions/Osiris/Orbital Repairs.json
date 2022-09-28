@@ -59,7 +59,7 @@
     ],
     "isMain": true,
     "chainName": "Orbital Repairs",
-    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
   {
     "inGameName": "Main-Osiris-SatelliteRepairs-2",
@@ -79,49 +79,49 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_SMG_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Beam_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_AR_Needle_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_Sniper_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_G_HVY_Beam_01"
             }
@@ -162,7 +162,7 @@
     ],
     "isMain": true,
     "chainName": "Orbital Repairs",
-    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
   {
     "inGameName": "Main-Osiris-SatelliteRepairs-3",
@@ -212,7 +212,7 @@
     ],
     "isMain": true,
     "chainName": "Orbital Repairs",
-    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
   {
     "inGameName": "Main-Osiris-SatelliteRepairs-4",
@@ -233,12 +233,6 @@
         "item": "QuestItem_OrbitalCanonTargetBeacon",
         "amount": 1,
         "isEndOfChainReward": true,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Basilisk",
-        "amount": 1,
-        "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
@@ -264,6 +258,6 @@
     ],
     "isMain": true,
     "chainName": "Orbital Repairs",
-    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose. You'll need to help Osiris develop a hotfix."
+    "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   }
 ]

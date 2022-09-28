@@ -1,0 +1,48 @@
+{
+  "inGameName": "Main-Osiris-Caverns-4.1",
+  "description": "\"One of my researchers working in the Crescent Falls area has some theories on those Spine Briar plants, and why they're unique to the Tharis caverns. I need you to take some new samples to a stash in the area; hopefully he does something more useful than just replanting them.\"",
+  "faction": "Osiris",
+  "factionReputation": 1200,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 10,
+      "itemToOwn": "Derelict Explosives",
+      "deadDropLocation": "Map02_GreensProspect_Fullfilment",
+      "deadDropItem": "TentaclePlant",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 48,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 51000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 1200
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

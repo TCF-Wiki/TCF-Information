@@ -17,7 +17,7 @@
   "Shield_01": {
     "rarity": "Common",
     "armorAmount": 10,
-    "durability": 600,
+    "durability": 500,
     "weight": 40,
     "bonus": {},
     "repair": {
@@ -32,7 +32,7 @@
   "Shield_02": {
     "rarity": "Uncommon",
     "armorAmount": 17,
-    "durability": 700,
+    "durability": 600,
     "weight": 40,
     "bonus": {},
     "repair": {
@@ -47,7 +47,7 @@
   "Shield_03": {
     "rarity": "Rare",
     "armorAmount": 23,
-    "durability": 800,
+    "durability": 700,
     "weight": 40,
     "bonus": {},
     "repair": {
@@ -62,7 +62,7 @@
   "Shield_04": {
     "rarity": "Epic",
     "armorAmount": 27,
-    "durability": 900,
+    "durability": 800,
     "weight": 40,
     "bonus": {},
     "repair": {
@@ -76,8 +76,8 @@
   },
   "Shield_05": {
     "rarity": "Exotic",
-    "armorAmount": 29,
-    "durability": 1000,
+    "armorAmount": 30,
+    "durability": 900,
     "weight": 40,
     "bonus": {},
     "repair": {
@@ -91,33 +91,25 @@
   },
   "Shield_Tactical_01": {
     "rarity": "Common",
-    "armorAmount": 7,
+    "armorAmount": 10,
     "durability": 500,
     "weight": 40,
-    "bonus": {
-      "attribute": "MaxStamina",
-      "type": "Additive",
-      "value": 20
-    },
+    "bonus": {},
     "repair": {
-      "baseCost": 45,
-      "costModifierBroken": 113,
-      "maxPrice": 225,
+      "baseCost": 68,
+      "costModifierBroken": 171,
+      "maxPrice": 340,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 135,
-    "factionRep": 1
+    "sellValue": 203,
+    "factionRep": 2
   },
   "Shield_Tactical_02": {
     "rarity": "Uncommon",
-    "armorAmount": 14,
+    "armorAmount": 17,
     "durability": 600,
     "weight": 40,
-    "bonus": {
-      "attribute": "MaxStamina",
-      "type": "Additive",
-      "value": 25
-    },
+    "bonus": {},
     "repair": {
       "baseCost": 180,
       "costModifierBroken": 446,
@@ -129,14 +121,10 @@
   },
   "Shield_Tactical_03": {
     "rarity": "Rare",
-    "armorAmount": 19,
+    "armorAmount": 23,
     "durability": 700,
     "weight": 40,
-    "bonus": {
-      "attribute": "MaxStamina",
-      "type": "Additive",
-      "value": 35
-    },
+    "bonus": {},
     "repair": {
       "baseCost": 1200,
       "costModifierBroken": 2978,
@@ -148,14 +136,10 @@
   },
   "Shield_Restoration_01": {
     "rarity": "Uncommon",
-    "armorAmount": 14,
+    "armorAmount": 17,
     "durability": 600,
     "weight": 40,
-    "bonus": {
-      "attribute": "HealthRegenerationRate",
-      "type": "Additive",
-      "value": 0.2
-    },
+    "bonus": {},
     "repair": {
       "baseCost": 180,
       "costModifierBroken": 446,
@@ -167,14 +151,10 @@
   },
   "Shield_Restoration_02": {
     "rarity": "Rare",
-    "armorAmount": 19,
+    "armorAmount": 23,
     "durability": 700,
     "weight": 40,
-    "bonus": {
-      "attribute": "HealthRegenerationRate",
-      "type": "Additive",
-      "value": 0.2
-    },
+    "bonus": {},
     "repair": {
       "baseCost": 1200,
       "costModifierBroken": 2978,
@@ -184,61 +164,49 @@
     "sellValue": 4556,
     "factionRep": 46
   },
-  "Test_Shield_FallDamage_01": {
-    "rarity": "Common",
-    "armorAmount": 7,
-    "durability": 150,
+  "Shield_Altered_01": {
+    "rarity": "Epic",
+    "armorAmount": 27,
+    "durability": 800,
     "weight": 40,
-    "bonus": {
-      "attribute": "FallingDamageReduction",
-      "type": "Multiplicitive_PreAdd",
-      "value": 0.5
-    },
+    "bonus": {},
     "repair": {
-      "baseCost": 20,
-      "costModifierBroken": 40,
-      "maxPrice": 60,
+      "baseCost": 2000,
+      "costModifierBroken": 4993,
+      "maxPrice": 10000,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 135,
-    "factionRep": 1
+    "sellValue": 15036,
+    "factionRep": 150
   },
-  "Test_Shield_Spinup_01": {
-    "rarity": "Common",
-    "armorAmount": 7,
-    "durability": 150,
+  "Shield_Altered_02": {
+    "rarity": "Exotic",
+    "armorAmount": 30,
+    "durability": 900,
     "weight": 40,
-    "bonus": {
-      "attribute": "SpinupDuration",
-      "type": "Multiplicitive_PreAdd",
-      "value": 0.5
-    },
+    "bonus": {},
     "repair": {
-      "baseCost": 20,
-      "costModifierBroken": 40,
-      "maxPrice": 60,
+      "baseCost": 2725,
+      "costModifierBroken": 6799,
+      "maxPrice": 13625,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 135,
-    "factionRep": 1
+    "sellValue": 32805,
+    "factionRep": 328
   },
-  "Test_Shield_AIDefense_01": {
-    "rarity": "Common",
-    "armorAmount": 7,
-    "durability": 150,
+  "Shield_Altered_03": {
+    "rarity": "Legendary",
+    "armorAmount": 33,
+    "durability": 1000,
     "weight": 40,
-    "bonus": {
-      "attribute": "DamageScalingReceivedFromAI",
-      "type": "Multiplicitive_PreAdd",
-      "value": 0.25
-    },
+    "bonus": {},
     "repair": {
-      "baseCost": 20,
-      "costModifierBroken": 40,
-      "maxPrice": 60,
+      "baseCost": 3280,
+      "costModifierBroken": 8199,
+      "maxPrice": 16400,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 135,
-    "factionRep": 1
+    "sellValue": 49208,
+    "factionRep": 492
   }
 }

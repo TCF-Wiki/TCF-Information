@@ -26,7 +26,7 @@
     ],
     "stackSize": 10,
     "weight": 3,
-    "sellValue": 854,
+    "sellValue": 855,
     "factionRep": 9
   },
   "EpicVeltecite": {
@@ -44,9 +44,9 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 1,
-    "weight": 3,
-    "sellValue": 6487,
+    "stackSize": 3,
+    "weight": 10,
+    "sellValue": 6488,
     "factionRep": 65
   },
   "FocusCrystal": {
@@ -66,7 +66,7 @@
     ],
     "stackSize": 10,
     "weight": 4,
-    "sellValue": 2883,
+    "sellValue": 2884,
     "factionRep": 29
   },
   "Nickel": {
@@ -88,6 +88,16 @@
     "weight": 2,
     "sellValue": 338,
     "factionRep": 3
+  },
+  "PolariumCrystal": {
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 5,
+    "weight": 8,
+    "sellValue": 38924,
+    "factionRep": 389
   },
   "Polonium": {
     "rarity": "Epic",
@@ -116,7 +126,7 @@
     ],
     "stackSize": 10,
     "weight": 3,
-    "sellValue": 854,
+    "sellValue": 855,
     "factionRep": 9
   },
   "StormSurgeCrystal": {
@@ -144,7 +154,7 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 1,
+    "stackSize": 3,
     "weight": 25,
     "sellValue": 7594,
     "factionRep": 76
@@ -166,7 +176,7 @@
     ],
     "stackSize": 10,
     "weight": 7,
-    "sellValue": 2531,
+    "sellValue": 2532,
     "factionRep": 25
   },
   "Alloys": {
@@ -300,7 +310,7 @@
     ],
     "stackSize": 10,
     "weight": 5,
-    "sellValue": 506,
+    "sellValue": 507,
     "factionRep": 5
   },
   "CombatCPU_red": {
@@ -330,7 +340,7 @@
     ],
     "stackSize": 10,
     "weight": 6,
-    "sellValue": 759,
+    "sellValue": 760,
     "factionRep": 8
   },
   "AutoLoader": {
@@ -369,7 +379,7 @@
       "Loot.Category.Valuable"
     ],
     "stackSize": 10000,
-    "weight": 0,
+    "weight": 0.001,
     "sellValue": 1,
     "factionRep": 0
   },
@@ -380,7 +390,7 @@
     ],
     "stackSize": 10,
     "weight": 2,
-    "sellValue": 506,
+    "sellValue": 507,
     "factionRep": 5
   },
   "BlueWood": {
@@ -431,7 +441,7 @@
     ],
     "stackSize": 10,
     "weight": 6,
-    "sellValue": 759,
+    "sellValue": 760,
     "factionRep": 8
   },
   "Fabrics": {
@@ -564,7 +574,7 @@
     ],
     "stackSize": 10,
     "weight": 10,
-    "sellValue": 759,
+    "sellValue": 760,
     "factionRep": 8
   },
   "ProteinBar": {
@@ -574,7 +584,7 @@
     ],
     "stackSize": 10,
     "weight": 1,
-    "sellValue": 506,
+    "sellValue": 507,
     "factionRep": 5
   },
   "Jewellery": {
@@ -595,7 +605,7 @@
     ],
     "stackSize": 10,
     "weight": 10,
-    "sellValue": 506,
+    "sellValue": 507,
     "factionRep": 5
   },
   "AluminumParts": {
@@ -605,7 +615,7 @@
     ],
     "stackSize": 10,
     "weight": 10,
-    "sellValue": 506,
+    "sellValue": 507,
     "factionRep": 5
   },
   "GenericCreatureDrop": {
@@ -643,7 +653,7 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10,
+    "stackSize": 5,
     "weight": 10,
     "sellValue": 6812,
     "factionRep": 68
@@ -653,7 +663,7 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10,
+    "stackSize": 5,
     "weight": 15,
     "sellValue": 15570,
     "factionRep": 156
@@ -663,7 +673,7 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10,
+    "stackSize": 5,
     "weight": 20,
     "sellValue": 38924,
     "factionRep": 389
@@ -673,7 +683,7 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10,
+    "stackSize": 5,
     "weight": 30,
     "sellValue": 97310,
     "factionRep": 973
@@ -686,7 +696,7 @@
     ],
     "stackSize": 1,
     "weight": 30,
-    "sellValue": 518985,
+    "sellValue": 518986,
     "factionRep": 5190
   },
   "AI_StriderMeat": {
@@ -776,7 +786,7 @@
     ],
     "stackSize": 1,
     "weight": 20,
-    "sellValue": 129746,
+    "sellValue": 129747,
     "factionRep": 1297
   },
   "Adhesive": {
@@ -787,7 +797,7 @@
     ],
     "stackSize": 10,
     "weight": 5,
-    "sellValue": 759,
+    "sellValue": 760,
     "factionRep": 8
   },
   "KorolevScrip": {
@@ -796,7 +806,7 @@
       "Loot.Category.Valuable"
     ],
     "stackSize": 1000,
-    "weight": 0,
+    "weight": 0.1,
     "sellValue": 10,
     "factionRep": 0
   },
@@ -806,7 +816,7 @@
       "Loot.Category.Valuable"
     ],
     "stackSize": 1000,
-    "weight": 0,
+    "weight": 0.1,
     "sellValue": 10,
     "factionRep": 0
   },
@@ -816,7 +826,7 @@
       "Loot.Category.Valuable"
     ],
     "stackSize": 1000,
-    "weight": 0,
+    "weight": 0.1,
     "sellValue": 10,
     "factionRep": 0
   },
@@ -875,9 +885,9 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10,
+    "stackSize": 3,
     "weight": 10,
-    "sellValue": 52547,
+    "sellValue": 52548,
     "factionRep": 525
   },
   "AI_RattlerHead_02": {
@@ -885,9 +895,9 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10,
+    "stackSize": 3,
     "weight": 15,
-    "sellValue": 52547,
+    "sellValue": 52548,
     "factionRep": 525
   },
   "AI_WeremoleHead_02": {
@@ -895,9 +905,109 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10,
+    "stackSize": 3,
     "weight": 20,
     "sellValue": 116772,
     "factionRep": 1168
+  },
+  "ForgeIron": {
+    "rarity": "Rare",
+    "tags": [
+      "Loot.Category.Mineral"
+    ],
+    "stackSize": 10,
+    "weight": 4,
+    "sellValue": 1282,
+    "factionRep": 13
+  },
+  "PureForgeIron": {
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Mineral"
+    ],
+    "stackSize": 10,
+    "weight": 4,
+    "sellValue": 2884,
+    "factionRep": 29
+  },
+  "ForgeIronIngot": {
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Alien"
+    ],
+    "stackSize": 6,
+    "weight": 8,
+    "sellValue": 3845,
+    "factionRep": 38
+  },
+  "ChargedForgeIronIngot": {
+    "rarity": "Exotic",
+    "tags": [
+      "Loot.Category.Alien"
+    ],
+    "stackSize": 6,
+    "weight": 8,
+    "sellValue": 8650,
+    "factionRep": 87
+  },
+  "SuperChargedForgeIronIngot": {
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Alien"
+    ],
+    "stackSize": 6,
+    "weight": 8,
+    "sellValue": 12975,
+    "factionRep": 130
+  },
+  "GlowingCrystalCoreShard": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Loot.Category.Mineral"
+    ],
+    "stackSize": 10,
+    "weight": 3,
+    "sellValue": 1709,
+    "factionRep": 17
+  },
+  "AF_Slag": {
+    "rarity": "Exotic",
+    "tags": [
+      "Loot.Category.Alien"
+    ],
+    "stackSize": 3,
+    "weight": 12,
+    "sellValue": 77848,
+    "factionRep": 778
+  },
+  "AF_Token": {
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Alien"
+    ],
+    "stackSize": 5,
+    "weight": 10,
+    "sellValue": 12975,
+    "factionRep": 130
+  },
+  "TentaclePlant": {
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Flora"
+    ],
+    "stackSize": 10,
+    "weight": 7,
+    "sellValue": 3845,
+    "factionRep": 38
+  },
+  "Alien_Scrap": {
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.Alien"
+    ],
+    "stackSize": 10,
+    "weight": 4,
+    "sellValue": 760,
+    "factionRep": 8
   }
 }

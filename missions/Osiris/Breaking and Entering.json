@@ -52,6 +52,12 @@
     "rewards": [
       {
         "item": "QuestItem_OrbitalCanonTargetBeacon",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Basilisk",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -79,6 +85,6 @@
     ],
     "isMain": true,
     "chainName": "Breaking and Entering",
-    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out. Once the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
+    "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out.\r\n\r\nOnce the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
   }
 ]

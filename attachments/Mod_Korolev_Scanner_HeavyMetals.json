@@ -29,8 +29,11 @@
       "RowName": "Main-KOR-TitanOre-2"
     },
     "m_contractLockCrafting": {
-      "DataTable": null,
-      "RowName": "None"
+      "DataTable": {
+        "ObjectName": "DataTable Contract_DT",
+        "ObjectPath": "Prospect/Content/DataTables/Contracts/Contract_DT.0"
+      },
+      "RowName": "Main-KOR-TitanOre-2"
     }
   },
   "flashlight": false

@@ -83,16 +83,6 @@
     "value": 100,
     "duration": 0
   },
-  "ShockGrenade_02": {
-    "rarity": "Uncommon",
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 4,
-    "weight": 5,
-    "sellValue": 456,
-    "factionRep": 5
-  },
   "Consumable_SmokeGrenade_01": {
     "rarity": "Common",
     "tags": [
@@ -110,8 +100,8 @@
     ],
     "stackSize": 4,
     "weight": 5,
-    "sellValue": 456,
-    "factionRep": 5
+    "sellValue": 152,
+    "factionRep": 2
   },
   "Consumable_AudioDecoy_01": {
     "rarity": "Uncommon",
@@ -144,8 +134,8 @@
     ],
     "stackSize": 1,
     "weight": 20,
-    "sellValue": 304,
-    "factionRep": 3
+    "sellValue": 152,
+    "factionRep": 2
   },
   "Cloak": {
     "rarity": "Uncommon",
@@ -154,8 +144,8 @@
     ],
     "stackSize": 1,
     "weight": 5,
-    "sellValue": 304,
-    "factionRep": 3
+    "sellValue": 152,
+    "factionRep": 2
   },
   "TurretHeavy": {
     "rarity": "Uncommon",
@@ -254,5 +244,55 @@
     "weight": 5,
     "sellValue": 135,
     "factionRep": 1
+  },
+  "ShockGrenade_01": {
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 0,
+    "factionRep": 0
+  },
+  "ShockGrenade_02": {
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 152,
+    "factionRep": 2
+  },
+  "ShockGrenade_03": {
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 456,
+    "factionRep": 5
+  },
+  "ShockGrenade_04": {
+    "rarity": "Epic",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 1709,
+    "factionRep": 17
+  },
+  "ShockGrenade_05": {
+    "rarity": "Exotic",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "weight": 5,
+    "sellValue": 1025,
+    "factionRep": 10
   }
 }

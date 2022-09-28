@@ -50,7 +50,7 @@
     ],
     "isMain": true,
     "chainName": "Put to the Test",
-    "chainDescription": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges. A lot is riding on this, Prospector."
+    "chainDescription": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges.\r\n\r\nA lot is riding on this, Prospector."
   },
   {
     "inGameName": "Main-ICA-TestRun-2",
@@ -62,15 +62,21 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 15,
         "itemToOwn": "NiC Oil Cannister"
       }
     ],
     "rewards": [
       {
-        "item": "Kinetic Arbiter",
+        "item": "Voltaic Brute",
         "amount": 1,
         "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Oil Pump Beacon",
+        "amount": 6,
+        "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
@@ -81,7 +87,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 222000,
+        "amount": 323000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -96,6 +102,6 @@
     ],
     "isMain": true,
     "chainName": "Put to the Test",
-    "chainDescription": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges. A lot is riding on this, Prospector."
+    "chainDescription": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges.\r\n\r\nA lot is riding on this, Prospector."
   }
 ]

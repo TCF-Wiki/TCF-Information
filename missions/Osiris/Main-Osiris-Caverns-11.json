@@ -1,0 +1,65 @@
+{
+  "inGameName": "Main-Osiris-Caverns-11",
+  "description": "\"Korolev had people block off the deepest caverns, fearing the unknown and wanting to bury the 'dangerous' mysteries beneath. Everything points to there being something important down there, something connected to Tharis Iron, something the cultists killed to protect.\r\nDown the Abyss, Prospector, discovery awaits!\"",
+  "faction": "Osiris",
+  "factionReputation": 2800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "itemToOwn": "Derelict Explosives",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      },
+      "locationConditions": "Map03_AlienForge"
+    },
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "itemToOwn": "Derelict Explosives",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      },
+      "locationConditions": "UniqueMissionLocation_ForgeConsole"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 158,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 18000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 2800
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

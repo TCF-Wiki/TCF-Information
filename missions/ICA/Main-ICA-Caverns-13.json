@@ -1,0 +1,107 @@
+{
+  "inGameName": "Main-ICA-Caverns-13",
+  "description": "\"We're looking into all this... both Korolev and Osiris found these rare materials in the caverns, but only the eggheads in white really cared about what it was. Korolev's apparent interest seemed to be just raw exploitation, as usual, but there are mentions of missing Korolev mining parties and a constant flow of new workers. The only thing I'm sure of so far is neither corp has gotten what they want out of the place, not yet. Let's see if we can keep it that way; go down there and cause some chaos.\"",
+  "faction": "ICA",
+  "factionReputation": 2800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 3,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_Pistol_Bullet_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_SMG_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_AR_Bullet_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_SGun_Shard_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_BR_Shard_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_LMG_Energy_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_Sniper_Gauss_01"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable PRO_Weapons",
+              "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+            },
+            "RowName": "WP_D_HVY_Exotic_01"
+          }
+        ],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "MP_AlienCaverns_P",
+        "m_onlyDuringStorm": false
+      }
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "Charged Tharis Iron Ingot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 158,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 62000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 2800
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

@@ -50,7 +50,7 @@
     ],
     "isMain": true,
     "chainName": "Back to Basics",
-    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate... Someone thought it was worth looking into, though, and the ICA is getting desperate."
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
   {
     "inGameName": "Main-ICA-OilPump-2",
@@ -101,7 +101,7 @@
     ],
     "isMain": true,
     "chainName": "Back to Basics",
-    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate... Someone thought it was worth looking into, though, and the ICA is getting desperate."
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
   {
     "inGameName": "Main-ICA-OilPump-3",
@@ -151,7 +151,7 @@
     ],
     "isMain": true,
     "chainName": "Back to Basics",
-    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate... Someone thought it was worth looking into, though, and the ICA is getting desperate."
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
   {
     "inGameName": "Main-ICA-OilPump-4",
@@ -210,7 +210,7 @@
     ],
     "isMain": true,
     "chainName": "Back to Basics",
-    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate... Someone thought it was worth looking into, though, and the ICA is getting desperate."
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
   {
     "inGameName": "Main-ICA-OilPump-6",
@@ -244,6 +244,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "ShockGrenade_02",
+        "amount": 5,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "ICAScrip",
         "amount": 87,
         "isEndOfChainReward": false,
@@ -266,7 +272,7 @@
     ],
     "isMain": true,
     "chainName": "Back to Basics",
-    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate... Someone thought it was worth looking into, though, and the ICA is getting desperate."
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
   {
     "inGameName": "Main-ICA-OilPump-7",
@@ -286,56 +292,56 @@
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_Pistol_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_SMG_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_AR_Bullet_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_SGun_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_BR_Shard_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_LMG_Energy_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_Sniper_Gauss_01"
             },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/PRO_Weapons.0"
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
               "RowName": "WP_D_HVY_Exotic_01"
             }
@@ -370,7 +376,7 @@
     ],
     "isMain": true,
     "chainName": "Back to Basics",
-    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate... Someone thought it was worth looking into, though, and the ICA is getting desperate."
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
   {
     "inGameName": "Main-ICA-OilPump-8",
@@ -426,6 +432,6 @@
     ],
     "isMain": true,
     "chainName": "Back to Basics",
-    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate... Someone thought it was worth looking into, though, and the ICA is getting desperate."
+    "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   }
 ]

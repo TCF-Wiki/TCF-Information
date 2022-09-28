@@ -1,0 +1,43 @@
+{
+  "inGameName": "Main-ICA-Caverns-13.1",
+  "description": "\"If you find some more NiC Oil Cannisters or Old Currency, bring it to me, and I'll grease some palms to get some Korolev machinery sabotaged. It might not put a permanent stop to their operations on the planet, but it'll be more acceptable to the Council... supposing they actually find out about it.\"",
+  "faction": "ICA",
+  "factionReputation": 3600,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 18,
+      "itemToOwn": "NiC Oil Cannister"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 30000,
+      "itemToOwn": "Old Currency"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 214,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 414000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 3600
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

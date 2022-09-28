@@ -1,0 +1,53 @@
+{
+  "inGameName": "Main-Osiris-Caverns-1.1",
+  "description": "\"All killed. Not surprising, of course, but definitely not all were killed by surface beasts. The obvious suspects would be Korolev's goons; our people may have found something important those meatheads wanted for themselves, or maybe it was something more basic, like commandeering the site's vessels to evac. I need to think... this happened decades ago, but it would still be an unacceptable transgression. For now, just go back to those caverns and do some field work; apparently the caverns had some unique flora.\"",
+  "faction": "Osiris",
+  "factionReputation": 750,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 15,
+      "itemToOwn": "Derelict Explosives",
+      "deadDropLocation": "Map02_GreensProspect_Office",
+      "deadDropItem": "Portable Lab",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "MP_AlienCaverns_P",
+        "m_onlyDuringStorm": false
+      }
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 5,
+      "itemToOwn": "TentaclePlant"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "OsirisScrip",
+      "amount": 26,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 30000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 750
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

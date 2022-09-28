@@ -1,0 +1,49 @@
+{
+  "inGameName": "Espionage II",
+  "description": "Osiris is gaining an incredible amount of energy from Charged Spinal Bases. Go kill creatures to cut off their supply and get us some samples.",
+  "faction": "ICA",
+  "factionReputation": 470,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 20,
+      "itemToOwn": "Charged Spinal Base",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      }
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 14,
+      "itemToOwn": "Charged Spinal Base"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 37,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 30000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 470
+    }
+  ],
+  "unlockLevel": 18,
+  "unlockContracts": [],
+  "isMain": false
+}

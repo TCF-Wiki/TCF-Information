@@ -1,0 +1,226 @@
+[
+  {
+    "inGameName": "Main-KOR-EarlyMap2-1",
+    "description": "Prospector. We've caught some of our Miners, loaded with illegally mined Veltecite, on their way back from an area called Crescent Falls. Korolev used to have some mining operations there, which had to be abandoned. Drop down there and see if its safe for us again!",
+    "faction": "Korolev",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_HayFields"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": "Map02_HayFields"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 200
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [
+      "Miners' Strike"
+    ],
+    "isMain": true,
+    "chainName": "Uncharted Territory",
+    "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
+  },
+  {
+    "inGameName": "Main-KOR-EarlyMap2-2",
+    "description": "Wow. Some minor radiation, but nothing your suit can't handle... I think. Go back down there and find Greens Prospect, used to be the heart of our operations on Crescent Falls.",
+    "faction": "Korolev",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_GreensProspect"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Aluminum scrap",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 200
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Uncharted Territory",
+    "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
+  },
+  {
+    "inGameName": "Main-KOR-EarlyMap2-3",
+    "description": "Excellent! Haha, who would have thought that after all this time we might be able to resume operations on Crescent Falls! If you're up to the challenge, go see if the old Nutrion Farms Warehouse is still intact. And bring us back some Brittle Titan Ore, should be a bit more common on Crescent Falls.",
+    "faction": "Korolev",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": "Map02_NutrionFarmsWarehouse"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Brittle Titan Ore",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "Salvaged Insulation",
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "KorolevScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 240
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Uncharted Territory",
+    "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
+  },
+  {
+    "inGameName": "Main-KOR-EarlyMap2-4",
+    "description": "The Nutrion Farms on Crescent Falls used to produce a majority of the Calories we needed to maintain our Workforce back in the day using some strange-tasting Nutritional Bars. I forgot their Name. But see if you can find any of those!",
+    "faction": "Korolev",
+    "factionReputation": 240,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Nutritional Bar"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "CombatCPU_red",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Co-TEC MultiTool",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "KorolevScrip",
+        "amount": 6,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 240
+      }
+    ],
+    "unlockLevel": 17,
+    "unlockContracts": [
+      ""
+    ],
+    "isMain": true,
+    "chainName": "Uncharted Territory",
+    "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
+  }
+]

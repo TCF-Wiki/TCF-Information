@@ -1,0 +1,57 @@
+{
+  "inGameName": "Negating the Area",
+  "description": "Ah, finally. Our best Enforcer. We need you to drop down to Tharis Island and clear the area. We want to send our Scouts further in than ever before, so make sure it's safe.",
+  "faction": "ICA",
+  "factionReputation": 500,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 12,
+      "itemToOwn": "TentaclePlant",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "MP_AlienCaverns_P",
+        "m_onlyDuringStorm": false
+      }
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 4,
+      "itemToOwn": "TentaclePlant",
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "MP_AlienCaverns_P",
+        "m_onlyDuringStorm": false
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 40,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 25000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 500
+    }
+  ],
+  "unlockLevel": 20,
+  "unlockContracts": [],
+  "isMain": false
+}

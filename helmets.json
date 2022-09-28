@@ -2,7 +2,7 @@
   "Helmet_01": {
     "rarity": "Common",
     "armorAmount": 10,
-    "durability": 600,
+    "durability": 500,
     "weight": 20,
     "bonus": {},
     "repair": {
@@ -17,7 +17,7 @@
   "Helmet_02": {
     "rarity": "Uncommon",
     "armorAmount": 17,
-    "durability": 700,
+    "durability": 600,
     "weight": 20,
     "bonus": {},
     "repair": {
@@ -32,7 +32,7 @@
   "Helmet_03": {
     "rarity": "Rare",
     "armorAmount": 23,
-    "durability": 800,
+    "durability": 700,
     "weight": 20,
     "bonus": {},
     "repair": {
@@ -47,7 +47,7 @@
   "Helmet_04": {
     "rarity": "Epic",
     "armorAmount": 27,
-    "durability": 900,
+    "durability": 800,
     "weight": 20,
     "bonus": {},
     "repair": {
@@ -61,8 +61,8 @@
   },
   "Helmet_05": {
     "rarity": "Exotic",
-    "armorAmount": 29,
-    "durability": 1000,
+    "armorAmount": 30,
+    "durability": 900,
     "weight": 20,
     "bonus": {},
     "repair": {
@@ -76,33 +76,25 @@
   },
   "Helmet_Tactical_01": {
     "rarity": "Common",
-    "armorAmount": 7,
+    "armorAmount": 10,
     "durability": 500,
     "weight": 20,
-    "bonus": {
-      "attribute": "MaxStamina",
-      "type": "Additive",
-      "value": 7
-    },
+    "bonus": {},
     "repair": {
-      "baseCost": 38,
-      "costModifierBroken": 96,
-      "maxPrice": 190,
+      "baseCost": 56,
+      "costModifierBroken": 140,
+      "maxPrice": 280,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 113,
-    "factionRep": 1
+    "sellValue": 169,
+    "factionRep": 2
   },
   "Helmet_Tactical_02": {
     "rarity": "Uncommon",
-    "armorAmount": 14,
+    "armorAmount": 17,
     "durability": 600,
     "weight": 20,
-    "bonus": {
-      "attribute": "MaxStamina",
-      "type": "Additive",
-      "value": 15
-    },
+    "bonus": {},
     "repair": {
       "baseCost": 153,
       "costModifierBroken": 384,
@@ -114,14 +106,10 @@
   },
   "Helmet_Tactical_03": {
     "rarity": "Rare",
-    "armorAmount": 19,
+    "armorAmount": 23,
     "durability": 700,
     "weight": 20,
-    "bonus": {
-      "attribute": "MaxStamina",
-      "type": "Additive",
-      "value": 15
-    },
+    "bonus": {},
     "repair": {
       "baseCost": 608,
       "costModifierBroken": 1521,
@@ -133,14 +121,10 @@
   },
   "Helmet_Restoration_01": {
     "rarity": "Uncommon",
-    "armorAmount": 14,
+    "armorAmount": 17,
     "durability": 600,
     "weight": 20,
-    "bonus": {
-      "attribute": "HealthRegenerationRate",
-      "type": "Additive",
-      "value": 0.1
-    },
+    "bonus": {},
     "repair": {
       "baseCost": 153,
       "costModifierBroken": 384,
@@ -152,14 +136,10 @@
   },
   "Helmet_Restoration_02": {
     "rarity": "Rare",
-    "armorAmount": 19,
+    "armorAmount": 23,
     "durability": 700,
     "weight": 20,
-    "bonus": {
-      "attribute": "HealthRegenerationRate",
-      "type": "Additive",
-      "value": 0.1
-    },
+    "bonus": {},
     "repair": {
       "baseCost": 608,
       "costModifierBroken": 1521,
@@ -171,21 +151,62 @@
   },
   "Helmet_NV_01": {
     "rarity": "Legendary",
-    "armorAmount": 29,
+    "armorAmount": 33,
     "durability": 1000,
     "weight": 20,
-    "bonus": {
-      "attribute": "HelmetNV",
-      "type": "Override",
-      "value": 1
-    },
+    "bonus": {},
     "repair": {
-      "baseCost": 1155,
-      "costModifierBroken": 2890,
-      "maxPrice": 5775,
+      "baseCost": 1540,
+      "costModifierBroken": 3853,
+      "maxPrice": 7700,
       "durabilityBrokenPriceModifier": 0.5
     },
     "sellValue": 23066,
     "factionRep": 231
+  },
+  "Helmet_Altered_01": {
+    "rarity": "Epic",
+    "armorAmount": 27,
+    "durability": 800,
+    "weight": 20,
+    "bonus": {},
+    "repair": {
+      "baseCost": 1080,
+      "costModifierBroken": 2725,
+      "maxPrice": 5400,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": 7973,
+    "factionRep": 80
+  },
+  "Helmet_Altered_02": {
+    "rarity": "Exotic",
+    "armorAmount": 30,
+    "durability": 900,
+    "weight": 20,
+    "bonus": {},
+    "repair": {
+      "baseCost": 1425,
+      "costModifierBroken": 3564,
+      "maxPrice": 7125,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": 17086,
+    "factionRep": 171
+  },
+  "Helmet_Altered_03": {
+    "rarity": "Legendary",
+    "armorAmount": 33,
+    "durability": 1000,
+    "weight": 20,
+    "bonus": {},
+    "repair": {
+      "baseCost": 1700,
+      "costModifierBroken": 4237,
+      "maxPrice": 8500,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "sellValue": 25629,
+    "factionRep": 256
   }
 }

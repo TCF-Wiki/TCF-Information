@@ -1,0 +1,51 @@
+{
+  "inGameName": "Main-ICA-Caverns-11",
+  "description": "\"I think it's time we send a clearer message; the corps might not care if the cannonfodder they send down come back encased in foam each time, but I know they'll listen if their precious machines and sacred caves get turned to rubble. Find Derelict Explosives and some NiC Oil Cannisters and stash them near each corp's compound, our people will handle the rest.\"",
+  "faction": "ICA",
+  "factionReputation": 2300,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "DeadDrop",
+      "maxProgress": 4,
+      "deadDropLocation": "Map03_OsirisMain",
+      "deadDropItem": "Derelict Explosives"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 12,
+      "deadDropLocation": "Map03_OsirisMain",
+      "deadDropItem": "NiC Oil Cannister"
+    },
+    {
+      "type": "DeadDrop",
+      "maxProgress": 6,
+      "deadDropLocation": "Map03_KorolevMain",
+      "deadDropItem": "Derelict Explosives"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "ICAScrip",
+      "amount": 117,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 276000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 2300
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

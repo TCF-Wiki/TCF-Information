@@ -1,0 +1,72 @@
+{
+  "inGameName": "Main-KOR-Caverns-10",
+  "description": "\"Nothing is working out! Nothing you brought back is natural, but it's useless! Why would Gregor expend so many resources on these alien trinkets? Why oversee the operation himself, off the books? This alien business, it's for other people to care about... HQ would have never approved the expenditure without results, so what did he know?\r\n\r\nProspector, I need you to head to the areas they marked off as 'forbidden', clear out any creatures there; I need a Korolev team down there to finally figure all this out!\"",
+  "faction": "Korolev",
+  "factionReputation": 1800,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "Kills",
+      "maxProgress": 5,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      },
+      "locationConditions": "Map03_KorolevOutpost2"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 5,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      },
+      "locationConditions": "Map03_InvertedTriangleStaircase"
+    },
+    {
+      "type": "Kills",
+      "maxProgress": 5,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Creatures",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      },
+      "locationConditions": "Map03_AbyssShaft"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 87,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 15000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 1800
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}

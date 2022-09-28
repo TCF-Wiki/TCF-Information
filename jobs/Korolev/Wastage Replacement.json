@@ -1,0 +1,36 @@
+{
+  "inGameName": "Wastage Replacement",
+  "description": "Prospector. We are still having some difficulties really making Tharis Iron work with our Manufacturing Processes. Get us some more of it as a basis for further Experiments.",
+  "faction": "Korolev",
+  "factionReputation": 500,
+  "difficulty": "Hard",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 12,
+      "itemToOwn": "Tharis Iron"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 40,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 40000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 500
+    }
+  ],
+  "unlockLevel": 20,
+  "unlockContracts": [],
+  "isMain": false
+}

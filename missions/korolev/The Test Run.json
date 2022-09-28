@@ -23,7 +23,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 15,
         "itemToOwn": "Letium",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -37,9 +37,15 @@
     ],
     "rewards": [
       {
-        "item": "Shield Exotic",
+        "item": "KOR-47",
         "amount": 1,
         "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Laser Drill Beacon",
+        "amount": 2,
+        "isEndOfChainReward": false,
         "isUnlockReward": false
       },
       {
@@ -50,7 +56,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 136000,
+        "amount": 193000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -65,6 +71,6 @@
     ],
     "isMain": true,
     "chainName": "The Test Run",
-    "chainDescription": "With the Laser Drill complete, it's up to you to test it out and finally retrieve some Letium for Korolev. Remember to be careful, that thing will draw a lot of unwanted attention during descent, and it'll take a while to produce results!"
+    "chainDescription": "With the Laser Drill complete, it's up to you to test it out and finally retrieve some Letium for Korolev.\r\n\r\nRemember to be careful, that thing will draw a lot of unwanted attention during descent, and it'll take a while to produce results!"
   }
 ]

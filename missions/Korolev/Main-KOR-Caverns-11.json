@@ -1,0 +1,51 @@
+{
+  "inGameName": "Main-KOR-Caverns-11",
+  "description": "\"I had thought the reports of sickness were fake, lazy workers or a way to get more funding, but it appears prospectors like you have built up some sort of immunity to whatever ails those hellish caverns; within minutes half my team experienced extreme migraines, and the other half were outright delerious! The Chief Engineer's logbook mentions a medical report, but there's nothing official logged or approved by my predecessor. Head down again and recover it for me, Prospector, I need to know what happened there.\"",
+  "faction": "Korolev",
+  "factionReputation": 2300,
+  "difficulty": "Invalid",
+  "failConditions": [],
+  "objectives": [
+    {
+      "type": "VisitArea",
+      "maxProgress": 1,
+      "killConditions": {
+        "m_killTarget": "EYKillTypeAction::Players",
+        "m_allowedWeaponCategories": [],
+        "m_allowedSpecificWeapons": [],
+        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+        "m_mapName": "",
+        "m_onlyDuringStorm": false
+      },
+      "locationConditions": "Map03_CultistArea"
+    },
+    {
+      "type": "OwnNumOfItem",
+      "maxProgress": 1,
+      "itemToOwn": "Mining Party Medical Files"
+    }
+  ],
+  "rewards": [
+    {
+      "item": "KorolevScrip",
+      "amount": 117,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "SoftCurrency",
+      "amount": 17000,
+      "isEndOfChainReward": false,
+      "isUnlockReward": false
+    },
+    {
+      "item": "Faction Reputation",
+      "amount": 2300
+    }
+  ],
+  "unlockLevel": 0,
+  "unlockContracts": [
+    ""
+  ],
+  "isMain": true
+}
