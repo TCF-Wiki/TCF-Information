@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AlienForgeSettings_DT",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YAlienForgeSettingsRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "LonelyRow": {
+        "m_requiredAmountCatalyst": 3,
+        "m_raritiesToAmountMap": {
+          "EYItemRarityType::Common": 3,
+          "EYItemRarityType::Uncommon": 3,
+          "EYItemRarityType::Rare": 2,
+          "EYItemRarityType::Epic": 2,
+          "EYItemRarityType::Exotic": 1,
+          "EYItemRarityType::Legendary": 1
+        },
+        "m_raritiesToTimerMapBaseItemAndCatalyst": {
+          "EYItemRarityType::Epic": 45,
+          "EYItemRarityType::Exotic": 60,
+          "EYItemRarityType::Legendary": 90
+        },
+        "m_raritiesToTimerMapLotteryTicket": {
+          "EYItemRarityType::Epic": 45,
+          "EYItemRarityType::Exotic": 60,
+          "EYItemRarityType::Legendary": 90
+        },
+        "m_raritiesToProbabilityMapLotteryTicket": {
+          "EYItemRarityType::Epic": 0,
+          "EYItemRarityType::Legendary": 5,
+          "EYItemRarityType::Exotic": 95
+        },
+        "m_ingotsTimer": 30,
+        "m_maxAmountOfInputItems": 5,
+        "m_defaultTimerValue": 30,
+        "m_possibleSideProductsAndWeights": [
+          {
+            "m_weightedReward": {
+              "m_reward": {
+                "DataTable": {
+                  "ObjectName": "DataTable Materials_DT",
+                  "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+                },
+                "RowName": "AF_Slag"
+              },
+              "m_weight": 10
+            },
+            "m_amount": 1
+          },
+          {
+            "m_weightedReward": {
+              "m_reward": {
+                "DataTable": {
+                  "ObjectName": "DataTable Materials_DT",
+                  "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+                },
+                "RowName": "AF_Token"
+              },
+              "m_weight": 15
+            },
+            "m_amount": 1
+          }
+        ],
+        "m_forgingProcessesWithSideProducts": [
+          "EYAlienForgeCanItemBeForgedState::BaseItemAndCatalyst"
+        ],
+        "m_rowName": "LonelyRow"
+      }
+    }
+  }
+]
