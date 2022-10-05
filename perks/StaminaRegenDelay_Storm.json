@@ -1,0 +1,28 @@
+{
+  "Description": "Stamina regenerates without delay during a Storm",
+  "Equipment": [
+    "Equipment.Back Item"
+  ],
+  "Items": [
+    "MiniatureReactor",
+    "StormyCreatureDrop"
+  ],
+  "Elite": false,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::StaminaRegenerationDelayScaling",
+      "Type": "EYGPAModifierType::Override",
+      "Value": 0.2,
+      "minValue": 0.2,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 0,
+      "runtimeValue": 1,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 0.2
+    }
+  ]
+}

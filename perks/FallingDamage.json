@@ -1,0 +1,31 @@
+{
+  "Description": "Less damage from falling",
+  "Equipment": [
+    "Equipment.Shield",
+    "Equipment.Back Item"
+  ],
+  "Items": [
+    "HardenedBoneAlloy",
+    "BlueRunnerEgg",
+    "Alien_Scrap",
+    "NeuroToxicGlands"
+  ],
+  "Elite": false,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::FallingDamageReduction",
+      "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "Value": 0.7,
+      "minValue": 0.7,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 0,
+      "runtimeValue": 1,
+      "stepGranularity": 0.05,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.95
+    }
+  ]
+}

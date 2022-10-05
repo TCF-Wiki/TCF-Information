@@ -1,0 +1,28 @@
+{
+  "Description": "Extra armor",
+  "Equipment": [
+    "Equipment.Shield"
+  ],
+  "Items": [
+    "AI_CrusherSkin",
+    "FocusCrystal"
+  ],
+  "Elite": false,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::ShieldArmorScaling",
+      "Type": "EYGPAModifierType::Additive",
+      "Value": 0.7,
+      "minValue": 3,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 0,
+      "runtimeValue": 1,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 3
+    }
+  ]
+}

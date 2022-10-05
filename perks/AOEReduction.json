@@ -1,0 +1,29 @@
+{
+  "Description": "Less damage from explosions",
+  "Equipment": [
+    "Equipment.Helmet",
+    "Equipment.Shield"
+  ],
+  "Items": [
+    "AI_CrusherSkin",
+    "TitanOre"
+  ],
+  "Elite": false,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::RadialDamageScaling",
+      "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "Value": 0,
+      "minValue": 0.5,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 0,
+      "runtimeValue": 1,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  ]
+}

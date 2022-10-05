@@ -1,0 +1,30 @@
+{
+  "Description": "Faster Stim and Medkit use",
+  "Equipment": [
+    "Equipment.Helmet",
+    "Equipment.Shield"
+  ],
+  "Items": [
+    "RadioactiveBrightcapMushroom",
+    "TentaclePlant",
+    "AI_WeremoleMeat_02"
+  ],
+  "Elite": false,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::HealingApplicationTimeScaling",
+      "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "Value": 0.1,
+      "minValue": 0.7,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 1,
+      "runtimeValue": 1,
+      "stepGranularity": 0.05,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  ]
+}
