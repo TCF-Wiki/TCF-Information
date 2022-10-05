@@ -1736,13 +1736,13 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Shield Rare"
+        "deadDropItem": "Rare Shield"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Helmet Rare"
+        "deadDropItem": "Rare Helmet"
       },
       {
         "type": "DeadDrop",
@@ -2015,6 +2015,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Scarab",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "Faction Reputation",
         "amount": 50
       }
@@ -2098,7 +2104,7 @@
     ],
     "rewards": [
       {
-        "item": "Tactical Helmet Common",
+        "item": "Common Tactical Helmet",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -2204,8 +2210,8 @@
     ],
     "rewards": [
       {
-        "item": "Shield Uncommon",
-        "amount": 1,
+        "item": "Uncommon Restoration Shield",
+        "amount": 2,
         "isEndOfChainReward": true,
         "isUnlockReward": false
       },
@@ -2268,7 +2274,7 @@
     ],
     "rewards": [
       {
-        "item": "Helmet Uncommon",
+        "item": "Uncommon Helmet",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -3322,7 +3328,7 @@
     ],
     "rewards": [
       {
-        "item": "Shield Rare",
+        "item": "Rare Shield",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -3736,7 +3742,7 @@
     ],
     "rewards": [
       {
-        "item": "Helmet Rare",
+        "item": "Rare Helmet",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -4157,7 +4163,7 @@
     ],
     "rewards": [
       {
-        "item": "Restoration Shield Rare",
+        "item": "Rare Restoration Shield",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -4735,7 +4741,7 @@
     ],
     "rewards": [
       {
-        "item": "Shield Epic",
+        "item": "Epic Shield",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false

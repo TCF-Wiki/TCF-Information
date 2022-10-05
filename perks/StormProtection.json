@@ -1,0 +1,31 @@
+{
+  "Description": "Less damage from Storm strikes",
+  "Equipment": [
+    "Equipment.Back Item",
+    "Equipment.Helmet",
+    "Equipment.Shield"
+  ],
+  "Items": [
+    "MeteorFragment",
+    "StormyCreatureDrop",
+    "AI_WeremoleMeat"
+  ],
+  "Elite": false,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::DamageScalingReceivedFromStorm",
+      "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "Value": 0.1,
+      "minValue": 0.7,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 1,
+      "runtimeValue": 1,
+      "stepGranularity": 0.05,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.95
+    }
+  ]
+}

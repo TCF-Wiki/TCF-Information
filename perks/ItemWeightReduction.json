@@ -1,0 +1,31 @@
+{
+  "Description": "Reduced weight of this piece of gear",
+  "Equipment": [
+    "Equipment.Back Item",
+    "Equipment.Helmet",
+    "Equipment.Shield"
+  ],
+  "Items": [
+    "AlienFruit",
+    "WaterPlant",
+    "MeteorFragment"
+  ],
+  "Elite": false,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::ItemWeightReduction",
+      "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "Value": 0,
+      "minValue": 0.5,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 0,
+      "runtimeValue": 1,
+      "stepGranularity": 0.1,
+      "numSteps": 4,
+      "calculatedMaxValue": 0.8
+    }
+  ]
+}

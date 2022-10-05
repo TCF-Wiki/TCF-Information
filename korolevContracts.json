@@ -1736,7 +1736,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CenterBase_Office",
-        "deadDropItem": "Shield Rare"
+        "deadDropItem": "Rare Shield"
       },
       {
         "type": "Kills",
@@ -1953,6 +1953,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "KM-9 'Scrapper'",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "Faction Reputation",
         "amount": 50
       }
@@ -2050,7 +2056,7 @@
     ],
     "rewards": [
       {
-        "item": "Tactical Shield Common",
+        "item": "Common Tactical Shield",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -2108,7 +2114,7 @@
     ],
     "rewards": [
       {
-        "item": "Tactical Helmet Uncommon",
+        "item": "Uncommon Tactical Helmet",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -2173,8 +2179,8 @@
     ],
     "rewards": [
       {
-        "item": "KM-9 'Scrapper'",
-        "amount": 1,
+        "item": "Uncommon Shield",
+        "amount": 2,
         "isEndOfChainReward": true,
         "isUnlockReward": false
       },
@@ -2942,7 +2948,7 @@
     ],
     "rewards": [
       {
-        "item": "Helmet Uncommon",
+        "item": "Uncommon Helmet",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -3046,7 +3052,7 @@
     ],
     "rewards": [
       {
-        "item": "Tactical Shield Uncommon",
+        "item": "Uncommon Tactical Shield",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -3205,7 +3211,7 @@
     ],
     "rewards": [
       {
-        "item": "Mod_Korolev_Scanner_Veltecite",
+        "item": "Veltecite Scanning Module",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -3303,7 +3309,7 @@
     ],
     "rewards": [
       {
-        "item": "Mod_Korolev_Scanner_HeavyMetals",
+        "item": "Titan Ore Scanning Module",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -3349,7 +3355,7 @@
     ],
     "rewards": [
       {
-        "item": "Mod_Korolev_Scanner_AlienCrystals",
+        "item": "Focus Crystal Scanning Module",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -3480,7 +3486,7 @@
     ],
     "rewards": [
       {
-        "item": "Helmet Rare",
+        "item": "Rare Helmet",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -3825,7 +3831,7 @@
     ],
     "rewards": [
       {
-        "item": "Tactical Helmet Rare",
+        "item": "Rare Tactical Helmet",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -3916,7 +3922,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CenterBase_GateC",
-        "deadDropItem": "Restoration Shield Uncommon"
+        "deadDropItem": "Uncommon Restoration Shield"
       },
       {
         "type": "DeadDrop",
@@ -3927,7 +3933,7 @@
     ],
     "rewards": [
       {
-        "item": "Shield Rare",
+        "item": "Rare Shield",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -4443,7 +4449,7 @@
     ],
     "rewards": [
       {
-        "item": "Tactical Shield Rare",
+        "item": "Rare Tactical Shield",
         "amount": 1,
         "isEndOfChainReward": true,
         "isUnlockReward": false
@@ -4663,7 +4669,7 @@
     ],
     "rewards": [
       {
-        "item": "Helmet Exotic",
+        "item": "Exotic Helmet",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false

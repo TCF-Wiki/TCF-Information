@@ -1,0 +1,137 @@
+{
+  "Bag_01_broken": {
+    "ingamename": "Worn Emergency Bag",
+    "rarity": "Common",
+    "weightLimit": 100,
+    "durability": -1,
+    "weight": 5,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 180,
+    "factionRep": 2
+  },
+  "Bag_01": {
+    "ingamename": "Small Backpack",
+    "rarity": "Common",
+    "weightLimit": 200,
+    "durability": -1,
+    "weight": 20,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 180,
+    "factionRep": 2
+  },
+  "Bag_02": {
+    "ingamename": "Medium Backpack",
+    "rarity": "Uncommon",
+    "weightLimit": 250,
+    "durability": -1,
+    "weight": 30,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 810,
+    "factionRep": 8
+  },
+  "Bag_03": {
+    "ingamename": "Large Backpack",
+    "rarity": "Rare",
+    "weightLimit": 300,
+    "durability": -1,
+    "weight": 40,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 1823,
+    "factionRep": 18
+  },
+  "Bag_04": {
+    "ingamename": "Heavy Duty Backpack",
+    "rarity": "Epic",
+    "weightLimit": 350,
+    "durability": -1,
+    "weight": 50,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 3645,
+    "factionRep": 36
+  },
+  "Bag_05": {
+    "ingamename": "Gigantic Backpack",
+    "rarity": "Exotic",
+    "weightLimit": 400,
+    "durability": -1,
+    "weight": 60,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 6834,
+    "factionRep": 68
+  },
+  "Bag_Altered_01": {
+    "ingamename": "Huge Forged Backpack",
+    "rarity": "Epic",
+    "weightLimit": 350,
+    "durability": -1,
+    "weight": 50,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 5468,
+    "factionRep": 55
+  },
+  "Bag_Altered_02": {
+    "ingamename": "Gigantic Forged Backpack",
+    "rarity": "Exotic",
+    "weightLimit": 400,
+    "durability": -1,
+    "weight": 60,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 9568,
+    "factionRep": 96
+  },
+  "Bag_Altered_03": {
+    "ingamename": "Monstrous Forged Backpack",
+    "rarity": "Legendary",
+    "weightLimit": 500,
+    "durability": -1,
+    "weight": 70,
+    "repair": {
+      "baseCost": 100,
+      "costModifierBroken": 100,
+      "maxPrice": 100,
+      "durabilityBrokenPriceModifier": 1
+    },
+    "sellValue": 14352,
+    "factionRep": 144
+  }
+}

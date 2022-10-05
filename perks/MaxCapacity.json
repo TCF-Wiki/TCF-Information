@@ -1,0 +1,28 @@
+{
+  "Description": "Extra backpack capacity",
+  "Equipment": [
+    "Equipment.Back Item"
+  ],
+  "Items": [
+    "DesertPlant",
+    "MeteorCore"
+  ],
+  "Elite": false,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::BagSizeIncrease",
+      "Type": "EYGPAModifierType::Additive",
+      "Value": 0,
+      "minValue": 10,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 0,
+      "runtimeValue": 1,
+      "stepGranularity": 10,
+      "numSteps": 5,
+      "calculatedMaxValue": 50
+    }
+  ]
+}

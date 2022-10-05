@@ -1,0 +1,28 @@
+{
+  "Description": "Reduced weight of all items carried in backpack",
+  "Equipment": [
+    "Equipment.Back Item"
+  ],
+  "Items": [
+    "MiniatureReactor",
+    "MeteorCore"
+  ],
+  "Elite": true,
+  "Duration": 0,
+  "Attributes": [
+    {
+      "Attribute": "EYGameplayAttribute::CarriedWeightReduction",
+      "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
+      "Value": 0,
+      "minValue": 0.5,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 0,
+      "runtimeValue": 1,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  ]
+}
