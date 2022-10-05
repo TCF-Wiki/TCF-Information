@@ -1,0 +1,2057 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "RolledPerks_DT",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct YRolledPerkRow",
+        "ObjectPath": "/Script/Prospect"
+      }
+    },
+    "Rows": {
+      "Perk_HealthRegen": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.3,
+          "m_stepGranularity": 0.1,
+          "m_numSteps": 6,
+          "m_calculatedMaxValue": 0.8
+        },
+        "m_itemTags": [
+          "Equipment.Helmet",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_WeremoleMeat_02"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "IvyPlant"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "BrightcapMushroom"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AlienFruit"
+          }
+        ],
+        "m_shortRolledPerkId": 2,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_HealthRegen_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_HealthRegen_Icn.T_UI_Perk_HealthRegen_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.1,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_HealthRegen"
+      },
+      "Perk_HealingAmount": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 5.0,
+          "m_stepGranularity": 2.0,
+          "m_numSteps": 6,
+          "m_calculatedMaxValue": 15.0
+        },
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "IvyPlant"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "TentaclePlant"
+          }
+        ],
+        "m_shortRolledPerkId": 3,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_HealingAmount_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_HealingAmount_Icn.T_UI_Perk_HealingAmount_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealingAmountScaling",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.1,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_HealingAmount"
+      },
+      "Perk_MaxHealth": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 5.0,
+          "m_stepGranularity": 5.0,
+          "m_numSteps": 3,
+          "m_calculatedMaxValue": 15.0
+        },
+        "m_itemTags": [
+          "Equipment.Helmet"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_WeremoleHead"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_WeremoleMeat_02"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "TentaclePlant"
+          }
+        ],
+        "m_shortRolledPerkId": 4,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_MaxHealth_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_MaxHealth_Icn.T_UI_Perk_MaxHealth_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxHealth",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.1,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_MaxHealth"
+      },
+      "Perk_HealingSpeed": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.7,
+          "m_stepGranularity": 0.05,
+          "m_numSteps": 5,
+          "m_calculatedMaxValue": 0.9
+        },
+        "m_itemTags": [
+          "Equipment.Helmet",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "RadioactiveBrightcapMushroom"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "TentaclePlant"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_WeremoleMeat_02"
+          }
+        ],
+        "m_shortRolledPerkId": 5,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_HealingSpeed_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_HealingSpeed_Icn.T_UI_Perk_HealingSpeed_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealingApplicationTimeScaling",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.1,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_HealingSpeed"
+      },
+      "Perk_HealthRegen_Storm": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.5,
+          "m_stepGranularity": 0.2,
+          "m_numSteps": 6,
+          "m_calculatedMaxValue": 1.5
+        },
+        "m_itemTags": [
+          "Equipment.Shield",
+          "Equipment.Helmet"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "StormyCreatureDrop"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "RadioactiveBrightcapMushroom"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "FocusCrystal"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "IvyPlant"
+          }
+        ],
+        "m_shortRolledPerkId": 6,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_HealthRegen_Storm_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_HealthRegen_Storm_Icn.T_UI_Perk_HealthRegen_Storm_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::OnStormActive",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HealthRegenerationRate",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.1,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_HealthRegen_Storm"
+      },
+      "Perk_MaxStamina": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 20.0,
+          "m_stepGranularity": 5.0,
+          "m_numSteps": 6,
+          "m_calculatedMaxValue": 45.0
+        },
+        "m_itemTags": [
+          "Equipment.Back Item",
+          "Equipment.Helmet",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "WaterPlant"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_StriderMeat"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_WeremoleMeat"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerEyes"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "HardenedBoneAlloy"
+          }
+        ],
+        "m_shortRolledPerkId": 7,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_MaximumStamina_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_MaxStamina_Icn.T_UI_Perk_MaxStamina_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxStamina",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.1,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_MaxStamina"
+      },
+      "Perk_StaminaConsumption": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.8,
+          "m_stepGranularity": 0.03,
+          "m_numSteps": 6,
+          "m_calculatedMaxValue": 0.95
+        },
+        "m_itemTags": [
+          "Equipment.Back Item",
+          "Equipment.Helmet",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerEyes"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "BrightcapMushroom"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_StriderMeat"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerEyes"
+          }
+        ],
+        "m_shortRolledPerkId": 8,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_StaminaConsumption_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_StaminaConsumption_Icn.T_UI_Perk_StaminaConsumption_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::StaminaConsumptionRate",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.1,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_StaminaConsumption"
+      },
+      "Perk_StormProtection": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.7,
+          "m_stepGranularity": 0.05,
+          "m_numSteps": 6,
+          "m_calculatedMaxValue": 0.95
+        },
+        "m_itemTags": [
+          "Equipment.Back Item",
+          "Equipment.Helmet",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "MeteorFragment"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "StormyCreatureDrop"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_WeremoleMeat"
+          }
+        ],
+        "m_shortRolledPerkId": 9,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_StormProtection_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_StormProtection_Icn.T_UI_Perk_StormProtection_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceivedFromStorm",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.1,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 1.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_StormProtection"
+      },
+      "Perk_AIProtection": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.75,
+          "m_stepGranularity": 0.05,
+          "m_numSteps": 5,
+          "m_calculatedMaxValue": 0.95
+        },
+        "m_itemTags": [
+          "Equipment.Helmet",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerHead"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "HardenedBoneAlloy"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "TitanOre"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerEyes_02"
+          }
+        ],
+        "m_shortRolledPerkId": 10,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_AIProtection_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_AIProtection_Icn.T_UI_Perk_AIProtection_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::DamageScalingReceivedFromAI",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.7,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_AIProtection"
+      },
+      "Perk_FallingDamage": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.7,
+          "m_stepGranularity": 0.05,
+          "m_numSteps": 6,
+          "m_calculatedMaxValue": 0.95
+        },
+        "m_itemTags": [
+          "Equipment.Shield",
+          "Equipment.Back Item"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "HardenedBoneAlloy"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "BlueRunnerEgg"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "Alien_Scrap"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "NeuroToxicGlands"
+          }
+        ],
+        "m_shortRolledPerkId": 11,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_FallingDamage_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_FallDamage_Icn.T_UI_Perk_FallDamage_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::FallingDamageReduction",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.7,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_FallingDamage"
+      },
+      "Perk_Armor_Helmet": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 3.0,
+          "m_stepGranularity": 1.0,
+          "m_numSteps": 1,
+          "m_calculatedMaxValue": 3.0
+        },
+        "m_itemTags": [
+          "Equipment.Helmet"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_CrusherSkin"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "FocusCrystal"
+          }
+        ],
+        "m_shortRolledPerkId": 12,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_Armor_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_Armor_Icn.T_UI_Perk_Armor_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HelmetArmorScaling",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.7,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_Armor_Helmet"
+      },
+      "Perk_StaminaRegenDelay_Storm": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.2,
+          "m_stepGranularity": 1.0,
+          "m_numSteps": 1,
+          "m_calculatedMaxValue": 0.2
+        },
+        "m_itemTags": [
+          "Equipment.Back Item"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "MiniatureReactor"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "StormyCreatureDrop"
+          }
+        ],
+        "m_shortRolledPerkId": 13,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_StaminaRegenDelay_Storm_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_StaminaRegenDelay_Storm_Icn.T_UI_Perk_StaminaRegenDelay_Storm_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": true,
+        "m_trigger": "EYPerkTrigger::OnStormActive",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::StaminaRegenerationDelayScaling",
+            "m_modifierType": "EYGPAModifierType::Override",
+            "m_modifierValue": 0.2,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_StaminaRegenDelay_Storm"
+      },
+      "Perk_HunterVisionHelm": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 1.0,
+          "m_stepGranularity": 1.0,
+          "m_numSteps": 1,
+          "m_calculatedMaxValue": 1.0
+        },
+        "m_itemTags": [
+          "Equipment.Helmet"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_WeremoleHead"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerHead"
+          }
+        ],
+        "m_shortRolledPerkId": 14,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_HunterVisionHelm_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_HunterVisionHelm_Icn.T_UI_Perk_HunterVisionHelm_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": true,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": true,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::HelmetThermal",
+            "m_modifierType": "EYGPAModifierType::Override",
+            "m_modifierValue": 1.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_HunterVisionHelm"
+      },
+      "Perk_AIDetection": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.6,
+          "m_stepGranularity": 1.0,
+          "m_numSteps": 1,
+          "m_calculatedMaxValue": 0.6
+        },
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_WeremoleMeat"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "NeuroToxicGlands"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerEyes"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerHead"
+          }
+        ],
+        "m_shortRolledPerkId": 15,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_AIDetection_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_AIDetection_Icn.T_UI_Perk_AIDetection_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": true,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": true,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::AIDetectionHearingModifier",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PostAdd",
+            "m_modifierValue": 0.5,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::AIDetectionSightModifier",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PostAdd",
+            "m_modifierValue": 0.5,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_AIDetection"
+      },
+      "Perk_ItemWeightReduction": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.5,
+          "m_stepGranularity": 0.1,
+          "m_numSteps": 4,
+          "m_calculatedMaxValue": 0.8
+        },
+        "m_itemTags": [
+          "Equipment.Back Item",
+          "Equipment.Helmet",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AlienFruit"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "WaterPlant"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "MeteorFragment"
+          }
+        ],
+        "m_shortRolledPerkId": 16,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_ItemWeightReduction_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_ItemWeightReduction_Icn.T_UI_Perk_ItemWeightReduction_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::ItemWeightReduction",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_ItemWeightReduction"
+      },
+      "Perk_MaxCapacity": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 10.0,
+          "m_stepGranularity": 10.0,
+          "m_numSteps": 5,
+          "m_calculatedMaxValue": 50.0
+        },
+        "m_itemTags": [
+          "Equipment.Back Item"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "DesertPlant"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "MeteorCore"
+          }
+        ],
+        "m_shortRolledPerkId": 17,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_MaxCapacity_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_MaxCapacity_Icn.T_UI_Perk_MaxCapacity_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::BagSizeIncrease",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_MaxCapacity"
+      },
+      "Perk_AOEReduction": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.5,
+          "m_stepGranularity": 0.1,
+          "m_numSteps": 5,
+          "m_calculatedMaxValue": 0.9
+        },
+        "m_itemTags": [
+          "Equipment.Helmet",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_CrusherSkin"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "TitanOre"
+          }
+        ],
+        "m_shortRolledPerkId": 18,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_AOEReduction_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_AOERedcuction_Icn.T_UI_Perk_AOERedcuction_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::RadialDamageScaling",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_AOEReduction"
+      },
+      "Perk_WeightAll": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.5,
+          "m_stepGranularity": 0.1,
+          "m_numSteps": 5,
+          "m_calculatedMaxValue": 0.9
+        },
+        "m_itemTags": [
+          "Equipment.Back Item"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "MiniatureReactor"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "MeteorCore"
+          }
+        ],
+        "m_shortRolledPerkId": 19,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_WeightAll_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_WeightAll_Icn.T_UI_Perk_WeightAll_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": true,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::CarriedWeightReduction",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_WeightAll"
+      },
+      "Perk_WeightFaunaResources": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.5,
+          "m_stepGranularity": 0.1,
+          "m_numSteps": 5,
+          "m_calculatedMaxValue": 0.9
+        },
+        "m_itemTags": [
+          "Equipment.Back Item"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AlienFruit"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "DesertPlant"
+          }
+        ],
+        "m_shortRolledPerkId": 20,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_WeightFaunaResources_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_WeightFaunaResources_Icn.T_UI_Perk_WeightFaunaResources_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": true,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::CarriedWeightReductionFauna",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::Unknown",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::CarriedWeightReductionMinerals",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_WeightFaunaResources"
+      },
+      "Perk_WeightConsumablesAmmo": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.5,
+          "m_stepGranularity": 0.1,
+          "m_numSteps": 5,
+          "m_calculatedMaxValue": 0.9
+        },
+        "m_itemTags": [
+          "Equipment.Back Item"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "Alien_Scrap"
+          }
+        ],
+        "m_shortRolledPerkId": 21,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_WeightConsumablesAmmo_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_WeightConsumablesAmmo_Icn.T_UI_Perk_WeightConsumablesAmmo_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": true,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::CarriedWeightReductionAmmo",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::CarriedWeightReductionConsumables",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_WeightConsumablesAmmo"
+      },
+      "Perk_WeightWeaponGear": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 0.5,
+          "m_stepGranularity": 0.1,
+          "m_numSteps": 5,
+          "m_calculatedMaxValue": 0.9
+        },
+        "m_itemTags": [
+          "Equipment.Back Item"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "Alien_Scrap"
+          }
+        ],
+        "m_shortRolledPerkId": 22,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_WeightWeaponGear_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_WeighWeaponGear_Icn.T_UI_Perk_WeighWeaponGear_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": true,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::CarriedWeightReductionWeapons",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::CarriedWeightReductionShield",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          },
+          {
+            "m_attribute": "EYGameplayAttribute::CarriedWeightReductionHelmet",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_WeightWeaponGear"
+      },
+      "Perk_WalkSpeed": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 1.04,
+          "m_stepGranularity": 0.02,
+          "m_numSteps": 3,
+          "m_calculatedMaxValue": 1.0799999
+        },
+        "m_itemTags": [
+          "Equipment.Back Item",
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "BlueRunnerEgg"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "NeuroToxicGlands"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_RattlerEyes_02"
+          }
+        ],
+        "m_shortRolledPerkId": 23,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_WalkSpeed_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_WalkSpeed_Icn.T_UI_Perk_WalkSpeed_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::MaxWalkSpeedScaling",
+            "m_modifierType": "EYGPAModifierType::Multiplicitive_PreAdd",
+            "m_modifierValue": 0.0,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_WalkSpeed"
+      },
+      "Perk_Armor_Shield": {
+        "m_attributeModiferRolledValueOverride": {
+          "m_minValue": 3.0,
+          "m_stepGranularity": 1.0,
+          "m_numSteps": 1,
+          "m_calculatedMaxValue": 3.0
+        },
+        "m_itemTags": [
+          "Equipment.Shield"
+        ],
+        "m_materialsHostingThisPerk": [
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "AI_CrusherSkin"
+          },
+          {
+            "DataTable": {
+              "ObjectName": "DataTable Materials_DT",
+              "ObjectPath": "Prospect/Content/DataTables/Items/Materials_DT.0"
+            },
+            "RowName": "FocusCrystal"
+          }
+        ],
+        "m_shortRolledPerkId": 24,
+        "m_displayName": {
+          "TableId": "ST_Mods",
+          "Key": "Mods_Perk_Armor_Description"
+        },
+        "m_hudIcons": [],
+        "m_uiIcon": {
+          "AssetPathName": "/Game/UI/Art/Icons/Perks/T_UI_Perk_Armor_Icn.T_UI_Perk_Armor_Icn",
+          "SubPathString": ""
+        },
+        "m_hidePerkValueInUI": false,
+        "m_trigger": "EYPerkTrigger::AlwaysOn",
+        "m_attributeTriggerData": {
+          "m_attribute": "EYGameplayAttribute::None",
+          "m_bool": "EYPerkBool::None",
+          "m_value": 0.0
+        },
+        "m_weaponSwitchTriggerData": {
+          "m_weaponSlotType": "EYWeaponSlotType::Starter"
+        },
+        "m_contextType": "EYGameplayContextType::All",
+        "m_target": "EYPerkTarget::Source",
+        "m_isElitePerk": false,
+        "m_perkDuration": 0.0,
+        "m_attributeModifiers": [
+          {
+            "m_attribute": "EYGameplayAttribute::ShieldArmorScaling",
+            "m_modifierType": "EYGPAModifierType::Additive",
+            "m_modifierValue": 0.7,
+            "m_minAttributeValue": -1.0,
+            "m_duration": 0.0,
+            "m_lerpTime": -1.0,
+            "m_timestampActivated": -1.0,
+            "m_lerpStartModifierValue": 0.0,
+            "m_lerpEndModifierValue": 0.0,
+            "m_runtimeAttributeValue": 1.0,
+            "m_context": "",
+            "m_instigator": null,
+            "m_overridenContextType": "EYGameplayContextType::All",
+            "m_specifiedContextType": "EYGameplayContextType::All",
+            "m_rowName": "None"
+          }
+        ],
+        "m_refreshAttributes": false,
+        "m_resetAttributeDurationOnReTrigger": false,
+        "m_perkActionsSoftRef": [],
+        "m_damageTriggeringData": {
+          "m_slotTriggerType": "EYWeaponSlotType::Invalid",
+          "m_dataTableRowHandles": [],
+          "m_damageModification": 0.0
+        },
+        "m_rowName": "Perk_Armor_Shield"
+      }
+    }
+  }
+]
