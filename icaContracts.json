@@ -2027,6 +2027,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Bulldog",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "Faction Reputation",
         "amount": 50
       }
@@ -2255,7 +2261,7 @@
     "rewards": [
       {
         "item": "Bag_02",
-        "amount": 1,
+        "amount": 2,
         "isEndOfChainReward": true,
         "isUnlockReward": false
       },
