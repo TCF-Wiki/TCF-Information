@@ -16,15 +16,18 @@
       "Attribute": "EYGameplayAttribute::MaxWalkSpeedScaling",
       "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
       "Value": 0,
-      "minValue": 1.04,
+      "minValue": -1,
       "duration": 0,
       "lerpTime": -1,
       "lerpStartValue": 0,
       "lerpEndValue": 0,
-      "runtimeValue": 1,
-      "stepGranularity": 0.02,
-      "numSteps": 3,
-      "calculatedMaxValue": 1.0799999
+      "runtimeValue": 1
     }
-  ]
+  ],
+  "AttributeOverrides": {
+    "minValue": 1.04,
+    "stepGranularity": 0.02,
+    "numSteps": 3,
+    "calculatedMaxValue": 1.0799999
+  }
 }

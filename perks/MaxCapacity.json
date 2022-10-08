@@ -14,15 +14,18 @@
       "Attribute": "EYGameplayAttribute::BagSizeIncrease",
       "Type": "EYGPAModifierType::Additive",
       "Value": 0,
-      "minValue": 10,
+      "minValue": -1,
       "duration": 0,
       "lerpTime": -1,
       "lerpStartValue": 0,
       "lerpEndValue": 0,
-      "runtimeValue": 1,
-      "stepGranularity": 10,
-      "numSteps": 5,
-      "calculatedMaxValue": 50
+      "runtimeValue": 1
     }
-  ]
+  ],
+  "AttributeOverrides": {
+    "minValue": 10,
+    "stepGranularity": 10,
+    "numSteps": 5,
+    "calculatedMaxValue": 50
+  }
 }

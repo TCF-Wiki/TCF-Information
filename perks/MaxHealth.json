@@ -15,15 +15,18 @@
       "Attribute": "EYGameplayAttribute::MaxHealth",
       "Type": "EYGPAModifierType::Additive",
       "Value": 0.1,
-      "minValue": 5,
+      "minValue": -1,
       "duration": 0,
       "lerpTime": -1,
       "lerpStartValue": 0,
       "lerpEndValue": 1,
-      "runtimeValue": 1,
-      "stepGranularity": 5,
-      "numSteps": 3,
-      "calculatedMaxValue": 15
+      "runtimeValue": 1
     }
-  ]
+  ],
+  "AttributeOverrides": {
+    "minValue": 5,
+    "stepGranularity": 5,
+    "numSteps": 3,
+    "calculatedMaxValue": 15
+  }
 }

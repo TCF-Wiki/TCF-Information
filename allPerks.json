@@ -18,17 +18,20 @@
         "Attribute": "EYGameplayAttribute::HealthRegenerationRate",
         "Type": "EYGPAModifierType::Additive",
         "Value": 0.1,
-        "minValue": 0.3,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 1,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 6,
-        "calculatedMaxValue": 0.8
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.3,
+      "stepGranularity": 0.1,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.8
+    }
   },
   "HealingAmount": {
     "Description": "Bonus to Stim and Medkit healing",
@@ -46,17 +49,20 @@
         "Attribute": "EYGameplayAttribute::HealingAmountScaling",
         "Type": "EYGPAModifierType::Additive",
         "Value": 0.1,
-        "minValue": 5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 1,
-        "runtimeValue": 1,
-        "stepGranularity": 2,
-        "numSteps": 6,
-        "calculatedMaxValue": 15
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 5,
+      "stepGranularity": 2,
+      "numSteps": 6,
+      "calculatedMaxValue": 15
+    }
   },
   "MaxHealth": {
     "Description": "Maximum health",
@@ -75,17 +81,20 @@
         "Attribute": "EYGameplayAttribute::MaxHealth",
         "Type": "EYGPAModifierType::Additive",
         "Value": 0.1,
-        "minValue": 5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 1,
-        "runtimeValue": 1,
-        "stepGranularity": 5,
-        "numSteps": 3,
-        "calculatedMaxValue": 15
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 5,
+      "stepGranularity": 5,
+      "numSteps": 3,
+      "calculatedMaxValue": 15
+    }
   },
   "HealingSpeed": {
     "Description": "Faster Stim and Medkit use",
@@ -105,17 +114,20 @@
         "Attribute": "EYGameplayAttribute::HealingApplicationTimeScaling",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0.1,
-        "minValue": 0.7,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 1,
-        "runtimeValue": 1,
-        "stepGranularity": 0.05,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.7,
+      "stepGranularity": 0.05,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
   },
   "HealthRegen_Storm": {
     "Description": "Health restoration per second during a Storm",
@@ -136,17 +148,20 @@
         "Attribute": "EYGameplayAttribute::HealthRegenerationRate",
         "Type": "EYGPAModifierType::Additive",
         "Value": 0.1,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 1,
-        "runtimeValue": 1,
-        "stepGranularity": 0.2,
-        "numSteps": 6,
-        "calculatedMaxValue": 1.5
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.2,
+      "numSteps": 6,
+      "calculatedMaxValue": 1.5
+    }
   },
   "MaxStamina": {
     "Description": "Maximum stamina",
@@ -169,17 +184,20 @@
         "Attribute": "EYGameplayAttribute::MaxStamina",
         "Type": "EYGPAModifierType::Additive",
         "Value": 0.1,
-        "minValue": 20,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 1,
-        "runtimeValue": 1,
-        "stepGranularity": 5,
-        "numSteps": 6,
-        "calculatedMaxValue": 45
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 20,
+      "stepGranularity": 5,
+      "numSteps": 6,
+      "calculatedMaxValue": 45
+    }
   },
   "StaminaConsumption": {
     "Description": "Less stamina consumption",
@@ -201,17 +219,20 @@
         "Attribute": "EYGameplayAttribute::StaminaConsumptionRate",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0.1,
-        "minValue": 0.8,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 1,
-        "runtimeValue": 1,
-        "stepGranularity": 0.03,
-        "numSteps": 6,
-        "calculatedMaxValue": 0.95
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.8,
+      "stepGranularity": 0.03,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.95
+    }
   },
   "StormProtection": {
     "Description": "Less damage from Storm strikes",
@@ -232,17 +253,20 @@
         "Attribute": "EYGameplayAttribute::DamageScalingReceivedFromStorm",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0.1,
-        "minValue": 0.7,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 1,
-        "runtimeValue": 1,
-        "stepGranularity": 0.05,
-        "numSteps": 6,
-        "calculatedMaxValue": 0.95
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.7,
+      "stepGranularity": 0.05,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.95
+    }
   },
   "AIProtection": {
     "Description": "Less damage from hostile fauna attacks",
@@ -263,17 +287,20 @@
         "Attribute": "EYGameplayAttribute::DamageScalingReceivedFromAI",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0.7,
-        "minValue": 0.75,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.05,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.95
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.75,
+      "stepGranularity": 0.05,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.95
+    }
   },
   "FallingDamage": {
     "Description": "Less damage from falling",
@@ -294,17 +321,20 @@
         "Attribute": "EYGameplayAttribute::FallingDamageReduction",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0.7,
-        "minValue": 0.7,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.05,
-        "numSteps": 6,
-        "calculatedMaxValue": 0.95
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.7,
+      "stepGranularity": 0.05,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.95
+    }
   },
   "Armor_Helmet": {
     "Description": "Extra armor",
@@ -322,17 +352,20 @@
         "Attribute": "EYGameplayAttribute::HelmetArmorScaling",
         "Type": "EYGPAModifierType::Additive",
         "Value": 0.7,
-        "minValue": 3,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 1,
-        "numSteps": 1,
-        "calculatedMaxValue": 3
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 3,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 3
+    }
   },
   "StaminaRegenDelay_Storm": {
     "Description": "Stamina regenerates without delay during a Storm",
@@ -350,17 +383,20 @@
         "Attribute": "EYGameplayAttribute::StaminaRegenerationDelayScaling",
         "Type": "EYGPAModifierType::Override",
         "Value": 0.2,
-        "minValue": 0.2,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 1,
-        "numSteps": 1,
-        "calculatedMaxValue": 0.2
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.2,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 0.2
+    }
   },
   "HunterVisionHelm": {
     "Description": "Enhanced Alien Hunter Vision (can be toggled on/off)",
@@ -378,17 +414,20 @@
         "Attribute": "EYGameplayAttribute::HelmetThermal",
         "Type": "EYGPAModifierType::Override",
         "Value": 1,
-        "minValue": 1,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 1,
-        "numSteps": 1,
-        "calculatedMaxValue": 1
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 1,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 1
+    }
   },
   "AIDetection": {
     "Description": "Hostile fauna is less aggressive towards the wearer",
@@ -408,31 +447,31 @@
         "Attribute": "EYGameplayAttribute::AIDetectionHearingModifier",
         "Type": "EYGPAModifierType::Multiplicitive_PostAdd",
         "Value": 0.5,
-        "minValue": 0.6,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 1,
-        "numSteps": 1,
-        "calculatedMaxValue": 0.6
+        "runtimeValue": 1
       },
       {
         "Attribute": "EYGameplayAttribute::AIDetectionSightModifier",
         "Type": "EYGPAModifierType::Multiplicitive_PostAdd",
         "Value": 0.5,
-        "minValue": 0.6,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 1,
-        "numSteps": 1,
-        "calculatedMaxValue": 0.6
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.6,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 0.6
+    }
   },
   "ItemWeightReduction": {
     "Description": "Reduced weight of this piece of gear",
@@ -453,17 +492,20 @@
         "Attribute": "EYGameplayAttribute::ItemWeightReduction",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 4,
-        "calculatedMaxValue": 0.8
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 4,
+      "calculatedMaxValue": 0.8
+    }
   },
   "MaxCapacity": {
     "Description": "Extra backpack capacity",
@@ -481,17 +523,20 @@
         "Attribute": "EYGameplayAttribute::BagSizeIncrease",
         "Type": "EYGPAModifierType::Additive",
         "Value": 0,
-        "minValue": 10,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 10,
-        "numSteps": 5,
-        "calculatedMaxValue": 50
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 10,
+      "stepGranularity": 10,
+      "numSteps": 5,
+      "calculatedMaxValue": 50
+    }
   },
   "AOEReduction": {
     "Description": "Less damage from explosions",
@@ -510,17 +555,20 @@
         "Attribute": "EYGameplayAttribute::RadialDamageScaling",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
   },
   "WeightAll": {
     "Description": "Reduced weight of all items carried in backpack",
@@ -538,17 +586,20 @@
         "Attribute": "EYGameplayAttribute::CarriedWeightReduction",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
   },
   "WeightFaunaResources": {
     "Description": "Reduced weight of minerals and creature parts carried in backpack",
@@ -566,31 +617,31 @@
         "Attribute": "EYGameplayAttribute::CarriedWeightReductionFauna",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       },
       {
         "Attribute": "EYGameplayAttribute::CarriedWeightReductionMinerals",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
   },
   "WeightConsumablesAmmo": {
     "Description": "Reduced weight of ammo and consumables carried in backpack",
@@ -607,31 +658,31 @@
         "Attribute": "EYGameplayAttribute::CarriedWeightReductionAmmo",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       },
       {
         "Attribute": "EYGameplayAttribute::CarriedWeightReductionConsumables",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
   },
   "WeightWeaponGear": {
     "Description": "Reduced weight of weapons and gear carried in backpack",
@@ -648,45 +699,42 @@
         "Attribute": "EYGameplayAttribute::CarriedWeightReductionWeapons",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       },
       {
         "Attribute": "EYGameplayAttribute::CarriedWeightReductionShield",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       },
       {
         "Attribute": "EYGameplayAttribute::CarriedWeightReductionHelmet",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 0.5,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.1,
-        "numSteps": 5,
-        "calculatedMaxValue": 0.9
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
   },
   "WalkSpeed": {
     "Description": "Increased walk speed",
@@ -706,17 +754,20 @@
         "Attribute": "EYGameplayAttribute::MaxWalkSpeedScaling",
         "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
         "Value": 0,
-        "minValue": 1.04,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 0.02,
-        "numSteps": 3,
-        "calculatedMaxValue": 1.0799999
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 1.04,
+      "stepGranularity": 0.02,
+      "numSteps": 3,
+      "calculatedMaxValue": 1.0799999
+    }
   },
   "Armor_Shield": {
     "Description": "Extra armor",
@@ -734,16 +785,19 @@
         "Attribute": "EYGameplayAttribute::ShieldArmorScaling",
         "Type": "EYGPAModifierType::Additive",
         "Value": 0.7,
-        "minValue": 3,
+        "minValue": -1,
         "duration": 0,
         "lerpTime": -1,
         "lerpStartValue": 0,
         "lerpEndValue": 0,
-        "runtimeValue": 1,
-        "stepGranularity": 1,
-        "numSteps": 1,
-        "calculatedMaxValue": 3
+        "runtimeValue": 1
       }
-    ]
+    ],
+    "AttributeOverrides": {
+      "minValue": 3,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 3
+    }
   }
 }

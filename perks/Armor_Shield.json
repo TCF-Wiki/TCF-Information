@@ -14,15 +14,18 @@
       "Attribute": "EYGameplayAttribute::ShieldArmorScaling",
       "Type": "EYGPAModifierType::Additive",
       "Value": 0.7,
-      "minValue": 3,
+      "minValue": -1,
       "duration": 0,
       "lerpTime": -1,
       "lerpStartValue": 0,
       "lerpEndValue": 0,
-      "runtimeValue": 1,
-      "stepGranularity": 1,
-      "numSteps": 1,
-      "calculatedMaxValue": 3
+      "runtimeValue": 1
     }
-  ]
+  ],
+  "AttributeOverrides": {
+    "minValue": 3,
+    "stepGranularity": 1,
+    "numSteps": 1,
+    "calculatedMaxValue": 3
+  }
 }

@@ -15,15 +15,18 @@
       "Attribute": "EYGameplayAttribute::RadialDamageScaling",
       "Type": "EYGPAModifierType::Multiplicitive_PreAdd",
       "Value": 0,
-      "minValue": 0.5,
+      "minValue": -1,
       "duration": 0,
       "lerpTime": -1,
       "lerpStartValue": 0,
       "lerpEndValue": 0,
-      "runtimeValue": 1,
-      "stepGranularity": 0.1,
-      "numSteps": 5,
-      "calculatedMaxValue": 0.9
+      "runtimeValue": 1
     }
-  ]
+  ],
+  "AttributeOverrides": {
+    "minValue": 0.5,
+    "stepGranularity": 0.1,
+    "numSteps": 5,
+    "calculatedMaxValue": 0.9
+  }
 }
