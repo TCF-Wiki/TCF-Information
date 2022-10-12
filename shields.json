@@ -34,7 +34,7 @@
   "Shield_02": {
     "ingamename": "Uncommon Shield",
     "rarity": "Uncommon",
-    "armorAmount": 17,
+    "armorAmount": 15,
     "durability": 600,
     "weight": 40,
     "bonus": {},
@@ -50,7 +50,7 @@
   "Shield_03": {
     "ingamename": "Rare Shield",
     "rarity": "Rare",
-    "armorAmount": 23,
+    "armorAmount": 20,
     "durability": 700,
     "weight": 40,
     "bonus": {},
@@ -66,18 +66,18 @@
   "Shield_04": {
     "ingamename": "Epic Shield",
     "rarity": "Epic",
-    "armorAmount": 27,
+    "armorAmount": 25,
     "durability": 800,
     "weight": 40,
     "bonus": {},
     "repair": {
-      "baseCost": 1840,
-      "costModifierBroken": 4626,
-      "maxPrice": 9200,
+      "baseCost": 1560,
+      "costModifierBroken": 3916,
+      "maxPrice": 7800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 13669,
-    "factionRep": 137
+    "sellValue": 11618,
+    "factionRep": 116
   },
   "Shield_05": {
     "ingamename": "Exotic Shield",
@@ -87,13 +87,13 @@
     "weight": 40,
     "bonus": {},
     "repair": {
-      "baseCost": 2575,
-      "costModifierBroken": 6456,
-      "maxPrice": 12875,
+      "baseCost": 1975,
+      "costModifierBroken": 4953,
+      "maxPrice": 9875,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 30755,
-    "factionRep": 308
+    "sellValue": 23579,
+    "factionRep": 236
   },
   "Shield_Tactical_01": {
     "ingamename": "Common Tactical Shield",
@@ -114,7 +114,7 @@
   "Shield_Tactical_02": {
     "ingamename": "Uncommon Tactical Shield",
     "rarity": "Uncommon",
-    "armorAmount": 17,
+    "armorAmount": 15,
     "durability": 600,
     "weight": 40,
     "bonus": {},
@@ -130,7 +130,7 @@
   "Shield_Tactical_03": {
     "ingamename": "Rare Tactical Shield",
     "rarity": "Rare",
-    "armorAmount": 23,
+    "armorAmount": 20,
     "durability": 700,
     "weight": 40,
     "bonus": {},
@@ -146,7 +146,7 @@
   "Shield_Restoration_01": {
     "ingamename": "Uncommon Restoration Shield",
     "rarity": "Uncommon",
-    "armorAmount": 17,
+    "armorAmount": 15,
     "durability": 600,
     "weight": 40,
     "bonus": {},
@@ -162,7 +162,7 @@
   "Shield_Restoration_02": {
     "ingamename": "Rare Restoration Shield",
     "rarity": "Rare",
-    "armorAmount": 23,
+    "armorAmount": 20,
     "durability": 700,
     "weight": 40,
     "bonus": {},
@@ -178,18 +178,18 @@
   "Shield_Altered_01": {
     "ingamename": "Forged Shield",
     "rarity": "Epic",
-    "armorAmount": 27,
+    "armorAmount": 25,
     "durability": 800,
     "weight": 40,
     "bonus": {},
     "repair": {
-      "baseCost": 2000,
-      "costModifierBroken": 4993,
-      "maxPrice": 10000,
+      "baseCost": 1720,
+      "costModifierBroken": 4283,
+      "maxPrice": 8600,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 15036,
-    "factionRep": 150
+    "sellValue": 12985,
+    "factionRep": 130
   },
   "Shield_Altered_02": {
     "ingamename": "Forged Shield",
@@ -199,13 +199,13 @@
     "weight": 40,
     "bonus": {},
     "repair": {
-      "baseCost": 2725,
-      "costModifierBroken": 6799,
-      "maxPrice": 13625,
+      "baseCost": 1875,
+      "costModifierBroken": 4681,
+      "maxPrice": 9375,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 32805,
-    "factionRep": 328
+    "sellValue": 22553,
+    "factionRep": 226
   },
   "Shield_Altered_03": {
     "ingamename": "Forged Shield",
@@ -215,12 +215,12 @@
     "weight": 40,
     "bonus": {},
     "repair": {
-      "baseCost": 3280,
-      "costModifierBroken": 8199,
-      "maxPrice": 16400,
+      "baseCost": 2560,
+      "costModifierBroken": 6396,
+      "maxPrice": 12800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "sellValue": 49208,
-    "factionRep": 492
+    "sellValue": 38444,
+    "factionRep": 384
   }
 }
