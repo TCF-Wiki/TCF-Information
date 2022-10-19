@@ -1,226 +1,290 @@
 {
-  "Helmet_01": {
-    "ingamename": "Common Helmet",
-    "rarity": "Common",
-    "armorAmount": 10,
-    "durability": 500,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 38,
-      "costModifierBroken": 96,
-      "maxPrice": 190,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_01": {
+        "ingamename": "Common Helmet",
+        "rarity": "Common",
+        "armorAmount": 10,
+        "durability": 500,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 38,
+            "costModifierBroken": 96,
+            "maxPrice": 190,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 113,
+        "factionRep": 1
     },
-    "sellValue": 113,
-    "factionRep": 1
-  },
-  "Helmet_02": {
-    "ingamename": "Uncommon Helmet",
-    "rarity": "Uncommon",
-    "armorAmount": 15,
-    "durability": 600,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 153,
-      "costModifierBroken": 384,
-      "maxPrice": 765,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_02": {
+        "ingamename": "Uncommon Helmet",
+        "rarity": "Uncommon",
+        "armorAmount": 15,
+        "durability": 600,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 153,
+            "costModifierBroken": 384,
+            "maxPrice": 765,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 506,
+        "factionRep": 5
     },
-    "sellValue": 506,
-    "factionRep": 5
-  },
-  "Helmet_03": {
-    "ingamename": "Rare Helmet",
-    "rarity": "Rare",
-    "armorAmount": 20,
-    "durability": 700,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 608,
-      "costModifierBroken": 1521,
-      "maxPrice": 3040,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_03": {
+        "ingamename": "Rare Helmet",
+        "rarity": "Rare",
+        "armorAmount": 20,
+        "durability": 700,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 608,
+            "costModifierBroken": 1521,
+            "maxPrice": 3040,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 2278,
+        "factionRep": 23
     },
-    "sellValue": 2278,
-    "factionRep": 23
-  },
-  "Helmet_04": {
-    "ingamename": "Epic Helmet",
-    "rarity": "Epic",
-    "armorAmount": 25,
-    "durability": 800,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 680,
-      "costModifierBroken": 1695,
-      "maxPrice": 3400,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_04": {
+        "ingamename": "Epic Helmet",
+        "rarity": "Epic",
+        "armorAmount": 25,
+        "durability": 800,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 680,
+            "costModifierBroken": 1695,
+            "maxPrice": 3400,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 5126,
+        "factionRep": 51
     },
-    "sellValue": 5126,
-    "factionRep": 51
-  },
-  "Helmet_05": {
-    "ingamename": "Exotic Helmet",
-    "rarity": "Exotic",
-    "armorAmount": 30,
-    "durability": 900,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 850,
-      "costModifierBroken": 2119,
-      "maxPrice": 4250,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_05": {
+        "ingamename": "Exotic Helmet",
+        "rarity": "Exotic",
+        "armorAmount": 30,
+        "durability": 900,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 850,
+            "costModifierBroken": 2119,
+            "maxPrice": 4250,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 10252,
+        "factionRep": 103
     },
-    "sellValue": 10252,
-    "factionRep": 103
-  },
-  "Helmet_Tactical_01": {
-    "ingamename": "Common Tactical Helmet",
-    "rarity": "Common",
-    "armorAmount": 10,
-    "durability": 500,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 56,
-      "costModifierBroken": 140,
-      "maxPrice": 280,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Tactical_01": {
+        "ingamename": "Common Tactical Helmet",
+        "rarity": "Common",
+        "armorAmount": 10,
+        "durability": 500,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 56,
+            "costModifierBroken": 140,
+            "maxPrice": 280,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 169,
+        "factionRep": 2
     },
-    "sellValue": 169,
-    "factionRep": 2
-  },
-  "Helmet_Tactical_02": {
-    "ingamename": "Common Tactical Helmet",
-    "rarity": "Uncommon",
-    "armorAmount": 15,
-    "durability": 600,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 153,
-      "costModifierBroken": 384,
-      "maxPrice": 765,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Tactical_02": {
+        "ingamename": "Common Tactical Helmet",
+        "rarity": "Uncommon",
+        "armorAmount": 15,
+        "durability": 600,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 153,
+            "costModifierBroken": 384,
+            "maxPrice": 765,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 506,
+        "factionRep": 5
     },
-    "sellValue": 506,
-    "factionRep": 5
-  },
-  "Helmet_Tactical_03": {
-    "ingamename": "Rare Tactical Helmet",
-    "rarity": "Rare",
-    "armorAmount": 20,
-    "durability": 700,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 608,
-      "costModifierBroken": 1521,
-      "maxPrice": 3040,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Tactical_03": {
+        "ingamename": "Rare Tactical Helmet",
+        "rarity": "Rare",
+        "armorAmount": 20,
+        "durability": 700,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 608,
+            "costModifierBroken": 1521,
+            "maxPrice": 3040,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 2278,
+        "factionRep": 23
     },
-    "sellValue": 2278,
-    "factionRep": 23
-  },
-  "Helmet_Restoration_01": {
-    "ingamename": "Uncommon Restoration Helmet",
-    "rarity": "Uncommon",
-    "armorAmount": 15,
-    "durability": 600,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 153,
-      "costModifierBroken": 384,
-      "maxPrice": 765,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Tactical_04": {
+        "ingamename": "Epic Tactical Helmet",
+        "rarity": "Epic",
+        "armorAmount": 25,
+        "durability": 800,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 680,
+            "costModifierBroken": 1695,
+            "maxPrice": 3400,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 5126,
+        "factionRep": 51
     },
-    "sellValue": 506,
-    "factionRep": 5
-  },
-  "Helmet_Restoration_02": {
-    "ingamename": "Rare Restoration Helmet",
-    "rarity": "Rare",
-    "armorAmount": 20,
-    "durability": 700,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 608,
-      "costModifierBroken": 1521,
-      "maxPrice": 3040,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Tactical_05": {
+        "ingamename": "Exotic Tactical Helmet",
+        "rarity": "Exotic",
+        "armorAmount": 30,
+        "durability": 900,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 850,
+            "costModifierBroken": 2119,
+            "maxPrice": 4250,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 10252,
+        "factionRep": 103
     },
-    "sellValue": 2278,
-    "factionRep": 23
-  },
-  "Helmet_NV_01": {
-    "ingamename": "Common NV Helmet",
-    "rarity": "Legendary",
-    "armorAmount": 33,
-    "durability": 1000,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 1540,
-      "costModifierBroken": 3853,
-      "maxPrice": 7700,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Restoration_01": {
+        "ingamename": "Uncommon Restoration Helmet",
+        "rarity": "Uncommon",
+        "armorAmount": 15,
+        "durability": 600,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 153,
+            "costModifierBroken": 384,
+            "maxPrice": 765,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 506,
+        "factionRep": 5
     },
-    "sellValue": 23066,
-    "factionRep": 231
-  },
-  "Helmet_Altered_01": {
-    "ingamename": "Forged Helmet",
-    "rarity": "Epic",
-    "armorAmount": 25,
-    "durability": 800,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 840,
-      "costModifierBroken": 2107,
-      "maxPrice": 4200,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Restoration_02": {
+        "ingamename": "Rare Restoration Helmet",
+        "rarity": "Rare",
+        "armorAmount": 20,
+        "durability": 700,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 608,
+            "costModifierBroken": 1521,
+            "maxPrice": 3040,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 2278,
+        "factionRep": 23
     },
-    "sellValue": 6265,
-    "factionRep": 63
-  },
-  "Helmet_Altered_02": {
-    "ingamename": "Forged Helmet",
-    "rarity": "Exotic",
-    "armorAmount": 30,
-    "durability": 900,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 1075,
-      "costModifierBroken": 2698,
-      "maxPrice": 5375,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Restoration_03": {
+        "ingamename": "Epic Restoration Helmet",
+        "rarity": "Epic",
+        "armorAmount": 25,
+        "durability": 800,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 680,
+            "costModifierBroken": 1695,
+            "maxPrice": 3400,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 5126,
+        "factionRep": 51
     },
-    "sellValue": 12815,
-    "factionRep": 128
-  },
-  "Helmet_Altered_03": {
-    "ingamename": "Forged Helmet",
-    "rarity": "Legendary",
-    "armorAmount": 33,
-    "durability": 1000,
-    "weight": 20,
-    "bonus": {},
-    "repair": {
-      "baseCost": 1700,
-      "costModifierBroken": 4237,
-      "maxPrice": 8500,
-      "durabilityBrokenPriceModifier": 0.5
+    "Helmet_Restoration_04": {
+        "ingamename": "Exotic Restoration Helmet",
+        "rarity": "Exotic",
+        "armorAmount": 30,
+        "durability": 900,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 850,
+            "costModifierBroken": 2119,
+            "maxPrice": 4250,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 10252,
+        "factionRep": 103
     },
-    "sellValue": 25629,
-    "factionRep": 256
-  }
+    "Helmet_NV_01": {
+        "ingamename": "Legendary NV Helmet",
+        "rarity": "Legendary",
+        "armorAmount": 33,
+        "durability": 1000,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 1540,
+            "costModifierBroken": 3853,
+            "maxPrice": 7700,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 23066,
+        "factionRep": 231
+    },
+    "Helmet_Altered_01": {
+        "ingamename": "Forged Helmet",
+        "rarity": "Epic",
+        "armorAmount": 25,
+        "durability": 800,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 840,
+            "costModifierBroken": 2107,
+            "maxPrice": 4200,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 6265,
+        "factionRep": 63
+    },
+    "Helmet_Altered_02": {
+        "ingamename": "Forged Helmet",
+        "rarity": "Exotic",
+        "armorAmount": 30,
+        "durability": 900,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 1075,
+            "costModifierBroken": 2698,
+            "maxPrice": 5375,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 12815,
+        "factionRep": 128
+    },
+    "Helmet_Altered_03": {
+        "ingamename": "Forged Helmet",
+        "rarity": "Legendary",
+        "armorAmount": 33,
+        "durability": 1000,
+        "weight": 20,
+        "bonus": {},
+        "repair": {
+            "baseCost": 1700,
+            "costModifierBroken": 4237,
+            "maxPrice": 8500,
+            "durabilityBrokenPriceModifier": 0.5
+        },
+        "sellValue": 25629,
+        "factionRep": 256
+    }
 }
