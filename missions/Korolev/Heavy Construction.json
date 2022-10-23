@@ -10,12 +10,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "Compound Sheets"
+        "itemToOwn": "CompoundSheets"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
@@ -159,7 +159,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Co-TEC MultiTool",
+        "itemToOwn": "MultiTool",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -210,13 +210,13 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Pure Focus Crystal"
+        "deadDropItem": "PureFocusCrystal"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Pure Veltecite"
+        "deadDropItem": "EpicVeltecite"
       },
       {
         "type": "Kills",
@@ -335,7 +335,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8000,
-        "itemToOwn": "Old Currency"
+        "itemToOwn": "OldCurrency"
       }
     ],
     "rewards": [
@@ -428,7 +428,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Meteor Core"
+        "itemToOwn": "MeteorCore"
       }
     ],
     "rewards": [

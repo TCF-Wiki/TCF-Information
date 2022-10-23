@@ -10,7 +10,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Meteor Fragment"
+        "itemToOwn": "MeteorFragment"
       },
       {
         "type": "OwnNumOfItem",
@@ -71,7 +71,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Co-TEC MultiTool"
+        "itemToOwn": "MultiTool"
       }
     ],
     "rewards": [
@@ -117,12 +117,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Meteor Core"
+        "itemToOwn": "MeteorCore"
       },
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "Meteor Core",
+        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -172,7 +172,7 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Meteor Core",
+        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -186,7 +186,7 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Meteor Core",
+        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],

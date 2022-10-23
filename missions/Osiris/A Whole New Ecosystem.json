@@ -60,7 +60,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Pale Ivy Blossom"
+        "itemToOwn": "IvyPlant"
       }
     ],
     "rewards": [
@@ -105,7 +105,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Pale Ivy Blossom",
+        "itemToOwn": "IvyPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],

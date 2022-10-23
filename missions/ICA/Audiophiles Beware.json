@@ -10,7 +10,7 @@
       {
         "type": "DeadDrop",
         "maxProgress": 3,
-        "itemToOwn": "Aluminum scrap",
+        "itemToOwn": "AluminumParts",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
         "killConditions": {
@@ -79,7 +79,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Ball Bearings",
+        "itemToOwn": "BallBearings",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
         "killConditions": {
@@ -132,19 +132,19 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Radio Equipment"
+        "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Electronic Cables"
+        "deadDropItem": "Cables"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "\"Fusion Cartridge\" Batteries "
+        "deadDropItem": "Battery"
       }
     ],
     "rewards": [

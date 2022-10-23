@@ -9,9 +9,9 @@
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "itemToOwn": "Derelict Explosives",
+      "itemToOwn": "DerelictExplosives",
       "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "Portable Lab",
+      "deadDropItem": "PortableLabEquipmentBox",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -25,9 +25,9 @@
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "itemToOwn": "Derelict Explosives",
+      "itemToOwn": "DerelictExplosives",
       "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "Portable Lab",
+      "deadDropItem": "PortableLabEquipmentBox",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],

@@ -30,7 +30,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Optic Glass"
+        "itemToOwn": "OpticGlass"
       }
     ],
     "rewards": [
@@ -315,7 +315,7 @@
         "maxProgress": 1,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Biological Sampler",
+        "deadDropItem": "SamplingDevice",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -380,7 +380,7 @@
         "maxProgress": 5,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Weak Medkit",
+        "deadDropItem": "Consumable_Health_03",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -502,7 +502,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Pale Ivy Blossom",
+        "itemToOwn": "IvyPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -697,7 +697,7 @@
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Resin Gun",
+        "deadDropItem": "Adhesive",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],

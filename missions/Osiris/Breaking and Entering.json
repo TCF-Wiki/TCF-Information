@@ -10,7 +10,7 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Mutated Biomass",
+        "itemToOwn": "Biomass",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -24,7 +24,7 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "Mutated Biomass",
+        "itemToOwn": "Biomass",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -38,7 +38,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Alpha Crusher Heart",
+        "itemToOwn": "AlphaWardenHeart",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],

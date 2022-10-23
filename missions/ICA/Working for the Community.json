@@ -11,7 +11,7 @@
         "type": "DeadDrop",
         "maxProgress": 5,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "Pale Ivy Blossom"
+        "deadDropItem": "IvyPlant"
       },
       {
         "type": "DeadDrop",
@@ -23,7 +23,7 @@
         "type": "DeadDrop",
         "maxProgress": 5000,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "Old Currency"
+        "deadDropItem": "OldCurrency"
       }
     ],
     "rewards": [
@@ -144,7 +144,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+        "itemToOwn": "LiquidFertilizer"
       }
     ],
     "rewards": [

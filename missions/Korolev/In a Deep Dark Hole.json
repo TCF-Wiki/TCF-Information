@@ -57,13 +57,13 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Teratomorphic Crystal Core",
+        "itemToOwn": "GlowingCrystalCoreShard",
         "locationConditions": "Map03_KorolevMain"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Chief Engineer's Personal Diary"
+        "itemToOwn": "MissionItem_KorChiefEngineerDiary"
       }
     ],
     "rewards": [
@@ -109,7 +109,7 @@
       {
         "type": "DeadDrop",
         "maxProgress": 5,
-        "itemToOwn": "Teratomorphic Crystal Core",
+        "itemToOwn": "GlowingCrystalCoreShard",
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "TentaclePlant"
       }
@@ -295,7 +295,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Tharis Iron Sample",
+        "itemToOwn": "MissionItem_ForgeIronSample",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -417,7 +417,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Tharis Iron",
+        "itemToOwn": "ForgeIron",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -430,7 +430,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Teratomorphic Crystal Core",
+        "itemToOwn": "GlowingCrystalCoreShard",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -504,7 +504,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Pure Tharis Iron Nugget"
+        "itemToOwn": "MissionItem_PureForgeIronNugget"
       }
     ],
     "rewards": [
@@ -544,7 +544,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Pure Tharis Iron",
+        "itemToOwn": "PureForgeIron",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -557,7 +557,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Teratomorphic Crystal Core",
+        "itemToOwn": "GlowingCrystalCoreShard",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],

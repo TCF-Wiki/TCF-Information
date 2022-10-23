@@ -10,7 +10,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Optic Glass"
+        "itemToOwn": "OpticGlass"
       },
       {
         "type": "OwnNumOfItem",
@@ -20,7 +20,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Portable Lab"
+        "itemToOwn": "PortableLabEquipmentBox"
       }
     ],
     "rewards": [
@@ -78,7 +78,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "Spinal Base"
+        "itemToOwn": "GenericCreatureDrop"
       }
     ],
     "rewards": [
@@ -131,19 +131,19 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Radio Equipment"
+        "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CenterBase_Office",
-        "deadDropItem": "Radio Equipment"
+        "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "Radio Equipment"
+        "deadDropItem": "RadioSpareParts"
       }
     ],
     "rewards": [
@@ -184,20 +184,20 @@
         "type": "VisitArea",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "Radio Equipment",
+        "deadDropItem": "RadioSpareParts",
         "locationConditions": "Map02_GreensProspect"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 6,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
-        "deadDropItem": "Clear Veltecite"
+        "deadDropItem": "RareVeltecite"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
-        "deadDropItem": "Pure Veltecite"
+        "deadDropItem": "EpicVeltecite"
       }
     ],
     "rewards": [
@@ -361,12 +361,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Hardened Bone Plates"
+        "itemToOwn": "HardenedBoneAlloy"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Toxic Glands"
+        "itemToOwn": "NeuroToxicGlands"
       }
     ],
     "rewards": [

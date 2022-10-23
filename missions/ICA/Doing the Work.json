@@ -15,12 +15,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+        "itemToOwn": "Battery"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       }
     ],
     "rewards": [
@@ -124,7 +124,7 @@
         "maxProgress": 2,
         "itemToOwn": "HardDrive_uncommon",
         "deadDropLocation": "Map01_CommsBase_Satellite",
-        "deadDropItem": "Radio Equipment"
+        "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
@@ -196,7 +196,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+        "itemToOwn": "Battery"
       }
     ],
     "rewards": [
@@ -369,7 +369,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Sign of Life from Stranded Prospector"
+        "itemToOwn": "MissionItem_ICAPersonalItem"
       }
     ],
     "rewards": [
@@ -489,7 +489,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Notes on Meteor Experiment - 1",
+        "itemToOwn": "MissionItem_PowerPlantItem1",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -550,7 +550,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Notes on Meteor Experiment - 2",
+        "itemToOwn": "MissionItem_PowerPlantItem2",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -630,7 +630,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Oil Pump Part",
+        "itemToOwn": "MissionItem_OilPumpPart",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],

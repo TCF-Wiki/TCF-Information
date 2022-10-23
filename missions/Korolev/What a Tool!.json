@@ -10,7 +10,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Altered Nickel",
+        "itemToOwn": "PureNickel",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -77,7 +77,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Compound Sheets",
+        "itemToOwn": "CompoundSheets",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -90,7 +90,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Ball Bearings",
+        "itemToOwn": "BallBearings",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -257,7 +257,7 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Metallic Alloys",
+        "deadDropItem": "Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -328,7 +328,7 @@
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Hydraulic Piston",
+        "deadDropItem": "HydraulicPiston",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -439,17 +439,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Titan Ore"
+        "itemToOwn": "TitanOre"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Electronic Cables"
+        "itemToOwn": "Cables"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Resin Gun"
+        "itemToOwn": "Adhesive"
       }
     ],
     "rewards": [

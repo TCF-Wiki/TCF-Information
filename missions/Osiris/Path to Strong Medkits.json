@@ -15,12 +15,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Medical Supplies"
+        "itemToOwn": "AnaestheticsContainers"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "Waterweed Filament"
+        "itemToOwn": "WaterPlant"
       }
     ],
     "rewards": [
@@ -60,7 +60,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Pale Ivy Blossom"
+        "itemToOwn": "IvyPlant"
       },
       {
         "type": "OwnNumOfItem",
@@ -106,7 +106,7 @@
         "type": "DeadDrop",
         "maxProgress": 8,
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Old Medicine"
+        "deadDropItem": "Antibiotics"
       }
     ],
     "rewards": [

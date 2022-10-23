@@ -78,7 +78,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Colonist Item"
+        "itemToOwn": "MissionItem_ColonistItem"
       }
     ],
     "rewards": [
@@ -129,7 +129,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Tharis Caverns Holo-Map"
+        "deadDropItem": "MissionItem_StolenOsiHoloMap"
       }
     ],
     "rewards": [
@@ -169,17 +169,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Teratomorphic Crystal Core"
+        "itemToOwn": "GlowingCrystalCoreShard"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Tharis Iron"
+        "itemToOwn": "ForgeIron"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Biological Sampler"
+        "itemToOwn": "SamplingDevice"
       }
     ],
     "rewards": [
@@ -224,7 +224,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Vintage Camera"
+        "itemToOwn": "MissionItem_KorCivilianItem"
       }
     ],
     "rewards": [
@@ -333,7 +333,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Osiris Door Fragment"
+        "itemToOwn": "MissionItem_AlienDoorFragment"
       }
     ],
     "rewards": [
@@ -374,7 +374,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map03_KorolevOutpost1",
-        "deadDropItem": "Tharis Iron"
+        "deadDropItem": "ForgeIron"
       }
     ],
     "rewards": [
@@ -424,7 +424,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Advanced Analysis Toolkit"
+        "itemToOwn": "MissionItem_AnalysisTool"
       }
     ],
     "rewards": [

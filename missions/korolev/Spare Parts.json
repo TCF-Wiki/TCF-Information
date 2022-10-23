@@ -9,7 +9,7 @@
     {
       "type": "OwnNumOfItem",
       "maxProgress": 5,
-      "itemToOwn": "Compound Sheets",
+      "itemToOwn": "CompoundSheets",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [
@@ -24,7 +24,7 @@
     {
       "type": "OwnNumOfItem",
       "maxProgress": 1,
-      "itemToOwn": "Hydraulic Piston",
+      "itemToOwn": "HydraulicPiston",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [

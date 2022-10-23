@@ -25,7 +25,7 @@
         "maxProgress": 6,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -38,9 +38,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -109,7 +109,7 @@
         "maxProgress": 2,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -228,7 +228,7 @@
         "maxProgress": 5,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -242,9 +242,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Clear Veltecite",
+        "itemToOwn": "RareVeltecite",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],

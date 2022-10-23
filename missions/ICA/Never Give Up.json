@@ -68,7 +68,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Sample Container",
+        "itemToOwn": "SampleContainer",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
@@ -217,7 +217,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Biological Sampler",
+        "itemToOwn": "SamplingDevice",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],

@@ -9,9 +9,9 @@
     {
       "type": "Kills",
       "maxProgress": 10,
-      "itemToOwn": "Cultist Scribblings",
+      "itemToOwn": "MissionItem_AlienShieldRecipe",
       "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "Portable Lab",
+      "deadDropItem": "PortableLabEquipmentBox",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -25,7 +25,7 @@
     {
       "type": "DeadDrop",
       "maxProgress": 3,
-      "itemToOwn": "Charged Tharis Iron Ingot",
+      "itemToOwn": "ChargedForgeIronIngot",
       "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
       "deadDropItem": "AI_WeremoleMeat_02",
       "killConditions": {
@@ -40,7 +40,7 @@
     {
       "type": "DeadDrop",
       "maxProgress": 5,
-      "itemToOwn": "Charged Tharis Iron Ingot",
+      "itemToOwn": "ChargedForgeIronIngot",
       "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
       "deadDropItem": "AI_RattlerEyes_02",
       "killConditions": {

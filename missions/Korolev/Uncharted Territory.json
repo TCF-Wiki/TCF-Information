@@ -68,7 +68,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Aluminum scrap",
+        "itemToOwn": "AluminumParts",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -121,7 +121,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Brittle Titan Ore",
+        "itemToOwn": "BrittleTitanOre",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -134,7 +134,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Salvaged Insulation",
+        "itemToOwn": "Insulation",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -182,7 +182,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Nutritional Bar"
+        "itemToOwn": "ProteinBar"
       }
     ],
     "rewards": [

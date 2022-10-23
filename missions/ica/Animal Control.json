@@ -9,7 +9,7 @@
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "itemToOwn": "Aluminum scrap",
+      "itemToOwn": "AluminumParts",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [
@@ -25,7 +25,7 @@
     {
       "type": "Kills",
       "maxProgress": 3,
-      "itemToOwn": "Aluminum scrap",
+      "itemToOwn": "AluminumParts",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],

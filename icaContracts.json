@@ -10,12 +10,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Compound Sheets"
+        "itemToOwn": "CompoundSheets"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Polymetallic Prefabricate"
+        "itemToOwn": "PolymetallicPrefabricate"
       }
     ],
     "rewards": [
@@ -56,7 +56,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       }
     ],
     "rewards": [
@@ -92,12 +92,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Autoloader"
+        "itemToOwn": "AutoLoader"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Optic Glass"
+        "itemToOwn": "OpticGlass"
       }
     ],
     "rewards": [
@@ -133,17 +133,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "Hardened Metals"
+        "itemToOwn": "SpareCasing"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "Polymetallic Prefabricate"
+        "itemToOwn": "PolymetallicPrefabricate"
       }
     ],
     "rewards": [
@@ -184,7 +184,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Derelict Explosives"
+        "itemToOwn": "DerelictExplosives"
       }
     ],
     "rewards": [
@@ -220,7 +220,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6000,
-        "itemToOwn": "Old Currency"
+        "itemToOwn": "OldCurrency"
       }
     ],
     "rewards": [
@@ -256,12 +256,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Shock Absorber"
+        "itemToOwn": "ShockAbsorber"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "Compound Sheets"
+        "itemToOwn": "CompoundSheets"
       }
     ],
     "rewards": [
@@ -297,7 +297,7 @@
       {
         "type": "Kills",
         "maxProgress": 20,
-        "itemToOwn": "Charged Spinal Base",
+        "itemToOwn": "StormyCreatureDrop",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -310,7 +310,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 14,
-        "itemToOwn": "Charged Spinal Base"
+        "itemToOwn": "StormyCreatureDrop"
       }
     ],
     "rewards": [
@@ -346,12 +346,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Autoloader"
+        "itemToOwn": "AutoLoader"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Shard Slicer"
+        "itemToOwn": "ShardSlicer"
       }
     ],
     "rewards": [
@@ -387,7 +387,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "Pure Focus Crystal"
+        "itemToOwn": "PureFocusCrystal"
       }
     ],
     "rewards": [
@@ -423,12 +423,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Clear Veltecite"
+        "itemToOwn": "RareVeltecite"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "Meteor Fragment"
+        "itemToOwn": "MeteorFragment"
       }
     ],
     "rewards": [
@@ -464,7 +464,7 @@
       {
         "type": "Kills",
         "maxProgress": 8,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -509,7 +509,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -522,7 +522,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -566,7 +566,7 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -611,7 +611,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -657,7 +657,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -671,7 +671,7 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -716,7 +716,7 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -817,7 +817,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -861,7 +861,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -907,7 +907,7 @@
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -928,7 +928,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -949,7 +949,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1001,7 +1001,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1046,7 +1046,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1147,7 +1147,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1161,7 +1161,7 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1532,7 +1532,7 @@
         "type": "DeadDrop",
         "maxProgress": 3000,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "Old Currency"
+        "deadDropItem": "OldCurrency"
       }
     ],
     "rewards": [
@@ -1680,7 +1680,7 @@
         "type": "DeadDrop",
         "maxProgress": 20,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
-        "deadDropItem": "Polymetallic Prefabricate"
+        "deadDropItem": "PolymetallicPrefabricate"
       }
     ],
     "rewards": [
@@ -1754,7 +1754,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_StarportAdmin_Cafeteria",
-        "deadDropItem": "Advocate"
+        "deadDropItem": "WP_D_AR_Bullet_01"
       }
     ],
     "rewards": [
@@ -1790,7 +1790,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02"
       }
@@ -1828,7 +1828,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02"
       }
@@ -1866,7 +1866,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02"
       },
@@ -1929,7 +1929,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "Spinal Base"
+        "itemToOwn": "GenericCreatureDrop"
       }
     ],
     "rewards": [
@@ -1964,12 +1964,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "Shard Slicer"
+        "itemToOwn": "ShardSlicer"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "Hardened Metals"
+        "itemToOwn": "SpareCasing"
       },
       {
         "type": "OwnNumOfItem",
@@ -2010,7 +2010,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Compound Sheets"
+        "itemToOwn": "CompoundSheets"
       }
     ],
     "rewards": [
@@ -2054,7 +2054,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Hardened Metals",
+        "itemToOwn": "SpareCasing",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -2069,7 +2069,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Spinal Base",
+        "itemToOwn": "GenericCreatureDrop",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -2117,7 +2117,7 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Aluminum scrap",
+        "itemToOwn": "AluminumParts",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -2133,7 +2133,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Aluminum scrap",
+        "itemToOwn": "AluminumParts",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2186,7 +2186,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
@@ -2235,13 +2235,13 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Metallic Alloys",
+        "itemToOwn": "Alloys",
         "locationConditions": "Map01_WoodCutterCamp"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Metallic Alloys",
+        "itemToOwn": "Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2305,7 +2305,7 @@
       {
         "type": "DeadDrop",
         "maxProgress": 3,
-        "itemToOwn": "Aluminum scrap",
+        "itemToOwn": "AluminumParts",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
         "killConditions": {
@@ -2374,7 +2374,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Ball Bearings",
+        "itemToOwn": "BallBearings",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
         "killConditions": {
@@ -2427,19 +2427,19 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Radio Equipment"
+        "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Electronic Cables"
+        "deadDropItem": "Cables"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "\"Fusion Cartridge\" Batteries "
+        "deadDropItem": "Battery"
       }
     ],
     "rewards": [
@@ -2490,12 +2490,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+        "itemToOwn": "Battery"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       }
     ],
     "rewards": [
@@ -2599,7 +2599,7 @@
         "maxProgress": 2,
         "itemToOwn": "HardDrive_uncommon",
         "deadDropLocation": "Map01_CommsBase_Satellite",
-        "deadDropItem": "Radio Equipment"
+        "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
@@ -2671,7 +2671,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "\"Fusion Cartridge\" Batteries "
+        "itemToOwn": "Battery"
       }
     ],
     "rewards": [
@@ -2790,7 +2790,7 @@
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "Smoke Grenade"
+        "deadDropItem": "Consumable_SmokeGrenade_01"
       }
     ],
     "rewards": [
@@ -2830,17 +2830,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Toxic Glands"
+        "itemToOwn": "NeuroToxicGlands"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 7,
-        "itemToOwn": "Hydraulic Piston"
+        "itemToOwn": "HydraulicPiston"
       }
     ],
     "rewards": [
@@ -2886,7 +2886,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Meteor Fragment"
+        "itemToOwn": "MeteorFragment"
       },
       {
         "type": "OwnNumOfItem",
@@ -2947,7 +2947,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Co-TEC MultiTool"
+        "itemToOwn": "MultiTool"
       }
     ],
     "rewards": [
@@ -2993,12 +2993,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Meteor Core"
+        "itemToOwn": "MeteorCore"
       },
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "Meteor Core",
+        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -3048,7 +3048,7 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Meteor Core",
+        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3062,7 +3062,7 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Meteor Core",
+        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3177,7 +3177,7 @@
         "type": "DeadDrop",
         "maxProgress": 5,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "Pale Ivy Blossom"
+        "deadDropItem": "IvyPlant"
       },
       {
         "type": "DeadDrop",
@@ -3189,7 +3189,7 @@
         "type": "DeadDrop",
         "maxProgress": 5000,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "Old Currency"
+        "deadDropItem": "OldCurrency"
       }
     ],
     "rewards": [
@@ -3310,7 +3310,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+        "itemToOwn": "LiquidFertilizer"
       }
     ],
     "rewards": [
@@ -3414,7 +3414,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Sample Container",
+        "itemToOwn": "SampleContainer",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
@@ -3563,7 +3563,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Biological Sampler",
+        "itemToOwn": "SamplingDevice",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
@@ -3740,12 +3740,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Hardened Bone Plates"
+        "itemToOwn": "HardenedBoneAlloy"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Charged Spinal Base"
+        "itemToOwn": "StormyCreatureDrop"
       }
     ],
     "rewards": [
@@ -3792,13 +3792,13 @@
         "type": "DeadDrop",
         "maxProgress": 10,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "Polymetallic Prefabricate"
+        "deadDropItem": "PolymetallicPrefabricate"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "Resin Gun"
+        "deadDropItem": "Adhesive"
       },
       {
         "type": "DeadDrop",
@@ -3895,17 +3895,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "Hydraulic Piston"
+        "itemToOwn": "HydraulicPiston"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Shock Absorber"
+        "itemToOwn": "ShockAbsorber"
       }
     ],
     "rewards": [
@@ -3945,7 +3945,7 @@
       {
         "type": "Kills",
         "maxProgress": 7,
-        "itemToOwn": "Metallic Alloys",
+        "itemToOwn": "Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3958,7 +3958,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Hardened Bone Plates"
+        "itemToOwn": "HardenedBoneAlloy"
       }
     ],
     "rewards": [
@@ -4009,7 +4009,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Shard Slicer"
+        "itemToOwn": "ShardSlicer"
       },
       {
         "type": "OwnNumOfItem",
@@ -4226,7 +4226,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Radio Equipment"
+        "itemToOwn": "RadioSpareParts"
       },
       {
         "type": "OwnNumOfItem",
@@ -4236,7 +4236,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Pure Veltecite"
+        "itemToOwn": "EpicVeltecite"
       }
     ],
     "rewards": [
@@ -4379,7 +4379,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "NiC Oil Cannister"
+        "itemToOwn": "OilTank"
       }
     ],
     "rewards": [
@@ -4431,7 +4431,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Textiles",
+        "itemToOwn": "Fabrics",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4444,7 +4444,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Shard Slicer",
+        "itemToOwn": "ShardSlicer",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4584,7 +4584,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Hardened Bone Plates"
+        "itemToOwn": "HardenedBoneAlloy"
       }
     ],
     "rewards": [
@@ -4691,7 +4691,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Sign of Life from Stranded Prospector"
+        "itemToOwn": "MissionItem_ICAPersonalItem"
       }
     ],
     "rewards": [
@@ -4811,7 +4811,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Notes on Meteor Experiment - 1",
+        "itemToOwn": "MissionItem_PowerPlantItem1",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4872,7 +4872,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Notes on Meteor Experiment - 2",
+        "itemToOwn": "MissionItem_PowerPlantItem2",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4952,7 +4952,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Oil Pump Part",
+        "itemToOwn": "MissionItem_OilPumpPart",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5000,7 +5000,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "NiC Oil Cannister"
+        "itemToOwn": "OilTank"
       }
     ],
     "rewards": [
@@ -5036,7 +5036,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+        "itemToOwn": "LiquidFertilizer"
       }
     ],
     "rewards": [
@@ -5072,7 +5072,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Nutritional Bar"
+        "itemToOwn": "ProteinBar"
       }
     ],
     "rewards": [
@@ -5212,7 +5212,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Colonist Item"
+        "itemToOwn": "MissionItem_ColonistItem"
       }
     ],
     "rewards": [
@@ -5263,7 +5263,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Tharis Caverns Holo-Map"
+        "deadDropItem": "MissionItem_StolenOsiHoloMap"
       }
     ],
     "rewards": [
@@ -5372,17 +5372,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Teratomorphic Crystal Core"
+        "itemToOwn": "GlowingCrystalCoreShard"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Tharis Iron"
+        "itemToOwn": "ForgeIron"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Biological Sampler"
+        "itemToOwn": "SamplingDevice"
       }
     ],
     "rewards": [
@@ -5427,7 +5427,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Vintage Camera"
+        "itemToOwn": "MissionItem_KorCivilianItem"
       }
     ],
     "rewards": [
@@ -5536,7 +5536,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Osiris Door Fragment"
+        "itemToOwn": "MissionItem_AlienDoorFragment"
       }
     ],
     "rewards": [
@@ -5577,7 +5577,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map03_KorolevOutpost1",
-        "deadDropItem": "Tharis Iron"
+        "deadDropItem": "ForgeIron"
       }
     ],
     "rewards": [
@@ -5627,7 +5627,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Advanced Analysis Toolkit"
+        "itemToOwn": "MissionItem_AnalysisTool"
       }
     ],
     "rewards": [
@@ -5715,19 +5715,19 @@
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map03_OsirisMain",
-        "deadDropItem": "Derelict Explosives"
+        "deadDropItem": "DerelictExplosives"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 12,
         "deadDropLocation": "Map03_OsirisMain",
-        "deadDropItem": "NiC Oil Cannister"
+        "deadDropItem": "OilTank"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 6,
         "deadDropLocation": "Map03_KorolevMain",
-        "deadDropItem": "Derelict Explosives"
+        "deadDropItem": "DerelictExplosives"
       }
     ],
     "rewards": [
@@ -5770,7 +5770,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Osiris Engineer Scanner"
+        "itemToOwn": "MissionItem_OsiChiefEngineerItem"
       }
     ],
     "rewards": [
@@ -5877,7 +5877,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Charged Tharis Iron Ingot"
+        "itemToOwn": "ChargedForgeIronIngot"
       }
     ],
     "rewards": [
@@ -5915,12 +5915,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 18,
-        "itemToOwn": "NiC Oil Cannister"
+        "itemToOwn": "OilTank"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 30000,
-        "itemToOwn": "Old Currency"
+        "itemToOwn": "OldCurrency"
       }
     ],
     "rewards": [
@@ -5963,7 +5963,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Osiris Helmet Recorder"
+        "itemToOwn": "MissionItem_OsiHeadScientistItem"
       }
     ],
     "rewards": [

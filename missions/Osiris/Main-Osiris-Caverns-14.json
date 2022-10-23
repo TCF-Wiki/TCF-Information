@@ -9,9 +9,9 @@
     {
       "type": "OwnNumOfItem",
       "maxProgress": 1,
-      "itemToOwn": "Huge Forged Backpack",
+      "itemToOwn": "Bag_Altered_01",
       "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "Portable Lab",
+      "deadDropItem": "PortableLabEquipmentBox",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -24,9 +24,9 @@
     {
       "type": "OwnNumOfItem",
       "maxProgress": 1,
-      "itemToOwn": "Charged Tharis Iron Ingot",
+      "itemToOwn": "ChargedForgeIronIngot",
       "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "Portable Lab",
+      "deadDropItem": "PortableLabEquipmentBox",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],

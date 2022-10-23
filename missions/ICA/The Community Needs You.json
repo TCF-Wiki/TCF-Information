@@ -10,7 +10,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Textiles",
+        "itemToOwn": "Fabrics",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -23,7 +23,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Shard Slicer",
+        "itemToOwn": "ShardSlicer",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -163,7 +163,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Hardened Bone Plates"
+        "itemToOwn": "HardenedBoneAlloy"
       }
     ],
     "rewards": [

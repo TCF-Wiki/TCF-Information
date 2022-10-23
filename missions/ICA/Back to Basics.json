@@ -11,13 +11,13 @@
         "type": "DeadDrop",
         "maxProgress": 10,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "Polymetallic Prefabricate"
+        "deadDropItem": "PolymetallicPrefabricate"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "Resin Gun"
+        "deadDropItem": "Adhesive"
       },
       {
         "type": "DeadDrop",
@@ -114,17 +114,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "Hydraulic Piston"
+        "itemToOwn": "HydraulicPiston"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Shock Absorber"
+        "itemToOwn": "ShockAbsorber"
       }
     ],
     "rewards": [
@@ -164,7 +164,7 @@
       {
         "type": "Kills",
         "maxProgress": 7,
-        "itemToOwn": "Metallic Alloys",
+        "itemToOwn": "Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -177,7 +177,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Hardened Bone Plates"
+        "itemToOwn": "HardenedBoneAlloy"
       }
     ],
     "rewards": [
@@ -228,7 +228,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Shard Slicer"
+        "itemToOwn": "ShardSlicer"
       },
       {
         "type": "OwnNumOfItem",

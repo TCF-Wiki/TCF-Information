@@ -10,12 +10,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Pure Veltecite"
+        "itemToOwn": "EpicVeltecite"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Clear Veltecite"
+        "itemToOwn": "RareVeltecite"
       }
     ],
     "rewards": [
@@ -55,17 +55,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Portable Lab"
+        "itemToOwn": "PortableLabEquipmentBox"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Focus Crystal"
+        "itemToOwn": "FocusCrystal"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Sample Container"
+        "itemToOwn": "SampleContainer"
       }
     ],
     "rewards": [
@@ -111,7 +111,7 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Pure Focus Crystal"
+        "deadDropItem": "PureFocusCrystal"
       },
       {
         "type": "Kills",

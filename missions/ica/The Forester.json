@@ -9,13 +9,13 @@
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "itemToOwn": "Metallic Alloys",
+      "itemToOwn": "Alloys",
       "locationConditions": "Map01_WoodCutterCamp"
     },
     {
       "type": "Kills",
       "maxProgress": 5,
-      "itemToOwn": "Metallic Alloys",
+      "itemToOwn": "Alloys",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],

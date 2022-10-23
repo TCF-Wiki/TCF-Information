@@ -10,7 +10,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Optic Glass"
+        "itemToOwn": "OpticGlass"
       }
     ],
     "rewards": [
@@ -92,7 +92,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Spinal Base"
+        "itemToOwn": "GenericCreatureDrop"
       }
     ],
     "rewards": [
@@ -128,7 +128,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 7,
-        "itemToOwn": "Toxic Glands"
+        "itemToOwn": "NeuroToxicGlands"
       }
     ],
     "rewards": [
@@ -164,12 +164,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Optic Glass"
+        "itemToOwn": "OpticGlass"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "Polymetallic Prefabricate"
+        "itemToOwn": "PolymetallicPrefabricate"
       },
       {
         "type": "OwnNumOfItem",
@@ -210,7 +210,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Charged Spinal Base"
+        "itemToOwn": "StormyCreatureDrop"
       },
       {
         "type": "OwnNumOfItem",
@@ -287,7 +287,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 16,
-        "itemToOwn": "Charged Spinal Base"
+        "itemToOwn": "StormyCreatureDrop"
       }
     ],
     "rewards": [
@@ -328,12 +328,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Autoloader"
+        "itemToOwn": "AutoLoader"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Hardened Bone Plates"
+        "itemToOwn": "HardenedBoneAlloy"
       }
     ],
     "rewards": [
@@ -369,7 +369,7 @@
       {
         "type": "Kills",
         "maxProgress": 8,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -414,7 +414,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -458,7 +458,7 @@
       {
         "type": "Kills",
         "maxProgress": 12,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -504,7 +504,7 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -517,7 +517,7 @@
       {
         "type": "Kills",
         "maxProgress": 6,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -561,7 +561,7 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -575,7 +575,7 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -620,7 +620,7 @@
       {
         "type": "Kills",
         "maxProgress": 12,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -665,7 +665,7 @@
       {
         "type": "Kills",
         "maxProgress": 20,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -710,7 +710,7 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -754,7 +754,7 @@
       {
         "type": "Kills",
         "maxProgress": 8,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -768,7 +768,7 @@
       {
         "type": "Kills",
         "maxProgress": 16,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -813,7 +813,7 @@
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -860,7 +860,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -905,7 +905,7 @@
       {
         "type": "Kills",
         "maxProgress": 4,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -950,7 +950,7 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -964,7 +964,7 @@
       {
         "type": "Kills",
         "maxProgress": 6,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -978,7 +978,7 @@
       {
         "type": "Kills",
         "maxProgress": 12,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1023,7 +1023,7 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1117,7 +1117,7 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1131,7 +1131,7 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1176,7 +1176,7 @@
       {
         "type": "Kills",
         "maxProgress": 4,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1401,7 +1401,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Blue Runner Egg"
+        "itemToOwn": "BlueRunnerEgg"
       }
     ],
     "rewards": [
@@ -1437,7 +1437,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "Meteor Fragment"
+        "itemToOwn": "MeteorFragment"
       }
     ],
     "rewards": [
@@ -1473,7 +1473,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Meteor Core"
+        "itemToOwn": "MeteorCore"
       }
     ],
     "rewards": [
@@ -1509,12 +1509,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Meteor Core"
+        "itemToOwn": "MeteorCore"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Meteor Fragment"
+        "itemToOwn": "MeteorFragment"
       }
     ],
     "rewards": [
@@ -1551,7 +1551,7 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_CommsBase_Satellite",
-        "deadDropItem": "Optic Glass"
+        "deadDropItem": "OpticGlass"
       }
     ],
     "rewards": [
@@ -1625,7 +1625,7 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Toxic Glands"
+        "deadDropItem": "NeuroToxicGlands"
       }
     ],
     "rewards": [
@@ -1662,7 +1662,7 @@
         "type": "DeadDrop",
         "maxProgress": 6,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "Charged Spinal Base"
+        "deadDropItem": "StormyCreatureDrop"
       }
     ],
     "rewards": [
@@ -1736,13 +1736,13 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Rare Shield"
+        "deadDropItem": "Shield_03"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Rare Helmet"
+        "deadDropItem": "Helmet_03"
       },
       {
         "type": "DeadDrop",
@@ -1784,7 +1784,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Pale Ivy Blossom",
+        "itemToOwn": "IvyPlant",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02"
       }
@@ -1822,14 +1822,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Pale Ivy Blossom",
+        "itemToOwn": "IvyPlant",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02"
       }
@@ -1867,7 +1867,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Dustbloom",
+        "itemToOwn": "DesertPlant",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02"
       }
@@ -1944,7 +1944,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Flawed Veltecite",
+        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -1990,7 +1990,7 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "Hardened Metals",
+        "itemToOwn": "SpareCasing",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2042,7 +2042,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Waterweed Filament"
+        "itemToOwn": "WaterPlant"
       }
     ],
     "rewards": [
@@ -2085,7 +2085,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2099,7 +2099,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Spinal Base"
+        "itemToOwn": "GenericCreatureDrop"
       }
     ],
     "rewards": [
@@ -2143,7 +2143,7 @@
       {
         "type": "Kills",
         "maxProgress": 7,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2269,7 +2269,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Optic Glass"
+        "itemToOwn": "OpticGlass"
       }
     ],
     "rewards": [
@@ -2554,7 +2554,7 @@
         "maxProgress": 1,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Biological Sampler",
+        "deadDropItem": "SamplingDevice",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -2619,7 +2619,7 @@
         "maxProgress": 5,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Weak Medkit",
+        "deadDropItem": "Consumable_Health_03",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -2741,7 +2741,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Pale Ivy Blossom",
+        "itemToOwn": "IvyPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2936,7 +2936,7 @@
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Resin Gun",
+        "deadDropItem": "Adhesive",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3131,7 +3131,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "Medical Supplies",
+        "itemToOwn": "AnaestheticsContainers",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -3229,17 +3229,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Blue Runner Egg"
+        "itemToOwn": "BlueRunnerEgg"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Toxic Glands"
+        "itemToOwn": "NeuroToxicGlands"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Old Medicine"
+        "itemToOwn": "Antibiotics"
       }
     ],
     "rewards": [
@@ -3300,7 +3300,7 @@
         "maxProgress": 6,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3313,9 +3313,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3384,7 +3384,7 @@
         "maxProgress": 2,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -3503,7 +3503,7 @@
         "maxProgress": 5,
         "itemToOwn": "AI_RattlerSkin",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3517,9 +3517,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Clear Veltecite",
+        "itemToOwn": "RareVeltecite",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3567,9 +3567,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3617,9 +3617,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "\"Fusion Cartridge\" Batteries ",
+        "itemToOwn": "Battery",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3632,9 +3632,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Metallic Alloys",
+        "itemToOwn": "Alloys",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3649,7 +3649,7 @@
         "maxProgress": 8,
         "itemToOwn": "CircuitBoard",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3697,9 +3697,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Optic Glass",
+        "itemToOwn": "OpticGlass",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3712,9 +3712,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Radio Equipment",
+        "itemToOwn": "RadioSpareParts",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3729,7 +3729,7 @@
         "maxProgress": 1,
         "itemToOwn": "Gyroscope",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3785,7 +3785,7 @@
         "maxProgress": 10,
         "itemToOwn": "RadioactiveBrightcapMushroom",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3835,7 +3835,7 @@
         "maxProgress": 15,
         "itemToOwn": "RadioactiveBrightcapMushroom",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3885,7 +3885,7 @@
         "type": "DeadDrop",
         "maxProgress": 8,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "Charged Spinal Base"
+        "deadDropItem": "StormyCreatureDrop"
       }
     ],
     "rewards": [
@@ -3933,7 +3933,7 @@
         "maxProgress": 25,
         "itemToOwn": "BrightcapMushroom",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3948,7 +3948,7 @@
         "maxProgress": 12,
         "itemToOwn": "BlueWood",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3961,9 +3961,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "\"Magic-GROW\" Fertilizer",
+        "itemToOwn": "LiquidFertilizer",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4011,9 +4011,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 25,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4028,7 +4028,7 @@
         "maxProgress": 12,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4076,9 +4076,9 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Waterweed Filament",
+        "itemToOwn": "WaterPlant",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4091,9 +4091,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Hardened Bone Plates",
+        "itemToOwn": "HardenedBoneAlloy",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4141,16 +4141,16 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Dustbloom",
+        "itemToOwn": "DesertPlant",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab"
+        "deadDropItem": "PortableLabEquipmentBox"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Hardened Bone Plates",
+        "itemToOwn": "HardenedBoneAlloy",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -4204,12 +4204,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Pure Veltecite"
+        "itemToOwn": "EpicVeltecite"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Clear Veltecite"
+        "itemToOwn": "RareVeltecite"
       }
     ],
     "rewards": [
@@ -4249,17 +4249,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Portable Lab"
+        "itemToOwn": "PortableLabEquipmentBox"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Focus Crystal"
+        "itemToOwn": "FocusCrystal"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Sample Container"
+        "itemToOwn": "SampleContainer"
       }
     ],
     "rewards": [
@@ -4305,7 +4305,7 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Pure Focus Crystal"
+        "deadDropItem": "PureFocusCrystal"
       },
       {
         "type": "Kills",
@@ -4375,12 +4375,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Medical Supplies"
+        "itemToOwn": "AnaestheticsContainers"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "Waterweed Filament"
+        "itemToOwn": "WaterPlant"
       }
     ],
     "rewards": [
@@ -4420,7 +4420,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Pale Ivy Blossom"
+        "itemToOwn": "IvyPlant"
       },
       {
         "type": "OwnNumOfItem",
@@ -4466,7 +4466,7 @@
         "type": "DeadDrop",
         "maxProgress": 8,
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Old Medicine"
+        "deadDropItem": "Antibiotics"
       }
     ],
     "rewards": [
@@ -4512,7 +4512,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Dustbloom"
+        "itemToOwn": "DesertPlant"
       },
       {
         "type": "OwnNumOfItem",
@@ -4522,7 +4522,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "\"Magic-GROW\" Fertilizer"
+        "itemToOwn": "LiquidFertilizer"
       }
     ],
     "rewards": [
@@ -4573,7 +4573,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "Charged Spinal Base"
+        "itemToOwn": "StormyCreatureDrop"
       }
     ],
     "rewards": [
@@ -4724,7 +4724,7 @@
         "type": "DeadDrop",
         "maxProgress": 5,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-        "deadDropItem": "Radio Equipment"
+        "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
@@ -4834,7 +4834,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Portable Lab"
+        "itemToOwn": "PortableLabEquipmentBox"
       },
       {
         "type": "OwnNumOfItem",
@@ -4844,7 +4844,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Medical Supplies"
+        "itemToOwn": "AnaestheticsContainers"
       }
     ],
     "rewards": [
@@ -4884,7 +4884,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Dustbloom"
+        "itemToOwn": "DesertPlant"
       }
     ],
     "rewards": [
@@ -5095,7 +5095,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Hardened Bone Plates"
+        "itemToOwn": "HardenedBoneAlloy"
       },
       {
         "type": "OwnNumOfItem",
@@ -5105,7 +5105,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "Salvaged Insulation"
+        "itemToOwn": "Insulation"
       }
     ],
     "rewards": [
@@ -5191,7 +5191,7 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Mutated Biomass",
+        "itemToOwn": "Biomass",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5205,7 +5205,7 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "Mutated Biomass",
+        "itemToOwn": "Biomass",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5219,7 +5219,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Alpha Crusher Heart",
+        "itemToOwn": "AlphaWardenHeart",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5284,7 +5284,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Old Bones"
+        "itemToOwn": "MissionItem_OldBones"
       }
     ],
     "rewards": [
@@ -5327,7 +5327,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Warden Tooth"
+        "itemToOwn": "MissionItem_AlphaSkull"
       }
     ],
     "rewards": [
@@ -5391,7 +5391,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Flight Recorder",
+        "itemToOwn": "MissionItem_FlightRecorder",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5439,7 +5439,7 @@
         "maxProgress": 1,
         "itemToOwn": "Nickel",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5453,9 +5453,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Old Notebook",
+        "itemToOwn": "MissionItem_Notebook",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5550,7 +5550,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Alpha Crusher Heart"
+        "itemToOwn": "AlphaWardenHeart"
       }
     ],
     "rewards": [
@@ -5586,7 +5586,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Resin Gun"
+        "itemToOwn": "Adhesive"
       }
     ],
     "rewards": [
@@ -5627,7 +5627,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "Biological Sampler"
+        "itemToOwn": "SamplingDevice"
       }
     ],
     "rewards": [
@@ -5699,9 +5699,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5715,9 +5715,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5766,9 +5766,9 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5819,9 +5819,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5835,12 +5835,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Korolev Data Drive #473-D"
+        "itemToOwn": "MissionItem_StolenKorData1"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Korolev Notes"
+        "itemToOwn": "MissionItem_StolenKorData2"
       }
     ],
     "rewards": [
@@ -5880,9 +5880,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5896,9 +5896,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5912,9 +5912,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5963,9 +5963,9 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6020,7 +6020,7 @@
       {
         "type": "DeadDrop",
         "maxProgress": 10,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
         "deadDropItem": "TentaclePlant",
         "killConditions": {
@@ -6068,9 +6068,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6084,9 +6084,9 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6100,9 +6100,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Mysterious Glowing Contraption",
+        "itemToOwn": "MissionItem_CultistGlowCrystalItem",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6150,9 +6150,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Teratomorphic Crystal Core",
+        "itemToOwn": "GlowingCrystalCoreShard",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6200,9 +6200,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6216,9 +6216,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6232,9 +6232,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6283,9 +6283,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6299,9 +6299,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Tharis Iron",
+        "itemToOwn": "ForgeIron",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6314,9 +6314,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Pure Tharis Iron",
+        "itemToOwn": "PureForgeIron",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6364,9 +6364,9 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6379,7 +6379,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Charged Spinal Base"
+        "itemToOwn": "StormyCreatureDrop"
       },
       {
         "type": "OwnNumOfItem",
@@ -6424,9 +6424,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6440,7 +6440,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Cultist Ritual Item"
+        "itemToOwn": "MissionItem_CultistRitualItem"
       }
     ],
     "rewards": [
@@ -6484,9 +6484,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6500,9 +6500,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6549,9 +6549,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Tharis Iron Ingot",
+        "itemToOwn": "ForgeIronIngot",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6609,9 +6609,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6625,9 +6625,9 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Derelict Explosives",
+        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6641,7 +6641,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Cultist Scribblings"
+        "itemToOwn": "MissionItem_AlienShieldRecipe"
       }
     ],
     "rewards": [
@@ -6679,9 +6679,9 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "Cultist Scribblings",
+        "itemToOwn": "MissionItem_AlienShieldRecipe",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6695,7 +6695,7 @@
       {
         "type": "DeadDrop",
         "maxProgress": 3,
-        "itemToOwn": "Charged Tharis Iron Ingot",
+        "itemToOwn": "ChargedForgeIronIngot",
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
         "deadDropItem": "AI_WeremoleMeat_02",
         "killConditions": {
@@ -6710,7 +6710,7 @@
       {
         "type": "DeadDrop",
         "maxProgress": 5,
-        "itemToOwn": "Charged Tharis Iron Ingot",
+        "itemToOwn": "ChargedForgeIronIngot",
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
         "deadDropItem": "AI_RattlerEyes_02",
         "killConditions": {
@@ -6758,9 +6758,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Huge Forged Backpack",
+        "itemToOwn": "Bag_Altered_01",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6773,9 +6773,9 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Charged Tharis Iron Ingot",
+        "itemToOwn": "ChargedForgeIronIngot",
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Portable Lab",
+        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6877,7 +6877,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Pale Ivy Blossom"
+        "itemToOwn": "IvyPlant"
       }
     ],
     "rewards": [
@@ -6922,7 +6922,7 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Pale Ivy Blossom",
+        "itemToOwn": "IvyPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -7013,7 +7013,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Charged Tharis Iron Ingot"
+        "itemToOwn": "ChargedForgeIronIngot"
       }
     ],
     "rewards": [

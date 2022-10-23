@@ -17,7 +17,7 @@
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "Smoke Grenade"
+        "deadDropItem": "Consumable_SmokeGrenade_01"
       }
     ],
     "rewards": [
@@ -57,17 +57,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Toxic Glands"
+        "itemToOwn": "NeuroToxicGlands"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Metallic Alloys"
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 7,
-        "itemToOwn": "Hydraulic Piston"
+        "itemToOwn": "HydraulicPiston"
       }
     ],
     "rewards": [

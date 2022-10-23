@@ -138,7 +138,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "Medical Supplies",
+        "itemToOwn": "AnaestheticsContainers",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -236,17 +236,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Blue Runner Egg"
+        "itemToOwn": "BlueRunnerEgg"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Toxic Glands"
+        "itemToOwn": "NeuroToxicGlands"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Old Medicine"
+        "itemToOwn": "Antibiotics"
       }
     ],
     "rewards": [
