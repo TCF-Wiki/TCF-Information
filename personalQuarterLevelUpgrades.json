@@ -2,106 +2,106 @@
   "playerquarter_1": {
     "level": 1,
     "upgradesRequired": 0,
-    "upgradeTime": 2880,
-    "costs": {}
+    "costs": {},
+    "upgradeTime": 0
   },
   "playerquarter_2": {
     "level": 2,
     "upgradesRequired": 11,
-    "upgradeTime": 11520,
     "costs": {
       "SoftCurrency": 1000,
       "SpareCasing": 5,
       "CompoundSheets": 5,
       "AI_RattlerSkin": 3
-    }
+    },
+    "upgradeTime": 2880
   },
   "playerquarter_3": {
     "level": 3,
     "upgradesRequired": 13,
-    "upgradeTime": 25920,
     "costs": {
       "SoftCurrency": 2000,
       "Insulation": 6,
       "Cables": 9,
       "AI_RattlerEyes": 4
-    }
+    },
+    "upgradeTime": 11520
   },
   "playerquarter_4": {
     "level": 4,
     "upgradesRequired": 18,
-    "upgradeTime": 46080,
     "costs": {
       "SoftCurrency": 4000,
       "BlueWood": 12,
       "CircuitBoard": 12,
       "HardenedBoneAlloy": 3
-    }
+    },
+    "upgradeTime": 25920
   },
   "playerquarter_5": {
     "level": 5,
     "upgradesRequired": 24,
-    "upgradeTime": 72000,
     "costs": {
       "SoftCurrency": 8000,
       "Adhesive": 10,
       "RadioSpareParts": 15,
       "AI_StriderMeat_03": 5
-    }
+    },
+    "upgradeTime": 46080
   },
   "playerquarter_6": {
     "level": 6,
     "upgradesRequired": 32,
-    "upgradeTime": 107280,
     "costs": {
       "SoftCurrency": 16000,
       "AluminumParts": 18,
       "MultiTool": 9,
       "AI_WeremoleMeat": 6
-    }
+    },
+    "upgradeTime": 72000
   },
   "playerquarter_7": {
     "level": 7,
     "upgradesRequired": 34,
-    "upgradeTime": 145440,
     "costs": {
       "SoftCurrency": 32000,
       "PrintResin": 9,
       "Datapad": 7,
       "AI_WeremoleMeat_02": 1
-    }
+    },
+    "upgradeTime": 107280
   },
   "playerquarter_8": {
     "level": 8,
     "upgradesRequired": 44,
-    "upgradeTime": 189360,
     "costs": {
       "SoftCurrency": 64000,
       "SmartMesh": 12,
       "Alien_Scrap": 32,
       "AI_CrusherSkin": 5
-    }
+    },
+    "upgradeTime": 145440
   },
   "playerquarter_9": {
     "level": 9,
     "upgradesRequired": 50,
-    "upgradeTime": 239040,
     "costs": {
       "SoftCurrency": 128000,
       "Letium": 150,
       "TentaclePlant": 10,
       "AI_CrusherMeat": 3
-    }
+    },
+    "upgradeTime": 189360
   },
   "playerquarter_10": {
     "level": 10,
     "upgradesRequired": 60,
-    "upgradeTime": 0,
     "costs": {
       "SoftCurrency": 256000,
       "AF_Token": 1,
       "OilTank": 50,
       "AlphaWardenHeart": 2
-    }
+    },
+    "upgradeTime": 239040
   }
 }
