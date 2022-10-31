@@ -25,30 +25,54 @@
   "maxDamageReduction": 2,
   "normalLoot": {
     "Rattler Skin": {
-      "chance": 15.000001,
-      "rolls": 1
+      "chance": 100,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Mature Rattler Eyes": {
       "chance": 15.000001,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
+    },
+    "Rattler Skin_2": {
+      "chance": 15.000001,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Mature Rattler Head": {
       "chance": 1,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     }
   },
   "stormLoot": {
     "Rattler Skin": {
-      "chance": 20,
-      "rolls": 1
+      "chance": 100,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Mature Rattler Eyes": {
       "chance": 20,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
+    },
+    "Rattler Skin_2": {
+      "chance": 20,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Mature Rattler Head": {
       "chance": 1,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     }
   },
   "attacks": {

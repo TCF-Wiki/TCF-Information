@@ -34,30 +34,54 @@
   "maxDamageReduction": 2,
   "normalLoot": {
     "Crusher Hide": {
-      "chance": 15.000001,
-      "rolls": 1
+      "chance": 100,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Crusher Flesh": {
       "chance": 25,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
+    },
+    "Crusher Hide_2": {
+      "chance": 15.000001,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Crusher Head": {
       "chance": 1,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     }
   },
   "stormLoot": {
     "Crusher Hide": {
-      "chance": 20,
-      "rolls": 2
+      "chance": 100,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Crusher Flesh": {
       "chance": 30.000002,
-      "rolls": 2
+      "rolls": 2,
+      "min": 1,
+      "max": 1
+    },
+    "Crusher Hide_2": {
+      "chance": 20,
+      "rolls": 2,
+      "min": 1,
+      "max": 1
     },
     "Crusher Head": {
       "chance": 1,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     }
   },
   "attacks": {

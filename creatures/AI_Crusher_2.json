@@ -34,38 +34,66 @@
   "maxDamageReduction": 2,
   "normalLoot": {
     "Crusher Hide": {
-      "chance": 30.000002,
-      "rolls": 3
+      "chance": 100,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Alpha Crusher Heart": {
       "chance": 100,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Crusher Flesh": {
       "chance": 25,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
+    },
+    "Crusher Hide_2": {
+      "chance": 30.000002,
+      "rolls": 3,
+      "min": 1,
+      "max": 1
     },
     "Alpha Crusher Skull": {
       "chance": 1,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     }
   },
   "stormLoot": {
     "Crusher Hide": {
-      "chance": 45,
-      "rolls": 4
+      "chance": 100,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Alpha Crusher Heart": {
       "chance": 100,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Crusher Flesh": {
       "chance": 30.000002,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
+    },
+    "Crusher Hide_2": {
+      "chance": 45,
+      "rolls": 4,
+      "min": 1,
+      "max": 1
     },
     "Alpha Crusher Skull": {
       "chance": 1,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     }
   },
   "attacks": {

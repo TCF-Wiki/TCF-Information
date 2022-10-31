@@ -25,30 +25,54 @@
   "maxDamageReduction": 2,
   "normalLoot": {
     "Hardened Bone Plates": {
-      "chance": 15.000001,
-      "rolls": 1
+      "chance": 100,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Marauder Flesh": {
       "chance": 25,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
+    },
+    "Hardened Bone Plates_2": {
+      "chance": 15.000001,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Marauder Head": {
       "chance": 1,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     }
   },
   "stormLoot": {
     "Hardened Bone Plates": {
-      "chance": 20,
-      "rolls": 2
+      "chance": 100,
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     },
     "Marauder Flesh": {
       "chance": 30.000002,
-      "rolls": 2
+      "rolls": 2,
+      "min": 1,
+      "max": 1
+    },
+    "Hardened Bone Plates_2": {
+      "chance": 20,
+      "rolls": 2,
+      "min": 1,
+      "max": 1
     },
     "Marauder Head": {
       "chance": 1,
-      "rolls": 1
+      "rolls": 1,
+      "min": 1,
+      "max": 1
     }
   },
   "attacks": {

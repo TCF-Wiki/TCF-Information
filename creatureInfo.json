@@ -41,29 +41,41 @@
     "normalLoot": {
       "Spinal Base": {
         "chance": 100,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 2
       },
       "Strider Flesh": {
         "chance": 25,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Strider Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "stormLoot": {
       "Charged Spinal Base": {
         "chance": 100,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 2
       },
       "Strider Flesh": {
         "chance": 30.000002,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Strider Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "attacks": {
@@ -137,29 +149,41 @@
     "normalLoot": {
       "Spinal Base": {
         "chance": 100,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 2
       },
       "Heavy Strider Flesh": {
         "chance": 15.000001,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Heavy Strider Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "stormLoot": {
       "Charged Spinal Base": {
         "chance": 100,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 2
       },
       "Heavy Strider Flesh": {
         "chance": 20,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Heavy Strider Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "attacks": {
@@ -232,30 +256,54 @@
     "maxDamageReduction": 2,
     "normalLoot": {
       "Rattler Skin": {
-        "chance": 15.000001,
-        "rolls": 1
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Rattler Eyes": {
         "chance": 25,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Rattler Skin_2": {
+        "chance": 15.000001,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Rattler Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "stormLoot": {
       "Rattler Skin": {
-        "chance": 19.047619,
-        "rolls": 1
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Rattler Eyes": {
         "chance": 30.000002,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Rattler Skin_2": {
+        "chance": 19.047619,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Rattler Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "attacks": {
@@ -373,30 +421,54 @@
     "maxDamageReduction": 2,
     "normalLoot": {
       "Rattler Skin": {
-        "chance": 15.000001,
-        "rolls": 1
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Mature Rattler Eyes": {
         "chance": 15.000001,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Rattler Skin_2": {
+        "chance": 15.000001,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Mature Rattler Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "stormLoot": {
       "Rattler Skin": {
-        "chance": 20,
-        "rolls": 1
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Mature Rattler Eyes": {
         "chance": 20,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Rattler Skin_2": {
+        "chance": 20,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Mature Rattler Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "attacks": {
@@ -514,30 +586,54 @@
     "maxDamageReduction": 2,
     "normalLoot": {
       "Hardened Bone Plates": {
-        "chance": 15.000001,
-        "rolls": 1
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Marauder Flesh": {
         "chance": 25,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Hardened Bone Plates_2": {
+        "chance": 15.000001,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Marauder Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "stormLoot": {
       "Hardened Bone Plates": {
-        "chance": 20,
-        "rolls": 2
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Marauder Flesh": {
         "chance": 30.000002,
-        "rolls": 2
+        "rolls": 2,
+        "min": 1,
+        "max": 1
+      },
+      "Hardened Bone Plates_2": {
+        "chance": 20,
+        "rolls": 2,
+        "min": 1,
+        "max": 1
       },
       "Marauder Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "attacks": {
@@ -780,30 +876,54 @@
     "maxDamageReduction": 2,
     "normalLoot": {
       "Hardened Bone Plates": {
-        "chance": 15.000001,
-        "rolls": 1
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Savage Marauder Flesh": {
         "chance": 15.000001,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Hardened Bone Plates_2": {
+        "chance": 15.000001,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Savage Marauder Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "stormLoot": {
       "Hardened Bone Plates": {
-        "chance": 20,
-        "rolls": 2
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Savage Marauder Flesh": {
         "chance": 20,
-        "rolls": 2
+        "rolls": 2,
+        "min": 1,
+        "max": 1
+      },
+      "Hardened Bone Plates_2": {
+        "chance": 20,
+        "rolls": 2,
+        "min": 1,
+        "max": 1
       },
       "Savage Marauder Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "attacks": {
@@ -1055,30 +1175,54 @@
     "maxDamageReduction": 2,
     "normalLoot": {
       "Crusher Hide": {
-        "chance": 15.000001,
-        "rolls": 1
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Crusher Flesh": {
         "chance": 25,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Crusher Hide_2": {
+        "chance": 15.000001,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Crusher Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "stormLoot": {
       "Crusher Hide": {
-        "chance": 20,
-        "rolls": 2
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Crusher Flesh": {
         "chance": 30.000002,
-        "rolls": 2
+        "rolls": 2,
+        "min": 1,
+        "max": 1
+      },
+      "Crusher Hide_2": {
+        "chance": 20,
+        "rolls": 2,
+        "min": 1,
+        "max": 1
       },
       "Crusher Head": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "attacks": {
@@ -1330,38 +1474,66 @@
     "maxDamageReduction": 2,
     "normalLoot": {
       "Crusher Hide": {
-        "chance": 30.000002,
-        "rolls": 3
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Alpha Crusher Heart": {
         "chance": 100,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Crusher Flesh": {
         "chance": 25,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Crusher Hide_2": {
+        "chance": 30.000002,
+        "rolls": 3,
+        "min": 1,
+        "max": 1
       },
       "Alpha Crusher Skull": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "stormLoot": {
       "Crusher Hide": {
-        "chance": 45,
-        "rolls": 4
+        "chance": 100,
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Alpha Crusher Heart": {
         "chance": 100,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       },
       "Crusher Flesh": {
         "chance": 30.000002,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
+      },
+      "Crusher Hide_2": {
+        "chance": 45,
+        "rolls": 4,
+        "min": 1,
+        "max": 1
       },
       "Alpha Crusher Skull": {
         "chance": 1,
-        "rolls": 1
+        "rolls": 1,
+        "min": 1,
+        "max": 1
       }
     },
     "attacks": {
