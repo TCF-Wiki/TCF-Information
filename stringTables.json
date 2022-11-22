@@ -1532,7 +1532,7 @@
         },
         "Main-ICA-GruntWork-4": {
             "name": "",
-            "description": "\"The ICA may run this station, but its Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.\"",
+            "description": "\"The ICA may run this station, but it's Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.\"",
             "shortDescription": "Purchase an ICA Data Drive and slot it into an Uplink Station to upgrade it to the specified Rarity. Data Drives can also be found around Comms Base or Base Camp."
         },
         "Main-ICA-GruntWork-5": {
@@ -3274,7 +3274,7 @@
             "description": "Every prospector needs some basic tools to get the job done.\r\n\r\nYour <BH2>Scanner</> will highlight valuable minerals in the area. You'll want to upgrade it with mods to find more valuable stuff.\r\n\r\nThe <BH2>Pickaxe</> is what you'll use to pry those minerals out. Tired of swinging it around? Then get yourself a <BH2>Mining Tool</> for faster extraction.\r\n\r\nVisibility might be an issue on the surface. You've got a standard <BH2>Flashlight</> for when it's dark, and a pair of basic <BH2>Binoculars</> to survey an area from afar."
         },
         "Codex_Fortuna": {
-            "description": "First settled in 2309, Fortuna III was on course to be one of the most prosperous worlds under humanity's domain, before what's known as <BH2>'The Cycle'</> upended everything half a century later, destroying the Progenitor-built Waygate orbiting the moon and cutting the Fortuna system from the rest of humanity.\r\n\r\nAs a Habitable 'Class 5' planet, Fortuna III had been terraformed tens of thousands of years by a lost civilization referred to as the Progenitors, with an ecosystem practically identical to that of other H-C5 planets, and a similar abundance of the energy-rich <BH2>Veltecite</> that fuels the Waygates connecting them. Why the Progenitors seeded these planets and then vanished isn't yet known, as only the only tangible evidence of their existence are the Waygates and inert monuments that dot each planet's surface.\r\n\r\nThe planet's surface now lies practically abandoned, with only <BH2>Prospectors</> and other fools braving <BH2>The Cycle</>, and the planet's hostile fauna, to secure resources for the station in orbit."
+            "description": "First settled in 2309, Fortuna III was on course to be one of the most prosperous worlds under humanity's domain, before what's known as <BH2>'The Cycle'</> upended everything half a century later, destroying the Progenitor-built Waygate orbiting the moon and cutting the Fortuna system from the rest of humanity.\r\n\r\nAs a Habitable 'Class 5' planet, Fortuna III had been terraformed tens of thousands of years by a lost civilization referred to as the Progenitors, with an ecosystem practically identical to that of other H-C5 planets, and a similar abundance of the energy-rich <BH2>Veltecite</> that fuels the Waygates connecting them. Why the Progenitors seeded these planets and then vanished isn't yet known, as the only tangible evidence of their existence are the Waygates and inert monuments that dot each planet's surface.\r\n\r\nThe planet's surface now lies practically abandoned, with only <BH2>Prospectors</> and other fools braving <BH2>The Cycle</>, and the planet's hostile fauna, to secure resources for the station in orbit."
         },
         "Codex_Factions_Osiris": {
             "description": "Formed from the remnants of several research shops and filled with academics, <BH2>Osiris</> was left rudderless after the Cycle cut off effective communications with their parent company. While their goal of researching Progenitor artefacts and reverse engineering their technology remains the same, without access to the surface itself their work was limited to just idle theorizing.\r\n\r\nThankfully the corporation's newest head recognized the value prospectors could offer and is more than happy to send them off to danger for a pittance, so long as they remain effective."
@@ -3377,8 +3377,8 @@
             "name": "Tall House Key"
         },
         "Equip_Keys_Map02_Key02": {
-            "description": "A janitors key loop with a single simple key with a cute broom charm attached; it appears to longingly sweep at the floor as it dangles from your hand",
-            "name": "Janitors Key"
+            "description": "A janitor's key loop with a single simple key with a cute broom charm attached; it appears to longingly sweep at the floor as it dangles from your hand",
+            "name": "Janitor's Key"
         },
         "Equip_Keys_Map02_Key07": {
             "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
@@ -3406,7 +3406,7 @@
         },
         "Equip_Keys_Map02_Key09": {
             "description": "A round green logo is barely visible under the muck that's grown over this keycard.",
-            "name": "Overgrown Keykard"
+            "name": "Overgrown Keycard"
         },
         "Equip_Bag01": {
             "description": "A small backpack for storing items.",
@@ -3505,7 +3505,7 @@
         },
         "Equip_Keys_Map02_Key04": {
             "description": "Labeled with \"Nutrion Farms\" and is emblazoned the Nutrion Farms logo. It's still covered in a sickly stale pumpkin juice... ew.",
-            "name": "Overseers Office Key"
+            "name": "Overseer's Office Key"
         },
         "Equip_Keys_Map02_Key05": {
             "description": "Looks like the key to someone's house. The amount of rust and moss on it seems to imply its origin is somewhere deep in a jungle.",
@@ -5657,6 +5657,10 @@
             "description": "A bit of gold goes a long way",
             "name": "Luxury KM-9 Scrapper"
         },
+        "Shop_Archetype_S03_Harvester": {
+            "description": "A body ravished by an illness from the surface, only materials obtained from the surface can keep this husk alive, and maybe even heal them. A strong sense of independence, or just stubborn arrogance, drives the Harvester to collect these materials himself.",
+            "name": "Harvester"
+        },
         "Shop_Season03_Emote_02": {
             "description": "A classic sign of respect",
             "name": "Hat Tip"
@@ -5683,6 +5687,10 @@
         "Shop_Emote_Point&Laugh_01": {
             "name": "A good laugh",
             "description": "Yeah, we all saw that."
+        },
+        "Shop_Archetype_S03_UnboundSynth": {
+            "description": "A human brain animates this synthetic body, now freed from their decades-long \"work contract\". But maintaining a work of art and engineering like this isn't cheap, and out here nothing pays better than prospecting. The grind never ends.",
+            "name": "The Unbound"
         },
         "Shop_Season03_Charm_PostOffice": {
             "description": "A little adornment for handing out \"special deliveries\".",
@@ -5934,6 +5942,10 @@
         "Shop_Tab_StarterL1": {
             "description": "Aurum, K-Marks, some helpful Gear, and Unique Cosmetics!"
         },
+        "Shop_Archetype_S03_AuthorityOperative": {
+            "name": "Authority Operative",
+            "description": "Without any communication with HQ, and without pay, even the Authority's commandos need to earn a living. Where better to put their skills to use than the planet's hellish surface?"
+        },
         "Shop_Season03-5_Champion_Headstyle_Orange": {
             "name": "Autumn Wave - Head"
         },
@@ -6026,6 +6038,10 @@
             "description": "Blind your enemies from afar.\r\n\r\nCan only be applied to the Basilisk.",
             "name": "Chrome Basilisk"
         },
+        "Shop_Archetype_S03_Bloodhound": {
+            "name": "Bloodhound",
+            "description": "The Bloodhound can always smell a good story, and Fortuna III is teeming with good stories, especially of the morbid and violent kind. The only way to reach the surface is to become an independent prospector or a corporate drone; a non-choice, really."
+        },
         "Shop_Death_Emote_06": {
             "name": "Blow Kiss"
         },
@@ -6083,7 +6099,7 @@
         },
         "Shop_Season03_Melee_Streamer_04": {
             "name": "Breaker Bat",
-            "description": "Whistles a dainty little tune...\"\""
+            "description": "Whistles a dainty little tune..."
         },
         "Shop_Season03_Droppod_Streamer": {
             "description": "Bright and colorful and full of guns.",
@@ -7676,6 +7692,10 @@
             "name": "Jubilant",
             "description": "You've just gotta celebrate!"
         },
+        "Shop_Archetype_S03_JungleBandit": {
+            "name": "Jungle Bandit",
+            "description": "More comfortable in the dense forests of Fortuna III than the crowded walkways of Prospect Station, this dedicated hunter yearns to eradicate the Howler threat and return to his natural habitat."
+        },
         "Shop_Vanity_All_Military02": {
             "name": "Jungle Camo"
         },
@@ -8166,6 +8186,10 @@
         "Shop_Charm_Warning": {
             "description": "Might be too small for your targets to see... Oh well!",
             "name": "Risk of Shock!"
+        },
+        "Shop_Archetype_S03_TheArtillery": {
+            "description": "Military-grade prosthetics seemed like a small reward for the sacrifices of battle, but they've sure come in \"handy\". Now when the station's underground czars need the big guns to \"solve\" a problem, they call in The Artillery. And on their days off, some prospecting helps to pass the time and clear the mind.",
+            "name": "The Artillery"
         },
         "Shop_Banner_MIne": {
             "name": "Mine!"
