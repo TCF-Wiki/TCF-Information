@@ -99,7 +99,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 2,
         "itemToOwn": "CompoundSheets",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -226,7 +226,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 5,
         "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -239,7 +239,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "itemToOwn": "CircuitBoard",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -837,12 +837,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 7,
+        "maxProgress": 3,
         "itemToOwn": "UncommonVelticite"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "OpticGlass"
       },
       {
@@ -1067,7 +1067,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "CombatCPU_Blue"
       }
     ],
@@ -1166,12 +1166,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "MeteorFragment"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "FocusCrystal"
       }
     ],
@@ -2863,7 +2863,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
         "deadDropItem": "PureFocusCrystal"
       },
@@ -3551,7 +3551,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "AluminumParts",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
@@ -3736,12 +3736,12 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Battery"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Alloys"
       }
     ],
@@ -3798,7 +3798,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "HardDrive_uncommon"
       }
     ],
@@ -3850,7 +3850,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "HardDrive_uncommon",
         "deadDropLocation": "Map01_CommsBase_Satellite",
         "deadDropItem": "CircuitBoard"
@@ -3903,7 +3903,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "itemToOwn": "HardDrive_rare",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -3917,7 +3917,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "itemToOwn": "Battery"
       }
     ],
@@ -4369,13 +4369,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
         "deadDropItem": "CircuitBoard"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 6,
+        "maxProgress": 4,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
         "deadDropItem": "CopperWire"
       }
@@ -4422,7 +4422,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
         "deadDropItem": "IvyPlant"
       },
@@ -5037,19 +5037,19 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "PolymetallicPrefabricate"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "Adhesive"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "MagneticFieldStabilizer"
       }
@@ -5729,7 +5729,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "itemToOwn": "WaterPlant"
       }
     ],
@@ -5830,7 +5830,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 7,
+        "maxProgress": 4,
         "itemToOwn": "WaterPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -5892,7 +5892,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "AI_StriderMeat"
       }
     ],
@@ -5956,7 +5956,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "OpticGlass"
       }
     ],
@@ -6008,7 +6008,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 7,
+        "maxProgress": 5,
         "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -6304,7 +6304,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 2,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_WaterfallLab",
         "deadDropItem": "Consumable_Health_03",
@@ -6415,7 +6415,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6428,7 +6428,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "itemToOwn": "IvyPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -6569,7 +6569,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "AI_RattlerEyes"
       }
     ],
@@ -7571,7 +7571,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 8,
+        "maxProgress": 4,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "StormyCreatureDrop"
       }
@@ -7991,7 +7991,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "deadDropLocation": "Map02_PinnacleLab",
         "deadDropItem": "PureFocusCrystal"
       },
@@ -8152,7 +8152,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "deadDropLocation": "Map01_WaterfallLab",
         "deadDropItem": "Antibiotics"
       }
@@ -8410,19 +8410,19 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
         "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
         "deadDropItem": "CircuitBoard"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
         "deadDropItem": "MagneticFieldStabilizer"
       }
@@ -10109,7 +10109,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "GlowingCrystalCoreShard",
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "TentaclePlant"
@@ -10728,7 +10728,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map01_EastEvac_UndergroundElevator",
         "deadDropItem": "Letium",
         "killConditions": {
@@ -10742,7 +10742,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map01_CenterBase_GateC",
         "deadDropItem": "Letium",
         "killConditions": {
@@ -11436,13 +11436,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map03_OsirisMain",
         "deadDropItem": "OilTank"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "DerelictExplosives"
       }
@@ -12044,7 +12044,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
         "deadDropItem": "TentaclePlant",

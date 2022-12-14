@@ -2025,7 +2025,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 2,
         "itemToOwn": "CompoundSheets",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2152,7 +2152,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 5,
         "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2165,7 +2165,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "itemToOwn": "CircuitBoard",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2763,12 +2763,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 7,
+        "maxProgress": 3,
         "itemToOwn": "UncommonVelticite"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "OpticGlass"
       },
       {
@@ -2993,7 +2993,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "CombatCPU_Blue"
       }
     ],
@@ -3092,12 +3092,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "MeteorFragment"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "FocusCrystal"
       }
     ],
@@ -4789,7 +4789,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
         "deadDropItem": "PureFocusCrystal"
       },
@@ -5628,7 +5628,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "GlowingCrystalCoreShard",
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "TentaclePlant"
@@ -6247,7 +6247,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map01_EastEvac_UndergroundElevator",
         "deadDropItem": "Letium",
         "killConditions": {
@@ -6261,7 +6261,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map01_CenterBase_GateC",
         "deadDropItem": "Letium",
         "killConditions": {

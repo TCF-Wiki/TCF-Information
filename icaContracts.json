@@ -2304,7 +2304,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "AluminumParts",
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "ShockGrenade_02",
@@ -2489,12 +2489,12 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Battery"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Alloys"
       }
     ],
@@ -2551,7 +2551,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "HardDrive_uncommon"
       }
     ],
@@ -2603,7 +2603,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "HardDrive_uncommon",
         "deadDropLocation": "Map01_CommsBase_Satellite",
         "deadDropItem": "CircuitBoard"
@@ -2656,7 +2656,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "itemToOwn": "HardDrive_rare",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2670,7 +2670,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "itemToOwn": "Battery"
       }
     ],
@@ -3122,13 +3122,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
         "deadDropItem": "CircuitBoard"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 6,
+        "maxProgress": 4,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
         "deadDropItem": "CopperWire"
       }
@@ -3175,7 +3175,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
         "deadDropItem": "IvyPlant"
       },
@@ -3790,19 +3790,19 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "PolymetallicPrefabricate"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "Adhesive"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "MagneticFieldStabilizer"
       }
@@ -5719,13 +5719,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map03_OsirisMain",
         "deadDropItem": "OilTank"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "DerelictExplosives"
       }

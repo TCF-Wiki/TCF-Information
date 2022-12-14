@@ -8,7 +8,7 @@
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 5,
+      "maxProgress": 2,
       "itemToOwn": "CompoundSheets",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",

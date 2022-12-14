@@ -14,12 +14,12 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Battery"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Alloys"
       }
     ],
@@ -76,7 +76,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "HardDrive_uncommon"
       }
     ],
@@ -128,7 +128,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "HardDrive_uncommon",
         "deadDropLocation": "Map01_CommsBase_Satellite",
         "deadDropItem": "CircuitBoard"
@@ -181,7 +181,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "itemToOwn": "HardDrive_rare",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -195,7 +195,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "itemToOwn": "Battery"
       }
     ],

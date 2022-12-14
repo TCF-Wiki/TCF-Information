@@ -1,5 +1,5 @@
 {
-  "Description": "Enhanced Alien Hunter Vision (can be toggled on/off)",
+  "Description": "Enhanced Alien Hunter Vision which consumes stamina (can be toggled on/off)",
   "Equipment": [
     "Equipment.Helmet"
   ],
@@ -20,12 +20,23 @@
       "lerpStartValue": 0,
       "lerpEndValue": 0,
       "runtimeValue": 1
+    },
+    {
+      "Attribute": "EYGameplayAttribute::HelmetThermalStaminaConsumptionPerSecond",
+      "Type": "EYGPAModifierType::Additive",
+      "Value": -1,
+      "minValue": -1,
+      "duration": 0,
+      "lerpTime": -1,
+      "lerpStartValue": 0,
+      "lerpEndValue": 0,
+      "runtimeValue": 1
     }
   ],
   "AttributeOverrides": {
-    "minValue": 1,
+    "minValue": 8,
     "stepGranularity": 1,
     "numSteps": 1,
-    "calculatedMaxValue": 1
+    "calculatedMaxValue": 8
   }
 }

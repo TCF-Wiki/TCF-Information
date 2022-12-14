@@ -8,7 +8,7 @@
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 10,
+      "maxProgress": 5,
       "itemToOwn": "CommonVeltecite",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
@@ -21,7 +21,7 @@
     },
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 3,
+      "maxProgress": 1,
       "itemToOwn": "CircuitBoard",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",

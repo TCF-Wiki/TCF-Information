@@ -2041,7 +2041,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "itemToOwn": "WaterPlant"
       }
     ],
@@ -2142,7 +2142,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 7,
+        "maxProgress": 4,
         "itemToOwn": "WaterPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2204,7 +2204,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "AI_StriderMeat"
       }
     ],
@@ -2268,7 +2268,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "OpticGlass"
       }
     ],
@@ -2320,7 +2320,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 7,
+        "maxProgress": 5,
         "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2616,7 +2616,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 2,
         "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_WaterfallLab",
         "deadDropItem": "Consumable_Health_03",
@@ -2727,7 +2727,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2740,7 +2740,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "itemToOwn": "IvyPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
@@ -2881,7 +2881,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "AI_RattlerEyes"
       }
     ],
@@ -3883,7 +3883,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 8,
+        "maxProgress": 4,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "StormyCreatureDrop"
       }
@@ -4303,7 +4303,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "deadDropLocation": "Map02_PinnacleLab",
         "deadDropItem": "PureFocusCrystal"
       },
@@ -4464,7 +4464,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "deadDropLocation": "Map01_WaterfallLab",
         "deadDropItem": "Antibiotics"
       }
@@ -4722,19 +4722,19 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
         "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
         "deadDropItem": "CircuitBoard"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
         "deadDropItem": "MagneticFieldStabilizer"
       }
@@ -6019,7 +6019,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
         "deadDropItem": "TentaclePlant",

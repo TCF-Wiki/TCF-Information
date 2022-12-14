@@ -4343,7 +4343,7 @@
         },
         "SuperChargedForgeIronIngot": {
             "lore": "",
-            "description": "An ingot made of Pure Tharis Iron somehow charged with storm lightning. Sometimes lets off a shock when touched, and you can hear a buzz if you put it next to your ear.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
+            "description": "An ingot made of Pure Tharis Iron, heavily charged with storm lightning. Just touching it leaves your fingers numb.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
             "name": "Super Charged Tharis Iron Ingot"
         },
         "TitanOre": {
@@ -4723,7 +4723,7 @@
             "description": "Scanners equipped with this Attachment can highlight active Crude Oil Wells while scanning."
         },
         "Mods_Perk_HunterVisionHelm": {
-            "description": "Enhanced Alien Hunter Vision (can be toggled on/off)"
+            "description": "Enhanced Alien Hunter Vision which consumes stamina (can be toggled on/off)"
         },
         "Mods_Perk_NightVision": {
             "description": "Enhanced Night Vision (can be toggled on/off)"
@@ -5177,6 +5177,9 @@
             "name": "Small Suppressor",
             "description": "Suppresses the produced sound when firing."
         },
+        "Mods_Perk_HelmActiveStaminaConsumption": {
+            "description": "Stamina consumption when active"
+        },
         "Mods_Perk_StaminaRegenDelay_Storm": {
             "description": "Stamina regenerates without delay during a Storm"
         }
@@ -5453,7 +5456,7 @@
         },
         "Seasons_FPRewards_Generic_Banner": {
             "name": "Banner",
-            "description": "Leave a message with a new BANNERS\r\n\r\nUnlocked vanity is not lost after season wipes."
+            "description": "Leave a message with a new Banner.\r\n\r\nUnlocked vanity is not lost after season wipes."
         },
         "Seasons_FPRewards_Generic_XPBoost": {
             "description": "Boosts your Fortuna Pass XP gain for the current season.",
@@ -6277,6 +6280,14 @@
         },
         "Shop_Gambler02_Chest": {
             "name": "Card Shark - Chest"
+        },
+        "Shop_Banner_XmasNutcracker": {
+            "description": "Careful not to lose a finger!",
+            "name": "Nutcracker Banner"
+        },
+        "Shop_Charm_Strider_Gingerbread01": {
+            "description": "Careful, he bites back!",
+            "name": "Gingerbread Strider"
         },
         "Shop_Vanity_All_Striped01": {
             "name": "Caution"
@@ -7316,6 +7327,10 @@
         "Shop_Season02_Droppod_Syndicate": {
             "name": "Gilded Carriage"
         },
+        "Shop_Charm_Rattler_Gingerbread01": {
+            "name": "Gingerbread Rattler",
+            "description": "Sweet with a bit of spice!"
+        },
         "Shop_Emote_Shadowboxing_01": {
             "description": "Give 'em a good shiner!",
             "name": "Pugilist"
@@ -7462,6 +7477,10 @@
         "Shop_ExoBiologist02_Gloves": {
             "name": "Hazard Suit - Gloves"
         },
+        "Shop_Christmas2020_Charm_SpaceMan": {
+            "description": "He brings gifts to all!",
+            "name": "Starlight Song Spaceman"
+        },
         "Shop_Spray_OsirisDrone": {
             "description": "He just wants to explore!",
             "name": "Research Bot"
@@ -7508,6 +7527,10 @@
         },
         "Shop_Season02_Death_Emote_04": {
             "name": "Hold on a minu-"
+        },
+        "Shop_Vanity_All_Christmas_04": {
+            "name": "Holiday Spirit",
+            "description": "The gift that keeps on giving!"
         },
         "Shop_Season03_Banner_09_ProspectStation": {
             "name": "Home Sweet Home",
@@ -7684,6 +7707,10 @@
         },
         "Shop_Season03_Ronin_Head_03": {
             "name": "Jingasa - Head"
+        },
+        "Shop_Banner_XmasNiceOrNaughty": {
+            "name": "Jolly Badum Banner",
+            "description": "Which list are you on?"
         },
         "Shop_Banner_Piracy01": {
             "name": "Jolly Prospector"
@@ -7879,6 +7906,14 @@
         "Shop_Melee_GlowingBladeKnife": {
             "description": "Leaves scary scars",
             "name": "Searing Edge"
+        },
+        "Banner_PartnerBadumsFinestLegacy": {
+            "description": "Legacy - Badum's Finest",
+            "name": "Legacy - Badum's Finest"
+        },
+        "Banner_PartnerFortunasFavoredLegacy": {
+            "description": "Legacy - Fortuna's Favored",
+            "name": "Legacy - Fortuna's Favored"
         },
         "Shop_Banner_Ranked_1Placement": {
             "name": "Legendary Rank"
@@ -9013,6 +9048,9 @@
         "Shop_Death_Emote_05": {
             "name": "So close..."
         },
+        "Shop_Charm_Present01s": {
+            "description": "So neatly wrapped!"
+        },
         "Shop_Melee_Paladin_06": {
             "name": "Soldier's Blade"
         },
@@ -9146,9 +9184,6 @@
         "Shop_Default01_BaseSuit": {
             "name": "Standard Issue - Basesuit"
         },
-        "Shop_Christmas2020_Charm_SpaceMan": {
-            "name": "Starlight Song Spaceman"
-        },
         "Shop_StarterOutfit01_Basesuit2": {
             "name": "Station Jumpsuit"
         },
@@ -9236,6 +9271,10 @@
         },
         "Shop_Melee_SurvivalFest01": {
             "name": "Survivor's Blade"
+        },
+        "Shop_Melee_Axe_Christmas01": {
+            "name": "Sweet Tooth",
+            "description": "Who doesn't like a candy cane?"
         },
         "Shop_Banner_Peace": {
             "name": "Symbol of Peace"
@@ -9401,6 +9440,10 @@
         },
         "Shop_Creator_Charm_MAXINFINITE": {
             "name": "The Rat"
+        },
+        "Shop_Vanity_All_Christmas_03": {
+            "name": "The Season's Greeting",
+            "description": "Time to get festive!"
         },
         "Shop_Vehicle_Leafman": {
             "name": "The Speedy Leafman"
@@ -9798,6 +9841,9 @@
         "Shop_Season03_Skin_SMG_Alpha01_Grafitti": {
             "name": "Wildstyle Scrapper"
         },
+        "Shop_Charm_Present01": {
+            "name": "Winter Gift"
+        },
         "Shop_Season01_WinterEvent_coating_green": {
             "name": "Winter Wishes"
         },
@@ -9950,7 +9996,7 @@
             "description": "I need a proper description as well"
         },
         "Station_TechTree_Workbench": {
-            "description": "Improves gear printing time."
+            "description": "Improves Player Quarter upgrade times."
         },
         "Station_TechTree_Inventory": {
             "description": "Increase the capacity of your Stash in the Station, and your Safe Pockets in your loadout."
