@@ -1,5 +1,6 @@
 {
-  "inGameName": "NEW-Hard-KOR-PvP-6",
+  "inGameName": "Testing the Arsenal",
+  "description": "Prospector! It's time to test Korolev Weaponry against human targets. Grab a Korolev Weapon and eliminate rival Prospectors.",
   "faction": "Korolev",
   "factionReputation": 390,
   "difficulty": "Hard",
@@ -8,7 +9,6 @@
     {
       "type": "Kills",
       "maxProgress": 3,
-      "itemToOwn": "CommonVeltecite",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Players",
         "m_allowedWeaponCategories": [],
@@ -109,6 +109,5 @@
     }
   ],
   "unlockLevel": 12,
-  "unlockContracts": [],
-  "isMain": false
+  "unlockContracts": []
 }

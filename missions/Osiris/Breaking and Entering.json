@@ -10,21 +10,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Biomass",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_EliteCrusherDungeon"
       },
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "Biomass",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -38,15 +28,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "AlphaWardenHeart",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AlphaWardenHeart"
       }
     ],
     "rewards": [
@@ -83,7 +65,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Breaking and Entering",
     "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out.\r\n\r\nOnce the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
   }

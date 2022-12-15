@@ -9,33 +9,12 @@
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "itemToOwn": "Nickel",
-      "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "PortableLabEquipmentBox",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      },
       "locationConditions": "UniqueMissionLocation_LostScientist"
     },
     {
       "type": "OwnNumOfItem",
       "maxProgress": 1,
-      "itemToOwn": "MissionItem_Notebook",
-      "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "PortableLabEquipmentBox",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "itemToOwn": "MissionItem_Notebook"
     }
   ],
   "rewards": [
@@ -66,5 +45,5 @@
   "unlockContracts": [
     ""
   ],
-  "isMain": true
+  "isMainChain": false
 }

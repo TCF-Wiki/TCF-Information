@@ -14,7 +14,6 @@
     {
       "type": "Kills",
       "maxProgress": 5,
-      "itemToOwn": "WaterPlant",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -59,5 +58,5 @@
   "unlockContracts": [
     "The Real Wetwork"
   ],
-  "isMain": true
+  "isMainChain": false
 }

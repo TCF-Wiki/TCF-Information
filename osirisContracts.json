@@ -32,8 +32,7 @@
       }
     ],
     "unlockLevel": 3,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Gather-1": {
     "inGameName": "Surveillance Center",
@@ -73,8 +72,7 @@
       }
     ],
     "unlockLevel": 6,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Gather-2": {
     "inGameName": "Gun Manufacturing",
@@ -114,8 +112,7 @@
       }
     ],
     "unlockLevel": 7,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-1": {
     "inGameName": "Cretins",
@@ -150,8 +147,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-2": {
     "inGameName": "Sensor Array Repairs",
@@ -196,8 +192,7 @@
       }
     ],
     "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-3": {
     "inGameName": "A new Energy Source",
@@ -237,8 +232,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-4": {
     "inGameName": "Data Center Upgrades",
@@ -273,8 +267,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-5": {
     "inGameName": "Keep the Experiment running",
@@ -309,8 +302,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-6": {
     "inGameName": "Safety Measures",
@@ -355,8 +347,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Easy-Osiris-Hunt-3": {
     "inGameName": "For Science",
@@ -369,7 +360,6 @@
       {
         "type": "Kills",
         "maxProgress": 8,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -400,8 +390,7 @@
       }
     ],
     "unlockLevel": 3,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Easy-Osiris-Hunt-4": {
     "inGameName": "Population Control I",
@@ -414,7 +403,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -444,8 +432,7 @@
       }
     ],
     "unlockLevel": 4,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Hunt-1": {
     "inGameName": "Behavioral Analysis III",
@@ -458,7 +445,6 @@
       {
         "type": "Kills",
         "maxProgress": 12,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -490,8 +476,7 @@
       }
     ],
     "unlockLevel": 6,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Hunt-2": {
     "inGameName": "Protect our Investments",
@@ -504,7 +489,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -517,7 +501,6 @@
       {
         "type": "Kills",
         "maxProgress": 6,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -547,8 +530,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Hunt-3": {
     "inGameName": "Secure the Perimeter",
@@ -561,7 +543,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -575,7 +556,6 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -606,8 +586,7 @@
       }
     ],
     "unlockLevel": 7,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Hunt-5": {
     "inGameName": "Xeno-Archaeology I",
@@ -620,7 +599,6 @@
       {
         "type": "Kills",
         "maxProgress": 12,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -651,8 +629,7 @@
       }
     ],
     "unlockLevel": 10,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Hunt-1": {
     "inGameName": "Muddied Waters",
@@ -665,7 +642,6 @@
       {
         "type": "Kills",
         "maxProgress": 20,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -696,8 +672,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Hunt-2": {
     "inGameName": "Brains over brawn",
@@ -710,7 +685,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -740,8 +714,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Hunt-3": {
     "inGameName": "Sanitation",
@@ -754,7 +727,6 @@
       {
         "type": "Kills",
         "maxProgress": 8,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -768,7 +740,6 @@
       {
         "type": "Kills",
         "maxProgress": 16,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -799,8 +770,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Hunt-4": {
     "inGameName": "Behavioral Analysis V",
@@ -813,7 +783,6 @@
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -846,8 +815,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Hunt-5": {
     "inGameName": "Living Black Box",
@@ -860,7 +828,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -891,8 +858,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Hunt-6": {
     "inGameName": "Xeno-Archaeology II",
@@ -905,7 +871,6 @@
       {
         "type": "Kills",
         "maxProgress": 4,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -936,8 +901,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Hunt-7": {
     "inGameName": "Pinnacle of Evolution",
@@ -950,7 +914,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -964,7 +927,6 @@
       {
         "type": "Kills",
         "maxProgress": 6,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -978,7 +940,6 @@
       {
         "type": "Kills",
         "maxProgress": 12,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1009,8 +970,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-PvP-1": {
     "inGameName": "Superior Firepower",
@@ -1023,7 +983,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1103,8 +1062,7 @@
       }
     ],
     "unlockLevel": 11,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-PvP-1": {
     "inGameName": "Lab Rats",
@@ -1117,7 +1075,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1131,7 +1088,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1162,8 +1118,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-PvP-2": {
     "inGameName": "Internal Combustion",
@@ -1176,7 +1131,6 @@
       {
         "type": "Kills",
         "maxProgress": 4,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1214,8 +1168,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Brightcaps-and-PvE-1": {
     "inGameName": "Clear the Swamp",
@@ -1262,8 +1215,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Brightcaps-3": {
     "inGameName": "Botanist III",
@@ -1298,8 +1250,7 @@
       }
     ],
     "unlockLevel": 11,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Brightcaps-and-PvE-1": {
     "inGameName": "Bad Acid",
@@ -1346,8 +1297,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Brightcaps-1": {
     "inGameName": "Harvest Day",
@@ -1387,8 +1337,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-BlueRunnerEgg-1": {
     "inGameName": "Egg Delivery III",
@@ -1423,8 +1372,7 @@
       }
     ],
     "unlockLevel": 10,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Meteor-1": {
     "inGameName": "Unstable Sample",
@@ -1459,8 +1407,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Meteor-1": {
     "inGameName": "Core Values",
@@ -1495,8 +1442,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Meteor-2": {
     "inGameName": "Promising Results",
@@ -1536,8 +1482,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Stash-1": {
     "inGameName": "Lense Repairs",
@@ -1573,8 +1518,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Stash-2": {
     "inGameName": "Technical Supplies",
@@ -1610,8 +1554,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Stash-4": {
     "inGameName": "Toxin Testing",
@@ -1647,8 +1590,7 @@
       }
     ],
     "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Stash-1": {
     "inGameName": "Stormy Samples",
@@ -1684,8 +1626,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Stash-2": {
     "inGameName": "Stormy Samples II",
@@ -1721,8 +1662,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Stash-3": {
     "inGameName": "Loadout Drop",
@@ -1770,8 +1710,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Easy-Osiris-Flora-1": {
     "inGameName": "Pale Ivy",
@@ -1784,9 +1723,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "IvyPlant",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "itemToOwn": "IvyPlant"
       }
     ],
     "rewards": [
@@ -1808,8 +1745,7 @@
       }
     ],
     "unlockLevel": 5,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Flora-1": {
     "inGameName": "Cross-Breeding",
@@ -1822,16 +1758,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "IvyPlant",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "itemToOwn": "IvyPlant"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "itemToOwn": "WaterPlant"
       }
     ],
     "rewards": [
@@ -1853,8 +1785,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Flora-2": {
     "inGameName": "Dustbloom",
@@ -1867,9 +1798,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "DesertPlant",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "itemToOwn": "DesertPlant"
       }
     ],
     "rewards": [
@@ -1891,11 +1820,11 @@
       }
     ],
     "unlockLevel": 10,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-7": {
-    "inGameName": "NEW-Hard-Osiris-Gather-7",
+    "inGameName": "Research Drone Repairs",
+    "description": "One of our research drones got hit by Storm radiation, frying its flight stabilizers. Bring us Gyroscopes and Interactive Screens for the repairs.",
     "faction": "Osiris",
     "factionReputation": 400,
     "difficulty": "Hard",
@@ -1931,11 +1860,11 @@
       }
     ],
     "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Hunt-8": {
-    "inGameName": "NEW-Hard-Osiris-Hunt-8",
+    "inGameName": "Behavioral Analysis IV",
+    "description": "Next up in our Research, we need to analyze how Marauders react to Submachine Guns in combat. Grab one and go get us the data.",
     "faction": "Osiris",
     "factionReputation": 390,
     "difficulty": "Hard",
@@ -1944,7 +1873,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -1976,8 +1904,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "Main-Osiris-FTUE-1": {
     "inGameName": "Prove your Worth",
@@ -1990,7 +1917,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "SpareCasing",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2027,7 +1953,7 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Dangerous Science",
     "chainDescription": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as \"Progenitors\".\r\n\r\nHelping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
   },
@@ -2067,7 +1993,7 @@
     "unlockContracts": [
       "Prove your Worth"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-GainTrust-2": {
     "inGameName": "Fertile Grounds",
@@ -2085,7 +2011,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "WaterPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2130,7 +2055,7 @@
     "unlockContracts": [
       "The Real Wetwork"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-GainTrust-3": {
     "inGameName": "Tick-Tock",
@@ -2143,7 +2068,6 @@
       {
         "type": "Kills",
         "maxProgress": 4,
-        "itemToOwn": "WaterPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2187,7 +2111,7 @@
     "unlockContracts": [
       "Fertile Grounds"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-GainTrust-4": {
     "inGameName": "Papers, Please",
@@ -2236,7 +2160,7 @@
     "unlockContracts": [
       "Tick-Tock"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-GruntWork-1": {
     "inGameName": "Main-Osiris-GruntWork-1",
@@ -2249,13 +2173,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "AI_RattlerEyes",
         "locationConditions": "Map01_ScienceCampus"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2300,7 +2222,7 @@
     "unlockContracts": [
       "Papers, Please"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Field Research",
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
   },
@@ -2315,13 +2237,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "AI_RattlerEyes",
         "locationConditions": "Map01_Lake"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2335,7 +2255,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2369,7 +2288,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Field Research",
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
   },
@@ -2384,71 +2303,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "AI_StriderMeat",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map01_EastKorolevStation_PowerUpLoot"
       },
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "AI_StriderMeat",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -2537,7 +2396,7 @@
     "unlockContracts": [
       "Old Bones"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Field Research",
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
   },
@@ -2552,132 +2411,14 @@
       {
         "type": "DeadDrop",
         "maxProgress": 1,
-        "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "SamplingDevice",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "SamplingDevice"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
-        "itemToOwn": "AI_StriderMeat",
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Consumable_Health_03",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "Consumable_Health_03"
       }
     ],
     "rewards": [
@@ -2708,7 +2449,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Field Research",
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
   },
@@ -2741,15 +2482,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "IvyPlant",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "IvyPlant"
       }
     ],
     "rewards": [
@@ -2780,7 +2513,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Field Research",
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
   },
@@ -2841,7 +2574,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Field Research",
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
   },
@@ -2856,14 +2589,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map01_Jungle"
       },
       {
@@ -2907,7 +2632,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Field Research",
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
   },
@@ -2922,41 +2647,17 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_GreensProspect"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Adhesive",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "Adhesive"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_CenterCamp_PowerUpLoot"
       }
     ],
@@ -2988,7 +2689,7 @@
     "unlockContracts": [
       "Extinct Creatures"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Field Research",
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries."
   },
@@ -3003,193 +2704,17 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "AI_StriderMeat",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map01_WaterfallLab"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "AI_StriderMeat",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map01_VaccineLabs"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "AnaestheticsContainers",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AnaestheticsContainers"
       }
     ],
     "rewards": [
@@ -3214,7 +2739,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Stimulating Developments",
     "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
   },
@@ -3270,7 +2795,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Stimulating Developments",
     "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
   },
@@ -3285,45 +2810,17 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_NutrionFarmsProcessing"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "AI_RattlerSkin",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AI_RattlerSkin"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "WaterPlant"
       }
     ],
     "rewards": [
@@ -3354,7 +2851,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Lost Knowledge",
     "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
@@ -3369,22 +2866,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_JungleFavela"
       },
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "AI_RattlerSkin",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -3473,7 +2959,7 @@
     "unlockContracts": [
       "Crashed Osiris Freighter"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Lost Knowledge",
     "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
@@ -3488,22 +2974,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_EliteCrusherDungeonSeal"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "AI_RattlerSkin",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3517,17 +2992,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "RareVeltecite",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "RareVeltecite"
       }
     ],
     "rewards": [
@@ -3552,7 +3017,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Lost Knowledge",
     "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
@@ -3567,17 +3032,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "DerelictExplosives"
       }
     ],
     "rewards": [
@@ -3602,7 +3057,7 @@
     "unlockContracts": [
       "Lost Scientist"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Explosive Delivery",
     "chainDescription": "The caverns you found are encased by a crystalline structure, far too strong for any of your weapons to break through. Sullivan believes there's a connection between them and the Progenitor terraforming tech.\r\n\r\nExplosives aren't the usual Osiris way, but they're a time-tested cheap way of opening holes in walls."
   },
@@ -3617,47 +3072,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Battery",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Battery"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Alloys",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "CircuitBoard",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "CircuitBoard"
       }
     ],
     "rewards": [
@@ -3682,7 +3107,7 @@
     "unlockContracts": [
       "Frozen"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Laser Show",
     "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\n\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   },
@@ -3697,47 +3122,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "OpticGlass",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "OpticGlass"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "RadioSpareParts",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "RadioSpareParts"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Gyroscope",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Gyroscope"
       }
     ],
     "rewards": [
@@ -3768,7 +3163,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Laser Show",
     "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\n\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   },
@@ -3783,17 +3178,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "RadioactiveBrightcapMushroom",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "RadioactiveBrightcapMushroom"
       }
     ],
     "rewards": [
@@ -3818,7 +3203,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Storm Rider",
     "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet.\r\n\r\nThe creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
   },
@@ -3833,9 +3218,6 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "RadioactiveBrightcapMushroom",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3869,7 +3251,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Storm Rider",
     "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet.\r\n\r\nThe creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
   },
@@ -3916,7 +3298,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Storm Rider",
     "chainDescription": "Fortuna III's storms are infamous, being one of the first signs of the lethal events that would force the evacuation of the planet.\r\n\r\nThe creatures of Fortuna III, however, seem energized by them, literally. Help Osiris understand what's going on."
   },
@@ -3931,47 +3313,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 25,
-        "itemToOwn": "BrightcapMushroom",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BrightcapMushroom"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "BlueWood",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BlueWood"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "LiquidFertilizer",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "LiquidFertilizer"
       }
     ],
     "rewards": [
@@ -3996,7 +3348,7 @@
     "unlockContracts": [
       "Frozen"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Needs of the One",
     "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
@@ -4011,32 +3363,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 25,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "WaterPlant"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "AI_StriderMeat",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AI_StriderMeat"
       }
     ],
     "rewards": [
@@ -4061,7 +3393,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Needs of the One",
     "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
@@ -4076,9 +3408,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -4091,17 +3420,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "HardenedBoneAlloy",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "HardenedBoneAlloy"
       }
     ],
     "rewards": [
@@ -4126,7 +3445,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Needs of the One",
     "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
@@ -4141,16 +3460,11 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "DesertPlant",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox"
+        "itemToOwn": "DesertPlant"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "HardenedBoneAlloy",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -4189,7 +3503,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Needs of the One",
     "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
@@ -4234,7 +3548,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Everything is Crystals",
     "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\n\r\nMake sure Osiris gets what it needs to get it working."
   },
@@ -4284,7 +3598,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Everything is Crystals",
     "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\n\r\nMake sure Osiris gets what it needs to get it working."
   },
@@ -4355,7 +3669,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Everything is Crystals",
     "chainDescription": "The new laser cannon is a beast more suited as a military weapon than a mining tool, and requires far more power than any laser drill on Prospect Station has access to.\r\n\r\nMake sure Osiris gets what it needs to get it working."
   },
@@ -4405,7 +3719,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Path to Strong Medkits",
     "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\n\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
@@ -4450,7 +3764,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Path to Strong Medkits",
     "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\n\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
@@ -4497,7 +3811,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Path to Strong Medkits",
     "chainDescription": "The advancements in medical technology continue, partly thanks the samples you've collected.\r\n\r\nNow, while emergency medical procedures aren't something you should be practicing on the surface of an alien planet, assisting Osiris in developing improved med kits may improve the chances of a good outcome when you're forced to."
   },
@@ -4553,7 +3867,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Building a better Death Ray",
     "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\n\r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
   },
@@ -4604,7 +3918,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Building a better Death Ray",
     "chainDescription": "The initial plan to repurpose one of Korolev's old veltecite mobile drilling platforms fell through, and not just because of Korolev's uncooperative behavior. \r\n\r\nThe laser cannon will have to be operated from space; help Osiris fix up an old survey satellite in order to have the cannon fire from low orbit."
   },
@@ -4619,13 +3933,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "VelteciteHeart",
         "locationConditions": "Map01_SouthEastUplink"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "VelteciteHeart",
         "locationConditions": "Map01_NorthUplink"
       },
       {
@@ -4656,7 +3968,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Satellite Master",
     "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\n\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
@@ -4671,13 +3983,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "VelteciteHeart",
         "locationConditions": "Map02_StarportPad"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "VelteciteHeart",
         "locationConditions": "Map02_SkeletonObservation"
       },
       {
@@ -4708,7 +4018,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Satellite Master",
     "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\n\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
@@ -4767,7 +4077,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Satellite Master",
     "chainDescription": "Getting what is basically a an orbital beam cannon into an orbit around Fortuna III isn't as easy as it first seemed.\r\n\r\nHelp Osiris ensure their new satellite gets operational, and make sure the other factions don't catch wind about what's going on; whatever is past those cavern walls, only Osiris could fully understand."
   },
@@ -4819,7 +4129,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Combat Ready",
     "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\n\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
@@ -4869,7 +4179,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Combat Ready",
     "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\n\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
@@ -4915,7 +4225,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Combat Ready",
     "chainDescription": "Stims aren't recommended for more than life or death emergencies, sometimes leading to more complications then the initial injury or simply not acting fast enough to make a difference.\r\n\r\nOsiris thinks it can fix at least one of those problems, if you can help them find the ingredients they need."
   },
@@ -4931,15 +4241,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Gyroscope",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "Gyroscope"
       },
       {
         "type": "Kills",
@@ -4977,7 +4279,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Orbital Repairs",
     "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
@@ -5080,7 +4382,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Orbital Repairs",
     "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
@@ -5130,7 +4432,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Orbital Repairs",
     "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
@@ -5176,7 +4478,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Orbital Repairs",
     "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
@@ -5191,21 +4493,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Biomass",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_EliteCrusherDungeon"
       },
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "Biomass",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5219,15 +4511,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "AlphaWardenHeart",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AlphaWardenHeart"
       }
     ],
     "rewards": [
@@ -5264,7 +4548,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Breaking and Entering",
     "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out.\r\n\r\nOnce the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris."
   },
@@ -5309,7 +4593,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Unique-2": {
     "inGameName": "Extinct Creatures",
@@ -5352,7 +4636,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Unique-3": {
     "inGameName": "Crashed Osiris Freighter",
@@ -5378,28 +4662,12 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_InsideCrashedShip"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_FlightRecorder",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_FlightRecorder"
       }
     ],
     "rewards": [
@@ -5424,7 +4692,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Unique-4": {
     "inGameName": "Lost Scientist",
@@ -5437,33 +4705,12 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Nickel",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_LostScientist"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_Notebook",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_Notebook"
       }
     ],
     "rewards": [
@@ -5494,7 +4741,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Unique-5": {
     "inGameName": "Frozen",
@@ -5538,10 +4785,11 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "NEW-Hard-Osiris-EliteCrusher-1": {
-    "inGameName": "NEW-Hard-Osiris-EliteCrusher-1",
+    "inGameName": "The Rarest Sample",
+    "description": "Prospector. We need you to drop down there, venture into the Elite Crusher's Cave and hunt down the Specimen. Then bring us a Sample. Be careful.",
     "faction": "Osiris",
     "factionReputation": 500,
     "difficulty": "Hard",
@@ -5572,8 +4820,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Gather-4": {
     "inGameName": "Flexible Sealant",
@@ -5608,8 +4855,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-Osiris-Gather-5": {
     "inGameName": "Indigenous Fruit",
@@ -5649,8 +4895,7 @@
       }
     ],
     "unlockLevel": 7,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-8": {
     "inGameName": "Don't get crushed",
@@ -5685,8 +4930,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "Main-Osiris-Caverns-1": {
     "inGameName": "Main-Osiris-Caverns-1",
@@ -5699,33 +4943,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_OsirisOutpost2"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_SlaughteredResearcher"
       }
     ],
@@ -5751,7 +4973,7 @@
     "unlockContracts": [
       "Lost Scientist"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -5766,9 +4988,6 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5806,7 +5025,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Caverns-2": {
     "inGameName": "Main-Osiris-Caverns-2",
@@ -5819,17 +5038,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_KorolevMain"
       },
       {
@@ -5865,7 +5073,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -5880,49 +5088,16 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_OsirisResearchBall1"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_OsirisResearchBall2"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_OsirisResearchBall3"
       }
     ],
@@ -5948,7 +5123,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -5963,9 +5138,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6005,7 +5177,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -6020,17 +5192,8 @@
       {
         "type": "DeadDrop",
         "maxProgress": 6,
-        "itemToOwn": "DerelictExplosives",
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "TentaclePlant",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "TentaclePlant"
       }
     ],
     "rewards": [
@@ -6055,7 +5218,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Caverns-5": {
     "inGameName": "Main-Osiris-Caverns-5",
@@ -6068,25 +5231,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_GlowWormCave"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6100,17 +5249,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_CultistGlowCrystalItem",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_CultistGlowCrystalItem"
       }
     ],
     "rewards": [
@@ -6135,7 +5274,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -6150,17 +5289,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "GlowingCrystalCoreShard"
       }
     ],
     "rewards": [
@@ -6185,7 +5314,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -6200,49 +5329,16 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Marking1"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Marking2"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Marking3"
       }
     ],
@@ -6268,7 +5364,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -6283,48 +5379,17 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_AlienQuarry"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "ForgeIron",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "ForgeIron"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "PureForgeIron",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "PureForgeIron"
       }
     ],
     "rewards": [
@@ -6349,7 +5414,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -6364,9 +5429,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6409,7 +5471,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Progenitor Device",
     "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research."
   },
@@ -6424,17 +5486,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_CultistArea"
       },
       {
@@ -6471,7 +5522,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Caverns-11": {
     "inGameName": "Main-Osiris-Caverns-11",
@@ -6484,33 +5535,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_AlienForge"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_ForgeConsole"
       }
     ],
@@ -6536,7 +5565,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Caverns-12": {
     "inGameName": "Main-Osiris-Caverns-12",
@@ -6549,17 +5578,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "ForgeIronIngot",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "ForgeIronIngot"
       },
       {
         "type": "Kills",
@@ -6596,7 +5615,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Caverns-13": {
     "inGameName": "Main-Osiris-Caverns-13",
@@ -6609,33 +5628,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_AlienForge"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_ShieldRecipe"
       },
       {
@@ -6666,7 +5663,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Caverns-13.1": {
     "inGameName": "Main-Osiris-Caverns-13.1",
@@ -6679,9 +5676,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "MissionItem_AlienShieldRecipe",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6695,32 +5689,14 @@
       {
         "type": "DeadDrop",
         "maxProgress": 3,
-        "itemToOwn": "ChargedForgeIronIngot",
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-        "deadDropItem": "AI_WeremoleMeat_02",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "AI_WeremoleMeat_02"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 5,
-        "itemToOwn": "ChargedForgeIronIngot",
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-        "deadDropItem": "AI_RattlerEyes_02",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "AI_RattlerEyes_02"
       }
     ],
     "rewards": [
@@ -6745,7 +5721,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-Caverns-14": {
     "inGameName": "Main-Osiris-Caverns-14",
@@ -6758,32 +5734,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Bag_Altered_01",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Bag_Altered_01"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "ChargedForgeIronIngot",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "ChargedForgeIronIngot"
       }
     ],
     "rewards": [
@@ -6814,7 +5770,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-Osiris-EarlyMap2-1": {
     "inGameName": "Main-Osiris-EarlyMap2-1",
@@ -6857,7 +5813,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "A Whole New Ecosystem",
     "chainDescription": "Osiris has been studying both the Fauna and Flora on Crescent Falls for years before the Storm made the Area uninhabitable. According to recent reports, that beautiful Ecosystem might slowly become accessible again. Help Osiris reclaim their Research Facilities."
   },
@@ -6902,7 +5858,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "A Whole New Ecosystem",
     "chainDescription": "Osiris has been studying both the Fauna and Flora on Crescent Falls for years before the Storm made the Area uninhabitable. According to recent reports, that beautiful Ecosystem might slowly become accessible again. Help Osiris reclaim their Research Facilities."
   },
@@ -6922,7 +5878,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "IvyPlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6962,7 +5917,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "A Whole New Ecosystem",
     "chainDescription": "Osiris has been studying both the Fauna and Flora on Crescent Falls for years before the Storm made the Area uninhabitable. According to recent reports, that beautiful Ecosystem might slowly become accessible again. Help Osiris reclaim their Research Facilities."
   },
@@ -6999,8 +5954,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-Osiris-Gather-9": {
     "inGameName": "In Charge",
@@ -7035,7 +5989,6 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   }
 }

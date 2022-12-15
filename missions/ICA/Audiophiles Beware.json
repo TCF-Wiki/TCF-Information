@@ -10,19 +10,8 @@
       {
         "type": "DeadDrop",
         "maxProgress": 2,
-        "itemToOwn": "AluminumParts",
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "ShockGrenade_02"
       }
     ],
     "rewards": [
@@ -47,7 +36,7 @@
     "unlockContracts": [
       "The Forester"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Audiophiles Beware",
     "chainDescription": "An energetic engineer wants to develop a new kind of grenade, something particularly useful for anyone adventuring on the planet's surface.\r\n\r\nA decoy of some kind, to throw off rivals and bait hostile creatures, might be just the thing!"
   },
@@ -62,36 +51,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "CopperWire",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "CopperWire"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "BallBearings",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BallBearings"
       }
     ],
     "rewards": [
@@ -116,7 +81,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Audiophiles Beware",
     "chainDescription": "An energetic engineer wants to develop a new kind of grenade, something particularly useful for anyone adventuring on the planet's surface.\r\n\r\nA decoy of some kind, to throw off rivals and bait hostile creatures, might be just the thing!"
   },
@@ -175,7 +140,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Audiophiles Beware",
     "chainDescription": "An energetic engineer wants to develop a new kind of grenade, something particularly useful for anyone adventuring on the planet's surface.\r\n\r\nA decoy of some kind, to throw off rivals and bait hostile creatures, might be just the thing!"
   }

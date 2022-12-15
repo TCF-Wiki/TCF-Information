@@ -9,16 +9,12 @@
     {
       "type": "OwnNumOfItem",
       "maxProgress": 6,
-      "itemToOwn": "IvyPlant",
-      "deadDropLocation": "Map01_SwampCamp",
-      "deadDropItem": "ShockGrenade_02"
+      "itemToOwn": "IvyPlant"
     },
     {
       "type": "OwnNumOfItem",
       "maxProgress": 8,
-      "itemToOwn": "WaterPlant",
-      "deadDropLocation": "Map01_SwampCamp",
-      "deadDropItem": "ShockGrenade_02"
+      "itemToOwn": "WaterPlant"
     }
   ],
   "rewards": [
@@ -40,6 +36,5 @@
     }
   ],
   "unlockLevel": 9,
-  "unlockContracts": [],
-  "isMain": false
+  "unlockContracts": []
 }

@@ -45,7 +45,7 @@
     "unlockContracts": [
       "Trek for Data"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -114,7 +114,7 @@
     "unlockContracts": [
       "Salvage Ops"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -129,47 +129,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "MagneticFieldStabilizer",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Shotgun"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MagneticFieldStabilizer"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "CircuitBoard",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Shotgun"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "CircuitBoard"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MultiTool",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Shotgun"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MultiTool"
       }
     ],
     "rewards": [
@@ -194,7 +164,7 @@
     "unlockContracts": [
       "Pattern Testing"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -260,7 +230,7 @@
     "unlockContracts": [
       "Custom Rig"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -310,7 +280,7 @@
     "unlockContracts": [
       "Expensive Tastes"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -360,7 +330,7 @@
     "unlockContracts": [
       "Delicate Parts"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -413,7 +383,7 @@
     "unlockContracts": [
       "This is Goodbye"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -459,7 +429,7 @@
     "unlockContracts": [
       "This isn't Science"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   }

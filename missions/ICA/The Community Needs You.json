@@ -10,41 +10,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Fabrics",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Fabrics"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "ShardSlicer",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "ShardSlicer"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "MiniatureReactor",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MiniatureReactor"
       }
     ],
     "rewards": [
@@ -69,7 +45,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Community Needs You",
     "chainDescription": "You're starting to really make a name for yourself in the community, Prospector. They're beginning to trust you more and, with that, ask for your help more."
   },
@@ -143,7 +119,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Community Needs You",
     "chainDescription": "You're starting to really make a name for yourself in the community, Prospector. They're beginning to trust you more and, with that, ask for your help more."
   },
@@ -194,7 +170,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Community Needs You",
     "chainDescription": "You're starting to really make a name for yourself in the community, Prospector. They're beginning to trust you more and, with that, ask for your help more."
   }

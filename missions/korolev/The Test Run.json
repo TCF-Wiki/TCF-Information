@@ -10,29 +10,12 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Letium",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "LetiumLocations"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "Letium",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Letium"
       }
     ],
     "rewards": [
@@ -69,7 +52,7 @@
     "unlockContracts": [
       "Unlimited Power"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Test Run",
     "chainDescription": "With the Laser Drill complete, it's up to you to test it out and finally retrieve some Letium for Korolev.\r\n\r\nRemember to be careful, that thing will draw a lot of unwanted attention during descent, and it'll take a while to produce results!"
   }

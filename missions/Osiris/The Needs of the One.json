@@ -10,47 +10,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 25,
-        "itemToOwn": "BrightcapMushroom",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BrightcapMushroom"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "BlueWood",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BlueWood"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "LiquidFertilizer",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "LiquidFertilizer"
       }
     ],
     "rewards": [
@@ -75,7 +45,7 @@
     "unlockContracts": [
       "Frozen"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Needs of the One",
     "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
@@ -90,32 +60,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 25,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "WaterPlant"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "AI_StriderMeat",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AI_StriderMeat"
       }
     ],
     "rewards": [
@@ -140,7 +90,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Needs of the One",
     "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
@@ -155,9 +105,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -170,17 +117,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "HardenedBoneAlloy",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "HardenedBoneAlloy"
       }
     ],
     "rewards": [
@@ -205,7 +142,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Needs of the One",
     "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   },
@@ -220,16 +157,11 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "DesertPlant",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox"
+        "itemToOwn": "DesertPlant"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "HardenedBoneAlloy",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -268,7 +200,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Needs of the One",
     "chainDescription": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake."
   }

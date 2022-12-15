@@ -46,7 +46,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -102,7 +102,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -122,7 +122,6 @@
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -157,7 +156,7 @@
     "unlockContracts": [
       "Plan B Part 2"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -172,7 +171,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -186,7 +184,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -226,7 +223,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -285,7 +282,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   }

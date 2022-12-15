@@ -9,28 +9,12 @@
     {
       "type": "OwnNumOfItem",
       "maxProgress": 5,
-      "itemToOwn": "CommonVeltecite",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "itemToOwn": "CommonVeltecite"
     },
     {
       "type": "OwnNumOfItem",
       "maxProgress": 1,
-      "itemToOwn": "CircuitBoard",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "itemToOwn": "CircuitBoard"
     }
   ],
   "rewards": [
@@ -61,5 +45,5 @@
   "unlockContracts": [
     "Contaminated Waters"
   ],
-  "isMain": true
+  "isMainChain": false
 }

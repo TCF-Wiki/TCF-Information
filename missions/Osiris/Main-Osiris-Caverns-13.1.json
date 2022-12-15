@@ -9,9 +9,6 @@
     {
       "type": "Kills",
       "maxProgress": 10,
-      "itemToOwn": "MissionItem_AlienShieldRecipe",
-      "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "PortableLabEquipmentBox",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -25,32 +22,14 @@
     {
       "type": "DeadDrop",
       "maxProgress": 3,
-      "itemToOwn": "ChargedForgeIronIngot",
       "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-      "deadDropItem": "AI_WeremoleMeat_02",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "deadDropItem": "AI_WeremoleMeat_02"
     },
     {
       "type": "DeadDrop",
       "maxProgress": 5,
-      "itemToOwn": "ChargedForgeIronIngot",
       "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-      "deadDropItem": "AI_RattlerEyes_02",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "deadDropItem": "AI_RattlerEyes_02"
     }
   ],
   "rewards": [
@@ -75,5 +54,5 @@
   "unlockContracts": [
     ""
   ],
-  "isMain": true
+  "isMainChain": false
 }

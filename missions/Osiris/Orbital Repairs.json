@@ -11,15 +11,7 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Gyroscope",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "Gyroscope"
       },
       {
         "type": "Kills",
@@ -57,7 +49,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Orbital Repairs",
     "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
@@ -160,7 +152,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Orbital Repairs",
     "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
@@ -210,7 +202,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Orbital Repairs",
     "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   },
@@ -256,7 +248,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Orbital Repairs",
     "chainDescription": "Warm up tests on the Orbital Cannon have uncovered a serious accuracy issue that needs to be resolved ASAP. The problem is, the satellite is already in orbit, and recalling it would raise questions about its true purpose.\r\n\r\nYou'll need to help Osiris develop a hotfix."
   }

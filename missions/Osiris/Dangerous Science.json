@@ -10,7 +10,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "SpareCasing",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -47,7 +46,7 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Dangerous Science",
     "chainDescription": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as \"Progenitors\".\r\n\r\nHelping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
   }

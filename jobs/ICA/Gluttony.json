@@ -9,9 +9,7 @@
     {
       "type": "OwnNumOfItem",
       "maxProgress": 8,
-      "itemToOwn": "WaterPlant",
-      "deadDropLocation": "Map01_SwampCamp",
-      "deadDropItem": "ShockGrenade_02"
+      "itemToOwn": "WaterPlant"
     },
     {
       "type": "Kills",
@@ -46,6 +44,5 @@
     }
   ],
   "unlockLevel": 11,
-  "unlockContracts": [],
-  "isMain": false
+  "unlockContracts": []
 }

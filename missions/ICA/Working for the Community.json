@@ -54,7 +54,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Working for the Community",
     "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too."
   },
@@ -69,16 +69,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::SniperRifle"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_GreensProspect"
       },
       {
@@ -119,7 +109,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Working for the Community",
     "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too."
   },
@@ -175,7 +165,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Working for the Community",
     "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too."
   }

@@ -9,7 +9,6 @@
     {
       "type": "Kills",
       "maxProgress": 2,
-      "itemToOwn": "CommonVeltecite",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Players",
         "m_allowedWeaponCategories": [
@@ -24,7 +23,6 @@
     {
       "type": "Kills",
       "maxProgress": 2,
-      "itemToOwn": "CommonVeltecite",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Players",
         "m_allowedWeaponCategories": [
@@ -56,6 +54,5 @@
     }
   ],
   "unlockLevel": 19,
-  "unlockContracts": [],
-  "isMain": false
+  "unlockContracts": []
 }

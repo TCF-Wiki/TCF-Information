@@ -10,17 +10,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "DerelictExplosives",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "DerelictExplosives"
       }
     ],
     "rewards": [
@@ -45,7 +35,7 @@
     "unlockContracts": [
       "Lost Scientist"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Explosive Delivery",
     "chainDescription": "The caverns you found are encased by a crystalline structure, far too strong for any of your weapons to break through. Sullivan believes there's a connection between them and the Progenitor terraforming tech.\r\n\r\nExplosives aren't the usual Osiris way, but they're a time-tested cheap way of opening holes in walls."
   }
