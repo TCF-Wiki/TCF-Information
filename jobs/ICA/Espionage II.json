@@ -9,7 +9,6 @@
     {
       "type": "Kills",
       "maxProgress": 20,
-      "itemToOwn": "StormyCreatureDrop",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -44,6 +43,5 @@
     }
   ],
   "unlockLevel": 18,
-  "unlockContracts": [],
-  "isMain": false
+  "unlockContracts": []
 }

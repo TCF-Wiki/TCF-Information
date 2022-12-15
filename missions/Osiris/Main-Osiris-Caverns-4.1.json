@@ -8,18 +8,9 @@
   "objectives": [
     {
       "type": "DeadDrop",
-      "maxProgress": 10,
-      "itemToOwn": "DerelictExplosives",
+      "maxProgress": 6,
       "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-      "deadDropItem": "TentaclePlant",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "deadDropItem": "TentaclePlant"
     }
   ],
   "rewards": [
@@ -44,5 +35,5 @@
   "unlockContracts": [
     ""
   ],
-  "isMain": true
+  "isMainChain": false
 }

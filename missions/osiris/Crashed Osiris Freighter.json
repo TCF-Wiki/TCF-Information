@@ -22,28 +22,12 @@
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      },
       "locationConditions": "UniqueMissionLocation_InsideCrashedShip"
     },
     {
       "type": "OwnNumOfItem",
       "maxProgress": 1,
-      "itemToOwn": "MissionItem_FlightRecorder",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "itemToOwn": "MissionItem_FlightRecorder"
     }
   ],
   "rewards": [
@@ -68,5 +52,5 @@
   "unlockContracts": [
     ""
   ],
-  "isMain": true
+  "isMainChain": false
 }

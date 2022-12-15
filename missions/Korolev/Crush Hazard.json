@@ -10,7 +10,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -49,7 +48,7 @@
     "unlockContracts": [
       "This is Goodbye"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Crush Hazard",
     "chainDescription": "Crushers aren't known for their curiosity, or really anything other than very efficiently crushing things, which on the off chance they pay a visit to a Laser Drill, it's best we all know you're up to the task of taking one down.\r\n\r\nGood hunting, Prospector!"
   }

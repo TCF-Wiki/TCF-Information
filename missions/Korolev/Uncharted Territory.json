@@ -48,7 +48,7 @@
     "unlockContracts": [
       "Miners' Strike"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Uncharted Territory",
     "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
   },
@@ -68,15 +68,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AluminumParts",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AluminumParts"
       }
     ],
     "rewards": [
@@ -101,7 +93,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Uncharted Territory",
     "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
   },
@@ -121,28 +113,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "BrittleTitanOre",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BrittleTitanOre"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Insulation",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Insulation"
       }
     ],
     "rewards": [
@@ -167,7 +143,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Uncharted Territory",
     "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
   },
@@ -219,7 +195,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Uncharted Territory",
     "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
   }

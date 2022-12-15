@@ -14,13 +14,13 @@
     },
     {
       "type": "DeadDrop",
-      "maxProgress": 12,
+      "maxProgress": 8,
       "deadDropLocation": "Map03_OsirisMain",
       "deadDropItem": "OilTank"
     },
     {
       "type": "DeadDrop",
-      "maxProgress": 6,
+      "maxProgress": 5,
       "deadDropLocation": "Map03_KorolevMain",
       "deadDropItem": "DerelictExplosives"
     }
@@ -47,5 +47,5 @@
   "unlockContracts": [
     ""
   ],
-  "isMain": true
+  "isMainChain": false
 }

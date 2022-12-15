@@ -9,19 +9,19 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "PolymetallicPrefabricate"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "Adhesive"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "MagneticFieldStabilizer"
       }
@@ -48,7 +48,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -99,7 +99,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -149,7 +149,7 @@
     "unlockContracts": [
       "Abandoned Oil Field"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -164,7 +164,6 @@
       {
         "type": "Kills",
         "maxProgress": 7,
-        "itemToOwn": "Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -208,7 +207,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -270,7 +269,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -374,7 +373,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -430,7 +429,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   }

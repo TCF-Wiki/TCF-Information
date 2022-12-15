@@ -45,7 +45,7 @@
     "unlockContracts": [
       "Clearing the Way"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -115,7 +115,7 @@
     "unlockContracts": [
       "Shopping List"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -168,7 +168,7 @@
     "unlockContracts": [
       "Don't Dig Too Deep"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -183,8 +183,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "RadioSpareParts",
         "locationConditions": "Map02_GreensProspect"
       },
       {
@@ -228,7 +226,7 @@
     "unlockContracts": [
       "Just a Call Away"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -346,7 +344,7 @@
     "unlockContracts": [
       "Lab Heist"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -391,7 +389,7 @@
     "unlockContracts": [
       "It's All About Branding"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -447,7 +445,7 @@
     "unlockContracts": [
       "It's in the Blood"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -462,13 +460,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "HardDrive_legendary",
         "locationConditions": "Map02_StarportPad"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "HardDrive_legendary",
         "locationConditions": "Map02_SkeletonObservation"
       },
       {
@@ -505,7 +501,7 @@
     "unlockContracts": [
       "Fresh Meat"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   }

@@ -10,193 +10,17 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "AI_StriderMeat",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map01_WaterfallLab"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "AI_StriderMeat",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map01_VaccineLabs"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "AnaestheticsContainers",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AnaestheticsContainers"
       }
     ],
     "rewards": [
@@ -221,7 +45,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Stimulating Developments",
     "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
   },
@@ -277,7 +101,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Stimulating Developments",
     "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
   }

@@ -9,9 +9,6 @@
     {
       "type": "Kills",
       "maxProgress": 15,
-      "itemToOwn": "DerelictExplosives",
-      "deadDropLocation": "Map02_GreensProspect_Office",
-      "deadDropItem": "PortableLabEquipmentBox",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -49,5 +46,5 @@
   "unlockContracts": [
     ""
   ],
-  "isMain": true
+  "isMainChain": false
 }

@@ -37,8 +37,7 @@
       }
     ],
     "unlockLevel": 3,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Gather-1": {
     "inGameName": "Explosive Excavation",
@@ -73,8 +72,7 @@
       }
     ],
     "unlockLevel": 7,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Gather-2": {
     "inGameName": "Mining Bot",
@@ -114,8 +112,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Gather-3": {
     "inGameName": "None of your Business",
@@ -150,8 +147,7 @@
       }
     ],
     "unlockLevel": 10,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Gather-5": {
     "inGameName": "Insufficient Processing Power",
@@ -186,8 +182,7 @@
       }
     ],
     "unlockLevel": 11,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Gather-1": {
     "inGameName": "Excavator Improvements",
@@ -232,8 +227,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Gather-2": {
     "inGameName": "A new type of Alloy",
@@ -273,8 +267,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Gather-3": {
     "inGameName": "Automated Security",
@@ -314,8 +307,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Gather-4": {
     "inGameName": "Energy Crisis",
@@ -350,8 +342,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Gather-5": {
     "inGameName": "Classified I",
@@ -396,8 +387,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Mine-1": {
     "inGameName": "Clear Veltecite",
@@ -432,8 +422,7 @@
       }
     ],
     "unlockLevel": 6,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Mine-and-PvE-2": {
     "inGameName": "Time to Focus",
@@ -481,8 +470,7 @@
       }
     ],
     "unlockLevel": 7,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Mine-3": {
     "inGameName": "Pure Veltecite",
@@ -517,8 +505,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Mine-4": {
     "inGameName": "Titans of Industry",
@@ -558,8 +545,7 @@
       }
     ],
     "unlockLevel": 10,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Mine-5": {
     "inGameName": "Crystal Frenzy",
@@ -599,8 +585,7 @@
       }
     ],
     "unlockLevel": 11,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Mine-1": {
     "inGameName": "Geologist",
@@ -640,8 +625,7 @@
       }
     ],
     "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Mine-2": {
     "inGameName": "Industry Secret",
@@ -676,8 +660,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Mine-3": {
     "inGameName": "Veltecite Hearts",
@@ -712,8 +695,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Mine-4": {
     "inGameName": "Laser Rifles",
@@ -753,8 +735,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Mine-5": {
     "inGameName": "Classified II",
@@ -794,8 +775,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Mine-6": {
     "inGameName": "Unlimited Power",
@@ -840,8 +820,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Easy-KOR-Hunt-2": {
     "inGameName": "Prove your skills",
@@ -854,7 +833,6 @@
       {
         "type": "Kills",
         "maxProgress": 7,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -886,8 +864,7 @@
       }
     ],
     "unlockLevel": 3,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Hunt-1": {
     "inGameName": "Rattle the Cage",
@@ -900,7 +877,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -932,8 +908,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Hunt-2": {
     "inGameName": "Clearing the Dig Site",
@@ -946,7 +921,6 @@
       {
         "type": "Kills",
         "maxProgress": 12,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -977,8 +951,7 @@
       }
     ],
     "unlockLevel": 11,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Hunt-3": {
     "inGameName": "Eliminate the Threat",
@@ -991,7 +964,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1021,8 +993,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Hunt-1": {
     "inGameName": "Crashed Ship",
@@ -1035,7 +1006,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1049,7 +1019,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1080,8 +1049,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-PvP-1": {
     "inGameName": "Protect our Claim",
@@ -1094,7 +1062,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1125,8 +1092,7 @@
       }
     ],
     "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-PvP-2": {
     "inGameName": "Leaving a Mark",
@@ -1139,7 +1105,6 @@
       {
         "type": "Kills",
         "maxProgress": 4,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1169,8 +1134,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-PvP-3": {
     "inGameName": "Live Fire",
@@ -1183,7 +1147,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1284,8 +1247,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-PvP-4": {
     "inGameName": "Sales Pitch",
@@ -1298,7 +1260,6 @@
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -1313,7 +1274,6 @@
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -1345,8 +1305,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-PvP-5": {
     "inGameName": "Burying the Lead",
@@ -1359,7 +1318,6 @@
       {
         "type": "Kills",
         "maxProgress": 4,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1417,8 +1375,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Meteor-1": {
     "inGameName": "Meteor Shards",
@@ -1453,8 +1410,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Meteor-1": {
     "inGameName": "Meteor Core",
@@ -1489,8 +1445,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Meteor-2": {
     "inGameName": "Shards of pure Power",
@@ -1525,8 +1480,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Meteor-3": {
     "inGameName": "Battery Day",
@@ -1561,8 +1515,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Easy-KOR-Stash-1": {
     "inGameName": "Excavation Gear",
@@ -1598,8 +1551,7 @@
       }
     ],
     "unlockLevel": 5,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Easy-KOR-Stash-2": {
     "inGameName": "Field Repairs",
@@ -1635,8 +1587,7 @@
       }
     ],
     "unlockLevel": 4,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Stash-1": {
     "inGameName": "Jamming the Comms",
@@ -1672,8 +1623,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Stash-3": {
     "inGameName": "Stability is Key",
@@ -1721,8 +1671,7 @@
       }
     ],
     "unlockLevel": 6,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Stash-1": {
     "inGameName": "Stashing Safety",
@@ -1771,8 +1720,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Stash-2": {
     "inGameName": "Upgrades",
@@ -1808,11 +1756,11 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-PvP-6": {
-    "inGameName": "NEW-Hard-KOR-PvP-6",
+    "inGameName": "Testing the Arsenal",
+    "description": "Prospector! It's time to test Korolev Weaponry against human targets. Grab a Korolev Weapon and eliminate rival Prospectors.",
     "faction": "Korolev",
     "factionReputation": 390,
     "difficulty": "Hard",
@@ -1821,7 +1769,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1922,8 +1869,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "Main-KOR-FTUE-1": {
     "inGameName": "Welcome to the Workforce",
@@ -1965,7 +1911,7 @@
     ],
     "unlockLevel": 1,
     "unlockContracts": [],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Time to Punch In",
     "chainDescription": "Korolev Heavy Industries, the system's industrial powerhouse... and near monopoly. The megacorp came to Fortuna III early to exploit its resources, and sticks around now to make sure its claims don't lapse. Plus, they keep the lights on up here, for a nice profit.\r\n\r\nThey want you to perform some simple tasks to prove your mettle. Don't disappoint!"
   },
@@ -1980,7 +1926,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "Nickel",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2013,7 +1958,7 @@
     "unlockContracts": [
       "Welcome to the Workforce"
     ],
-    "isMain": true
+    "isMainChain": true
   },
   "Main-KOR-GainTrust-2": {
     "inGameName": "Spare Parts",
@@ -2025,33 +1970,13 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
-        "itemToOwn": "CompoundSheets",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "maxProgress": 2,
+        "itemToOwn": "CompoundSheets"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "HydraulicPiston",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "HydraulicPiston"
       }
     ],
     "rewards": [
@@ -2082,7 +2007,7 @@
     "unlockContracts": [
       "Sometimes violence IS the answer"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-GainTrust-3": {
     "inGameName": "Contaminated Waters",
@@ -2100,7 +2025,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CompoundSheets",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2140,7 +2064,7 @@
     "unlockContracts": [
       "Spare Parts"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-GainTrust-4": {
     "inGameName": "Company Identity",
@@ -2152,29 +2076,13 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
-        "itemToOwn": "CommonVeltecite",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "maxProgress": 5,
+        "itemToOwn": "CommonVeltecite"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
-        "itemToOwn": "CircuitBoard",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "maxProgress": 1,
+        "itemToOwn": "CircuitBoard"
       }
     ],
     "rewards": [
@@ -2205,7 +2113,7 @@
     "unlockContracts": [
       "Contaminated Waters"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-MiningTool-1": {
     "inGameName": "Mineral Master",
@@ -2218,28 +2126,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "PureNickel",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "PureNickel"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 7,
-        "itemToOwn": "UncommonVelticite",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "UncommonVelticite"
       }
     ],
     "rewards": [
@@ -2270,7 +2162,7 @@
     "unlockContracts": [
       "Company Identity"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "What a Tool!",
     "chainDescription": "Tired of swinging that pickaxe yet? Want a new mining tool that'll turn those rocks to dust in just a few short seconds?\r\n\r\nKorolev's got you covered, if you complete these simple tasks for them."
   },
@@ -2285,28 +2177,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "CompoundSheets",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "CompoundSheets"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "BallBearings",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BallBearings"
       }
     ],
     "rewards": [
@@ -2331,7 +2207,7 @@
     "unlockContracts": [
       "Mineral Master"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "What a Tool!",
     "chainDescription": "Tired of swinging that pickaxe yet? Want a new mining tool that'll turn those rocks to dust in just a few short seconds?\r\n\r\nKorolev's got you covered, if you complete these simple tasks for them."
   },
@@ -2449,7 +2325,7 @@
     "unlockContracts": [
       "Inevitable Automation"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "What a Tool!",
     "chainDescription": "Tired of swinging that pickaxe yet? Want a new mining tool that'll turn those rocks to dust in just a few short seconds?\r\n\r\nKorolev's got you covered, if you complete these simple tasks for them."
   },
@@ -2465,143 +2341,13 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Alloys",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_Pistol_Bullet_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_AR_Bullet_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_SGun_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_BR_Bullet_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_HVY_Shell_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_Sniper_Gauss_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_Launch_MSL_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_SMG_Shard_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "Alloys"
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "HydraulicPiston",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_Pistol_Bullet_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_AR_Bullet_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_SGun_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_BR_Bullet_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_HVY_Shell_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_Sniper_Gauss_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_Launch_MSL_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_SMG_Shard_01"
-            }
-          ],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "HydraulicPiston"
       }
     ],
     "rewards": [
@@ -2632,7 +2378,7 @@
     "unlockContracts": [
       "Tools of the Trade"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "What a Tool!",
     "chainDescription": "Tired of swinging that pickaxe yet? Want a new mining tool that'll turn those rocks to dust in just a few short seconds?\r\n\r\nKorolev's got you covered, if you complete these simple tasks for them."
   },
@@ -2688,7 +2434,7 @@
     "unlockContracts": [
       "Very Fast Moving Parts"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "What a Tool!",
     "chainDescription": "Tired of swinging that pickaxe yet? Want a new mining tool that'll turn those rocks to dust in just a few short seconds?\r\n\r\nKorolev's got you covered, if you complete these simple tasks for them."
   },
@@ -2749,7 +2495,7 @@
     "unlockContracts": [
       "Company Identity"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\n\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   },
@@ -2763,12 +2509,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 7,
+        "maxProgress": 3,
         "itemToOwn": "UncommonVelticite"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "OpticGlass"
       },
       {
@@ -2805,7 +2551,7 @@
     "unlockContracts": [
       "Spring Cleaning "
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\n\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   },
@@ -2850,7 +2596,7 @@
     "unlockContracts": [
       "Through the Optic Glass"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\n\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   },
@@ -2974,7 +2720,7 @@
     "unlockContracts": [
       "A Pinch of Pure Power"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\n\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   },
@@ -2993,7 +2739,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "CombatCPU_Blue"
       }
     ],
@@ -3019,7 +2765,7 @@
     "unlockContracts": [
       "Miners' Strike"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\n\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   },
@@ -3078,7 +2824,7 @@
     "unlockContracts": [
       "Zero Waste"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\n\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   },
@@ -3092,12 +2838,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "MeteorFragment"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "FocusCrystal"
       }
     ],
@@ -3123,7 +2869,7 @@
     "unlockContracts": [
       "For all the Trees"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\n\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   },
@@ -3181,7 +2927,7 @@
     "unlockContracts": [
       "From Above"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Good, Honest Work",
     "chainDescription": "Now that you're part of the Korolev family, it's time to put some real work in. Korolev would send down its own teams to retrieve resources, but the planet's status as \"Extremely Hazardous to Life\" makes that slightly illegal.\r\n\r\nPlus, what kind of person would be crazy enough to go down there, anyway?"
   },
@@ -3237,7 +2983,7 @@
     "unlockContracts": [
       "Spring Cleaning "
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Veltecite for the Masses",
     "chainDescription": "Veltecite fuels Prospect Station's power generators, foundries, engines, and is its main export. The few mineral deposits exposed to the surface can generally be found near water, but tracking one down can be time consuming, and dangerous.\r\n\r\nWouldn't it be nice to have an easier and faster way to get to it? Fortunately Korolev has a few techs working on just the thing."
   },
@@ -3289,7 +3035,7 @@
     "unlockContracts": [
       "Through the Optic Glass"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Titan Hunter",
     "chainDescription": "All those ships and stations Korolev is known for? Titan Ore. It's as strong as it is precious, and also notoriously hard to find. \r\n\r\nHelp Korolev out to gain access to a new Scanner Attachement for it!"
   },
@@ -3335,7 +3081,7 @@
     "unlockContracts": [
       "A Titanic Request"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Titan Hunter",
     "chainDescription": "All those ships and stations Korolev is known for? Titan Ore. It's as strong as it is precious, and also notoriously hard to find. \r\n\r\nHelp Korolev out to gain access to a new Scanner Attachement for it!"
   },
@@ -3381,7 +3127,7 @@
     "unlockContracts": [
       "Thick Skinned"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Focused on Crystals",
     "chainDescription": "Focus Crystals are a staple in many new electronics, particularly those built in the Fortuna system.\r\n\r\nIt would be nice if some of those electronics could help with locating them, and with the right materials the techs at Korolev might have just the thing."
   },
@@ -3431,7 +3177,7 @@
     "unlockContracts": [
       "Thick Skinned"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "A Powerful Discovery",
     "chainDescription": "Stable Letium? It's an important discovery; the compound has so far only been collected as a volatile, quickly decaying gas, and it's not exactly safe to handle.\r\n\r\nWhat little has been collected so far revolutionized Veltecite refining, having a stable source of both would be massive... for Korolev's profits. Definitely worth investigating!"
   },
@@ -3512,7 +3258,7 @@
     "unlockContracts": [
       "Site Seeing"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "A Powerful Discovery",
     "chainDescription": "Stable Letium? It's an important discovery; the compound has so far only been collected as a volatile, quickly decaying gas, and it's not exactly safe to handle.\r\n\r\nWhat little has been collected so far revolutionized Veltecite refining, having a stable source of both would be massive... for Korolev's profits. Definitely worth investigating!"
   },
@@ -3578,7 +3324,7 @@
     "unlockContracts": [
       "The Missing Engineer"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "A Powerful Discovery",
     "chainDescription": "Stable Letium? It's an important discovery; the compound has so far only been collected as a volatile, quickly decaying gas, and it's not exactly safe to handle.\r\n\r\nWhat little has been collected so far revolutionized Veltecite refining, having a stable source of both would be massive... for Korolev's profits. Definitely worth investigating!"
   },
@@ -3637,7 +3383,7 @@
     "unlockContracts": [
       "Rapid Gentrification"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "A Powerful Discovery",
     "chainDescription": "Stable Letium? It's an important discovery; the compound has so far only been collected as a volatile, quickly decaying gas, and it's not exactly safe to handle.\r\n\r\nWhat little has been collected so far revolutionized Veltecite refining, having a stable source of both would be massive... for Korolev's profits. Definitely worth investigating!"
   },
@@ -3683,7 +3429,7 @@
     "unlockContracts": [
       "Supply Drop"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "A Powerful Discovery",
     "chainDescription": "Stable Letium? It's an important discovery; the compound has so far only been collected as a volatile, quickly decaying gas, and it's not exactly safe to handle.\r\n\r\nWhat little has been collected so far revolutionized Veltecite refining, having a stable source of both would be massive... for Korolev's profits. Definitely worth investigating!"
   },
@@ -3750,7 +3496,7 @@
     "unlockContracts": [
       "Messenger Service"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "A Powerful Discovery",
     "chainDescription": "Stable Letium? It's an important discovery; the compound has so far only been collected as a volatile, quickly decaying gas, and it's not exactly safe to handle.\r\n\r\nWhat little has been collected so far revolutionized Veltecite refining, having a stable source of both would be massive... for Korolev's profits. Definitely worth investigating!"
   },
@@ -3811,7 +3557,7 @@
     "unlockContracts": [
       "Stormbringer"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Time for More Work",
     "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
   },
@@ -3857,7 +3603,7 @@
     "unlockContracts": [
       "Forest Clearing"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Time for More Work",
     "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
   },
@@ -3906,7 +3652,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Time for More Work",
     "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
   },
@@ -3965,7 +3711,7 @@
     "unlockContracts": [
       "Show Them How It's Done"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Time for More Work",
     "chainDescription": "Those science people may be busy trying to understand what it is they just discovered, but there's always more work a resourceful prospector like you can do to keep Korolov on top."
   },
@@ -4015,7 +3761,7 @@
     "unlockContracts": [
       "Clearing the Way"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -4085,7 +3831,7 @@
     "unlockContracts": [
       "Shopping List"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -4138,7 +3884,7 @@
     "unlockContracts": [
       "Don't Dig Too Deep"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -4153,8 +3899,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "RadioSpareParts",
         "locationConditions": "Map02_GreensProspect"
       },
       {
@@ -4198,7 +3942,7 @@
     "unlockContracts": [
       "Just a Call Away"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -4316,7 +4060,7 @@
     "unlockContracts": [
       "Lab Heist"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -4361,7 +4105,7 @@
     "unlockContracts": [
       "It's All About Branding"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -4417,7 +4161,7 @@
     "unlockContracts": [
       "It's in the Blood"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -4432,13 +4176,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "HardDrive_legendary",
         "locationConditions": "Map02_StarportPad"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "HardDrive_legendary",
         "locationConditions": "Map02_SkeletonObservation"
       },
       {
@@ -4475,7 +4217,7 @@
     "unlockContracts": [
       "Fresh Meat"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Research Costs",
     "chainDescription": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!"
   },
@@ -4520,7 +4262,7 @@
     "unlockContracts": [
       "Just a Call Away"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Crafting Better Bags",
     "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
   },
@@ -4576,7 +4318,7 @@
     "unlockContracts": [
       "Order Refill"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Crafting Better Bags",
     "chainDescription": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
   },
@@ -4626,7 +4368,7 @@
     "unlockContracts": [
       "Trek for Data"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -4695,7 +4437,7 @@
     "unlockContracts": [
       "Salvage Ops"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -4710,47 +4452,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "MagneticFieldStabilizer",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Shotgun"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MagneticFieldStabilizer"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "CircuitBoard",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Shotgun"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "CircuitBoard"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MultiTool",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Shotgun"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MultiTool"
       }
     ],
     "rewards": [
@@ -4775,7 +4487,7 @@
     "unlockContracts": [
       "Pattern Testing"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -4789,7 +4501,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
         "deadDropItem": "PureFocusCrystal"
       },
@@ -4841,7 +4553,7 @@
     "unlockContracts": [
       "Custom Rig"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -4891,7 +4603,7 @@
     "unlockContracts": [
       "Expensive Tastes"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -4941,7 +4653,7 @@
     "unlockContracts": [
       "Delicate Parts"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -4994,7 +4706,7 @@
     "unlockContracts": [
       "This is Goodbye"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -5040,7 +4752,7 @@
     "unlockContracts": [
       "This isn't Science"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Heavy Construction",
     "chainDescription": "Time to build a machine capable of safely (well, relatively) extracting and processing Letium from the surface. Fortunately Korolev used to operate Mobile Mining Platforms, giant laser drills that would float through the peaceful skies of Fortuna III in search of mineral veins to exploit.\r\n\r\nThe days those things could be safely operated are long gone, but they're just the thing we need now to mine for Letium, with some assistance on the ground."
   },
@@ -5055,7 +4767,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -5094,7 +4805,7 @@
     "unlockContracts": [
       "This is Goodbye"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Crush Hazard",
     "chainDescription": "Crushers aren't known for their curiosity, or really anything other than very efficiently crushing things, which on the off chance they pay a visit to a Laser Drill, it's best we all know you're up to the task of taking one down.\r\n\r\nGood hunting, Prospector!"
   },
@@ -5109,29 +4820,12 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Letium",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "LetiumLocations"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "Letium",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Letium"
       }
     ],
     "rewards": [
@@ -5168,7 +4862,7 @@
     "unlockContracts": [
       "Unlimited Power"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Test Run",
     "chainDescription": "With the Laser Drill complete, it's up to you to test it out and finally retrieve some Letium for Korolev.\r\n\r\nRemember to be careful, that thing will draw a lot of unwanted attention during descent, and it'll take a while to produce results!"
   },
@@ -5218,7 +4912,7 @@
     "unlockContracts": [
       "Aggressive Marketing"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-Unique-2": {
     "inGameName": "The Missing Engineer",
@@ -5249,15 +4943,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_EngineerItem",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_EngineerItem"
       }
     ],
     "rewards": [
@@ -5282,7 +4968,7 @@
     "unlockContracts": [
       "Stormbringer"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-Unique-3": {
     "inGameName": "Lab Heist",
@@ -5325,7 +5011,7 @@
     "unlockContracts": [
       "Collaborative Research"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-Unique-4": {
     "inGameName": "Salvage Ops",
@@ -5373,7 +5059,7 @@
     "unlockContracts": [
       "Building Blocks"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "NEW-Hard-KOR-LaserDrill-1": {
     "inGameName": "Exclusive Drilling Rights",
@@ -5408,8 +5094,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Gather-6": {
     "inGameName": "Stocking Up",
@@ -5444,8 +5129,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-KOR-Gather-7": {
     "inGameName": "Shock and Awe",
@@ -5480,8 +5164,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-KOR-Gather-6": {
     "inGameName": "No Expiry Date",
@@ -5516,8 +5199,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "Main-KOR-Caverns-1": {
     "inGameName": "Main-KOR-Caverns-1",
@@ -5562,7 +5244,7 @@
     "unlockContracts": [
       "Lab Heist"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -5577,7 +5259,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "GlowingCrystalCoreShard",
         "locationConditions": "Map03_KorolevMain"
       },
       {
@@ -5614,7 +5295,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -5628,8 +5309,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard",
+        "maxProgress": 3,
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "TentaclePlant"
       }
@@ -5656,7 +5336,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -5774,7 +5454,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -5789,41 +5469,17 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_NaturalAtrium"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Geologist"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "MissionItem_ForgeIronSample",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_ForgeIronSample"
       }
     ],
     "rewards": [
@@ -5848,7 +5504,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -5863,40 +5519,16 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Visit4Wheeler1"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Visit4Wheeler2"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Visit4Wheeler3"
       }
     ],
@@ -5922,7 +5554,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -5937,28 +5569,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "ForgeIron",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "ForgeIron"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "GlowingCrystalCoreShard"
       }
     ],
     "rewards": [
@@ -5983,7 +5599,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -5998,14 +5614,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_GlowingWaterCave"
       },
       {
@@ -6049,7 +5657,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -6064,28 +5672,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "PureForgeIron",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "PureForgeIron"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "GlowingCrystalCoreShard"
       }
     ],
     "rewards": [
@@ -6110,7 +5702,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -6184,7 +5776,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-Caverns-11": {
     "inGameName": "Main-KOR-Caverns-11",
@@ -6197,14 +5789,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_CultistArea"
       },
       {
@@ -6235,7 +5819,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-Caverns-12": {
     "inGameName": "Main-KOR-Caverns-12",
@@ -6247,31 +5831,15 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map01_EastEvac_UndergroundElevator",
-        "deadDropItem": "Letium",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "Letium"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map01_CenterBase_GateC",
-        "deadDropItem": "Letium",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "Letium"
       }
     ],
     "rewards": [
@@ -6296,7 +5864,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-Caverns-13": {
     "inGameName": "Main-KOR-Caverns-13",
@@ -6309,27 +5877,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_AbyssShaft"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_VadimPreItem"
       },
       {
@@ -6367,7 +5919,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-KOR-EarlyMap2-1": {
     "inGameName": "Main-KOR-EarlyMap2-1",
@@ -6418,7 +5970,7 @@
     "unlockContracts": [
       "Miners' Strike"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Uncharted Territory",
     "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
   },
@@ -6438,15 +5990,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AluminumParts",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AluminumParts"
       }
     ],
     "rewards": [
@@ -6471,7 +6015,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Uncharted Territory",
     "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
   },
@@ -6491,28 +6035,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "BrittleTitanOre",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BrittleTitanOre"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Insulation",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Insulation"
       }
     ],
     "rewards": [
@@ -6537,7 +6065,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Uncharted Territory",
     "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
   },
@@ -6589,7 +6117,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Uncharted Territory",
     "chainDescription": "Korolev found out that Crescent Falls, a once crucial Base of Operations for their Mining Parties, might have just finally been clearing up from all that Radiation again. You should head down there and see what's left. But make sure to gear up."
   },
@@ -6626,7 +6154,6 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   }
 }

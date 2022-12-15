@@ -9,7 +9,6 @@
     {
       "type": "Kills",
       "maxProgress": 12,
-      "itemToOwn": "TentaclePlant",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -22,7 +21,6 @@
     {
       "type": "Kills",
       "maxProgress": 4,
-      "itemToOwn": "TentaclePlant",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Players",
         "m_allowedWeaponCategories": [],
@@ -52,6 +50,5 @@
     }
   ],
   "unlockLevel": 20,
-  "unlockContracts": [],
-  "isMain": false
+  "unlockContracts": []
 }

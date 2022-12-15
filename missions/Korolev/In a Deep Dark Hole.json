@@ -42,7 +42,7 @@
     "unlockContracts": [
       "Lab Heist"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -57,7 +57,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "GlowingCrystalCoreShard",
         "locationConditions": "Map03_KorolevMain"
       },
       {
@@ -94,7 +93,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -108,8 +107,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard",
+        "maxProgress": 3,
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "TentaclePlant"
       }
@@ -136,7 +134,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -254,7 +252,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -269,41 +267,17 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_NaturalAtrium"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Geologist"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "MissionItem_ForgeIronSample",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_ForgeIronSample"
       }
     ],
     "rewards": [
@@ -328,7 +302,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -343,40 +317,16 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Visit4Wheeler1"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Visit4Wheeler2"
       },
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_Visit4Wheeler3"
       }
     ],
@@ -402,7 +352,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -417,28 +367,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "ForgeIron",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "ForgeIron"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "GlowingCrystalCoreShard"
       }
     ],
     "rewards": [
@@ -463,7 +397,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -478,14 +412,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map03_GlowingWaterCave"
       },
       {
@@ -529,7 +455,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   },
@@ -544,28 +470,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "PureForgeIron",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "PureForgeIron"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "GlowingCrystalCoreShard"
       }
     ],
     "rewards": [
@@ -590,7 +500,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
     "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?"
   }

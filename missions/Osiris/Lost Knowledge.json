@@ -10,45 +10,17 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_NutrionFarmsProcessing"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "AI_RattlerSkin",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AI_RattlerSkin"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "WaterPlant"
       }
     ],
     "rewards": [
@@ -79,7 +51,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Lost Knowledge",
     "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
@@ -94,22 +66,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_JungleFavela"
       },
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "AI_RattlerSkin",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -198,7 +159,7 @@
     "unlockContracts": [
       "Crashed Osiris Freighter"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Lost Knowledge",
     "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   },
@@ -213,22 +174,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_EliteCrusherDungeonSeal"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "AI_RattlerSkin",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -242,17 +192,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "RareVeltecite",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "RareVeltecite"
       }
     ],
     "rewards": [
@@ -277,7 +217,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Lost Knowledge",
     "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on \"research\" from prospectors like you."
   }

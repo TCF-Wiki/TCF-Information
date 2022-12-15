@@ -37,8 +37,7 @@
       }
     ],
     "unlockLevel": 4,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Gather-1": {
     "inGameName": "New Beds",
@@ -78,8 +77,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Gather-3": {
     "inGameName": "Station Defense",
@@ -119,8 +117,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Gather-4": {
     "inGameName": "Air Lock Upgrades",
@@ -165,8 +162,7 @@
       }
     ],
     "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-1": {
     "inGameName": "Sabotage",
@@ -206,8 +202,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-2": {
     "inGameName": "Old Currency",
@@ -242,8 +237,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-3": {
     "inGameName": "Recoil Compensation",
@@ -283,8 +277,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-and-PvE-4": {
     "inGameName": "Espionage II",
@@ -297,7 +290,6 @@
       {
         "type": "Kills",
         "maxProgress": 20,
-        "itemToOwn": "StormyCreatureDrop",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -332,8 +324,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-5": {
     "inGameName": "New 3D Printer",
@@ -373,8 +364,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Mine-1": {
     "inGameName": "Arms Race",
@@ -409,8 +399,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Mine-2": {
     "inGameName": "Energy Crisis",
@@ -450,8 +439,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Easy-ICA-Hunt-3": {
     "inGameName": "Secure the LZ",
@@ -464,7 +452,6 @@
       {
         "type": "Kills",
         "maxProgress": 8,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -495,8 +482,7 @@
       }
     ],
     "unlockLevel": 5,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Hunt-1": {
     "inGameName": "Pest Control",
@@ -509,7 +495,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -522,7 +507,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -552,8 +536,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Hunt-2": {
     "inGameName": "Parasites",
@@ -566,7 +549,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -597,8 +579,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Hunt-1": {
     "inGameName": "Target Practice",
@@ -611,7 +592,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [
@@ -643,8 +623,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Hunt-2": {
     "inGameName": "Debugging",
@@ -657,7 +636,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -671,7 +649,6 @@
       {
         "type": "Kills",
         "maxProgress": 15,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -702,8 +679,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-PvP-1": {
     "inGameName": "Proprietary Technology",
@@ -716,7 +692,6 @@
       {
         "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -803,8 +778,7 @@
       }
     ],
     "unlockLevel": 8,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-PvP-2": {
     "inGameName": "Retaliation",
@@ -817,7 +791,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -847,8 +820,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-PvP-3": {
     "inGameName": "Tour Guide",
@@ -861,7 +833,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -893,8 +864,7 @@
       }
     ],
     "unlockLevel": 10,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-PvP-and-PvE-1": {
     "inGameName": "On Our Team",
@@ -907,7 +877,6 @@
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -928,7 +897,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -949,7 +917,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -987,8 +954,7 @@
       }
     ],
     "unlockLevel": 15,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-PvP-1": {
     "inGameName": "Hallowed Ground",
@@ -1001,7 +967,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1032,8 +997,7 @@
       }
     ],
     "unlockLevel": 16,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-PvP-2": {
     "inGameName": "Restoring the Balance",
@@ -1046,7 +1010,6 @@
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1133,8 +1096,7 @@
       }
     ],
     "unlockLevel": 19,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-PvP-3": {
     "inGameName": "Forest Clearing",
@@ -1147,7 +1109,6 @@
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -1161,7 +1122,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "CommonVeltecite",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1192,8 +1152,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Uplink-1": {
     "inGameName": "Data Drive II",
@@ -1228,8 +1187,7 @@
       }
     ],
     "unlockLevel": 6,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Uplink-2": {
     "inGameName": "Data Drive III",
@@ -1264,8 +1222,7 @@
       }
     ],
     "unlockLevel": 7,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Uplink-1": {
     "inGameName": "Data Drive IV",
@@ -1300,8 +1257,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Uplink-2": {
     "inGameName": "Data Drive V",
@@ -1336,8 +1292,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Uplink-3": {
     "inGameName": "Data Drive VI",
@@ -1372,8 +1327,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Powerup-1": {
     "inGameName": "Energy Crisis II",
@@ -1408,8 +1362,7 @@
       }
     ],
     "unlockLevel": 6,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Powerup-2": {
     "inGameName": "Energy Crisis III",
@@ -1444,8 +1397,7 @@
       }
     ],
     "unlockLevel": 10,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Powerup-1": {
     "inGameName": "A Solution",
@@ -1480,8 +1432,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Stash-1": {
     "inGameName": "Storm Interference",
@@ -1517,8 +1468,7 @@
       }
     ],
     "unlockLevel": 7,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Stash-2": {
     "inGameName": "Shady Deal",
@@ -1554,8 +1504,7 @@
       }
     ],
     "unlockLevel": 9,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Stash-4": {
     "inGameName": "Emergency Power",
@@ -1591,8 +1540,7 @@
       }
     ],
     "unlockLevel": 11,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Stash-5": {
     "inGameName": "Ammo Supplies",
@@ -1628,8 +1576,7 @@
       }
     ],
     "unlockLevel": 11,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Stash-1": {
     "inGameName": "Data Drop",
@@ -1665,8 +1612,7 @@
       }
     ],
     "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Stash-2": {
     "inGameName": "Field Supplies",
@@ -1702,8 +1648,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Stash-3": {
     "inGameName": "Spare Parts",
@@ -1739,8 +1684,7 @@
       }
     ],
     "unlockLevel": 18,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Stash-4": {
     "inGameName": "Provide an Advocate",
@@ -1776,8 +1720,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Easy-ICA-Flora-1": {
     "inGameName": "Calorie Deficit",
@@ -1790,9 +1733,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "itemToOwn": "WaterPlant"
       }
     ],
     "rewards": [
@@ -1814,8 +1755,7 @@
       }
     ],
     "unlockLevel": 3,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Flora-1": {
     "inGameName": "Mouths to feed",
@@ -1828,9 +1768,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "itemToOwn": "WaterPlant"
       }
     ],
     "rewards": [
@@ -1852,8 +1790,7 @@
       }
     ],
     "unlockLevel": 7,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Flora-and-PvP-1": {
     "inGameName": "Gluttony",
@@ -1866,9 +1803,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "WaterPlant",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "itemToOwn": "WaterPlant"
       },
       {
         "type": "Kills",
@@ -1903,11 +1838,11 @@
       }
     ],
     "unlockLevel": 11,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-and-PvE-1": {
-    "inGameName": "NEW-Hard-ICA-Gather-and-PvE-1",
+    "inGameName": "Alternative Energies",
+    "description": "Prospector! The Spinal Bases you brought us proved to be quite the source of energy. We need more. Go hunt Creatures and bring us their Spinal Bases.",
     "faction": "ICA",
     "factionReputation": 400,
     "difficulty": "Hard",
@@ -1916,7 +1851,6 @@
       {
         "type": "Kills",
         "maxProgress": 20,
-        "itemToOwn": "BlueWood",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -1951,11 +1885,11 @@
       }
     ],
     "unlockLevel": 13,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-6": {
-    "inGameName": "NEW-Hard-ICA-Gather-6",
+    "inGameName": "Scrapping Station Improvements",
+    "description": "Prospector, we need to make improvements to our scrapping station. For this, bring us Shard Slicers, a Zero Systems CPU and Hardened Metals.",
     "faction": "ICA",
     "factionReputation": 390,
     "difficulty": "Hard",
@@ -1996,8 +1930,7 @@
       }
     ],
     "unlockLevel": 12,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "Main-ICA-FTUE-1": {
     "inGameName": "Simple Needs",
@@ -2039,7 +1972,7 @@
     ],
     "unlockLevel": 1,
     "unlockContracts": [],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Your Civic Duty",
     "chainDescription": "The Independent Civilian Advisory are all about keeping Prospect Station afloat and everyone in it alive.\r\n\r\nWill you step up and help? A talented prospector could benefit from being on their good side..."
   },
@@ -2054,32 +1987,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "SpareCasing",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "SpareCasing"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "GenericCreatureDrop",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "GenericCreatureDrop"
       }
     ],
     "rewards": [
@@ -2104,7 +2017,7 @@
     "unlockContracts": [
       "Simple Needs"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-GainTrust-2": {
     "inGameName": "Animal Control",
@@ -2117,23 +2030,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "AluminumParts",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map01_Lagoon"
       },
       {
         "type": "Kills",
         "maxProgress": 3,
-        "itemToOwn": "AluminumParts",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2173,7 +2074,7 @@
     "unlockContracts": [
       "Don't Forget to Recycle"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-GainTrust-3": {
     "inGameName": "Basic Needs",
@@ -2222,7 +2123,7 @@
     "unlockContracts": [
       "Animal Control"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-GainTrust-4": {
     "inGameName": "The Forester",
@@ -2235,13 +2136,11 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "itemToOwn": "Alloys",
         "locationConditions": "Map01_WoodCutterCamp"
       },
       {
         "type": "Kills",
         "maxProgress": 5,
-        "itemToOwn": "Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2292,7 +2191,7 @@
     "unlockContracts": [
       "Basic Needs"
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-AudioDecoys-1": {
     "inGameName": "Main-ICA-AudioDecoys-1",
@@ -2304,20 +2203,9 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
-        "itemToOwn": "AluminumParts",
+        "maxProgress": 2,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "deadDropItem": "ShockGrenade_02"
       }
     ],
     "rewards": [
@@ -2342,7 +2230,7 @@
     "unlockContracts": [
       "The Forester"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Audiophiles Beware",
     "chainDescription": "An energetic engineer wants to develop a new kind of grenade, something particularly useful for anyone adventuring on the planet's surface.\r\n\r\nA decoy of some kind, to throw off rivals and bait hostile creatures, might be just the thing!"
   },
@@ -2357,36 +2245,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "CopperWire",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "CopperWire"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "BallBearings",
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::Pistol"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "BallBearings"
       }
     ],
     "rewards": [
@@ -2411,7 +2275,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Audiophiles Beware",
     "chainDescription": "An energetic engineer wants to develop a new kind of grenade, something particularly useful for anyone adventuring on the planet's surface.\r\n\r\nA decoy of some kind, to throw off rivals and bait hostile creatures, might be just the thing!"
   },
@@ -2470,7 +2334,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Audiophiles Beware",
     "chainDescription": "An energetic engineer wants to develop a new kind of grenade, something particularly useful for anyone adventuring on the planet's surface.\r\n\r\nA decoy of some kind, to throw off rivals and bait hostile creatures, might be just the thing!"
   },
@@ -2489,12 +2353,12 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Battery"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Alloys"
       }
     ],
@@ -2532,7 +2396,7 @@
     "unlockContracts": [
       "Old Friend"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -2551,7 +2415,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "HardDrive_uncommon"
       }
     ],
@@ -2577,7 +2441,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -2597,14 +2461,12 @@
       {
         "type": "DeadDrop",
         "maxProgress": 2,
-        "itemToOwn": "HardDrive_uncommon",
         "deadDropLocation": "Map01_CommsBase_Satellite",
         "deadDropItem": "RadioSpareParts"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 2,
-        "itemToOwn": "HardDrive_uncommon",
+        "maxProgress": 1,
         "deadDropLocation": "Map01_CommsBase_Satellite",
         "deadDropItem": "CircuitBoard"
       }
@@ -2637,7 +2499,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -2656,8 +2518,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 12,
-        "itemToOwn": "HardDrive_rare",
+        "maxProgress": 8,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2670,7 +2531,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "itemToOwn": "Battery"
       }
     ],
@@ -2708,7 +2569,7 @@
     "unlockContracts": [
       "The Stranded Prospector"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -2723,8 +2584,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "deadDropLocation": "Map01_CenterBase_Office",
-        "deadDropItem": "MiniatureReactor",
         "locationConditions": "Map01_DigSite_PowerUpLoot"
       },
       {
@@ -2768,7 +2627,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -2815,7 +2674,7 @@
     "unlockContracts": [
       "The Stranded Prospector"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Toxic Love",
     "chainDescription": "The ICA are developing a new grenade type, equipped with lethal toxic gasses.\r\n\r\nHelp them get what they need, those things would be great for area denial... or getting rid of anyone holed up in a fortified position."
   },
@@ -2871,7 +2730,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Toxic Love",
     "chainDescription": "The ICA are developing a new grenade type, equipped with lethal toxic gasses.\r\n\r\nHelp them get what they need, those things would be great for area denial... or getting rid of anyone holed up in a fortified position."
   },
@@ -2922,7 +2781,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -2978,7 +2837,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -2998,7 +2857,6 @@
       {
         "type": "Kills",
         "maxProgress": 2,
-        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
@@ -3033,7 +2891,7 @@
     "unlockContracts": [
       "Plan B Part 2"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -3048,7 +2906,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3062,7 +2919,6 @@
       {
         "type": "Kills",
         "maxProgress": 10,
-        "itemToOwn": "MeteorCore",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3102,7 +2958,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -3122,13 +2978,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
         "deadDropItem": "CircuitBoard"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 6,
+        "maxProgress": 4,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
         "deadDropItem": "CopperWire"
       }
@@ -3161,7 +3017,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Project Fireball",
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring."
   },
@@ -3175,7 +3031,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
         "deadDropItem": "IvyPlant"
       },
@@ -3220,7 +3076,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Working for the Community",
     "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too."
   },
@@ -3235,16 +3091,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [
-            "EYDeviceCategory::SniperRifle"
-          ],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map02_GreensProspect"
       },
       {
@@ -3285,7 +3131,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Working for the Community",
     "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too."
   },
@@ -3341,7 +3187,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Working for the Community",
     "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too."
   },
@@ -3394,7 +3240,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Never Give Up",
     "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up.\r\n\r\nThe research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
   },
@@ -3414,15 +3260,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "SampleContainer",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::All",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "SampleContainer"
       },
       {
         "type": "Kills",
@@ -3522,7 +3360,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Never Give Up",
     "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up.\r\n\r\nThe research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
   },
@@ -3550,28 +3388,12 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "AI_RattlerSkin",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::All",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "AI_RattlerSkin"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "SamplingDevice",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::All",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "SamplingDevice"
       }
     ],
     "rewards": [
@@ -3602,7 +3424,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Never Give Up",
     "chainDescription": "Things didn't work out with the prototype power generator, but at least it didn't blow up.\r\n\r\nThe research you gathered hinted at another project, so there's still some hope the ICA can find alternative power source and get out from under Korolev's thumb."
   },
@@ -3651,7 +3473,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Private Business",
     "chainDescription": "Some more private work has come up, and you're the right Prospector for the job."
   },
@@ -3725,7 +3547,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Private Business",
     "chainDescription": "Some more private work has come up, and you're the right Prospector for the job."
   },
@@ -3776,7 +3598,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Private Business",
     "chainDescription": "Some more private work has come up, and you're the right Prospector for the job."
   },
@@ -3790,19 +3612,19 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "PolymetallicPrefabricate"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "Adhesive"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
         "deadDropItem": "MagneticFieldStabilizer"
       }
@@ -3829,7 +3651,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -3880,7 +3702,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -3930,7 +3752,7 @@
     "unlockContracts": [
       "Abandoned Oil Field"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -3945,7 +3767,6 @@
       {
         "type": "Kills",
         "maxProgress": 7,
-        "itemToOwn": "Alloys",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3989,7 +3810,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -4051,7 +3872,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -4155,7 +3976,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -4211,7 +4032,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Back to Basics",
     "chainDescription": "Marie's research team has only found a of tarry liquid reminiscent of crude oil, but it doesn't burn easily. Never mind that actual crude would need more power to get out of orbit and onto the station than it could ever generate...\r\n\r\nSomeone thought it was worth looking into, though, and the ICA is getting desperate."
   },
@@ -4261,7 +4082,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "An Eye for Oil",
     "chainDescription": "You may be able to stumble upon a good oil well by chance, but the ICA can't depend on just dumb luck alone if they want this project to succeed. \r\n\r\nA new mod for your Scanner will ensure you always know where to call down Oil Pumps."
   },
@@ -4311,7 +4132,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "An Eye for Oil",
     "chainDescription": "You may be able to stumble upon a good oil well by chance, but the ICA can't depend on just dumb luck alone if they want this project to succeed. \r\n\r\nA new mod for your Scanner will ensure you always know where to call down Oil Pumps."
   },
@@ -4364,7 +4185,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Put to the Test",
     "chainDescription": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges.\r\n\r\nA lot is riding on this, Prospector."
   },
@@ -4416,7 +4237,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Put to the Test",
     "chainDescription": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges.\r\n\r\nA lot is riding on this, Prospector."
   },
@@ -4431,41 +4252,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Fabrics",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Fabrics"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "ShardSlicer",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "ShardSlicer"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "MiniatureReactor",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MiniatureReactor"
       }
     ],
     "rewards": [
@@ -4490,7 +4287,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Community Needs You",
     "chainDescription": "You're starting to really make a name for yourself in the community, Prospector. They're beginning to trust you more and, with that, ask for your help more."
   },
@@ -4564,7 +4361,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Community Needs You",
     "chainDescription": "You're starting to really make a name for yourself in the community, Prospector. They're beginning to trust you more and, with that, ask for your help more."
   },
@@ -4615,7 +4412,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "The Community Needs You",
     "chainDescription": "You're starting to really make a name for yourself in the community, Prospector. They're beginning to trust you more and, with that, ask for your help more."
   },
@@ -4630,14 +4427,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_SosSign"
       }
     ],
@@ -4663,7 +4452,7 @@
     "unlockContracts": [
       "The Forester"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -4678,14 +4467,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "Map01_WaterFacility_PowerUpLoot"
       },
       {
@@ -4722,7 +4503,7 @@
     "unlockContracts": [
       "SOS Sign"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -4737,28 +4518,12 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "HardDrive_rare",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "HardDrive_rare"
       }
     ],
     "rewards": [
@@ -4783,7 +4548,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -4798,28 +4563,12 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap1"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_PowerPlantItem1",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_PowerPlantItem1"
       }
     ],
     "rewards": [
@@ -4844,7 +4593,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -4859,28 +4608,12 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_PowerPlantOfficeMap2"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_PowerPlantItem2",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_PowerPlantItem2"
       }
     ],
     "rewards": [
@@ -4911,7 +4644,7 @@
     "unlockContracts": [
       "Plan B Part 1"
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -4926,14 +4659,6 @@
       {
         "type": "VisitArea",
         "maxProgress": 1,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        },
         "locationConditions": "UniqueMissionLocation_AbandonedOilField"
       },
       {
@@ -4952,15 +4677,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MissionItem_OilPumpPart",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "MissionItem_OilPumpPart"
       }
     ],
     "rewards": [
@@ -4985,7 +4702,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Doing the Work",
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III."
   },
@@ -5022,8 +4739,7 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Medium-ICA-Gather-5": {
     "inGameName": "Let it grow",
@@ -5058,8 +4774,7 @@
       }
     ],
     "unlockLevel": 6,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-7": {
     "inGameName": "A Craving",
@@ -5094,8 +4809,7 @@
       }
     ],
     "unlockLevel": 14,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "NEW-Hard-ICA-Gather-8": {
     "inGameName": "Prim & Proper",
@@ -5130,8 +4844,7 @@
       }
     ],
     "unlockLevel": 17,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   },
   "Main-ICA-Caverns-1": {
     "inGameName": "Main-ICA-Caverns-1",
@@ -5179,7 +4892,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5237,7 +4950,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5288,7 +5001,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5359,7 +5072,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-Caverns-4": {
     "inGameName": "Main-ICA-Caverns-4",
@@ -5407,7 +5120,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5452,7 +5165,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5511,7 +5224,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5561,7 +5274,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5602,7 +5315,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5652,7 +5365,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Race to the Bottom",
     "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
   },
@@ -5701,7 +5414,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-Caverns-11": {
     "inGameName": "Main-ICA-Caverns-11",
@@ -5719,13 +5432,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 12,
+        "maxProgress": 8,
         "deadDropLocation": "Map03_OsirisMain",
         "deadDropItem": "OilTank"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 6,
+        "maxProgress": 5,
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "DerelictExplosives"
       }
@@ -5752,7 +5465,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-Caverns-12": {
     "inGameName": "Main-ICA-Caverns-12",
@@ -5795,7 +5508,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-Caverns-13": {
     "inGameName": "Main-ICA-Caverns-13",
@@ -5902,7 +5615,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-Caverns-13.1": {
     "inGameName": "Main-ICA-Caverns-13.1",
@@ -5945,7 +5658,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "Main-ICA-Caverns-14": {
     "inGameName": "Main-ICA-Caverns-14",
@@ -5994,7 +5707,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true
+    "isMainChain": false
   },
   "NEW-Hard-ICA-PvP-and-PvE-2": {
     "inGameName": "Negating the Area",
@@ -6007,7 +5720,6 @@
       {
         "type": "Kills",
         "maxProgress": 12,
-        "itemToOwn": "TentaclePlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -6020,7 +5732,6 @@
       {
         "type": "Kills",
         "maxProgress": 4,
-        "itemToOwn": "TentaclePlant",
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -6050,7 +5761,6 @@
       }
     ],
     "unlockLevel": 20,
-    "unlockContracts": [],
-    "isMain": false
+    "unlockContracts": []
   }
 }

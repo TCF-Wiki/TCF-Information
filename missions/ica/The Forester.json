@@ -9,13 +9,11 @@
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "itemToOwn": "Alloys",
       "locationConditions": "Map01_WoodCutterCamp"
     },
     {
       "type": "Kills",
       "maxProgress": 5,
-      "itemToOwn": "Alloys",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -66,5 +64,5 @@
   "unlockContracts": [
     "Basic Needs"
   ],
-  "isMain": true
+  "isMainChain": false
 }

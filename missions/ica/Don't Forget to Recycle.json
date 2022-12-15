@@ -9,32 +9,12 @@
     {
       "type": "OwnNumOfItem",
       "maxProgress": 2,
-      "itemToOwn": "SpareCasing",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [
-          "EYDeviceCategory::Pistol"
-        ],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "itemToOwn": "SpareCasing"
     },
     {
       "type": "OwnNumOfItem",
       "maxProgress": 3,
-      "itemToOwn": "GenericCreatureDrop",
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Creatures",
-        "m_allowedWeaponCategories": [
-          "EYDeviceCategory::Pistol"
-        ],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      }
+      "itemToOwn": "GenericCreatureDrop"
     }
   ],
   "rewards": [
@@ -59,5 +39,5 @@
   "unlockContracts": [
     "Simple Needs"
   ],
-  "isMain": true
+  "isMainChain": false
 }

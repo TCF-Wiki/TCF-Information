@@ -1,5 +1,6 @@
 {
-  "inGameName": "NEW-Hard-ICA-Gather-and-PvE-1",
+  "inGameName": "Alternative Energies",
+  "description": "Prospector! The Spinal Bases you brought us proved to be quite the source of energy. We need more. Go hunt Creatures and bring us their Spinal Bases.",
   "faction": "ICA",
   "factionReputation": 400,
   "difficulty": "Hard",
@@ -8,7 +9,6 @@
     {
       "type": "Kills",
       "maxProgress": 20,
-      "itemToOwn": "BlueWood",
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -43,6 +43,5 @@
     }
   ],
   "unlockLevel": 13,
-  "unlockContracts": [],
-  "isMain": false
+  "unlockContracts": []
 }

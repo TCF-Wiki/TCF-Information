@@ -8,8 +8,7 @@
   "objectives": [
     {
       "type": "Kills",
-      "maxProgress": 7,
-      "itemToOwn": "WaterPlant",
+      "maxProgress": 4,
       "killConditions": {
         "m_killTarget": "EYKillTypeAction::Creatures",
         "m_allowedWeaponCategories": [],
@@ -53,5 +52,5 @@
   "unlockContracts": [
     "Fertile Grounds"
   ],
-  "isMain": true
+  "isMainChain": false
 }

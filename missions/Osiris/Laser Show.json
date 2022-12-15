@@ -10,47 +10,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Battery",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Battery"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Alloys",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Alloys"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "CircuitBoard",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "CircuitBoard"
       }
     ],
     "rewards": [
@@ -75,7 +45,7 @@
     "unlockContracts": [
       "Frozen"
     ],
-    "isMain": true,
+    "isMainChain": true,
     "chainName": "Laser Show",
     "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\n\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   },
@@ -90,47 +60,17 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "OpticGlass",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "OpticGlass"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "RadioSpareParts",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "RadioSpareParts"
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Gyroscope",
-        "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "PortableLabEquipmentBox",
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "itemToOwn": "Gyroscope"
       }
     ],
     "rewards": [
@@ -161,7 +101,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMain": true,
+    "isMainChain": false,
     "chainName": "Laser Show",
     "chainDescription": "Dr. Fedotov wasn't impressed with the attempt at using explosives to break into the Crystal Cavern. His solution: a laser.\r\n\r\nAt least he agrees with Dr. Sullivan on the importance of getting through the cavern's walls, even if they don't see eye to eye on much else."
   }

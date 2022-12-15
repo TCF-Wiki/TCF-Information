@@ -9,27 +9,11 @@
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Players",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      },
       "locationConditions": "Map03_AbyssShaft"
     },
     {
       "type": "VisitArea",
       "maxProgress": 1,
-      "killConditions": {
-        "m_killTarget": "EYKillTypeAction::Players",
-        "m_allowedWeaponCategories": [],
-        "m_allowedSpecificWeapons": [],
-        "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-        "m_mapName": "",
-        "m_onlyDuringStorm": false
-      },
       "locationConditions": "UniqueMissionLocation_VadimPreItem"
     },
     {
@@ -67,5 +51,5 @@
   "unlockContracts": [
     ""
   ],
-  "isMain": true
+  "isMainChain": false
 }

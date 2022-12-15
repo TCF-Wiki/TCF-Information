@@ -8,7 +8,7 @@
   "objectives": [
     {
       "type": "OwnNumOfItem",
-      "maxProgress": 3,
+      "maxProgress": 1,
       "itemToOwn": "WaterPlant"
     }
   ],
@@ -34,5 +34,5 @@
   "unlockContracts": [
     "Prove your Worth"
   ],
-  "isMain": true
+  "isMainChain": false
 }
