@@ -23,7 +23,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "NoMagazine": {
     "IGN": "BB9C095D4770A7C37569F899815ECAFD",
@@ -49,7 +50,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "NoBarrel": {
     "IGN": "BB9C095D4770A7C37569F899815ECAFD",
@@ -75,7 +77,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "NoStock": {
     "IGN": "BB9C095D4770A7C37569F899815ECAFD",
@@ -101,7 +104,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "NoGrip": {
     "IGN": "BB9C095D4770A7C37569F899815ECAFD",
@@ -127,7 +131,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "NoAttatchment": {
     "IGN": "BB9C095D4770A7C37569F899815ECAFD",
@@ -153,7 +158,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Korolev_Scanner_AlienCrystals": {
     "IGN": "Focus Crystal Scanning Module",
@@ -190,7 +196,13 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 1000
+      }
+    ]
   },
   "Mod_Korolev_Scanner_HeavyMetals": {
     "IGN": "Titan Ore Scanning Module",
@@ -227,7 +239,13 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 680
+      }
+    ]
   },
   "Mod_Korolev_Scanner_Veltecite": {
     "IGN": "Veltecite Scanning Module",
@@ -264,7 +282,13 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Optic_2x_01": {
     "IGN": "2x Optic",
@@ -296,7 +320,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 2500
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 2500
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 2500
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 2500
+      }
+    ]
   },
   "Mod_Optic_4x_01": {
     "IGN": "4x Optic",
@@ -322,7 +364,15 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 4300,
+        "PrintResin": 1,
+        "OpticGlass": 2
+      }
+    ]
   },
   "Mod_Magazine_Light_03": {
     "IGN": "Light Extended",
@@ -356,7 +406,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Light_02": {
     "IGN": "Light Extended",
@@ -390,7 +449,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Light_01": {
     "IGN": "Light Extended",
@@ -424,7 +484,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Medium_01": {
     "IGN": "Medium Extended",
@@ -458,7 +519,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Heavy_01": {
     "IGN": "Heavy Extended",
@@ -492,7 +554,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Shotgun_01": {
     "IGN": "Shotgun Extended",
@@ -526,7 +589,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Muzzle_Small_Supressor_01": {
     "IGN": "Small Suppressor",
@@ -561,7 +625,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 4900,
+        "HydraulicPiston": 5,
+        "SmartMesh": 1,
+        "AluminumParts": 3
+      }
+    ]
   },
   "Mod_Muzzle_Standard_Supressor_01": {
     "IGN": "Medium Suppressor",
@@ -597,7 +670,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 4900,
+        "HydraulicPiston": 5,
+        "SmartMesh": 1,
+        "AluminumParts": 3
+      }
+    ]
   },
   "Mod_Converter_Light_01": {
     "IGN": "Light Converter",
@@ -631,7 +713,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Medium_01": {
     "IGN": "Medium Converter",
@@ -665,7 +748,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Heavy_01": {
     "IGN": "Heavy Converter",
@@ -699,7 +783,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Shotgun_01": {
     "IGN": "Shotgun Converter",
@@ -733,7 +818,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_ForeGrip_Angled_01": {
     "IGN": "Angled Foregrip",
@@ -765,7 +851,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_RearGrip_01": {
     "IGN": "Ergonomic Grip",
@@ -797,7 +901,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Tactical_Flashlight_01": {
     "IGN": "Tactical Light",
@@ -823,7 +945,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": true
+    "flashlight": true,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Stock_Marksman_01": {
     "IGN": "Marksman Stock",
@@ -858,7 +998,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Stock_Standard_01": {
     "IGN": "Standard Stock",
@@ -895,7 +1053,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Magazine_Medium_02": {
     "IGN": "Medium Extended",
@@ -929,7 +1105,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Medium_03": {
     "IGN": "Medium Extended",
@@ -963,7 +1140,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Heavy_02": {
     "IGN": "Heavy Extended",
@@ -997,7 +1183,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Heavy_03": {
     "IGN": "Heavy Extended",
@@ -1031,7 +1218,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Shotgun_02": {
     "IGN": "Shotgun Extended",
@@ -1065,7 +1261,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Shotgun_03": {
     "IGN": "Shotgun Extended",
@@ -1099,7 +1296,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Light_ReloadSpeed_01": {
     "IGN": "Light Quickdraw",
@@ -1133,7 +1339,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Magazine_Light_ReloadSpeed_02": {
     "IGN": "Light Quickdraw",
@@ -1167,7 +1391,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Light_ReloadSpeed_03": {
     "IGN": "Light Quickdraw",
@@ -1201,7 +1426,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
     "IGN": "Light Quickdraw",
@@ -1235,7 +1461,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Medium_Reloadspeed_01": {
     "IGN": "Medium Quickdraw",
@@ -1269,7 +1504,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Magazine_Medium_Reloadspeed_02": {
     "IGN": "Medium Quickdraw",
@@ -1303,7 +1556,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Medium_Reloadspeed_03": {
     "IGN": "Medium Quickdraw",
@@ -1337,7 +1591,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
     "IGN": "Medium Quickdraw",
@@ -1371,7 +1626,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Heavy_ReloadSpeed_01": {
     "IGN": "Heavy Quickdraw",
@@ -1405,7 +1669,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Magazine_Heavy_ReloadSpeed_02": {
     "IGN": "Heavy Quickdraw",
@@ -1439,7 +1721,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Heavy_ReloadSpeed_03": {
     "IGN": "Heavy Quickdraw",
@@ -1473,7 +1756,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
     "IGN": "Heavy Quickdraw",
@@ -1507,7 +1791,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_01": {
     "IGN": "Shotgun Quickdraw",
@@ -1541,7 +1834,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_02": {
     "IGN": "Shotgun Quickdraw",
@@ -1575,7 +1886,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_03": {
     "IGN": "Shotgun Quickdraw",
@@ -1609,7 +1921,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
     "IGN": "Shotgun Quickdraw",
@@ -1643,7 +1956,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Light_EXTReload_01": {
     "IGN": "Light Extended Quickdraw",
@@ -1682,7 +2004,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Light_EXTReload_02": {
     "IGN": "Light Extended Quickdraw",
@@ -1721,7 +2044,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Magazine_Medium_EXTReload_01": {
     "IGN": "Medium Extended Quickdraw",
@@ -1760,7 +2092,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Magazine_Medium_EXTReload_02": {
     "IGN": "Medium Extended Quickdraw",
@@ -1799,7 +2132,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_Stock_Standard_02": {
     "IGN": "Standard Stock",
@@ -1836,7 +2178,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Standard_Equip_01": {
     "IGN": "Quickdraw Stock",
@@ -1873,7 +2216,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Stock_Standard_Equip_02": {
     "IGN": "Quickdraw Stock",
@@ -1910,7 +2271,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Standard_ADS_01": {
     "IGN": "Tactical Stock",
@@ -1947,7 +2309,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Standard_ADS_02": {
     "IGN": "Tactical Stock",
@@ -1984,7 +2347,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Standard_ADSEquip_01": {
     "IGN": "Ultralight Stock",
@@ -2026,7 +2390,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Standard_ADSEquip_02": {
     "IGN": "Ultralight Stock",
@@ -2068,7 +2433,15 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "ShockAbsorber": 1,
+        "MiniatureReactor": 1
+      }
+    ]
   },
   "Mod_Stock_Marksman_02": {
     "IGN": "Marksman Stock",
@@ -2103,7 +2476,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Marksman_Equip_01": {
     "IGN": "MKM Quickdraw Stock",
@@ -2138,7 +2512,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Stock_Marksman_Equip_02": {
     "IGN": "MKM Quickdraw Stock",
@@ -2173,7 +2565,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Marksman_ADS_01": {
     "IGN": "MKM Tactical Stock",
@@ -2208,7 +2601,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Marksman_ADS_02": {
     "IGN": "MKM Tactical Stock",
@@ -2243,7 +2637,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Marksman_ADSEquip_01": {
     "IGN": "MKM Ultralight Stock",
@@ -2283,7 +2678,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
     "IGN": "MKM Ultralight Stock",
@@ -2323,7 +2719,15 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "ShockAbsorber": 1,
+        "MultiTool": 2
+      }
+    ]
   },
   "Mod_Muzzle_Small_Recoil_01": {
     "IGN": "Small Muzzle Brake",
@@ -2358,7 +2762,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Muzzle_Small_Recoil_02": {
     "IGN": "Small Muzzle Brake",
@@ -2393,7 +2815,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Muzzle_Small_Recoil_03": {
     "IGN": "Small Muzzle Brake",
@@ -2428,7 +2851,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Muzzle_Standard_Recoil_01": {
     "IGN": "Medium Muzzle Brake",
@@ -2464,7 +2888,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Muzzle_Standard_Recoil_02": {
     "IGN": "Medium Muzzle Brake",
@@ -2500,7 +2942,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Muzzle_Standard_Recoil_03": {
     "IGN": "Medium Muzzle Brake",
@@ -2536,7 +2979,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Light_02": {
     "IGN": "Light Converter",
@@ -2570,7 +3014,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Light_03": {
     "IGN": "Light Converter",
@@ -2604,7 +3049,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
+      }
+    ]
   },
   "Mod_Converter_Medium_02": {
     "IGN": "Medium Converter",
@@ -2638,7 +3092,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Medium_03": {
     "IGN": "Medium Converter",
@@ -2672,7 +3127,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
+      }
+    ]
   },
   "Mod_Converter_Heavy_02": {
     "IGN": "Heavy Converter",
@@ -2706,7 +3170,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Heavy_03": {
     "IGN": "Heavy Converter",
@@ -2740,7 +3205,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "MagneticFieldStabilizer": 5
+      }
+    ]
   },
   "Mod_Converter_Shotgun_02": {
     "IGN": "Shotgun Converter",
@@ -2774,7 +3248,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Shotgun_03": {
     "IGN": "Shotgun Converter",
@@ -2808,7 +3283,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "DerelictExplosives": 1
+      }
+    ]
   },
   "Mod_Converter_Light_AIDMG_01": {
     "IGN": "Light Creature Dmg",
@@ -2842,7 +3326,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Light_AIDMG_02": {
     "IGN": "Light Creature Dmg",
@@ -2876,7 +3361,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Light_AIDMG_03": {
     "IGN": "Light Creature Dmg",
@@ -2910,7 +3396,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
+      }
+    ]
   },
   "Mod_Converter_Medium_AIDMG_01": {
     "IGN": "Medium Creature Dmg",
@@ -2944,7 +3439,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Medium_AIDMG_02": {
     "IGN": "Medium Creature Dmg",
@@ -2978,7 +3474,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Converter_Medium_AIDMG_03": {
     "IGN": "Medium Creature Dmg",
@@ -3012,7 +3509,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
+      }
+    ]
   },
   "Mod_Converter_Shotgun_Slug_01": {
     "IGN": "Shotgun Slugs",
@@ -3061,7 +3567,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_ForeGrip_Angled_02": {
     "IGN": "Angled Foregrip",
@@ -3093,7 +3600,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_ForeGrip_Equip_01": {
     "IGN": "Quickdraw Foregrip",
@@ -3125,7 +3633,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_ForeGrip_Equip_02": {
     "IGN": "Quickdraw Foregrip",
@@ -3157,7 +3683,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_ForeGrip_ADS_01": {
     "IGN": "Tactical Foregrip",
@@ -3189,7 +3716,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_ForeGrip_ADS_02": {
     "IGN": "Tactical Foregrip",
@@ -3221,7 +3749,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_ForeGrip_ADS_03": {
     "IGN": "Tactical Foregrip",
@@ -3253,7 +3782,16 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ]
   },
   "Mod_RearGrip_02": {
     "IGN": "Ergonomic Grip",
@@ -3285,7 +3823,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_RearGrip_ADS_01": {
     "IGN": "Tactical Rear Grip",
@@ -3317,7 +3856,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_RearGrip_ADS_02": {
     "IGN": "Tactical Rear Grip",
@@ -3349,7 +3906,8 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": []
   },
   "Mod_Optic_1x_01": {
     "IGN": "Red Dot Sight",
@@ -3375,7 +3933,25 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ]
   },
   "Mod_Optic_1x_02": {
     "IGN": "Holographic Sight",
@@ -3401,7 +3977,15 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "SpareCasing": 2,
+        "OpticGlass": 1
+      }
+    ]
   },
   "Mod_Optic_Variable_01": {
     "IGN": "2 - 4x Variable Optic",
@@ -3433,7 +4017,15 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "PrintResin": 2,
+        "OpticGlass": 3
+      }
+    ]
   },
   "Mod_Optic_8x_01": {
     "IGN": "8x Optic",
@@ -3468,7 +4060,15 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "PrintResin": 2,
+        "OpticGlass": 3
+      }
+    ]
   },
   "Mod_Optic_6x_01": {
     "IGN": "6x Optic",
@@ -3503,7 +4103,15 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "PrintResin": 2,
+        "OpticGlass": 3
+      }
+    ]
   },
   "Mod_Korolev_Scanner_Oil": {
     "IGN": "Crude Oil Scanning Module",
@@ -3540,6 +4148,12 @@
         "RowName": "None"
       }
     },
-    "flashlight": false
+    "flashlight": false,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 8000
+      }
+    ]
   }
 }

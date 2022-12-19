@@ -9,6 +9,16 @@
   "factionRep": 2705,
   "faction": "CraftingStation",
   "buyValue": 902000,
+  "cost": [
+    {
+      "shop": "CraftingStation",
+      "SoftCurrency": 902000,
+      "AlphaWardenHeart": 3,
+      "MeteorCore": 10,
+      "Gyroscope": 3,
+      "AI_WeremoleMeat_02": 10
+    }
+  ],
   "penetration": 33,
   "directDamage": 4,
   "radialDamage": 0,

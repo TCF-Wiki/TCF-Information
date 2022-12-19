@@ -9,6 +9,24 @@
   "factionRep": 0,
   "faction": "Korolev",
   "buyValue": 150,
+  "cost": [
+    {
+      "shop": "Korolev",
+      "SoftCurrency": 150
+    },
+    {
+      "shop": "Osiris",
+      "SoftCurrency": 150
+    },
+    {
+      "shop": "ICA",
+      "SoftCurrency": 150
+    },
+    {
+      "shop": "QuickShop",
+      "SoftCurrency": 150
+    }
+  ],
   "penetration": 1,
   "directDamage": 100,
   "radialDamage": 0,

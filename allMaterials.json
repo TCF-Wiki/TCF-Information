@@ -8,7 +8,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "UncommonVelticite": {
     "ingamename": "Cloudy Veltecite",
@@ -19,7 +20,14 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 570,
-    "factionRep": 6
+    "factionRep": 6,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1100,
+        "CommonVeltecite": 5
+      }
+    ]
   },
   "RareVeltecite": {
     "ingamename": "Clear Veltecite",
@@ -30,7 +38,14 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 855,
-    "factionRep": 9
+    "factionRep": 9,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1700,
+        "UncommonVelticite": 5
+      }
+    ]
   },
   "EpicVeltecite": {
     "ingamename": "Pure Veltecite",
@@ -41,7 +56,14 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 1922,
-    "factionRep": 19
+    "factionRep": 19,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3800,
+        "RareVeltecite": 5
+      }
+    ]
   },
   "VelteciteHeart": {
     "ingamename": "Veltecite Heart",
@@ -52,7 +74,8 @@
     "stackSize": 3,
     "weight": 10,
     "sellValue": 6488,
-    "factionRep": 65
+    "factionRep": 65,
+    "cost": []
   },
   "FocusCrystal": {
     "ingamename": "Focus Crystal",
@@ -63,7 +86,8 @@
     "stackSize": 10,
     "weight": 4,
     "sellValue": 961,
-    "factionRep": 10
+    "factionRep": 10,
+    "cost": []
   },
   "PureFocusCrystal": {
     "ingamename": "Pure Focus Crystal",
@@ -74,7 +98,14 @@
     "stackSize": 10,
     "weight": 4,
     "sellValue": 2884,
-    "factionRep": 29
+    "factionRep": 29,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 5800,
+        "FocusCrystal": 9
+      }
+    ]
   },
   "Nickel": {
     "ingamename": "Nickel",
@@ -85,7 +116,8 @@
     "stackSize": 10,
     "weight": 2,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "PureNickel": {
     "ingamename": "Altered Nickel",
@@ -96,7 +128,14 @@
     "stackSize": 10,
     "weight": 2,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 680,
+        "Nickel": 5
+      }
+    ]
   },
   "PolariumCrystal": {
     "ingamename": "Polirium Crystal",
@@ -107,7 +146,8 @@
     "stackSize": 5,
     "weight": 8,
     "sellValue": 38924,
-    "factionRep": 389
+    "factionRep": 389,
+    "cost": []
   },
   "Polonium": {
     "ingamename": "Polonium",
@@ -118,7 +158,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 0,
-    "factionRep": 0
+    "factionRep": 0,
+    "cost": []
   },
   "BrittleTitanOre": {
     "ingamename": "Brittle Titan Ore",
@@ -129,7 +170,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 570,
-    "factionRep": 6
+    "factionRep": 6,
+    "cost": []
   },
   "TitanOre": {
     "ingamename": "Titan Ore",
@@ -140,7 +182,14 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 855,
-    "factionRep": 9
+    "factionRep": 9,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1700,
+        "BrittleTitanOre": 6
+      }
+    ]
   },
   "StormSurgeCrystal": {
     "ingamename": "912BCE1C485BCA0A89403E9BECD8C95A",
@@ -151,7 +200,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 0,
-    "factionRep": 0
+    "factionRep": 0,
+    "cost": []
   },
   "BrightcapMushroom": {
     "ingamename": "Brightcap Mushroom",
@@ -162,7 +212,8 @@
     "stackSize": 10,
     "weight": 2,
     "sellValue": 169,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "MeteorCore": {
     "ingamename": "Meteor Core",
@@ -173,7 +224,8 @@
     "stackSize": 3,
     "weight": 25,
     "sellValue": 7594,
-    "factionRep": 76
+    "factionRep": 76,
+    "cost": []
   },
   "MeteorFragment": {
     "ingamename": "Meteor Fragment",
@@ -184,7 +236,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 1013,
-    "factionRep": 10
+    "factionRep": 10,
+    "cost": []
   },
   "BlueRunnerEgg": {
     "ingamename": "Blue Runner Egg",
@@ -195,7 +248,8 @@
     "stackSize": 10,
     "weight": 7,
     "sellValue": 2532,
-    "factionRep": 25
+    "factionRep": 25,
+    "cost": []
   },
   "Alloys": {
     "ingamename": "Metallic Alloys",
@@ -207,7 +261,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "SpareCasing": {
     "ingamename": "Hardened Metals",
@@ -218,7 +273,8 @@
     "stackSize": 10,
     "weight": 4,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "OpticGlass": {
     "ingamename": "Optic Glass",
@@ -229,7 +285,8 @@
     "stackSize": 10,
     "weight": 4,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "DerelictExplosives": {
     "ingamename": "Derelict Explosives",
@@ -240,7 +297,16 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 1709,
-    "factionRep": 17
+    "factionRep": 17,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3400,
+        "Cables": 4,
+        "MeteorFragment": 1,
+        "RadioSpareParts": 3
+      }
+    ]
   },
   "PolymetallicPrefabricate": {
     "ingamename": "Polymetallic Prefabricate",
@@ -251,7 +317,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "CompoundSheets": {
     "ingamename": "Compound Sheets",
@@ -262,7 +329,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "HydraulicPiston": {
     "ingamename": "Hydraulic Piston",
@@ -273,7 +341,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "Gyroscope": {
     "ingamename": "Gyroscope",
@@ -284,7 +353,8 @@
     "stackSize": 10,
     "weight": 4,
     "sellValue": 2563,
-    "factionRep": 26
+    "factionRep": 26,
+    "cost": []
   },
   "BallBearings": {
     "ingamename": "Ball Bearings",
@@ -296,7 +366,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "PrintResin": {
     "ingamename": "Print Resin",
@@ -307,7 +378,15 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 1709,
-    "factionRep": 17
+    "factionRep": 17,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3400,
+        "IvyPlant": 3,
+        "SmartMesh": 1
+      }
+    ]
   },
   "MultiTool": {
     "ingamename": "Salvaged Co-TEC MultiTool",
@@ -318,7 +397,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 1139,
-    "factionRep": 11
+    "factionRep": 11,
+    "cost": []
   },
   "ShardSlicer": {
     "ingamename": "Shard Slicer",
@@ -330,7 +410,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 1709,
-    "factionRep": 17
+    "factionRep": 17,
+    "cost": []
   },
   "CombatCPU_Blue": {
     "ingamename": "Zero Systems CPU",
@@ -342,7 +423,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 507,
-    "factionRep": 5
+    "factionRep": 5,
+    "cost": []
   },
   "CombatCPU_red": {
     "ingamename": "Master Unit CPU",
@@ -353,7 +435,16 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 3845,
-    "factionRep": 38
+    "factionRep": 38,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 7700,
+        "CombatCPU_Blue": 3,
+        "MiniatureReactor": 1,
+        "MultiTool": 2
+      }
+    ]
   },
   "MiniatureReactor": {
     "ingamename": "Miniature Reactor",
@@ -364,7 +455,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 2025,
-    "factionRep": 20
+    "factionRep": 20,
+    "cost": []
   },
   "ShockAbsorber": {
     "ingamename": "Shock Absorber",
@@ -375,7 +467,8 @@
     "stackSize": 10,
     "weight": 6,
     "sellValue": 760,
-    "factionRep": 8
+    "factionRep": 8,
+    "cost": []
   },
   "AutoLoader": {
     "ingamename": "Autoloader",
@@ -386,7 +479,16 @@
     "stackSize": 10,
     "weight": 6,
     "sellValue": 3845,
-    "factionRep": 38
+    "factionRep": 38,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 7700,
+        "AluminumParts": 5,
+        "ShockAbsorber": 1,
+        "BallBearings": 5
+      }
+    ]
   },
   "MagneticFieldStabilizer": {
     "ingamename": "Magnetic Field Stabilizer",
@@ -397,7 +499,8 @@
     "stackSize": 10,
     "weight": 6,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "Datapad": {
     "ingamename": "Interactive Screen",
@@ -408,7 +511,8 @@
     "stackSize": 10,
     "weight": 6,
     "sellValue": 1709,
-    "factionRep": 17
+    "factionRep": 17,
+    "cost": []
   },
   "OldCurrency": {
     "ingamename": "Old Currency",
@@ -419,7 +523,8 @@
     "stackSize": 10000,
     "weight": 0.001,
     "sellValue": 1,
-    "factionRep": 0
+    "factionRep": 0,
+    "cost": []
   },
   "RadioactiveBrightcapMushroom": {
     "ingamename": "Glowy Brightcap Mushroom",
@@ -430,7 +535,8 @@
     "stackSize": 10,
     "weight": 2,
     "sellValue": 507,
-    "factionRep": 5
+    "factionRep": 5,
+    "cost": []
   },
   "BlueWood": {
     "ingamename": "Azure Tree Bark",
@@ -442,7 +548,8 @@
     "stackSize": 10,
     "weight": 7,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "WaterPlant": {
     "ingamename": "Waterweed Filament",
@@ -453,7 +560,8 @@
     "stackSize": 10,
     "weight": 2,
     "sellValue": 228,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "DesertPlant": {
     "ingamename": "Dustbloom",
@@ -464,7 +572,8 @@
     "stackSize": 10,
     "weight": 2,
     "sellValue": 769,
-    "factionRep": 8
+    "factionRep": 8,
+    "cost": []
   },
   "IvyPlant": {
     "ingamename": "Pale Ivy Blossom",
@@ -475,7 +584,8 @@
     "stackSize": 10,
     "weight": 1,
     "sellValue": 427,
-    "factionRep": 4
+    "factionRep": 4,
+    "cost": []
   },
   "AlienFruit": {
     "ingamename": "Indigenous Fruit",
@@ -486,7 +596,8 @@
     "stackSize": 10,
     "weight": 6,
     "sellValue": 760,
-    "factionRep": 8
+    "factionRep": 8,
+    "cost": []
   },
   "Fabrics": {
     "ingamename": "Textiles",
@@ -497,7 +608,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "Cables": {
     "ingamename": "Electronic Cables",
@@ -509,7 +621,8 @@
     "stackSize": 10,
     "weight": 6,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "Insulation": {
     "ingamename": "Salvaged Insulation",
@@ -520,7 +633,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "CopperWire": {
     "ingamename": "Copper Wire",
@@ -531,7 +645,8 @@
     "stackSize": 10,
     "weight": 8,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "SmartMesh": {
     "ingamename": "Smart Mesh",
@@ -543,7 +658,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 1709,
-    "factionRep": 17
+    "factionRep": 17,
+    "cost": []
   },
   "CircuitBoard": {
     "ingamename": "Circuit Board",
@@ -554,7 +670,8 @@
     "stackSize": 10,
     "weight": 7,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "RadioSpareParts": {
     "ingamename": "Radio Equipment",
@@ -565,7 +682,8 @@
     "stackSize": 10,
     "weight": 7,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "Antibiotics": {
     "ingamename": "Old Medicine",
@@ -576,7 +694,8 @@
     "stackSize": 10,
     "weight": 1,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "PortableLabEquipmentBox": {
     "ingamename": "Portable Lab",
@@ -588,7 +707,17 @@
     "stackSize": 10,
     "weight": 15,
     "sellValue": 3845,
-    "factionRep": 38
+    "factionRep": 38,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 7700,
+        "PolymetallicPrefabricate": 8,
+        "MagneticFieldStabilizer": 5,
+        "Datapad": 2,
+        "SamplingDevice": 2
+      }
+    ]
   },
   "Battery": {
     "ingamename": "Fusion Cartridge Batteries ",
@@ -599,7 +728,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 150,
-    "factionRep": 2
+    "factionRep": 2,
+    "cost": []
   },
   "LiquidFertilizer": {
     "ingamename": "Magic-GROW Fertilizer",
@@ -610,7 +740,8 @@
     "stackSize": 10,
     "weight": 7,
     "sellValue": 338,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "SamplingDevice": {
     "ingamename": "Biological Sampler",
@@ -621,7 +752,8 @@
     "stackSize": 10,
     "weight": 8,
     "sellValue": 1139,
-    "factionRep": 11
+    "factionRep": 11,
+    "cost": []
   },
   "AnaestheticsContainers": {
     "ingamename": "Medical Supplies",
@@ -632,7 +764,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 760,
-    "factionRep": 8
+    "factionRep": 8,
+    "cost": []
   },
   "ProteinBar": {
     "ingamename": "Nutritional Bar",
@@ -643,7 +776,8 @@
     "stackSize": 10,
     "weight": 1,
     "sellValue": 507,
-    "factionRep": 5
+    "factionRep": 5,
+    "cost": []
   },
   "Jewellery": {
     "ingamename": "Jewellery",
@@ -654,7 +788,8 @@
     "stackSize": 10,
     "weight": 2,
     "sellValue": 1013,
-    "factionRep": 10
+    "factionRep": 10,
+    "cost": []
   },
   "SampleContainer": {
     "ingamename": "Sample Container",
@@ -666,7 +801,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 507,
-    "factionRep": 5
+    "factionRep": 5,
+    "cost": []
   },
   "AluminumParts": {
     "ingamename": "Aluminum scrap",
@@ -677,7 +813,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 507,
-    "factionRep": 5
+    "factionRep": 5,
+    "cost": []
   },
   "GenericCreatureDrop": {
     "ingamename": "Spinal Base",
@@ -688,7 +825,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 300,
-    "factionRep": 3
+    "factionRep": 3,
+    "cost": []
   },
   "StormyCreatureDrop": {
     "ingamename": "Charged Spinal Base",
@@ -699,7 +837,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 450,
-    "factionRep": 5
+    "factionRep": 5,
+    "cost": []
   },
   "NeuroToxicGlands": {
     "ingamename": "Toxic Glands",
@@ -710,7 +849,8 @@
     "stackSize": 10,
     "weight": 2,
     "sellValue": 900,
-    "factionRep": 9
+    "factionRep": 9,
+    "cost": []
   },
   "AI_StriderHead": {
     "ingamename": "Strider Head",
@@ -721,7 +861,8 @@
     "stackSize": 5,
     "weight": 10,
     "sellValue": 6812,
-    "factionRep": 68
+    "factionRep": 68,
+    "cost": []
   },
   "AI_RattlerHead": {
     "ingamename": "Rattler Head",
@@ -732,7 +873,8 @@
     "stackSize": 5,
     "weight": 15,
     "sellValue": 15570,
-    "factionRep": 156
+    "factionRep": 156,
+    "cost": []
   },
   "AI_WeremoleHead": {
     "ingamename": "Marauder Head",
@@ -743,7 +885,8 @@
     "stackSize": 5,
     "weight": 20,
     "sellValue": 38924,
-    "factionRep": 389
+    "factionRep": 389,
+    "cost": []
   },
   "AI_CrusherHead": {
     "ingamename": "Crusher Head",
@@ -754,7 +897,8 @@
     "stackSize": 5,
     "weight": 30,
     "sellValue": 97310,
-    "factionRep": 973
+    "factionRep": 973,
+    "cost": []
   },
   "AlphaCrusherSkull": {
     "ingamename": "Alpha Crusher Skull",
@@ -766,7 +910,8 @@
     "stackSize": 1,
     "weight": 30,
     "sellValue": 518986,
-    "factionRep": 5190
+    "factionRep": 5190,
+    "cost": []
   },
   "AI_StriderMeat": {
     "ingamename": "Strider Flesh",
@@ -777,7 +922,8 @@
     "stackSize": 10,
     "weight": 8,
     "sellValue": 675,
-    "factionRep": 7
+    "factionRep": 7,
+    "cost": []
   },
   "AI_RattlerEyes": {
     "ingamename": "Rattler Eyes",
@@ -788,7 +934,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 1519,
-    "factionRep": 15
+    "factionRep": 15,
+    "cost": []
   },
   "AI_WeremoleMeat": {
     "ingamename": "Marauder Flesh",
@@ -799,7 +946,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 5126,
-    "factionRep": 51
+    "factionRep": 51,
+    "cost": []
   },
   "AI_CrusherMeat": {
     "ingamename": "Crusher Flesh",
@@ -810,7 +958,8 @@
     "stackSize": 10,
     "weight": 25,
     "sellValue": 17300,
-    "factionRep": 173
+    "factionRep": 173,
+    "cost": []
   },
   "AI_RattlerSkin": {
     "ingamename": "Rattler Skin",
@@ -821,7 +970,8 @@
     "stackSize": 10,
     "weight": 8,
     "sellValue": 675,
-    "factionRep": 7
+    "factionRep": 7,
+    "cost": []
   },
   "HardenedBoneAlloy": {
     "ingamename": "Hardened Bone Plates",
@@ -832,7 +982,8 @@
     "stackSize": 10,
     "weight": 9,
     "sellValue": 3417,
-    "factionRep": 34
+    "factionRep": 34,
+    "cost": []
   },
   "AI_CrusherSkin": {
     "ingamename": "Crusher Hide",
@@ -843,7 +994,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 11533,
-    "factionRep": 115
+    "factionRep": 115,
+    "cost": []
   },
   "Biomass": {
     "ingamename": "B9B5709644DEB42FDBA1328C274D5918",
@@ -854,7 +1006,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 0,
-    "factionRep": 0
+    "factionRep": 0,
+    "cost": []
   },
   "AlphaWardenHeart": {
     "ingamename": "Alpha Crusher Heart",
@@ -865,7 +1018,8 @@
     "stackSize": 1,
     "weight": 20,
     "sellValue": 129747,
-    "factionRep": 1297
+    "factionRep": 1297,
+    "cost": []
   },
   "Adhesive": {
     "ingamename": "Resin Gun",
@@ -877,7 +1031,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 760,
-    "factionRep": 8
+    "factionRep": 8,
+    "cost": []
   },
   "KorolevScrip": {
     "ingamename": "Korolev Scrip",
@@ -888,7 +1043,8 @@
     "stackSize": 10000,
     "weight": 0.1,
     "sellValue": 10,
-    "factionRep": 0
+    "factionRep": 0,
+    "cost": []
   },
   "OsirisScrip": {
     "ingamename": "Osiris Scrip",
@@ -899,7 +1055,8 @@
     "stackSize": 10000,
     "weight": 0.1,
     "sellValue": 10,
-    "factionRep": 0
+    "factionRep": 0,
+    "cost": []
   },
   "ICAScrip": {
     "ingamename": "ICA Scrip",
@@ -910,7 +1067,8 @@
     "stackSize": 10000,
     "weight": 0.1,
     "sellValue": 10,
-    "factionRep": 0
+    "factionRep": 0,
+    "cost": []
   },
   "Letium": {
     "ingamename": "Letium Clot",
@@ -921,7 +1079,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 11533,
-    "factionRep": 115
+    "factionRep": 115,
+    "cost": []
   },
   "OilTank": {
     "ingamename": "NiC Oil Cannister",
@@ -932,7 +1091,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 20183,
-    "factionRep": 202
+    "factionRep": 202,
+    "cost": []
   },
   "AI_StriderMeat_03": {
     "ingamename": "Heavy Strider Flesh",
@@ -943,7 +1103,8 @@
     "stackSize": 10,
     "weight": 8,
     "sellValue": 5126,
-    "factionRep": 51
+    "factionRep": 51,
+    "cost": []
   },
   "AI_RattlerEyes_02": {
     "ingamename": "Mature Rattler Eyes",
@@ -954,7 +1115,8 @@
     "stackSize": 10,
     "weight": 5,
     "sellValue": 5126,
-    "factionRep": 51
+    "factionRep": 51,
+    "cost": []
   },
   "AI_WeremoleMeat_02": {
     "ingamename": "Savage Marauder Flesh",
@@ -965,7 +1127,8 @@
     "stackSize": 10,
     "weight": 10,
     "sellValue": 11533,
-    "factionRep": 115
+    "factionRep": 115,
+    "cost": []
   },
   "AI_StriderHead_03": {
     "ingamename": "Heavy Strider Head",
@@ -976,7 +1139,8 @@
     "stackSize": 3,
     "weight": 10,
     "sellValue": 52548,
-    "factionRep": 525
+    "factionRep": 525,
+    "cost": []
   },
   "AI_RattlerHead_02": {
     "ingamename": "Mature Rattler Head",
@@ -987,7 +1151,8 @@
     "stackSize": 3,
     "weight": 15,
     "sellValue": 52548,
-    "factionRep": 525
+    "factionRep": 525,
+    "cost": []
   },
   "AI_WeremoleHead_02": {
     "ingamename": "Savage Marauder Head",
@@ -998,7 +1163,8 @@
     "stackSize": 3,
     "weight": 20,
     "sellValue": 116772,
-    "factionRep": 1168
+    "factionRep": 1168,
+    "cost": []
   },
   "ForgeIron": {
     "ingamename": "Tharis Iron",
@@ -1009,7 +1175,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 1025,
-    "factionRep": 10
+    "factionRep": 10,
+    "cost": []
   },
   "PureForgeIron": {
     "ingamename": "Pure Tharis Iron",
@@ -1020,7 +1187,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 2307,
-    "factionRep": 23
+    "factionRep": 23,
+    "cost": []
   },
   "ForgeIronIngot": {
     "ingamename": "Tharis Iron Ingot",
@@ -1031,7 +1199,8 @@
     "stackSize": 6,
     "weight": 9,
     "sellValue": 3845,
-    "factionRep": 38
+    "factionRep": 38,
+    "cost": []
   },
   "ChargedForgeIronIngot": {
     "ingamename": "Charged Tharis Iron Ingot",
@@ -1042,7 +1211,8 @@
     "stackSize": 6,
     "weight": 9,
     "sellValue": 8650,
-    "factionRep": 87
+    "factionRep": 87,
+    "cost": []
   },
   "SuperChargedForgeIronIngot": {
     "ingamename": "Super Charged Tharis Iron Ingot",
@@ -1053,7 +1223,8 @@
     "stackSize": 6,
     "weight": 9,
     "sellValue": 12975,
-    "factionRep": 130
+    "factionRep": 130,
+    "cost": []
   },
   "GlowingCrystalCoreShard": {
     "ingamename": "Teratomorphic Crystal Core",
@@ -1064,7 +1235,8 @@
     "stackSize": 10,
     "weight": 3,
     "sellValue": 1709,
-    "factionRep": 17
+    "factionRep": 17,
+    "cost": []
   },
   "AF_Slag": {
     "ingamename": "Progenitor Slag",
@@ -1075,7 +1247,8 @@
     "stackSize": 3,
     "weight": 12,
     "sellValue": 77848,
-    "factionRep": 778
+    "factionRep": 778,
+    "cost": []
   },
   "AF_Token": {
     "ingamename": "Abyss Alloy",
@@ -1086,7 +1259,8 @@
     "stackSize": 5,
     "weight": 10,
     "sellValue": 12975,
-    "factionRep": 130
+    "factionRep": 130,
+    "cost": []
   },
   "TentaclePlant": {
     "ingamename": "Spine Briar",
@@ -1097,7 +1271,8 @@
     "stackSize": 10,
     "weight": 7,
     "sellValue": 2563,
-    "factionRep": 26
+    "factionRep": 26,
+    "cost": []
   },
   "Alien_Scrap": {
     "ingamename": "Progenitor Composite",
@@ -1108,6 +1283,529 @@
     "stackSize": 10,
     "weight": 4,
     "sellValue": 760,
-    "factionRep": 8
+    "factionRep": 8,
+    "cost": []
+  },
+  "QuestItem_AlphaWardenBait": {
+    "ingamename": "Alpha Crusher Bait",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 5,
+    "sellValue": 0,
+    "factionRep": 0,
+    "cost": []
+  },
+  "QuestItem_LaserDrillBeacon": {
+    "ingamename": "Laser Drill Beacon",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Utility"
+    ],
+    "stackSize": 3,
+    "weight": 6,
+    "sellValue": 4936,
+    "factionRep": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 49000,
+        "SmartMesh": 2,
+        "Cables": 18,
+        "KorolevScrip": 80
+      }
+    ]
+  },
+  "HardDrive_common": {
+    "ingamename": "Data Drive Tier 1",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 15,
+    "sellValue": 30,
+    "factionRep": 0,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      }
+    ]
+  },
+  "HardDrive_uncommon": {
+    "ingamename": "Data Drive Tier 2",
+    "rarity": "Uncommon",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 15,
+    "sellValue": 1013,
+    "factionRep": 1,
+    "cost": []
+  },
+  "HardDrive_rare": {
+    "ingamename": "Data Drive Tier 3",
+    "rarity": "Rare",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 15,
+    "sellValue": 2531,
+    "factionRep": 3,
+    "cost": []
+  },
+  "HardDrive_epic": {
+    "ingamename": "Data Drive Tier 4",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 15,
+    "sellValue": 6075,
+    "factionRep": 6,
+    "cost": []
+  },
+  "HardDrive_legendary": {
+    "ingamename": "Data Drive Tier 5",
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 15,
+    "sellValue": 10252,
+    "factionRep": 10,
+    "cost": []
+  },
+  "Data_DigSite": {
+    "ingamename": "Dig Site Data Drive",
+    "rarity": "Uncommon",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 10,
+    "sellValue": 34,
+    "factionRep": 0,
+    "cost": []
+  },
+  "QuestItem_OrbitalCanonTargetBeacon": {
+    "ingamename": "Orbital Cannon Beacon",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Utility"
+    ],
+    "stackSize": 3,
+    "weight": 6,
+    "sellValue": 4936,
+    "factionRep": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 49000,
+        "DerelictExplosives": 3,
+        "Datapad": 4,
+        "HardDrive_legendary": 1,
+        "OsirisScrip": 80
+      }
+    ]
+  },
+  "QuestItem_OilPumpBeacon": {
+    "ingamename": "Oil Pump Beacon",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Utility"
+    ],
+    "stackSize": 3,
+    "weight": 6,
+    "sellValue": 4936,
+    "factionRep": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 49000,
+        "HydraulicPiston": 12,
+        "AluminumParts": 12,
+        "ICAScrip": 80
+      }
+    ]
+  },
+  "MissionItem_MinerItem1": {
+    "ingamename": "Miner Cam #2F53",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 5,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_MinerItem2": {
+    "ingamename": "Miner Cam #D027",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 5,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_MinerItem3": {
+    "ingamename": "Miner Cam #A45D",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 5,
+    "sellValue": 0,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_EngineerItem": {
+    "ingamename": "Letium Coated Helmet",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 9,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_CreatureSample": {
+    "ingamename": "Letium Bio Samples",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 6,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_LaserDrillPart": {
+    "ingamename": "Laser Drill Control Unit",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 18,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_ICAPersonalItem": {
+    "ingamename": "Sign of Life from Stranded Prospector",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 2,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_PowerPlantItem1": {
+    "ingamename": "Notes on Meteor Experiment - 1",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 4,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_PowerPlantItem2": {
+    "ingamename": "Notes on Meteor Experiment - 2",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 4,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_OilPumpPart": {
+    "ingamename": "Oil Pump Part",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 10,
+    "sellValue": 15,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_OldBones": {
+    "ingamename": "Old Bones",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 5,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_AlphaSkull": {
+    "ingamename": "Warden Tooth",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 9,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_FlightRecorder": {
+    "ingamename": "Flight Recorder",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 15,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_Notebook": {
+    "ingamename": "Old Notebook",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 4,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_KorChiefEngineerDiary": {
+    "ingamename": "Chief Engineer's Personal Diary",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_ForgeIronSample": {
+    "ingamename": "Tharis Iron Sample",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 3,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_PureForgeIronNugget": {
+    "ingamename": "Pure Tharis Iron Nugget",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 3,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_MiningPartyMedicalFiles": {
+    "ingamename": "Mining Party Medical Files",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 2,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_VadimPredecessorItem": {
+    "ingamename": "The Tharis Files",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_StolenKorData1": {
+    "ingamename": "Korolev Data Drive #473-D",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 4,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_StolenKorData2": {
+    "ingamename": "Korolev Notes",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 4,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_CultistGlowCrystalItem": {
+    "ingamename": "Mysterious Glowing Contraption",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 25,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_CultistRitualItem": {
+    "ingamename": "Cultist Ritual Item",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 4,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_AlienShieldRecipe": {
+    "ingamename": "Cultist Scribblings",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_ColonistItem": {
+    "ingamename": "Colonist Item",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 2,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_StolenOsiHoloMap": {
+    "ingamename": "Tharis Caverns Holo-Map",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 13,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_KorCivilianItem": {
+    "ingamename": "Vintage Camera",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 12,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_AlienDoorFragment": {
+    "ingamename": "Osiris Door Fragment",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 6,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_AnalysisTool": {
+    "ingamename": "Advanced Analysis Toolkit",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 10,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_OsiChiefEngineerItem": {
+    "ingamename": "Osiris Engineer Scanner",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 6,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
+  },
+  "MissionItem_OsiHeadScientistItem": {
+    "ingamename": "Osiris Helmet Recorder",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "weight": 8,
+    "sellValue": 2,
+    "factionRep": 0,
+    "cost": []
   }
 }

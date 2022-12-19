@@ -7,5 +7,12 @@
   "stackSize": 10,
   "weight": 4,
   "sellValue": 2884,
-  "factionRep": 29
+  "factionRep": 29,
+  "cost": [
+    {
+      "shop": "CraftingStation",
+      "SoftCurrency": 5800,
+      "FocusCrystal": 9
+    }
+  ]
 }

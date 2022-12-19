@@ -7,5 +7,12 @@
   "stackSize": 10,
   "weight": 3,
   "sellValue": 1922,
-  "factionRep": 19
+  "factionRep": 19,
+  "cost": [
+    {
+      "shop": "CraftingStation",
+      "SoftCurrency": 3800,
+      "RareVeltecite": 5
+    }
+  ]
 }

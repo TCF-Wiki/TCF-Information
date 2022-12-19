@@ -10,6 +10,12 @@
     "factionRep": 168,
     "faction": "Korolev",
     "buyValue": 56000,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 56000
+      }
+    ],
     "penetration": 30,
     "directDamage": 28,
     "radialDamage": 0,
@@ -56,6 +62,12 @@
     "factionRep": 51,
     "faction": "Korolev",
     "buyValue": 17000,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 17000
+      }
+    ],
     "penetration": 20,
     "directDamage": 7,
     "radialDamage": 0,
@@ -105,6 +117,12 @@
     "factionRep": 19,
     "faction": "Korolev",
     "buyValue": 6400,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 6400
+      }
+    ],
     "penetration": 15,
     "directDamage": 11,
     "radialDamage": 0,
@@ -153,6 +171,12 @@
     "factionRep": 483,
     "faction": "Korolev",
     "buyValue": 161000,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 161000
+      }
+    ],
     "penetration": 30,
     "directDamage": 12,
     "radialDamage": 0,
@@ -202,6 +226,12 @@
     "factionRep": 228,
     "faction": "Korolev",
     "buyValue": 76000,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 76000
+      }
+    ],
     "penetration": 25,
     "directDamage": 35,
     "radialDamage": 0,
@@ -251,6 +281,16 @@
     "factionRep": 3255,
     "faction": "CraftingStation",
     "buyValue": 1085000,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1085000,
+        "Letium": 75,
+        "MeteorCore": 10,
+        "Datapad": 25,
+        "AlphaWardenHeart": 3
+      }
+    ],
     "penetration": 33,
     "directDamage": 75,
     "radialDamage": 0,
@@ -291,6 +331,12 @@
     "factionRep": 19,
     "faction": "ICA",
     "buyValue": 6400,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 6400
+      }
+    ],
     "penetration": 15,
     "directDamage": 12,
     "radialDamage": 0,
@@ -331,6 +377,12 @@
     "factionRep": 123,
     "faction": "ICA",
     "buyValue": 41000,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 41000
+      }
+    ],
     "penetration": 25,
     "directDamage": 7,
     "radialDamage": 0,
@@ -380,6 +432,12 @@
     "factionRep": 342,
     "faction": "ICA",
     "buyValue": 114000,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 114000
+      }
+    ],
     "penetration": 30,
     "directDamage": 9,
     "radialDamage": 0,
@@ -429,6 +487,12 @@
     "factionRep": 71,
     "faction": "ICA",
     "buyValue": 24000,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 24000
+      }
+    ],
     "penetration": 20,
     "directDamage": 10,
     "radialDamage": 0,
@@ -477,6 +541,12 @@
     "factionRep": 174,
     "faction": "ICA",
     "buyValue": 58000,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 58000
+      }
+    ],
     "penetration": 25,
     "directDamage": 10,
     "radialDamage": 0,
@@ -526,6 +596,12 @@
     "factionRep": 93,
     "faction": "ICA",
     "buyValue": 31000,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 31000
+      }
+    ],
     "penetration": 20,
     "directDamage": 27,
     "radialDamage": 0,
@@ -575,6 +651,12 @@
     "factionRep": 945,
     "faction": "ICA",
     "buyValue": 315000,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 315000
+      }
+    ],
     "penetration": 30,
     "directDamage": 54,
     "radialDamage": 0,
@@ -623,6 +705,12 @@
     "factionRep": 2,
     "faction": "QuickShop",
     "buyValue": 760,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 760
+      }
+    ],
     "penetration": 10,
     "directDamage": 13,
     "radialDamage": 0,
@@ -669,6 +757,12 @@
     "factionRep": 4,
     "faction": "QuickShop",
     "buyValue": 1200,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 1200
+      }
+    ],
     "penetration": 10,
     "directDamage": 8,
     "radialDamage": 0,
@@ -718,6 +812,12 @@
     "factionRep": 4,
     "faction": "QuickShop",
     "buyValue": 1200,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 1200
+      }
+    ],
     "penetration": 10,
     "directDamage": 10,
     "radialDamage": 0,
@@ -767,6 +867,12 @@
     "factionRep": 5,
     "faction": "QuickShop",
     "buyValue": 1700,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 1700
+      }
+    ],
     "penetration": 10,
     "directDamage": 12,
     "radialDamage": 0,
@@ -816,6 +922,12 @@
     "factionRep": 21,
     "faction": "QuickShop",
     "buyValue": 6800,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 6800
+      }
+    ],
     "penetration": 10,
     "directDamage": 50,
     "radialDamage": 0,
@@ -861,6 +973,7 @@
     "weight": 25,
     "sellValue": 124,
     "factionRep": 1,
+    "cost": [],
     "penetration": 5,
     "directDamage": 8,
     "radialDamage": 0,
@@ -898,6 +1011,7 @@
     "weight": 30,
     "sellValue": 124,
     "factionRep": 1,
+    "cost": [],
     "penetration": 5,
     "directDamage": 9,
     "radialDamage": 0,
@@ -935,6 +1049,7 @@
     "weight": 35,
     "sellValue": 175,
     "factionRep": 2,
+    "cost": [],
     "penetration": 5,
     "directDamage": 12,
     "radialDamage": 0,
@@ -975,6 +1090,12 @@
     "factionRep": 12,
     "faction": "Osiris",
     "buyValue": 3900,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3900
+      }
+    ],
     "penetration": 15,
     "directDamage": 13,
     "radialDamage": 0,
@@ -1021,6 +1142,12 @@
     "factionRep": 123,
     "faction": "Osiris",
     "buyValue": 41000,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 41000
+      }
+    ],
     "penetration": 25,
     "directDamage": 10,
     "radialDamage": 0,
@@ -1070,6 +1197,12 @@
     "factionRep": 71,
     "faction": "Osiris",
     "buyValue": 24000,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 24000
+      }
+    ],
     "penetration": 20,
     "directDamage": 13,
     "radialDamage": 0,
@@ -1119,6 +1252,12 @@
     "factionRep": 174,
     "faction": "Osiris",
     "buyValue": 58000,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 58000
+      }
+    ],
     "penetration": 25,
     "directDamage": 5,
     "radialDamage": 0,
@@ -1166,6 +1305,12 @@
     "factionRep": 27,
     "faction": "Osiris",
     "buyValue": 9000,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 9000
+      }
+    ],
     "penetration": 15,
     "directDamage": 12,
     "radialDamage": 0,
@@ -1215,6 +1360,12 @@
     "factionRep": 631,
     "faction": "Osiris",
     "buyValue": 210000,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 210000
+      }
+    ],
     "penetration": 30,
     "directDamage": 34,
     "radialDamage": 0,
@@ -1290,6 +1441,7 @@
     "weight": 60,
     "sellValue": 117760,
     "factionRep": 1178,
+    "cost": [],
     "penetration": 10,
     "directDamage": 250,
     "radialDamage": 300,
@@ -1330,6 +1482,16 @@
     "factionRep": 2978,
     "faction": "CraftingStation",
     "buyValue": 993000,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 993000,
+        "OilTank": 30,
+        "MeteorCore": 10,
+        "DerelictExplosives": 20,
+        "AI_CrusherMeat": 8
+      }
+    ],
     "penetration": 33,
     "directDamage": 0,
     "radialDamage": 100,
@@ -1368,6 +1530,7 @@
     "weight": 60,
     "sellValue": 51258,
     "factionRep": 513,
+    "cost": [],
     "penetration": 10,
     "directDamage": 0,
     "radialDamage": 375,
@@ -1406,6 +1569,7 @@
     "weight": 60,
     "sellValue": 51258,
     "factionRep": 513,
+    "cost": [],
     "penetration": 20,
     "directDamage": 0,
     "radialDamage": 125,
@@ -1446,6 +1610,16 @@
     "factionRep": 2705,
     "faction": "CraftingStation",
     "buyValue": 902000,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 902000,
+        "AlphaWardenHeart": 3,
+        "MeteorCore": 10,
+        "Gyroscope": 3,
+        "AI_WeremoleMeat_02": 10
+      }
+    ],
     "penetration": 33,
     "directDamage": 4,
     "radialDamage": 0,
@@ -1514,6 +1688,12 @@
     "factionRep": 2,
     "faction": "Korolev",
     "buyValue": 600,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 600
+      }
+    ],
     "penetration": 1,
     "directDamage": 2,
     "radialDamage": 0,
@@ -1554,6 +1734,24 @@
     "factionRep": 0,
     "faction": "Korolev",
     "buyValue": 150,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 150
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 150
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 150
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 150
+      }
+    ],
     "penetration": 1,
     "directDamage": 100,
     "radialDamage": 0,
@@ -2049,6 +2247,7 @@
     "weight": 20,
     "sellValue": 76,
     "factionRep": 1,
+    "cost": [],
     "penetration": 5,
     "directDamage": 13,
     "radialDamage": 0,
@@ -2087,6 +2286,7 @@
     "weight": 10,
     "sellValue": 225,
     "factionRep": 2,
+    "cost": [],
     "penetration": 1,
     "directDamage": 100,
     "radialDamage": 0,
@@ -2150,6 +2350,7 @@
     "weight": 20,
     "sellValue": 4500,
     "factionRep": 45,
+    "cost": [],
     "penetration": 1,
     "directDamage": 0,
     "radialDamage": 0,
@@ -2184,6 +2385,7 @@
     "weight": 1,
     "sellValue": 4500,
     "factionRep": 45,
+    "cost": [],
     "penetration": 1,
     "directDamage": 0,
     "radialDamage": 0,

@@ -9,6 +9,12 @@
   "factionRep": 5,
   "faction": "QuickShop",
   "buyValue": 1700,
+  "cost": [
+    {
+      "shop": "QuickShop",
+      "SoftCurrency": 1700
+    }
+  ],
   "penetration": 10,
   "directDamage": 12,
   "radialDamage": 0,

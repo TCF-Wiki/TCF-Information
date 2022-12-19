@@ -28,5 +28,23 @@
       "RowName": "None"
     }
   },
-  "flashlight": false
+  "flashlight": false,
+  "cost": [
+    {
+      "shop": "Korolev",
+      "SoftCurrency": 300
+    },
+    {
+      "shop": "Osiris",
+      "SoftCurrency": 300
+    },
+    {
+      "shop": "ICA",
+      "SoftCurrency": 300
+    },
+    {
+      "shop": "QuickShop",
+      "SoftCurrency": 300
+    }
+  ]
 }

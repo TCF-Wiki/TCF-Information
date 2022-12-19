@@ -31,5 +31,13 @@
       "RowName": "None"
     }
   },
-  "flashlight": false
+  "flashlight": false,
+  "cost": [
+    {
+      "shop": "CraftingStation",
+      "SoftCurrency": 8000,
+      "PrintResin": 2,
+      "OpticGlass": 3
+    }
+  ]
 }

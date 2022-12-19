@@ -9,6 +9,12 @@
   "factionRep": 174,
   "faction": "Osiris",
   "buyValue": 58000,
+  "cost": [
+    {
+      "shop": "Osiris",
+      "SoftCurrency": 58000
+    }
+  ],
   "penetration": 25,
   "directDamage": 5,
   "radialDamage": 0,

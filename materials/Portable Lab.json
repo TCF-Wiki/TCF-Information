@@ -8,5 +8,15 @@
   "stackSize": 10,
   "weight": 15,
   "sellValue": 3845,
-  "factionRep": 38
+  "factionRep": 38,
+  "cost": [
+    {
+      "shop": "CraftingStation",
+      "SoftCurrency": 7700,
+      "PolymetallicPrefabricate": 8,
+      "MagneticFieldStabilizer": 5,
+      "Datapad": 2,
+      "SamplingDevice": 2
+    }
+  ]
 }

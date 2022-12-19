@@ -9,6 +9,16 @@
   "factionRep": 2978,
   "faction": "CraftingStation",
   "buyValue": 993000,
+  "cost": [
+    {
+      "shop": "CraftingStation",
+      "SoftCurrency": 993000,
+      "OilTank": 30,
+      "MeteorCore": 10,
+      "DerelictExplosives": 20,
+      "AI_CrusherMeat": 8
+    }
+  ],
   "penetration": 33,
   "directDamage": 0,
   "radialDamage": 100,
