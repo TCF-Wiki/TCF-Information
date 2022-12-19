@@ -9,6 +9,12 @@
   "factionRep": 945,
   "faction": "ICA",
   "buyValue": 315000,
+  "cost": [
+    {
+      "shop": "ICA",
+      "SoftCurrency": 315000
+    }
+  ],
   "penetration": 30,
   "directDamage": 54,
   "radialDamage": 0,

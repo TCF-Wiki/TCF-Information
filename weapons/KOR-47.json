@@ -9,6 +9,12 @@
   "factionRep": 483,
   "faction": "Korolev",
   "buyValue": 161000,
+  "cost": [
+    {
+      "shop": "Korolev",
+      "SoftCurrency": 161000
+    }
+  ],
   "penetration": 30,
   "directDamage": 12,
   "radialDamage": 0,

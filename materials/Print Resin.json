@@ -7,5 +7,13 @@
   "stackSize": 10,
   "weight": 3,
   "sellValue": 1709,
-  "factionRep": 17
+  "factionRep": 17,
+  "cost": [
+    {
+      "shop": "CraftingStation",
+      "SoftCurrency": 3400,
+      "IvyPlant": 3,
+      "SmartMesh": 1
+    }
+  ]
 }

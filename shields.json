@@ -12,6 +12,7 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [],
     "sellValue": 135,
     "factionRep": 1
   },
@@ -28,6 +29,24 @@
       "maxPrice": 225,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 450
+      }
+    ],
     "sellValue": 135,
     "factionRep": 1
   },
@@ -44,6 +63,14 @@
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 2000,
+        "PolymetallicPrefabricate": 2,
+        "GenericCreatureDrop": 5
+      }
+    ],
     "sellValue": 608,
     "factionRep": 6
   },
@@ -60,6 +87,15 @@
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 15000,
+        "CombatCPU_Blue": 2,
+        "UncommonVelticite": 2,
+        "AI_RattlerSkin": 5
+      }
+    ],
     "sellValue": 4556,
     "factionRep": 46
   },
@@ -76,6 +112,15 @@
       "maxPrice": 7800,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "TitanOre": 1,
+        "HardenedBoneAlloy": 2
+      }
+    ],
     "sellValue": 11618,
     "factionRep": 116
   },
@@ -92,6 +137,15 @@
       "maxPrice": 9875,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "PureFocusCrystal": 1,
+        "AI_CrusherSkin": 2
+      }
+    ],
     "sellValue": 23579,
     "factionRep": 236
   },
@@ -108,6 +162,24 @@
       "maxPrice": 340,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 680
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 680
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 680
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 680
+      }
+    ],
     "sellValue": 203,
     "factionRep": 2
   },
@@ -124,6 +196,15 @@
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 2000,
+        "PolymetallicPrefabricate": 2,
+        "WaterPlant": 2,
+        "GenericCreatureDrop": 5
+      }
+    ],
     "sellValue": 608,
     "factionRep": 6
   },
@@ -140,6 +221,15 @@
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 15000,
+        "CombatCPU_Blue": 2,
+        "IvyPlant": 2,
+        "AI_RattlerSkin": 8
+      }
+    ],
     "sellValue": 4556,
     "factionRep": 46
   },
@@ -156,6 +246,15 @@
       "maxPrice": 7800,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "DesertPlant": 2,
+        "HardenedBoneAlloy": 3
+      }
+    ],
     "sellValue": 11618,
     "factionRep": 116
   },
@@ -172,6 +271,15 @@
       "maxPrice": 9875,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "TentaclePlant": 2,
+        "AI_CrusherSkin": 3
+      }
+    ],
     "sellValue": 23579,
     "factionRep": 236
   },
@@ -188,6 +296,15 @@
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 2000,
+        "PolymetallicPrefabricate": 2,
+        "BrightcapMushroom": 2,
+        "GenericCreatureDrop": 5
+      }
+    ],
     "sellValue": 608,
     "factionRep": 6
   },
@@ -204,6 +321,15 @@
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 15000,
+        "CombatCPU_Blue": 2,
+        "RadioactiveBrightcapMushroom": 2,
+        "AI_RattlerSkin": 8
+      }
+    ],
     "sellValue": 4556,
     "factionRep": 46
   },
@@ -220,6 +346,15 @@
       "maxPrice": 7800,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "RadioactiveBrightcapMushroom": 5,
+        "HardenedBoneAlloy": 3
+      }
+    ],
     "sellValue": 11618,
     "factionRep": 116
   },
@@ -236,6 +371,16 @@
       "maxPrice": 9875,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "PureFocusCrystal": 1,
+        "AI_CrusherSkin": 3,
+        "RadioactiveBrightcapMushroom": 5
+      }
+    ],
     "sellValue": 23579,
     "factionRep": 236
   },
@@ -252,6 +397,12 @@
       "maxPrice": 8600,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 43000
+      }
+    ],
     "sellValue": 12985,
     "factionRep": 130
   },
@@ -268,6 +419,12 @@
       "maxPrice": 9375,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 75000
+      }
+    ],
     "sellValue": 22553,
     "factionRep": 226
   },
@@ -284,6 +441,12 @@
       "maxPrice": 12800,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 128000
+      }
+    ],
     "sellValue": 38444,
     "factionRep": 384
   }

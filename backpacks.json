@@ -11,6 +11,7 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [],
     "sellValue": 180,
     "factionRep": 2
   },
@@ -26,6 +27,24 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 600
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 600
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 600
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 600
+      }
+    ],
     "sellValue": 180,
     "factionRep": 2
   },
@@ -41,6 +60,14 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 2700,
+        "PolymetallicPrefabricate": 2,
+        "PureNickel": 2
+      }
+    ],
     "sellValue": 810,
     "factionRep": 8
   },
@@ -56,6 +83,15 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 6100,
+        "Fabrics": 2,
+        "IvyPlant": 1,
+        "PureNickel": 3
+      }
+    ],
     "sellValue": 1823,
     "factionRep": 18
   },
@@ -71,6 +107,15 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 12000,
+        "SmartMesh": 1,
+        "DesertPlant": 1,
+        "TitanOre": 1
+      }
+    ],
     "sellValue": 3645,
     "factionRep": 36
   },
@@ -86,6 +131,7 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [],
     "sellValue": 6834,
     "factionRep": 68
   },
@@ -101,6 +147,12 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 18000
+      }
+    ],
     "sellValue": 5468,
     "factionRep": 55
   },
@@ -116,6 +168,12 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 32000
+      }
+    ],
     "sellValue": 9568,
     "factionRep": 96
   },
@@ -131,6 +189,12 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 48000
+      }
+    ],
     "sellValue": 14352,
     "factionRep": 144
   }

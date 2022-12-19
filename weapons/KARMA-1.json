@@ -9,6 +9,16 @@
   "factionRep": 3255,
   "faction": "CraftingStation",
   "buyValue": 1085000,
+  "cost": [
+    {
+      "shop": "CraftingStation",
+      "SoftCurrency": 1085000,
+      "Letium": 75,
+      "MeteorCore": 10,
+      "Datapad": 25,
+      "AlphaWardenHeart": 3
+    }
+  ],
   "penetration": 33,
   "directDamage": 75,
   "radialDamage": 0,
