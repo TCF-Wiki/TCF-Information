@@ -1,0 +1,746 @@
+{
+  "Emote_Dance_01": {
+    "ingamename": "Double Pointer",
+    "description": "",
+    "image": "Items_Emote_PointDance_Icon",
+    "shopImage": "",
+    "rarity": "Invalid",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Dance_02": {
+    "ingamename": "Dance!",
+    "description": "",
+    "image": "Items_Emote_Dance02_Icon",
+    "shopImage": "",
+    "rarity": "Invalid",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Dance_03": {
+    "ingamename": "Maracas",
+    "description": "",
+    "image": "Items_Emote_Dance04_Icon",
+    "shopImage": "",
+    "rarity": "Invalid",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Dance_04": {
+    "ingamename": "Focus",
+    "description": "Shop_Emote_Dance_04_OfferDescription",
+    "image": "Items_Emote_Treepose_Icon",
+    "shopImage": "Shop_Treepose",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Dance_05": {
+    "ingamename": "Showoff",
+    "description": "Shop_Emote_Dance_05_OfferDescription",
+    "image": "Items_Emote_Flip_Icon",
+    "shopImage": "Shop_Flip",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 600,
+    "priceRealMoney": 0
+  },
+  "Emote_Dance_06": {
+    "ingamename": "Kata",
+    "description": "",
+    "image": "Items_Emote_Taichi_Icon",
+    "shopImage": "Shop_TaiChi",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_07": {
+    "ingamename": "Impatient",
+    "description": "",
+    "image": "Items_Emote_Bored_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_08": {
+    "ingamename": "Curtain Call",
+    "description": "Shop_Emote_Move_08_OfferDescription",
+    "image": "Items_Emote_Bow_Icon",
+    "shopImage": "Shop_CurtainCall",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_10": {
+    "ingamename": "Challenge",
+    "description": "Shop_Emote_Move_10_OfferDescription",
+    "image": "Items_Emote_Challenge_Icon",
+    "shopImage": "Shop_Challenge",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_11": {
+    "ingamename": "The Threat",
+    "description": "Shop_Emote_Move_11_OfferDescription",
+    "image": "Items_Emote_DeathThreat_Icon",
+    "shopImage": "Shop_Deaththread",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_12": {
+    "ingamename": "The Universe",
+    "description": "Show off what you've got!",
+    "image": "Items_Emote_MrUniverse_Icon",
+    "shopImage": "Shop_TheUniverse",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_13": {
+    "ingamename": "Sound of Fortuna",
+    "description": "Shop_Emote_Move_13_OfferDescription",
+    "image": "Items_Emote_SoundOfFortuna_Icon",
+    "shopImage": "Shop_SoundsOfFortuna",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_14": {
+    "ingamename": "Rope Arms",
+    "description": "",
+    "image": "Items_Emote_WavyArms_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_15": {
+    "ingamename": "The Champ",
+    "description": "Shop_Emote_Move_15_OfferDescription",
+    "image": "Items_Emote_Celebrate_Icon",
+    "shopImage": "Shop_TheChamp",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_16": {
+    "ingamename": "Battlecry",
+    "description": "Shop_Emote_Move_16_OfferDescription",
+    "image": "Items_Emote_ChestPound_Icon",
+    "shopImage": "Shop_ChestPound",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_17": {
+    "ingamename": "Shootist",
+    "description": "Shop_Emote_Move_17_OfferDescription",
+    "image": "Items_Emote_GunSlinger_Icon",
+    "shopImage": "Shop_Gunslinger",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_18": {
+    "ingamename": "Do the Robot",
+    "description": "Shop_Emote_Move_18_OfferDescription",
+    "image": "Items_Emote_MrRoboto_Icon",
+    "shopImage": "Shop_MrRoboto",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Dance_19": {
+    "ingamename": "Rodeo",
+    "description": "",
+    "image": "Items_Emote_RodeoDance_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_20": {
+    "ingamename": "Invisible Lasso",
+    "description": "",
+    "image": "Items_Emote_Lasso_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_21": {
+    "ingamename": "Valiant Effort",
+    "description": "Shop_Emote_Move_21_OfferDescription",
+    "image": "Items_Emote_ValiantEffort_Icon",
+    "shopImage": "Shop_ValiantEffort",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_01": {
+    "ingamename": "Come at me!",
+    "description": "Shop_Season02_Emote_01_OfferDescription",
+    "image": "Items_Emote_Icon_DeathThreat_03",
+    "shopImage": "Shop_Deaththread03",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_02": {
+    "ingamename": "Crazy Dance",
+    "description": "",
+    "image": "Items_Emote_Icon_GoCrazyDance",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_03": {
+    "ingamename": "I can't hear you!",
+    "description": "",
+    "image": "Items_Emote_Icon_MakeSomeNoise",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_04": {
+    "ingamename": "Mating ritual",
+    "description": "",
+    "image": "Items_Emote_Icon_MidRythmDance",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_05": {
+    "ingamename": "Feeling the music",
+    "description": "Shop_Season02_Emote_05_OfferDescription",
+    "image": "Items_Emote_Icon_PartyDance",
+    "shopImage": "Shop_PartyDance",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 600,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_06": {
+    "ingamename": "Backup dance",
+    "description": "",
+    "image": "Items_Emote_Icon_PumpItUp",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_07": {
+    "ingamename": "Longbow pull",
+    "description": "Shop_Season02_Emote_07_OfferDescription",
+    "image": "Items_Emote_Icon_ShootBowDance",
+    "shopImage": "Shop_LongbowPull",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_08": {
+    "ingamename": "Brush off",
+    "description": "",
+    "image": "Items_Emote_ShoulderBrushOff_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_09": {
+    "ingamename": "Pirouette",
+    "description": "",
+    "image": "Items_Emote_SpinDance_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_10": {
+    "ingamename": "The groovy, wild swing",
+    "description": "Shop_Season02_Emote_10_OfferDescription",
+    "image": "Items_Emote_Icon_SwingDance",
+    "shopImage": "Shop_SwingDance",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_11": {
+    "ingamename": "Limber up",
+    "description": "Shop_Season02_Emote_11_OfferDescription",
+    "image": "Items_EmoteWarmUp_Icon",
+    "shopImage": "Shop_WarmUp",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_12": {
+    "ingamename": "Yes!",
+    "description": "Shop_Season02_Emote_12_OfferDescription",
+    "image": "Items_Emote_Yes_Icon",
+    "shopImage": "Shop_Yes",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Season2_13": {
+    "ingamename": "Shadow Boxing",
+    "description": "Shop_Season02_Emote_13_OfferDescription",
+    "image": "Items_Emote_ShadowBoxing_Icon",
+    "shopImage": "Shop_ShadowBoxing",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 600,
+    "priceRealMoney": 0
+  },
+  "Emote_Valentine1_01": {
+    "ingamename": "Crushin'",
+    "description": "",
+    "image": "Items_EmoteInLove_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Valentine1_02": {
+    "ingamename": "Playing with your Heart",
+    "description": "",
+    "image": "Items_EmoteBlowKiss_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Valentine1_02b": {
+    "ingamename": "Playing with your Heart (Broken)",
+    "description": "",
+    "image": "Items_EmoteBlowKiss_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Valentine1_03": {
+    "ingamename": "Lovesick",
+    "description": "",
+    "image": "Items_EmoteLoveSick_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season3_01": {
+    "ingamename": "The Squat",
+    "description": "Ready to start some trouble",
+    "image": "Items_Emote_SquatSitting_Icon",
+    "shopImage": "Shop_SquatSitting",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Season3_02": {
+    "ingamename": "Hat Tip",
+    "description": "A classic sign of respect",
+    "image": "Items_Emote_HatTip_Icon",
+    "shopImage": "Shop_Hattip",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Season3_03": {
+    "ingamename": "A one and a two",
+    "description": "",
+    "image": "Items_Emote_StepDance_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_season_03_Shop_SpinElaborate_JacksonPop": {
+    "ingamename": "Fever Dance",
+    "description": "",
+    "image": "Items_Emote_Icon_SlowRythmDance",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season_04_FacePalm": {
+    "ingamename": "The Facepalm",
+    "description": "",
+    "image": "Items_Emote_FacePalm_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Season_04_RideTheBull": {
+    "ingamename": "Ride the Bull!",
+    "description": "",
+    "image": "Items_Emote_RideTheBull_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_SoundOfFortuna_VFX": {
+    "ingamename": "Sound of Fortuna",
+    "description": "The magic is all around us!",
+    "image": "Items_Emote_SoundOfFortuna_Icon",
+    "shopImage": "Shop_SoundsOfFortunaFlas",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 600,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_Gunslinger_VFX": {
+    "ingamename": "Flashy Shootist",
+    "description": "Should have smiled!",
+    "image": "Items_Emote_GunSlinger_Icon",
+    "shopImage": "Shop_GunslingerFlash",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 600,
+    "priceRealMoney": 0
+  },
+  "Emote_Move_Celebration_VFX": {
+    "ingamename": "Confetti Celebration",
+    "description": "Make every day a party!",
+    "image": "Items_Emote_Celebrate_Icon",
+    "shopImage": "Shop_TheChampFlash",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 600,
+    "priceRealMoney": 0
+  },
+  "Emote_Clap_01": {
+    "ingamename": "A good clap",
+    "description": "",
+    "image": "Items_Emote_Clap_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Emote_DropToKnees_01": {
+    "ingamename": "Scream to the heavens",
+    "description": "For when your old friend leaves you to die.",
+    "image": "Items_Emote_KneeDrop_Icon",
+    "shopImage": "Shop_Kneedrop",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Chill_01": {
+    "ingamename": "Just chill",
+    "description": "Take a moment to think about stuff and things.",
+    "image": "Items_Emote_Chill",
+    "shopImage": "Shop_Chill",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Facepalm_01": {
+    "ingamename": "Face Palm",
+    "description": "Sometimes there are no words.",
+    "image": "Items_Emote_Facepalm2_Icon",
+    "shopImage": "Shop_Facepalm2",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Shrug_01": {
+    "ingamename": "What just happened?",
+    "description": "Confused? Surprised? Unable to articulate words? We've got you covered!",
+    "image": "Items_Emote_Shrug",
+    "shopImage": "Shop_Shrug",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Praise_01": {
+    "ingamename": "2A5AF7A54FD7C625ABA6C291DBF9CD9E",
+    "description": "Hey, sometimes you've really got to celebrate others!",
+    "image": "Items_Emote_Celebrate2_Icon",
+    "shopImage": "Shop_Celebrate2",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Shadowboxing_01": {
+    "ingamename": "Pugilist",
+    "description": "Give 'em a good shiner!",
+    "image": "Items_Emote_ShadowBoxing2_Icon",
+    "shopImage": "Shop_ShadowBoxing2",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 600,
+    "priceRealMoney": 0
+  },
+  "Emote_Celebration_01": {
+    "ingamename": "Triumph!",
+    "description": "True Victory!",
+    "image": "Items_Emote_Celebrate2_Icon",
+    "shopImage": "Shop_Celebrate2",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Gladiator_ThumbsUp_01": {
+    "ingamename": "Thumbs Up",
+    "description": "Deemed worthy.",
+    "image": "Items_Emote_GladiatorThumbUp_Icon",
+    "shopImage": "Shop_ThumbsUp",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Gladiator_ThumbsDown_01": {
+    "ingamename": "Thumbs Down",
+    "description": "UNWORTHY!",
+    "image": "Items_Emote_GladiatorThumbDown_Icon",
+    "shopImage": "Shop_ThumbsDown",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Taichi_01": {
+    "ingamename": "Tranquility",
+    "description": "Victory through harmony.",
+    "image": "Items_Emote_Taichi_Icon",
+    "shopImage": "Shop_TaiChi",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Celebration_02": {
+    "ingamename": "Rejoice!",
+    "description": "Time to celebrate!",
+    "image": "Items_Emote_Celebrate2_Icon",
+    "shopImage": "Shop_Celebrate2",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_WatchingYou_01": {
+    "ingamename": "Like a hawk",
+    "description": "I've got my eyes on you...",
+    "image": "Items_Emote_WatchingYou_Icon",
+    "shopImage": "Shop_WatchingYou",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "Emote_Point&Laugh_01": {
+    "ingamename": "A good laugh",
+    "description": "Yeah, we all saw that.",
+    "image": "Items_Emote_PointLaugh_Icon",
+    "shopImage": "Shop_PointLaugh",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 500,
+    "priceRealMoney": 0
+  },
+  "3P_Emote_I_Surrender_01": {
+    "ingamename": "Hands up!",
+    "description": "",
+    "image": "Items_Emote_Surrender_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "3P_Emote_Shoo_Away_Insects_01": {
+    "ingamename": "Shoo!",
+    "description": "Darn pests...",
+    "image": "Items_Emote_ShooInsects_Icon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.NormalEmote"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  }
+}

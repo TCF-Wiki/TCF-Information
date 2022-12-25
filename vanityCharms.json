@@ -1,0 +1,842 @@
+{
+  "DefaultWeaponCharm": {
+    "ingamename": "Shop_Default_Charm",
+    "description": "",
+    "image": "Vanity_Charm_NoCharm",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Charm_Spoon": {
+    "ingamename": "Teaspoon",
+    "description": "",
+    "image": "Vanity_Charm_Spoon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Spoon_Golden": {
+    "ingamename": "Golden Teaspoon",
+    "description": "",
+    "image": "Vanity_Charm_SpoonGolden",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_SniperEye": {
+    "ingamename": "Sniper Sight",
+    "description": "Never Blink!",
+    "image": "Vanity_Charm_SniperEye",
+    "shopImage": "Shop_CharmSniperEye",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Velecite": {
+    "ingamename": "Veltecite Shard",
+    "description": "A memento from the surface.\r\n\r\nDon't worry about the tingling sensation in your fingers...",
+    "image": "Vanity_Charm_Veltecite",
+    "shopImage": "Shop_CharmVelteciteShard",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_LeafmanDoll": {
+    "ingamename": "Leafman",
+    "description": "No animals were harmed in the making of this product. Probably.",
+    "image": "Vanity_Charm_Leafman",
+    "shopImage": "Shop_CharmLeafman",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_LeafmanDollGold": {
+    "ingamename": "Golden Leafman",
+    "description": "",
+    "image": "Vanity_Charm_LeafmanGold",
+    "shopImage": "Shop_CharmLeafmanGold",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_BruteDoll": {
+    "ingamename": "Brute",
+    "description": "",
+    "image": "Vanity_Charm_Brute",
+    "shopImage": "",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_AlphaWardenDoll": {
+    "ingamename": "Alpha Warden",
+    "description": "",
+    "image": "Vanity_Charm_AlphaWarden",
+    "shopImage": "",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Teabag": {
+    "ingamename": "Teabag",
+    "description": "For the distinguished gentle-prospectors",
+    "image": "Vanity_Charm_Teabag",
+    "shopImage": "Shop_CharmTeabag",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Peace": {
+    "ingamename": "Peace & Love",
+    "description": "Listen, it might seem counter-intuitive, but there's going to be a lot of \"peace\" once we're finished here.",
+    "image": "Vanity_Charm_Peace",
+    "shopImage": "Shop_CharmPeace",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Mail": {
+    "ingamename": "Courier",
+    "description": "A little adornment for handing out \"special deliveries\".",
+    "image": "Vanity_Charm_PostOffice",
+    "shopImage": "Shop_CharmMail",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Heart01": {
+    "ingamename": "Split Heart - Left",
+    "description": "Missing what truly matters",
+    "image": "Vanity_Charm_Heart01",
+    "shopImage": "Shop_CharmHeart01",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Heart02": {
+    "ingamename": "Split Heart - Right",
+    "description": "It was meant to be forever",
+    "image": "Vanity_Charm_Heart02",
+    "shopImage": "Shop_CharmHeart02",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Heart_Blitz": {
+    "ingamename": "Shattered Heart - Blitz",
+    "description": "",
+    "image": "Vanity_Charm_Heart02_Blitz",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Charm_Heart_Baron": {
+    "ingamename": "Shattered Heart - Baron",
+    "description": "",
+    "image": "Vanity_Charm_Heart01_Baron",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Charm_Heart_Hanno": {
+    "ingamename": "Broken Heart - HandOfBlood",
+    "description": "",
+    "image": "Vanity_Charm_Heart02_Hanno",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Charm_Heart_Kalle": {
+    "ingamename": "Broken Heart - Kalle",
+    "description": "",
+    "image": "Vanity_Charm_Heart01_Kalle",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 0,
+    "priceRealMoney": 0
+  },
+  "Charm_Melon01": {
+    "ingamename": "Delicious Fruit",
+    "description": "",
+    "image": "Vanity_Charm_Melon",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_RavenSword01": {
+    "ingamename": "Corvus Blade",
+    "description": "",
+    "image": "Vanity_Charm_RavenSword",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Rat01": {
+    "ingamename": "The Rat",
+    "description": "",
+    "image": "Vanity_Charm_Rat",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_GunTurret01": {
+    "ingamename": "Turret",
+    "description": "",
+    "image": "Vanity_Charm_GunTurret",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_TinyTrap01": {
+    "ingamename": "Steel Jaws",
+    "description": "Shop_Season03_Shop_Charm_PoacherTrap_OfferDescription",
+    "image": "Vanity_Charm_TinyTrap",
+    "shopImage": "Shop_CharmSteelJaws",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Drone01": {
+    "ingamename": "Osiris Drone",
+    "description": "Shop_Season03_Shop_Charm_Drone_OfferDescription",
+    "image": "Vanity_Charm_Drone",
+    "shopImage": "Shop_CharmDrone",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Streamer01": {
+    "ingamename": "Prime Time",
+    "description": "Time to shine!",
+    "image": "Vanity_Charm_Streamer01",
+    "shopImage": "Shop_CharmStreamer",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Ronin01": {
+    "ingamename": "Ronin",
+    "description": "Everyone deserves a guardian like this!",
+    "image": "Vanity_Charm_Ronin01",
+    "shopImage": "Shop_CharmRonin",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Valve01": {
+    "ingamename": "Red Valve",
+    "description": "",
+    "image": "Items_Icon_Missing_256",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_GamescomShirt2020_01": {
+    "ingamename": "The Cycle Shirt",
+    "description": "",
+    "image": "Vanity_Charm_Gamescom01",
+    "shopImage": "",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Pumpkin01": {
+    "ingamename": "Jack o'lantern",
+    "description": "Shop_Charm_Halloween_Pumpkin_OfferDescription",
+    "image": "Vanity_Charm_HalloweenPumpkin",
+    "shopImage": "Shop_CharmPumpkin",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Zeal01_Orange": {
+    "ingamename": "King of the Zeal - Orange",
+    "description": "",
+    "image": "Vanity_Charm_Zeal",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Zeal02_Red": {
+    "ingamename": "King of the Zeal - Red",
+    "description": "",
+    "image": "Vanity_Charm_Zeal02",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Zeal03_Yellow": {
+    "ingamename": "King of the Zeal - Yellow",
+    "description": "",
+    "image": "Vanity_Charm_Zeal3",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Zeal04_Green": {
+    "ingamename": "King of the Zeal - Green",
+    "description": "",
+    "image": "Vanity_Charm_Zeal04",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Zeal05_Blue": {
+    "ingamename": "King of the Zeal - Blue",
+    "description": "",
+    "image": "Vanity_Charm_Zeal05",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Zeal06_Purple": {
+    "ingamename": "King of the Zeal - Purple",
+    "description": "",
+    "image": "Vanity_Charm_Zeal06",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Zeal07_Cursed": {
+    "ingamename": "King of the Zeal - Cursed",
+    "description": "",
+    "image": "Vanity_Charm_Zeal7",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Zeal01": {
+    "ingamename": "Zeal Shard",
+    "description": "",
+    "image": "Vanity_Charm_Zeal",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Xmas2020_StarlightSongDoll01": {
+    "ingamename": "Starlight Song Spaceman",
+    "description": "He brings gifts to all!",
+    "image": "Art_CraftingMaterials_StarlightSongDoll",
+    "shopImage": "Shop_CharmStarlightSongDoll01",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_AlienFang01": {
+    "ingamename": "Alien Fang",
+    "description": "Straight from the marauder's mouth",
+    "image": "Vanity_Charm_AlienFang",
+    "shopImage": "Shop_CharmAlienFang",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_CarTag01": {
+    "ingamename": "PWND",
+    "description": "The Fortuna III Experience",
+    "image": "Vanity_Charm_PWND",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_MarshallBadge01": {
+    "ingamename": "Marshal Badge",
+    "description": "Taking the law into your own hands",
+    "image": "Vanity_Charm_MarshalBadge",
+    "shopImage": "Shop_CharmMarshalBadge",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_MarshallHandcuffs01": {
+    "ingamename": "Marshal Cuffs",
+    "description": "For their own safety.",
+    "image": "Vanity_Charm_MarshalCuff",
+    "shopImage": "Shop_CharmMarshalCuff",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_YagerMug01": {
+    "ingamename": "YAGER Mug",
+    "description": "Have a nice cup of joe.",
+    "image": "Vanity_Charm_YagerMug",
+    "shopImage": "Shop_CharmYagerMug",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_TwitchIcon01": {
+    "ingamename": "Streamer",
+    "description": "This one's for chat!",
+    "image": "Vanity_Charm_TwitchStream",
+    "shopImage": "",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Rattler01": {
+    "ingamename": "Rattler Grub",
+    "description": "Aww, it's almost cute! Almost.",
+    "image": "Vanity_Charm_Rattler",
+    "shopImage": "Shop_CharmRattler",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Strider01": {
+    "ingamename": "Baby Strider",
+    "description": "They grow up so fast.",
+    "image": "Vanity_Charm_BabyStrider",
+    "shopImage": "Shop_CharmBabyStrider",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Weremole01": {
+    "ingamename": "Lil' Jeff",
+    "description": "He's friendly, trust me.",
+    "image": "Vanity_Charm_WeremoleJeff",
+    "shopImage": "Shop_CharmWeremoleJeff",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_VeteranExplorer01": {
+    "ingamename": "Lil' Archaeologist Pal",
+    "description": "",
+    "image": "Vanity_Charm_Explorer",
+    "shopImage": "",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_ForgeOreIngot01": {
+    "ingamename": "Tharis Ingot",
+    "description": "(not real Tharis Iron)",
+    "image": "Vanity_Charm_AlienForgeIronIngot",
+    "shopImage": "Shop_Placeholder",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_KeyCard01": {
+    "ingamename": "Spare Keycard",
+    "description": "",
+    "image": "Vanity_Charm_KeyCardOsiris",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_OsirisOwl01": {
+    "ingamename": "Harbinger Expeditionary Corps",
+    "description": "",
+    "image": "Vanity_Charm_OsirisOwl",
+    "shopImage": "",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_MeteorShard01": {
+    "ingamename": "Meteor Shard",
+    "description": "More dangerous than your gun!",
+    "image": "Vanity_Charm_MeteorShard",
+    "shopImage": "Shop_CharmMeteorShard",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_VeteranExplorerArtifact01": {
+    "ingamename": "The Mystery",
+    "description": "It gives us Purpose",
+    "image": "Vanity_Charm_VeteranExplorerArtifact",
+    "shopImage": "Shop_CharmVeteranExplorerArtifact",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_ShockWarning01": {
+    "ingamename": "Risk of Shock!",
+    "description": "Might be too small for your targets to see... Oh well!",
+    "image": "Vanity_Charm_ShockWarning01",
+    "shopImage": "Shop_Charm_ShockWarning",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_BountyHunterSkull01": {
+    "ingamename": "Tiny Trophy",
+    "description": "The Hunter's First Kill",
+    "image": "Vanity_Charm_BountyHunterSkull",
+    "shopImage": "Shop_CharmBountyHunterSkull",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_ArcheologistHelmet01": {
+    "ingamename": "Explorer's Helmet",
+    "description": "Not to scale",
+    "image": "Vanity_Charm_ArcheologistHelmet",
+    "shopImage": "Shop_CharmArcheologistHelmet",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_BabyBertha01": {
+    "ingamename": "Chibi Crusher",
+    "description": "Still not cute",
+    "image": "Vanity_Charm_BabyBertha",
+    "shopImage": "Shop_CharmBabyBertha",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Pickaxe01": {
+    "ingamename": "Pickaxe",
+    "description": "For the delicate minerals",
+    "image": "Vanity_Charm_Pickaxe",
+    "shopImage": "Shop_CharmPickaxe",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_VelteciteCube01": {
+    "ingamename": "Encased Veltecite",
+    "description": "Pure Power",
+    "image": "Vanity_Charm_VelteciteCube",
+    "shopImage": "Shop_CharmVelteciteCube",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_VelteciteSample01": {
+    "ingamename": "Veltecite Sample",
+    "description": "For good Fortune",
+    "image": "Vanity_Charm_VelteciteSample",
+    "shopImage": "Shop_CharmVelteciteSample",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_WrestlingMask01": {
+    "ingamename": "Luchador",
+    "description": "Full of fight!",
+    "image": "Vanity_Charm_WrestlingMask",
+    "shopImage": "Shop_CharmWrestlingMask",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_BanHammer01": {
+    "ingamename": "The Ban Hammer",
+    "description": "Looks like someone needs a time-out!",
+    "image": "Items_Icon_Missing_256",
+    "shopImage": "Shop_Placeholder",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_DarkMask01": {
+    "ingamename": "Occult Mask",
+    "description": "Origins Unknown",
+    "image": "Items_Icon_Missing_256",
+    "shopImage": "Shop_Placeholder",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_FortunaMarble01": {
+    "ingamename": "Fortuna Marble",
+    "description": "Made from the Brightest Sands",
+    "image": "Items_Icon_Missing_256",
+    "shopImage": "Shop_Placeholder",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Seven01": {
+    "ingamename": "Sevens",
+    "description": "My lucky number!",
+    "image": "Items_Icon_Missing_256",
+    "shopImage": "Shop_Placeholder",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Carabiner01": {
+    "ingamename": "Carabiner",
+    "description": "Keeps things fastened",
+    "image": "Items_Icon_Missing_256",
+    "shopImage": "Shop_Placeholder",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_BountyHunterEye01": {
+    "ingamename": "Seeker Droid",
+    "description": "Keeps an eye on your targets",
+    "image": "Items_Icon_Missing_256",
+    "shopImage": "Shop_Placeholder",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Present01": {
+    "ingamename": "Winter Gift",
+    "description": "So neatly wrapped!",
+    "image": "Vanity_Charm_Present01",
+    "shopImage": "Shop_CharmPresentt01",
+    "rarity": "Common",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 425,
+    "priceRealMoney": 0
+  },
+  "Charm_Strider_Gingerbread01": {
+    "ingamename": "Gingerbread Strider",
+    "description": "Careful, he bites back!",
+    "image": "Vanity_Charm_Strider_Gingerrbread01",
+    "shopImage": "Shop_CharmStrider_Gingerbread01",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  },
+  "Charm_Rattler_Gingerbread01": {
+    "ingamename": "Gingerbread Rattler",
+    "description": "Sweet with a bit of spice!",
+    "image": "Vanity_Charm_Rattler_Gingerbread01",
+    "shopImage": "Shop_CharmRattler_Gingerbread01",
+    "rarity": "Uncommon",
+    "tags": [
+      "Vanity.Type.WeaponCharm"
+    ],
+    "priceHardCurrency": 575,
+    "priceRealMoney": 0
+  }
+}
