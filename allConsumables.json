@@ -10,7 +10,7 @@
     "factionRep": 0,
     "attribute": "CurrentHealth",
     "modifierType": "Additive",
-    "value": 15,
+    "value": 20,
     "duration": 0
   },
   "Consumable_Health_02": {
@@ -33,7 +33,7 @@
       "Equipment.Consumables.Healing"
     ],
     "stackSize": 2,
-    "weight": 20,
+    "weight": 15,
     "sellValue": 135,
     "factionRep": 1,
     "attribute": "CurrentHealth",
@@ -75,7 +75,7 @@
       "Equipment.Consumables.Healing"
     ],
     "stackSize": 2,
-    "weight": 10,
+    "weight": 15,
     "sellValue": 1367,
     "factionRep": 14,
     "attribute": "CurrentHealth",
