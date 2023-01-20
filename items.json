@@ -1,279 +1,293 @@
 {
   "CommonVeltecite": {
     "inGameName": "Flawed Veltecite",
+    "type": "material",
     "rarity": "Common",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "UncommonVelticite": {
     "inGameName": "Cloudy Veltecite",
+    "type": "material",
     "rarity": "Uncommon",
-    "tags": [
-      "Loot.Category.Resource"
-    ],
     "weight": 3,
-    "stackSize": 10,
-    "sellValue": 570,
-    "factionRep": 6,
     "cost": [
       {
         "shop": "CraftingStation",
         "SoftCurrency": 1100,
         "CommonVeltecite": 5
       }
-    ]
-  },
-  "RareVeltecite": {
-    "inGameName": "Clear Veltecite",
-    "rarity": "Rare",
+    ],
+    "sellValue": 570,
+    "factionRep": 6,
     "tags": [
       "Loot.Category.Resource"
     ],
+    "stackSize": 10
+  },
+  "RareVeltecite": {
+    "inGameName": "Clear Veltecite",
+    "type": "material",
+    "rarity": "Rare",
     "weight": 3,
-    "stackSize": 10,
-    "sellValue": 855,
-    "factionRep": 9,
     "cost": [
       {
         "shop": "CraftingStation",
         "SoftCurrency": 1700,
         "UncommonVelticite": 5
       }
-    ]
-  },
-  "EpicVeltecite": {
-    "inGameName": "Pure Veltecite",
-    "rarity": "Epic",
+    ],
+    "sellValue": 855,
+    "factionRep": 9,
     "tags": [
       "Loot.Category.Resource"
     ],
+    "stackSize": 10
+  },
+  "EpicVeltecite": {
+    "inGameName": "Pure Veltecite",
+    "type": "material",
+    "rarity": "Epic",
     "weight": 3,
-    "stackSize": 10,
-    "sellValue": 1922,
-    "factionRep": 19,
     "cost": [
       {
         "shop": "CraftingStation",
         "SoftCurrency": 3800,
         "RareVeltecite": 5
       }
-    ]
+    ],
+    "sellValue": 1922,
+    "factionRep": 19,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 10
   },
   "VelteciteHeart": {
     "inGameName": "Veltecite Heart",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 6488,
+    "factionRep": 65,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 10,
-    "stackSize": 3,
-    "sellValue": 6488,
-    "factionRep": 65,
-    "cost": []
+    "stackSize": 3
   },
   "FocusCrystal": {
     "inGameName": "Focus Crystal",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 961,
+    "factionRep": 10,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 4,
-    "stackSize": 10,
-    "sellValue": 961,
-    "factionRep": 10,
-    "cost": []
+    "stackSize": 10
   },
   "PureFocusCrystal": {
     "inGameName": "Pure Focus Crystal",
+    "type": "material",
     "rarity": "Epic",
-    "tags": [
-      "Loot.Category.Resource"
-    ],
     "weight": 4,
-    "stackSize": 10,
-    "sellValue": 2884,
-    "factionRep": 29,
     "cost": [
       {
         "shop": "CraftingStation",
         "SoftCurrency": 5800,
         "FocusCrystal": 9
       }
-    ]
+    ],
+    "sellValue": 2884,
+    "factionRep": 29,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 10
   },
   "Nickel": {
     "inGameName": "Nickel",
+    "type": "material",
     "rarity": "Common",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 2,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "PureNickel": {
     "inGameName": "Altered Nickel",
+    "type": "material",
     "rarity": "Uncommon",
-    "tags": [
-      "Loot.Category.Resource"
-    ],
     "weight": 2,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
     "cost": [
       {
         "shop": "CraftingStation",
         "SoftCurrency": 680,
         "Nickel": 5
       }
-    ]
+    ],
+    "sellValue": 338,
+    "factionRep": 3,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 10
   },
   "PolariumCrystal": {
     "inGameName": "Polirium Crystal",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 8,
+    "cost": [],
+    "sellValue": 38924,
+    "factionRep": 389,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 8,
-    "stackSize": 5,
-    "sellValue": 38924,
-    "factionRep": 389,
-    "cost": []
+    "stackSize": 5
   },
   "BrittleTitanOre": {
     "inGameName": "Brittle Titan Ore",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 570,
+    "factionRep": 6,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 570,
-    "factionRep": 6,
-    "cost": []
+    "stackSize": 10
   },
   "TitanOre": {
     "inGameName": "Titan Ore",
+    "type": "material",
     "rarity": "Rare",
-    "tags": [
-      "Loot.Category.Resource"
-    ],
     "weight": 3,
-    "stackSize": 10,
-    "sellValue": 855,
-    "factionRep": 9,
     "cost": [
       {
         "shop": "CraftingStation",
         "SoftCurrency": 1700,
         "BrittleTitanOre": 6
       }
-    ]
+    ],
+    "sellValue": 855,
+    "factionRep": 9,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 10
   },
   "BrightcapMushroom": {
     "inGameName": "Brightcap Mushroom",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 169,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Flora"
     ],
-    "weight": 2,
-    "stackSize": 10,
-    "sellValue": 169,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "MeteorCore": {
     "inGameName": "Meteor Core",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 25,
+    "cost": [],
+    "sellValue": 7594,
+    "factionRep": 76,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 25,
-    "stackSize": 3,
-    "sellValue": 7594,
-    "factionRep": 76,
-    "cost": []
+    "stackSize": 3
   },
   "MeteorFragment": {
     "inGameName": "Meteor Fragment",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 1013,
+    "factionRep": 10,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 1013,
-    "factionRep": 10,
-    "cost": []
+    "stackSize": 10
   },
   "BlueRunnerEgg": {
     "inGameName": "Blue Runner Egg",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 7,
+    "cost": [],
+    "sellValue": 2532,
+    "factionRep": 25,
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "weight": 7,
-    "stackSize": 10,
-    "sellValue": 2532,
-    "factionRep": 25,
-    "cost": []
+    "stackSize": 10
   },
   "Alloys": {
     "inGameName": "Metallic Alloys",
+    "type": "material",
     "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Construction",
       "Loot.Category.Mechanical"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "SpareCasing": {
     "inGameName": "Hardened Metals",
+    "type": "material",
     "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Generic"
     ],
-    "weight": 4,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "OpticGlass": {
     "inGameName": "Optic Glass",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Scientific"
     ],
-    "weight": 4,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "DerelictExplosives": {
     "inGameName": "Derelict Explosives",
+    "type": "material",
     "rarity": "Uncommon",
-    "tags": [
-      "Loot.Category.Construction"
-    ],
     "weight": 5,
-    "stackSize": 10,
-    "sellValue": 1709,
-    "factionRep": 17,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -282,79 +296,85 @@
         "MeteorFragment": 1,
         "RadioSpareParts": 3
       }
-    ]
+    ],
+    "sellValue": 1709,
+    "factionRep": 17,
+    "tags": [
+      "Loot.Category.Construction"
+    ],
+    "stackSize": 10
   },
   "PolymetallicPrefabricate": {
     "inGameName": "Polymetallic Prefabricate",
+    "type": "material",
     "rarity": "Common",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Scientific"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "CompoundSheets": {
     "inGameName": "Compound Sheets",
+    "type": "material",
     "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Generic"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "HydraulicPiston": {
     "inGameName": "Hydraulic Piston",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Mechanical"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "Gyroscope": {
     "inGameName": "Gyroscope",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2563,
+    "factionRep": 26,
     "tags": [
       "Loot.Category.Scientific"
     ],
-    "weight": 4,
-    "stackSize": 10,
-    "sellValue": 2563,
-    "factionRep": 26,
-    "cost": []
+    "stackSize": 10
   },
   "BallBearings": {
     "inGameName": "Ball Bearings",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Mechanical",
       "Loot.Category.Construction"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "PrintResin": {
     "inGameName": "Print Resin",
+    "type": "material",
     "rarity": "Uncommon",
-    "tags": [
-      "Loot.Category.Generic"
-    ],
     "weight": 3,
-    "stackSize": 10,
-    "sellValue": 1709,
-    "factionRep": 17,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -362,56 +382,60 @@
         "IvyPlant": 3,
         "SmartMesh": 1
       }
-    ]
+    ],
+    "sellValue": 1709,
+    "factionRep": 17,
+    "tags": [
+      "Loot.Category.Generic"
+    ],
+    "stackSize": 10
   },
   "MultiTool": {
     "inGameName": "Salvaged Co-TEC MultiTool",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 1139,
+    "factionRep": 11,
     "tags": [
       "Loot.Category.Mechanical"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 1139,
-    "factionRep": 11,
-    "cost": []
+    "stackSize": 10
   },
   "ShardSlicer": {
     "inGameName": "Shard Slicer",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 1709,
+    "factionRep": 17,
     "tags": [
       "Loot.Category.Housing",
       "Loot.Category.Farming"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 1709,
-    "factionRep": 17,
-    "cost": []
+    "stackSize": 10
   },
   "CombatCPU_Blue": {
     "inGameName": "Zero Systems CPU",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 507,
+    "factionRep": 5,
     "tags": [
       "Loot.Category.Electronic",
       "Loot.Category.Scientific"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 507,
-    "factionRep": 5,
-    "cost": []
+    "stackSize": 10
   },
   "CombatCPU_red": {
     "inGameName": "Master Unit CPU",
+    "type": "material",
     "rarity": "Epic",
-    "tags": [
-      "Loot.Category.Valuable"
-    ],
     "weight": 5,
-    "stackSize": 10,
-    "sellValue": 3845,
-    "factionRep": 38,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -420,42 +444,45 @@
         "MiniatureReactor": 1,
         "MultiTool": 2
       }
-    ]
-  },
-  "MiniatureReactor": {
-    "inGameName": "Miniature Reactor",
-    "rarity": "Rare",
+    ],
+    "sellValue": 3845,
+    "factionRep": 38,
     "tags": [
       "Loot.Category.Valuable"
     ],
+    "stackSize": 10
+  },
+  "MiniatureReactor": {
+    "inGameName": "Miniature Reactor",
+    "type": "material",
+    "rarity": "Rare",
     "weight": 10,
-    "stackSize": 10,
+    "cost": [],
     "sellValue": 2025,
     "factionRep": 20,
-    "cost": []
+    "tags": [
+      "Loot.Category.Valuable"
+    ],
+    "stackSize": 10
   },
   "ShockAbsorber": {
     "inGameName": "Shock Absorber",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 6,
+    "cost": [],
+    "sellValue": 760,
+    "factionRep": 8,
     "tags": [
       "Loot.Category.Construction"
     ],
-    "weight": 6,
-    "stackSize": 10,
-    "sellValue": 760,
-    "factionRep": 8,
-    "cost": []
+    "stackSize": 10
   },
   "AutoLoader": {
     "inGameName": "Autoloader",
+    "type": "material",
     "rarity": "Epic",
-    "tags": [
-      "Loot.Category.Mechanical"
-    ],
     "weight": 6,
-    "stackSize": 10,
-    "sellValue": 3845,
-    "factionRep": 38,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -464,226 +491,243 @@
         "ShockAbsorber": 1,
         "BallBearings": 5
       }
-    ]
+    ],
+    "sellValue": 3845,
+    "factionRep": 38,
+    "tags": [
+      "Loot.Category.Mechanical"
+    ],
+    "stackSize": 10
   },
   "MagneticFieldStabilizer": {
     "inGameName": "Magnetic Field Stabilizer",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 6,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Construction"
     ],
-    "weight": 6,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "Datapad": {
     "inGameName": "Interactive Screen",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 6,
+    "cost": [],
+    "sellValue": 1709,
+    "factionRep": 17,
     "tags": [
       "Loot.Category.Electronic"
     ],
-    "weight": 6,
-    "stackSize": 10,
-    "sellValue": 1709,
-    "factionRep": 17,
-    "cost": []
+    "stackSize": 10
   },
   "OldCurrency": {
     "inGameName": "Old Currency",
+    "type": "material",
     "rarity": "Common",
+    "weight": 0.001,
+    "cost": [],
+    "sellValue": 1,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "weight": 0.001,
-    "stackSize": 10000,
-    "sellValue": 1,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 10000
   },
   "RadioactiveBrightcapMushroom": {
     "inGameName": "Glowy Brightcap Mushroom",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 507,
+    "factionRep": 5,
     "tags": [
       "Loot.Category.Flora"
     ],
-    "weight": 2,
-    "stackSize": 10,
-    "sellValue": 507,
-    "factionRep": 5,
-    "cost": []
+    "stackSize": 10
   },
   "BlueWood": {
     "inGameName": "Azure Tree Bark",
+    "type": "material",
     "rarity": "Common",
+    "weight": 7,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Housing",
       "Loot.Category.Farming"
     ],
-    "weight": 7,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "WaterPlant": {
     "inGameName": "Waterweed Filament",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 228,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Flora"
     ],
-    "weight": 2,
-    "stackSize": 10,
-    "sellValue": 228,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "DesertPlant": {
     "inGameName": "Dustbloom",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 769,
+    "factionRep": 8,
     "tags": [
       "Loot.Category.Flora"
     ],
-    "weight": 2,
-    "stackSize": 10,
-    "sellValue": 769,
-    "factionRep": 8,
-    "cost": []
+    "stackSize": 10
   },
   "IvyPlant": {
     "inGameName": "Pale Ivy Blossom",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 427,
+    "factionRep": 4,
     "tags": [
       "Loot.Category.Flora"
     ],
-    "weight": 1,
-    "stackSize": 10,
-    "sellValue": 427,
-    "factionRep": 4,
-    "cost": []
+    "stackSize": 10
   },
   "AlienFruit": {
     "inGameName": "Indigenous Fruit",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 6,
+    "cost": [],
+    "sellValue": 760,
+    "factionRep": 8,
     "tags": [
       "Loot.Category.Flora"
     ],
-    "weight": 6,
-    "stackSize": 10,
-    "sellValue": 760,
-    "factionRep": 8,
-    "cost": []
+    "stackSize": 10
   },
   "Fabrics": {
     "inGameName": "Textiles",
+    "type": "material",
     "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Housing"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "Cables": {
     "inGameName": "Electronic Cables",
+    "type": "material",
     "rarity": "Common",
+    "weight": 6,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Electronic",
       "Loot.Category.Scientific"
     ],
-    "weight": 6,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "Insulation": {
     "inGameName": "Salvaged Insulation",
+    "type": "material",
     "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Generic"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "CopperWire": {
     "inGameName": "Copper Wire",
+    "type": "material",
     "rarity": "Common",
+    "weight": 8,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Construction"
     ],
-    "weight": 8,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "SmartMesh": {
     "inGameName": "Smart Mesh",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 1709,
+    "factionRep": 17,
     "tags": [
       "Loot.Category.Mechanical",
       "Loot.Category.Construction"
     ],
-    "weight": 10,
-    "stackSize": 10,
-    "sellValue": 1709,
-    "factionRep": 17,
-    "cost": []
+    "stackSize": 10
   },
   "CircuitBoard": {
     "inGameName": "Circuit Board",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 7,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Electronic"
     ],
-    "weight": 7,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "RadioSpareParts": {
     "inGameName": "Radio Equipment",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 7,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Electronic"
     ],
-    "weight": 7,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "Antibiotics": {
     "inGameName": "Old Medicine",
+    "type": "material",
     "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Medical"
     ],
-    "weight": 1,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "PortableLabEquipmentBox": {
     "inGameName": "Portable Lab",
+    "type": "material",
     "rarity": "Epic",
-    "tags": [
-      "Loot.Category.Scientific",
-      "Loot.Category.Electronic"
-    ],
     "weight": 15,
-    "stackSize": 10,
-    "sellValue": 3845,
-    "factionRep": 38,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -693,585 +737,634 @@
         "Datapad": 2,
         "SamplingDevice": 2
       }
-    ]
+    ],
+    "sellValue": 3845,
+    "factionRep": 38,
+    "tags": [
+      "Loot.Category.Scientific",
+      "Loot.Category.Electronic"
+    ],
+    "stackSize": 10
   },
   "Battery": {
     "inGameName": "Fusion Cartridge Batteries ",
+    "type": "material",
     "rarity": "Common",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 150,
+    "factionRep": 2,
     "tags": [
       "Loot.Category.Housing"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 150,
-    "factionRep": 2,
-    "cost": []
+    "stackSize": 10
   },
   "LiquidFertilizer": {
     "inGameName": "Magic-GROW Fertilizer",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 7,
+    "cost": [],
+    "sellValue": 338,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Farming"
     ],
-    "weight": 7,
-    "stackSize": 10,
-    "sellValue": 338,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "SamplingDevice": {
     "inGameName": "Biological Sampler",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 8,
+    "cost": [],
+    "sellValue": 1139,
+    "factionRep": 11,
     "tags": [
       "Loot.Category.Medical"
     ],
-    "weight": 8,
-    "stackSize": 10,
-    "sellValue": 1139,
-    "factionRep": 11,
-    "cost": []
+    "stackSize": 10
   },
   "AnaestheticsContainers": {
     "inGameName": "Medical Supplies",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 760,
+    "factionRep": 8,
     "tags": [
       "Loot.Category.Medical"
     ],
-    "weight": 10,
-    "stackSize": 10,
-    "sellValue": 760,
-    "factionRep": 8,
-    "cost": []
+    "stackSize": 10
   },
   "ProteinBar": {
     "inGameName": "Nutritional Bar",
+    "type": "material",
     "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 507,
+    "factionRep": 5,
     "tags": [
       "Loot.Category.Farming"
     ],
-    "weight": 1,
-    "stackSize": 10,
-    "sellValue": 507,
-    "factionRep": 5,
-    "cost": []
+    "stackSize": 10
   },
   "Jewellery": {
     "inGameName": "Jewellery",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 1013,
+    "factionRep": 10,
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "weight": 2,
-    "stackSize": 10,
-    "sellValue": 1013,
-    "factionRep": 10,
-    "cost": []
+    "stackSize": 10
   },
   "SampleContainer": {
     "inGameName": "Sample Container",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 507,
+    "factionRep": 5,
     "tags": [
       "Loot.Category.Housing",
       "Loot.Category.Farming"
     ],
-    "weight": 10,
-    "stackSize": 10,
-    "sellValue": 507,
-    "factionRep": 5,
-    "cost": []
+    "stackSize": 10
   },
   "AluminumParts": {
     "inGameName": "Aluminum scrap",
+    "type": "material",
     "rarity": "Common",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 507,
+    "factionRep": 5,
     "tags": [
       "Loot.Category.Generic"
     ],
-    "weight": 10,
-    "stackSize": 10,
-    "sellValue": 507,
-    "factionRep": 5,
-    "cost": []
+    "stackSize": 10
   },
   "GenericCreatureDrop": {
     "inGameName": "Spinal Base",
+    "type": "material",
     "rarity": "Common",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 300,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 300,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 10
   },
   "StormyCreatureDrop": {
     "inGameName": "Charged Spinal Base",
+    "type": "material",
     "rarity": "Common",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 450,
+    "factionRep": 5,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 450,
-    "factionRep": 5,
-    "cost": []
+    "stackSize": 10
   },
   "NeuroToxicGlands": {
     "inGameName": "Toxic Glands",
+    "type": "material",
     "rarity": "Common",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 900,
+    "factionRep": 9,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 2,
-    "stackSize": 10,
-    "sellValue": 900,
-    "factionRep": 9,
-    "cost": []
+    "stackSize": 10
   },
   "AI_StriderHead": {
     "inGameName": "Strider Head",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 6812,
+    "factionRep": 68,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 10,
-    "stackSize": 5,
-    "sellValue": 6812,
-    "factionRep": 68,
-    "cost": []
+    "stackSize": 5
   },
   "AI_RattlerHead": {
     "inGameName": "Rattler Head",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 15,
+    "cost": [],
+    "sellValue": 15570,
+    "factionRep": 156,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 15,
-    "stackSize": 5,
-    "sellValue": 15570,
-    "factionRep": 156,
-    "cost": []
+    "stackSize": 5
   },
   "AI_WeremoleHead": {
     "inGameName": "Marauder Head",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 38924,
+    "factionRep": 389,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 20,
-    "stackSize": 5,
-    "sellValue": 38924,
-    "factionRep": 389,
-    "cost": []
+    "stackSize": 5
   },
   "AI_CrusherHead": {
     "inGameName": "Crusher Head",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 30,
+    "cost": [],
+    "sellValue": 97310,
+    "factionRep": 973,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 30,
-    "stackSize": 5,
-    "sellValue": 97310,
-    "factionRep": 973,
-    "cost": []
+    "stackSize": 5
   },
   "AlphaCrusherSkull": {
     "inGameName": "Alpha Crusher Skull",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 30,
+    "cost": [],
+    "sellValue": 518986,
+    "factionRep": 5190,
     "tags": [
       "Loot.Category.Creature",
       "Loot.Category.Valuable"
     ],
-    "weight": 30,
-    "stackSize": 1,
-    "sellValue": 518986,
-    "factionRep": 5190,
-    "cost": []
+    "stackSize": 1
   },
   "AI_StriderMeat": {
     "inGameName": "Strider Flesh",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 8,
+    "cost": [],
+    "sellValue": 675,
+    "factionRep": 7,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 8,
-    "stackSize": 10,
-    "sellValue": 675,
-    "factionRep": 7,
-    "cost": []
+    "stackSize": 10
   },
   "AI_RattlerEyes": {
     "inGameName": "Rattler Eyes",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 1519,
+    "factionRep": 15,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 1519,
-    "factionRep": 15,
-    "cost": []
+    "stackSize": 10
   },
   "AI_WeremoleMeat": {
     "inGameName": "Marauder Flesh",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 5126,
+    "factionRep": 51,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 10,
-    "stackSize": 10,
-    "sellValue": 5126,
-    "factionRep": 51,
-    "cost": []
+    "stackSize": 10
   },
   "AI_CrusherMeat": {
     "inGameName": "Crusher Flesh",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 25,
+    "cost": [],
+    "sellValue": 17300,
+    "factionRep": 173,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 25,
-    "stackSize": 10,
-    "sellValue": 17300,
-    "factionRep": 173,
-    "cost": []
+    "stackSize": 10
   },
   "AI_RattlerSkin": {
     "inGameName": "Rattler Skin",
+    "type": "material",
     "rarity": "Common",
+    "weight": 8,
+    "cost": [],
+    "sellValue": 675,
+    "factionRep": 7,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 8,
-    "stackSize": 10,
-    "sellValue": 675,
-    "factionRep": 7,
-    "cost": []
+    "stackSize": 10
   },
   "HardenedBoneAlloy": {
     "inGameName": "Hardened Bone Plates",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 9,
+    "cost": [],
+    "sellValue": 3417,
+    "factionRep": 34,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 9,
-    "stackSize": 10,
-    "sellValue": 3417,
-    "factionRep": 34,
-    "cost": []
+    "stackSize": 10
   },
   "AI_CrusherSkin": {
     "inGameName": "Crusher Hide",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 11533,
+    "factionRep": 115,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 10,
-    "stackSize": 10,
-    "sellValue": 11533,
-    "factionRep": 115,
-    "cost": []
+    "stackSize": 10
   },
   "AlphaWardenHeart": {
     "inGameName": "Alpha Crusher Heart",
+    "type": "material",
     "rarity": "Exotic",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 129747,
+    "factionRep": 1297,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 20,
-    "stackSize": 1,
-    "sellValue": 129747,
-    "factionRep": 1297,
-    "cost": []
+    "stackSize": 1
   },
   "Adhesive": {
     "inGameName": "Resin Gun",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 760,
+    "factionRep": 8,
     "tags": [
       "Loot.Category.Housing",
       "Loot.Category.Farming"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 760,
-    "factionRep": 8,
-    "cost": []
+    "stackSize": 10
   },
   "KorolevScrip": {
     "inGameName": "Korolev Scrip",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 10,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "weight": 0.1,
-    "stackSize": 10000,
-    "sellValue": 10,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 10000
   },
   "OsirisScrip": {
     "inGameName": "Osiris Scrip",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 10,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "weight": 0.1,
-    "stackSize": 10000,
-    "sellValue": 10,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 10000
   },
   "ICAScrip": {
     "inGameName": "ICA Scrip",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 10,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "weight": 0.1,
-    "stackSize": 10000,
-    "sellValue": 10,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 10000
   },
   "Letium": {
     "inGameName": "Letium Clot",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 11533,
+    "factionRep": 115,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 11533,
-    "factionRep": 115,
-    "cost": []
+    "stackSize": 10
   },
   "OilTank": {
     "inGameName": "NiC Oil Cannister",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 20183,
+    "factionRep": 202,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 20183,
-    "factionRep": 202,
-    "cost": []
+    "stackSize": 10
   },
   "AI_StriderMeat_03": {
     "inGameName": "Heavy Strider Flesh",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 8,
+    "cost": [],
+    "sellValue": 5126,
+    "factionRep": 51,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 8,
-    "stackSize": 10,
-    "sellValue": 5126,
-    "factionRep": 51,
-    "cost": []
+    "stackSize": 10
   },
   "AI_RattlerEyes_02": {
     "inGameName": "Mature Rattler Eyes",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 5126,
+    "factionRep": 51,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 5,
-    "stackSize": 10,
-    "sellValue": 5126,
-    "factionRep": 51,
-    "cost": []
+    "stackSize": 10
   },
   "AI_WeremoleMeat_02": {
     "inGameName": "Savage Marauder Flesh",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 11533,
+    "factionRep": 115,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 10,
-    "stackSize": 10,
-    "sellValue": 11533,
-    "factionRep": 115,
-    "cost": []
+    "stackSize": 10
   },
   "AI_StriderHead_03": {
     "inGameName": "Heavy Strider Head",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 52548,
+    "factionRep": 525,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 10,
-    "stackSize": 3,
-    "sellValue": 52548,
-    "factionRep": 525,
-    "cost": []
+    "stackSize": 3
   },
   "AI_RattlerHead_02": {
     "inGameName": "Mature Rattler Head",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 15,
+    "cost": [],
+    "sellValue": 52548,
+    "factionRep": 525,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 15,
-    "stackSize": 3,
-    "sellValue": 52548,
-    "factionRep": 525,
-    "cost": []
+    "stackSize": 3
   },
   "AI_WeremoleHead_02": {
     "inGameName": "Savage Marauder Head",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 116772,
+    "factionRep": 1168,
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 20,
-    "stackSize": 3,
-    "sellValue": 116772,
-    "factionRep": 1168,
-    "cost": []
+    "stackSize": 3
   },
   "ForgeIron": {
     "inGameName": "Tharis Iron",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 1025,
+    "factionRep": 10,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 1025,
-    "factionRep": 10,
-    "cost": []
+    "stackSize": 10
   },
   "PureForgeIron": {
     "inGameName": "Pure Tharis Iron",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 2307,
+    "factionRep": 23,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 2307,
-    "factionRep": 23,
-    "cost": []
+    "stackSize": 10
   },
   "ForgeIronIngot": {
     "inGameName": "Tharis Iron Ingot",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 9,
+    "cost": [],
+    "sellValue": 3845,
+    "factionRep": 38,
     "tags": [
       "Loot.Category.Alien"
     ],
-    "weight": 9,
-    "stackSize": 6,
-    "sellValue": 3845,
-    "factionRep": 38,
-    "cost": []
+    "stackSize": 6
   },
   "ChargedForgeIronIngot": {
     "inGameName": "Charged Tharis Iron Ingot",
+    "type": "material",
     "rarity": "Exotic",
+    "weight": 9,
+    "cost": [],
+    "sellValue": 8650,
+    "factionRep": 87,
     "tags": [
       "Loot.Category.Alien"
     ],
-    "weight": 9,
-    "stackSize": 6,
-    "sellValue": 8650,
-    "factionRep": 87,
-    "cost": []
+    "stackSize": 6
   },
   "SuperChargedForgeIronIngot": {
     "inGameName": "Super Charged Tharis Iron Ingot",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 9,
+    "cost": [],
+    "sellValue": 12975,
+    "factionRep": 130,
     "tags": [
       "Loot.Category.Alien"
     ],
-    "weight": 9,
-    "stackSize": 6,
-    "sellValue": 12975,
-    "factionRep": 130,
-    "cost": []
+    "stackSize": 6
   },
   "GlowingCrystalCoreShard": {
     "inGameName": "Teratomorphic Crystal Core",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 1709,
+    "factionRep": 17,
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
-    "stackSize": 10,
-    "sellValue": 1709,
-    "factionRep": 17,
-    "cost": []
+    "stackSize": 10
   },
   "AF_Slag": {
     "inGameName": "Progenitor Slag",
+    "type": "material",
     "rarity": "Exotic",
+    "weight": 12,
+    "cost": [],
+    "sellValue": 77848,
+    "factionRep": 778,
     "tags": [
       "Loot.Category.Alien"
     ],
-    "weight": 12,
-    "stackSize": 3,
-    "sellValue": 77848,
-    "factionRep": 778,
-    "cost": []
+    "stackSize": 3
   },
   "AF_Token": {
     "inGameName": "Abyss Alloy",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 12975,
+    "factionRep": 130,
     "tags": [
       "Loot.Category.Alien"
     ],
-    "weight": 10,
-    "stackSize": 5,
-    "sellValue": 12975,
-    "factionRep": 130,
-    "cost": []
+    "stackSize": 5
   },
   "TentaclePlant": {
     "inGameName": "Spine Briar",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 7,
+    "cost": [],
+    "sellValue": 2563,
+    "factionRep": 26,
     "tags": [
       "Loot.Category.Flora"
     ],
-    "weight": 7,
-    "stackSize": 10,
-    "sellValue": 2563,
-    "factionRep": 26,
-    "cost": []
+    "stackSize": 10
   },
   "Alien_Scrap": {
     "inGameName": "Progenitor Composite",
+    "type": "material",
     "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 760,
+    "factionRep": 8,
     "tags": [
       "Loot.Category.Alien"
     ],
-    "weight": 4,
-    "stackSize": 10,
-    "sellValue": 760,
-    "factionRep": 8,
-    "cost": []
+    "stackSize": 10
   },
   "QuestItem_AlphaWardenBait": {
     "inGameName": "Alpha Crusher Bait",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 0,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 5,
-    "stackSize": 1,
-    "sellValue": 0,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "QuestItem_LaserDrillBeacon": {
     "inGameName": "Laser Drill Beacon",
+    "type": "material",
     "rarity": "Epic",
-    "tags": [
-      "Loot.Category.Utility"
-    ],
     "weight": 6,
-    "stackSize": 3,
-    "sellValue": 4936,
-    "factionRep": 5,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -1280,95 +1373,102 @@
         "Cables": 18,
         "KorolevScrip": 80
       }
-    ]
+    ],
+    "sellValue": 4936,
+    "factionRep": 5,
+    "tags": [
+      "Loot.Category.Utility"
+    ],
+    "stackSize": 3
   },
   "HardDrive_common": {
     "inGameName": "HardDrive_common",
+    "type": "material",
     "rarity": "Common",
-    "tags": [
-      "Loot.Category.MissionItem"
-    ],
     "weight": 15,
-    "stackSize": 1,
-    "sellValue": 30,
-    "factionRep": 0,
     "cost": [
       {
         "shop": "ICA",
         "SoftCurrency": 300
       }
-    ]
+    ],
+    "sellValue": 30,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1
   },
   "HardDrive_uncommon": {
     "inGameName": "HardDrive_uncommon",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 15,
+    "cost": [],
+    "sellValue": 1013,
+    "factionRep": 1,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 15,
-    "stackSize": 1,
-    "sellValue": 1013,
-    "factionRep": 1,
-    "cost": []
+    "stackSize": 1
   },
   "HardDrive_rare": {
     "inGameName": "HardDrive_rare",
+    "type": "material",
     "rarity": "Rare",
+    "weight": 15,
+    "cost": [],
+    "sellValue": 2531,
+    "factionRep": 3,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 15,
-    "stackSize": 1,
-    "sellValue": 2531,
-    "factionRep": 3,
-    "cost": []
+    "stackSize": 1
   },
   "HardDrive_epic": {
     "inGameName": "HardDrive_epic",
+    "type": "material",
     "rarity": "Epic",
+    "weight": 15,
+    "cost": [],
+    "sellValue": 6075,
+    "factionRep": 6,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 15,
-    "stackSize": 1,
-    "sellValue": 6075,
-    "factionRep": 6,
-    "cost": []
+    "stackSize": 1
   },
   "HardDrive_legendary": {
     "inGameName": "HardDrive_legendary",
+    "type": "material",
     "rarity": "Legendary",
+    "weight": 15,
+    "cost": [],
+    "sellValue": 10252,
+    "factionRep": 10,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 15,
-    "stackSize": 1,
-    "sellValue": 10252,
-    "factionRep": 10,
-    "cost": []
+    "stackSize": 1
   },
   "Data_DigSite": {
     "inGameName": "Data_DigSite",
+    "type": "material",
     "rarity": "Uncommon",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 34,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 10,
-    "stackSize": 1,
-    "sellValue": 34,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "QuestItem_OrbitalCanonTargetBeacon": {
     "inGameName": "QuestItem_OrbitalCanonTargetBeacon",
+    "type": "material",
     "rarity": "Epic",
-    "tags": [
-      "Loot.Category.Utility"
-    ],
     "weight": 6,
-    "stackSize": 3,
-    "sellValue": 4936,
-    "factionRep": 5,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -1378,18 +1478,19 @@
         "HardDrive_legendary": 1,
         "OsirisScrip": 80
       }
-    ]
-  },
-  "QuestItem_OilPumpBeacon": {
-    "inGameName": "Oil Pump Beacon",
-    "rarity": "Epic",
+    ],
+    "sellValue": 4936,
+    "factionRep": 5,
     "tags": [
       "Loot.Category.Utility"
     ],
+    "stackSize": 3
+  },
+  "QuestItem_OilPumpBeacon": {
+    "inGameName": "Oil Pump Beacon",
+    "type": "material",
+    "rarity": "Epic",
     "weight": 6,
-    "stackSize": 3,
-    "sellValue": 4936,
-    "factionRep": 5,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -1398,378 +1499,4145 @@
         "AluminumParts": 12,
         "ICAScrip": 80
       }
-    ]
+    ],
+    "sellValue": 4936,
+    "factionRep": 5,
+    "tags": [
+      "Loot.Category.Utility"
+    ],
+    "stackSize": 3
   },
   "MissionItem_MinerItem1": {
     "inGameName": "Miner Cam #2F53",
+    "type": "material",
     "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 5,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_MinerItem2": {
     "inGameName": "Miner Cam #D027",
+    "type": "material",
     "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 5,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_MinerItem3": {
     "inGameName": "Miner Cam #A45D",
+    "type": "material",
     "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 0,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 5,
-    "stackSize": 1,
-    "sellValue": 0,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_EngineerItem": {
     "inGameName": "Letium Coated Helmet",
+    "type": "material",
     "rarity": "Common",
+    "weight": 9,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 9,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_CreatureSample": {
     "inGameName": "Letium Bio Samples",
+    "type": "material",
     "rarity": "Common",
+    "weight": 6,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 6,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_LaserDrillPart": {
     "inGameName": "Laser Drill Control Unit",
+    "type": "material",
     "rarity": "Common",
+    "weight": 18,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 18,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_ICAPersonalItem": {
     "inGameName": "Sign of Life from Stranded Prospector",
+    "type": "material",
     "rarity": "Common",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 2,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_PowerPlantItem1": {
     "inGameName": "Notes on Meteor Experiment - 1",
+    "type": "material",
     "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 4,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_PowerPlantItem2": {
     "inGameName": "Notes on Meteor Experiment - 2",
+    "type": "material",
     "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 4,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_OilPumpPart": {
     "inGameName": "Oil Pump Part",
+    "type": "material",
     "rarity": "Common",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 15,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 10,
-    "stackSize": 1,
-    "sellValue": 15,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_OldBones": {
     "inGameName": "Old Bones",
+    "type": "material",
     "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 5,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_AlphaSkull": {
     "inGameName": "Warden Tooth",
+    "type": "material",
     "rarity": "Common",
+    "weight": 9,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 9,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_FlightRecorder": {
     "inGameName": "Flight Recorder",
+    "type": "material",
     "rarity": "Common",
+    "weight": 15,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 15,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_Notebook": {
     "inGameName": "Old Notebook",
+    "type": "material",
     "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 4,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_KorChiefEngineerDiary": {
     "inGameName": "Chief Engineer's Personal Diary",
+    "type": "material",
     "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 1,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_ForgeIronSample": {
     "inGameName": "Tharis Iron Sample",
+    "type": "material",
     "rarity": "Common",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 3,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_PureForgeIronNugget": {
     "inGameName": "Pure Tharis Iron Nugget",
+    "type": "material",
     "rarity": "Common",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 3,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_MiningPartyMedicalFiles": {
     "inGameName": "Mining Party Medical Files",
+    "type": "material",
     "rarity": "Common",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 2,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_VadimPredecessorItem": {
     "inGameName": "The Tharis Files",
+    "type": "material",
     "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 1,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_StolenKorData1": {
     "inGameName": "Korolev Data Drive #473-D",
+    "type": "material",
     "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 4,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_StolenKorData2": {
     "inGameName": "Korolev Notes",
+    "type": "material",
     "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 4,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_CultistGlowCrystalItem": {
     "inGameName": "Mysterious Glowing Contraption",
+    "type": "material",
     "rarity": "Common",
+    "weight": 25,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 25,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_CultistRitualItem": {
     "inGameName": "Cultist Ritual Item",
+    "type": "material",
     "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 4,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_AlienShieldRecipe": {
     "inGameName": "Cultist Scribblings",
+    "type": "material",
     "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 1,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_ColonistItem": {
     "inGameName": "Colonist Item",
+    "type": "material",
     "rarity": "Common",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 2,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_StolenOsiHoloMap": {
     "inGameName": "Tharis Caverns Holo-Map",
+    "type": "material",
     "rarity": "Common",
+    "weight": 13,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 13,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_KorCivilianItem": {
     "inGameName": "Vintage Camera",
+    "type": "material",
     "rarity": "Common",
+    "weight": 12,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 12,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_AlienDoorFragment": {
     "inGameName": "Osiris Door Fragment",
+    "type": "material",
     "rarity": "Common",
+    "weight": 6,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 6,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_AnalysisTool": {
     "inGameName": "Advanced Analysis Toolkit",
+    "type": "material",
     "rarity": "Common",
+    "weight": 10,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 10,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_OsiChiefEngineerItem": {
     "inGameName": "Osiris Engineer Scanner",
+    "type": "material",
     "rarity": "Common",
+    "weight": 6,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 6,
-    "stackSize": 1,
-    "sellValue": 2,
-    "factionRep": 0,
-    "cost": []
+    "stackSize": 1
   },
   "MissionItem_OsiHeadScientistItem": {
     "inGameName": "Osiris Helmet Recorder",
+    "type": "material",
     "rarity": "Common",
+    "weight": 8,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "weight": 8,
-    "stackSize": 1,
-    "sellValue": 2,
+    "stackSize": 1
+  },
+  "WP_A_Pistol_Bullet_01": {
+    "inGameName": "Hammer",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 56000
+      }
+    ],
+    "sellValue": 16805,
+    "factionRep": 168,
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "stackSize": 1
+  },
+  "WP_A_SGun_Energy_01": {
+    "inGameName": "PKR Maelstrom",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 25,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 17000
+      }
+    ],
+    "sellValue": 5058,
+    "factionRep": 51,
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "stackSize": 1
+  },
+  "WP_A_SMG_Shard_01": {
+    "inGameName": "KM-9 'Scrapper'",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 30,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 6400
+      }
+    ],
+    "sellValue": 1918,
+    "factionRep": 19,
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "stackSize": 1
+  },
+  "WP_A_AR_Bullet_01": {
+    "inGameName": "KOR-47",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 161000
+      }
+    ],
+    "sellValue": 48261,
+    "factionRep": 483,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1
+  },
+  "WP_A_BR_Bullet_01": {
+    "inGameName": "KBR Longshot",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 76000
+      }
+    ],
+    "sellValue": 22781,
+    "factionRep": 228,
+    "tags": [
+      "Weapon.Category.DMR"
+    ],
+    "stackSize": 1
+  },
+  "WP_A_Sniper_Gauss_01": {
+    "inGameName": "KARMA-1",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 60,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1085000,
+        "Letium": 75,
+        "MeteorCore": 10,
+        "Datapad": 25,
+        "AlphaWardenHeart": 3
+      }
+    ],
+    "sellValue": 325513,
+    "factionRep": 3255,
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "stackSize": 1
+  },
+  "WP_D_Pistol_Bullet_01": {
+    "inGameName": "Bulldog",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 6400
+      }
+    ],
+    "sellValue": 1918,
+    "factionRep": 19,
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "stackSize": 1
+  },
+  "WP_D_SGun_Shard_01": {
+    "inGameName": "Shattergun",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 25,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 41000
+      }
+    ],
+    "sellValue": 12341,
+    "factionRep": 123,
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "stackSize": 1
+  },
+  "WP_D_SMG_Energy_01": {
+    "inGameName": "Voltaic Brute",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 30,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 114000
+      }
+    ],
+    "sellValue": 34172,
+    "factionRep": 342,
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "stackSize": 1
+  },
+  "WP_D_LMG_Energy_01": {
+    "inGameName": "ICA Guarantee",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 24000
+      }
+    ],
+    "sellValue": 7143,
+    "factionRep": 71,
+    "tags": [
+      "Weapon.Category.LMG"
+    ],
+    "stackSize": 1
+  },
+  "WP_D_AR_Bullet_01": {
+    "inGameName": "Advocate",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 58000
+      }
+    ],
+    "sellValue": 17429,
+    "factionRep": 174,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1
+  },
+  "WP_D_BR_Shard_01": {
+    "inGameName": "Lacerator",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 31000
+      }
+    ],
+    "sellValue": 9336,
+    "factionRep": 93,
+    "tags": [
+      "Weapon.Category.DMR"
+    ],
+    "stackSize": 1
+  },
+  "WP_D_Sniper_Gauss_01": {
+    "inGameName": "Kinetic Arbiter",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 315000
+      }
+    ],
+    "sellValue": 94459,
+    "factionRep": 945,
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_Pistol_Bullet_01": {
+    "inGameName": "K-28",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 760
+      }
+    ],
+    "sellValue": 228,
+    "factionRep": 2,
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_SGun_Bullet_01": {
+    "inGameName": "B9 Trenchgun",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 25,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 1200
+      }
+    ],
+    "sellValue": 371,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_SMG_Bullet_01": {
+    "inGameName": "S-576 PDW",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 30,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 1200
+      }
+    ],
+    "sellValue": 371,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_AR_Energy_01": {
+    "inGameName": "AR-55 Autorifle",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 1700
+      }
+    ],
+    "sellValue": 524,
+    "factionRep": 5,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_Sniper_Bullet_01": {
+    "inGameName": "C-32 Bolt Action",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 6800
+      }
+    ],
+    "sellValue": 2052,
+    "factionRep": 21,
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_SGun_Bullet_01_scrappy": {
+    "inGameName": "WP_E_SGun_Bullet_01_scrappy",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 25,
+    "cost": [],
+    "sellValue": 124,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Category.Shotgun"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_SMG_Bullet_01_scrappy": {
+    "inGameName": "WP_E_SMG_Bullet_01_scrappy",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 30,
+    "cost": [],
+    "sellValue": 124,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_AR_Energy_01_scrappy": {
+    "inGameName": "WP_E_AR_Energy_01_scrappy",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 35,
+    "cost": [],
+    "sellValue": 175,
+    "factionRep": 2,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1
+  },
+  "WP_G_Pistol_Energy_01": {
+    "inGameName": "Scarab",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3900
+      }
+    ],
+    "sellValue": 1179,
+    "factionRep": 12,
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "stackSize": 1
+  },
+  "WP_G_SMG_Needle_01": {
+    "inGameName": "Asp Flechette Gun",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 30,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 41000
+      }
+    ],
+    "sellValue": 12341,
+    "factionRep": 123,
+    "tags": [
+      "Weapon.Category.SMG"
+    ],
+    "stackSize": 1
+  },
+  "WP_G_AR_Energy_01": {
+    "inGameName": "Phasic Lancer",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 24000
+      }
+    ],
+    "sellValue": 7143,
+    "factionRep": 71,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1
+  },
+  "WP_G_AR_Beam_01": {
+    "inGameName": "Gorgon",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 58000
+      }
+    ],
+    "sellValue": 17429,
+    "factionRep": 174,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1
+  },
+  "WP_G_AR_Needle_01": {
+    "inGameName": "Manticore",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 35,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 9000
+      }
+    ],
+    "sellValue": 2709,
+    "factionRep": 27,
+    "tags": [
+      "Weapon.Category.AR"
+    ],
+    "stackSize": 1
+  },
+  "WP_G_Sniper_Energy_01": {
+    "inGameName": "Basilisk",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 210000
+      }
+    ],
+    "sellValue": 63080,
+    "factionRep": 631,
+    "tags": [
+      "Weapon.Category.DMR"
+    ],
+    "stackSize": 1
+  },
+  "WP_A_HVY_Shell_01": {
+    "inGameName": "KARLA",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 117760,
+    "factionRep": 1178,
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "stackSize": 1
+  },
+  "WP_A_Launch_MSL_01": {
+    "inGameName": "KOMRAD",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 60,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 993000,
+        "OilTank": 30,
+        "MeteorCore": 10,
+        "DerelictExplosives": 20,
+        "AI_CrusherMeat": 8
+      }
+    ],
+    "sellValue": 297815,
+    "factionRep": 2978,
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_Launch_Nade_01": {
+    "inGameName": "FF4 Detonator",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 51258,
+    "factionRep": 513,
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "stackSize": 1
+  },
+  "WP_D_HVY_Exotic_01": {
+    "inGameName": "HAZE",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 51258,
+    "factionRep": 513,
+    "tags": [
+      "Weapon.Category.Launcher"
+    ],
+    "stackSize": 1
+  },
+  "WP_G_HVY_Beam_01": {
+    "inGameName": "Zeus Beam",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 60,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 902000,
+        "AlphaWardenHeart": 3,
+        "MeteorCore": 10,
+        "Gyroscope": 3,
+        "AI_WeremoleMeat_02": 10
+      }
+    ],
+    "sellValue": 270540,
+    "factionRep": 2705,
+    "tags": [
+      "Weapon.Category.LMG"
+    ],
+    "stackSize": 1
+  },
+  "WP_E_Pistol_Bullet_01_scrappy": {
+    "inGameName": "WP_E_Pistol_Bullet_01_scrappy",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 76,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Category.Pistol"
+    ],
+    "stackSize": 1
+  },
+  "Consumable_Health_01": {
+    "inGameName": "Weak Stim",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 90
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 90
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 90
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 90
+      }
+    ],
+    "sellValue": 27,
     "factionRep": 0,
-    "cost": []
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "stackSize": 5
+  },
+  "Consumable_Health_02": {
+    "inGameName": "Strong Stim",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 300,
+        "Antibiotics": 1,
+        "BrightcapMushroom": 1,
+        "WaterPlant": 1
+      }
+    ],
+    "sellValue": 182,
+    "factionRep": 2,
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "stackSize": 5
+  },
+  "Consumable_Health_03": {
+    "inGameName": "Weak Medkit",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 15,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 450
+      }
+    ],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "stackSize": 2
+  },
+  "Consumable_Health_04": {
+    "inGameName": "Combat Stim",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 4600
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 460,
+        "Antibiotics": 2,
+        "WaterPlant": 2,
+        "IvyPlant": 1
+      }
+    ],
+    "sellValue": 273,
+    "factionRep": 3,
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "stackSize": 5
+  },
+  "Consumable_Health_05": {
+    "inGameName": "Strong Medkit",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 15,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 300,
+        "AnaestheticsContainers": 1,
+        "BrightcapMushroom": 2
+      }
+    ],
+    "sellValue": 911,
+    "factionRep": 9,
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "stackSize": 2
+  },
+  "Consumable_Health_06": {
+    "inGameName": "Combat Medkit",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 15,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 4600
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 460,
+        "AnaestheticsContainers": 2,
+        "WaterPlant": 3,
+        "IvyPlant": 1
+      }
+    ],
+    "sellValue": 1367,
+    "factionRep": 14,
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "stackSize": 2
+  },
+  "Consumable_SmokeGrenade_01": {
+    "inGameName": "Smoke Grenade",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 450
+      }
+    ],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "Consumable_GasGrenade_01": {
+    "inGameName": "Gas Grenade",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1000,
+        "NeuroToxicGlands": 1,
+        "SpareCasing": 2
+      }
+    ],
+    "sellValue": 152,
+    "factionRep": 2,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "Consumable_AudioDecoy_01": {
+    "inGameName": "Audio Decoy",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 2000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 200,
+        "Cables": 2,
+        "SpareCasing": 2
+      }
+    ],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "OTecStim_Adrenaline": {
+    "inGameName": "OTecStim_Adrenaline",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "KineticShield": {
+    "inGameName": "KineticShield",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 152,
+    "factionRep": 2,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1
+  },
+  "Cloak": {
+    "inGameName": "Cloak",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 152,
+    "factionRep": 2,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1
+  },
+  "TurretHeavy": {
+    "inGameName": "TurretHeavy",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1
+  },
+  "KineticShield_Dome": {
+    "inGameName": "KineticShield_Dome",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1
+  },
+  "HealingWard": {
+    "inGameName": "HealingWard",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1
+  },
+  "TurretHeavy_Ouroboros": {
+    "inGameName": "TurretHeavy_Ouroboros",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 1538,
+    "factionRep": 15,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1
+  },
+  "Consumable_Shield_01": {
+    "inGameName": "Shield Charger",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "Consumable_Stamina_01": {
+    "inGameName": "Adrenaline Shot",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 683,
+    "factionRep": 7,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "Consumable_RoadFlare": {
+    "inGameName": "Consumable_RoadFlare",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "Consumable_LaserTrap": {
+    "inGameName": "Consumable_LaserTrap",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 456,
+    "factionRep": 5,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "Bombardment": {
+    "inGameName": "Bombardment",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 1
+  },
+  "ShockGrenade_01": {
+    "inGameName": "ShockGrenade_01",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 0,
+    "factionRep": 0,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "ShockGrenade_02": {
+    "inGameName": "ShockGrenade_02",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1000,
+        "CopperWire": 2,
+        "SpareCasing": 2
+      }
+    ],
+    "sellValue": 152,
+    "factionRep": 2,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "ShockGrenade_03": {
+    "inGameName": "ShockGrenade_03",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3000,
+        "AluminumParts": 1,
+        "MagneticFieldStabilizer": 2
+      }
+    ],
+    "sellValue": 456,
+    "factionRep": 5,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "ShockGrenade_04": {
+    "inGameName": "ShockGrenade_04",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 1709,
+    "factionRep": 17,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "ShockGrenade_05": {
+    "inGameName": "ShockGrenade_05",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 6800,
+        "ChargedForgeIronIngot": 4,
+        "Alien_Scrap": 8
+      }
+    ],
+    "sellValue": 1025,
+    "factionRep": 10,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4
+  },
+  "Bag_01_broken": {
+    "inGameName": "Worn Emergency Bag",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 180,
+    "factionRep": 2,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Bag_01": {
+    "inGameName": "Small Backpack",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 600
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 600
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 600
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 600
+      }
+    ],
+    "sellValue": 180,
+    "factionRep": 2,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Bag_02": {
+    "inGameName": "Medium Backpack",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 30,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 2700,
+        "PolymetallicPrefabricate": 2,
+        "PureNickel": 2
+      }
+    ],
+    "sellValue": 810,
+    "factionRep": 8,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Bag_03": {
+    "inGameName": "Large Backpack",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 6100,
+        "Fabrics": 2,
+        "IvyPlant": 1,
+        "PureNickel": 3
+      }
+    ],
+    "sellValue": 1823,
+    "factionRep": 18,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Bag_04": {
+    "inGameName": "Heavy Duty Backpack",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 12000,
+        "SmartMesh": 1,
+        "DesertPlant": 1,
+        "TitanOre": 1
+      }
+    ],
+    "sellValue": 3645,
+    "factionRep": 36,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Bag_05": {
+    "inGameName": "Gigantic Backpack",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 6834,
+    "factionRep": 68,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Bag_Altered_01": {
+    "inGameName": "Huge Forged Backpack",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 18000
+      }
+    ],
+    "sellValue": 5468,
+    "factionRep": 55,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Bag_Altered_02": {
+    "inGameName": "Gigantic Forged Backpack",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 60,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 32000
+      }
+    ],
+    "sellValue": 9568,
+    "factionRep": 96,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Bag_Altered_03": {
+    "inGameName": "Monstrous Forged Backpack",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 70,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 48000
+      }
+    ],
+    "sellValue": 14352,
+    "factionRep": 144,
+    "tags": [],
+    "stackSize": 1
+  },
+  "PlayerDefault": {
+    "inGameName": "PlayerDefault",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 0,
+    "cost": [],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_01": {
+    "inGameName": "Shield",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 450
+      }
+    ],
+    "sellValue": 135,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_02": {
+    "inGameName": "Shield",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 2000,
+        "PolymetallicPrefabricate": 2,
+        "GenericCreatureDrop": 5
+      }
+    ],
+    "sellValue": 608,
+    "factionRep": 6,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_03": {
+    "inGameName": "Shield",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 15000,
+        "CombatCPU_Blue": 2,
+        "UncommonVelticite": 2,
+        "AI_RattlerSkin": 5
+      }
+    ],
+    "sellValue": 4556,
+    "factionRep": 46,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_04": {
+    "inGameName": "Shield",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "TitanOre": 1,
+        "HardenedBoneAlloy": 2
+      }
+    ],
+    "sellValue": 11618,
+    "factionRep": 116,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_05": {
+    "inGameName": "Shield",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "PureFocusCrystal": 1,
+        "AI_CrusherSkin": 2
+      }
+    ],
+    "sellValue": 23579,
+    "factionRep": 236,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Tactical_01": {
+    "inGameName": "Tactical Shield",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 680
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 680
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 680
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 680
+      }
+    ],
+    "sellValue": 203,
+    "factionRep": 2,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Tactical_02": {
+    "inGameName": "Tactical Shield",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 2000,
+        "PolymetallicPrefabricate": 2,
+        "WaterPlant": 2,
+        "GenericCreatureDrop": 5
+      }
+    ],
+    "sellValue": 608,
+    "factionRep": 6,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Tactical_03": {
+    "inGameName": "Tactical Shield",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 15000,
+        "CombatCPU_Blue": 2,
+        "IvyPlant": 2,
+        "AI_RattlerSkin": 8
+      }
+    ],
+    "sellValue": 4556,
+    "factionRep": 46,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Tactical_04": {
+    "inGameName": "Tactical Shield",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "DesertPlant": 2,
+        "HardenedBoneAlloy": 3
+      }
+    ],
+    "sellValue": 11618,
+    "factionRep": 116,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Tactical_05": {
+    "inGameName": "Tactical Shield",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "TentaclePlant": 2,
+        "AI_CrusherSkin": 3
+      }
+    ],
+    "sellValue": 23579,
+    "factionRep": 236,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Restoration_01": {
+    "inGameName": "Restoration Shield",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 2000,
+        "PolymetallicPrefabricate": 2,
+        "BrightcapMushroom": 2,
+        "GenericCreatureDrop": 5
+      }
+    ],
+    "sellValue": 608,
+    "factionRep": 6,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Restoration_02": {
+    "inGameName": "Restoration Shield",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 15000,
+        "CombatCPU_Blue": 2,
+        "RadioactiveBrightcapMushroom": 2,
+        "AI_RattlerSkin": 8
+      }
+    ],
+    "sellValue": 4556,
+    "factionRep": 46,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Restoration_03": {
+    "inGameName": "Restoration Shield",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "RadioactiveBrightcapMushroom": 5,
+        "HardenedBoneAlloy": 3
+      }
+    ],
+    "sellValue": 11618,
+    "factionRep": 116,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Restoration_04": {
+    "inGameName": "Restoration Shield",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "PureFocusCrystal": 1,
+        "AI_CrusherSkin": 3,
+        "RadioactiveBrightcapMushroom": 5
+      }
+    ],
+    "sellValue": 23579,
+    "factionRep": 236,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Altered_01": {
+    "inGameName": "Forged Shield",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 43000
+      }
+    ],
+    "sellValue": 12985,
+    "factionRep": 130,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Altered_02": {
+    "inGameName": "Forged Shield",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 75000
+      }
+    ],
+    "sellValue": 22553,
+    "factionRep": 226,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Shield_Altered_03": {
+    "inGameName": "Forged Shield",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 128000
+      }
+    ],
+    "sellValue": 38444,
+    "factionRep": 384,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_01": {
+    "inGameName": "Helmet",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 380
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 380
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 380
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 380
+      }
+    ],
+    "sellValue": 113,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_02": {
+    "inGameName": "Helmet",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1700,
+        "SpareCasing": 2,
+        "GenericCreatureDrop": 5
+      }
+    ],
+    "sellValue": 506,
+    "factionRep": 5,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_03": {
+    "inGameName": "Helmet",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 7600,
+        "AluminumParts": 2,
+        "AI_RattlerSkin": 2
+      }
+    ],
+    "sellValue": 2278,
+    "factionRep": 23,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_04": {
+    "inGameName": "Helmet",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 4,
+        "HardenedBoneAlloy": 1
+      }
+    ],
+    "sellValue": 5126,
+    "factionRep": 51,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_05": {
+    "inGameName": "Helmet",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "Datapad": 1,
+        "Gyroscope": 1,
+        "AI_CrusherSkin": 1
+      }
+    ],
+    "sellValue": 10252,
+    "factionRep": 103,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Tactical_01": {
+    "inGameName": "Tactical Helmet",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 560
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 560
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 560
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 560
+      }
+    ],
+    "sellValue": 169,
+    "factionRep": 2,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Tactical_02": {
+    "inGameName": "Tactical Helmet",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1700,
+        "SpareCasing": 2,
+        "Cables": 2,
+        "GenericCreatureDrop": 4
+      }
+    ],
+    "sellValue": 506,
+    "factionRep": 5,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Tactical_03": {
+    "inGameName": "Tactical Helmet",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 7600,
+        "AluminumParts": 2,
+        "Datapad": 1,
+        "AI_RattlerSkin": 2
+      }
+    ],
+    "sellValue": 2278,
+    "factionRep": 23,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Tactical_04": {
+    "inGameName": "Tactical Helmet",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "Datapad": 1
+      }
+    ],
+    "sellValue": 5126,
+    "factionRep": 51,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Tactical_05": {
+    "inGameName": "Tactical Helmet",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "Datapad": 3,
+        "Gyroscope": 1,
+        "AI_CrusherSkin": 1
+      }
+    ],
+    "sellValue": 10252,
+    "factionRep": 103,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Restoration_01": {
+    "inGameName": "Restoration Helmet",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1700,
+        "SpareCasing": 2,
+        "BrightcapMushroom": 2,
+        "GenericCreatureDrop": 4
+      }
+    ],
+    "sellValue": 506,
+    "factionRep": 5,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Restoration_02": {
+    "inGameName": "Restoration Helmet",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 7600,
+        "AluminumParts": 2,
+        "RadioactiveBrightcapMushroom": 2,
+        "AI_RattlerSkin": 2
+      }
+    ],
+    "sellValue": 2278,
+    "factionRep": 23,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Restoration_03": {
+    "inGameName": "Restoration Helmet",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "RadioactiveBrightcapMushroom": 3
+      }
+    ],
+    "sellValue": 5126,
+    "factionRep": 51,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Restoration_04": {
+    "inGameName": "Restoration Helmet",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "Datapad": 2,
+        "Gyroscope": 1,
+        "AI_CrusherSkin": 1,
+        "RadioactiveBrightcapMushroom": 3
+      }
+    ],
+    "sellValue": 10252,
+    "factionRep": 103,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_NV_01": {
+    "inGameName": "NV Helmet",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 77000,
+        "MeteorCore": 4,
+        "EpicVeltecite": 3,
+        "AlphaWardenHeart": 1
+      }
+    ],
+    "sellValue": 23066,
+    "factionRep": 231,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Altered_01": {
+    "inGameName": "Forged Helmet",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 21000
+      }
+    ],
+    "sellValue": 6265,
+    "factionRep": 63,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Altered_02": {
+    "inGameName": "Forged Helmet",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 43000
+      }
+    ],
+    "sellValue": 12815,
+    "factionRep": 128,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Helmet_Altered_03": {
+    "inGameName": "Forged Helmet",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "None",
+        "SoftCurrency": 85000
+      }
+    ],
+    "sellValue": 25629,
+    "factionRep": 256,
+    "tags": [],
+    "stackSize": 1
+  },
+  "NoOptics": {
+    "inGameName": "17348771467FF6FBFFDD14A72A7EF7EC",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "NoMagazine": {
+    "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "NoBarrel": {
+    "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "NoStock": {
+    "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "NoGrip": {
+    "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "NoAttatchment": {
+    "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [],
+    "stackSize": 1
+  },
+  "Mod_Korolev_Scanner_AlienCrystals": {
+    "inGameName": "Focus Crystal Scanning Module",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 1,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 1000
+      }
+    ],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Korolev_Scanner_HeavyMetals": {
+    "inGameName": "Titan Ore Scanning Module",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 1,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 680
+      }
+    ],
+    "sellValue": 203,
+    "factionRep": 2,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Korolev_Scanner_Veltecite": {
+    "inGameName": "Veltecite Scanning Module",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Optic_2x_01": {
+    "inGameName": "2x Optic",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 2500
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 2500
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 2500
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 2500
+      }
+    ],
+    "sellValue": 764,
+    "factionRep": 8,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Optic_4x_01": {
+    "inGameName": "4x Optic",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 4300,
+        "PrintResin": 1,
+        "OpticGlass": 2
+      }
+    ],
+    "sellValue": 1288,
+    "factionRep": 13,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_03": {
+    "inGameName": "Light Extended",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_02": {
+    "inGameName": "Light Extended",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_01": {
+    "inGameName": "Light Extended",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_01": {
+    "inGameName": "Medium Extended",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Heavy_01": {
+    "inGameName": "Heavy Extended",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Shotgun_01": {
+    "inGameName": "Shotgun Extended",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Muzzle_Small_Supressor_01": {
+    "inGameName": "Small Suppressor",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 4900,
+        "HydraulicPiston": 5,
+        "SmartMesh": 1,
+        "AluminumParts": 3
+      }
+    ],
+    "sellValue": 1478,
+    "factionRep": 15,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Muzzle_Standard_Supressor_01": {
+    "inGameName": "Medium Suppressor",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 4900,
+        "HydraulicPiston": 5,
+        "SmartMesh": 1,
+        "AluminumParts": 3
+      }
+    ],
+    "sellValue": 1478,
+    "factionRep": 15,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Light_01": {
+    "inGameName": "Light Converter",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Medium_01": {
+    "inGameName": "Medium Converter",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Heavy_01": {
+    "inGameName": "Heavy Converter",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Shotgun_01": {
+    "inGameName": "Shotgun Converter",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_ForeGrip_Angled_01": {
+    "inGameName": "Angled Foregrip",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_RearGrip_01": {
+    "inGameName": "Ergonomic Grip",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Tactical_Flashlight_01": {
+    "inGameName": "Tactical Light",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Marksman_01": {
+    "inGameName": "Marksman Stock",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Standard_01": {
+    "inGameName": "Standard Stock",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_02": {
+    "inGameName": "Medium Extended",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_03": {
+    "inGameName": "Medium Extended",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Heavy_02": {
+    "inGameName": "Heavy Extended",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Heavy_03": {
+    "inGameName": "Heavy Extended",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Shotgun_02": {
+    "inGameName": "Shotgun Extended",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Shotgun_03": {
+    "inGameName": "Shotgun Extended",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_ReloadSpeed_01": {
+    "inGameName": "Light Quickdraw",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_ReloadSpeed_02": {
+    "inGameName": "Light Quickdraw",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_ReloadSpeed_03": {
+    "inGameName": "Light Quickdraw",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_ReloadSpeed_04": {
+    "inGameName": "Light Quickdraw",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_Reloadspeed_01": {
+    "inGameName": "Medium Quickdraw",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_Reloadspeed_02": {
+    "inGameName": "Medium Quickdraw",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_Reloadspeed_03": {
+    "inGameName": "Medium Quickdraw",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_Reloadspeed_04": {
+    "inGameName": "Medium Quickdraw",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_01": {
+    "inGameName": "Heavy Quickdraw",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_02": {
+    "inGameName": "Heavy Quickdraw",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_03": {
+    "inGameName": "Heavy Quickdraw",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_04": {
+    "inGameName": "Heavy Quickdraw",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_01": {
+    "inGameName": "Shotgun Quickdraw",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_02": {
+    "inGameName": "Shotgun Quickdraw",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+    "inGameName": "Shotgun Quickdraw",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+    "inGameName": "Shotgun Quickdraw",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_EXTReload_01": {
+    "inGameName": "Light Extended Quickdraw",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Light_EXTReload_02": {
+    "inGameName": "Light Extended Quickdraw",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_EXTReload_01": {
+    "inGameName": "Medium Extended Quickdraw",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 3,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Magazine_Medium_EXTReload_02": {
+    "inGameName": "Medium Extended Quickdraw",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 3,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Standard_02": {
+    "inGameName": "Standard Stock",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Standard_Equip_01": {
+    "inGameName": "Quickdraw Stock",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Standard_Equip_02": {
+    "inGameName": "Quickdraw Stock",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Standard_ADS_01": {
+    "inGameName": "Tactical Stock",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Standard_ADS_02": {
+    "inGameName": "Tactical Stock",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Standard_ADSEquip_01": {
+    "inGameName": "Ultralight Stock",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Standard_ADSEquip_02": {
+    "inGameName": "Ultralight Stock",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "ShockAbsorber": 1,
+        "MiniatureReactor": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Marksman_02": {
+    "inGameName": "Marksman Stock",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Marksman_Equip_01": {
+    "inGameName": "MKM Quickdraw Stock",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Marksman_Equip_02": {
+    "inGameName": "MKM Quickdraw Stock",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Marksman_ADS_01": {
+    "inGameName": "MKM Tactical Stock",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Marksman_ADS_02": {
+    "inGameName": "MKM Tactical Stock",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Marksman_ADSEquip_01": {
+    "inGameName": "MKM Ultralight Stock",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Stock_Marksman_ADSEquip_02": {
+    "inGameName": "MKM Ultralight Stock",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "ShockAbsorber": 1,
+        "MultiTool": 2
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Muzzle_Small_Recoil_01": {
+    "inGameName": "Small Muzzle Brake",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Muzzle_Small_Recoil_02": {
+    "inGameName": "Small Muzzle Brake",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Muzzle_Small_Recoil_03": {
+    "inGameName": "Small Muzzle Brake",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Muzzle_Standard_Recoil_01": {
+    "inGameName": "Medium Muzzle Brake",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Muzzle_Standard_Recoil_02": {
+    "inGameName": "Medium Muzzle Brake",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Muzzle_Standard_Recoil_03": {
+    "inGameName": "Medium Muzzle Brake",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Light_02": {
+    "inGameName": "Light Converter",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Light_03": {
+    "inGameName": "Light Converter",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 4,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Medium_02": {
+    "inGameName": "Medium Converter",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Medium_03": {
+    "inGameName": "Medium Converter",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 4,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Heavy_02": {
+    "inGameName": "Heavy Converter",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Heavy_03": {
+    "inGameName": "Heavy Converter",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 4,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "MagneticFieldStabilizer": 5
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Shotgun_02": {
+    "inGameName": "Shotgun Converter",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Shotgun_03": {
+    "inGameName": "Shotgun Converter",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 4,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "DerelictExplosives": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Light_AIDMG_01": {
+    "inGameName": "Light Creature Dmg",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Light_AIDMG_02": {
+    "inGameName": "Light Creature Dmg",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Light_AIDMG_03": {
+    "inGameName": "Light Creature Dmg",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 4,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Medium_AIDMG_01": {
+    "inGameName": "Medium Creature Dmg",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Medium_AIDMG_02": {
+    "inGameName": "Medium Creature Dmg",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Medium_AIDMG_03": {
+    "inGameName": "Medium Creature Dmg",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 4,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Converter_Shotgun_Slug_01": {
+    "inGameName": "Shotgun Slugs",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_ForeGrip_Angled_02": {
+    "inGameName": "Angled Foregrip",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_ForeGrip_Equip_01": {
+    "inGameName": "Quickdraw Foregrip",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_ForeGrip_Equip_02": {
+    "inGameName": "Quickdraw Foregrip",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_ForeGrip_ADS_01": {
+    "inGameName": "Tactical Foregrip",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_ForeGrip_ADS_02": {
+    "inGameName": "Tactical Foregrip",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 2,
+    "cost": [],
+    "sellValue": 986,
+    "factionRep": 10,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_ForeGrip_ADS_03": {
+    "inGameName": "Tactical Foregrip",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_RearGrip_02": {
+    "inGameName": "Ergonomic Grip",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_RearGrip_ADS_01": {
+    "inGameName": "Tactical Rear Grip",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 1,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_RearGrip_ADS_02": {
+    "inGameName": "Tactical Rear Grip",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Optic_1x_01": {
+    "inGameName": "Red Dot Sight",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 300
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 300
+      }
+    ],
+    "sellValue": 90,
+    "factionRep": 1,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Optic_1x_02": {
+    "inGameName": "Holographic Sight",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "SpareCasing": 2,
+        "OpticGlass": 1
+      }
+    ],
+    "sellValue": 374,
+    "factionRep": 4,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Optic_Variable_01": {
+    "inGameName": "2 - 4x Variable Optic",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "PrintResin": 2,
+        "OpticGlass": 3
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Optic_8x_01": {
+    "inGameName": "8x Optic",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "PrintResin": 2,
+        "OpticGlass": 3
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Optic_6x_01": {
+    "inGameName": "6x Optic",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 2,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 8000,
+        "PrintResin": 2,
+        "OpticGlass": 3
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
+  },
+  "Mod_Korolev_Scanner_Oil": {
+    "inGameName": "Crude Oil Scanning Module",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 1,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 8000
+      }
+    ],
+    "sellValue": 2405,
+    "factionRep": 24,
+    "tags": [
+      "Weapon.Attachment"
+    ],
+    "stackSize": 1
   }
 }
