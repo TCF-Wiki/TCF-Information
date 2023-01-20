@@ -1,17 +1,19 @@
 {
   "Helmet_01": {
-    "ingamename": "Common Helmet",
+    "inGameName": "Helmet",
     "rarity": "Common",
+    "weight": 20,
     "armorAmount": 10,
     "durability": 500,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 113,
+    "factionRep": 1,
     "repair": {
       "baseCost": 38,
       "costModifierBroken": 96,
       "maxPrice": 190,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "Korolev",
@@ -29,23 +31,23 @@
         "shop": "QuickShop",
         "SoftCurrency": 380
       }
-    ],
-    "sellValue": 113,
-    "factionRep": 1
+    ]
   },
   "Helmet_02": {
-    "ingamename": "Uncommon Helmet",
+    "inGameName": "Helmet",
     "rarity": "Uncommon",
+    "weight": 20,
     "armorAmount": 15,
     "durability": 600,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 506,
+    "factionRep": 5,
     "repair": {
       "baseCost": 153,
       "costModifierBroken": 384,
       "maxPrice": 765,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -53,23 +55,23 @@
         "SpareCasing": 2,
         "GenericCreatureDrop": 5
       }
-    ],
-    "sellValue": 506,
-    "factionRep": 5
+    ]
   },
   "Helmet_03": {
-    "ingamename": "Rare Helmet",
+    "inGameName": "Helmet",
     "rarity": "Rare",
+    "weight": 20,
     "armorAmount": 20,
     "durability": 700,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 2278,
+    "factionRep": 23,
     "repair": {
       "baseCost": 608,
       "costModifierBroken": 1521,
       "maxPrice": 3040,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -77,23 +79,23 @@
         "AluminumParts": 2,
         "AI_RattlerSkin": 2
       }
-    ],
-    "sellValue": 2278,
-    "factionRep": 23
+    ]
   },
   "Helmet_04": {
-    "ingamename": "Epic Helmet",
+    "inGameName": "Helmet",
     "rarity": "Epic",
+    "weight": 20,
     "armorAmount": 25,
     "durability": 800,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 5126,
+    "factionRep": 51,
     "repair": {
       "baseCost": 680,
       "costModifierBroken": 1695,
       "maxPrice": 3400,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -101,23 +103,23 @@
         "RadioSpareParts": 4,
         "HardenedBoneAlloy": 1
       }
-    ],
-    "sellValue": 5126,
-    "factionRep": 51
+    ]
   },
   "Helmet_05": {
-    "ingamename": "Exotic Helmet",
+    "inGameName": "Helmet",
     "rarity": "Exotic",
+    "weight": 20,
     "armorAmount": 30,
     "durability": 900,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 10252,
+    "factionRep": 103,
     "repair": {
       "baseCost": 850,
       "costModifierBroken": 2119,
       "maxPrice": 4250,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -126,23 +128,23 @@
         "Gyroscope": 1,
         "AI_CrusherSkin": 1
       }
-    ],
-    "sellValue": 10252,
-    "factionRep": 103
+    ]
   },
   "Helmet_Tactical_01": {
-    "ingamename": "Common Tactical Helmet",
+    "inGameName": "Tactical Helmet",
     "rarity": "Common",
+    "weight": 20,
     "armorAmount": 10,
     "durability": 500,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 169,
+    "factionRep": 2,
     "repair": {
       "baseCost": 56,
       "costModifierBroken": 140,
       "maxPrice": 280,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "Korolev",
@@ -160,23 +162,23 @@
         "shop": "QuickShop",
         "SoftCurrency": 560
       }
-    ],
-    "sellValue": 169,
-    "factionRep": 2
+    ]
   },
   "Helmet_Tactical_02": {
-    "ingamename": "Common Tactical Helmet",
+    "inGameName": "Tactical Helmet",
     "rarity": "Uncommon",
+    "weight": 20,
     "armorAmount": 15,
     "durability": 600,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 506,
+    "factionRep": 5,
     "repair": {
       "baseCost": 153,
       "costModifierBroken": 384,
       "maxPrice": 765,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -185,23 +187,23 @@
         "Cables": 2,
         "GenericCreatureDrop": 4
       }
-    ],
-    "sellValue": 506,
-    "factionRep": 5
+    ]
   },
   "Helmet_Tactical_03": {
-    "ingamename": "Rare Tactical Helmet",
+    "inGameName": "Tactical Helmet",
     "rarity": "Rare",
+    "weight": 20,
     "armorAmount": 20,
     "durability": 700,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 2278,
+    "factionRep": 23,
     "repair": {
       "baseCost": 608,
       "costModifierBroken": 1521,
       "maxPrice": 3040,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -210,23 +212,23 @@
         "Datapad": 1,
         "AI_RattlerSkin": 2
       }
-    ],
-    "sellValue": 2278,
-    "factionRep": 23
+    ]
   },
   "Helmet_Tactical_04": {
-    "ingamename": "Rare Tactical Helmet",
+    "inGameName": "Tactical Helmet",
     "rarity": "Epic",
+    "weight": 20,
     "armorAmount": 25,
     "durability": 800,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 5126,
+    "factionRep": 51,
     "repair": {
       "baseCost": 680,
       "costModifierBroken": 1695,
       "maxPrice": 3400,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -235,23 +237,23 @@
         "HardenedBoneAlloy": 1,
         "Datapad": 1
       }
-    ],
-    "sellValue": 5126,
-    "factionRep": 51
+    ]
   },
   "Helmet_Tactical_05": {
-    "ingamename": "Rare Tactical Helmet",
+    "inGameName": "Tactical Helmet",
     "rarity": "Exotic",
+    "weight": 20,
     "armorAmount": 30,
     "durability": 900,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 10252,
+    "factionRep": 103,
     "repair": {
       "baseCost": 850,
       "costModifierBroken": 2119,
       "maxPrice": 4250,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -260,23 +262,23 @@
         "Gyroscope": 1,
         "AI_CrusherSkin": 1
       }
-    ],
-    "sellValue": 10252,
-    "factionRep": 103
+    ]
   },
   "Helmet_Restoration_01": {
-    "ingamename": "Uncommon Restoration Helmet",
+    "inGameName": "Restoration Helmet",
     "rarity": "Uncommon",
+    "weight": 20,
     "armorAmount": 15,
     "durability": 600,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 506,
+    "factionRep": 5,
     "repair": {
       "baseCost": 153,
       "costModifierBroken": 384,
       "maxPrice": 765,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -285,23 +287,23 @@
         "BrightcapMushroom": 2,
         "GenericCreatureDrop": 4
       }
-    ],
-    "sellValue": 506,
-    "factionRep": 5
+    ]
   },
   "Helmet_Restoration_02": {
-    "ingamename": "Rare Restoration Helmet",
+    "inGameName": "Restoration Helmet",
     "rarity": "Rare",
+    "weight": 20,
     "armorAmount": 20,
     "durability": 700,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 2278,
+    "factionRep": 23,
     "repair": {
       "baseCost": 608,
       "costModifierBroken": 1521,
       "maxPrice": 3040,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -310,23 +312,23 @@
         "RadioactiveBrightcapMushroom": 2,
         "AI_RattlerSkin": 2
       }
-    ],
-    "sellValue": 2278,
-    "factionRep": 23
+    ]
   },
   "Helmet_Restoration_03": {
-    "ingamename": "Rare Restoration Helmet",
+    "inGameName": "Restoration Helmet",
     "rarity": "Epic",
+    "weight": 20,
     "armorAmount": 25,
     "durability": 800,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 5126,
+    "factionRep": 51,
     "repair": {
       "baseCost": 680,
       "costModifierBroken": 1695,
       "maxPrice": 3400,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -335,23 +337,23 @@
         "HardenedBoneAlloy": 1,
         "RadioactiveBrightcapMushroom": 3
       }
-    ],
-    "sellValue": 5126,
-    "factionRep": 51
+    ]
   },
   "Helmet_Restoration_04": {
-    "ingamename": "Rare Restoration Helmet",
+    "inGameName": "Restoration Helmet",
     "rarity": "Exotic",
+    "weight": 20,
     "armorAmount": 30,
     "durability": 900,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 10252,
+    "factionRep": 103,
     "repair": {
       "baseCost": 850,
       "costModifierBroken": 2119,
       "maxPrice": 4250,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -361,23 +363,23 @@
         "AI_CrusherSkin": 1,
         "RadioactiveBrightcapMushroom": 3
       }
-    ],
-    "sellValue": 10252,
-    "factionRep": 103
+    ]
   },
   "Helmet_NV_01": {
-    "ingamename": "Legendary NV Helmet",
+    "inGameName": "NV Helmet",
     "rarity": "Legendary",
+    "weight": 20,
     "armorAmount": 33,
     "durability": 1000,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 23066,
+    "factionRep": 231,
     "repair": {
       "baseCost": 1540,
       "costModifierBroken": 3853,
       "maxPrice": 7700,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -386,74 +388,72 @@
         "EpicVeltecite": 3,
         "AlphaWardenHeart": 1
       }
-    ],
-    "sellValue": 23066,
-    "factionRep": 231
+    ]
   },
   "Helmet_Altered_01": {
-    "ingamename": "Forged Helmet",
+    "inGameName": "Forged Helmet",
     "rarity": "Epic",
+    "weight": 20,
     "armorAmount": 25,
     "durability": 800,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 6265,
+    "factionRep": 63,
     "repair": {
       "baseCost": 840,
       "costModifierBroken": 2107,
       "maxPrice": 4200,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "None",
         "SoftCurrency": 21000
       }
-    ],
-    "sellValue": 6265,
-    "factionRep": 63
+    ]
   },
   "Helmet_Altered_02": {
-    "ingamename": "Forged Helmet",
+    "inGameName": "Forged Helmet",
     "rarity": "Exotic",
+    "weight": 20,
     "armorAmount": 30,
     "durability": 900,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 12815,
+    "factionRep": 128,
     "repair": {
       "baseCost": 1075,
       "costModifierBroken": 2698,
       "maxPrice": 5375,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "None",
         "SoftCurrency": 43000
       }
-    ],
-    "sellValue": 12815,
-    "factionRep": 128
+    ]
   },
   "Helmet_Altered_03": {
-    "ingamename": "Forged Helmet",
+    "inGameName": "Forged Helmet",
     "rarity": "Legendary",
+    "weight": 20,
     "armorAmount": 33,
     "durability": 1000,
-    "weight": 20,
-    "bonus": {},
+    "sellValue": 25629,
+    "factionRep": 256,
     "repair": {
       "baseCost": 1700,
       "costModifierBroken": 4237,
       "maxPrice": 8500,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "bonus": null,
     "cost": [
       {
         "shop": "None",
         "SoftCurrency": 85000
       }
-    ],
-    "sellValue": 25629,
-    "factionRep": 256
+    ]
   }
 }

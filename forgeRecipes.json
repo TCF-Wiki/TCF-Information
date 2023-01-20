@@ -1,0 +1,25 @@
+{
+  "Recipe01": {
+    "RewardAmount": 3,
+    "Ingredients": {
+      "ForgeIron": 9,
+      "GlowingCrystalCoreShard": 3
+    },
+    "RewardChance": {
+      "ChargedForgeIronIngot": 3,
+      "ForgeIronIngot": 97
+    }
+  },
+  "Recipe02": {
+    "RewardAmount": 3,
+    "Ingredients": {
+      "PureForgeIron": 9,
+      "Letium": 3,
+      "GlowingCrystalCoreShard": 3
+    },
+    "RewardChance": {
+      "SuperChargedForgeIronIngot": 3,
+      "ChargedForgeIronIngot": 97
+    }
+  }
+}

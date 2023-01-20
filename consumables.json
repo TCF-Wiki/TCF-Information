@@ -1,0 +1,510 @@
+{
+  "Consumable_Health_01": {
+    "inGameName": "Weak Stim",
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "weight": 3,
+    "stackSize": 5,
+    "sellValue": 27,
+    "factionRep": 0,
+    "action": {
+      "attribute": "CurrentHealth",
+      "modifierType": "Additive",
+      "value": 20,
+      "duration": 0
+    },
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 90
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 90
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 90
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 90
+      }
+    ]
+  },
+  "Consumable_Health_02": {
+    "inGameName": "Strong Stim",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "weight": 3,
+    "stackSize": 5,
+    "sellValue": 182,
+    "factionRep": 2,
+    "action": {
+      "attribute": "CurrentHealth",
+      "modifierType": "Additive",
+      "value": 25,
+      "duration": 0
+    },
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 300,
+        "Antibiotics": 1,
+        "BrightcapMushroom": 1,
+        "WaterPlant": 1
+      }
+    ]
+  },
+  "Consumable_Health_03": {
+    "inGameName": "Weak Medkit",
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "weight": 15,
+    "stackSize": 2,
+    "sellValue": 135,
+    "factionRep": 1,
+    "action": {
+      "attribute": "CurrentHealth",
+      "modifierType": "Additive",
+      "value": 100,
+      "duration": 0
+    },
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 450
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 450
+      }
+    ]
+  },
+  "Consumable_Health_04": {
+    "inGameName": "Combat Stim",
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "weight": 3,
+    "stackSize": 5,
+    "sellValue": 273,
+    "factionRep": 3,
+    "action": {
+      "attribute": "CurrentHealth",
+      "modifierType": "Additive",
+      "value": 30,
+      "duration": 0
+    },
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 4600
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 460,
+        "Antibiotics": 2,
+        "WaterPlant": 2,
+        "IvyPlant": 1
+      }
+    ]
+  },
+  "Consumable_Health_05": {
+    "inGameName": "Strong Medkit",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "weight": 15,
+    "stackSize": 2,
+    "sellValue": 911,
+    "factionRep": 9,
+    "action": {
+      "attribute": "CurrentHealth",
+      "modifierType": "Additive",
+      "value": 100,
+      "duration": 0
+    },
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 300,
+        "AnaestheticsContainers": 1,
+        "BrightcapMushroom": 2
+      }
+    ]
+  },
+  "Consumable_Health_06": {
+    "inGameName": "Combat Medkit",
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables.Healing"
+    ],
+    "weight": 15,
+    "stackSize": 2,
+    "sellValue": 1367,
+    "factionRep": 14,
+    "action": {
+      "attribute": "CurrentHealth",
+      "modifierType": "Additive",
+      "value": 100,
+      "duration": 0
+    },
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 4600
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 460,
+        "AnaestheticsContainers": 2,
+        "WaterPlant": 3,
+        "IvyPlant": 1
+      }
+    ]
+  },
+  "Consumable_SmokeGrenade_01": {
+    "inGameName": "Smoke Grenade",
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 135,
+    "factionRep": 1,
+    "action": null,
+    "cost": [
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 450
+      }
+    ]
+  },
+  "Consumable_GasGrenade_01": {
+    "inGameName": "Gas Grenade",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 152,
+    "factionRep": 2,
+    "action": null,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1000,
+        "NeuroToxicGlands": 1,
+        "SpareCasing": 2
+      }
+    ]
+  },
+  "Consumable_AudioDecoy_01": {
+    "inGameName": "Audio Decoy",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 304,
+    "factionRep": 3,
+    "action": null,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 2000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 200,
+        "Cables": 2,
+        "SpareCasing": 2
+      }
+    ]
+  },
+  "OTecStim_Adrenaline": {
+    "inGameName": "OTecStim_Adrenaline",
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 135,
+    "factionRep": 1,
+    "action": {
+      "attribute": "MaxSpeed",
+      "modifierType": "Multiplicitive_PreAdd",
+      "value": 1.25,
+      "duration": 0
+    },
+    "cost": []
+  },
+  "KineticShield": {
+    "inGameName": "KineticShield",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 20,
+    "stackSize": 1,
+    "sellValue": 152,
+    "factionRep": 2,
+    "action": null,
+    "cost": []
+  },
+  "Cloak": {
+    "inGameName": "Cloak",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 1,
+    "sellValue": 152,
+    "factionRep": 2,
+    "action": null,
+    "cost": []
+  },
+  "TurretHeavy": {
+    "inGameName": "TurretHeavy",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 20,
+    "stackSize": 1,
+    "sellValue": 304,
+    "factionRep": 3,
+    "action": null,
+    "cost": []
+  },
+  "KineticShield_Dome": {
+    "inGameName": "KineticShield_Dome",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 20,
+    "stackSize": 1,
+    "sellValue": 304,
+    "factionRep": 3,
+    "action": null,
+    "cost": []
+  },
+  "HealingWard": {
+    "inGameName": "HealingWard",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 20,
+    "stackSize": 1,
+    "sellValue": 304,
+    "factionRep": 3,
+    "action": null,
+    "cost": []
+  },
+  "TurretHeavy_Ouroboros": {
+    "inGameName": "TurretHeavy_Ouroboros",
+    "rarity": "Legendary",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 20,
+    "stackSize": 1,
+    "sellValue": 1538,
+    "factionRep": 15,
+    "action": null,
+    "cost": []
+  },
+  "Consumable_Shield_01": {
+    "inGameName": "Shield Charger",
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 135,
+    "factionRep": 1,
+    "action": {
+      "attribute": "CurrentShield",
+      "modifierType": "Additive",
+      "value": 400,
+      "duration": 0
+    },
+    "cost": []
+  },
+  "Consumable_Stamina_01": {
+    "inGameName": "Adrenaline Shot",
+    "rarity": "Epic",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 683,
+    "factionRep": 7,
+    "action": {
+      "attribute": "StaminaConsumptionRate",
+      "modifierType": "Multiplicitive_PreAdd",
+      "value": 0.5,
+      "duration": 120
+    },
+    "cost": []
+  },
+  "Consumable_RoadFlare": {
+    "inGameName": "Consumable_RoadFlare",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 304,
+    "factionRep": 3,
+    "action": null,
+    "cost": []
+  },
+  "Consumable_LaserTrap": {
+    "inGameName": "Consumable_LaserTrap",
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 20,
+    "stackSize": 4,
+    "sellValue": 456,
+    "factionRep": 5,
+    "action": null,
+    "cost": []
+  },
+  "Bombardment": {
+    "inGameName": "Bombardment",
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 1,
+    "sellValue": 135,
+    "factionRep": 1,
+    "action": null,
+    "cost": []
+  },
+  "ShockGrenade_01": {
+    "inGameName": "ShockGrenade_01",
+    "rarity": "Common",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 0,
+    "factionRep": 0,
+    "action": null,
+    "cost": []
+  },
+  "ShockGrenade_02": {
+    "inGameName": "ShockGrenade_02",
+    "rarity": "Uncommon",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 152,
+    "factionRep": 2,
+    "action": null,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1000,
+        "CopperWire": 2,
+        "SpareCasing": 2
+      }
+    ]
+  },
+  "ShockGrenade_03": {
+    "inGameName": "ShockGrenade_03",
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 456,
+    "factionRep": 5,
+    "action": null,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3000,
+        "AluminumParts": 1,
+        "MagneticFieldStabilizer": 2
+      }
+    ]
+  },
+  "ShockGrenade_04": {
+    "inGameName": "ShockGrenade_04",
+    "rarity": "Epic",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 1709,
+    "factionRep": 17,
+    "action": null,
+    "cost": []
+  },
+  "ShockGrenade_05": {
+    "inGameName": "ShockGrenade_05",
+    "rarity": "Exotic",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 1025,
+    "factionRep": 10,
+    "action": null,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 6800,
+        "ChargedForgeIronIngot": 4,
+        "Alien_Scrap": 8
+      }
+    ]
+  }
+}
