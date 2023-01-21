@@ -11,7 +11,33 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "UncommonVelticite": 5
+      },
+      "missions": {
+        "Main-KOR-GainTrust-4": 5
+      },
+      "jobs": {
+        "Test-MultipleObjectives": 5,
+        "Test-Not-Free-Contract": 2,
+        "Easy-KOR-Minerals-1": 3,
+        "Medium-KOR-Minerals-1": 6,
+        "Hard-KOR-Minerals-1": 15,
+        "Easy-Osiris-Zeal-1": 1,
+        "Medium-Osiris-Zeal-1": 2,
+        "Hard-Osiris-Zeal-1": 3,
+        "Hard-Osiris-Minerals-1": 20,
+        "NEW-Easy-KOR-Mine-1": 4
+      },
+      "quarters": {
+        "generate_aurum_1.2": 3,
+        "kmarks_passive_cap_1.2": 3,
+        "aurum_passive_cap_1.2": 5
+      },
+      "forge": {}
+    }
   },
   "UncommonVelticite": {
     "inGameName": "Cloudy Veltecite",
@@ -31,7 +57,27 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "RareVeltecite": 5,
+        "Shield_03": 2
+      },
+      "missions": {
+        "Main-KOR-MiningTool-1": 7,
+        "Main-KOR-GruntWork-2": 3
+      },
+      "jobs": {
+        "Easy-KOR-Minerals-2": 2,
+        "NEW-Easy-KOR-Mine-4": 3
+      },
+      "quarters": {
+        "generate_aurum_2.0": 1,
+        "kmarks_passive_cap_2.2": 3,
+        "aurum_passive_cap_2.3": 4
+      },
+      "forge": {}
+    }
   },
   "RareVeltecite": {
     "inGameName": "Clear Veltecite",
@@ -51,7 +97,42 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "EpicVeltecite": 5,
+        "Mod_Magazine_Light_03": 1,
+        "Mod_Magazine_Medium_03": 1,
+        "Mod_Magazine_Heavy_03": 1,
+        "Mod_Magazine_Shotgun_03": 1,
+        "Mod_Magazine_Light_ReloadSpeed_04": 1,
+        "Mod_Magazine_Medium_Reloadspeed_04": 1,
+        "Mod_Magazine_Heavy_ReloadSpeed_04": 1,
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": 1,
+        "Mod_Magazine_Light_EXTReload_02": 1,
+        "Mod_Magazine_Medium_EXTReload_02": 1,
+        "Mod_ForeGrip_ADS_03": 1
+      },
+      "missions": {
+        "Main-KOR-Veltecite-1": 3,
+        "Main-Osiris-CaveRumors-3": 8,
+        "Main-Osiris-CrystalSamples-1": 8
+      },
+      "jobs": {
+        "Medium-KOR-Minerals-2": 3,
+        "NEW-Medium-KOR-Mine-1": 2,
+        "NEW-Medium-KOR-Mine-5": 2,
+        "NEW-Hard-KOR-Mine-5": 8,
+        "NEW-Hard-KOR-Mine-6": 6,
+        "NEW-Hard-ICA-Mine-2": 8
+      },
+      "quarters": {
+        "generate_kmarks_3.1": 2,
+        "kmarks_passive_cap_3.4": 4,
+        "aurum_passive_cap_3.4": 5
+      },
+      "forge": {}
+    }
   },
   "EpicVeltecite": {
     "inGameName": "Pure Veltecite",
@@ -71,7 +152,30 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Helmet_NV_01": 3
+      },
+      "missions": {
+        "Main-KOR-GruntWork-3": 1,
+        "Main-ICA-OilScanModule-1": 2,
+        "Main-Osiris-CrystalSamples-1": 3
+      },
+      "jobs": {
+        "Hard-KOR-Minerals-2": 2,
+        "Hard-KOR-Minerals-3": 2,
+        "NEW-Medium-KOR-Mine-3": 2,
+        "NEW-Hard-KOR-Mine-1": 2,
+        "NEW-Hard-KOR-Mine-6": 3
+      },
+      "quarters": {
+        "increase_stash_4.2": 2,
+        "kmarks_passive_cap_4.0": 2,
+        "aurum_passive_cap_4.0": 3
+      },
+      "forge": {}
+    }
   },
   "VelteciteHeart": {
     "inGameName": "Veltecite Heart",
@@ -85,7 +189,25 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-BuildLaserDrill-6": 1,
+        "Main-Osiris-CraftFuel-2": 1
+      },
+      "jobs": {
+        "NEW-Hard-KOR-Mine-3": 2,
+        "NEW-Hard-KOR-Mine-6": 1
+      },
+      "quarters": {
+        "increase_stash_5.2": 1,
+        "generate_kmarks_4.4": 1,
+        "kmarks_passive_cap_4.4": 1,
+        "aurum_passive_cap_4.4": 1
+      },
+      "forge": {}
+    }
   },
   "FocusCrystal": {
     "inGameName": "Focus Crystal",
@@ -99,7 +221,29 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "PureFocusCrystal": 9
+      },
+      "missions": {
+        "Main-KOR-GruntWork-7": 3,
+        "Main-Osiris-CrystalSamples-2": 5
+      },
+      "jobs": {
+        "NEW-Medium-KOR-Mine-and-PvE-2": 4,
+        "NEW-Medium-KOR-Mine-5": 8,
+        "NEW-Hard-KOR-Mine-4": 10
+      },
+      "quarters": {
+        "generate_aurum_4.1": 19
+      },
+      "forge": {
+        "Perk_HealthRegen_Storm": 2,
+        "Perk_Armor_Helmet": 2,
+        "Perk_Armor_Shield": 2
+      }
+    }
   },
   "PureFocusCrystal": {
     "inGameName": "Pure Focus Crystal",
@@ -119,7 +263,28 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Shield_05": 1,
+        "Shield_Restoration_04": 1
+      },
+      "missions": {
+        "Main-KOR-FocusCrystals-1": 3
+      },
+      "jobs": {
+        "NEW-Hard-KOR-Mine-1": 1,
+        "NEW-Hard-KOR-Mine-2": 3,
+        "NEW-Hard-KOR-Mine-4": 3,
+        "NEW-Hard-ICA-Mine-1": 4
+      },
+      "quarters": {
+        "generate_aurum_4.2": 2,
+        "generate_kmarks_4.2": 2,
+        "kmarks_passive_cap_4.3": 2
+      },
+      "forge": {}
+    }
   },
   "Nickel": {
     "inGameName": "Nickel",
@@ -133,7 +298,29 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "PureNickel": 5
+      },
+      "missions": {
+        "Main-KOR-FTUE-1": 1
+      },
+      "jobs": {
+        "Test-Location-MultipleObjectives": 2,
+        "Easy-KOR_FTUE-Minerals-1": 2,
+        "Medium-KOR-Conditional-3": 2
+      },
+      "quarters": {
+        "increase_stash_1.2": 8,
+        "reduce_pq_upgrading_time_1.0": 5,
+        "generate_kmarks_1.2": 5,
+        "daily_crate_2.0": 15,
+        "kmarks_passive_cap_1.1": 5,
+        "aurum_passive_cap_1.2": 8
+      },
+      "forge": {}
+    }
   },
   "PureNickel": {
     "inGameName": "Altered Nickel",
@@ -153,7 +340,27 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Bag_02": 2,
+        "Bag_03": 3
+      },
+      "missions": {
+        "Main-KOR-MiningTool-1": 6
+      },
+      "jobs": {
+        "NEW-Easy-KOR-Mine-3": 3,
+        "NEW-Medium-KOR-Mine-4": 6
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_2.1": 10,
+        "generate_kmarks_2.1": 10,
+        "kmarks_passive_cap_1.3": 4,
+        "aurum_passive_cap_2.0": 4
+      },
+      "forge": {}
+    }
   },
   "PolariumCrystal": {
     "inGameName": "Polirium Crystal",
@@ -167,7 +374,14 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "BrittleTitanOre": {
     "inGameName": "Brittle Titan Ore",
@@ -181,7 +395,26 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "TitanOre": 6
+      },
+      "missions": {
+        "Main-KOR-GruntWork-3": 7,
+        "Main-KOR-EarlyMap2-3": 6
+      },
+      "jobs": {
+        "NEW-Easy-KOR-Mine-2": 2,
+        "NEW-Hard-KOR-Gather-6": 16
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_3.2": 16,
+        "generate_kmarks_3.1": 10,
+        "kmarks_passive_cap_3.1": 10
+      },
+      "forge": {}
+    }
   },
   "TitanOre": {
     "inGameName": "Titan Ore",
@@ -201,7 +434,34 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Bag_04": 1,
+        "Shield_04": 1,
+        "Mod_Converter_Light_03": 1,
+        "Mod_Converter_Medium_03": 1,
+        "Mod_Converter_Light_AIDMG_03": 1,
+        "Mod_Converter_Medium_AIDMG_03": 1
+      },
+      "missions": {
+        "Main-KOR-MiningTool-5": 3,
+        "Main-KOR-TitanOre-2": 5
+      },
+      "jobs": {
+        "NEW-Medium-KOR-Mine-4": 2
+      },
+      "quarters": {
+        "increase_stash_3.0": 1,
+        "reduce_pq_upgrading_time_4.0": 2,
+        "generate_kmarks_3.2": 1,
+        "kmarks_passive_cap_3.3": 2
+      },
+      "forge": {
+        "Perk_AIProtection": 2,
+        "Perk_AOEReduction": 2
+      }
+    }
   },
   "BrightcapMushroom": {
     "inGameName": "Brightcap Mushroom",
@@ -215,7 +475,35 @@
     "tags": [
       "Loot.Category.Flora"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Consumable_Health_02": 1,
+        "Consumable_Health_05": 2,
+        "Shield_Restoration_01": 2,
+        "Helmet_Restoration_01": 2
+      },
+      "missions": {
+        "Main-Osiris-GainTrust-3": 3,
+        "Main-Osiris-SideWork1-1": 25
+      },
+      "jobs": {
+        "Easy-Osiris-Brightcaps-1": 5,
+        "Medium-Osiris-Brightcaps-1": 12,
+        "Hard-Osiris-Brightcaps-1": 25,
+        "Medium-Brightcaps-Zeal-1": 8,
+        "Medium-Osiris-Conditional-3": 2,
+        "NEW-Easy-Osiris-Brightcaps-1": 5,
+        "NEW-Easy-Osiris-Brightcaps-2": 8,
+        "NEW-Medium-Osiris-Brightcaps-and-PvE-1": 12,
+        "NEW-Hard-Osiris-Brightcaps-1": 15
+      },
+      "quarters": {},
+      "forge": {
+        "Perk_HealthRegen": 3,
+        "Perk_StaminaConsumption": 3
+      }
+    }
   },
   "MeteorCore": {
     "inGameName": "Meteor Core",
@@ -229,7 +517,38 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {
+        "WP_A_Sniper_Gauss_01": 10,
+        "WP_A_Launch_MSL_01": 10,
+        "WP_G_HVY_Beam_01": 10,
+        "Helmet_NV_01": 4
+      },
+      "missions": {
+        "Main-KOR-BuildLaserDrill-8": 2,
+        "Main-ICA-MeteorReactor-3": 3
+      },
+      "jobs": {
+        "Medium-Osiris-Meteor-1": 1,
+        "Hard-Osiris-Meteor-1": 3,
+        "NEW-Hard-Osiris-Meteor-1": 2,
+        "NEW-Hard-Osiris-Meteor-2": 2,
+        "NEW-Hard-KOR-Meteor-1": 1,
+        "NEW-Hard-KOR-Meteor-3": 3
+      },
+      "quarters": {
+        "increase_stash_5.0": 4,
+        "increase_bag_4.0": 3,
+        "generate_kmarks_3.2": 3,
+        "kmarks_passive_cap_4.1": 4,
+        "aurum_passive_cap_3.2": 3
+      },
+      "forge": {
+        "Perk_MaxCapacity": 2,
+        "Perk_WeightAll": 2
+      }
+    }
   },
   "MeteorFragment": {
     "inGameName": "Meteor Fragment",
@@ -243,7 +562,33 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "DerelictExplosives": 1
+      },
+      "missions": {
+        "Main-KOR-GruntWork-7": 3,
+        "Main-ICA-MeteorReactor-1": 3
+      },
+      "jobs": {
+        "Easy-Osiris-Meteor-1": 3,
+        "NEW-Hard-ICA-Mine-2": 4,
+        "NEW-Medium-Osiris-Meteor-1": 4,
+        "NEW-Hard-Osiris-Meteor-2": 6,
+        "NEW-Medium-KOR-Meteor-1": 2,
+        "NEW-Hard-KOR-Meteor-2": 8
+      },
+      "quarters": {
+        "increase_stash_4.0": 9,
+        "kmarks_passive_cap_2.3": 5,
+        "aurum_passive_cap_2.3": 6
+      },
+      "forge": {
+        "Perk_StormProtection": 2,
+        "Perk_ItemWeightReduction": 2
+      }
+    }
   },
   "BlueRunnerEgg": {
     "inGameName": "Blue Runner Egg",
@@ -257,7 +602,26 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-StrongStims-2": 3
+      },
+      "jobs": {
+        "Medium-Osiris-Tracking-1": 1,
+        "Medium-Osiris-Hunt-1_0": 1,
+        "NEW-Easy-Osiris-BlueRunnerEgg-1": 1,
+        "NEW-Medium-Osiris-BlueRunnerEgg-1": 3
+      },
+      "quarters": {
+        "kmarks_passive_cap_3.2": 9
+      },
+      "forge": {
+        "Perk_FallingDamage": 2,
+        "Perk_WalkSpeed": 2
+      }
+    }
   },
   "Alloys": {
     "inGameName": "Metallic Alloys",
@@ -272,7 +636,32 @@
       "Loot.Category.Construction",
       "Loot.Category.Mechanical"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-BuildLaserDrill-1": 15,
+        "Main-ICA-GainTrust-3": 3,
+        "Main-ICA-GruntWork-3": 3,
+        "Main-ICA-GasGrenades-2": 10,
+        "Main-ICA-OilPump-3": 20,
+        "Main-Osiris-PrototypeLaser-1": 10
+      },
+      "jobs": {
+        "Easy-ICA-Materials-1": 2,
+        "Medium-ICA-Materials-1": 7,
+        "Hard-ICA-Materials-1": 8,
+        "NEW-Easy-ICA-Gather-3": 10,
+        "NEW-Medium-ICA-Gather-1": 10,
+        "NEW-Medium-ICA-Gather-4": 10
+      },
+      "quarters": {
+        "increase_stash_2.0": 5,
+        "reduce_pq_upgrading_time_1.1": 3,
+        "generate_aurum_1.3": 5
+      },
+      "forge": {}
+    }
   },
   "SpareCasing": {
     "inGameName": "Hardened Metals",
@@ -286,7 +675,36 @@
     "tags": [
       "Loot.Category.Generic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Consumable_GasGrenade_01": 2,
+        "Consumable_AudioDecoy_01": 2,
+        "ShockGrenade_02": 2,
+        "Helmet_02": 2,
+        "Helmet_Tactical_02": 2,
+        "Helmet_Restoration_01": 2,
+        "Mod_Optic_1x_02": 2
+      },
+      "missions": {
+        "Main-ICA-GainTrust-1": 2
+      },
+      "jobs": {
+        "NEW-Easy-KOR-Gather-4": 10,
+        "NEW-Hard-KOR-Gather-3": 16,
+        "NEW-Medium-ICA-Gather-2": 4,
+        "NEW-Medium-ICA-Gather-4": 12,
+        "NEW-Hard-ICA-Gather-6": 12
+      },
+      "quarters": {
+        "playerquarter_2": 5,
+        "increase_stash_1.0": 3,
+        "generate_kmarks_1.0": 3,
+        "kmarks_passive_cap_1.0": 3,
+        "aurum_passive_cap_1.1": 3
+      },
+      "forge": {}
+    }
   },
   "OpticGlass": {
     "inGameName": "Optic Glass",
@@ -300,7 +718,35 @@
     "tags": [
       "Loot.Category.Scientific"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Mod_Optic_4x_01": 2,
+        "Mod_Optic_1x_02": 1,
+        "Mod_Optic_Variable_01": 3,
+        "Mod_Optic_8x_01": 3,
+        "Mod_Optic_6x_01": 3
+      },
+      "missions": {
+        "Main-KOR-GruntWork-2": 2,
+        "Main-KOR-LetiumResearch-1": 5,
+        "Main-Osiris-GruntWork-1": 2,
+        "Main-Osiris-PrototypeLaser-2": 6
+      },
+      "jobs": {
+        "Easy-Osiris-Materials-1": 2,
+        "Medium-Osiris-Materials-1": 5,
+        "Hard-Osiris-Materials-1": 8,
+        "NEW-Medium-ICA-Gather-3": 5,
+        "NEW-Easy-Osiris-Gather-2": 2,
+        "NEW-Hard-Osiris-Gather-2": 5
+      },
+      "quarters": {
+        "generate_aurum_2.3": 11,
+        "generate_kmarks_2.3": 11
+      },
+      "forge": {}
+    }
   },
   "DerelictExplosives": {
     "inGameName": "Derelict Explosives",
@@ -322,7 +768,30 @@
     "tags": [
       "Loot.Category.Construction"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": 3,
+        "WP_A_Launch_MSL_01": 20,
+        "Mod_Converter_Shotgun_03": 1
+      },
+      "missions": {
+        "Main-Osiris-ExplosivesTry-1": 6
+      },
+      "jobs": {
+        "Easy-KOR-Materials-1": 2,
+        "Medium-KOR-Materials-1": 5,
+        "Hard-KOR-Materials-1": 8,
+        "NEW-Medium-KOR-Gather-1": 4,
+        "NEW-Hard-KOR-Gather-5": 10,
+        "NEW-Hard-ICA-Gather-1": 8,
+        "NEW-Hard-KOR-Mine-5": 10
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_4.1": 18
+      },
+      "forge": {}
+    }
   },
   "PolymetallicPrefabricate": {
     "inGameName": "Polymetallic Prefabricate",
@@ -336,7 +805,32 @@
     "tags": [
       "Loot.Category.Scientific"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "PortableLabEquipmentBox": 8,
+        "Bag_02": 2,
+        "Shield_02": 2,
+        "Shield_Tactical_02": 2,
+        "Shield_Restoration_01": 2
+      },
+      "missions": {},
+      "jobs": {
+        "NEW-Easy-KOR-Gather-3": 5,
+        "NEW-Medium-KOR-Gather-4": 8,
+        "NEW-Easy-ICA-Gather-2": 4,
+        "NEW-Easy-ICA-Gather-5": 10,
+        "NEW-Medium-ICA-Gather-4": 4,
+        "NEW-Hard-Osiris-Gather-2": 12
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_1.2": 5,
+        "generate_aurum_1.1": 3,
+        "generate_kmarks_1.2": 3,
+        "generate_kmarks_1.4": 5
+      },
+      "forge": {}
+    }
   },
   "CompoundSheets": {
     "inGameName": "Compound Sheets",
@@ -350,7 +844,33 @@
     "tags": [
       "Loot.Category.Generic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-GainTrust-2": 2,
+        "Main-KOR-MiningTool-2": 10,
+        "Main-KOR-BuildLaserDrill-1": 20,
+        "Main-ICA-FTUE-1": 1
+      },
+      "jobs": {
+        "Easy-Osiris_FTUE-Gather-1": 4,
+        "Medium-ICA-Conditional-3": 1,
+        "NEW-Easy-KOR-Gather-1": 5,
+        "NEW-Medium-KOR-Gather-4": 8,
+        "NEW-Hard-KOR-Gather-2": 12,
+        "NEW-Hard-KOR-Gather-5": 15,
+        "NEW-Easy-ICA-Gather-5": 8,
+        "NEW-Hard-ICA-Gather-3": 12
+      },
+      "quarters": {
+        "playerquarter_2": 5,
+        "increase_stash_1.2": 5,
+        "daily_crate_1.1": 3,
+        "aurum_passive_cap_1.3": 5
+      },
+      "forge": {}
+    }
   },
   "HydraulicPiston": {
     "inGameName": "Hydraulic Piston",
@@ -364,7 +884,47 @@
     "tags": [
       "Loot.Category.Mechanical"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "QuestItem_OilPumpBeacon": 12,
+        "Mod_Magazine_Light_03": 5,
+        "Mod_Muzzle_Small_Supressor_01": 5,
+        "Mod_Muzzle_Standard_Supressor_01": 5,
+        "Mod_Magazine_Medium_03": 5,
+        "Mod_Magazine_Heavy_03": 5,
+        "Mod_Magazine_Shotgun_03": 5,
+        "Mod_Magazine_Light_ReloadSpeed_04": 5,
+        "Mod_Magazine_Medium_Reloadspeed_04": 5,
+        "Mod_Magazine_Heavy_ReloadSpeed_04": 5,
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": 5,
+        "Mod_Magazine_Light_EXTReload_02": 5,
+        "Mod_Magazine_Medium_EXTReload_02": 5,
+        "Mod_Converter_Light_03": 5,
+        "Mod_Converter_Medium_03": 5,
+        "Mod_Converter_Heavy_03": 5,
+        "Mod_Converter_Shotgun_03": 5,
+        "Mod_Converter_Light_AIDMG_03": 5,
+        "Mod_Converter_Medium_AIDMG_03": 5,
+        "Mod_ForeGrip_ADS_03": 5
+      },
+      "missions": {
+        "Main-KOR-GainTrust-2": 1,
+        "Main-ICA-GasGrenades-2": 7,
+        "Main-ICA-OilPump-3": 12
+      },
+      "jobs": {
+        "NEW-Easy-KOR-Gather-4": 2,
+        "NEW-Hard-KOR-Gather-1": 3
+      },
+      "quarters": {
+        "increase_stash_3.1": 12,
+        "reduce_pq_upgrading_time_2.2": 12,
+        "daily_crate_2.1": 8,
+        "kmarks_passive_cap_2.0": 3
+      },
+      "forge": {}
+    }
   },
   "Gyroscope": {
     "inGameName": "Gyroscope",
@@ -378,7 +938,31 @@
     "tags": [
       "Loot.Category.Scientific"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "WP_G_HVY_Beam_01": 3,
+        "Helmet_05": 1,
+        "Helmet_Tactical_05": 1,
+        "Helmet_Restoration_04": 1
+      },
+      "missions": {
+        "Main-KOR-BuildLaserDrill-5": 1,
+        "Main-ICA-OilPump-8": 2,
+        "Main-Osiris-PrototypeLaser-2": 1
+      },
+      "jobs": {
+        "NEW-Medium-Osiris-Gather-3": 1,
+        "NEW-Hard-Osiris-Gather-3": 3,
+        "NEW-Hard-Osiris-Gather-6": 3,
+        "NEW-Hard-Osiris-Gather-7": 3
+      },
+      "quarters": {
+        "generate_aurum_3.3": 1,
+        "kmarks_passive_cap_3.3": 1
+      },
+      "forge": {}
+    }
   },
   "BallBearings": {
     "inGameName": "Ball Bearings",
@@ -393,7 +977,27 @@
       "Loot.Category.Mechanical",
       "Loot.Category.Construction"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "AutoLoader": 5
+      },
+      "missions": {
+        "Main-KOR-MiningTool-2": 5,
+        "Main-ICA-AudioDecoys-2": 5
+      },
+      "jobs": {
+        "NEW-Easy-KOR-Gather-2": 2,
+        "NEW-Medium-KOR-Gather-2": 3,
+        "NEW-Hard-KOR-Gather-1": 3
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_3.0": 15,
+        "generate_kmarks_2.4": 15,
+        "daily_crate_3.0": 12
+      },
+      "forge": {}
+    }
   },
   "PrintResin": {
     "inGameName": "Print Resin",
@@ -414,7 +1018,31 @@
     "tags": [
       "Loot.Category.Generic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Shield_05": 6,
+        "Shield_Tactical_05": 6,
+        "Shield_Restoration_04": 6,
+        "Mod_Optic_4x_01": 1,
+        "Mod_Optic_Variable_01": 2,
+        "Mod_Optic_8x_01": 2,
+        "Mod_Optic_6x_01": 2
+      },
+      "missions": {
+        "Main-KOR-CraftingBackpack-1": 2
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_7": 9,
+        "increase_stash_4.1": 8,
+        "reduce_pq_upgrading_time_2.0": 1,
+        "generate_aurum_2.4": 6,
+        "generate_kmarks_3.4": 12,
+        "kmarks_passive_cap_2.1": 1
+      },
+      "forge": {}
+    }
   },
   "MultiTool": {
     "inGameName": "Salvaged Co-TEC MultiTool",
@@ -428,7 +1056,40 @@
     "tags": [
       "Loot.Category.Mechanical"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "CombatCPU_red": 2,
+        "Mod_Magazine_Light_03": 2,
+        "Mod_Magazine_Medium_03": 2,
+        "Mod_Magazine_Heavy_03": 2,
+        "Mod_Magazine_Shotgun_03": 2,
+        "Mod_Magazine_Light_ReloadSpeed_04": 2,
+        "Mod_Magazine_Medium_Reloadspeed_04": 2,
+        "Mod_Magazine_Heavy_ReloadSpeed_04": 2,
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": 2,
+        "Mod_Magazine_Light_EXTReload_02": 2,
+        "Mod_Magazine_Medium_EXTReload_02": 2,
+        "Mod_Stock_Marksman_ADSEquip_02": 2,
+        "Mod_ForeGrip_ADS_03": 2
+      },
+      "missions": {
+        "Main-KOR-BuildLaserDrill-3": 5,
+        "Main-ICA-MeteorReactor-2": 3
+      },
+      "jobs": {
+        "NEW-Hard-KOR-Gather-1": 2
+      },
+      "quarters": {
+        "playerquarter_6": 9,
+        "increase_stash_3.0": 4,
+        "reduce_pq_upgrading_time_3.1": 7,
+        "generate_kmarks_3.3": 9,
+        "kmarks_passive_cap_3.0": 6,
+        "aurum_passive_cap_3.1": 8
+      },
+      "forge": {}
+    }
   },
   "ShardSlicer": {
     "inGameName": "Shard Slicer",
@@ -443,7 +1104,26 @@
       "Loot.Category.Housing",
       "Loot.Category.Farming"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-GruntWork-5": 1,
+        "Main-ICA-OilPump-6": 6,
+        "Main-ICA-ExtraWork2-1": 1
+      },
+      "jobs": {
+        "NEW-Medium-ICA-Gather-2": 2,
+        "NEW-Hard-ICA-Gather-5": 8,
+        "NEW-Hard-ICA-Gather-6": 4
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_3.0": 5,
+        "generate_kmarks_4.0": 10,
+        "kmarks_passive_cap_4.1": 11
+      },
+      "forge": {}
+    }
   },
   "CombatCPU_Blue": {
     "inGameName": "Zero Systems CPU",
@@ -458,7 +1138,32 @@
       "Loot.Category.Electronic",
       "Loot.Category.Scientific"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "CombatCPU_red": 3,
+        "Shield_03": 2,
+        "Shield_Tactical_03": 2,
+        "Shield_Restoration_02": 2
+      },
+      "missions": {
+        "Main-KOR-GruntWork-5": 3,
+        "Main-ICA-GruntWork-3": 1
+      },
+      "jobs": {
+        "NEW-Medium-KOR-Gather-2": 2,
+        "NEW-Hard-KOR-Gather-3": 5,
+        "NEW-Hard-ICA-Gather-1": 4,
+        "NEW-Hard-ICA-Gather-6": 1
+      },
+      "quarters": {
+        "increase_stash_3.2": 9,
+        "generate_aurum_3.1": 8,
+        "generate_kmarks_2.4": 8,
+        "generate_kmarks_3.4": 12
+      },
+      "forge": {}
+    }
   },
   "CombatCPU_red": {
     "inGameName": "Master Unit CPU",
@@ -480,7 +1185,24 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-OilPump-6": 3
+      },
+      "jobs": {
+        "NEW-Medium-KOR-Gather-5": 1,
+        "NEW-Hard-KOR-Gather-5": 2,
+        "NEW-Hard-Osiris-Gather-4": 2
+      },
+      "quarters": {
+        "increase_stash_5.1": 1,
+        "generate_aurum_4.0": 1,
+        "generate_kmarks_4.1": 1
+      },
+      "forge": {}
+    }
   },
   "MiniatureReactor": {
     "inGameName": "Miniature Reactor",
@@ -494,7 +1216,37 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "CombatCPU_red": 1,
+        "Mod_Stock_Standard_ADSEquip_02": 1
+      },
+      "missions": {
+        "Main-KOR-BuildLaserDrill-5": 5,
+        "Main-ICA-OilPump-8": 5,
+        "Main-ICA-OilScanModule-2": 5,
+        "Main-ICA-ExtraWork2-1": 3
+      },
+      "jobs": {
+        "NEW-Hard-KOR-Gather-4": 4,
+        "NEW-Easy-ICA-Powerup-1": 1,
+        "NEW-Medium-ICA-Powerup-1": 2,
+        "NEW-Medium-ICA-Powerup-2": 3,
+        "NEW-Hard-ICA-Powerup-1": 5,
+        "Main-ICA-GruntWork-2": 1
+      },
+      "quarters": {
+        "increase_stash_4.1": 5,
+        "increase_bag_3.0": 4,
+        "generate_aurum_3.4": 6,
+        "aurum_passive_cap_3.0": 4
+      },
+      "forge": {
+        "Perk_StaminaRegenDelay_Storm": 2,
+        "Perk_WeightAll": 2
+      }
+    }
   },
   "ShockAbsorber": {
     "inGameName": "Shock Absorber",
@@ -508,7 +1260,27 @@
     "tags": [
       "Loot.Category.Construction"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "AutoLoader": 1,
+        "Mod_Stock_Standard_ADSEquip_02": 1,
+        "Mod_Stock_Marksman_ADSEquip_02": 1
+      },
+      "missions": {
+        "Main-ICA-OilPump-3": 5
+      },
+      "jobs": {
+        "NEW-Hard-ICA-Gather-3": 2,
+        "NEW-Hard-KOR-Gather-7": 3
+      },
+      "quarters": {
+        "increase_stash_4.0": 2,
+        "reduce_pq_upgrading_time_4.2": 4,
+        "daily_crate_3.1": 1
+      },
+      "forge": {}
+    }
   },
   "AutoLoader": {
     "inGameName": "Autoloader",
@@ -530,7 +1302,25 @@
     "tags": [
       "Loot.Category.Mechanical"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Mod_Converter_Light_03": 1,
+        "Mod_Converter_Medium_03": 1,
+        "Mod_Converter_Heavy_03": 1,
+        "Mod_Converter_Shotgun_03": 1,
+        "Mod_Converter_Light_AIDMG_03": 1,
+        "Mod_Converter_Medium_AIDMG_03": 1
+      },
+      "missions": {},
+      "jobs": {
+        "NEW-Medium-ICA-Gather-3": 1,
+        "NEW-Hard-ICA-Gather-5": 2,
+        "NEW-Hard-Osiris-Gather-6": 3
+      },
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MagneticFieldStabilizer": {
     "inGameName": "Magnetic Field Stabilizer",
@@ -544,7 +1334,31 @@
     "tags": [
       "Loot.Category.Construction"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "PortableLabEquipmentBox": 5,
+        "ShockGrenade_03": 2,
+        "Mod_Converter_Heavy_03": 5
+      },
+      "missions": {
+        "Main-KOR-BuildLaserDrill-3": 10,
+        "Main-ICA-MeteorReactor-1": 6
+      },
+      "jobs": {
+        "NEW-Easy-KOR-Gather-3": 2,
+        "NEW-Medium-KOR-Gather-4": 4,
+        "NEW-Medium-Osiris-Gather-1": 2
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_3.1": 18,
+        "generate_aurum_2.1": 8,
+        "generate_aurum_3.2": 21,
+        "daily_crate_3.1": 14,
+        "kmarks_passive_cap_2.3": 10
+      },
+      "forge": {}
+    }
   },
   "Datapad": {
     "inGameName": "Interactive Screen",
@@ -558,7 +1372,35 @@
     "tags": [
       "Loot.Category.Electronic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "PortableLabEquipmentBox": 2,
+        "QuestItem_OrbitalCanonTargetBeacon": 4,
+        "WP_A_Sniper_Gauss_01": 25,
+        "Helmet_05": 1,
+        "Helmet_Tactical_03": 1,
+        "Helmet_Tactical_04": 1,
+        "Helmet_Tactical_05": 3,
+        "Helmet_Restoration_04": 2
+      },
+      "missions": {
+        "Main-ICA-OilScanModule-2": 5
+      },
+      "jobs": {
+        "NEW-Medium-Osiris-Gather-1": 2,
+        "NEW-Medium-Osiris-Gather-3": 1,
+        "NEW-Hard-Osiris-Gather-2": 2,
+        "NEW-Hard-Osiris-Gather-7": 3
+      },
+      "quarters": {
+        "playerquarter_7": 7,
+        "generate_aurum_3.0": 5,
+        "kmarks_passive_cap_3.1": 5,
+        "aurum_passive_cap_3.3": 9
+      },
+      "forge": {}
+    }
   },
   "OldCurrency": {
     "inGameName": "Old Currency",
@@ -572,7 +1414,24 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10000
+    "stackSize": 10000,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-BuildLaserDrill-6": 8000,
+        "Main-ICA-Caverns-13.1": 30000
+      },
+      "jobs": {
+        "NEW-Hard-ICA-Gather-2": 6000
+      },
+      "quarters": {
+        "generate_aurum_1.3": 750,
+        "generate_aurum_2.3": 2750,
+        "generate_kmarks_1.4": 750,
+        "generate_kmarks_3.3": 5625
+      },
+      "forge": {}
+    }
   },
   "RadioactiveBrightcapMushroom": {
     "inGameName": "Glowy Brightcap Mushroom",
@@ -586,7 +1445,35 @@
     "tags": [
       "Loot.Category.Flora"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Shield_Restoration_02": 2,
+        "Shield_Restoration_03": 5,
+        "Shield_Restoration_04": 5,
+        "Helmet_Restoration_02": 2,
+        "Helmet_Restoration_03": 3,
+        "Helmet_Restoration_04": 3
+      },
+      "missions": {
+        "Main-Osiris-StormSamples-1": 10,
+        "Main-Osiris-StrongMedkits-2": 8,
+        "Main-Osiris-CraftFuel-1": 10,
+        "Main-Osiris-CombatStims-2": 10,
+        "Main-Osiris-Caverns-9": 5
+      },
+      "jobs": {
+        "Hard-Osiris-Brightcaps-2": 5,
+        "NEW-Medium-Osiris-Brightcaps-3": 3,
+        "NEW-Hard-Osiris-Brightcaps-and-PvE-1": 6,
+        "NEW-Hard-Osiris-Brightcaps-1": 8
+      },
+      "quarters": {},
+      "forge": {
+        "Perk_HealingSpeed": 2,
+        "Perk_HealthRegen_Storm": 2
+      }
+    }
   },
   "BlueWood": {
     "inGameName": "Azure Tree Bark",
@@ -601,7 +1488,25 @@
       "Loot.Category.Housing",
       "Loot.Category.Farming"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-GainTrust-4": 3,
+        "Main-Osiris-SideWork1-1": 12
+      },
+      "jobs": {
+        "NEW-Medium-ICA-Gather-1": 8
+      },
+      "quarters": {
+        "playerquarter_4": 12,
+        "increase_stash_1.1": 2,
+        "daily_crate_1.0": 2,
+        "kmarks_passive_cap_2.0": 3,
+        "aurum_passive_cap_2.1": 8
+      },
+      "forge": {}
+    }
   },
   "WaterPlant": {
     "inGameName": "Waterweed Filament",
@@ -615,7 +1520,35 @@
     "tags": [
       "Loot.Category.Flora"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Consumable_Health_02": 1,
+        "Consumable_Health_04": 2,
+        "Consumable_Health_06": 3,
+        "Shield_Tactical_02": 2
+      },
+      "missions": {
+        "Main-Osiris-GainTrust-1": 1,
+        "Main-Osiris-CaveRumors-1": 12,
+        "Main-Osiris-SideWork1-2": 25,
+        "Main-Osiris-StrongMedkits-1": 15
+      },
+      "jobs": {
+        "NEW-Easy-ICA-Flora-1": 6,
+        "NEW-Medium-ICA-Flora-1": 10,
+        "NEW-Medium-ICA-Flora-and-PvP-1": 8,
+        "NEW-Easy-Osiris-Flora-and-PvE-1": 3,
+        "NEW-Medium-Osiris-Flora-1": 8
+      },
+      "quarters": {
+        "increase_stash_2.1": 3
+      },
+      "forge": {
+        "Perk_MaxStamina": 3,
+        "Perk_ItemWeightReduction": 3
+      }
+    }
   },
   "DesertPlant": {
     "inGameName": "Dustbloom",
@@ -629,7 +1562,30 @@
     "tags": [
       "Loot.Category.Flora"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Bag_04": 1,
+        "Shield_Tactical_04": 2
+      },
+      "missions": {
+        "Main-Osiris-SideWork1-4": 3,
+        "Main-Osiris-CraftFuel-1": 5,
+        "Main-Osiris-CombatStims-3": 8
+      },
+      "jobs": {
+        "NEW-Medium-Osiris-Flora-2": 1
+      },
+      "quarters": {
+        "increase_stash_5.0": 2,
+        "generate_aurum_4.2": 5,
+        "generate_kmarks_4.1": 4
+      },
+      "forge": {
+        "Perk_MaxCapacity": 2,
+        "Perk_WeightFaunaResources": 2
+      }
+    }
   },
   "IvyPlant": {
     "inGameName": "Pale Ivy Blossom",
@@ -643,7 +1599,33 @@
     "tags": [
       "Loot.Category.Flora"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "PrintResin": 3,
+        "Consumable_Health_04": 1,
+        "Consumable_Health_06": 1,
+        "Bag_03": 1,
+        "Shield_Tactical_03": 2
+      },
+      "missions": {
+        "Main-Osiris-GruntWork-5": 1,
+        "Main-Osiris-StrongMedkits-2": 10,
+        "Main-Osiris-EarlyMap2-2": 3
+      },
+      "jobs": {
+        "NEW-Easy-Osiris-Flora-1": 5,
+        "NEW-Medium-Osiris-Flora-1": 6
+      },
+      "quarters": {
+        "increase_stash_3.1": 3
+      },
+      "forge": {
+        "Perk_HealthRegen": 2,
+        "Perk_HealingAmount": 2,
+        "Perk_HealthRegen_Storm": 2
+      }
+    }
   },
   "AlienFruit": {
     "inGameName": "Indigenous Fruit",
@@ -657,7 +1639,24 @@
     "tags": [
       "Loot.Category.Flora"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-CommunityWork-3": 8
+      },
+      "jobs": {
+        "NEW-Medium-Osiris-Gather-5": 4
+      },
+      "quarters": {
+        "generate_aurum_3.0": 12
+      },
+      "forge": {
+        "Perk_HealthRegen": 3,
+        "Perk_ItemWeightReduction": 3,
+        "Perk_WeightFaunaResources": 3
+      }
+    }
   },
   "Fabrics": {
     "inGameName": "Textiles",
@@ -671,7 +1670,23 @@
     "tags": [
       "Loot.Category.Housing"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Bag_03": 2
+      },
+      "missions": {
+        "Main-KOR-CraftingBackpack-2": 6,
+        "Main-ICA-ExtraWork2-1": 5
+      },
+      "jobs": {},
+      "quarters": {
+        "increase_bag_1.0": 2,
+        "daily_crate_3.0": 14,
+        "aurum_passive_cap_2.2": 11
+      },
+      "forge": {}
+    }
   },
   "Cables": {
     "inGameName": "Electronic Cables",
@@ -686,7 +1701,29 @@
       "Loot.Category.Electronic",
       "Loot.Category.Scientific"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "DerelictExplosives": 4,
+        "QuestItem_LaserDrillBeacon": 18,
+        "Consumable_AudioDecoy_01": 2,
+        "Helmet_Tactical_02": 2
+      },
+      "missions": {
+        "Main-KOR-MiningTool-5": 5,
+        "Main-KOR-Veltecite-1": 5
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_3": 9,
+        "generate_aurum_1.2": 3,
+        "generate_kmarks_1.1": 3,
+        "generate_kmarks_2.0": 5,
+        "kmarks_passive_cap_2.4": 18,
+        "aurum_passive_cap_2.2": 15
+      },
+      "forge": {}
+    }
   },
   "Insulation": {
     "inGameName": "Salvaged Insulation",
@@ -700,7 +1737,23 @@
     "tags": [
       "Loot.Category.Generic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-CraftingBackpack-2": 10,
+        "Main-Osiris-SatelliteRepairs-3": 20,
+        "Main-KOR-EarlyMap2-3": 6
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_3": 6,
+        "daily_crate_2.1": 8,
+        "kmarks_passive_cap_1.3": 3,
+        "kmarks_passive_cap_3.2": 21
+      },
+      "forge": {}
+    }
   },
   "CopperWire": {
     "inGameName": "Copper Wire",
@@ -714,7 +1767,27 @@
     "tags": [
       "Loot.Category.Construction"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "ShockGrenade_02": 2
+      },
+      "missions": {
+        "Main-KOR-BuildLaserDrill-5": 15,
+        "Main-ICA-AudioDecoys-2": 8,
+        "Main-ICA-OilScanModule-1": 9
+      },
+      "jobs": {
+        "NEW-Medium-Osiris-Gather-2": 5
+      },
+      "quarters": {
+        "increase_stash_2.2": 12,
+        "generate_aurum_1.4": 5,
+        "generate_aurum_2.4": 23,
+        "generate_kmarks_1.3": 5
+      },
+      "forge": {}
+    }
   },
   "SmartMesh": {
     "inGameName": "Smart Mesh",
@@ -729,7 +1802,34 @@
       "Loot.Category.Mechanical",
       "Loot.Category.Construction"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "PrintResin": 1,
+        "QuestItem_LaserDrillBeacon": 2,
+        "Bag_04": 1,
+        "Shield_04": 2,
+        "Shield_Tactical_04": 2,
+        "Shield_Restoration_03": 2,
+        "Mod_Muzzle_Small_Supressor_01": 1,
+        "Mod_Muzzle_Standard_Supressor_01": 1
+      },
+      "missions": {
+        "Main-KOR-BuildLaserDrill-1": 5,
+        "Main-ICA-CommunityWork-3": 3,
+        "Main-ICA-OilPump-8": 6,
+        "Main-Osiris-SatelliteRepairs-3": 8
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_8": 12,
+        "increase_stash_3.2": 5,
+        "reduce_pq_upgrading_time_3.2": 8,
+        "daily_crate_4.0": 6,
+        "kmarks_passive_cap_2.2": 2
+      },
+      "forge": {}
+    }
   },
   "CircuitBoard": {
     "inGameName": "Circuit Board",
@@ -743,7 +1843,30 @@
     "tags": [
       "Loot.Category.Electronic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-GainTrust-4": 1,
+        "Main-KOR-Veltecite-1": 5,
+        "Main-KOR-BuildLaserDrill-3": 10,
+        "Main-ICA-GainTrust-3": 1,
+        "Main-ICA-OilPump-6": 15,
+        "Main-ICA-OilScanModule-2": 10,
+        "Main-Osiris-PrototypeLaser-1": 8
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_4": 12,
+        "generate_aurum_2.2": 10,
+        "generate_kmarks_1.3": 3,
+        "generate_kmarks_2.3": 11,
+        "kmarks_passive_cap_3.0": 15,
+        "aurum_passive_cap_2.1": 8,
+        "aurum_passive_cap_2.4": 15
+      },
+      "forge": {}
+    }
   },
   "RadioSpareParts": {
     "inGameName": "Radio Equipment",
@@ -757,7 +1880,27 @@
     "tags": [
       "Loot.Category.Electronic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "DerelictExplosives": 3,
+        "Helmet_04": 4,
+        "Helmet_Tactical_04": 5,
+        "Helmet_Restoration_03": 5
+      },
+      "missions": {
+        "Main-KOR-TitanOre-1": 5,
+        "Main-ICA-OilScanModule-1": 10,
+        "Main-Osiris-PrototypeLaser-2": 10
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_5": 15,
+        "generate_kmarks_2.0": 3,
+        "aurum_passive_cap_3.0": 15
+      },
+      "forge": {}
+    }
   },
   "Antibiotics": {
     "inGameName": "Old Medicine",
@@ -771,7 +1914,21 @@
     "tags": [
       "Loot.Category.Medical"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Consumable_Health_02": 1,
+        "Consumable_Health_04": 2
+      },
+      "missions": {
+        "Main-Osiris-StrongStims-2": 5
+      },
+      "jobs": {
+        "NEW-Medium-KOR-Gather-6": 10
+      },
+      "quarters": {},
+      "forge": {}
+    }
   },
   "PortableLabEquipmentBox": {
     "inGameName": "Portable Lab",
@@ -795,7 +1952,22 @@
       "Loot.Category.Scientific",
       "Loot.Category.Electronic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-LetiumResearch-1": 1,
+        "Main-Osiris-CrystalSamples-2": 1,
+        "Main-Osiris-CombatStims-2": 1
+      },
+      "jobs": {},
+      "quarters": {
+        "increase_bag_4.0": 1,
+        "daily_crate_4.1": 1,
+        "kmarks_passive_cap_4.2": 2
+      },
+      "forge": {}
+    }
   },
   "Battery": {
     "inGameName": "Fusion Cartridge Batteries",
@@ -809,7 +1981,22 @@
     "tags": [
       "Loot.Category.Housing"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-GruntWork-3": 3,
+        "Main-ICA-GruntWork-7": 5,
+        "Main-Osiris-PrototypeLaser-1": 8
+      },
+      "jobs": {},
+      "quarters": {
+        "kmarks_passive_cap_1.2": 1,
+        "aurum_passive_cap_1.3": 2,
+        "aurum_passive_cap_2.4": 8
+      },
+      "forge": {}
+    }
   },
   "LiquidFertilizer": {
     "inGameName": "Magic-GROW Fertilizer",
@@ -823,7 +2010,23 @@
     "tags": [
       "Loot.Category.Farming"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-CommunityWork-3": 15,
+        "Main-Osiris-SideWork1-1": 10,
+        "Main-Osiris-CraftFuel-1": 10
+      },
+      "jobs": {
+        "NEW-Medium-ICA-Gather-5": 8
+      },
+      "quarters": {
+        "increase_stash_2.2": 12,
+        "generate_aurum_2.0": 5
+      },
+      "forge": {}
+    }
   },
   "SamplingDevice": {
     "inGameName": "Biological Sampler",
@@ -837,7 +2040,24 @@
     "tags": [
       "Loot.Category.Medical"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "PortableLabEquipmentBox": 2
+      },
+      "missions": {
+        "Main-ICA-OilSearch-3": 5,
+        "Main-ICA-Caverns-4": 5
+      },
+      "jobs": {
+        "NEW-Medium-Osiris-Gather-5": 4
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_2.2": 5,
+        "generate_kmarks_3.0": 6
+      },
+      "forge": {}
+    }
   },
   "AnaestheticsContainers": {
     "inGameName": "Medical Supplies",
@@ -851,7 +2071,24 @@
     "tags": [
       "Loot.Category.Medical"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Consumable_Health_05": 1,
+        "Consumable_Health_06": 2
+      },
+      "missions": {
+        "Main-Osiris-StrongStims-1": 4,
+        "Main-Osiris-StrongMedkits-1": 3,
+        "Main-Osiris-CombatStims-2": 5
+      },
+      "jobs": {},
+      "quarters": {
+        "increase_stash_4.2": 23,
+        "daily_crate_4.1": 20
+      },
+      "forge": {}
+    }
   },
   "ProteinBar": {
     "inGameName": "Nutritional Bar",
@@ -865,7 +2102,21 @@
     "tags": [
       "Loot.Category.Farming"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-EarlyMap2-4": 3
+      },
+      "jobs": {
+        "NEW-Hard-ICA-Gather-7": 8
+      },
+      "quarters": {
+        "increase_bag_2.0": 4,
+        "aurum_passive_cap_2.0": 2
+      },
+      "forge": {}
+    }
   },
   "Jewellery": {
     "inGameName": "Jewellery",
@@ -879,7 +2130,21 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-FirstExtraWork-2": 5
+      },
+      "jobs": {
+        "NEW-Hard-ICA-Gather-8": 10
+      },
+      "quarters": {
+        "generate_aurum_3.2": 11,
+        "generate_kmarks_2.1": 4
+      },
+      "forge": {}
+    }
   },
   "SampleContainer": {
     "inGameName": "Sample Container",
@@ -894,7 +2159,23 @@
       "Loot.Category.Housing",
       "Loot.Category.Farming"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-OilSearch-2": 5,
+        "Main-Osiris-CrystalSamples-2": 8
+      },
+      "jobs": {},
+      "quarters": {
+        "increase_stash_2.0": 2,
+        "increase_bag_3.0": 8,
+        "reduce_pq_upgrading_time_2.1": 4,
+        "kmarks_passive_cap_2.1": 2,
+        "aurum_passive_cap_3.1": 10
+      },
+      "forge": {}
+    }
   },
   "AluminumParts": {
     "inGameName": "Aluminum Scrap",
@@ -908,7 +2189,32 @@
     "tags": [
       "Loot.Category.Generic"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "AutoLoader": 5,
+        "QuestItem_OilPumpBeacon": 12,
+        "ShockGrenade_03": 1,
+        "Helmet_03": 2,
+        "Helmet_Tactical_03": 2,
+        "Helmet_Restoration_02": 2,
+        "Mod_Muzzle_Small_Supressor_01": 3,
+        "Mod_Muzzle_Standard_Supressor_01": 3
+      },
+      "missions": {
+        "Main-KOR-EarlyMap2-2": 3
+      },
+      "jobs": {
+        "NEW-Easy-ICA-Gather-1": 6
+      },
+      "quarters": {
+        "playerquarter_6": 18,
+        "increase_bag_2.0": 4,
+        "reduce_pq_upgrading_time_2.0": 2,
+        "daily_crate_2.0": 4
+      },
+      "forge": {}
+    }
   },
   "GenericCreatureDrop": {
     "inGameName": "Spinal Base",
@@ -922,7 +2228,40 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Shield_02": 5,
+        "Shield_Tactical_02": 5,
+        "Shield_Restoration_01": 5,
+        "Helmet_02": 5,
+        "Helmet_Tactical_02": 4,
+        "Helmet_Restoration_01": 4
+      },
+      "missions": {
+        "Main-KOR-LetiumRumors-3": 20,
+        "Main-KOR-LetiumResearch-2": 20,
+        "Main-ICA-GainTrust-1": 3,
+        "Main-Osiris-GainTrust-2": 3
+      },
+      "jobs": {
+        "Easy-Osiris-Hunt-1": 5,
+        "Medium-Osiris-Hunt-1": 10,
+        "Hard-Osiris-Hunt-1": 15,
+        "Medium-KOR-Conditional-4": 2,
+        "Medium-Osiris-Conditional-4": 2,
+        "NEW-Easy-ICA-Gather-4": 6,
+        "NEW-Easy-Osiris-Gather-1": 4,
+        "NEW-Medium-Osiris-Gather-2": 10,
+        "NEW-Medium-ICA-Gather-and-PvE-1": 10,
+        "NEW-Hard-ICA-Gather-and-PvE-1": 15
+      },
+      "quarters": {
+        "generate_aurum_1.0": 6,
+        "aurum_passive_cap_1.0": 6
+      },
+      "forge": {}
+    }
   },
   "StormyCreatureDrop": {
     "inGameName": "Charged Spinal Base",
@@ -936,7 +2275,27 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-ExtraWork-3": 10,
+        "Main-Osiris-CraftFuel-2": 20,
+        "Main-Osiris-Caverns-9": 5
+      },
+      "jobs": {
+        "Hard-Osiris-Hunt-2": 5,
+        "NEW-Hard-ICA-Gather-and-PvE-4": 14,
+        "NEW-Hard-Osiris-Gather-3": 8,
+        "NEW-Hard-Osiris-Gather-5": 16
+      },
+      "quarters": {},
+      "forge": {
+        "Perk_HealthRegen_Storm": 3,
+        "Perk_StormProtection": 3,
+        "Perk_StaminaRegenDelay_Storm": 3
+      }
+    }
   },
   "NeuroToxicGlands": {
     "inGameName": "Toxic Glands",
@@ -950,7 +2309,27 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Consumable_GasGrenade_01": 1
+      },
+      "missions": {
+        "Main-KOR-LetiumResearch-6": 8,
+        "Main-ICA-GasGrenades-2": 3,
+        "Main-Osiris-StrongStims-2": 2
+      },
+      "jobs": {
+        "NEW-Medium-KOR-Gather-3": 2,
+        "NEW-Hard-Osiris-Gather-1": 7
+      },
+      "quarters": {},
+      "forge": {
+        "Perk_FallingDamage": 3,
+        "Perk_AIDetection": 3,
+        "Perk_WalkSpeed": 3
+      }
+    }
   },
   "AI_StriderHead": {
     "inGameName": "Strider Head",
@@ -964,7 +2343,14 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "AI_RattlerHead": {
     "inGameName": "Rattler Head",
@@ -978,7 +2364,18 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {
+        "Perk_AIProtection": 1,
+        "Perk_HunterVisionHelm": 1,
+        "Perk_AIDetection": 1
+      }
+    }
   },
   "AI_WeremoleHead": {
     "inGameName": "Marauder Head",
@@ -992,7 +2389,17 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {
+        "Perk_MaxHealth": 1,
+        "Perk_HunterVisionHelm": 1
+      }
+    }
   },
   "AI_CrusherHead": {
     "inGameName": "Crusher Head",
@@ -1006,7 +2413,14 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "AlphaCrusherSkull": {
     "inGameName": "Alpha Crusher Skull",
@@ -1021,7 +2435,14 @@
       "Loot.Category.Creature",
       "Loot.Category.Valuable"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "AI_StriderMeat": {
     "inGameName": "Strider Flesh",
@@ -1035,7 +2456,21 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-LetiumResearch-7": 10,
+        "Main-Osiris-GainTrust-4": 3,
+        "Main-Osiris-SideWork1-2": 12
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {
+        "Perk_MaxStamina": 3,
+        "Perk_StaminaConsumption": 3
+      }
+    }
   },
   "AI_RattlerEyes": {
     "inGameName": "Rattler Eyes",
@@ -1049,7 +2484,24 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-LetiumResearch-7": 5,
+        "Main-Osiris-GruntWork-7": 3
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_3": 4,
+        "generate_aurum_2.1": 6
+      },
+      "forge": {
+        "Perk_MaxStamina": 3,
+        "Perk_StaminaConsumption": 3,
+        "Perk_AIDetection": 3
+      }
+    }
   },
   "AI_WeremoleMeat": {
     "inGameName": "Marauder Flesh",
@@ -1063,7 +2515,25 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-LetiumResearch-7": 3,
+        "Main-Osiris-StrongMedkits-1": 3
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_6": 6,
+        "kmarks_passive_cap_3.4": 8,
+        "aurum_passive_cap_3.2": 7
+      },
+      "forge": {
+        "Perk_MaxStamina": 2,
+        "Perk_StormProtection": 2,
+        "Perk_AIDetection": 2
+      }
+    }
   },
   "AI_CrusherMeat": {
     "inGameName": "Crusher Flesh",
@@ -1077,7 +2547,20 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "WP_A_Launch_MSL_01": 8
+      },
+      "missions": {
+        "Main-Osiris-CombatStims-1": 1
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_9": 3
+      },
+      "forge": {}
+    }
   },
   "AI_RattlerSkin": {
     "inGameName": "Rattler Skin",
@@ -1091,7 +2574,30 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Shield_03": 5,
+        "Shield_Tactical_03": 8,
+        "Shield_Restoration_02": 8,
+        "Helmet_03": 2,
+        "Helmet_Tactical_03": 2,
+        "Helmet_Restoration_02": 2
+      },
+      "missions": {
+        "Main-KOR-LetiumResearch-1": 5,
+        "Main-KOR-CraftingBackpack-2": 5,
+        "Main-ICA-OilSearch-3": 8,
+        "Main-Osiris-GainTrust-4": 1,
+        "Main-Osiris-CaveRumors-1": 6,
+        "Main-ICA-ExtraWork2-3": 10
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_2": 3
+      },
+      "forge": {}
+    }
   },
   "HardenedBoneAlloy": {
     "inGameName": "Hardened Bone Plates",
@@ -1105,7 +2611,39 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Shield_04": 2,
+        "Shield_Tactical_04": 3,
+        "Shield_Restoration_03": 3,
+        "Helmet_04": 1,
+        "Helmet_Tactical_04": 1,
+        "Helmet_Restoration_03": 1
+      },
+      "missions": {
+        "Main-KOR-GruntWork-8": 1,
+        "Main-KOR-LetiumResearch-6": 5,
+        "Main-ICA-ExtraWork-3": 5,
+        "Main-ICA-OilPump-4": 5,
+        "Main-Osiris-SideWork1-3": 3,
+        "Main-Osiris-SatelliteRepairs-3": 8,
+        "Main-ICA-ExtraWork2-3": 5
+      },
+      "jobs": {
+        "NEW-Hard-KOR-Gather-2": 4,
+        "NEW-Hard-Osiris-Gather-6": 5
+      },
+      "quarters": {
+        "playerquarter_4": 3,
+        "generate_kmarks_3.0": 5
+      },
+      "forge": {
+        "Perk_MaxStamina": 3,
+        "Perk_AIProtection": 3,
+        "Perk_FallingDamage": 3
+      }
+    }
   },
   "AI_CrusherSkin": {
     "inGameName": "Crusher Hide",
@@ -1119,7 +2657,32 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Shield_05": 2,
+        "Shield_Tactical_05": 3,
+        "Shield_Restoration_04": 3,
+        "Helmet_05": 1,
+        "Helmet_Tactical_05": 1,
+        "Helmet_Restoration_04": 1
+      },
+      "missions": {
+        "Main-Osiris-SatelliteRepairs-4": 3
+      },
+      "jobs": {
+        "NEW-Hard-Osiris-Gather-8": 3
+      },
+      "quarters": {
+        "playerquarter_8": 5,
+        "aurum_passive_cap_3.3": 6
+      },
+      "forge": {
+        "Perk_Armor_Helmet": 2,
+        "Perk_AOEReduction": 2,
+        "Perk_Armor_Shield": 2
+      }
+    }
   },
   "AlphaWardenHeart": {
     "inGameName": "Alpha Crusher Heart",
@@ -1133,7 +2696,30 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {
+        "WP_A_Sniper_Gauss_01": 3,
+        "WP_G_HVY_Beam_01": 3,
+        "Helmet_NV_01": 1
+      },
+      "missions": {
+        "Main-Osiris-TestRun-1": 1
+      },
+      "jobs": {
+        "Easy-ICA-BossHunt-1": 1,
+        "Medium-ICA-BossHunt-1": 2,
+        "Hard-ICA-BossHunt-1": 3,
+        "NEW-Hard-Osiris-EliteCrusher-1": 1
+      },
+      "quarters": {
+        "playerquarter_10": 2,
+        "generate_aurum_4.3": 1,
+        "generate_kmarks_4.3": 1,
+        "aurum_passive_cap_4.3": 2
+      },
+      "forge": {}
+    }
   },
   "Adhesive": {
     "inGameName": "Resin Gun",
@@ -1148,7 +2734,25 @@
       "Loot.Category.Housing",
       "Loot.Category.Farming"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-MiningTool-5": 3,
+        "Main-KOR-CraftingBackpack-1": 5
+      },
+      "jobs": {
+        "NEW-Medium-Osiris-Gather-4": 8
+      },
+      "quarters": {
+        "playerquarter_5": 10,
+        "increase_stash_2.1": 2,
+        "reduce_pq_upgrading_time_1.2": 2,
+        "generate_aurum_2.2": 8,
+        "kmarks_passive_cap_2.4": 9
+      },
+      "forge": {}
+    }
   },
   "KorolevScrip": {
     "inGameName": "Korolev Scrip",
@@ -1162,7 +2766,56 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10000
+    "stackSize": 10000,
+    "uses": {
+      "printing": {
+        "QuestItem_LaserDrillBeacon": 80
+      },
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "increase_stash_1.0": 1,
+        "increase_stash_1.1": 2,
+        "increase_stash_1.2": 2,
+        "increase_stash_2.0": 3,
+        "increase_stash_2.1": 5,
+        "increase_stash_2.2": 8,
+        "increase_stash_3.0": 11,
+        "increase_stash_3.1": 17,
+        "increase_stash_3.2": 26,
+        "increase_stash_4.0": 38,
+        "increase_stash_4.1": 58,
+        "increase_stash_4.2": 86,
+        "increase_stash_5.0": 130,
+        "increase_stash_5.1": 195,
+        "increase_stash_5.2": 292,
+        "increase_bag_1.0": 1,
+        "increase_bag_2.0": 11,
+        "increase_bag_3.0": 86,
+        "increase_bag_4.0": 130,
+        "increase_bag_5.0": 292,
+        "kmarks_passive_cap_1.0": 1,
+        "kmarks_passive_cap_1.1": 2,
+        "kmarks_passive_cap_1.2": 2,
+        "kmarks_passive_cap_1.3": 3,
+        "kmarks_passive_cap_2.0": 3,
+        "kmarks_passive_cap_2.1": 5,
+        "kmarks_passive_cap_2.2": 8,
+        "kmarks_passive_cap_2.3": 11,
+        "kmarks_passive_cap_2.4": 17,
+        "kmarks_passive_cap_3.0": 17,
+        "kmarks_passive_cap_3.1": 21,
+        "kmarks_passive_cap_3.2": 26,
+        "kmarks_passive_cap_3.3": 31,
+        "kmarks_passive_cap_3.4": 38,
+        "kmarks_passive_cap_4.0": 58,
+        "kmarks_passive_cap_4.1": 86,
+        "kmarks_passive_cap_4.2": 130,
+        "kmarks_passive_cap_4.3": 195,
+        "kmarks_passive_cap_4.4": 292
+      },
+      "forge": {}
+    }
   },
   "OsirisScrip": {
     "inGameName": "Osiris Scrip",
@@ -1176,7 +2829,59 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10000
+    "stackSize": 10000,
+    "uses": {
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": 80
+      },
+      "missions": {
+        "Main-KOR-BuildLaserDrill-6": 20
+      },
+      "jobs": {},
+      "quarters": {
+        "generate_aurum_1.0": 1,
+        "generate_aurum_1.1": 2,
+        "generate_aurum_1.2": 2,
+        "generate_aurum_1.3": 3,
+        "generate_aurum_1.4": 5,
+        "generate_aurum_2.0": 6,
+        "generate_aurum_2.1": 8,
+        "generate_aurum_2.2": 9,
+        "generate_aurum_2.3": 11,
+        "generate_aurum_2.4": 14,
+        "generate_aurum_3.0": 17,
+        "generate_aurum_3.1": 21,
+        "generate_aurum_3.2": 26,
+        "generate_aurum_3.3": 31,
+        "generate_aurum_3.4": 38,
+        "generate_aurum_4.0": 58,
+        "generate_aurum_4.1": 86,
+        "generate_aurum_4.2": 130,
+        "generate_aurum_4.3": 195,
+        "generate_aurum_4.4": 292,
+        "generate_kmarks_1.0": 1,
+        "generate_kmarks_1.1": 2,
+        "generate_kmarks_1.2": 2,
+        "generate_kmarks_1.3": 3,
+        "generate_kmarks_1.4": 5,
+        "generate_kmarks_2.0": 6,
+        "generate_kmarks_2.1": 8,
+        "generate_kmarks_2.2": 9,
+        "generate_kmarks_2.3": 11,
+        "generate_kmarks_2.4": 14,
+        "generate_kmarks_3.0": 17,
+        "generate_kmarks_3.1": 21,
+        "generate_kmarks_3.2": 26,
+        "generate_kmarks_3.3": 31,
+        "generate_kmarks_3.4": 38,
+        "generate_kmarks_4.0": 58,
+        "generate_kmarks_4.1": 86,
+        "generate_kmarks_4.2": 130,
+        "generate_kmarks_4.3": 195,
+        "generate_kmarks_4.4": 292
+      },
+      "forge": {}
+    }
   },
   "ICAScrip": {
     "inGameName": "ICA Scrip",
@@ -1190,7 +2895,56 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10000
+    "stackSize": 10000,
+    "uses": {
+      "printing": {
+        "QuestItem_OilPumpBeacon": 80
+      },
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "reduce_pq_upgrading_time_1.0": 1,
+        "reduce_pq_upgrading_time_1.1": 2,
+        "reduce_pq_upgrading_time_1.2": 2,
+        "reduce_pq_upgrading_time_2.0": 5,
+        "reduce_pq_upgrading_time_2.1": 8,
+        "reduce_pq_upgrading_time_2.2": 11,
+        "reduce_pq_upgrading_time_3.0": 26,
+        "reduce_pq_upgrading_time_3.1": 38,
+        "reduce_pq_upgrading_time_3.2": 58,
+        "reduce_pq_upgrading_time_4.0": 130,
+        "reduce_pq_upgrading_time_4.1": 195,
+        "reduce_pq_upgrading_time_4.2": 292,
+        "daily_crate_1.0": 1,
+        "daily_crate_1.1": 2,
+        "daily_crate_2.0": 2,
+        "daily_crate_2.1": 5,
+        "daily_crate_3.0": 11,
+        "daily_crate_3.1": 26,
+        "daily_crate_4.0": 58,
+        "daily_crate_4.1": 130,
+        "aurum_passive_cap_1.0": 1,
+        "aurum_passive_cap_1.1": 2,
+        "aurum_passive_cap_1.2": 2,
+        "aurum_passive_cap_1.3": 3,
+        "aurum_passive_cap_2.0": 3,
+        "aurum_passive_cap_2.1": 5,
+        "aurum_passive_cap_2.2": 8,
+        "aurum_passive_cap_2.3": 11,
+        "aurum_passive_cap_2.4": 17,
+        "aurum_passive_cap_3.0": 17,
+        "aurum_passive_cap_3.1": 21,
+        "aurum_passive_cap_3.2": 26,
+        "aurum_passive_cap_3.3": 31,
+        "aurum_passive_cap_3.4": 38,
+        "aurum_passive_cap_4.0": 58,
+        "aurum_passive_cap_4.1": 86,
+        "aurum_passive_cap_4.2": 130,
+        "aurum_passive_cap_4.3": 195,
+        "aurum_passive_cap_4.4": 292
+      },
+      "forge": {}
+    }
   },
   "Letium": {
     "inGameName": "Letium Clot",
@@ -1204,7 +2958,25 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "WP_A_Sniper_Gauss_01": 75
+      },
+      "missions": {
+        "Main-KOR-TestRun-1": 15
+      },
+      "jobs": {
+        "NEW-Hard-KOR-LaserDrill-1": 10
+      },
+      "quarters": {
+        "playerquarter_9": 50,
+        "aurum_passive_cap_4.1": 135
+      },
+      "forge": {
+        "Recipe02": 3
+      }
+    }
   },
   "OilTank": {
     "inGameName": "NiC Oil Cannister",
@@ -1218,7 +2990,24 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "WP_A_Launch_MSL_01": 30
+      },
+      "missions": {
+        "Main-ICA-TestRun-2": 15,
+        "Main-ICA-Caverns-13.1": 18
+      },
+      "jobs": {
+        "NEW-Hard-ICA-Oil-1": 10
+      },
+      "quarters": {
+        "playerquarter_10": 50,
+        "aurum_passive_cap_4.2": 53
+      },
+      "forge": {}
+    }
   },
   "AI_StriderMeat_03": {
     "inGameName": "Heavy Strider Flesh",
@@ -1232,7 +3021,18 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "playerquarter_5": 5,
+        "generate_aurum_3.3": 11,
+        "kmarks_passive_cap_4.0": 12
+      },
+      "forge": {}
+    }
   },
   "AI_RattlerEyes_02": {
     "inGameName": "Mature Rattler Eyes",
@@ -1246,7 +3046,19 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "generate_aurum_4.1": 11
+      },
+      "forge": {
+        "Perk_AIProtection": 2,
+        "Perk_WalkSpeed": 2
+      }
+    }
   },
   "AI_WeremoleMeat_02": {
     "inGameName": "Savage Marauder Flesh",
@@ -1260,7 +3072,25 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "WP_G_HVY_Beam_01": 10
+      },
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "playerquarter_7": 1,
+        "generate_aurum_4.3": 5,
+        "generate_kmarks_4.0": 4,
+        "aurum_passive_cap_3.4": 4
+      },
+      "forge": {
+        "Perk_HealthRegen": 2,
+        "Perk_MaxHealth": 2,
+        "Perk_HealingSpeed": 2
+      }
+    }
   },
   "AI_StriderHead_03": {
     "inGameName": "Heavy Strider Head",
@@ -1274,7 +3104,14 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "AI_RattlerHead_02": {
     "inGameName": "Mature Rattler Head",
@@ -1288,7 +3125,14 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "AI_WeremoleHead_02": {
     "inGameName": "Savage Marauder Head",
@@ -1302,7 +3146,14 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "ForgeIron": {
     "inGameName": "Tharis Iron",
@@ -1316,7 +3167,22 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Caverns-7": 5,
+        "Main-ICA-Caverns-4": 5,
+        "Main-Osiris-Caverns-8": 5
+      },
+      "jobs": {
+        "NEW-Hard-KOR-Gather-8": 12
+      },
+      "quarters": {},
+      "forge": {
+        "Recipe01": 9
+      }
+    }
   },
   "PureForgeIron": {
     "inGameName": "Pure Tharis Iron",
@@ -1330,7 +3196,19 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Caverns-9": 5,
+        "Main-Osiris-Caverns-8": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {
+        "Recipe02": 9
+      }
+    }
   },
   "ForgeIronIngot": {
     "inGameName": "Tharis Iron Ingot",
@@ -1344,7 +3222,19 @@
     "tags": [
       "Loot.Category.Alien"
     ],
-    "stackSize": 6
+    "stackSize": 6,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Caverns-12": 1
+      },
+      "jobs": {},
+      "quarters": {
+        "increase_stash_5.2": 5,
+        "aurum_passive_cap_4.2": 5
+      },
+      "forge": {}
+    }
   },
   "ChargedForgeIronIngot": {
     "inGameName": "Charged Tharis Iron Ingot",
@@ -1358,7 +3248,24 @@
     "tags": [
       "Loot.Category.Alien"
     ],
-    "stackSize": 6
+    "stackSize": 6,
+    "uses": {
+      "printing": {
+        "ShockGrenade_05": 4
+      },
+      "missions": {
+        "Main-ICA-Caverns-13": 5,
+        "Main-Osiris-Caverns-14": 1
+      },
+      "jobs": {
+        "NEW-Hard-Osiris-Gather-9": 3
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_4.2": 2,
+        "kmarks_passive_cap_4.3": 2
+      },
+      "forge": {}
+    }
   },
   "SuperChargedForgeIronIngot": {
     "inGameName": "Super Charged Tharis Iron Ingot",
@@ -1372,7 +3279,14 @@
     "tags": [
       "Loot.Category.Alien"
     ],
-    "stackSize": 6
+    "stackSize": 6,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "GlowingCrystalCoreShard": {
     "inGameName": "Teratomorphic Crystal Core",
@@ -1386,7 +3300,25 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Caverns-7": 5,
+        "Main-KOR-Caverns-9": 5,
+        "Main-ICA-Caverns-4": 5,
+        "Main-Osiris-Caverns-6": 5
+      },
+      "jobs": {},
+      "quarters": {
+        "reduce_pq_upgrading_time_4.0": 18,
+        "generate_aurum_3.4": 18
+      },
+      "forge": {
+        "Recipe01": 3,
+        "Recipe02": 3
+      }
+    }
   },
   "AF_Slag": {
     "inGameName": "Progenitor Slag",
@@ -1400,7 +3332,17 @@
     "tags": [
       "Loot.Category.Alien"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "increase_bag_5.0": 4,
+        "aurum_passive_cap_4.3": 6
+      },
+      "forge": {}
+    }
   },
   "AF_Token": {
     "inGameName": "Abyss Alloy",
@@ -1414,7 +3356,17 @@
     "tags": [
       "Loot.Category.Alien"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "playerquarter_10": 1,
+        "generate_aurum_4.4": 1
+      },
+      "forge": {}
+    }
   },
   "TentaclePlant": {
     "inGameName": "Spine Briar",
@@ -1428,7 +3380,28 @@
     "tags": [
       "Loot.Category.Flora"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Shield_Tactical_05": 2
+      },
+      "missions": {
+        "Main-Osiris-Caverns-1.1": 5
+      },
+      "jobs": {
+        "NEW-Hard-Osiris-Flora-1": 10
+      },
+      "quarters": {
+        "playerquarter_9": 10,
+        "generate_kmarks_4.2": 2,
+        "daily_crate_4.0": 5
+      },
+      "forge": {
+        "Perk_HealingAmount": 2,
+        "Perk_MaxHealth": 2,
+        "Perk_HealingSpeed": 2
+      }
+    }
   },
   "Alien_Scrap": {
     "inGameName": "Progenitor Composite",
@@ -1442,7 +3415,26 @@
     "tags": [
       "Loot.Category.Alien"
     ],
-    "stackSize": 10
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "ShockGrenade_05": 8
+      },
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "playerquarter_8": 32,
+        "increase_stash_5.1": 4,
+        "generate_kmarks_4.3": 4,
+        "kmarks_passive_cap_4.2": 3,
+        "aurum_passive_cap_4.1": 5
+      },
+      "forge": {
+        "Perk_FallingDamage": 3,
+        "Perk_WeightConsumablesAmmo": 3,
+        "Perk_WeightWeaponGear": 3
+      }
+    }
   },
   "QuestItem_AlphaWardenBait": {
     "inGameName": "Alpha Crusher Bait",
@@ -1456,7 +3448,14 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "QuestItem_LaserDrillBeacon": {
     "inGameName": "Laser Drill Beacon",
@@ -1478,7 +3477,14 @@
     "tags": [
       "Loot.Category.Utility"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "HardDrive_common": {
     "inGameName": "HardDrive_common",
@@ -1497,7 +3503,14 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "HardDrive_uncommon": {
     "inGameName": "HardDrive_uncommon",
@@ -1511,7 +3524,21 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-GruntWork-4": 1
+      },
+      "jobs": {
+        "Easy-ICA-Uplink-1": 1,
+        "NEW-Easy-ICA-Uplink-1": 1
+      },
+      "quarters": {
+        "generate_aurum_1.4": 1
+      },
+      "forge": {}
+    }
   },
   "HardDrive_rare": {
     "inGameName": "HardDrive_rare",
@@ -1525,7 +3552,24 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Unique-3": 3
+      },
+      "jobs": {
+        "Medium-ICA-Uplink-1": 1,
+        "NEW-Medium-ICA-Uplink-1": 1,
+        "NEW-Medium-ICA-Uplink-2": 2,
+        "Main-ICA-GruntWork-6": 2
+      },
+      "quarters": {
+        "generate_aurum_3.1": 1,
+        "generate_kmarks_2.2": 1
+      },
+      "forge": {}
+    }
   },
   "HardDrive_epic": {
     "inGameName": "HardDrive_epic",
@@ -1539,7 +3583,25 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-LetiumRumors-5": 1,
+        "Main-Osiris-UplinkHack-1": 2
+      },
+      "jobs": {
+        "Hard-ICA-Uplink-1": 1,
+        "Hard-KOR-Uplink-1": 1,
+        "Hard-KOR-Uplink-1_Test": 1,
+        "NEW-Hard-ICA-Uplink-1": 1
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_4.1": 1,
+        "aurum_passive_cap_4.0": 1
+      },
+      "forge": {}
+    }
   },
   "HardDrive_legendary": {
     "inGameName": "HardDrive_legendary",
@@ -1553,7 +3615,23 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": 1
+      },
+      "missions": {
+        "Main-KOR-LetiumResearch-8": 1,
+        "Main-ICA-OilPump-2": 3,
+        "Main-Osiris-UplinkHack-2": 2
+      },
+      "jobs": {
+        "NEW-Hard-ICA-Uplink-2": 1,
+        "NEW-Hard-ICA-Uplink-3": 3
+      },
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Data_DigSite": {
     "inGameName": "Data_DigSite",
@@ -1567,7 +3645,14 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "QuestItem_OrbitalCanonTargetBeacon": {
     "inGameName": "QuestItem_OrbitalCanonTargetBeacon",
@@ -1590,7 +3675,14 @@
     "tags": [
       "Loot.Category.Utility"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "QuestItem_OilPumpBeacon": {
     "inGameName": "Oil Pump Beacon",
@@ -1612,7 +3704,14 @@
     "tags": [
       "Loot.Category.Utility"
     ],
-    "stackSize": 3
+    "stackSize": 3,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_MinerItem1": {
     "inGameName": "Miner Cam #2F53",
@@ -1626,7 +3725,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Unique-1": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_MinerItem2": {
     "inGameName": "Miner Cam #D027",
@@ -1640,7 +3748,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Unique-1": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_MinerItem3": {
     "inGameName": "Miner Cam #A45D",
@@ -1654,7 +3771,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Unique-1": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_EngineerItem": {
     "inGameName": "Letium Coated Helmet",
@@ -1668,7 +3794,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Unique-2": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_CreatureSample": {
     "inGameName": "Letium Bio Samples",
@@ -1682,7 +3817,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Unique-3": 5
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_LaserDrillPart": {
     "inGameName": "Laser Drill Control Unit",
@@ -1696,7 +3840,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Unique-4": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_ICAPersonalItem": {
     "inGameName": "Sign of Life from Stranded Prospector",
@@ -1710,7 +3863,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Unique-2": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_PowerPlantItem1": {
     "inGameName": "Notes on Meteor Experiment - 1",
@@ -1724,7 +3886,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Unique-4": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_PowerPlantItem2": {
     "inGameName": "Notes on Meteor Experiment - 2",
@@ -1738,7 +3909,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Unique-5": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_OilPumpPart": {
     "inGameName": "Oil Pump Part",
@@ -1752,7 +3932,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Unique-6": 5
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_OldBones": {
     "inGameName": "Old Bones",
@@ -1766,7 +3955,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Unique-1": 3
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_AlphaSkull": {
     "inGameName": "Warden Tooth",
@@ -1780,7 +3978,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Unique-2": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_FlightRecorder": {
     "inGameName": "Flight Recorder",
@@ -1794,7 +4001,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Unique-3": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_Notebook": {
     "inGameName": "Old Notebook",
@@ -1808,7 +4024,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Unique-4": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_KorChiefEngineerDiary": {
     "inGameName": "Chief Engineer's Personal Diary",
@@ -1822,7 +4047,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Caverns-2": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_ForgeIronSample": {
     "inGameName": "Tharis Iron Sample",
@@ -1836,7 +4070,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Caverns-5": 8
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_PureForgeIronNugget": {
     "inGameName": "Pure Tharis Iron Nugget",
@@ -1850,7 +4093,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Caverns-8": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_MiningPartyMedicalFiles": {
     "inGameName": "Mining Party Medical Files",
@@ -1864,7 +4116,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Caverns-11": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_VadimPredecessorItem": {
     "inGameName": "The Tharis Files",
@@ -1878,7 +4139,14 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_StolenKorData1": {
     "inGameName": "Korolev Data Drive #473-D",
@@ -1892,7 +4160,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Caverns-2": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_StolenKorData2": {
     "inGameName": "Korolev Notes",
@@ -1906,7 +4183,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Caverns-2": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_CultistGlowCrystalItem": {
     "inGameName": "Mysterious Glowing Contraption",
@@ -1920,7 +4206,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Caverns-5": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_CultistRitualItem": {
     "inGameName": "Cultist Ritual Item",
@@ -1934,7 +4229,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Caverns-10": 5
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_AlienShieldRecipe": {
     "inGameName": "Cultist Scribblings",
@@ -1948,7 +4252,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Caverns-13": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_ColonistItem": {
     "inGameName": "Colonist Item",
@@ -1962,7 +4275,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Caverns-2": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_StolenOsiHoloMap": {
     "inGameName": "Tharis Caverns Holo-Map",
@@ -1976,7 +4298,14 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_KorCivilianItem": {
     "inGameName": "Vintage Camera",
@@ -1990,7 +4319,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Caverns-5": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_AlienDoorFragment": {
     "inGameName": "Osiris Door Fragment",
@@ -2004,7 +4342,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Caverns-7": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_AnalysisTool": {
     "inGameName": "Advanced Analysis Toolkit",
@@ -2018,7 +4365,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Caverns-9": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_OsiChiefEngineerItem": {
     "inGameName": "Osiris Engineer Scanner",
@@ -2032,7 +4388,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Caverns-12": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "MissionItem_OsiHeadScientistItem": {
     "inGameName": "Osiris Helmet Recorder",
@@ -2046,7 +4411,16 @@
     "tags": [
       "Loot.Category.MissionItem"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-Caverns-14": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_A_Pistol_Bullet_01": {
     "inGameName": "Hammer",
@@ -2065,7 +4439,14 @@
     "tags": [
       "Weapon.Category.Pistol"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_A_SGun_Energy_01": {
     "inGameName": "PKR Maelstrom",
@@ -2084,7 +4465,14 @@
     "tags": [
       "Weapon.Category.Shotgun"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_A_SMG_Shard_01": {
     "inGameName": "KM-9 'Scrapper'",
@@ -2103,7 +4491,14 @@
     "tags": [
       "Weapon.Category.SMG"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_A_AR_Bullet_01": {
     "inGameName": "KOR-47",
@@ -2122,7 +4517,14 @@
     "tags": [
       "Weapon.Category.AR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_A_BR_Bullet_01": {
     "inGameName": "KBR Longshot",
@@ -2141,7 +4543,14 @@
     "tags": [
       "Weapon.Category.DMR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_A_Sniper_Gauss_01": {
     "inGameName": "KARMA-1",
@@ -2164,7 +4573,14 @@
     "tags": [
       "Weapon.Category.Sniper"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_D_Pistol_Bullet_01": {
     "inGameName": "Bulldog",
@@ -2183,7 +4599,14 @@
     "tags": [
       "Weapon.Category.Shotgun"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_D_SGun_Shard_01": {
     "inGameName": "Shattergun",
@@ -2202,7 +4625,14 @@
     "tags": [
       "Weapon.Category.Shotgun"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_D_SMG_Energy_01": {
     "inGameName": "Voltaic Brute",
@@ -2221,7 +4651,14 @@
     "tags": [
       "Weapon.Category.SMG"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_D_LMG_Energy_01": {
     "inGameName": "ICA Guarantee",
@@ -2240,7 +4677,14 @@
     "tags": [
       "Weapon.Category.LMG"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_D_AR_Bullet_01": {
     "inGameName": "Advocate",
@@ -2259,7 +4703,14 @@
     "tags": [
       "Weapon.Category.AR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_D_BR_Shard_01": {
     "inGameName": "Lacerator",
@@ -2278,7 +4729,14 @@
     "tags": [
       "Weapon.Category.DMR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_D_Sniper_Gauss_01": {
     "inGameName": "Kinetic Arbiter",
@@ -2297,7 +4755,14 @@
     "tags": [
       "Weapon.Category.Sniper"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_Pistol_Bullet_01": {
     "inGameName": "K-28",
@@ -2316,7 +4781,14 @@
     "tags": [
       "Weapon.Category.Pistol"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_SGun_Bullet_01": {
     "inGameName": "B9 Trenchgun",
@@ -2335,7 +4807,14 @@
     "tags": [
       "Weapon.Category.Shotgun"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_SMG_Bullet_01": {
     "inGameName": "S-576 PDW",
@@ -2354,7 +4833,14 @@
     "tags": [
       "Weapon.Category.SMG"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_AR_Energy_01": {
     "inGameName": "AR-55 Autorifle",
@@ -2373,7 +4859,14 @@
     "tags": [
       "Weapon.Category.AR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_Sniper_Bullet_01": {
     "inGameName": "C-32 Bolt Action",
@@ -2392,7 +4885,14 @@
     "tags": [
       "Weapon.Category.Sniper"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_SGun_Bullet_01_scrappy": {
     "inGameName": "WP_E_SGun_Bullet_01_scrappy",
@@ -2406,7 +4906,14 @@
     "tags": [
       "Weapon.Category.Shotgun"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_SMG_Bullet_01_scrappy": {
     "inGameName": "WP_E_SMG_Bullet_01_scrappy",
@@ -2420,7 +4927,14 @@
     "tags": [
       "Weapon.Category.SMG"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_AR_Energy_01_scrappy": {
     "inGameName": "WP_E_AR_Energy_01_scrappy",
@@ -2434,7 +4948,14 @@
     "tags": [
       "Weapon.Category.AR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_G_Pistol_Energy_01": {
     "inGameName": "Scarab",
@@ -2453,7 +4974,14 @@
     "tags": [
       "Weapon.Category.Pistol"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_G_SMG_Needle_01": {
     "inGameName": "Asp Flechette Gun",
@@ -2472,7 +5000,14 @@
     "tags": [
       "Weapon.Category.SMG"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_G_AR_Energy_01": {
     "inGameName": "Phasic Lancer",
@@ -2491,7 +5026,14 @@
     "tags": [
       "Weapon.Category.AR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_G_AR_Beam_01": {
     "inGameName": "Gorgon",
@@ -2510,7 +5052,14 @@
     "tags": [
       "Weapon.Category.AR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_G_AR_Needle_01": {
     "inGameName": "Manticore",
@@ -2529,7 +5078,14 @@
     "tags": [
       "Weapon.Category.AR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_G_Sniper_Energy_01": {
     "inGameName": "Basilisk",
@@ -2548,7 +5104,14 @@
     "tags": [
       "Weapon.Category.DMR"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_A_HVY_Shell_01": {
     "inGameName": "KARLA",
@@ -2562,7 +5125,14 @@
     "tags": [
       "Weapon.Category.Launcher"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_A_Launch_MSL_01": {
     "inGameName": "KOMRAD",
@@ -2585,7 +5155,14 @@
     "tags": [
       "Weapon.Category.Launcher"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_Launch_Nade_01": {
     "inGameName": "FF4 Detonator",
@@ -2599,7 +5176,14 @@
     "tags": [
       "Weapon.Category.Launcher"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_D_HVY_Exotic_01": {
     "inGameName": "HAZE",
@@ -2613,7 +5197,14 @@
     "tags": [
       "Weapon.Category.Launcher"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_G_HVY_Beam_01": {
     "inGameName": "Zeus Beam",
@@ -2636,7 +5227,14 @@
     "tags": [
       "Weapon.Category.LMG"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "WP_E_Pistol_Bullet_01_scrappy": {
     "inGameName": "WP_E_Pistol_Bullet_01_scrappy",
@@ -2650,7 +5248,14 @@
     "tags": [
       "Weapon.Category.Pistol"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_Health_01": {
     "inGameName": "Weak Stim",
@@ -2681,7 +5286,14 @@
     "tags": [
       "Equipment.Consumables.Healing"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_Health_02": {
     "inGameName": "Strong Stim",
@@ -2707,7 +5319,14 @@
     "tags": [
       "Equipment.Consumables.Healing"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_Health_03": {
     "inGameName": "Weak Medkit",
@@ -2738,7 +5357,14 @@
     "tags": [
       "Equipment.Consumables.Healing"
     ],
-    "stackSize": 2
+    "stackSize": 2,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_Health_04": {
     "inGameName": "Combat Stim",
@@ -2764,7 +5390,14 @@
     "tags": [
       "Equipment.Consumables.Healing"
     ],
-    "stackSize": 5
+    "stackSize": 5,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_Health_05": {
     "inGameName": "Strong Medkit",
@@ -2789,7 +5422,14 @@
     "tags": [
       "Equipment.Consumables.Healing"
     ],
-    "stackSize": 2
+    "stackSize": 2,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_Health_06": {
     "inGameName": "Combat Medkit",
@@ -2815,7 +5455,14 @@
     "tags": [
       "Equipment.Consumables.Healing"
     ],
-    "stackSize": 2
+    "stackSize": 2,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_SmokeGrenade_01": {
     "inGameName": "Smoke Grenade",
@@ -2834,7 +5481,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_GasGrenade_01": {
     "inGameName": "Gas Grenade",
@@ -2855,7 +5509,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_AudioDecoy_01": {
     "inGameName": "Audio Decoy",
@@ -2880,7 +5541,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "OTecStim_Adrenaline": {
     "inGameName": "OTecStim_Adrenaline",
@@ -2894,7 +5562,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "KineticShield": {
     "inGameName": "KineticShield",
@@ -2908,7 +5583,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Cloak": {
     "inGameName": "Cloak",
@@ -2922,7 +5604,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "TurretHeavy": {
     "inGameName": "TurretHeavy",
@@ -2936,7 +5625,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "KineticShield_Dome": {
     "inGameName": "KineticShield_Dome",
@@ -2950,7 +5646,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "HealingWard": {
     "inGameName": "HealingWard",
@@ -2964,7 +5667,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "TurretHeavy_Ouroboros": {
     "inGameName": "TurretHeavy_Ouroboros",
@@ -2978,7 +5688,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_Shield_01": {
     "inGameName": "Shield Charger",
@@ -2992,7 +5709,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_Stamina_01": {
     "inGameName": "Adrenaline Shot",
@@ -3006,7 +5730,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_RoadFlare": {
     "inGameName": "Consumable_RoadFlare",
@@ -3020,7 +5751,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Consumable_LaserTrap": {
     "inGameName": "Consumable_LaserTrap",
@@ -3034,7 +5772,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bombardment": {
     "inGameName": "Bombardment",
@@ -3048,7 +5793,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "ShockGrenade_01": {
     "inGameName": "ShockGrenade_01",
@@ -3062,7 +5814,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "ShockGrenade_02": {
     "inGameName": "ShockGrenade_02",
@@ -3083,7 +5842,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "ShockGrenade_03": {
     "inGameName": "ShockGrenade_03",
@@ -3104,7 +5870,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "ShockGrenade_04": {
     "inGameName": "ShockGrenade_04",
@@ -3118,7 +5891,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "ShockGrenade_05": {
     "inGameName": "ShockGrenade_05",
@@ -3139,7 +5919,14 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_01_broken": {
     "inGameName": "Worn Emergency Bag",
@@ -3151,7 +5938,14 @@
     "sellValue": 180,
     "factionRep": 2,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_01": {
     "inGameName": "Small Backpack",
@@ -3180,7 +5974,14 @@
     "sellValue": 180,
     "factionRep": 2,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_02": {
     "inGameName": "Medium Backpack",
@@ -3199,7 +6000,14 @@
     "sellValue": 810,
     "factionRep": 8,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_03": {
     "inGameName": "Large Backpack",
@@ -3219,7 +6027,14 @@
     "sellValue": 1823,
     "factionRep": 18,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_04": {
     "inGameName": "Heavy Duty Backpack",
@@ -3239,7 +6054,14 @@
     "sellValue": 3645,
     "factionRep": 36,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_05": {
     "inGameName": "Gigantic Backpack",
@@ -3251,7 +6073,14 @@
     "sellValue": 6834,
     "factionRep": 68,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_Altered_01": {
     "inGameName": "Huge Forged Backpack",
@@ -3268,7 +6097,16 @@
     "sellValue": 5468,
     "factionRep": 55,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Caverns-14": 1
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_Altered_02": {
     "inGameName": "Gigantic Forged Backpack",
@@ -3285,7 +6123,14 @@
     "sellValue": 9568,
     "factionRep": 96,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Bag_Altered_03": {
     "inGameName": "Monstrous Forged Backpack",
@@ -3302,7 +6147,14 @@
     "sellValue": 14352,
     "factionRep": 144,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "PlayerDefault": {
     "inGameName": "PlayerDefault",
@@ -3314,7 +6166,14 @@
     "sellValue": 135,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_01": {
     "inGameName": "Shield",
@@ -3343,7 +6202,14 @@
     "sellValue": 135,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_02": {
     "inGameName": "Shield",
@@ -3362,7 +6228,14 @@
     "sellValue": 608,
     "factionRep": 6,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_03": {
     "inGameName": "Shield",
@@ -3382,7 +6255,14 @@
     "sellValue": 4556,
     "factionRep": 46,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_04": {
     "inGameName": "Shield",
@@ -3402,7 +6282,14 @@
     "sellValue": 11618,
     "factionRep": 116,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_05": {
     "inGameName": "Shield",
@@ -3422,7 +6309,14 @@
     "sellValue": 23579,
     "factionRep": 236,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Tactical_01": {
     "inGameName": "Tactical Shield",
@@ -3451,7 +6345,14 @@
     "sellValue": 203,
     "factionRep": 2,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Tactical_02": {
     "inGameName": "Tactical Shield",
@@ -3471,7 +6372,14 @@
     "sellValue": 608,
     "factionRep": 6,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Tactical_03": {
     "inGameName": "Tactical Shield",
@@ -3491,7 +6399,14 @@
     "sellValue": 4556,
     "factionRep": 46,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Tactical_04": {
     "inGameName": "Tactical Shield",
@@ -3511,7 +6426,14 @@
     "sellValue": 11618,
     "factionRep": 116,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Tactical_05": {
     "inGameName": "Tactical Shield",
@@ -3531,7 +6453,14 @@
     "sellValue": 23579,
     "factionRep": 236,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Restoration_01": {
     "inGameName": "Restoration Shield",
@@ -3551,7 +6480,14 @@
     "sellValue": 608,
     "factionRep": 6,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Restoration_02": {
     "inGameName": "Restoration Shield",
@@ -3571,7 +6507,14 @@
     "sellValue": 4556,
     "factionRep": 46,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Restoration_03": {
     "inGameName": "Restoration Shield",
@@ -3591,7 +6534,14 @@
     "sellValue": 11618,
     "factionRep": 116,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Restoration_04": {
     "inGameName": "Restoration Shield",
@@ -3612,7 +6562,14 @@
     "sellValue": 23579,
     "factionRep": 236,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Altered_01": {
     "inGameName": "Forged Shield",
@@ -3629,7 +6586,14 @@
     "sellValue": 12985,
     "factionRep": 130,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Altered_02": {
     "inGameName": "Forged Shield",
@@ -3646,7 +6610,14 @@
     "sellValue": 22553,
     "factionRep": 226,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Shield_Altered_03": {
     "inGameName": "Forged Shield",
@@ -3663,7 +6634,14 @@
     "sellValue": 38444,
     "factionRep": 384,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_01": {
     "inGameName": "Helmet",
@@ -3692,7 +6670,14 @@
     "sellValue": 113,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_02": {
     "inGameName": "Helmet",
@@ -3711,7 +6696,14 @@
     "sellValue": 506,
     "factionRep": 5,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_03": {
     "inGameName": "Helmet",
@@ -3730,7 +6722,14 @@
     "sellValue": 2278,
     "factionRep": 23,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_04": {
     "inGameName": "Helmet",
@@ -3749,7 +6748,14 @@
     "sellValue": 5126,
     "factionRep": 51,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_05": {
     "inGameName": "Helmet",
@@ -3769,7 +6775,14 @@
     "sellValue": 10252,
     "factionRep": 103,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Tactical_01": {
     "inGameName": "Tactical Helmet",
@@ -3798,7 +6811,14 @@
     "sellValue": 169,
     "factionRep": 2,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Tactical_02": {
     "inGameName": "Tactical Helmet",
@@ -3818,7 +6838,14 @@
     "sellValue": 506,
     "factionRep": 5,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Tactical_03": {
     "inGameName": "Tactical Helmet",
@@ -3838,7 +6865,14 @@
     "sellValue": 2278,
     "factionRep": 23,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Tactical_04": {
     "inGameName": "Tactical Helmet",
@@ -3858,7 +6892,14 @@
     "sellValue": 5126,
     "factionRep": 51,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Tactical_05": {
     "inGameName": "Tactical Helmet",
@@ -3878,7 +6919,14 @@
     "sellValue": 10252,
     "factionRep": 103,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Restoration_01": {
     "inGameName": "Restoration Helmet",
@@ -3898,7 +6946,14 @@
     "sellValue": 506,
     "factionRep": 5,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Restoration_02": {
     "inGameName": "Restoration Helmet",
@@ -3918,7 +6973,14 @@
     "sellValue": 2278,
     "factionRep": 23,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Restoration_03": {
     "inGameName": "Restoration Helmet",
@@ -3938,7 +7000,14 @@
     "sellValue": 5126,
     "factionRep": 51,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Restoration_04": {
     "inGameName": "Restoration Helmet",
@@ -3959,7 +7028,14 @@
     "sellValue": 10252,
     "factionRep": 103,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_NV_01": {
     "inGameName": "NV Helmet",
@@ -3979,7 +7055,14 @@
     "sellValue": 23066,
     "factionRep": 231,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Altered_01": {
     "inGameName": "Forged Helmet",
@@ -3996,7 +7079,14 @@
     "sellValue": 6265,
     "factionRep": 63,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Altered_02": {
     "inGameName": "Forged Helmet",
@@ -4013,7 +7103,14 @@
     "sellValue": 12815,
     "factionRep": 128,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Helmet_Altered_03": {
     "inGameName": "Forged Helmet",
@@ -4030,7 +7127,14 @@
     "sellValue": 25629,
     "factionRep": 256,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "NoOptics": {
     "inGameName": "17348771467FF6FBFFDD14A72A7EF7EC",
@@ -4042,7 +7146,14 @@
     "sellValue": 90,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "NoMagazine": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
@@ -4054,7 +7165,14 @@
     "sellValue": 90,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "NoBarrel": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
@@ -4066,7 +7184,14 @@
     "sellValue": 90,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "NoStock": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
@@ -4078,7 +7203,14 @@
     "sellValue": 90,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "NoGrip": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
@@ -4090,7 +7222,14 @@
     "sellValue": 90,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "NoAttatchment": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
@@ -4102,7 +7241,14 @@
     "sellValue": 90,
     "factionRep": 1,
     "tags": [],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Korolev_Scanner_AlienCrystals": {
     "inGameName": "Focus Crystal Scanning Module",
@@ -4121,7 +7267,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Korolev_Scanner_HeavyMetals": {
     "inGameName": "Titan Ore Scanning Module",
@@ -4140,7 +7293,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Korolev_Scanner_Veltecite": {
     "inGameName": "Veltecite Scanning Module",
@@ -4159,7 +7319,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Optic_2x_01": {
     "inGameName": "2x Optic",
@@ -4190,7 +7357,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Optic_4x_01": {
     "inGameName": "4x Optic",
@@ -4211,7 +7385,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_03": {
     "inGameName": "Light Extended",
@@ -4233,7 +7414,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_02": {
     "inGameName": "Light Extended",
@@ -4247,7 +7435,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_01": {
     "inGameName": "Light Extended",
@@ -4261,7 +7456,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_01": {
     "inGameName": "Medium Extended",
@@ -4275,7 +7477,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Heavy_01": {
     "inGameName": "Heavy Extended",
@@ -4289,7 +7498,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Shotgun_01": {
     "inGameName": "Shotgun Extended",
@@ -4303,7 +7519,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Muzzle_Small_Supressor_01": {
     "inGameName": "Small Suppressor",
@@ -4325,7 +7548,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Muzzle_Standard_Supressor_01": {
     "inGameName": "Medium Suppressor",
@@ -4347,7 +7577,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Light_01": {
     "inGameName": "Light Converter",
@@ -4361,7 +7598,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Medium_01": {
     "inGameName": "Medium Converter",
@@ -4375,7 +7619,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Heavy_01": {
     "inGameName": "Heavy Converter",
@@ -4389,7 +7640,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Shotgun_01": {
     "inGameName": "Shotgun Converter",
@@ -4403,7 +7661,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_ForeGrip_Angled_01": {
     "inGameName": "Angled Foregrip",
@@ -4434,7 +7699,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_RearGrip_01": {
     "inGameName": "Ergonomic Grip",
@@ -4465,7 +7737,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Tactical_Flashlight_01": {
     "inGameName": "Tactical Light",
@@ -4496,7 +7775,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Marksman_01": {
     "inGameName": "Marksman Stock",
@@ -4527,7 +7813,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Standard_01": {
     "inGameName": "Standard Stock",
@@ -4558,7 +7851,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_02": {
     "inGameName": "Medium Extended",
@@ -4572,7 +7872,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_03": {
     "inGameName": "Medium Extended",
@@ -4594,7 +7901,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Heavy_02": {
     "inGameName": "Heavy Extended",
@@ -4608,7 +7922,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Heavy_03": {
     "inGameName": "Heavy Extended",
@@ -4630,7 +7951,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Shotgun_02": {
     "inGameName": "Shotgun Extended",
@@ -4644,7 +7972,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Shotgun_03": {
     "inGameName": "Shotgun Extended",
@@ -4666,7 +8001,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_ReloadSpeed_01": {
     "inGameName": "Light Quickdraw",
@@ -4697,7 +8039,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_ReloadSpeed_02": {
     "inGameName": "Light Quickdraw",
@@ -4711,7 +8060,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_ReloadSpeed_03": {
     "inGameName": "Light Quickdraw",
@@ -4725,7 +8081,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
     "inGameName": "Light Quickdraw",
@@ -4747,7 +8110,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_Reloadspeed_01": {
     "inGameName": "Medium Quickdraw",
@@ -4778,7 +8148,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_Reloadspeed_02": {
     "inGameName": "Medium Quickdraw",
@@ -4792,7 +8169,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_Reloadspeed_03": {
     "inGameName": "Medium Quickdraw",
@@ -4806,7 +8190,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
     "inGameName": "Medium Quickdraw",
@@ -4828,7 +8219,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Heavy_ReloadSpeed_01": {
     "inGameName": "Heavy Quickdraw",
@@ -4859,7 +8257,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Heavy_ReloadSpeed_02": {
     "inGameName": "Heavy Quickdraw",
@@ -4873,7 +8278,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Heavy_ReloadSpeed_03": {
     "inGameName": "Heavy Quickdraw",
@@ -4887,7 +8299,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
     "inGameName": "Heavy Quickdraw",
@@ -4909,7 +8328,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_01": {
     "inGameName": "Shotgun Quickdraw",
@@ -4940,7 +8366,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_02": {
     "inGameName": "Shotgun Quickdraw",
@@ -4954,7 +8387,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_03": {
     "inGameName": "Shotgun Quickdraw",
@@ -4968,7 +8408,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
     "inGameName": "Shotgun Quickdraw",
@@ -4990,7 +8437,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_EXTReload_01": {
     "inGameName": "Light Extended Quickdraw",
@@ -5004,7 +8458,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Light_EXTReload_02": {
     "inGameName": "Light Extended Quickdraw",
@@ -5026,7 +8487,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_EXTReload_01": {
     "inGameName": "Medium Extended Quickdraw",
@@ -5040,7 +8508,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Magazine_Medium_EXTReload_02": {
     "inGameName": "Medium Extended Quickdraw",
@@ -5062,7 +8537,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Standard_02": {
     "inGameName": "Standard Stock",
@@ -5076,7 +8558,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Standard_Equip_01": {
     "inGameName": "Quickdraw Stock",
@@ -5107,7 +8596,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Standard_Equip_02": {
     "inGameName": "Quickdraw Stock",
@@ -5121,7 +8617,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Standard_ADS_01": {
     "inGameName": "Tactical Stock",
@@ -5135,7 +8638,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Standard_ADS_02": {
     "inGameName": "Tactical Stock",
@@ -5149,7 +8659,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Standard_ADSEquip_01": {
     "inGameName": "Ultralight Stock",
@@ -5163,7 +8680,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Standard_ADSEquip_02": {
     "inGameName": "Ultralight Stock",
@@ -5184,7 +8708,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Marksman_02": {
     "inGameName": "Marksman Stock",
@@ -5198,7 +8729,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Marksman_Equip_01": {
     "inGameName": "MKM Quickdraw Stock",
@@ -5229,7 +8767,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Marksman_Equip_02": {
     "inGameName": "MKM Quickdraw Stock",
@@ -5243,7 +8788,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Marksman_ADS_01": {
     "inGameName": "MKM Tactical Stock",
@@ -5257,7 +8809,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Marksman_ADS_02": {
     "inGameName": "MKM Tactical Stock",
@@ -5271,7 +8830,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Marksman_ADSEquip_01": {
     "inGameName": "MKM Ultralight Stock",
@@ -5285,7 +8851,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
     "inGameName": "MKM Ultralight Stock",
@@ -5306,7 +8879,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Muzzle_Small_Recoil_01": {
     "inGameName": "Small Muzzle Brake",
@@ -5337,7 +8917,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Muzzle_Small_Recoil_02": {
     "inGameName": "Small Muzzle Brake",
@@ -5351,7 +8938,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Muzzle_Small_Recoil_03": {
     "inGameName": "Small Muzzle Brake",
@@ -5365,7 +8959,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Muzzle_Standard_Recoil_01": {
     "inGameName": "Medium Muzzle Brake",
@@ -5396,7 +8997,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Muzzle_Standard_Recoil_02": {
     "inGameName": "Medium Muzzle Brake",
@@ -5410,7 +9018,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Muzzle_Standard_Recoil_03": {
     "inGameName": "Medium Muzzle Brake",
@@ -5424,7 +9039,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Light_02": {
     "inGameName": "Light Converter",
@@ -5438,7 +9060,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Light_03": {
     "inGameName": "Light Converter",
@@ -5460,7 +9089,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Medium_02": {
     "inGameName": "Medium Converter",
@@ -5474,7 +9110,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Medium_03": {
     "inGameName": "Medium Converter",
@@ -5496,7 +9139,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Heavy_02": {
     "inGameName": "Heavy Converter",
@@ -5510,7 +9160,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Heavy_03": {
     "inGameName": "Heavy Converter",
@@ -5532,7 +9189,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Shotgun_02": {
     "inGameName": "Shotgun Converter",
@@ -5546,7 +9210,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Shotgun_03": {
     "inGameName": "Shotgun Converter",
@@ -5568,7 +9239,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Light_AIDMG_01": {
     "inGameName": "Light Creature Dmg",
@@ -5582,7 +9260,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Light_AIDMG_02": {
     "inGameName": "Light Creature Dmg",
@@ -5596,7 +9281,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Light_AIDMG_03": {
     "inGameName": "Light Creature Dmg",
@@ -5618,7 +9310,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Medium_AIDMG_01": {
     "inGameName": "Medium Creature Dmg",
@@ -5632,7 +9331,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Medium_AIDMG_02": {
     "inGameName": "Medium Creature Dmg",
@@ -5646,7 +9352,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Medium_AIDMG_03": {
     "inGameName": "Medium Creature Dmg",
@@ -5668,7 +9381,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Converter_Shotgun_Slug_01": {
     "inGameName": "Shotgun Slugs",
@@ -5682,7 +9402,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_ForeGrip_Angled_02": {
     "inGameName": "Angled Foregrip",
@@ -5696,7 +9423,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_ForeGrip_Equip_01": {
     "inGameName": "Quickdraw Foregrip",
@@ -5727,7 +9461,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_ForeGrip_Equip_02": {
     "inGameName": "Quickdraw Foregrip",
@@ -5741,7 +9482,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_ForeGrip_ADS_01": {
     "inGameName": "Tactical Foregrip",
@@ -5755,7 +9503,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_ForeGrip_ADS_02": {
     "inGameName": "Tactical Foregrip",
@@ -5769,7 +9524,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_ForeGrip_ADS_03": {
     "inGameName": "Tactical Foregrip",
@@ -5791,7 +9553,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_RearGrip_02": {
     "inGameName": "Ergonomic Grip",
@@ -5805,7 +9574,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_RearGrip_ADS_01": {
     "inGameName": "Tactical Rear Grip",
@@ -5836,7 +9612,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_RearGrip_ADS_02": {
     "inGameName": "Tactical Rear Grip",
@@ -5850,7 +9633,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Optic_1x_01": {
     "inGameName": "Red Dot Sight",
@@ -5881,7 +9671,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Optic_1x_02": {
     "inGameName": "Holographic Sight",
@@ -5902,7 +9699,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Optic_Variable_01": {
     "inGameName": "2 - 4x Variable Optic",
@@ -5923,7 +9727,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Optic_8x_01": {
     "inGameName": "8x Optic",
@@ -5944,7 +9755,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Optic_6x_01": {
     "inGameName": "6x Optic",
@@ -5965,7 +9783,14 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   },
   "Mod_Korolev_Scanner_Oil": {
     "inGameName": "Crude Oil Scanning Module",
@@ -5984,6 +9809,13 @@
     "tags": [
       "Weapon.Attachment"
     ],
-    "stackSize": 1
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
   }
 }
