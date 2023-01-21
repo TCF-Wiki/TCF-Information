@@ -14,27 +14,72 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "UncommonVelticite": 5
+        "UncommonVelticite": {
+          "inGameName": "Cloudy Veltecite",
+          "amount": 5
+        }
       },
       "missions": {
-        "Main-KOR-GainTrust-4": 5
+        "Main-KOR-GainTrust-4": {
+          "inGameName": "Company Identity",
+          "amount": 5
+        }
       },
       "jobs": {
-        "Test-MultipleObjectives": 5,
-        "Test-Not-Free-Contract": 2,
-        "Easy-KOR-Minerals-1": 3,
-        "Medium-KOR-Minerals-1": 6,
-        "Hard-KOR-Minerals-1": 15,
-        "Easy-Osiris-Zeal-1": 1,
-        "Medium-Osiris-Zeal-1": 2,
-        "Hard-Osiris-Zeal-1": 3,
-        "Hard-Osiris-Minerals-1": 20,
-        "NEW-Easy-KOR-Mine-1": 4
+        "Test-MultipleObjectives": {
+          "inGameName": "6C7AFB14492AA7750BCAAE99B1D70906",
+          "amount": 5
+        },
+        "Test-Not-Free-Contract": {
+          "inGameName": "86F28CEF43A8271D1901DC80335C83BE",
+          "amount": 2
+        },
+        "Easy-KOR-Minerals-1": {
+          "inGameName": "Veltecite Run I",
+          "amount": 3
+        },
+        "Medium-KOR-Minerals-1": {
+          "inGameName": "Veltecite Run II",
+          "amount": 6
+        },
+        "Hard-KOR-Minerals-1": {
+          "inGameName": "Veltecite Run III",
+          "amount": 15
+        },
+        "Easy-Osiris-Zeal-1": {
+          "inGameName": "Incompletable - Zealot I",
+          "amount": 1
+        },
+        "Medium-Osiris-Zeal-1": {
+          "inGameName": "Incompletable - Zealot II",
+          "amount": 2
+        },
+        "Hard-Osiris-Zeal-1": {
+          "inGameName": "Incompletable - Zealot III",
+          "amount": 3
+        },
+        "Hard-Osiris-Minerals-1": {
+          "inGameName": "Mineral Samples",
+          "amount": 20
+        },
+        "NEW-Easy-KOR-Mine-1": {
+          "inGameName": "Flawed but useful",
+          "amount": 4
+        }
       },
       "quarters": {
-        "generate_aurum_1.2": 3,
-        "kmarks_passive_cap_1.2": 3,
-        "aurum_passive_cap_1.2": 5
+        "generate_aurum_1.2": {
+          "inGameName": "Generate aurum 1.2",
+          "amount": 3
+        },
+        "kmarks_passive_cap_1.2": {
+          "inGameName": "Kmarks passive cap 1.2",
+          "amount": 3
+        },
+        "aurum_passive_cap_1.2": {
+          "inGameName": "Aurum passive cap 1.2",
+          "amount": 5
+        }
       },
       "forge": {}
     }
@@ -60,21 +105,48 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "RareVeltecite": 5,
-        "Shield_03": 2
+        "RareVeltecite": {
+          "inGameName": "Clear Veltecite",
+          "amount": 5
+        },
+        "Shield_03": {
+          "inGameName": "Shield",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-KOR-MiningTool-1": 7,
-        "Main-KOR-GruntWork-2": 3
+        "Main-KOR-MiningTool-1": {
+          "inGameName": "Mineral Master",
+          "amount": 7
+        },
+        "Main-KOR-GruntWork-2": {
+          "inGameName": "Through the Optic Glass",
+          "amount": 3
+        }
       },
       "jobs": {
-        "Easy-KOR-Minerals-2": 2,
-        "NEW-Easy-KOR-Mine-4": 3
+        "Easy-KOR-Minerals-2": {
+          "inGameName": "Crystal Frenzy I",
+          "amount": 2
+        },
+        "NEW-Easy-KOR-Mine-4": {
+          "inGameName": "Cloudy with a Chance of Laser",
+          "amount": 3
+        }
       },
       "quarters": {
-        "generate_aurum_2.0": 1,
-        "kmarks_passive_cap_2.2": 3,
-        "aurum_passive_cap_2.3": 4
+        "generate_aurum_2.0": {
+          "inGameName": "Generate aurum 2.0",
+          "amount": 1
+        },
+        "kmarks_passive_cap_2.2": {
+          "inGameName": "Kmarks passive cap 2.2",
+          "amount": 3
+        },
+        "aurum_passive_cap_2.3": {
+          "inGameName": "Aurum passive cap 2.3",
+          "amount": 4
+        }
       },
       "forge": {}
     }
@@ -100,36 +172,108 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "EpicVeltecite": 5,
-        "Mod_Magazine_Light_03": 1,
-        "Mod_Magazine_Medium_03": 1,
-        "Mod_Magazine_Heavy_03": 1,
-        "Mod_Magazine_Shotgun_03": 1,
-        "Mod_Magazine_Light_ReloadSpeed_04": 1,
-        "Mod_Magazine_Medium_Reloadspeed_04": 1,
-        "Mod_Magazine_Heavy_ReloadSpeed_04": 1,
-        "Mod_Magazine_Shotgun_ReloadSpeed_04": 1,
-        "Mod_Magazine_Light_EXTReload_02": 1,
-        "Mod_Magazine_Medium_EXTReload_02": 1,
-        "Mod_ForeGrip_ADS_03": 1
+        "EpicVeltecite": {
+          "inGameName": "Pure Veltecite",
+          "amount": 5
+        },
+        "Mod_Magazine_Light_03": {
+          "inGameName": "Light Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_03": {
+          "inGameName": "Medium Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Heavy_03": {
+          "inGameName": "Heavy Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Shotgun_03": {
+          "inGameName": "Shotgun Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Light_ReloadSpeed_04": {
+          "inGameName": "Light Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_Reloadspeed_04": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_04": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Light_EXTReload_02": {
+          "inGameName": "Light Extended Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_EXTReload_02": {
+          "inGameName": "Medium Extended Quickdraw",
+          "amount": 1
+        },
+        "Mod_ForeGrip_ADS_03": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-Veltecite-1": 3,
-        "Main-Osiris-CaveRumors-3": 8,
-        "Main-Osiris-CrystalSamples-1": 8
+        "Main-KOR-Veltecite-1": {
+          "inGameName": "Active Scan",
+          "amount": 3
+        },
+        "Main-Osiris-CaveRumors-3": {
+          "inGameName": "Lost Knowledge Part 4",
+          "amount": 8
+        },
+        "Main-Osiris-CrystalSamples-1": {
+          "inGameName": "Everything is Crystals Part 1",
+          "amount": 8
+        }
       },
       "jobs": {
-        "Medium-KOR-Minerals-2": 3,
-        "NEW-Medium-KOR-Mine-1": 2,
-        "NEW-Medium-KOR-Mine-5": 2,
-        "NEW-Hard-KOR-Mine-5": 8,
-        "NEW-Hard-KOR-Mine-6": 6,
-        "NEW-Hard-ICA-Mine-2": 8
+        "Medium-KOR-Minerals-2": {
+          "inGameName": "Crystal Frenzy II",
+          "amount": 3
+        },
+        "NEW-Medium-KOR-Mine-1": {
+          "inGameName": "Clear Veltecite",
+          "amount": 2
+        },
+        "NEW-Medium-KOR-Mine-5": {
+          "inGameName": "Crystal Frenzy",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Mine-5": {
+          "inGameName": "Classified II",
+          "amount": 8
+        },
+        "NEW-Hard-KOR-Mine-6": {
+          "inGameName": "Unlimited Power",
+          "amount": 6
+        },
+        "NEW-Hard-ICA-Mine-2": {
+          "inGameName": "Energy Crisis",
+          "amount": 8
+        }
       },
       "quarters": {
-        "generate_kmarks_3.1": 2,
-        "kmarks_passive_cap_3.4": 4,
-        "aurum_passive_cap_3.4": 5
+        "generate_kmarks_3.1": {
+          "inGameName": "Generate kmarks 3.1",
+          "amount": 2
+        },
+        "kmarks_passive_cap_3.4": {
+          "inGameName": "Kmarks passive cap 3.4",
+          "amount": 4
+        },
+        "aurum_passive_cap_3.4": {
+          "inGameName": "Aurum passive cap 3.4",
+          "amount": 5
+        }
       },
       "forge": {}
     }
@@ -155,24 +299,60 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Helmet_NV_01": 3
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 3
+        }
       },
       "missions": {
-        "Main-KOR-GruntWork-3": 1,
-        "Main-ICA-OilScanModule-1": 2,
-        "Main-Osiris-CrystalSamples-1": 3
+        "Main-KOR-GruntWork-3": {
+          "inGameName": "A Pinch of Pure Power",
+          "amount": 1
+        },
+        "Main-ICA-OilScanModule-1": {
+          "inGameName": "An Eye for Oil Part 1",
+          "amount": 2
+        },
+        "Main-Osiris-CrystalSamples-1": {
+          "inGameName": "Everything is Crystals Part 1",
+          "amount": 3
+        }
       },
       "jobs": {
-        "Hard-KOR-Minerals-2": 2,
-        "Hard-KOR-Minerals-3": 2,
-        "NEW-Medium-KOR-Mine-3": 2,
-        "NEW-Hard-KOR-Mine-1": 2,
-        "NEW-Hard-KOR-Mine-6": 3
+        "Hard-KOR-Minerals-2": {
+          "inGameName": "Crystal Frenzy III",
+          "amount": 2
+        },
+        "Hard-KOR-Minerals-3": {
+          "inGameName": "Geologist",
+          "amount": 2
+        },
+        "NEW-Medium-KOR-Mine-3": {
+          "inGameName": "Pure Veltecite",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Mine-1": {
+          "inGameName": "Geologist",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Mine-6": {
+          "inGameName": "Unlimited Power",
+          "amount": 3
+        }
       },
       "quarters": {
-        "increase_stash_4.2": 2,
-        "kmarks_passive_cap_4.0": 2,
-        "aurum_passive_cap_4.0": 3
+        "increase_stash_4.2": {
+          "inGameName": "Increase stash 4.2",
+          "amount": 2
+        },
+        "kmarks_passive_cap_4.0": {
+          "inGameName": "Kmarks passive cap 4.0",
+          "amount": 2
+        },
+        "aurum_passive_cap_4.0": {
+          "inGameName": "Aurum passive cap 4.0",
+          "amount": 3
+        }
       },
       "forge": {}
     }
@@ -193,18 +373,42 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-BuildLaserDrill-6": 1,
-        "Main-Osiris-CraftFuel-2": 1
+        "Main-KOR-BuildLaserDrill-6": {
+          "inGameName": "This is Goodbye",
+          "amount": 1
+        },
+        "Main-Osiris-CraftFuel-2": {
+          "inGameName": "Building a better Death Ray Part 2",
+          "amount": 1
+        }
       },
       "jobs": {
-        "NEW-Hard-KOR-Mine-3": 2,
-        "NEW-Hard-KOR-Mine-6": 1
+        "NEW-Hard-KOR-Mine-3": {
+          "inGameName": "Veltecite Hearts",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Mine-6": {
+          "inGameName": "Unlimited Power",
+          "amount": 1
+        }
       },
       "quarters": {
-        "increase_stash_5.2": 1,
-        "generate_kmarks_4.4": 1,
-        "kmarks_passive_cap_4.4": 1,
-        "aurum_passive_cap_4.4": 1
+        "increase_stash_5.2": {
+          "inGameName": "Increase stash 5.2",
+          "amount": 1
+        },
+        "generate_kmarks_4.4": {
+          "inGameName": "Generate kmarks 4.4",
+          "amount": 1
+        },
+        "kmarks_passive_cap_4.4": {
+          "inGameName": "Kmarks passive cap 4.4",
+          "amount": 1
+        },
+        "aurum_passive_cap_4.4": {
+          "inGameName": "Aurum passive cap 4.4",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -224,24 +428,54 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "PureFocusCrystal": 9
+        "PureFocusCrystal": {
+          "inGameName": "Pure Focus Crystal",
+          "amount": 9
+        }
       },
       "missions": {
-        "Main-KOR-GruntWork-7": 3,
-        "Main-Osiris-CrystalSamples-2": 5
+        "Main-KOR-GruntWork-7": {
+          "inGameName": "From Above",
+          "amount": 3
+        },
+        "Main-Osiris-CrystalSamples-2": {
+          "inGameName": "Everything is Crystals Part 2",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Medium-KOR-Mine-and-PvE-2": 4,
-        "NEW-Medium-KOR-Mine-5": 8,
-        "NEW-Hard-KOR-Mine-4": 10
+        "NEW-Medium-KOR-Mine-and-PvE-2": {
+          "inGameName": "Time to Focus",
+          "amount": 4
+        },
+        "NEW-Medium-KOR-Mine-5": {
+          "inGameName": "Crystal Frenzy",
+          "amount": 8
+        },
+        "NEW-Hard-KOR-Mine-4": {
+          "inGameName": "Laser Rifles",
+          "amount": 10
+        }
       },
       "quarters": {
-        "generate_aurum_4.1": 19
+        "generate_aurum_4.1": {
+          "inGameName": "Generate aurum 4.1",
+          "amount": 19
+        }
       },
       "forge": {
-        "Perk_HealthRegen_Storm": 2,
-        "Perk_Armor_Helmet": 2,
-        "Perk_Armor_Shield": 2
+        "Perk_HealthRegen_Storm": {
+          "inGameName": "Health restoration per second during a Storm",
+          "amount": 2
+        },
+        "Perk_Armor_Helmet": {
+          "inGameName": "Extra armor",
+          "amount": 2
+        },
+        "Perk_Armor_Shield": {
+          "inGameName": "Extra armor",
+          "amount": 2
+        }
       }
     }
   },
@@ -266,22 +500,52 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Shield_05": 1,
-        "Shield_Restoration_04": 1
+        "Shield_05": {
+          "inGameName": "Shield",
+          "amount": 1
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Restoration Shield",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-FocusCrystals-1": 3
+        "Main-KOR-FocusCrystals-1": {
+          "inGameName": "Clear Focus",
+          "amount": 3
+        }
       },
       "jobs": {
-        "NEW-Hard-KOR-Mine-1": 1,
-        "NEW-Hard-KOR-Mine-2": 3,
-        "NEW-Hard-KOR-Mine-4": 3,
-        "NEW-Hard-ICA-Mine-1": 4
+        "NEW-Hard-KOR-Mine-1": {
+          "inGameName": "Geologist",
+          "amount": 1
+        },
+        "NEW-Hard-KOR-Mine-2": {
+          "inGameName": "Industry Secret",
+          "amount": 3
+        },
+        "NEW-Hard-KOR-Mine-4": {
+          "inGameName": "Laser Rifles",
+          "amount": 3
+        },
+        "NEW-Hard-ICA-Mine-1": {
+          "inGameName": "Arms Race",
+          "amount": 4
+        }
       },
       "quarters": {
-        "generate_aurum_4.2": 2,
-        "generate_kmarks_4.2": 2,
-        "kmarks_passive_cap_4.3": 2
+        "generate_aurum_4.2": {
+          "inGameName": "Generate aurum 4.2",
+          "amount": 2
+        },
+        "generate_kmarks_4.2": {
+          "inGameName": "Generate kmarks 4.2",
+          "amount": 2
+        },
+        "kmarks_passive_cap_4.3": {
+          "inGameName": "Kmarks passive cap 4.3",
+          "amount": 2
+        }
       },
       "forge": {}
     }
@@ -301,23 +565,56 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "PureNickel": 5
+        "PureNickel": {
+          "inGameName": "Altered Nickel",
+          "amount": 5
+        }
       },
       "missions": {
-        "Main-KOR-FTUE-1": 1
+        "Main-KOR-FTUE-1": {
+          "inGameName": "Welcome to the Workforce",
+          "amount": 1
+        }
       },
       "jobs": {
-        "Test-Location-MultipleObjectives": 2,
-        "Easy-KOR_FTUE-Minerals-1": 2,
-        "Medium-KOR-Conditional-3": 2
+        "Test-Location-MultipleObjectives": {
+          "inGameName": "DA2B223E47A67475AA12259FB6D31831",
+          "amount": 2
+        },
+        "Easy-KOR_FTUE-Minerals-1": {
+          "inGameName": "Nickel Run",
+          "amount": 2
+        },
+        "Medium-KOR-Conditional-3": {
+          "inGameName": "Moving Rocks",
+          "amount": 2
+        }
       },
       "quarters": {
-        "increase_stash_1.2": 8,
-        "reduce_pq_upgrading_time_1.0": 5,
-        "generate_kmarks_1.2": 5,
-        "daily_crate_2.0": 15,
-        "kmarks_passive_cap_1.1": 5,
-        "aurum_passive_cap_1.2": 8
+        "increase_stash_1.2": {
+          "inGameName": "Increase stash 1.2",
+          "amount": 8
+        },
+        "reduce_pq_upgrading_time_1.0": {
+          "inGameName": "Reduce pq upgrading time 1.0",
+          "amount": 5
+        },
+        "generate_kmarks_1.2": {
+          "inGameName": "Generate kmarks 1.2",
+          "amount": 5
+        },
+        "daily_crate_2.0": {
+          "inGameName": "Daily crate 2.0",
+          "amount": 15
+        },
+        "kmarks_passive_cap_1.1": {
+          "inGameName": "Kmarks passive cap 1.1",
+          "amount": 5
+        },
+        "aurum_passive_cap_1.2": {
+          "inGameName": "Aurum passive cap 1.2",
+          "amount": 8
+        }
       },
       "forge": {}
     }
@@ -343,21 +640,48 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Bag_02": 2,
-        "Bag_03": 3
+        "Bag_02": {
+          "inGameName": "Medium Backpack",
+          "amount": 2
+        },
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 3
+        }
       },
       "missions": {
-        "Main-KOR-MiningTool-1": 6
+        "Main-KOR-MiningTool-1": {
+          "inGameName": "Mineral Master",
+          "amount": 6
+        }
       },
       "jobs": {
-        "NEW-Easy-KOR-Mine-3": 3,
-        "NEW-Medium-KOR-Mine-4": 6
+        "NEW-Easy-KOR-Mine-3": {
+          "inGameName": "Altered Nickel Supplies",
+          "amount": 3
+        },
+        "NEW-Medium-KOR-Mine-4": {
+          "inGameName": "Titans of Industry",
+          "amount": 6
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_2.1": 10,
-        "generate_kmarks_2.1": 10,
-        "kmarks_passive_cap_1.3": 4,
-        "aurum_passive_cap_2.0": 4
+        "reduce_pq_upgrading_time_2.1": {
+          "inGameName": "Reduce pq upgrading time 2.1",
+          "amount": 10
+        },
+        "generate_kmarks_2.1": {
+          "inGameName": "Generate kmarks 2.1",
+          "amount": 10
+        },
+        "kmarks_passive_cap_1.3": {
+          "inGameName": "Kmarks passive cap 1.3",
+          "amount": 4
+        },
+        "aurum_passive_cap_2.0": {
+          "inGameName": "Aurum passive cap 2.0",
+          "amount": 4
+        }
       },
       "forge": {}
     }
@@ -398,20 +722,44 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "TitanOre": 6
+        "TitanOre": {
+          "inGameName": "Titan Ore",
+          "amount": 6
+        }
       },
       "missions": {
-        "Main-KOR-GruntWork-3": 7,
-        "Main-KOR-EarlyMap2-3": 6
+        "Main-KOR-GruntWork-3": {
+          "inGameName": "A Pinch of Pure Power",
+          "amount": 7
+        },
+        "Main-KOR-EarlyMap2-3": {
+          "inGameName": "Uncharted Territory Part 3",
+          "amount": 6
+        }
       },
       "jobs": {
-        "NEW-Easy-KOR-Mine-2": 2,
-        "NEW-Hard-KOR-Gather-6": 16
+        "NEW-Easy-KOR-Mine-2": {
+          "inGameName": "Brittle Titan Ore",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Gather-6": {
+          "inGameName": "Stocking Up",
+          "amount": 16
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_3.2": 16,
-        "generate_kmarks_3.1": 10,
-        "kmarks_passive_cap_3.1": 10
+        "reduce_pq_upgrading_time_3.2": {
+          "inGameName": "Reduce pq upgrading time 3.2",
+          "amount": 16
+        },
+        "generate_kmarks_3.1": {
+          "inGameName": "Generate kmarks 3.1",
+          "amount": 10
+        },
+        "kmarks_passive_cap_3.1": {
+          "inGameName": "Kmarks passive cap 3.1",
+          "amount": 10
+        }
       },
       "forge": {}
     }
@@ -437,29 +785,74 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Bag_04": 1,
-        "Shield_04": 1,
-        "Mod_Converter_Light_03": 1,
-        "Mod_Converter_Medium_03": 1,
-        "Mod_Converter_Light_AIDMG_03": 1,
-        "Mod_Converter_Medium_AIDMG_03": 1
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        },
+        "Shield_04": {
+          "inGameName": "Shield",
+          "amount": 1
+        },
+        "Mod_Converter_Light_03": {
+          "inGameName": "Light Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_03": {
+          "inGameName": "Medium Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_03": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_03": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-MiningTool-5": 3,
-        "Main-KOR-TitanOre-2": 5
+        "Main-KOR-MiningTool-5": {
+          "inGameName": "Final Touches",
+          "amount": 3
+        },
+        "Main-KOR-TitanOre-2": {
+          "inGameName": "A Heavy Conscience",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Medium-KOR-Mine-4": 2
+        "NEW-Medium-KOR-Mine-4": {
+          "inGameName": "Titans of Industry",
+          "amount": 2
+        }
       },
       "quarters": {
-        "increase_stash_3.0": 1,
-        "reduce_pq_upgrading_time_4.0": 2,
-        "generate_kmarks_3.2": 1,
-        "kmarks_passive_cap_3.3": 2
+        "increase_stash_3.0": {
+          "inGameName": "Increase stash 3.0",
+          "amount": 1
+        },
+        "reduce_pq_upgrading_time_4.0": {
+          "inGameName": "Reduce pq upgrading time 4.0",
+          "amount": 2
+        },
+        "generate_kmarks_3.2": {
+          "inGameName": "Generate kmarks 3.2",
+          "amount": 1
+        },
+        "kmarks_passive_cap_3.3": {
+          "inGameName": "Kmarks passive cap 3.3",
+          "amount": 2
+        }
       },
       "forge": {
-        "Perk_AIProtection": 2,
-        "Perk_AOEReduction": 2
+        "Perk_AIProtection": {
+          "inGameName": "Less damage from hostile fauna attacks",
+          "amount": 2
+        },
+        "Perk_AOEReduction": {
+          "inGameName": "Less damage from explosions",
+          "amount": 2
+        }
       }
     }
   },
@@ -478,30 +871,81 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Consumable_Health_02": 1,
-        "Consumable_Health_05": 2,
-        "Shield_Restoration_01": 2,
-        "Helmet_Restoration_01": 2
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_05": {
+          "inGameName": "Strong Medkit",
+          "amount": 2
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Restoration Shield",
+          "amount": 2
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Restoration Helmet",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-Osiris-GainTrust-3": 3,
-        "Main-Osiris-SideWork1-1": 25
+        "Main-Osiris-GainTrust-3": {
+          "inGameName": "Tick-Tock",
+          "amount": 3
+        },
+        "Main-Osiris-SideWork1-1": {
+          "inGameName": "The Needs of the One Part 1",
+          "amount": 25
+        }
       },
       "jobs": {
-        "Easy-Osiris-Brightcaps-1": 5,
-        "Medium-Osiris-Brightcaps-1": 12,
-        "Hard-Osiris-Brightcaps-1": 25,
-        "Medium-Brightcaps-Zeal-1": 8,
-        "Medium-Osiris-Conditional-3": 2,
-        "NEW-Easy-Osiris-Brightcaps-1": 5,
-        "NEW-Easy-Osiris-Brightcaps-2": 8,
-        "NEW-Medium-Osiris-Brightcaps-and-PvE-1": 12,
-        "NEW-Hard-Osiris-Brightcaps-1": 15
+        "Easy-Osiris-Brightcaps-1": {
+          "inGameName": "Naturalist I",
+          "amount": 5
+        },
+        "Medium-Osiris-Brightcaps-1": {
+          "inGameName": "Naturalist II",
+          "amount": 12
+        },
+        "Hard-Osiris-Brightcaps-1": {
+          "inGameName": "Naturalist III",
+          "amount": 25
+        },
+        "Medium-Brightcaps-Zeal-1": {
+          "inGameName": "2F4537B3434A0E6BA0ABD0990E135D57",
+          "amount": 8
+        },
+        "Medium-Osiris-Conditional-3": {
+          "inGameName": "Muddied Waters",
+          "amount": 2
+        },
+        "NEW-Easy-Osiris-Brightcaps-1": {
+          "inGameName": "Botanist I",
+          "amount": 5
+        },
+        "NEW-Easy-Osiris-Brightcaps-2": {
+          "inGameName": "Botanist II",
+          "amount": 8
+        },
+        "NEW-Medium-Osiris-Brightcaps-and-PvE-1": {
+          "inGameName": "Clear the Swamp",
+          "amount": 12
+        },
+        "NEW-Hard-Osiris-Brightcaps-1": {
+          "inGameName": "Harvest Day",
+          "amount": 15
+        }
       },
       "quarters": {},
       "forge": {
-        "Perk_HealthRegen": 3,
-        "Perk_StaminaConsumption": 3
+        "Perk_HealthRegen": {
+          "inGameName": "Health restoration per second",
+          "amount": 3
+        },
+        "Perk_StaminaConsumption": {
+          "inGameName": "Less stamina consumption",
+          "amount": 3
+        }
       }
     }
   },
@@ -520,33 +964,90 @@
     "stackSize": 3,
     "uses": {
       "printing": {
-        "WP_A_Sniper_Gauss_01": 10,
-        "WP_A_Launch_MSL_01": 10,
-        "WP_G_HVY_Beam_01": 10,
-        "Helmet_NV_01": 4
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 10
+        },
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 10
+        },
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 10
+        },
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 4
+        }
       },
       "missions": {
-        "Main-KOR-BuildLaserDrill-8": 2,
-        "Main-ICA-MeteorReactor-3": 3
+        "Main-KOR-BuildLaserDrill-8": {
+          "inGameName": "Unlimited Power",
+          "amount": 2
+        },
+        "Main-ICA-MeteorReactor-3": {
+          "inGameName": "Project Fireball Part 5",
+          "amount": 3
+        }
       },
       "jobs": {
-        "Medium-Osiris-Meteor-1": 1,
-        "Hard-Osiris-Meteor-1": 3,
-        "NEW-Hard-Osiris-Meteor-1": 2,
-        "NEW-Hard-Osiris-Meteor-2": 2,
-        "NEW-Hard-KOR-Meteor-1": 1,
-        "NEW-Hard-KOR-Meteor-3": 3
+        "Medium-Osiris-Meteor-1": {
+          "inGameName": "Falling Stars II",
+          "amount": 1
+        },
+        "Hard-Osiris-Meteor-1": {
+          "inGameName": "Falling Stars III",
+          "amount": 3
+        },
+        "NEW-Hard-Osiris-Meteor-1": {
+          "inGameName": "Core Values",
+          "amount": 2
+        },
+        "NEW-Hard-Osiris-Meteor-2": {
+          "inGameName": "Promising Results",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Meteor-1": {
+          "inGameName": "Meteor Core",
+          "amount": 1
+        },
+        "NEW-Hard-KOR-Meteor-3": {
+          "inGameName": "Battery Day",
+          "amount": 3
+        }
       },
       "quarters": {
-        "increase_stash_5.0": 4,
-        "increase_bag_4.0": 3,
-        "generate_kmarks_3.2": 3,
-        "kmarks_passive_cap_4.1": 4,
-        "aurum_passive_cap_3.2": 3
+        "increase_stash_5.0": {
+          "inGameName": "Increase stash 5.0",
+          "amount": 4
+        },
+        "increase_bag_4.0": {
+          "inGameName": "Increase bag 4.0",
+          "amount": 3
+        },
+        "generate_kmarks_3.2": {
+          "inGameName": "Generate kmarks 3.2",
+          "amount": 3
+        },
+        "kmarks_passive_cap_4.1": {
+          "inGameName": "Kmarks passive cap 4.1",
+          "amount": 4
+        },
+        "aurum_passive_cap_3.2": {
+          "inGameName": "Aurum passive cap 3.2",
+          "amount": 3
+        }
       },
       "forge": {
-        "Perk_MaxCapacity": 2,
-        "Perk_WeightAll": 2
+        "Perk_MaxCapacity": {
+          "inGameName": "Extra backpack capacity",
+          "amount": 2
+        },
+        "Perk_WeightAll": {
+          "inGameName": "Reduced weight of all items carried in backpack",
+          "amount": 2
+        }
       }
     }
   },
@@ -565,28 +1066,70 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "DerelictExplosives": 1
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-GruntWork-7": 3,
-        "Main-ICA-MeteorReactor-1": 3
+        "Main-KOR-GruntWork-7": {
+          "inGameName": "From Above",
+          "amount": 3
+        },
+        "Main-ICA-MeteorReactor-1": {
+          "inGameName": "Project Fireball Part 1",
+          "amount": 3
+        }
       },
       "jobs": {
-        "Easy-Osiris-Meteor-1": 3,
-        "NEW-Hard-ICA-Mine-2": 4,
-        "NEW-Medium-Osiris-Meteor-1": 4,
-        "NEW-Hard-Osiris-Meteor-2": 6,
-        "NEW-Medium-KOR-Meteor-1": 2,
-        "NEW-Hard-KOR-Meteor-2": 8
+        "Easy-Osiris-Meteor-1": {
+          "inGameName": "Falling Stars I",
+          "amount": 3
+        },
+        "NEW-Hard-ICA-Mine-2": {
+          "inGameName": "Energy Crisis",
+          "amount": 4
+        },
+        "NEW-Medium-Osiris-Meteor-1": {
+          "inGameName": "Unstable Sample",
+          "amount": 4
+        },
+        "NEW-Hard-Osiris-Meteor-2": {
+          "inGameName": "Promising Results",
+          "amount": 6
+        },
+        "NEW-Medium-KOR-Meteor-1": {
+          "inGameName": "Meteor Shards",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Meteor-2": {
+          "inGameName": "Shards of pure Power",
+          "amount": 8
+        }
       },
       "quarters": {
-        "increase_stash_4.0": 9,
-        "kmarks_passive_cap_2.3": 5,
-        "aurum_passive_cap_2.3": 6
+        "increase_stash_4.0": {
+          "inGameName": "Increase stash 4.0",
+          "amount": 9
+        },
+        "kmarks_passive_cap_2.3": {
+          "inGameName": "Kmarks passive cap 2.3",
+          "amount": 5
+        },
+        "aurum_passive_cap_2.3": {
+          "inGameName": "Aurum passive cap 2.3",
+          "amount": 6
+        }
       },
       "forge": {
-        "Perk_StormProtection": 2,
-        "Perk_ItemWeightReduction": 2
+        "Perk_StormProtection": {
+          "inGameName": "Less damage from Storm strikes",
+          "amount": 2
+        },
+        "Perk_ItemWeightReduction": {
+          "inGameName": "Reduced weight of this piece of gear",
+          "amount": 2
+        }
       }
     }
   },
@@ -606,20 +1149,44 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-StrongStims-2": 3
+        "Main-Osiris-StrongStims-2": {
+          "inGameName": "Stimulating Developments Part 2",
+          "amount": 3
+        }
       },
       "jobs": {
-        "Medium-Osiris-Tracking-1": 1,
-        "Medium-Osiris-Hunt-1_0": 1,
-        "NEW-Easy-Osiris-BlueRunnerEgg-1": 1,
-        "NEW-Medium-Osiris-BlueRunnerEgg-1": 3
+        "Medium-Osiris-Tracking-1": {
+          "inGameName": "Live Sample",
+          "amount": 1
+        },
+        "Medium-Osiris-Hunt-1_0": {
+          "inGameName": "8949018140F121F83C22CEA2D7274F5E",
+          "amount": 1
+        },
+        "NEW-Easy-Osiris-BlueRunnerEgg-1": {
+          "inGameName": "Egg Delivery",
+          "amount": 1
+        },
+        "NEW-Medium-Osiris-BlueRunnerEgg-1": {
+          "inGameName": "Egg Delivery III",
+          "amount": 3
+        }
       },
       "quarters": {
-        "kmarks_passive_cap_3.2": 9
+        "kmarks_passive_cap_3.2": {
+          "inGameName": "Kmarks passive cap 3.2",
+          "amount": 9
+        }
       },
       "forge": {
-        "Perk_FallingDamage": 2,
-        "Perk_WalkSpeed": 2
+        "Perk_FallingDamage": {
+          "inGameName": "Less damage from falling",
+          "amount": 2
+        },
+        "Perk_WalkSpeed": {
+          "inGameName": "Increased walk speed",
+          "amount": 2
+        }
       }
     }
   },
@@ -640,25 +1207,70 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-BuildLaserDrill-1": 15,
-        "Main-ICA-GainTrust-3": 3,
-        "Main-ICA-GruntWork-3": 3,
-        "Main-ICA-GasGrenades-2": 10,
-        "Main-ICA-OilPump-3": 20,
-        "Main-Osiris-PrototypeLaser-1": 10
+        "Main-KOR-BuildLaserDrill-1": {
+          "inGameName": "Building Blocks",
+          "amount": 15
+        },
+        "Main-ICA-GainTrust-3": {
+          "inGameName": "Basic Needs",
+          "amount": 3
+        },
+        "Main-ICA-GruntWork-3": {
+          "inGameName": "Doing the Work Part 3",
+          "amount": 3
+        },
+        "Main-ICA-GasGrenades-2": {
+          "inGameName": "Toxic Love Part 2",
+          "amount": 10
+        },
+        "Main-ICA-OilPump-3": {
+          "inGameName": "Back to Basics Part 4",
+          "amount": 20
+        },
+        "Main-Osiris-PrototypeLaser-1": {
+          "inGameName": "Laser Show Part 1",
+          "amount": 10
+        }
       },
       "jobs": {
-        "Easy-ICA-Materials-1": 2,
-        "Medium-ICA-Materials-1": 7,
-        "Hard-ICA-Materials-1": 8,
-        "NEW-Easy-ICA-Gather-3": 10,
-        "NEW-Medium-ICA-Gather-1": 10,
-        "NEW-Medium-ICA-Gather-4": 10
+        "Easy-ICA-Materials-1": {
+          "inGameName": "Made ICA Strong I",
+          "amount": 2
+        },
+        "Medium-ICA-Materials-1": {
+          "inGameName": "Made ICA Strong II",
+          "amount": 7
+        },
+        "Hard-ICA-Materials-1": {
+          "inGameName": "Made ICA Strong III",
+          "amount": 8
+        },
+        "NEW-Easy-ICA-Gather-3": {
+          "inGameName": "Patching up the Station Hull",
+          "amount": 10
+        },
+        "NEW-Medium-ICA-Gather-1": {
+          "inGameName": "New Beds",
+          "amount": 10
+        },
+        "NEW-Medium-ICA-Gather-4": {
+          "inGameName": "Air Lock Upgrades",
+          "amount": 10
+        }
       },
       "quarters": {
-        "increase_stash_2.0": 5,
-        "reduce_pq_upgrading_time_1.1": 3,
-        "generate_aurum_1.3": 5
+        "increase_stash_2.0": {
+          "inGameName": "Increase stash 2.0",
+          "amount": 5
+        },
+        "reduce_pq_upgrading_time_1.1": {
+          "inGameName": "Reduce pq upgrading time 1.1",
+          "amount": 3
+        },
+        "generate_aurum_1.3": {
+          "inGameName": "Generate aurum 1.3",
+          "amount": 5
+        }
       },
       "forge": {}
     }
@@ -678,30 +1290,84 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Consumable_GasGrenade_01": 2,
-        "Consumable_AudioDecoy_01": 2,
-        "ShockGrenade_02": 2,
-        "Helmet_02": 2,
-        "Helmet_Tactical_02": 2,
-        "Helmet_Restoration_01": 2,
-        "Mod_Optic_1x_02": 2
+        "Consumable_GasGrenade_01": {
+          "inGameName": "Gas Grenade",
+          "amount": 2
+        },
+        "Consumable_AudioDecoy_01": {
+          "inGameName": "Audio Decoy",
+          "amount": 2
+        },
+        "ShockGrenade_02": {
+          "inGameName": "ShockGrenade_02",
+          "amount": 2
+        },
+        "Helmet_02": {
+          "inGameName": "Helmet",
+          "amount": 2
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Restoration Helmet",
+          "amount": 2
+        },
+        "Mod_Optic_1x_02": {
+          "inGameName": "Holographic Sight",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-ICA-GainTrust-1": 2
+        "Main-ICA-GainTrust-1": {
+          "inGameName": "Don't Forget to Recycle",
+          "amount": 2
+        }
       },
       "jobs": {
-        "NEW-Easy-KOR-Gather-4": 10,
-        "NEW-Hard-KOR-Gather-3": 16,
-        "NEW-Medium-ICA-Gather-2": 4,
-        "NEW-Medium-ICA-Gather-4": 12,
-        "NEW-Hard-ICA-Gather-6": 12
+        "NEW-Easy-KOR-Gather-4": {
+          "inGameName": "New Mining Tools",
+          "amount": 10
+        },
+        "NEW-Hard-KOR-Gather-3": {
+          "inGameName": "Automated Security",
+          "amount": 16
+        },
+        "NEW-Medium-ICA-Gather-2": {
+          "inGameName": "Scrapping Station Improvements",
+          "amount": 4
+        },
+        "NEW-Medium-ICA-Gather-4": {
+          "inGameName": "Air Lock Upgrades",
+          "amount": 12
+        },
+        "NEW-Hard-ICA-Gather-6": {
+          "inGameName": "Scrapping Station Improvements",
+          "amount": 12
+        }
       },
       "quarters": {
-        "playerquarter_2": 5,
-        "increase_stash_1.0": 3,
-        "generate_kmarks_1.0": 3,
-        "kmarks_passive_cap_1.0": 3,
-        "aurum_passive_cap_1.1": 3
+        "playerquarter_2": {
+          "inGameName": "Player Quarters Level 2",
+          "amount": 5
+        },
+        "increase_stash_1.0": {
+          "inGameName": "Increase stash 1.0",
+          "amount": 3
+        },
+        "generate_kmarks_1.0": {
+          "inGameName": "Generate kmarks 1.0",
+          "amount": 3
+        },
+        "kmarks_passive_cap_1.0": {
+          "inGameName": "Kmarks passive cap 1.0",
+          "amount": 3
+        },
+        "aurum_passive_cap_1.1": {
+          "inGameName": "Aurum passive cap 1.1",
+          "amount": 3
+        }
       },
       "forge": {}
     }
@@ -721,29 +1387,80 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Mod_Optic_4x_01": 2,
-        "Mod_Optic_1x_02": 1,
-        "Mod_Optic_Variable_01": 3,
-        "Mod_Optic_8x_01": 3,
-        "Mod_Optic_6x_01": 3
+        "Mod_Optic_4x_01": {
+          "inGameName": "4x Optic",
+          "amount": 2
+        },
+        "Mod_Optic_1x_02": {
+          "inGameName": "Holographic Sight",
+          "amount": 1
+        },
+        "Mod_Optic_Variable_01": {
+          "inGameName": "2 - 4x Variable Optic",
+          "amount": 3
+        },
+        "Mod_Optic_8x_01": {
+          "inGameName": "8x Optic",
+          "amount": 3
+        },
+        "Mod_Optic_6x_01": {
+          "inGameName": "6x Optic",
+          "amount": 3
+        }
       },
       "missions": {
-        "Main-KOR-GruntWork-2": 2,
-        "Main-KOR-LetiumResearch-1": 5,
-        "Main-Osiris-GruntWork-1": 2,
-        "Main-Osiris-PrototypeLaser-2": 6
+        "Main-KOR-GruntWork-2": {
+          "inGameName": "Through the Optic Glass",
+          "amount": 2
+        },
+        "Main-KOR-LetiumResearch-1": {
+          "inGameName": "Shopping List",
+          "amount": 5
+        },
+        "Main-Osiris-GruntWork-1": {
+          "inGameName": "Field Research Part 1",
+          "amount": 2
+        },
+        "Main-Osiris-PrototypeLaser-2": {
+          "inGameName": "Laser Show Part 2",
+          "amount": 6
+        }
       },
       "jobs": {
-        "Easy-Osiris-Materials-1": 2,
-        "Medium-Osiris-Materials-1": 5,
-        "Hard-Osiris-Materials-1": 8,
-        "NEW-Medium-ICA-Gather-3": 5,
-        "NEW-Easy-Osiris-Gather-2": 2,
-        "NEW-Hard-Osiris-Gather-2": 5
+        "Easy-Osiris-Materials-1": {
+          "inGameName": "Bad Optics I",
+          "amount": 2
+        },
+        "Medium-Osiris-Materials-1": {
+          "inGameName": "Bad Optics II",
+          "amount": 5
+        },
+        "Hard-Osiris-Materials-1": {
+          "inGameName": "Bad Optics III",
+          "amount": 8
+        },
+        "NEW-Medium-ICA-Gather-3": {
+          "inGameName": "Station Defense",
+          "amount": 5
+        },
+        "NEW-Easy-Osiris-Gather-2": {
+          "inGameName": "Lab equipment",
+          "amount": 2
+        },
+        "NEW-Hard-Osiris-Gather-2": {
+          "inGameName": "Sensor Array Repairs",
+          "amount": 5
+        }
       },
       "quarters": {
-        "generate_aurum_2.3": 11,
-        "generate_kmarks_2.3": 11
+        "generate_aurum_2.3": {
+          "inGameName": "Generate aurum 2.3",
+          "amount": 11
+        },
+        "generate_kmarks_2.3": {
+          "inGameName": "Generate kmarks 2.3",
+          "amount": 11
+        }
       },
       "forge": {}
     }
@@ -771,24 +1488,60 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "QuestItem_OrbitalCanonTargetBeacon": 3,
-        "WP_A_Launch_MSL_01": 20,
-        "Mod_Converter_Shotgun_03": 1
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "QuestItem_OrbitalCanonTargetBeacon",
+          "amount": 3
+        },
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 20
+        },
+        "Mod_Converter_Shotgun_03": {
+          "inGameName": "Shotgun Converter",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-Osiris-ExplosivesTry-1": 6
+        "Main-Osiris-ExplosivesTry-1": {
+          "inGameName": "Explosive Delivery Part 1",
+          "amount": 6
+        }
       },
       "jobs": {
-        "Easy-KOR-Materials-1": 2,
-        "Medium-KOR-Materials-1": 5,
-        "Hard-KOR-Materials-1": 8,
-        "NEW-Medium-KOR-Gather-1": 4,
-        "NEW-Hard-KOR-Gather-5": 10,
-        "NEW-Hard-ICA-Gather-1": 8,
-        "NEW-Hard-KOR-Mine-5": 10
+        "Easy-KOR-Materials-1": {
+          "inGameName": "Ordnance Disposal I",
+          "amount": 2
+        },
+        "Medium-KOR-Materials-1": {
+          "inGameName": "Ordnance Disposal II",
+          "amount": 5
+        },
+        "Hard-KOR-Materials-1": {
+          "inGameName": "Ordnance Disposal III",
+          "amount": 8
+        },
+        "NEW-Medium-KOR-Gather-1": {
+          "inGameName": "Explosive Excavation",
+          "amount": 4
+        },
+        "NEW-Hard-KOR-Gather-5": {
+          "inGameName": "Classified I",
+          "amount": 10
+        },
+        "NEW-Hard-ICA-Gather-1": {
+          "inGameName": "Sabotage",
+          "amount": 8
+        },
+        "NEW-Hard-KOR-Mine-5": {
+          "inGameName": "Classified II",
+          "amount": 10
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_4.1": 18
+        "reduce_pq_upgrading_time_4.1": {
+          "inGameName": "Reduce pq upgrading time 4.1",
+          "amount": 18
+        }
       },
       "forge": {}
     }
@@ -808,26 +1561,71 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "PortableLabEquipmentBox": 8,
-        "Bag_02": 2,
-        "Shield_02": 2,
-        "Shield_Tactical_02": 2,
-        "Shield_Restoration_01": 2
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 8
+        },
+        "Bag_02": {
+          "inGameName": "Medium Backpack",
+          "amount": 2
+        },
+        "Shield_02": {
+          "inGameName": "Shield",
+          "amount": 2
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Tactical Shield",
+          "amount": 2
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Restoration Shield",
+          "amount": 2
+        }
       },
       "missions": {},
       "jobs": {
-        "NEW-Easy-KOR-Gather-3": 5,
-        "NEW-Medium-KOR-Gather-4": 8,
-        "NEW-Easy-ICA-Gather-2": 4,
-        "NEW-Easy-ICA-Gather-5": 10,
-        "NEW-Medium-ICA-Gather-4": 4,
-        "NEW-Hard-Osiris-Gather-2": 12
+        "NEW-Easy-KOR-Gather-3": {
+          "inGameName": "Ship Repairs",
+          "amount": 5
+        },
+        "NEW-Medium-KOR-Gather-4": {
+          "inGameName": "Business Class",
+          "amount": 8
+        },
+        "NEW-Easy-ICA-Gather-2": {
+          "inGameName": "Medical Supplies",
+          "amount": 4
+        },
+        "NEW-Easy-ICA-Gather-5": {
+          "inGameName": "Water Filtration System",
+          "amount": 10
+        },
+        "NEW-Medium-ICA-Gather-4": {
+          "inGameName": "Air Lock Upgrades",
+          "amount": 4
+        },
+        "NEW-Hard-Osiris-Gather-2": {
+          "inGameName": "Sensor Array Repairs",
+          "amount": 12
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_1.2": 5,
-        "generate_aurum_1.1": 3,
-        "generate_kmarks_1.2": 3,
-        "generate_kmarks_1.4": 5
+        "reduce_pq_upgrading_time_1.2": {
+          "inGameName": "Reduce pq upgrading time 1.2",
+          "amount": 5
+        },
+        "generate_aurum_1.1": {
+          "inGameName": "Generate aurum 1.1",
+          "amount": 3
+        },
+        "generate_kmarks_1.2": {
+          "inGameName": "Generate kmarks 1.2",
+          "amount": 3
+        },
+        "generate_kmarks_1.4": {
+          "inGameName": "Generate kmarks 1.4",
+          "amount": 5
+        }
       },
       "forge": {}
     }
@@ -848,26 +1646,74 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-GainTrust-2": 2,
-        "Main-KOR-MiningTool-2": 10,
-        "Main-KOR-BuildLaserDrill-1": 20,
-        "Main-ICA-FTUE-1": 1
+        "Main-KOR-GainTrust-2": {
+          "inGameName": "Spare Parts",
+          "amount": 2
+        },
+        "Main-KOR-MiningTool-2": {
+          "inGameName": "Inevitable Automation",
+          "amount": 10
+        },
+        "Main-KOR-BuildLaserDrill-1": {
+          "inGameName": "Building Blocks",
+          "amount": 20
+        },
+        "Main-ICA-FTUE-1": {
+          "inGameName": "Simple Needs",
+          "amount": 1
+        }
       },
       "jobs": {
-        "Easy-Osiris_FTUE-Gather-1": 4,
-        "Medium-ICA-Conditional-3": 1,
-        "NEW-Easy-KOR-Gather-1": 5,
-        "NEW-Medium-KOR-Gather-4": 8,
-        "NEW-Hard-KOR-Gather-2": 12,
-        "NEW-Hard-KOR-Gather-5": 15,
-        "NEW-Easy-ICA-Gather-5": 8,
-        "NEW-Hard-ICA-Gather-3": 12
+        "Easy-Osiris_FTUE-Gather-1": {
+          "inGameName": "A Simple Delivery",
+          "amount": 4
+        },
+        "Medium-ICA-Conditional-3": {
+          "inGameName": "Salvage Run",
+          "amount": 1
+        },
+        "NEW-Easy-KOR-Gather-1": {
+          "inGameName": "Reinforcing the old Mine",
+          "amount": 5
+        },
+        "NEW-Medium-KOR-Gather-4": {
+          "inGameName": "Business Class",
+          "amount": 8
+        },
+        "NEW-Hard-KOR-Gather-2": {
+          "inGameName": "A new type of Alloy",
+          "amount": 12
+        },
+        "NEW-Hard-KOR-Gather-5": {
+          "inGameName": "Classified I",
+          "amount": 15
+        },
+        "NEW-Easy-ICA-Gather-5": {
+          "inGameName": "Water Filtration System",
+          "amount": 8
+        },
+        "NEW-Hard-ICA-Gather-3": {
+          "inGameName": "Recoil Compensation",
+          "amount": 12
+        }
       },
       "quarters": {
-        "playerquarter_2": 5,
-        "increase_stash_1.2": 5,
-        "daily_crate_1.1": 3,
-        "aurum_passive_cap_1.3": 5
+        "playerquarter_2": {
+          "inGameName": "Player Quarters Level 2",
+          "amount": 5
+        },
+        "increase_stash_1.2": {
+          "inGameName": "Increase stash 1.2",
+          "amount": 5
+        },
+        "daily_crate_1.1": {
+          "inGameName": "Daily crate 1.1",
+          "amount": 3
+        },
+        "aurum_passive_cap_1.3": {
+          "inGameName": "Aurum passive cap 1.3",
+          "amount": 5
+        }
       },
       "forge": {}
     }
@@ -887,41 +1733,128 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "QuestItem_OilPumpBeacon": 12,
-        "Mod_Magazine_Light_03": 5,
-        "Mod_Muzzle_Small_Supressor_01": 5,
-        "Mod_Muzzle_Standard_Supressor_01": 5,
-        "Mod_Magazine_Medium_03": 5,
-        "Mod_Magazine_Heavy_03": 5,
-        "Mod_Magazine_Shotgun_03": 5,
-        "Mod_Magazine_Light_ReloadSpeed_04": 5,
-        "Mod_Magazine_Medium_Reloadspeed_04": 5,
-        "Mod_Magazine_Heavy_ReloadSpeed_04": 5,
-        "Mod_Magazine_Shotgun_ReloadSpeed_04": 5,
-        "Mod_Magazine_Light_EXTReload_02": 5,
-        "Mod_Magazine_Medium_EXTReload_02": 5,
-        "Mod_Converter_Light_03": 5,
-        "Mod_Converter_Medium_03": 5,
-        "Mod_Converter_Heavy_03": 5,
-        "Mod_Converter_Shotgun_03": 5,
-        "Mod_Converter_Light_AIDMG_03": 5,
-        "Mod_Converter_Medium_AIDMG_03": 5,
-        "Mod_ForeGrip_ADS_03": 5
+        "QuestItem_OilPumpBeacon": {
+          "inGameName": "Oil Pump Beacon",
+          "amount": 12
+        },
+        "Mod_Magazine_Light_03": {
+          "inGameName": "Light Extended",
+          "amount": 5
+        },
+        "Mod_Muzzle_Small_Supressor_01": {
+          "inGameName": "Small Suppressor",
+          "amount": 5
+        },
+        "Mod_Muzzle_Standard_Supressor_01": {
+          "inGameName": "Medium Suppressor",
+          "amount": 5
+        },
+        "Mod_Magazine_Medium_03": {
+          "inGameName": "Medium Extended",
+          "amount": 5
+        },
+        "Mod_Magazine_Heavy_03": {
+          "inGameName": "Heavy Extended",
+          "amount": 5
+        },
+        "Mod_Magazine_Shotgun_03": {
+          "inGameName": "Shotgun Extended",
+          "amount": 5
+        },
+        "Mod_Magazine_Light_ReloadSpeed_04": {
+          "inGameName": "Light Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Medium_Reloadspeed_04": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_04": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Light_EXTReload_02": {
+          "inGameName": "Light Extended Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Medium_EXTReload_02": {
+          "inGameName": "Medium Extended Quickdraw",
+          "amount": 5
+        },
+        "Mod_Converter_Light_03": {
+          "inGameName": "Light Converter",
+          "amount": 5
+        },
+        "Mod_Converter_Medium_03": {
+          "inGameName": "Medium Converter",
+          "amount": 5
+        },
+        "Mod_Converter_Heavy_03": {
+          "inGameName": "Heavy Converter",
+          "amount": 5
+        },
+        "Mod_Converter_Shotgun_03": {
+          "inGameName": "Shotgun Converter",
+          "amount": 5
+        },
+        "Mod_Converter_Light_AIDMG_03": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 5
+        },
+        "Mod_Converter_Medium_AIDMG_03": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 5
+        },
+        "Mod_ForeGrip_ADS_03": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 5
+        }
       },
       "missions": {
-        "Main-KOR-GainTrust-2": 1,
-        "Main-ICA-GasGrenades-2": 7,
-        "Main-ICA-OilPump-3": 12
+        "Main-KOR-GainTrust-2": {
+          "inGameName": "Spare Parts",
+          "amount": 1
+        },
+        "Main-ICA-GasGrenades-2": {
+          "inGameName": "Toxic Love Part 2",
+          "amount": 7
+        },
+        "Main-ICA-OilPump-3": {
+          "inGameName": "Back to Basics Part 4",
+          "amount": 12
+        }
       },
       "jobs": {
-        "NEW-Easy-KOR-Gather-4": 2,
-        "NEW-Hard-KOR-Gather-1": 3
+        "NEW-Easy-KOR-Gather-4": {
+          "inGameName": "New Mining Tools",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Gather-1": {
+          "inGameName": "Excavator Improvements",
+          "amount": 3
+        }
       },
       "quarters": {
-        "increase_stash_3.1": 12,
-        "reduce_pq_upgrading_time_2.2": 12,
-        "daily_crate_2.1": 8,
-        "kmarks_passive_cap_2.0": 3
+        "increase_stash_3.1": {
+          "inGameName": "Increase stash 3.1",
+          "amount": 12
+        },
+        "reduce_pq_upgrading_time_2.2": {
+          "inGameName": "Reduce pq upgrading time 2.2",
+          "amount": 12
+        },
+        "daily_crate_2.1": {
+          "inGameName": "Daily crate 2.1",
+          "amount": 8
+        },
+        "kmarks_passive_cap_2.0": {
+          "inGameName": "Kmarks passive cap 2.0",
+          "amount": 3
+        }
       },
       "forge": {}
     }
@@ -941,25 +1874,64 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "WP_G_HVY_Beam_01": 3,
-        "Helmet_05": 1,
-        "Helmet_Tactical_05": 1,
-        "Helmet_Restoration_04": 1
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 3
+        },
+        "Helmet_05": {
+          "inGameName": "Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Restoration Helmet",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-BuildLaserDrill-5": 1,
-        "Main-ICA-OilPump-8": 2,
-        "Main-Osiris-PrototypeLaser-2": 1
+        "Main-KOR-BuildLaserDrill-5": {
+          "inGameName": "Delicate Parts",
+          "amount": 1
+        },
+        "Main-ICA-OilPump-8": {
+          "inGameName": "Back to Basics Part 8",
+          "amount": 2
+        },
+        "Main-Osiris-PrototypeLaser-2": {
+          "inGameName": "Laser Show Part 2",
+          "amount": 1
+        }
       },
       "jobs": {
-        "NEW-Medium-Osiris-Gather-3": 1,
-        "NEW-Hard-Osiris-Gather-3": 3,
-        "NEW-Hard-Osiris-Gather-6": 3,
-        "NEW-Hard-Osiris-Gather-7": 3
+        "NEW-Medium-Osiris-Gather-3": {
+          "inGameName": "Research Drone Repairs",
+          "amount": 1
+        },
+        "NEW-Hard-Osiris-Gather-3": {
+          "inGameName": "A new Energy Source",
+          "amount": 3
+        },
+        "NEW-Hard-Osiris-Gather-6": {
+          "inGameName": "Safety Measures",
+          "amount": 3
+        },
+        "NEW-Hard-Osiris-Gather-7": {
+          "inGameName": "Research Drone Repairs",
+          "amount": 3
+        }
       },
       "quarters": {
-        "generate_aurum_3.3": 1,
-        "kmarks_passive_cap_3.3": 1
+        "generate_aurum_3.3": {
+          "inGameName": "Generate aurum 3.3",
+          "amount": 1
+        },
+        "kmarks_passive_cap_3.3": {
+          "inGameName": "Kmarks passive cap 3.3",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -980,21 +1952,48 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "AutoLoader": 5
+        "AutoLoader": {
+          "inGameName": "Autoloader",
+          "amount": 5
+        }
       },
       "missions": {
-        "Main-KOR-MiningTool-2": 5,
-        "Main-ICA-AudioDecoys-2": 5
+        "Main-KOR-MiningTool-2": {
+          "inGameName": "Inevitable Automation",
+          "amount": 5
+        },
+        "Main-ICA-AudioDecoys-2": {
+          "inGameName": "Audiophiles Beware Part 2",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Easy-KOR-Gather-2": 2,
-        "NEW-Medium-KOR-Gather-2": 3,
-        "NEW-Hard-KOR-Gather-1": 3
+        "NEW-Easy-KOR-Gather-2": {
+          "inGameName": "Mining Machinery",
+          "amount": 2
+        },
+        "NEW-Medium-KOR-Gather-2": {
+          "inGameName": "Mining Bot",
+          "amount": 3
+        },
+        "NEW-Hard-KOR-Gather-1": {
+          "inGameName": "Excavator Improvements",
+          "amount": 3
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_3.0": 15,
-        "generate_kmarks_2.4": 15,
-        "daily_crate_3.0": 12
+        "reduce_pq_upgrading_time_3.0": {
+          "inGameName": "Reduce pq upgrading time 3.0",
+          "amount": 15
+        },
+        "generate_kmarks_2.4": {
+          "inGameName": "Generate kmarks 2.4",
+          "amount": 15
+        },
+        "daily_crate_3.0": {
+          "inGameName": "Daily crate 3.0",
+          "amount": 12
+        }
       },
       "forge": {}
     }
@@ -1021,25 +2020,67 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Shield_05": 6,
-        "Shield_Tactical_05": 6,
-        "Shield_Restoration_04": 6,
-        "Mod_Optic_4x_01": 1,
-        "Mod_Optic_Variable_01": 2,
-        "Mod_Optic_8x_01": 2,
-        "Mod_Optic_6x_01": 2
+        "Shield_05": {
+          "inGameName": "Shield",
+          "amount": 6
+        },
+        "Shield_Tactical_05": {
+          "inGameName": "Tactical Shield",
+          "amount": 6
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Restoration Shield",
+          "amount": 6
+        },
+        "Mod_Optic_4x_01": {
+          "inGameName": "4x Optic",
+          "amount": 1
+        },
+        "Mod_Optic_Variable_01": {
+          "inGameName": "2 - 4x Variable Optic",
+          "amount": 2
+        },
+        "Mod_Optic_8x_01": {
+          "inGameName": "8x Optic",
+          "amount": 2
+        },
+        "Mod_Optic_6x_01": {
+          "inGameName": "6x Optic",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-KOR-CraftingBackpack-1": 2
+        "Main-KOR-CraftingBackpack-1": {
+          "inGameName": "Order Refill",
+          "amount": 2
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_7": 9,
-        "increase_stash_4.1": 8,
-        "reduce_pq_upgrading_time_2.0": 1,
-        "generate_aurum_2.4": 6,
-        "generate_kmarks_3.4": 12,
-        "kmarks_passive_cap_2.1": 1
+        "playerquarter_7": {
+          "inGameName": "Player Quarters Level 7",
+          "amount": 9
+        },
+        "increase_stash_4.1": {
+          "inGameName": "Increase stash 4.1",
+          "amount": 8
+        },
+        "reduce_pq_upgrading_time_2.0": {
+          "inGameName": "Reduce pq upgrading time 2.0",
+          "amount": 1
+        },
+        "generate_aurum_2.4": {
+          "inGameName": "Generate aurum 2.4",
+          "amount": 6
+        },
+        "generate_kmarks_3.4": {
+          "inGameName": "Generate kmarks 3.4",
+          "amount": 12
+        },
+        "kmarks_passive_cap_2.1": {
+          "inGameName": "Kmarks passive cap 2.1",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -1059,34 +2100,100 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "CombatCPU_red": 2,
-        "Mod_Magazine_Light_03": 2,
-        "Mod_Magazine_Medium_03": 2,
-        "Mod_Magazine_Heavy_03": 2,
-        "Mod_Magazine_Shotgun_03": 2,
-        "Mod_Magazine_Light_ReloadSpeed_04": 2,
-        "Mod_Magazine_Medium_Reloadspeed_04": 2,
-        "Mod_Magazine_Heavy_ReloadSpeed_04": 2,
-        "Mod_Magazine_Shotgun_ReloadSpeed_04": 2,
-        "Mod_Magazine_Light_EXTReload_02": 2,
-        "Mod_Magazine_Medium_EXTReload_02": 2,
-        "Mod_Stock_Marksman_ADSEquip_02": 2,
-        "Mod_ForeGrip_ADS_03": 2
+        "CombatCPU_red": {
+          "inGameName": "Master Unit CPU",
+          "amount": 2
+        },
+        "Mod_Magazine_Light_03": {
+          "inGameName": "Light Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_03": {
+          "inGameName": "Medium Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_03": {
+          "inGameName": "Heavy Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Shotgun_03": {
+          "inGameName": "Shotgun Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Light_ReloadSpeed_04": {
+          "inGameName": "Light Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_Reloadspeed_04": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_04": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Light_EXTReload_02": {
+          "inGameName": "Light Extended Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_EXTReload_02": {
+          "inGameName": "Medium Extended Quickdraw",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_ADSEquip_02": {
+          "inGameName": "MKM Ultralight Stock",
+          "amount": 2
+        },
+        "Mod_ForeGrip_ADS_03": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-KOR-BuildLaserDrill-3": 5,
-        "Main-ICA-MeteorReactor-2": 3
+        "Main-KOR-BuildLaserDrill-3": {
+          "inGameName": "Custom Rig",
+          "amount": 5
+        },
+        "Main-ICA-MeteorReactor-2": {
+          "inGameName": "Project Fireball Part 2",
+          "amount": 3
+        }
       },
       "jobs": {
-        "NEW-Hard-KOR-Gather-1": 2
+        "NEW-Hard-KOR-Gather-1": {
+          "inGameName": "Excavator Improvements",
+          "amount": 2
+        }
       },
       "quarters": {
-        "playerquarter_6": 9,
-        "increase_stash_3.0": 4,
-        "reduce_pq_upgrading_time_3.1": 7,
-        "generate_kmarks_3.3": 9,
-        "kmarks_passive_cap_3.0": 6,
-        "aurum_passive_cap_3.1": 8
+        "playerquarter_6": {
+          "inGameName": "Player Quarters Level 6",
+          "amount": 9
+        },
+        "increase_stash_3.0": {
+          "inGameName": "Increase stash 3.0",
+          "amount": 4
+        },
+        "reduce_pq_upgrading_time_3.1": {
+          "inGameName": "Reduce pq upgrading time 3.1",
+          "amount": 7
+        },
+        "generate_kmarks_3.3": {
+          "inGameName": "Generate kmarks 3.3",
+          "amount": 9
+        },
+        "kmarks_passive_cap_3.0": {
+          "inGameName": "Kmarks passive cap 3.0",
+          "amount": 6
+        },
+        "aurum_passive_cap_3.1": {
+          "inGameName": "Aurum passive cap 3.1",
+          "amount": 8
+        }
       },
       "forge": {}
     }
@@ -1108,19 +2215,46 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-GruntWork-5": 1,
-        "Main-ICA-OilPump-6": 6,
-        "Main-ICA-ExtraWork2-1": 1
+        "Main-KOR-GruntWork-5": {
+          "inGameName": "Zero Waste",
+          "amount": 1
+        },
+        "Main-ICA-OilPump-6": {
+          "inGameName": "Back to Basics Part 6",
+          "amount": 6
+        },
+        "Main-ICA-ExtraWork2-1": {
+          "inGameName": "The Community Needs You Part 1",
+          "amount": 1
+        }
       },
       "jobs": {
-        "NEW-Medium-ICA-Gather-2": 2,
-        "NEW-Hard-ICA-Gather-5": 8,
-        "NEW-Hard-ICA-Gather-6": 4
+        "NEW-Medium-ICA-Gather-2": {
+          "inGameName": "Scrapping Station Improvements",
+          "amount": 2
+        },
+        "NEW-Hard-ICA-Gather-5": {
+          "inGameName": "New 3D Printer",
+          "amount": 8
+        },
+        "NEW-Hard-ICA-Gather-6": {
+          "inGameName": "Scrapping Station Improvements",
+          "amount": 4
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_3.0": 5,
-        "generate_kmarks_4.0": 10,
-        "kmarks_passive_cap_4.1": 11
+        "reduce_pq_upgrading_time_3.0": {
+          "inGameName": "Reduce pq upgrading time 3.0",
+          "amount": 5
+        },
+        "generate_kmarks_4.0": {
+          "inGameName": "Generate kmarks 4.0",
+          "amount": 10
+        },
+        "kmarks_passive_cap_4.1": {
+          "inGameName": "Kmarks passive cap 4.1",
+          "amount": 11
+        }
       },
       "forge": {}
     }
@@ -1141,26 +2275,68 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "CombatCPU_red": 3,
-        "Shield_03": 2,
-        "Shield_Tactical_03": 2,
-        "Shield_Restoration_02": 2
+        "CombatCPU_red": {
+          "inGameName": "Master Unit CPU",
+          "amount": 3
+        },
+        "Shield_03": {
+          "inGameName": "Shield",
+          "amount": 2
+        },
+        "Shield_Tactical_03": {
+          "inGameName": "Tactical Shield",
+          "amount": 2
+        },
+        "Shield_Restoration_02": {
+          "inGameName": "Restoration Shield",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-KOR-GruntWork-5": 3,
-        "Main-ICA-GruntWork-3": 1
+        "Main-KOR-GruntWork-5": {
+          "inGameName": "Zero Waste",
+          "amount": 3
+        },
+        "Main-ICA-GruntWork-3": {
+          "inGameName": "Doing the Work Part 3",
+          "amount": 1
+        }
       },
       "jobs": {
-        "NEW-Medium-KOR-Gather-2": 2,
-        "NEW-Hard-KOR-Gather-3": 5,
-        "NEW-Hard-ICA-Gather-1": 4,
-        "NEW-Hard-ICA-Gather-6": 1
+        "NEW-Medium-KOR-Gather-2": {
+          "inGameName": "Mining Bot",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Gather-3": {
+          "inGameName": "Automated Security",
+          "amount": 5
+        },
+        "NEW-Hard-ICA-Gather-1": {
+          "inGameName": "Sabotage",
+          "amount": 4
+        },
+        "NEW-Hard-ICA-Gather-6": {
+          "inGameName": "Scrapping Station Improvements",
+          "amount": 1
+        }
       },
       "quarters": {
-        "increase_stash_3.2": 9,
-        "generate_aurum_3.1": 8,
-        "generate_kmarks_2.4": 8,
-        "generate_kmarks_3.4": 12
+        "increase_stash_3.2": {
+          "inGameName": "Increase stash 3.2",
+          "amount": 9
+        },
+        "generate_aurum_3.1": {
+          "inGameName": "Generate aurum 3.1",
+          "amount": 8
+        },
+        "generate_kmarks_2.4": {
+          "inGameName": "Generate kmarks 2.4",
+          "amount": 8
+        },
+        "generate_kmarks_3.4": {
+          "inGameName": "Generate kmarks 3.4",
+          "amount": 12
+        }
       },
       "forge": {}
     }
@@ -1189,17 +2365,38 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-OilPump-6": 3
+        "Main-ICA-OilPump-6": {
+          "inGameName": "Back to Basics Part 6",
+          "amount": 3
+        }
       },
       "jobs": {
-        "NEW-Medium-KOR-Gather-5": 1,
-        "NEW-Hard-KOR-Gather-5": 2,
-        "NEW-Hard-Osiris-Gather-4": 2
+        "NEW-Medium-KOR-Gather-5": {
+          "inGameName": "Insufficient Processing Power",
+          "amount": 1
+        },
+        "NEW-Hard-KOR-Gather-5": {
+          "inGameName": "Classified I",
+          "amount": 2
+        },
+        "NEW-Hard-Osiris-Gather-4": {
+          "inGameName": "Data Center Upgrades",
+          "amount": 2
+        }
       },
       "quarters": {
-        "increase_stash_5.1": 1,
-        "generate_aurum_4.0": 1,
-        "generate_kmarks_4.1": 1
+        "increase_stash_5.1": {
+          "inGameName": "Increase stash 5.1",
+          "amount": 1
+        },
+        "generate_aurum_4.0": {
+          "inGameName": "Generate aurum 4.0",
+          "amount": 1
+        },
+        "generate_kmarks_4.1": {
+          "inGameName": "Generate kmarks 4.1",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -1219,32 +2416,86 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "CombatCPU_red": 1,
-        "Mod_Stock_Standard_ADSEquip_02": 1
+        "CombatCPU_red": {
+          "inGameName": "Master Unit CPU",
+          "amount": 1
+        },
+        "Mod_Stock_Standard_ADSEquip_02": {
+          "inGameName": "Ultralight Stock",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-BuildLaserDrill-5": 5,
-        "Main-ICA-OilPump-8": 5,
-        "Main-ICA-OilScanModule-2": 5,
-        "Main-ICA-ExtraWork2-1": 3
+        "Main-KOR-BuildLaserDrill-5": {
+          "inGameName": "Delicate Parts",
+          "amount": 5
+        },
+        "Main-ICA-OilPump-8": {
+          "inGameName": "Back to Basics Part 8",
+          "amount": 5
+        },
+        "Main-ICA-OilScanModule-2": {
+          "inGameName": "An Eye for Oil Part 2",
+          "amount": 5
+        },
+        "Main-ICA-ExtraWork2-1": {
+          "inGameName": "The Community Needs You Part 1",
+          "amount": 3
+        }
       },
       "jobs": {
-        "NEW-Hard-KOR-Gather-4": 4,
-        "NEW-Easy-ICA-Powerup-1": 1,
-        "NEW-Medium-ICA-Powerup-1": 2,
-        "NEW-Medium-ICA-Powerup-2": 3,
-        "NEW-Hard-ICA-Powerup-1": 5,
-        "Main-ICA-GruntWork-2": 1
+        "NEW-Hard-KOR-Gather-4": {
+          "inGameName": "Energy Crisis",
+          "amount": 4
+        },
+        "NEW-Easy-ICA-Powerup-1": {
+          "inGameName": "Energy Crisis",
+          "amount": 1
+        },
+        "NEW-Medium-ICA-Powerup-1": {
+          "inGameName": "Energy Crisis II",
+          "amount": 2
+        },
+        "NEW-Medium-ICA-Powerup-2": {
+          "inGameName": "Energy Crisis III",
+          "amount": 3
+        },
+        "NEW-Hard-ICA-Powerup-1": {
+          "inGameName": "A Solution",
+          "amount": 5
+        },
+        "Main-ICA-GruntWork-2": {
+          "inGameName": "",
+          "amount": 1
+        }
       },
       "quarters": {
-        "increase_stash_4.1": 5,
-        "increase_bag_3.0": 4,
-        "generate_aurum_3.4": 6,
-        "aurum_passive_cap_3.0": 4
+        "increase_stash_4.1": {
+          "inGameName": "Increase stash 4.1",
+          "amount": 5
+        },
+        "increase_bag_3.0": {
+          "inGameName": "Increase bag 3.0",
+          "amount": 4
+        },
+        "generate_aurum_3.4": {
+          "inGameName": "Generate aurum 3.4",
+          "amount": 6
+        },
+        "aurum_passive_cap_3.0": {
+          "inGameName": "Aurum passive cap 3.0",
+          "amount": 4
+        }
       },
       "forge": {
-        "Perk_StaminaRegenDelay_Storm": 2,
-        "Perk_WeightAll": 2
+        "Perk_StaminaRegenDelay_Storm": {
+          "inGameName": "Stamina regenerates without delay during a Storm",
+          "amount": 2
+        },
+        "Perk_WeightAll": {
+          "inGameName": "Reduced weight of all items carried in backpack",
+          "amount": 2
+        }
       }
     }
   },
@@ -1263,21 +2514,48 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "AutoLoader": 1,
-        "Mod_Stock_Standard_ADSEquip_02": 1,
-        "Mod_Stock_Marksman_ADSEquip_02": 1
+        "AutoLoader": {
+          "inGameName": "Autoloader",
+          "amount": 1
+        },
+        "Mod_Stock_Standard_ADSEquip_02": {
+          "inGameName": "Ultralight Stock",
+          "amount": 1
+        },
+        "Mod_Stock_Marksman_ADSEquip_02": {
+          "inGameName": "MKM Ultralight Stock",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-ICA-OilPump-3": 5
+        "Main-ICA-OilPump-3": {
+          "inGameName": "Back to Basics Part 4",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Hard-ICA-Gather-3": 2,
-        "NEW-Hard-KOR-Gather-7": 3
+        "NEW-Hard-ICA-Gather-3": {
+          "inGameName": "Recoil Compensation",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Gather-7": {
+          "inGameName": "Shock and Awe",
+          "amount": 3
+        }
       },
       "quarters": {
-        "increase_stash_4.0": 2,
-        "reduce_pq_upgrading_time_4.2": 4,
-        "daily_crate_3.1": 1
+        "increase_stash_4.0": {
+          "inGameName": "Increase stash 4.0",
+          "amount": 2
+        },
+        "reduce_pq_upgrading_time_4.2": {
+          "inGameName": "Reduce pq upgrading time 4.2",
+          "amount": 4
+        },
+        "daily_crate_3.1": {
+          "inGameName": "Daily crate 3.1",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -1305,18 +2583,45 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Mod_Converter_Light_03": 1,
-        "Mod_Converter_Medium_03": 1,
-        "Mod_Converter_Heavy_03": 1,
-        "Mod_Converter_Shotgun_03": 1,
-        "Mod_Converter_Light_AIDMG_03": 1,
-        "Mod_Converter_Medium_AIDMG_03": 1
+        "Mod_Converter_Light_03": {
+          "inGameName": "Light Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_03": {
+          "inGameName": "Medium Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Heavy_03": {
+          "inGameName": "Heavy Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Shotgun_03": {
+          "inGameName": "Shotgun Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_03": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_03": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
       },
       "missions": {},
       "jobs": {
-        "NEW-Medium-ICA-Gather-3": 1,
-        "NEW-Hard-ICA-Gather-5": 2,
-        "NEW-Hard-Osiris-Gather-6": 3
+        "NEW-Medium-ICA-Gather-3": {
+          "inGameName": "Station Defense",
+          "amount": 1
+        },
+        "NEW-Hard-ICA-Gather-5": {
+          "inGameName": "New 3D Printer",
+          "amount": 2
+        },
+        "NEW-Hard-Osiris-Gather-6": {
+          "inGameName": "Safety Measures",
+          "amount": 3
+        }
       },
       "quarters": {},
       "forge": {}
@@ -1337,25 +2642,64 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "PortableLabEquipmentBox": 5,
-        "ShockGrenade_03": 2,
-        "Mod_Converter_Heavy_03": 5
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 5
+        },
+        "ShockGrenade_03": {
+          "inGameName": "ShockGrenade_03",
+          "amount": 2
+        },
+        "Mod_Converter_Heavy_03": {
+          "inGameName": "Heavy Converter",
+          "amount": 5
+        }
       },
       "missions": {
-        "Main-KOR-BuildLaserDrill-3": 10,
-        "Main-ICA-MeteorReactor-1": 6
+        "Main-KOR-BuildLaserDrill-3": {
+          "inGameName": "Custom Rig",
+          "amount": 10
+        },
+        "Main-ICA-MeteorReactor-1": {
+          "inGameName": "Project Fireball Part 1",
+          "amount": 6
+        }
       },
       "jobs": {
-        "NEW-Easy-KOR-Gather-3": 2,
-        "NEW-Medium-KOR-Gather-4": 4,
-        "NEW-Medium-Osiris-Gather-1": 2
+        "NEW-Easy-KOR-Gather-3": {
+          "inGameName": "Ship Repairs",
+          "amount": 2
+        },
+        "NEW-Medium-KOR-Gather-4": {
+          "inGameName": "Business Class",
+          "amount": 4
+        },
+        "NEW-Medium-Osiris-Gather-1": {
+          "inGameName": "Surveillance Center",
+          "amount": 2
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_3.1": 18,
-        "generate_aurum_2.1": 8,
-        "generate_aurum_3.2": 21,
-        "daily_crate_3.1": 14,
-        "kmarks_passive_cap_2.3": 10
+        "reduce_pq_upgrading_time_3.1": {
+          "inGameName": "Reduce pq upgrading time 3.1",
+          "amount": 18
+        },
+        "generate_aurum_2.1": {
+          "inGameName": "Generate aurum 2.1",
+          "amount": 8
+        },
+        "generate_aurum_3.2": {
+          "inGameName": "Generate aurum 3.2",
+          "amount": 21
+        },
+        "daily_crate_3.1": {
+          "inGameName": "Daily crate 3.1",
+          "amount": 14
+        },
+        "kmarks_passive_cap_2.3": {
+          "inGameName": "Kmarks passive cap 2.3",
+          "amount": 10
+        }
       },
       "forge": {}
     }
@@ -1375,29 +2719,80 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "PortableLabEquipmentBox": 2,
-        "QuestItem_OrbitalCanonTargetBeacon": 4,
-        "WP_A_Sniper_Gauss_01": 25,
-        "Helmet_05": 1,
-        "Helmet_Tactical_03": 1,
-        "Helmet_Tactical_04": 1,
-        "Helmet_Tactical_05": 3,
-        "Helmet_Restoration_04": 2
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 2
+        },
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "QuestItem_OrbitalCanonTargetBeacon",
+          "amount": 4
+        },
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 25
+        },
+        "Helmet_05": {
+          "inGameName": "Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_03": {
+          "inGameName": "Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Tactical Helmet",
+          "amount": 3
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Restoration Helmet",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-ICA-OilScanModule-2": 5
+        "Main-ICA-OilScanModule-2": {
+          "inGameName": "An Eye for Oil Part 2",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Medium-Osiris-Gather-1": 2,
-        "NEW-Medium-Osiris-Gather-3": 1,
-        "NEW-Hard-Osiris-Gather-2": 2,
-        "NEW-Hard-Osiris-Gather-7": 3
+        "NEW-Medium-Osiris-Gather-1": {
+          "inGameName": "Surveillance Center",
+          "amount": 2
+        },
+        "NEW-Medium-Osiris-Gather-3": {
+          "inGameName": "Research Drone Repairs",
+          "amount": 1
+        },
+        "NEW-Hard-Osiris-Gather-2": {
+          "inGameName": "Sensor Array Repairs",
+          "amount": 2
+        },
+        "NEW-Hard-Osiris-Gather-7": {
+          "inGameName": "Research Drone Repairs",
+          "amount": 3
+        }
       },
       "quarters": {
-        "playerquarter_7": 7,
-        "generate_aurum_3.0": 5,
-        "kmarks_passive_cap_3.1": 5,
-        "aurum_passive_cap_3.3": 9
+        "playerquarter_7": {
+          "inGameName": "Player Quarters Level 7",
+          "amount": 7
+        },
+        "generate_aurum_3.0": {
+          "inGameName": "Generate aurum 3.0",
+          "amount": 5
+        },
+        "kmarks_passive_cap_3.1": {
+          "inGameName": "Kmarks passive cap 3.1",
+          "amount": 5
+        },
+        "aurum_passive_cap_3.3": {
+          "inGameName": "Aurum passive cap 3.3",
+          "amount": 9
+        }
       },
       "forge": {}
     }
@@ -1418,17 +2813,38 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-BuildLaserDrill-6": 8000,
-        "Main-ICA-Caverns-13.1": 30000
+        "Main-KOR-BuildLaserDrill-6": {
+          "inGameName": "This is Goodbye",
+          "amount": 8000
+        },
+        "Main-ICA-Caverns-13.1": {
+          "inGameName": "undefined Part 15",
+          "amount": 30000
+        }
       },
       "jobs": {
-        "NEW-Hard-ICA-Gather-2": 6000
+        "NEW-Hard-ICA-Gather-2": {
+          "inGameName": "Old Currency",
+          "amount": 6000
+        }
       },
       "quarters": {
-        "generate_aurum_1.3": 750,
-        "generate_aurum_2.3": 2750,
-        "generate_kmarks_1.4": 750,
-        "generate_kmarks_3.3": 5625
+        "generate_aurum_1.3": {
+          "inGameName": "Generate aurum 1.3",
+          "amount": 750
+        },
+        "generate_aurum_2.3": {
+          "inGameName": "Generate aurum 2.3",
+          "amount": 2750
+        },
+        "generate_kmarks_1.4": {
+          "inGameName": "Generate kmarks 1.4",
+          "amount": 750
+        },
+        "generate_kmarks_3.3": {
+          "inGameName": "Generate kmarks 3.3",
+          "amount": 5625
+        }
       },
       "forge": {}
     }
@@ -1448,30 +2864,81 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Shield_Restoration_02": 2,
-        "Shield_Restoration_03": 5,
-        "Shield_Restoration_04": 5,
-        "Helmet_Restoration_02": 2,
-        "Helmet_Restoration_03": 3,
-        "Helmet_Restoration_04": 3
+        "Shield_Restoration_02": {
+          "inGameName": "Restoration Shield",
+          "amount": 2
+        },
+        "Shield_Restoration_03": {
+          "inGameName": "Restoration Shield",
+          "amount": 5
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Restoration Shield",
+          "amount": 5
+        },
+        "Helmet_Restoration_02": {
+          "inGameName": "Restoration Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Restoration Helmet",
+          "amount": 3
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Restoration Helmet",
+          "amount": 3
+        }
       },
       "missions": {
-        "Main-Osiris-StormSamples-1": 10,
-        "Main-Osiris-StrongMedkits-2": 8,
-        "Main-Osiris-CraftFuel-1": 10,
-        "Main-Osiris-CombatStims-2": 10,
-        "Main-Osiris-Caverns-9": 5
+        "Main-Osiris-StormSamples-1": {
+          "inGameName": "Storm Rider Part 1",
+          "amount": 10
+        },
+        "Main-Osiris-StrongMedkits-2": {
+          "inGameName": "Path to Strong Medkits Part 2",
+          "amount": 8
+        },
+        "Main-Osiris-CraftFuel-1": {
+          "inGameName": "Building a better Death Ray Part 1",
+          "amount": 10
+        },
+        "Main-Osiris-CombatStims-2": {
+          "inGameName": "Combat Ready Part 2",
+          "amount": 10
+        },
+        "Main-Osiris-Caverns-9": {
+          "inGameName": "The Progenitor Device Part 11",
+          "amount": 5
+        }
       },
       "jobs": {
-        "Hard-Osiris-Brightcaps-2": 5,
-        "NEW-Medium-Osiris-Brightcaps-3": 3,
-        "NEW-Hard-Osiris-Brightcaps-and-PvE-1": 6,
-        "NEW-Hard-Osiris-Brightcaps-1": 8
+        "Hard-Osiris-Brightcaps-2": {
+          "inGameName": "Storm Botanist",
+          "amount": 5
+        },
+        "NEW-Medium-Osiris-Brightcaps-3": {
+          "inGameName": "Botanist III",
+          "amount": 3
+        },
+        "NEW-Hard-Osiris-Brightcaps-and-PvE-1": {
+          "inGameName": "Bad Acid",
+          "amount": 6
+        },
+        "NEW-Hard-Osiris-Brightcaps-1": {
+          "inGameName": "Harvest Day",
+          "amount": 8
+        }
       },
       "quarters": {},
       "forge": {
-        "Perk_HealingSpeed": 2,
-        "Perk_HealthRegen_Storm": 2
+        "Perk_HealingSpeed": {
+          "inGameName": "Faster Stim and Medkit use",
+          "amount": 2
+        },
+        "Perk_HealthRegen_Storm": {
+          "inGameName": "Health restoration per second during a Storm",
+          "amount": 2
+        }
       }
     }
   },
@@ -1492,18 +2959,42 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-GainTrust-4": 3,
-        "Main-Osiris-SideWork1-1": 12
+        "Main-ICA-GainTrust-4": {
+          "inGameName": "The Forester",
+          "amount": 3
+        },
+        "Main-Osiris-SideWork1-1": {
+          "inGameName": "The Needs of the One Part 1",
+          "amount": 12
+        }
       },
       "jobs": {
-        "NEW-Medium-ICA-Gather-1": 8
+        "NEW-Medium-ICA-Gather-1": {
+          "inGameName": "New Beds",
+          "amount": 8
+        }
       },
       "quarters": {
-        "playerquarter_4": 12,
-        "increase_stash_1.1": 2,
-        "daily_crate_1.0": 2,
-        "kmarks_passive_cap_2.0": 3,
-        "aurum_passive_cap_2.1": 8
+        "playerquarter_4": {
+          "inGameName": "Player Quarters Level 4",
+          "amount": 12
+        },
+        "increase_stash_1.1": {
+          "inGameName": "Increase stash 1.1",
+          "amount": 2
+        },
+        "daily_crate_1.0": {
+          "inGameName": "Daily crate 1.0",
+          "amount": 2
+        },
+        "kmarks_passive_cap_2.0": {
+          "inGameName": "Kmarks passive cap 2.0",
+          "amount": 3
+        },
+        "aurum_passive_cap_2.1": {
+          "inGameName": "Aurum passive cap 2.1",
+          "amount": 8
+        }
       },
       "forge": {}
     }
@@ -1523,30 +3014,78 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Consumable_Health_02": 1,
-        "Consumable_Health_04": 2,
-        "Consumable_Health_06": 3,
-        "Shield_Tactical_02": 2
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 2
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 3
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Tactical Shield",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-Osiris-GainTrust-1": 1,
-        "Main-Osiris-CaveRumors-1": 12,
-        "Main-Osiris-SideWork1-2": 25,
-        "Main-Osiris-StrongMedkits-1": 15
+        "Main-Osiris-GainTrust-1": {
+          "inGameName": "The Real Wetwork",
+          "amount": 1
+        },
+        "Main-Osiris-CaveRumors-1": {
+          "inGameName": "Lost Knowledge Part 1",
+          "amount": 12
+        },
+        "Main-Osiris-SideWork1-2": {
+          "inGameName": "The Needs of the One Part 2",
+          "amount": 25
+        },
+        "Main-Osiris-StrongMedkits-1": {
+          "inGameName": "Path to Strong Medkits Part 1",
+          "amount": 15
+        }
       },
       "jobs": {
-        "NEW-Easy-ICA-Flora-1": 6,
-        "NEW-Medium-ICA-Flora-1": 10,
-        "NEW-Medium-ICA-Flora-and-PvP-1": 8,
-        "NEW-Easy-Osiris-Flora-and-PvE-1": 3,
-        "NEW-Medium-Osiris-Flora-1": 8
+        "NEW-Easy-ICA-Flora-1": {
+          "inGameName": "Calorie Deficit",
+          "amount": 6
+        },
+        "NEW-Medium-ICA-Flora-1": {
+          "inGameName": "Mouths to feed",
+          "amount": 10
+        },
+        "NEW-Medium-ICA-Flora-and-PvP-1": {
+          "inGameName": "Gluttony",
+          "amount": 8
+        },
+        "NEW-Easy-Osiris-Flora-and-PvE-1": {
+          "inGameName": "Pesticide",
+          "amount": 3
+        },
+        "NEW-Medium-Osiris-Flora-1": {
+          "inGameName": "Cross-Breeding",
+          "amount": 8
+        }
       },
       "quarters": {
-        "increase_stash_2.1": 3
+        "increase_stash_2.1": {
+          "inGameName": "Increase stash 2.1",
+          "amount": 3
+        }
       },
       "forge": {
-        "Perk_MaxStamina": 3,
-        "Perk_ItemWeightReduction": 3
+        "Perk_MaxStamina": {
+          "inGameName": "Maximum stamina",
+          "amount": 3
+        },
+        "Perk_ItemWeightReduction": {
+          "inGameName": "Reduced weight of this piece of gear",
+          "amount": 3
+        }
       }
     }
   },
@@ -1565,25 +3104,58 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Bag_04": 1,
-        "Shield_Tactical_04": 2
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        },
+        "Shield_Tactical_04": {
+          "inGameName": "Tactical Shield",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-Osiris-SideWork1-4": 3,
-        "Main-Osiris-CraftFuel-1": 5,
-        "Main-Osiris-CombatStims-3": 8
+        "Main-Osiris-SideWork1-4": {
+          "inGameName": "The Needs of the One Part 4",
+          "amount": 3
+        },
+        "Main-Osiris-CraftFuel-1": {
+          "inGameName": "Building a better Death Ray Part 1",
+          "amount": 5
+        },
+        "Main-Osiris-CombatStims-3": {
+          "inGameName": "Combat Ready Part 3",
+          "amount": 8
+        }
       },
       "jobs": {
-        "NEW-Medium-Osiris-Flora-2": 1
+        "NEW-Medium-Osiris-Flora-2": {
+          "inGameName": "Dustbloom",
+          "amount": 1
+        }
       },
       "quarters": {
-        "increase_stash_5.0": 2,
-        "generate_aurum_4.2": 5,
-        "generate_kmarks_4.1": 4
+        "increase_stash_5.0": {
+          "inGameName": "Increase stash 5.0",
+          "amount": 2
+        },
+        "generate_aurum_4.2": {
+          "inGameName": "Generate aurum 4.2",
+          "amount": 5
+        },
+        "generate_kmarks_4.1": {
+          "inGameName": "Generate kmarks 4.1",
+          "amount": 4
+        }
       },
       "forge": {
-        "Perk_MaxCapacity": 2,
-        "Perk_WeightFaunaResources": 2
+        "Perk_MaxCapacity": {
+          "inGameName": "Extra backpack capacity",
+          "amount": 2
+        },
+        "Perk_WeightFaunaResources": {
+          "inGameName": "Reduced weight of minerals and creature parts carried in backpack",
+          "amount": 2
+        }
       }
     }
   },
@@ -1602,28 +3174,70 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "PrintResin": 3,
-        "Consumable_Health_04": 1,
-        "Consumable_Health_06": 1,
-        "Bag_03": 1,
-        "Shield_Tactical_03": 2
+        "PrintResin": {
+          "inGameName": "Print Resin",
+          "amount": 3
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 1
+        },
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 1
+        },
+        "Shield_Tactical_03": {
+          "inGameName": "Tactical Shield",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-Osiris-GruntWork-5": 1,
-        "Main-Osiris-StrongMedkits-2": 10,
-        "Main-Osiris-EarlyMap2-2": 3
+        "Main-Osiris-GruntWork-5": {
+          "inGameName": "Field Research Part 6",
+          "amount": 1
+        },
+        "Main-Osiris-StrongMedkits-2": {
+          "inGameName": "Path to Strong Medkits Part 2",
+          "amount": 10
+        },
+        "Main-Osiris-EarlyMap2-2": {
+          "inGameName": "A Whole New Ecosystem Part 2",
+          "amount": 3
+        }
       },
       "jobs": {
-        "NEW-Easy-Osiris-Flora-1": 5,
-        "NEW-Medium-Osiris-Flora-1": 6
+        "NEW-Easy-Osiris-Flora-1": {
+          "inGameName": "Pale Ivy",
+          "amount": 5
+        },
+        "NEW-Medium-Osiris-Flora-1": {
+          "inGameName": "Cross-Breeding",
+          "amount": 6
+        }
       },
       "quarters": {
-        "increase_stash_3.1": 3
+        "increase_stash_3.1": {
+          "inGameName": "Increase stash 3.1",
+          "amount": 3
+        }
       },
       "forge": {
-        "Perk_HealthRegen": 2,
-        "Perk_HealingAmount": 2,
-        "Perk_HealthRegen_Storm": 2
+        "Perk_HealthRegen": {
+          "inGameName": "Health restoration per second",
+          "amount": 2
+        },
+        "Perk_HealingAmount": {
+          "inGameName": "Bonus to Stim and Medkit healing",
+          "amount": 2
+        },
+        "Perk_HealthRegen_Storm": {
+          "inGameName": "Health restoration per second during a Storm",
+          "amount": 2
+        }
       }
     }
   },
@@ -1643,18 +3257,36 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-CommunityWork-3": 8
+        "Main-ICA-CommunityWork-3": {
+          "inGameName": "Working for the Community Part 3",
+          "amount": 8
+        }
       },
       "jobs": {
-        "NEW-Medium-Osiris-Gather-5": 4
+        "NEW-Medium-Osiris-Gather-5": {
+          "inGameName": "Indigenous Fruit",
+          "amount": 4
+        }
       },
       "quarters": {
-        "generate_aurum_3.0": 12
+        "generate_aurum_3.0": {
+          "inGameName": "Generate aurum 3.0",
+          "amount": 12
+        }
       },
       "forge": {
-        "Perk_HealthRegen": 3,
-        "Perk_ItemWeightReduction": 3,
-        "Perk_WeightFaunaResources": 3
+        "Perk_HealthRegen": {
+          "inGameName": "Health restoration per second",
+          "amount": 3
+        },
+        "Perk_ItemWeightReduction": {
+          "inGameName": "Reduced weight of this piece of gear",
+          "amount": 3
+        },
+        "Perk_WeightFaunaResources": {
+          "inGameName": "Reduced weight of minerals and creature parts carried in backpack",
+          "amount": 3
+        }
       }
     }
   },
@@ -1673,17 +3305,35 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Bag_03": 2
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-KOR-CraftingBackpack-2": 6,
-        "Main-ICA-ExtraWork2-1": 5
+        "Main-KOR-CraftingBackpack-2": {
+          "inGameName": "Exotic Leathers",
+          "amount": 6
+        },
+        "Main-ICA-ExtraWork2-1": {
+          "inGameName": "The Community Needs You Part 1",
+          "amount": 5
+        }
       },
       "jobs": {},
       "quarters": {
-        "increase_bag_1.0": 2,
-        "daily_crate_3.0": 14,
-        "aurum_passive_cap_2.2": 11
+        "increase_bag_1.0": {
+          "inGameName": "Increase bag 1.0",
+          "amount": 2
+        },
+        "daily_crate_3.0": {
+          "inGameName": "Daily crate 3.0",
+          "amount": 14
+        },
+        "aurum_passive_cap_2.2": {
+          "inGameName": "Aurum passive cap 2.2",
+          "amount": 11
+        }
       },
       "forge": {}
     }
@@ -1704,23 +3354,59 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "DerelictExplosives": 4,
-        "QuestItem_LaserDrillBeacon": 18,
-        "Consumable_AudioDecoy_01": 2,
-        "Helmet_Tactical_02": 2
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 4
+        },
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 18
+        },
+        "Consumable_AudioDecoy_01": {
+          "inGameName": "Audio Decoy",
+          "amount": 2
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Tactical Helmet",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-KOR-MiningTool-5": 5,
-        "Main-KOR-Veltecite-1": 5
+        "Main-KOR-MiningTool-5": {
+          "inGameName": "Final Touches",
+          "amount": 5
+        },
+        "Main-KOR-Veltecite-1": {
+          "inGameName": "Active Scan",
+          "amount": 5
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_3": 9,
-        "generate_aurum_1.2": 3,
-        "generate_kmarks_1.1": 3,
-        "generate_kmarks_2.0": 5,
-        "kmarks_passive_cap_2.4": 18,
-        "aurum_passive_cap_2.2": 15
+        "playerquarter_3": {
+          "inGameName": "Player Quarters Level 3",
+          "amount": 9
+        },
+        "generate_aurum_1.2": {
+          "inGameName": "Generate aurum 1.2",
+          "amount": 3
+        },
+        "generate_kmarks_1.1": {
+          "inGameName": "Generate kmarks 1.1",
+          "amount": 3
+        },
+        "generate_kmarks_2.0": {
+          "inGameName": "Generate kmarks 2.0",
+          "amount": 5
+        },
+        "kmarks_passive_cap_2.4": {
+          "inGameName": "Kmarks passive cap 2.4",
+          "amount": 18
+        },
+        "aurum_passive_cap_2.2": {
+          "inGameName": "Aurum passive cap 2.2",
+          "amount": 15
+        }
       },
       "forge": {}
     }
@@ -1741,16 +3427,37 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-CraftingBackpack-2": 10,
-        "Main-Osiris-SatelliteRepairs-3": 20,
-        "Main-KOR-EarlyMap2-3": 6
+        "Main-KOR-CraftingBackpack-2": {
+          "inGameName": "Exotic Leathers",
+          "amount": 10
+        },
+        "Main-Osiris-SatelliteRepairs-3": {
+          "inGameName": "Orbital Repairs Part 3",
+          "amount": 20
+        },
+        "Main-KOR-EarlyMap2-3": {
+          "inGameName": "Uncharted Territory Part 3",
+          "amount": 6
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_3": 6,
-        "daily_crate_2.1": 8,
-        "kmarks_passive_cap_1.3": 3,
-        "kmarks_passive_cap_3.2": 21
+        "playerquarter_3": {
+          "inGameName": "Player Quarters Level 3",
+          "amount": 6
+        },
+        "daily_crate_2.1": {
+          "inGameName": "Daily crate 2.1",
+          "amount": 8
+        },
+        "kmarks_passive_cap_1.3": {
+          "inGameName": "Kmarks passive cap 1.3",
+          "amount": 3
+        },
+        "kmarks_passive_cap_3.2": {
+          "inGameName": "Kmarks passive cap 3.2",
+          "amount": 21
+        }
       },
       "forge": {}
     }
@@ -1770,21 +3477,48 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "ShockGrenade_02": 2
+        "ShockGrenade_02": {
+          "inGameName": "ShockGrenade_02",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-KOR-BuildLaserDrill-5": 15,
-        "Main-ICA-AudioDecoys-2": 8,
-        "Main-ICA-OilScanModule-1": 9
+        "Main-KOR-BuildLaserDrill-5": {
+          "inGameName": "Delicate Parts",
+          "amount": 15
+        },
+        "Main-ICA-AudioDecoys-2": {
+          "inGameName": "Audiophiles Beware Part 2",
+          "amount": 8
+        },
+        "Main-ICA-OilScanModule-1": {
+          "inGameName": "An Eye for Oil Part 1",
+          "amount": 9
+        }
       },
       "jobs": {
-        "NEW-Medium-Osiris-Gather-2": 5
+        "NEW-Medium-Osiris-Gather-2": {
+          "inGameName": "Gun Manufacturing",
+          "amount": 5
+        }
       },
       "quarters": {
-        "increase_stash_2.2": 12,
-        "generate_aurum_1.4": 5,
-        "generate_aurum_2.4": 23,
-        "generate_kmarks_1.3": 5
+        "increase_stash_2.2": {
+          "inGameName": "Increase stash 2.2",
+          "amount": 12
+        },
+        "generate_aurum_1.4": {
+          "inGameName": "Generate aurum 1.4",
+          "amount": 5
+        },
+        "generate_aurum_2.4": {
+          "inGameName": "Generate aurum 2.4",
+          "amount": 23
+        },
+        "generate_kmarks_1.3": {
+          "inGameName": "Generate kmarks 1.3",
+          "amount": 5
+        }
       },
       "forge": {}
     }
@@ -1805,28 +3539,79 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "PrintResin": 1,
-        "QuestItem_LaserDrillBeacon": 2,
-        "Bag_04": 1,
-        "Shield_04": 2,
-        "Shield_Tactical_04": 2,
-        "Shield_Restoration_03": 2,
-        "Mod_Muzzle_Small_Supressor_01": 1,
-        "Mod_Muzzle_Standard_Supressor_01": 1
+        "PrintResin": {
+          "inGameName": "Print Resin",
+          "amount": 1
+        },
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 2
+        },
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        },
+        "Shield_04": {
+          "inGameName": "Shield",
+          "amount": 2
+        },
+        "Shield_Tactical_04": {
+          "inGameName": "Tactical Shield",
+          "amount": 2
+        },
+        "Shield_Restoration_03": {
+          "inGameName": "Restoration Shield",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Supressor_01": {
+          "inGameName": "Small Suppressor",
+          "amount": 1
+        },
+        "Mod_Muzzle_Standard_Supressor_01": {
+          "inGameName": "Medium Suppressor",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-BuildLaserDrill-1": 5,
-        "Main-ICA-CommunityWork-3": 3,
-        "Main-ICA-OilPump-8": 6,
-        "Main-Osiris-SatelliteRepairs-3": 8
+        "Main-KOR-BuildLaserDrill-1": {
+          "inGameName": "Building Blocks",
+          "amount": 5
+        },
+        "Main-ICA-CommunityWork-3": {
+          "inGameName": "Working for the Community Part 3",
+          "amount": 3
+        },
+        "Main-ICA-OilPump-8": {
+          "inGameName": "Back to Basics Part 8",
+          "amount": 6
+        },
+        "Main-Osiris-SatelliteRepairs-3": {
+          "inGameName": "Orbital Repairs Part 3",
+          "amount": 8
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_8": 12,
-        "increase_stash_3.2": 5,
-        "reduce_pq_upgrading_time_3.2": 8,
-        "daily_crate_4.0": 6,
-        "kmarks_passive_cap_2.2": 2
+        "playerquarter_8": {
+          "inGameName": "Player Quarters Level 8",
+          "amount": 12
+        },
+        "increase_stash_3.2": {
+          "inGameName": "Increase stash 3.2",
+          "amount": 5
+        },
+        "reduce_pq_upgrading_time_3.2": {
+          "inGameName": "Reduce pq upgrading time 3.2",
+          "amount": 8
+        },
+        "daily_crate_4.0": {
+          "inGameName": "Daily crate 4.0",
+          "amount": 6
+        },
+        "kmarks_passive_cap_2.2": {
+          "inGameName": "Kmarks passive cap 2.2",
+          "amount": 2
+        }
       },
       "forge": {}
     }
@@ -1847,23 +3632,65 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-GainTrust-4": 1,
-        "Main-KOR-Veltecite-1": 5,
-        "Main-KOR-BuildLaserDrill-3": 10,
-        "Main-ICA-GainTrust-3": 1,
-        "Main-ICA-OilPump-6": 15,
-        "Main-ICA-OilScanModule-2": 10,
-        "Main-Osiris-PrototypeLaser-1": 8
+        "Main-KOR-GainTrust-4": {
+          "inGameName": "Company Identity",
+          "amount": 1
+        },
+        "Main-KOR-Veltecite-1": {
+          "inGameName": "Active Scan",
+          "amount": 5
+        },
+        "Main-KOR-BuildLaserDrill-3": {
+          "inGameName": "Custom Rig",
+          "amount": 10
+        },
+        "Main-ICA-GainTrust-3": {
+          "inGameName": "Basic Needs",
+          "amount": 1
+        },
+        "Main-ICA-OilPump-6": {
+          "inGameName": "Back to Basics Part 6",
+          "amount": 15
+        },
+        "Main-ICA-OilScanModule-2": {
+          "inGameName": "An Eye for Oil Part 2",
+          "amount": 10
+        },
+        "Main-Osiris-PrototypeLaser-1": {
+          "inGameName": "Laser Show Part 1",
+          "amount": 8
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_4": 12,
-        "generate_aurum_2.2": 10,
-        "generate_kmarks_1.3": 3,
-        "generate_kmarks_2.3": 11,
-        "kmarks_passive_cap_3.0": 15,
-        "aurum_passive_cap_2.1": 8,
-        "aurum_passive_cap_2.4": 15
+        "playerquarter_4": {
+          "inGameName": "Player Quarters Level 4",
+          "amount": 12
+        },
+        "generate_aurum_2.2": {
+          "inGameName": "Generate aurum 2.2",
+          "amount": 10
+        },
+        "generate_kmarks_1.3": {
+          "inGameName": "Generate kmarks 1.3",
+          "amount": 3
+        },
+        "generate_kmarks_2.3": {
+          "inGameName": "Generate kmarks 2.3",
+          "amount": 11
+        },
+        "kmarks_passive_cap_3.0": {
+          "inGameName": "Kmarks passive cap 3.0",
+          "amount": 15
+        },
+        "aurum_passive_cap_2.1": {
+          "inGameName": "Aurum passive cap 2.1",
+          "amount": 8
+        },
+        "aurum_passive_cap_2.4": {
+          "inGameName": "Aurum passive cap 2.4",
+          "amount": 15
+        }
       },
       "forge": {}
     }
@@ -1883,21 +3710,51 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "DerelictExplosives": 3,
-        "Helmet_04": 4,
-        "Helmet_Tactical_04": 5,
-        "Helmet_Restoration_03": 5
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 3
+        },
+        "Helmet_04": {
+          "inGameName": "Helmet",
+          "amount": 4
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Tactical Helmet",
+          "amount": 5
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Restoration Helmet",
+          "amount": 5
+        }
       },
       "missions": {
-        "Main-KOR-TitanOre-1": 5,
-        "Main-ICA-OilScanModule-1": 10,
-        "Main-Osiris-PrototypeLaser-2": 10
+        "Main-KOR-TitanOre-1": {
+          "inGameName": "A Titanic Request",
+          "amount": 5
+        },
+        "Main-ICA-OilScanModule-1": {
+          "inGameName": "An Eye for Oil Part 1",
+          "amount": 10
+        },
+        "Main-Osiris-PrototypeLaser-2": {
+          "inGameName": "Laser Show Part 2",
+          "amount": 10
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_5": 15,
-        "generate_kmarks_2.0": 3,
-        "aurum_passive_cap_3.0": 15
+        "playerquarter_5": {
+          "inGameName": "Player Quarters Level 5",
+          "amount": 15
+        },
+        "generate_kmarks_2.0": {
+          "inGameName": "Generate kmarks 2.0",
+          "amount": 3
+        },
+        "aurum_passive_cap_3.0": {
+          "inGameName": "Aurum passive cap 3.0",
+          "amount": 15
+        }
       },
       "forge": {}
     }
@@ -1917,14 +3774,26 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Consumable_Health_02": 1,
-        "Consumable_Health_04": 2
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-Osiris-StrongStims-2": 5
+        "Main-Osiris-StrongStims-2": {
+          "inGameName": "Stimulating Developments Part 2",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Medium-KOR-Gather-6": 10
+        "NEW-Medium-KOR-Gather-6": {
+          "inGameName": "No Expiry Date",
+          "amount": 10
+        }
       },
       "quarters": {},
       "forge": {}
@@ -1956,15 +3825,33 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-LetiumResearch-1": 1,
-        "Main-Osiris-CrystalSamples-2": 1,
-        "Main-Osiris-CombatStims-2": 1
+        "Main-KOR-LetiumResearch-1": {
+          "inGameName": "Shopping List",
+          "amount": 1
+        },
+        "Main-Osiris-CrystalSamples-2": {
+          "inGameName": "Everything is Crystals Part 2",
+          "amount": 1
+        },
+        "Main-Osiris-CombatStims-2": {
+          "inGameName": "Combat Ready Part 2",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {
-        "increase_bag_4.0": 1,
-        "daily_crate_4.1": 1,
-        "kmarks_passive_cap_4.2": 2
+        "increase_bag_4.0": {
+          "inGameName": "Increase bag 4.0",
+          "amount": 1
+        },
+        "daily_crate_4.1": {
+          "inGameName": "Daily crate 4.1",
+          "amount": 1
+        },
+        "kmarks_passive_cap_4.2": {
+          "inGameName": "Kmarks passive cap 4.2",
+          "amount": 2
+        }
       },
       "forge": {}
     }
@@ -1985,15 +3872,33 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-GruntWork-3": 3,
-        "Main-ICA-GruntWork-7": 5,
-        "Main-Osiris-PrototypeLaser-1": 8
+        "Main-ICA-GruntWork-3": {
+          "inGameName": "Doing the Work Part 3",
+          "amount": 3
+        },
+        "Main-ICA-GruntWork-7": {
+          "inGameName": "Doing the Work Part 7",
+          "amount": 5
+        },
+        "Main-Osiris-PrototypeLaser-1": {
+          "inGameName": "Laser Show Part 1",
+          "amount": 8
+        }
       },
       "jobs": {},
       "quarters": {
-        "kmarks_passive_cap_1.2": 1,
-        "aurum_passive_cap_1.3": 2,
-        "aurum_passive_cap_2.4": 8
+        "kmarks_passive_cap_1.2": {
+          "inGameName": "Kmarks passive cap 1.2",
+          "amount": 1
+        },
+        "aurum_passive_cap_1.3": {
+          "inGameName": "Aurum passive cap 1.3",
+          "amount": 2
+        },
+        "aurum_passive_cap_2.4": {
+          "inGameName": "Aurum passive cap 2.4",
+          "amount": 8
+        }
       },
       "forge": {}
     }
@@ -2014,16 +3919,34 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-CommunityWork-3": 15,
-        "Main-Osiris-SideWork1-1": 10,
-        "Main-Osiris-CraftFuel-1": 10
+        "Main-ICA-CommunityWork-3": {
+          "inGameName": "Working for the Community Part 3",
+          "amount": 15
+        },
+        "Main-Osiris-SideWork1-1": {
+          "inGameName": "The Needs of the One Part 1",
+          "amount": 10
+        },
+        "Main-Osiris-CraftFuel-1": {
+          "inGameName": "Building a better Death Ray Part 1",
+          "amount": 10
+        }
       },
       "jobs": {
-        "NEW-Medium-ICA-Gather-5": 8
+        "NEW-Medium-ICA-Gather-5": {
+          "inGameName": "Let it grow",
+          "amount": 8
+        }
       },
       "quarters": {
-        "increase_stash_2.2": 12,
-        "generate_aurum_2.0": 5
+        "increase_stash_2.2": {
+          "inGameName": "Increase stash 2.2",
+          "amount": 12
+        },
+        "generate_aurum_2.0": {
+          "inGameName": "Generate aurum 2.0",
+          "amount": 5
+        }
       },
       "forge": {}
     }
@@ -2043,18 +3966,36 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "PortableLabEquipmentBox": 2
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-ICA-OilSearch-3": 5,
-        "Main-ICA-Caverns-4": 5
+        "Main-ICA-OilSearch-3": {
+          "inGameName": "Never Give Up Part 3",
+          "amount": 5
+        },
+        "Main-ICA-Caverns-4": {
+          "inGameName": "Race to the Bottom Part 5",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Medium-Osiris-Gather-5": 4
+        "NEW-Medium-Osiris-Gather-5": {
+          "inGameName": "Indigenous Fruit",
+          "amount": 4
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_2.2": 5,
-        "generate_kmarks_3.0": 6
+        "reduce_pq_upgrading_time_2.2": {
+          "inGameName": "Reduce pq upgrading time 2.2",
+          "amount": 5
+        },
+        "generate_kmarks_3.0": {
+          "inGameName": "Generate kmarks 3.0",
+          "amount": 6
+        }
       },
       "forge": {}
     }
@@ -2074,18 +4015,39 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Consumable_Health_05": 1,
-        "Consumable_Health_06": 2
+        "Consumable_Health_05": {
+          "inGameName": "Strong Medkit",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-Osiris-StrongStims-1": 4,
-        "Main-Osiris-StrongMedkits-1": 3,
-        "Main-Osiris-CombatStims-2": 5
+        "Main-Osiris-StrongStims-1": {
+          "inGameName": "Stimulating Developments Part 1",
+          "amount": 4
+        },
+        "Main-Osiris-StrongMedkits-1": {
+          "inGameName": "Path to Strong Medkits Part 1",
+          "amount": 3
+        },
+        "Main-Osiris-CombatStims-2": {
+          "inGameName": "Combat Ready Part 2",
+          "amount": 5
+        }
       },
       "jobs": {},
       "quarters": {
-        "increase_stash_4.2": 23,
-        "daily_crate_4.1": 20
+        "increase_stash_4.2": {
+          "inGameName": "Increase stash 4.2",
+          "amount": 23
+        },
+        "daily_crate_4.1": {
+          "inGameName": "Daily crate 4.1",
+          "amount": 20
+        }
       },
       "forge": {}
     }
@@ -2106,14 +4068,26 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-EarlyMap2-4": 3
+        "Main-KOR-EarlyMap2-4": {
+          "inGameName": "Uncharted Territory Part 4",
+          "amount": 3
+        }
       },
       "jobs": {
-        "NEW-Hard-ICA-Gather-7": 8
+        "NEW-Hard-ICA-Gather-7": {
+          "inGameName": "A Craving",
+          "amount": 8
+        }
       },
       "quarters": {
-        "increase_bag_2.0": 4,
-        "aurum_passive_cap_2.0": 2
+        "increase_bag_2.0": {
+          "inGameName": "Increase bag 2.0",
+          "amount": 4
+        },
+        "aurum_passive_cap_2.0": {
+          "inGameName": "Aurum passive cap 2.0",
+          "amount": 2
+        }
       },
       "forge": {}
     }
@@ -2134,14 +4108,26 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-FirstExtraWork-2": 5
+        "Main-KOR-FirstExtraWork-2": {
+          "inGameName": "Time for More Work Part 2",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Hard-ICA-Gather-8": 10
+        "NEW-Hard-ICA-Gather-8": {
+          "inGameName": "Prim & Proper",
+          "amount": 10
+        }
       },
       "quarters": {
-        "generate_aurum_3.2": 11,
-        "generate_kmarks_2.1": 4
+        "generate_aurum_3.2": {
+          "inGameName": "Generate aurum 3.2",
+          "amount": 11
+        },
+        "generate_kmarks_2.1": {
+          "inGameName": "Generate kmarks 2.1",
+          "amount": 4
+        }
       },
       "forge": {}
     }
@@ -2163,16 +4149,37 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-OilSearch-2": 5,
-        "Main-Osiris-CrystalSamples-2": 8
+        "Main-ICA-OilSearch-2": {
+          "inGameName": "Never Give Up Part 2",
+          "amount": 5
+        },
+        "Main-Osiris-CrystalSamples-2": {
+          "inGameName": "Everything is Crystals Part 2",
+          "amount": 8
+        }
       },
       "jobs": {},
       "quarters": {
-        "increase_stash_2.0": 2,
-        "increase_bag_3.0": 8,
-        "reduce_pq_upgrading_time_2.1": 4,
-        "kmarks_passive_cap_2.1": 2,
-        "aurum_passive_cap_3.1": 10
+        "increase_stash_2.0": {
+          "inGameName": "Increase stash 2.0",
+          "amount": 2
+        },
+        "increase_bag_3.0": {
+          "inGameName": "Increase bag 3.0",
+          "amount": 8
+        },
+        "reduce_pq_upgrading_time_2.1": {
+          "inGameName": "Reduce pq upgrading time 2.1",
+          "amount": 4
+        },
+        "kmarks_passive_cap_2.1": {
+          "inGameName": "Kmarks passive cap 2.1",
+          "amount": 2
+        },
+        "aurum_passive_cap_3.1": {
+          "inGameName": "Aurum passive cap 3.1",
+          "amount": 10
+        }
       },
       "forge": {}
     }
@@ -2192,26 +4199,68 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "AutoLoader": 5,
-        "QuestItem_OilPumpBeacon": 12,
-        "ShockGrenade_03": 1,
-        "Helmet_03": 2,
-        "Helmet_Tactical_03": 2,
-        "Helmet_Restoration_02": 2,
-        "Mod_Muzzle_Small_Supressor_01": 3,
-        "Mod_Muzzle_Standard_Supressor_01": 3
+        "AutoLoader": {
+          "inGameName": "Autoloader",
+          "amount": 5
+        },
+        "QuestItem_OilPumpBeacon": {
+          "inGameName": "Oil Pump Beacon",
+          "amount": 12
+        },
+        "ShockGrenade_03": {
+          "inGameName": "ShockGrenade_03",
+          "amount": 1
+        },
+        "Helmet_03": {
+          "inGameName": "Helmet",
+          "amount": 2
+        },
+        "Helmet_Tactical_03": {
+          "inGameName": "Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_02": {
+          "inGameName": "Restoration Helmet",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Supressor_01": {
+          "inGameName": "Small Suppressor",
+          "amount": 3
+        },
+        "Mod_Muzzle_Standard_Supressor_01": {
+          "inGameName": "Medium Suppressor",
+          "amount": 3
+        }
       },
       "missions": {
-        "Main-KOR-EarlyMap2-2": 3
+        "Main-KOR-EarlyMap2-2": {
+          "inGameName": "Uncharted Territory Part 2",
+          "amount": 3
+        }
       },
       "jobs": {
-        "NEW-Easy-ICA-Gather-1": 6
+        "NEW-Easy-ICA-Gather-1": {
+          "inGameName": "Cooking Equipment",
+          "amount": 6
+        }
       },
       "quarters": {
-        "playerquarter_6": 18,
-        "increase_bag_2.0": 4,
-        "reduce_pq_upgrading_time_2.0": 2,
-        "daily_crate_2.0": 4
+        "playerquarter_6": {
+          "inGameName": "Player Quarters Level 6",
+          "amount": 18
+        },
+        "increase_bag_2.0": {
+          "inGameName": "Increase bag 2.0",
+          "amount": 4
+        },
+        "reduce_pq_upgrading_time_2.0": {
+          "inGameName": "Reduce pq upgrading time 2.0",
+          "amount": 2
+        },
+        "daily_crate_2.0": {
+          "inGameName": "Daily crate 2.0",
+          "amount": 4
+        }
       },
       "forge": {}
     }
@@ -2231,34 +4280,100 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Shield_02": 5,
-        "Shield_Tactical_02": 5,
-        "Shield_Restoration_01": 5,
-        "Helmet_02": 5,
-        "Helmet_Tactical_02": 4,
-        "Helmet_Restoration_01": 4
+        "Shield_02": {
+          "inGameName": "Shield",
+          "amount": 5
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Tactical Shield",
+          "amount": 5
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Restoration Shield",
+          "amount": 5
+        },
+        "Helmet_02": {
+          "inGameName": "Helmet",
+          "amount": 5
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Tactical Helmet",
+          "amount": 4
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Restoration Helmet",
+          "amount": 4
+        }
       },
       "missions": {
-        "Main-KOR-LetiumRumors-3": 20,
-        "Main-KOR-LetiumResearch-2": 20,
-        "Main-ICA-GainTrust-1": 3,
-        "Main-Osiris-GainTrust-2": 3
+        "Main-KOR-LetiumRumors-3": {
+          "inGameName": "Rapid Gentrification",
+          "amount": 20
+        },
+        "Main-KOR-LetiumResearch-2": {
+          "inGameName": "Don't Dig Too Deep",
+          "amount": 20
+        },
+        "Main-ICA-GainTrust-1": {
+          "inGameName": "Don't Forget to Recycle",
+          "amount": 3
+        },
+        "Main-Osiris-GainTrust-2": {
+          "inGameName": "Fertile Grounds",
+          "amount": 3
+        }
       },
       "jobs": {
-        "Easy-Osiris-Hunt-1": 5,
-        "Medium-Osiris-Hunt-1": 10,
-        "Hard-Osiris-Hunt-1": 15,
-        "Medium-KOR-Conditional-4": 2,
-        "Medium-Osiris-Conditional-4": 2,
-        "NEW-Easy-ICA-Gather-4": 6,
-        "NEW-Easy-Osiris-Gather-1": 4,
-        "NEW-Medium-Osiris-Gather-2": 10,
-        "NEW-Medium-ICA-Gather-and-PvE-1": 10,
-        "NEW-Hard-ICA-Gather-and-PvE-1": 15
+        "Easy-Osiris-Hunt-1": {
+          "inGameName": "Pest Control I",
+          "amount": 5
+        },
+        "Medium-Osiris-Hunt-1": {
+          "inGameName": "Pest Control II",
+          "amount": 10
+        },
+        "Hard-Osiris-Hunt-1": {
+          "inGameName": "Pest Control III",
+          "amount": 15
+        },
+        "Medium-KOR-Conditional-4": {
+          "inGameName": "Spring Cleaning",
+          "amount": 2
+        },
+        "Medium-Osiris-Conditional-4": {
+          "inGameName": "The Big Blue Tree",
+          "amount": 2
+        },
+        "NEW-Easy-ICA-Gather-4": {
+          "inGameName": "Espionage",
+          "amount": 6
+        },
+        "NEW-Easy-Osiris-Gather-1": {
+          "inGameName": "Spinal Bases",
+          "amount": 4
+        },
+        "NEW-Medium-Osiris-Gather-2": {
+          "inGameName": "Gun Manufacturing",
+          "amount": 10
+        },
+        "NEW-Medium-ICA-Gather-and-PvE-1": {
+          "inGameName": "Alternative Energies",
+          "amount": 10
+        },
+        "NEW-Hard-ICA-Gather-and-PvE-1": {
+          "inGameName": "Alternative Energies",
+          "amount": 15
+        }
       },
       "quarters": {
-        "generate_aurum_1.0": 6,
-        "aurum_passive_cap_1.0": 6
+        "generate_aurum_1.0": {
+          "inGameName": "Generate aurum 1.0",
+          "amount": 6
+        },
+        "aurum_passive_cap_1.0": {
+          "inGameName": "Aurum passive cap 1.0",
+          "amount": 6
+        }
       },
       "forge": {}
     }
@@ -2279,21 +4394,51 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-ExtraWork-3": 10,
-        "Main-Osiris-CraftFuel-2": 20,
-        "Main-Osiris-Caverns-9": 5
+        "Main-ICA-ExtraWork-3": {
+          "inGameName": "Private Business Part 3",
+          "amount": 10
+        },
+        "Main-Osiris-CraftFuel-2": {
+          "inGameName": "Building a better Death Ray Part 2",
+          "amount": 20
+        },
+        "Main-Osiris-Caverns-9": {
+          "inGameName": "The Progenitor Device Part 11",
+          "amount": 5
+        }
       },
       "jobs": {
-        "Hard-Osiris-Hunt-2": 5,
-        "NEW-Hard-ICA-Gather-and-PvE-4": 14,
-        "NEW-Hard-Osiris-Gather-3": 8,
-        "NEW-Hard-Osiris-Gather-5": 16
+        "Hard-Osiris-Hunt-2": {
+          "inGameName": "Storm Biologist",
+          "amount": 5
+        },
+        "NEW-Hard-ICA-Gather-and-PvE-4": {
+          "inGameName": "Espionage II",
+          "amount": 14
+        },
+        "NEW-Hard-Osiris-Gather-3": {
+          "inGameName": "A new Energy Source",
+          "amount": 8
+        },
+        "NEW-Hard-Osiris-Gather-5": {
+          "inGameName": "Keep the Experiment running",
+          "amount": 16
+        }
       },
       "quarters": {},
       "forge": {
-        "Perk_HealthRegen_Storm": 3,
-        "Perk_StormProtection": 3,
-        "Perk_StaminaRegenDelay_Storm": 3
+        "Perk_HealthRegen_Storm": {
+          "inGameName": "Health restoration per second during a Storm",
+          "amount": 3
+        },
+        "Perk_StormProtection": {
+          "inGameName": "Less damage from Storm strikes",
+          "amount": 3
+        },
+        "Perk_StaminaRegenDelay_Storm": {
+          "inGameName": "Stamina regenerates without delay during a Storm",
+          "amount": 3
+        }
       }
     }
   },
@@ -2312,22 +4457,49 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Consumable_GasGrenade_01": 1
+        "Consumable_GasGrenade_01": {
+          "inGameName": "Gas Grenade",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-LetiumResearch-6": 8,
-        "Main-ICA-GasGrenades-2": 3,
-        "Main-Osiris-StrongStims-2": 2
+        "Main-KOR-LetiumResearch-6": {
+          "inGameName": "It's in the Blood",
+          "amount": 8
+        },
+        "Main-ICA-GasGrenades-2": {
+          "inGameName": "Toxic Love Part 2",
+          "amount": 3
+        },
+        "Main-Osiris-StrongStims-2": {
+          "inGameName": "Stimulating Developments Part 2",
+          "amount": 2
+        }
       },
       "jobs": {
-        "NEW-Medium-KOR-Gather-3": 2,
-        "NEW-Hard-Osiris-Gather-1": 7
+        "NEW-Medium-KOR-Gather-3": {
+          "inGameName": "None of your Business",
+          "amount": 2
+        },
+        "NEW-Hard-Osiris-Gather-1": {
+          "inGameName": "Cretins",
+          "amount": 7
+        }
       },
       "quarters": {},
       "forge": {
-        "Perk_FallingDamage": 3,
-        "Perk_AIDetection": 3,
-        "Perk_WalkSpeed": 3
+        "Perk_FallingDamage": {
+          "inGameName": "Less damage from falling",
+          "amount": 3
+        },
+        "Perk_AIDetection": {
+          "inGameName": "Hostile fauna is less aggressive towards the wearer",
+          "amount": 3
+        },
+        "Perk_WalkSpeed": {
+          "inGameName": "Increased walk speed",
+          "amount": 3
+        }
       }
     }
   },
@@ -2371,9 +4543,18 @@
       "jobs": {},
       "quarters": {},
       "forge": {
-        "Perk_AIProtection": 1,
-        "Perk_HunterVisionHelm": 1,
-        "Perk_AIDetection": 1
+        "Perk_AIProtection": {
+          "inGameName": "Less damage from hostile fauna attacks",
+          "amount": 1
+        },
+        "Perk_HunterVisionHelm": {
+          "inGameName": "Enhanced Alien Hunter Vision which consumes stamina (can be toggled on/off)",
+          "amount": 1
+        },
+        "Perk_AIDetection": {
+          "inGameName": "Hostile fauna is less aggressive towards the wearer",
+          "amount": 1
+        }
       }
     }
   },
@@ -2396,8 +4577,14 @@
       "jobs": {},
       "quarters": {},
       "forge": {
-        "Perk_MaxHealth": 1,
-        "Perk_HunterVisionHelm": 1
+        "Perk_MaxHealth": {
+          "inGameName": "Maximum health",
+          "amount": 1
+        },
+        "Perk_HunterVisionHelm": {
+          "inGameName": "Enhanced Alien Hunter Vision which consumes stamina (can be toggled on/off)",
+          "amount": 1
+        }
       }
     }
   },
@@ -2460,15 +4647,30 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-LetiumResearch-7": 10,
-        "Main-Osiris-GainTrust-4": 3,
-        "Main-Osiris-SideWork1-2": 12
+        "Main-KOR-LetiumResearch-7": {
+          "inGameName": "Fresh Meat",
+          "amount": 10
+        },
+        "Main-Osiris-GainTrust-4": {
+          "inGameName": "Papers, Please",
+          "amount": 3
+        },
+        "Main-Osiris-SideWork1-2": {
+          "inGameName": "The Needs of the One Part 2",
+          "amount": 12
+        }
       },
       "jobs": {},
       "quarters": {},
       "forge": {
-        "Perk_MaxStamina": 3,
-        "Perk_StaminaConsumption": 3
+        "Perk_MaxStamina": {
+          "inGameName": "Maximum stamina",
+          "amount": 3
+        },
+        "Perk_StaminaConsumption": {
+          "inGameName": "Less stamina consumption",
+          "amount": 3
+        }
       }
     }
   },
@@ -2488,18 +4690,39 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-LetiumResearch-7": 5,
-        "Main-Osiris-GruntWork-7": 3
+        "Main-KOR-LetiumResearch-7": {
+          "inGameName": "Fresh Meat",
+          "amount": 5
+        },
+        "Main-Osiris-GruntWork-7": {
+          "inGameName": "Field Research Part 8",
+          "amount": 3
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_3": 4,
-        "generate_aurum_2.1": 6
+        "playerquarter_3": {
+          "inGameName": "Player Quarters Level 3",
+          "amount": 4
+        },
+        "generate_aurum_2.1": {
+          "inGameName": "Generate aurum 2.1",
+          "amount": 6
+        }
       },
       "forge": {
-        "Perk_MaxStamina": 3,
-        "Perk_StaminaConsumption": 3,
-        "Perk_AIDetection": 3
+        "Perk_MaxStamina": {
+          "inGameName": "Maximum stamina",
+          "amount": 3
+        },
+        "Perk_StaminaConsumption": {
+          "inGameName": "Less stamina consumption",
+          "amount": 3
+        },
+        "Perk_AIDetection": {
+          "inGameName": "Hostile fauna is less aggressive towards the wearer",
+          "amount": 3
+        }
       }
     }
   },
@@ -2519,19 +4742,43 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-LetiumResearch-7": 3,
-        "Main-Osiris-StrongMedkits-1": 3
+        "Main-KOR-LetiumResearch-7": {
+          "inGameName": "Fresh Meat",
+          "amount": 3
+        },
+        "Main-Osiris-StrongMedkits-1": {
+          "inGameName": "Path to Strong Medkits Part 1",
+          "amount": 3
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_6": 6,
-        "kmarks_passive_cap_3.4": 8,
-        "aurum_passive_cap_3.2": 7
+        "playerquarter_6": {
+          "inGameName": "Player Quarters Level 6",
+          "amount": 6
+        },
+        "kmarks_passive_cap_3.4": {
+          "inGameName": "Kmarks passive cap 3.4",
+          "amount": 8
+        },
+        "aurum_passive_cap_3.2": {
+          "inGameName": "Aurum passive cap 3.2",
+          "amount": 7
+        }
       },
       "forge": {
-        "Perk_MaxStamina": 2,
-        "Perk_StormProtection": 2,
-        "Perk_AIDetection": 2
+        "Perk_MaxStamina": {
+          "inGameName": "Maximum stamina",
+          "amount": 2
+        },
+        "Perk_StormProtection": {
+          "inGameName": "Less damage from Storm strikes",
+          "amount": 2
+        },
+        "Perk_AIDetection": {
+          "inGameName": "Hostile fauna is less aggressive towards the wearer",
+          "amount": 2
+        }
       }
     }
   },
@@ -2550,14 +4797,23 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "WP_A_Launch_MSL_01": 8
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 8
+        }
       },
       "missions": {
-        "Main-Osiris-CombatStims-1": 1
+        "Main-Osiris-CombatStims-1": {
+          "inGameName": "Combat Ready Part 1",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_9": 3
+        "playerquarter_9": {
+          "inGameName": "Player Quarters Level 9",
+          "amount": 3
+        }
       },
       "forge": {}
     }
@@ -2577,24 +4833,63 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Shield_03": 5,
-        "Shield_Tactical_03": 8,
-        "Shield_Restoration_02": 8,
-        "Helmet_03": 2,
-        "Helmet_Tactical_03": 2,
-        "Helmet_Restoration_02": 2
+        "Shield_03": {
+          "inGameName": "Shield",
+          "amount": 5
+        },
+        "Shield_Tactical_03": {
+          "inGameName": "Tactical Shield",
+          "amount": 8
+        },
+        "Shield_Restoration_02": {
+          "inGameName": "Restoration Shield",
+          "amount": 8
+        },
+        "Helmet_03": {
+          "inGameName": "Helmet",
+          "amount": 2
+        },
+        "Helmet_Tactical_03": {
+          "inGameName": "Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_02": {
+          "inGameName": "Restoration Helmet",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-KOR-LetiumResearch-1": 5,
-        "Main-KOR-CraftingBackpack-2": 5,
-        "Main-ICA-OilSearch-3": 8,
-        "Main-Osiris-GainTrust-4": 1,
-        "Main-Osiris-CaveRumors-1": 6,
-        "Main-ICA-ExtraWork2-3": 10
+        "Main-KOR-LetiumResearch-1": {
+          "inGameName": "Shopping List",
+          "amount": 5
+        },
+        "Main-KOR-CraftingBackpack-2": {
+          "inGameName": "Exotic Leathers",
+          "amount": 5
+        },
+        "Main-ICA-OilSearch-3": {
+          "inGameName": "Never Give Up Part 3",
+          "amount": 8
+        },
+        "Main-Osiris-GainTrust-4": {
+          "inGameName": "Papers, Please",
+          "amount": 1
+        },
+        "Main-Osiris-CaveRumors-1": {
+          "inGameName": "Lost Knowledge Part 1",
+          "amount": 6
+        },
+        "Main-ICA-ExtraWork2-3": {
+          "inGameName": "The Community Needs You Part 3",
+          "amount": 10
+        }
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_2": 3
+        "playerquarter_2": {
+          "inGameName": "Player Quarters Level 2",
+          "amount": 3
+        }
       },
       "forge": {}
     }
@@ -2614,34 +4909,94 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Shield_04": 2,
-        "Shield_Tactical_04": 3,
-        "Shield_Restoration_03": 3,
-        "Helmet_04": 1,
-        "Helmet_Tactical_04": 1,
-        "Helmet_Restoration_03": 1
+        "Shield_04": {
+          "inGameName": "Shield",
+          "amount": 2
+        },
+        "Shield_Tactical_04": {
+          "inGameName": "Tactical Shield",
+          "amount": 3
+        },
+        "Shield_Restoration_03": {
+          "inGameName": "Restoration Shield",
+          "amount": 3
+        },
+        "Helmet_04": {
+          "inGameName": "Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Restoration Helmet",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-GruntWork-8": 1,
-        "Main-KOR-LetiumResearch-6": 5,
-        "Main-ICA-ExtraWork-3": 5,
-        "Main-ICA-OilPump-4": 5,
-        "Main-Osiris-SideWork1-3": 3,
-        "Main-Osiris-SatelliteRepairs-3": 8,
-        "Main-ICA-ExtraWork2-3": 5
+        "Main-KOR-GruntWork-8": {
+          "inGameName": "Thick Skinned",
+          "amount": 1
+        },
+        "Main-KOR-LetiumResearch-6": {
+          "inGameName": "It's in the Blood",
+          "amount": 5
+        },
+        "Main-ICA-ExtraWork-3": {
+          "inGameName": "Private Business Part 3",
+          "amount": 5
+        },
+        "Main-ICA-OilPump-4": {
+          "inGameName": "Back to Basics Part 5",
+          "amount": 5
+        },
+        "Main-Osiris-SideWork1-3": {
+          "inGameName": "The Needs of the One Part 3",
+          "amount": 3
+        },
+        "Main-Osiris-SatelliteRepairs-3": {
+          "inGameName": "Orbital Repairs Part 3",
+          "amount": 8
+        },
+        "Main-ICA-ExtraWork2-3": {
+          "inGameName": "The Community Needs You Part 3",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Hard-KOR-Gather-2": 4,
-        "NEW-Hard-Osiris-Gather-6": 5
+        "NEW-Hard-KOR-Gather-2": {
+          "inGameName": "A new type of Alloy",
+          "amount": 4
+        },
+        "NEW-Hard-Osiris-Gather-6": {
+          "inGameName": "Safety Measures",
+          "amount": 5
+        }
       },
       "quarters": {
-        "playerquarter_4": 3,
-        "generate_kmarks_3.0": 5
+        "playerquarter_4": {
+          "inGameName": "Player Quarters Level 4",
+          "amount": 3
+        },
+        "generate_kmarks_3.0": {
+          "inGameName": "Generate kmarks 3.0",
+          "amount": 5
+        }
       },
       "forge": {
-        "Perk_MaxStamina": 3,
-        "Perk_AIProtection": 3,
-        "Perk_FallingDamage": 3
+        "Perk_MaxStamina": {
+          "inGameName": "Maximum stamina",
+          "amount": 3
+        },
+        "Perk_AIProtection": {
+          "inGameName": "Less damage from hostile fauna attacks",
+          "amount": 3
+        },
+        "Perk_FallingDamage": {
+          "inGameName": "Less damage from falling",
+          "amount": 3
+        }
       }
     }
   },
@@ -2660,27 +5015,66 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Shield_05": 2,
-        "Shield_Tactical_05": 3,
-        "Shield_Restoration_04": 3,
-        "Helmet_05": 1,
-        "Helmet_Tactical_05": 1,
-        "Helmet_Restoration_04": 1
+        "Shield_05": {
+          "inGameName": "Shield",
+          "amount": 2
+        },
+        "Shield_Tactical_05": {
+          "inGameName": "Tactical Shield",
+          "amount": 3
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Restoration Shield",
+          "amount": 3
+        },
+        "Helmet_05": {
+          "inGameName": "Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Restoration Helmet",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-Osiris-SatelliteRepairs-4": 3
+        "Main-Osiris-SatelliteRepairs-4": {
+          "inGameName": "Orbital Repairs Part 4",
+          "amount": 3
+        }
       },
       "jobs": {
-        "NEW-Hard-Osiris-Gather-8": 3
+        "NEW-Hard-Osiris-Gather-8": {
+          "inGameName": "Don't get crushed",
+          "amount": 3
+        }
       },
       "quarters": {
-        "playerquarter_8": 5,
-        "aurum_passive_cap_3.3": 6
+        "playerquarter_8": {
+          "inGameName": "Player Quarters Level 8",
+          "amount": 5
+        },
+        "aurum_passive_cap_3.3": {
+          "inGameName": "Aurum passive cap 3.3",
+          "amount": 6
+        }
       },
       "forge": {
-        "Perk_Armor_Helmet": 2,
-        "Perk_AOEReduction": 2,
-        "Perk_Armor_Shield": 2
+        "Perk_Armor_Helmet": {
+          "inGameName": "Extra armor",
+          "amount": 2
+        },
+        "Perk_AOEReduction": {
+          "inGameName": "Less damage from explosions",
+          "amount": 2
+        },
+        "Perk_Armor_Shield": {
+          "inGameName": "Extra armor",
+          "amount": 2
+        }
       }
     }
   },
@@ -2699,24 +5093,60 @@
     "stackSize": 1,
     "uses": {
       "printing": {
-        "WP_A_Sniper_Gauss_01": 3,
-        "WP_G_HVY_Beam_01": 3,
-        "Helmet_NV_01": 1
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 3
+        },
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 3
+        },
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-Osiris-TestRun-1": 1
+        "Main-Osiris-TestRun-1": {
+          "inGameName": "Breaking and Entering Part 1",
+          "amount": 1
+        }
       },
       "jobs": {
-        "Easy-ICA-BossHunt-1": 1,
-        "Medium-ICA-BossHunt-1": 2,
-        "Hard-ICA-BossHunt-1": 3,
-        "NEW-Hard-Osiris-EliteCrusher-1": 1
+        "Easy-ICA-BossHunt-1": {
+          "inGameName": "Big Game Hunter I",
+          "amount": 1
+        },
+        "Medium-ICA-BossHunt-1": {
+          "inGameName": "Big Game Hunter II",
+          "amount": 2
+        },
+        "Hard-ICA-BossHunt-1": {
+          "inGameName": "Big Game Hunter III",
+          "amount": 3
+        },
+        "NEW-Hard-Osiris-EliteCrusher-1": {
+          "inGameName": "The Rarest Sample",
+          "amount": 1
+        }
       },
       "quarters": {
-        "playerquarter_10": 2,
-        "generate_aurum_4.3": 1,
-        "generate_kmarks_4.3": 1,
-        "aurum_passive_cap_4.3": 2
+        "playerquarter_10": {
+          "inGameName": "Player Quarters Level 10",
+          "amount": 2
+        },
+        "generate_aurum_4.3": {
+          "inGameName": "Generate aurum 4.3",
+          "amount": 1
+        },
+        "generate_kmarks_4.3": {
+          "inGameName": "Generate kmarks 4.3",
+          "amount": 1
+        },
+        "aurum_passive_cap_4.3": {
+          "inGameName": "Aurum passive cap 4.3",
+          "amount": 2
+        }
       },
       "forge": {}
     }
@@ -2738,18 +5168,42 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-MiningTool-5": 3,
-        "Main-KOR-CraftingBackpack-1": 5
+        "Main-KOR-MiningTool-5": {
+          "inGameName": "Final Touches",
+          "amount": 3
+        },
+        "Main-KOR-CraftingBackpack-1": {
+          "inGameName": "Order Refill",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Medium-Osiris-Gather-4": 8
+        "NEW-Medium-Osiris-Gather-4": {
+          "inGameName": "Flexible Sealant",
+          "amount": 8
+        }
       },
       "quarters": {
-        "playerquarter_5": 10,
-        "increase_stash_2.1": 2,
-        "reduce_pq_upgrading_time_1.2": 2,
-        "generate_aurum_2.2": 8,
-        "kmarks_passive_cap_2.4": 9
+        "playerquarter_5": {
+          "inGameName": "Player Quarters Level 5",
+          "amount": 10
+        },
+        "increase_stash_2.1": {
+          "inGameName": "Increase stash 2.1",
+          "amount": 2
+        },
+        "reduce_pq_upgrading_time_1.2": {
+          "inGameName": "Reduce pq upgrading time 1.2",
+          "amount": 2
+        },
+        "generate_aurum_2.2": {
+          "inGameName": "Generate aurum 2.2",
+          "amount": 8
+        },
+        "kmarks_passive_cap_2.4": {
+          "inGameName": "Kmarks passive cap 2.4",
+          "amount": 9
+        }
       },
       "forge": {}
     }
@@ -2769,50 +5223,170 @@
     "stackSize": 10000,
     "uses": {
       "printing": {
-        "QuestItem_LaserDrillBeacon": 80
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 80
+        }
       },
       "missions": {},
       "jobs": {},
       "quarters": {
-        "increase_stash_1.0": 1,
-        "increase_stash_1.1": 2,
-        "increase_stash_1.2": 2,
-        "increase_stash_2.0": 3,
-        "increase_stash_2.1": 5,
-        "increase_stash_2.2": 8,
-        "increase_stash_3.0": 11,
-        "increase_stash_3.1": 17,
-        "increase_stash_3.2": 26,
-        "increase_stash_4.0": 38,
-        "increase_stash_4.1": 58,
-        "increase_stash_4.2": 86,
-        "increase_stash_5.0": 130,
-        "increase_stash_5.1": 195,
-        "increase_stash_5.2": 292,
-        "increase_bag_1.0": 1,
-        "increase_bag_2.0": 11,
-        "increase_bag_3.0": 86,
-        "increase_bag_4.0": 130,
-        "increase_bag_5.0": 292,
-        "kmarks_passive_cap_1.0": 1,
-        "kmarks_passive_cap_1.1": 2,
-        "kmarks_passive_cap_1.2": 2,
-        "kmarks_passive_cap_1.3": 3,
-        "kmarks_passive_cap_2.0": 3,
-        "kmarks_passive_cap_2.1": 5,
-        "kmarks_passive_cap_2.2": 8,
-        "kmarks_passive_cap_2.3": 11,
-        "kmarks_passive_cap_2.4": 17,
-        "kmarks_passive_cap_3.0": 17,
-        "kmarks_passive_cap_3.1": 21,
-        "kmarks_passive_cap_3.2": 26,
-        "kmarks_passive_cap_3.3": 31,
-        "kmarks_passive_cap_3.4": 38,
-        "kmarks_passive_cap_4.0": 58,
-        "kmarks_passive_cap_4.1": 86,
-        "kmarks_passive_cap_4.2": 130,
-        "kmarks_passive_cap_4.3": 195,
-        "kmarks_passive_cap_4.4": 292
+        "increase_stash_1.0": {
+          "inGameName": "Increase stash 1.0",
+          "amount": 1
+        },
+        "increase_stash_1.1": {
+          "inGameName": "Increase stash 1.1",
+          "amount": 2
+        },
+        "increase_stash_1.2": {
+          "inGameName": "Increase stash 1.2",
+          "amount": 2
+        },
+        "increase_stash_2.0": {
+          "inGameName": "Increase stash 2.0",
+          "amount": 3
+        },
+        "increase_stash_2.1": {
+          "inGameName": "Increase stash 2.1",
+          "amount": 5
+        },
+        "increase_stash_2.2": {
+          "inGameName": "Increase stash 2.2",
+          "amount": 8
+        },
+        "increase_stash_3.0": {
+          "inGameName": "Increase stash 3.0",
+          "amount": 11
+        },
+        "increase_stash_3.1": {
+          "inGameName": "Increase stash 3.1",
+          "amount": 17
+        },
+        "increase_stash_3.2": {
+          "inGameName": "Increase stash 3.2",
+          "amount": 26
+        },
+        "increase_stash_4.0": {
+          "inGameName": "Increase stash 4.0",
+          "amount": 38
+        },
+        "increase_stash_4.1": {
+          "inGameName": "Increase stash 4.1",
+          "amount": 58
+        },
+        "increase_stash_4.2": {
+          "inGameName": "Increase stash 4.2",
+          "amount": 86
+        },
+        "increase_stash_5.0": {
+          "inGameName": "Increase stash 5.0",
+          "amount": 130
+        },
+        "increase_stash_5.1": {
+          "inGameName": "Increase stash 5.1",
+          "amount": 195
+        },
+        "increase_stash_5.2": {
+          "inGameName": "Increase stash 5.2",
+          "amount": 292
+        },
+        "increase_bag_1.0": {
+          "inGameName": "Increase bag 1.0",
+          "amount": 1
+        },
+        "increase_bag_2.0": {
+          "inGameName": "Increase bag 2.0",
+          "amount": 11
+        },
+        "increase_bag_3.0": {
+          "inGameName": "Increase bag 3.0",
+          "amount": 86
+        },
+        "increase_bag_4.0": {
+          "inGameName": "Increase bag 4.0",
+          "amount": 130
+        },
+        "increase_bag_5.0": {
+          "inGameName": "Increase bag 5.0",
+          "amount": 292
+        },
+        "kmarks_passive_cap_1.0": {
+          "inGameName": "Kmarks passive cap 1.0",
+          "amount": 1
+        },
+        "kmarks_passive_cap_1.1": {
+          "inGameName": "Kmarks passive cap 1.1",
+          "amount": 2
+        },
+        "kmarks_passive_cap_1.2": {
+          "inGameName": "Kmarks passive cap 1.2",
+          "amount": 2
+        },
+        "kmarks_passive_cap_1.3": {
+          "inGameName": "Kmarks passive cap 1.3",
+          "amount": 3
+        },
+        "kmarks_passive_cap_2.0": {
+          "inGameName": "Kmarks passive cap 2.0",
+          "amount": 3
+        },
+        "kmarks_passive_cap_2.1": {
+          "inGameName": "Kmarks passive cap 2.1",
+          "amount": 5
+        },
+        "kmarks_passive_cap_2.2": {
+          "inGameName": "Kmarks passive cap 2.2",
+          "amount": 8
+        },
+        "kmarks_passive_cap_2.3": {
+          "inGameName": "Kmarks passive cap 2.3",
+          "amount": 11
+        },
+        "kmarks_passive_cap_2.4": {
+          "inGameName": "Kmarks passive cap 2.4",
+          "amount": 17
+        },
+        "kmarks_passive_cap_3.0": {
+          "inGameName": "Kmarks passive cap 3.0",
+          "amount": 17
+        },
+        "kmarks_passive_cap_3.1": {
+          "inGameName": "Kmarks passive cap 3.1",
+          "amount": 21
+        },
+        "kmarks_passive_cap_3.2": {
+          "inGameName": "Kmarks passive cap 3.2",
+          "amount": 26
+        },
+        "kmarks_passive_cap_3.3": {
+          "inGameName": "Kmarks passive cap 3.3",
+          "amount": 31
+        },
+        "kmarks_passive_cap_3.4": {
+          "inGameName": "Kmarks passive cap 3.4",
+          "amount": 38
+        },
+        "kmarks_passive_cap_4.0": {
+          "inGameName": "Kmarks passive cap 4.0",
+          "amount": 58
+        },
+        "kmarks_passive_cap_4.1": {
+          "inGameName": "Kmarks passive cap 4.1",
+          "amount": 86
+        },
+        "kmarks_passive_cap_4.2": {
+          "inGameName": "Kmarks passive cap 4.2",
+          "amount": 130
+        },
+        "kmarks_passive_cap_4.3": {
+          "inGameName": "Kmarks passive cap 4.3",
+          "amount": 195
+        },
+        "kmarks_passive_cap_4.4": {
+          "inGameName": "Kmarks passive cap 4.4",
+          "amount": 292
+        }
       },
       "forge": {}
     }
@@ -2832,53 +5406,179 @@
     "stackSize": 10000,
     "uses": {
       "printing": {
-        "QuestItem_OrbitalCanonTargetBeacon": 80
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "QuestItem_OrbitalCanonTargetBeacon",
+          "amount": 80
+        }
       },
       "missions": {
-        "Main-KOR-BuildLaserDrill-6": 20
+        "Main-KOR-BuildLaserDrill-6": {
+          "inGameName": "This is Goodbye",
+          "amount": 20
+        }
       },
       "jobs": {},
       "quarters": {
-        "generate_aurum_1.0": 1,
-        "generate_aurum_1.1": 2,
-        "generate_aurum_1.2": 2,
-        "generate_aurum_1.3": 3,
-        "generate_aurum_1.4": 5,
-        "generate_aurum_2.0": 6,
-        "generate_aurum_2.1": 8,
-        "generate_aurum_2.2": 9,
-        "generate_aurum_2.3": 11,
-        "generate_aurum_2.4": 14,
-        "generate_aurum_3.0": 17,
-        "generate_aurum_3.1": 21,
-        "generate_aurum_3.2": 26,
-        "generate_aurum_3.3": 31,
-        "generate_aurum_3.4": 38,
-        "generate_aurum_4.0": 58,
-        "generate_aurum_4.1": 86,
-        "generate_aurum_4.2": 130,
-        "generate_aurum_4.3": 195,
-        "generate_aurum_4.4": 292,
-        "generate_kmarks_1.0": 1,
-        "generate_kmarks_1.1": 2,
-        "generate_kmarks_1.2": 2,
-        "generate_kmarks_1.3": 3,
-        "generate_kmarks_1.4": 5,
-        "generate_kmarks_2.0": 6,
-        "generate_kmarks_2.1": 8,
-        "generate_kmarks_2.2": 9,
-        "generate_kmarks_2.3": 11,
-        "generate_kmarks_2.4": 14,
-        "generate_kmarks_3.0": 17,
-        "generate_kmarks_3.1": 21,
-        "generate_kmarks_3.2": 26,
-        "generate_kmarks_3.3": 31,
-        "generate_kmarks_3.4": 38,
-        "generate_kmarks_4.0": 58,
-        "generate_kmarks_4.1": 86,
-        "generate_kmarks_4.2": 130,
-        "generate_kmarks_4.3": 195,
-        "generate_kmarks_4.4": 292
+        "generate_aurum_1.0": {
+          "inGameName": "Generate aurum 1.0",
+          "amount": 1
+        },
+        "generate_aurum_1.1": {
+          "inGameName": "Generate aurum 1.1",
+          "amount": 2
+        },
+        "generate_aurum_1.2": {
+          "inGameName": "Generate aurum 1.2",
+          "amount": 2
+        },
+        "generate_aurum_1.3": {
+          "inGameName": "Generate aurum 1.3",
+          "amount": 3
+        },
+        "generate_aurum_1.4": {
+          "inGameName": "Generate aurum 1.4",
+          "amount": 5
+        },
+        "generate_aurum_2.0": {
+          "inGameName": "Generate aurum 2.0",
+          "amount": 6
+        },
+        "generate_aurum_2.1": {
+          "inGameName": "Generate aurum 2.1",
+          "amount": 8
+        },
+        "generate_aurum_2.2": {
+          "inGameName": "Generate aurum 2.2",
+          "amount": 9
+        },
+        "generate_aurum_2.3": {
+          "inGameName": "Generate aurum 2.3",
+          "amount": 11
+        },
+        "generate_aurum_2.4": {
+          "inGameName": "Generate aurum 2.4",
+          "amount": 14
+        },
+        "generate_aurum_3.0": {
+          "inGameName": "Generate aurum 3.0",
+          "amount": 17
+        },
+        "generate_aurum_3.1": {
+          "inGameName": "Generate aurum 3.1",
+          "amount": 21
+        },
+        "generate_aurum_3.2": {
+          "inGameName": "Generate aurum 3.2",
+          "amount": 26
+        },
+        "generate_aurum_3.3": {
+          "inGameName": "Generate aurum 3.3",
+          "amount": 31
+        },
+        "generate_aurum_3.4": {
+          "inGameName": "Generate aurum 3.4",
+          "amount": 38
+        },
+        "generate_aurum_4.0": {
+          "inGameName": "Generate aurum 4.0",
+          "amount": 58
+        },
+        "generate_aurum_4.1": {
+          "inGameName": "Generate aurum 4.1",
+          "amount": 86
+        },
+        "generate_aurum_4.2": {
+          "inGameName": "Generate aurum 4.2",
+          "amount": 130
+        },
+        "generate_aurum_4.3": {
+          "inGameName": "Generate aurum 4.3",
+          "amount": 195
+        },
+        "generate_aurum_4.4": {
+          "inGameName": "Generate aurum 4.4",
+          "amount": 292
+        },
+        "generate_kmarks_1.0": {
+          "inGameName": "Generate kmarks 1.0",
+          "amount": 1
+        },
+        "generate_kmarks_1.1": {
+          "inGameName": "Generate kmarks 1.1",
+          "amount": 2
+        },
+        "generate_kmarks_1.2": {
+          "inGameName": "Generate kmarks 1.2",
+          "amount": 2
+        },
+        "generate_kmarks_1.3": {
+          "inGameName": "Generate kmarks 1.3",
+          "amount": 3
+        },
+        "generate_kmarks_1.4": {
+          "inGameName": "Generate kmarks 1.4",
+          "amount": 5
+        },
+        "generate_kmarks_2.0": {
+          "inGameName": "Generate kmarks 2.0",
+          "amount": 6
+        },
+        "generate_kmarks_2.1": {
+          "inGameName": "Generate kmarks 2.1",
+          "amount": 8
+        },
+        "generate_kmarks_2.2": {
+          "inGameName": "Generate kmarks 2.2",
+          "amount": 9
+        },
+        "generate_kmarks_2.3": {
+          "inGameName": "Generate kmarks 2.3",
+          "amount": 11
+        },
+        "generate_kmarks_2.4": {
+          "inGameName": "Generate kmarks 2.4",
+          "amount": 14
+        },
+        "generate_kmarks_3.0": {
+          "inGameName": "Generate kmarks 3.0",
+          "amount": 17
+        },
+        "generate_kmarks_3.1": {
+          "inGameName": "Generate kmarks 3.1",
+          "amount": 21
+        },
+        "generate_kmarks_3.2": {
+          "inGameName": "Generate kmarks 3.2",
+          "amount": 26
+        },
+        "generate_kmarks_3.3": {
+          "inGameName": "Generate kmarks 3.3",
+          "amount": 31
+        },
+        "generate_kmarks_3.4": {
+          "inGameName": "Generate kmarks 3.4",
+          "amount": 38
+        },
+        "generate_kmarks_4.0": {
+          "inGameName": "Generate kmarks 4.0",
+          "amount": 58
+        },
+        "generate_kmarks_4.1": {
+          "inGameName": "Generate kmarks 4.1",
+          "amount": 86
+        },
+        "generate_kmarks_4.2": {
+          "inGameName": "Generate kmarks 4.2",
+          "amount": 130
+        },
+        "generate_kmarks_4.3": {
+          "inGameName": "Generate kmarks 4.3",
+          "amount": 195
+        },
+        "generate_kmarks_4.4": {
+          "inGameName": "Generate kmarks 4.4",
+          "amount": 292
+        }
       },
       "forge": {}
     }
@@ -2898,50 +5598,170 @@
     "stackSize": 10000,
     "uses": {
       "printing": {
-        "QuestItem_OilPumpBeacon": 80
+        "QuestItem_OilPumpBeacon": {
+          "inGameName": "Oil Pump Beacon",
+          "amount": 80
+        }
       },
       "missions": {},
       "jobs": {},
       "quarters": {
-        "reduce_pq_upgrading_time_1.0": 1,
-        "reduce_pq_upgrading_time_1.1": 2,
-        "reduce_pq_upgrading_time_1.2": 2,
-        "reduce_pq_upgrading_time_2.0": 5,
-        "reduce_pq_upgrading_time_2.1": 8,
-        "reduce_pq_upgrading_time_2.2": 11,
-        "reduce_pq_upgrading_time_3.0": 26,
-        "reduce_pq_upgrading_time_3.1": 38,
-        "reduce_pq_upgrading_time_3.2": 58,
-        "reduce_pq_upgrading_time_4.0": 130,
-        "reduce_pq_upgrading_time_4.1": 195,
-        "reduce_pq_upgrading_time_4.2": 292,
-        "daily_crate_1.0": 1,
-        "daily_crate_1.1": 2,
-        "daily_crate_2.0": 2,
-        "daily_crate_2.1": 5,
-        "daily_crate_3.0": 11,
-        "daily_crate_3.1": 26,
-        "daily_crate_4.0": 58,
-        "daily_crate_4.1": 130,
-        "aurum_passive_cap_1.0": 1,
-        "aurum_passive_cap_1.1": 2,
-        "aurum_passive_cap_1.2": 2,
-        "aurum_passive_cap_1.3": 3,
-        "aurum_passive_cap_2.0": 3,
-        "aurum_passive_cap_2.1": 5,
-        "aurum_passive_cap_2.2": 8,
-        "aurum_passive_cap_2.3": 11,
-        "aurum_passive_cap_2.4": 17,
-        "aurum_passive_cap_3.0": 17,
-        "aurum_passive_cap_3.1": 21,
-        "aurum_passive_cap_3.2": 26,
-        "aurum_passive_cap_3.3": 31,
-        "aurum_passive_cap_3.4": 38,
-        "aurum_passive_cap_4.0": 58,
-        "aurum_passive_cap_4.1": 86,
-        "aurum_passive_cap_4.2": 130,
-        "aurum_passive_cap_4.3": 195,
-        "aurum_passive_cap_4.4": 292
+        "reduce_pq_upgrading_time_1.0": {
+          "inGameName": "Reduce pq upgrading time 1.0",
+          "amount": 1
+        },
+        "reduce_pq_upgrading_time_1.1": {
+          "inGameName": "Reduce pq upgrading time 1.1",
+          "amount": 2
+        },
+        "reduce_pq_upgrading_time_1.2": {
+          "inGameName": "Reduce pq upgrading time 1.2",
+          "amount": 2
+        },
+        "reduce_pq_upgrading_time_2.0": {
+          "inGameName": "Reduce pq upgrading time 2.0",
+          "amount": 5
+        },
+        "reduce_pq_upgrading_time_2.1": {
+          "inGameName": "Reduce pq upgrading time 2.1",
+          "amount": 8
+        },
+        "reduce_pq_upgrading_time_2.2": {
+          "inGameName": "Reduce pq upgrading time 2.2",
+          "amount": 11
+        },
+        "reduce_pq_upgrading_time_3.0": {
+          "inGameName": "Reduce pq upgrading time 3.0",
+          "amount": 26
+        },
+        "reduce_pq_upgrading_time_3.1": {
+          "inGameName": "Reduce pq upgrading time 3.1",
+          "amount": 38
+        },
+        "reduce_pq_upgrading_time_3.2": {
+          "inGameName": "Reduce pq upgrading time 3.2",
+          "amount": 58
+        },
+        "reduce_pq_upgrading_time_4.0": {
+          "inGameName": "Reduce pq upgrading time 4.0",
+          "amount": 130
+        },
+        "reduce_pq_upgrading_time_4.1": {
+          "inGameName": "Reduce pq upgrading time 4.1",
+          "amount": 195
+        },
+        "reduce_pq_upgrading_time_4.2": {
+          "inGameName": "Reduce pq upgrading time 4.2",
+          "amount": 292
+        },
+        "daily_crate_1.0": {
+          "inGameName": "Daily crate 1.0",
+          "amount": 1
+        },
+        "daily_crate_1.1": {
+          "inGameName": "Daily crate 1.1",
+          "amount": 2
+        },
+        "daily_crate_2.0": {
+          "inGameName": "Daily crate 2.0",
+          "amount": 2
+        },
+        "daily_crate_2.1": {
+          "inGameName": "Daily crate 2.1",
+          "amount": 5
+        },
+        "daily_crate_3.0": {
+          "inGameName": "Daily crate 3.0",
+          "amount": 11
+        },
+        "daily_crate_3.1": {
+          "inGameName": "Daily crate 3.1",
+          "amount": 26
+        },
+        "daily_crate_4.0": {
+          "inGameName": "Daily crate 4.0",
+          "amount": 58
+        },
+        "daily_crate_4.1": {
+          "inGameName": "Daily crate 4.1",
+          "amount": 130
+        },
+        "aurum_passive_cap_1.0": {
+          "inGameName": "Aurum passive cap 1.0",
+          "amount": 1
+        },
+        "aurum_passive_cap_1.1": {
+          "inGameName": "Aurum passive cap 1.1",
+          "amount": 2
+        },
+        "aurum_passive_cap_1.2": {
+          "inGameName": "Aurum passive cap 1.2",
+          "amount": 2
+        },
+        "aurum_passive_cap_1.3": {
+          "inGameName": "Aurum passive cap 1.3",
+          "amount": 3
+        },
+        "aurum_passive_cap_2.0": {
+          "inGameName": "Aurum passive cap 2.0",
+          "amount": 3
+        },
+        "aurum_passive_cap_2.1": {
+          "inGameName": "Aurum passive cap 2.1",
+          "amount": 5
+        },
+        "aurum_passive_cap_2.2": {
+          "inGameName": "Aurum passive cap 2.2",
+          "amount": 8
+        },
+        "aurum_passive_cap_2.3": {
+          "inGameName": "Aurum passive cap 2.3",
+          "amount": 11
+        },
+        "aurum_passive_cap_2.4": {
+          "inGameName": "Aurum passive cap 2.4",
+          "amount": 17
+        },
+        "aurum_passive_cap_3.0": {
+          "inGameName": "Aurum passive cap 3.0",
+          "amount": 17
+        },
+        "aurum_passive_cap_3.1": {
+          "inGameName": "Aurum passive cap 3.1",
+          "amount": 21
+        },
+        "aurum_passive_cap_3.2": {
+          "inGameName": "Aurum passive cap 3.2",
+          "amount": 26
+        },
+        "aurum_passive_cap_3.3": {
+          "inGameName": "Aurum passive cap 3.3",
+          "amount": 31
+        },
+        "aurum_passive_cap_3.4": {
+          "inGameName": "Aurum passive cap 3.4",
+          "amount": 38
+        },
+        "aurum_passive_cap_4.0": {
+          "inGameName": "Aurum passive cap 4.0",
+          "amount": 58
+        },
+        "aurum_passive_cap_4.1": {
+          "inGameName": "Aurum passive cap 4.1",
+          "amount": 86
+        },
+        "aurum_passive_cap_4.2": {
+          "inGameName": "Aurum passive cap 4.2",
+          "amount": 130
+        },
+        "aurum_passive_cap_4.3": {
+          "inGameName": "Aurum passive cap 4.3",
+          "amount": 195
+        },
+        "aurum_passive_cap_4.4": {
+          "inGameName": "Aurum passive cap 4.4",
+          "amount": 292
+        }
       },
       "forge": {}
     }
@@ -2961,20 +5781,38 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "WP_A_Sniper_Gauss_01": 75
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 75
+        }
       },
       "missions": {
-        "Main-KOR-TestRun-1": 15
+        "Main-KOR-TestRun-1": {
+          "inGameName": "The Test Run",
+          "amount": 15
+        }
       },
       "jobs": {
-        "NEW-Hard-KOR-LaserDrill-1": 10
+        "NEW-Hard-KOR-LaserDrill-1": {
+          "inGameName": "Exclusive Drilling Rights",
+          "amount": 10
+        }
       },
       "quarters": {
-        "playerquarter_9": 50,
-        "aurum_passive_cap_4.1": 135
+        "playerquarter_9": {
+          "inGameName": "Player Quarters Level 9",
+          "amount": 50
+        },
+        "aurum_passive_cap_4.1": {
+          "inGameName": "Aurum passive cap 4.1",
+          "amount": 135
+        }
       },
       "forge": {
-        "Recipe02": 3
+        "Recipe02": {
+          "inGameName": "Recipe02",
+          "amount": 3
+        }
       }
     }
   },
@@ -2993,18 +5831,36 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "WP_A_Launch_MSL_01": 30
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 30
+        }
       },
       "missions": {
-        "Main-ICA-TestRun-2": 15,
-        "Main-ICA-Caverns-13.1": 18
+        "Main-ICA-TestRun-2": {
+          "inGameName": "Put to the Test Part 2",
+          "amount": 15
+        },
+        "Main-ICA-Caverns-13.1": {
+          "inGameName": "undefined Part 15",
+          "amount": 18
+        }
       },
       "jobs": {
-        "NEW-Hard-ICA-Oil-1": 10
+        "NEW-Hard-ICA-Oil-1": {
+          "inGameName": "Striking Big",
+          "amount": 10
+        }
       },
       "quarters": {
-        "playerquarter_10": 50,
-        "aurum_passive_cap_4.2": 53
+        "playerquarter_10": {
+          "inGameName": "Player Quarters Level 10",
+          "amount": 50
+        },
+        "aurum_passive_cap_4.2": {
+          "inGameName": "Aurum passive cap 4.2",
+          "amount": 53
+        }
       },
       "forge": {}
     }
@@ -3027,9 +5883,18 @@
       "missions": {},
       "jobs": {},
       "quarters": {
-        "playerquarter_5": 5,
-        "generate_aurum_3.3": 11,
-        "kmarks_passive_cap_4.0": 12
+        "playerquarter_5": {
+          "inGameName": "Player Quarters Level 5",
+          "amount": 5
+        },
+        "generate_aurum_3.3": {
+          "inGameName": "Generate aurum 3.3",
+          "amount": 11
+        },
+        "kmarks_passive_cap_4.0": {
+          "inGameName": "Kmarks passive cap 4.0",
+          "amount": 12
+        }
       },
       "forge": {}
     }
@@ -3052,11 +5917,20 @@
       "missions": {},
       "jobs": {},
       "quarters": {
-        "generate_aurum_4.1": 11
+        "generate_aurum_4.1": {
+          "inGameName": "Generate aurum 4.1",
+          "amount": 11
+        }
       },
       "forge": {
-        "Perk_AIProtection": 2,
-        "Perk_WalkSpeed": 2
+        "Perk_AIProtection": {
+          "inGameName": "Less damage from hostile fauna attacks",
+          "amount": 2
+        },
+        "Perk_WalkSpeed": {
+          "inGameName": "Increased walk speed",
+          "amount": 2
+        }
       }
     }
   },
@@ -3075,20 +5949,44 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "WP_G_HVY_Beam_01": 10
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 10
+        }
       },
       "missions": {},
       "jobs": {},
       "quarters": {
-        "playerquarter_7": 1,
-        "generate_aurum_4.3": 5,
-        "generate_kmarks_4.0": 4,
-        "aurum_passive_cap_3.4": 4
+        "playerquarter_7": {
+          "inGameName": "Player Quarters Level 7",
+          "amount": 1
+        },
+        "generate_aurum_4.3": {
+          "inGameName": "Generate aurum 4.3",
+          "amount": 5
+        },
+        "generate_kmarks_4.0": {
+          "inGameName": "Generate kmarks 4.0",
+          "amount": 4
+        },
+        "aurum_passive_cap_3.4": {
+          "inGameName": "Aurum passive cap 3.4",
+          "amount": 4
+        }
       },
       "forge": {
-        "Perk_HealthRegen": 2,
-        "Perk_MaxHealth": 2,
-        "Perk_HealingSpeed": 2
+        "Perk_HealthRegen": {
+          "inGameName": "Health restoration per second",
+          "amount": 2
+        },
+        "Perk_MaxHealth": {
+          "inGameName": "Maximum health",
+          "amount": 2
+        },
+        "Perk_HealingSpeed": {
+          "inGameName": "Faster Stim and Medkit use",
+          "amount": 2
+        }
       }
     }
   },
@@ -3171,16 +6069,31 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Caverns-7": 5,
-        "Main-ICA-Caverns-4": 5,
-        "Main-Osiris-Caverns-8": 5
+        "Main-KOR-Caverns-7": {
+          "inGameName": "In a Deep Dark Hole Part 7",
+          "amount": 5
+        },
+        "Main-ICA-Caverns-4": {
+          "inGameName": "Race to the Bottom Part 5",
+          "amount": 5
+        },
+        "Main-Osiris-Caverns-8": {
+          "inGameName": "The Progenitor Device Part 10",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Hard-KOR-Gather-8": 12
+        "NEW-Hard-KOR-Gather-8": {
+          "inGameName": "Wastage Replacement",
+          "amount": 12
+        }
       },
       "quarters": {},
       "forge": {
-        "Recipe01": 9
+        "Recipe01": {
+          "inGameName": "Recipe01",
+          "amount": 9
+        }
       }
     }
   },
@@ -3200,13 +6113,22 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Caverns-9": 5,
-        "Main-Osiris-Caverns-8": 1
+        "Main-KOR-Caverns-9": {
+          "inGameName": "In a Deep Dark Hole Part 9",
+          "amount": 5
+        },
+        "Main-Osiris-Caverns-8": {
+          "inGameName": "The Progenitor Device Part 10",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
       "forge": {
-        "Recipe02": 9
+        "Recipe02": {
+          "inGameName": "Recipe02",
+          "amount": 9
+        }
       }
     }
   },
@@ -3226,12 +6148,21 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Caverns-12": 1
+        "Main-Osiris-Caverns-12": {
+          "inGameName": "undefined Part 14",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {
-        "increase_stash_5.2": 5,
-        "aurum_passive_cap_4.2": 5
+        "increase_stash_5.2": {
+          "inGameName": "Increase stash 5.2",
+          "amount": 5
+        },
+        "aurum_passive_cap_4.2": {
+          "inGameName": "Aurum passive cap 4.2",
+          "amount": 5
+        }
       },
       "forge": {}
     }
@@ -3251,18 +6182,36 @@
     "stackSize": 6,
     "uses": {
       "printing": {
-        "ShockGrenade_05": 4
+        "ShockGrenade_05": {
+          "inGameName": "ShockGrenade_05",
+          "amount": 4
+        }
       },
       "missions": {
-        "Main-ICA-Caverns-13": 5,
-        "Main-Osiris-Caverns-14": 1
+        "Main-ICA-Caverns-13": {
+          "inGameName": "undefined Part 14",
+          "amount": 5
+        },
+        "Main-Osiris-Caverns-14": {
+          "inGameName": "undefined Part 17",
+          "amount": 1
+        }
       },
       "jobs": {
-        "NEW-Hard-Osiris-Gather-9": 3
+        "NEW-Hard-Osiris-Gather-9": {
+          "inGameName": "In Charge",
+          "amount": 3
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_4.2": 2,
-        "kmarks_passive_cap_4.3": 2
+        "reduce_pq_upgrading_time_4.2": {
+          "inGameName": "Reduce pq upgrading time 4.2",
+          "amount": 2
+        },
+        "kmarks_passive_cap_4.3": {
+          "inGameName": "Kmarks passive cap 4.3",
+          "amount": 2
+        }
       },
       "forge": {}
     }
@@ -3304,19 +6253,43 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Caverns-7": 5,
-        "Main-KOR-Caverns-9": 5,
-        "Main-ICA-Caverns-4": 5,
-        "Main-Osiris-Caverns-6": 5
+        "Main-KOR-Caverns-7": {
+          "inGameName": "In a Deep Dark Hole Part 7",
+          "amount": 5
+        },
+        "Main-KOR-Caverns-9": {
+          "inGameName": "In a Deep Dark Hole Part 9",
+          "amount": 5
+        },
+        "Main-ICA-Caverns-4": {
+          "inGameName": "Race to the Bottom Part 5",
+          "amount": 5
+        },
+        "Main-Osiris-Caverns-6": {
+          "inGameName": "The Progenitor Device Part 8",
+          "amount": 5
+        }
       },
       "jobs": {},
       "quarters": {
-        "reduce_pq_upgrading_time_4.0": 18,
-        "generate_aurum_3.4": 18
+        "reduce_pq_upgrading_time_4.0": {
+          "inGameName": "Reduce pq upgrading time 4.0",
+          "amount": 18
+        },
+        "generate_aurum_3.4": {
+          "inGameName": "Generate aurum 3.4",
+          "amount": 18
+        }
       },
       "forge": {
-        "Recipe01": 3,
-        "Recipe02": 3
+        "Recipe01": {
+          "inGameName": "Recipe01",
+          "amount": 3
+        },
+        "Recipe02": {
+          "inGameName": "Recipe02",
+          "amount": 3
+        }
       }
     }
   },
@@ -3338,8 +6311,14 @@
       "missions": {},
       "jobs": {},
       "quarters": {
-        "increase_bag_5.0": 4,
-        "aurum_passive_cap_4.3": 6
+        "increase_bag_5.0": {
+          "inGameName": "Increase bag 5.0",
+          "amount": 4
+        },
+        "aurum_passive_cap_4.3": {
+          "inGameName": "Aurum passive cap 4.3",
+          "amount": 6
+        }
       },
       "forge": {}
     }
@@ -3362,8 +6341,14 @@
       "missions": {},
       "jobs": {},
       "quarters": {
-        "playerquarter_10": 1,
-        "generate_aurum_4.4": 1
+        "playerquarter_10": {
+          "inGameName": "Player Quarters Level 10",
+          "amount": 1
+        },
+        "generate_aurum_4.4": {
+          "inGameName": "Generate aurum 4.4",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -3383,23 +6368,50 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "Shield_Tactical_05": 2
+        "Shield_Tactical_05": {
+          "inGameName": "Tactical Shield",
+          "amount": 2
+        }
       },
       "missions": {
-        "Main-Osiris-Caverns-1.1": 5
+        "Main-Osiris-Caverns-1.1": {
+          "inGameName": "undefined Part 2",
+          "amount": 5
+        }
       },
       "jobs": {
-        "NEW-Hard-Osiris-Flora-1": 10
+        "NEW-Hard-Osiris-Flora-1": {
+          "inGameName": "Fascinating Flora",
+          "amount": 10
+        }
       },
       "quarters": {
-        "playerquarter_9": 10,
-        "generate_kmarks_4.2": 2,
-        "daily_crate_4.0": 5
+        "playerquarter_9": {
+          "inGameName": "Player Quarters Level 9",
+          "amount": 10
+        },
+        "generate_kmarks_4.2": {
+          "inGameName": "Generate kmarks 4.2",
+          "amount": 2
+        },
+        "daily_crate_4.0": {
+          "inGameName": "Daily crate 4.0",
+          "amount": 5
+        }
       },
       "forge": {
-        "Perk_HealingAmount": 2,
-        "Perk_MaxHealth": 2,
-        "Perk_HealingSpeed": 2
+        "Perk_HealingAmount": {
+          "inGameName": "Bonus to Stim and Medkit healing",
+          "amount": 2
+        },
+        "Perk_MaxHealth": {
+          "inGameName": "Maximum health",
+          "amount": 2
+        },
+        "Perk_HealingSpeed": {
+          "inGameName": "Faster Stim and Medkit use",
+          "amount": 2
+        }
       }
     }
   },
@@ -3418,21 +6430,48 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "ShockGrenade_05": 8
+        "ShockGrenade_05": {
+          "inGameName": "ShockGrenade_05",
+          "amount": 8
+        }
       },
       "missions": {},
       "jobs": {},
       "quarters": {
-        "playerquarter_8": 32,
-        "increase_stash_5.1": 4,
-        "generate_kmarks_4.3": 4,
-        "kmarks_passive_cap_4.2": 3,
-        "aurum_passive_cap_4.1": 5
+        "playerquarter_8": {
+          "inGameName": "Player Quarters Level 8",
+          "amount": 32
+        },
+        "increase_stash_5.1": {
+          "inGameName": "Increase stash 5.1",
+          "amount": 4
+        },
+        "generate_kmarks_4.3": {
+          "inGameName": "Generate kmarks 4.3",
+          "amount": 4
+        },
+        "kmarks_passive_cap_4.2": {
+          "inGameName": "Kmarks passive cap 4.2",
+          "amount": 3
+        },
+        "aurum_passive_cap_4.1": {
+          "inGameName": "Aurum passive cap 4.1",
+          "amount": 5
+        }
       },
       "forge": {
-        "Perk_FallingDamage": 3,
-        "Perk_WeightConsumablesAmmo": 3,
-        "Perk_WeightWeaponGear": 3
+        "Perk_FallingDamage": {
+          "inGameName": "Less damage from falling",
+          "amount": 3
+        },
+        "Perk_WeightConsumablesAmmo": {
+          "inGameName": "Reduced weight of ammo and consumables carried in backpack",
+          "amount": 3
+        },
+        "Perk_WeightWeaponGear": {
+          "inGameName": "Reduced weight of weapons and gear carried in backpack",
+          "amount": 3
+        }
       }
     }
   },
@@ -3528,14 +6567,26 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-GruntWork-4": 1
+        "Main-ICA-GruntWork-4": {
+          "inGameName": "Doing the Work Part 4",
+          "amount": 1
+        }
       },
       "jobs": {
-        "Easy-ICA-Uplink-1": 1,
-        "NEW-Easy-ICA-Uplink-1": 1
+        "Easy-ICA-Uplink-1": {
+          "inGameName": "Big Data I",
+          "amount": 1
+        },
+        "NEW-Easy-ICA-Uplink-1": {
+          "inGameName": "Data Drive",
+          "amount": 1
+        }
       },
       "quarters": {
-        "generate_aurum_1.4": 1
+        "generate_aurum_1.4": {
+          "inGameName": "Generate aurum 1.4",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -3556,17 +6607,38 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Unique-3": 3
+        "Main-ICA-Unique-3": {
+          "inGameName": "The Stranded Prospector",
+          "amount": 3
+        }
       },
       "jobs": {
-        "Medium-ICA-Uplink-1": 1,
-        "NEW-Medium-ICA-Uplink-1": 1,
-        "NEW-Medium-ICA-Uplink-2": 2,
-        "Main-ICA-GruntWork-6": 2
+        "Medium-ICA-Uplink-1": {
+          "inGameName": "Big Data II",
+          "amount": 1
+        },
+        "NEW-Medium-ICA-Uplink-1": {
+          "inGameName": "Data Drive II",
+          "amount": 1
+        },
+        "NEW-Medium-ICA-Uplink-2": {
+          "inGameName": "Data Drive III",
+          "amount": 2
+        },
+        "Main-ICA-GruntWork-6": {
+          "inGameName": "",
+          "amount": 2
+        }
       },
       "quarters": {
-        "generate_aurum_3.1": 1,
-        "generate_kmarks_2.2": 1
+        "generate_aurum_3.1": {
+          "inGameName": "Generate aurum 3.1",
+          "amount": 1
+        },
+        "generate_kmarks_2.2": {
+          "inGameName": "Generate kmarks 2.2",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -3587,18 +6659,42 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-LetiumRumors-5": 1,
-        "Main-Osiris-UplinkHack-1": 2
+        "Main-KOR-LetiumRumors-5": {
+          "inGameName": "Messenger Service",
+          "amount": 1
+        },
+        "Main-Osiris-UplinkHack-1": {
+          "inGameName": "Satellite Master Part 1",
+          "amount": 2
+        }
       },
       "jobs": {
-        "Hard-ICA-Uplink-1": 1,
-        "Hard-KOR-Uplink-1": 1,
-        "Hard-KOR-Uplink-1_Test": 1,
-        "NEW-Hard-ICA-Uplink-1": 1
+        "Hard-ICA-Uplink-1": {
+          "inGameName": "Big Data III",
+          "amount": 1
+        },
+        "Hard-KOR-Uplink-1": {
+          "inGameName": "Proprietary Information",
+          "amount": 1
+        },
+        "Hard-KOR-Uplink-1_Test": {
+          "inGameName": "Proprietary Information",
+          "amount": 1
+        },
+        "NEW-Hard-ICA-Uplink-1": {
+          "inGameName": "Data Drive IV",
+          "amount": 1
+        }
       },
       "quarters": {
-        "reduce_pq_upgrading_time_4.1": 1,
-        "aurum_passive_cap_4.0": 1
+        "reduce_pq_upgrading_time_4.1": {
+          "inGameName": "Reduce pq upgrading time 4.1",
+          "amount": 1
+        },
+        "aurum_passive_cap_4.0": {
+          "inGameName": "Aurum passive cap 4.0",
+          "amount": 1
+        }
       },
       "forge": {}
     }
@@ -3618,16 +6714,34 @@
     "stackSize": 1,
     "uses": {
       "printing": {
-        "QuestItem_OrbitalCanonTargetBeacon": 1
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "QuestItem_OrbitalCanonTargetBeacon",
+          "amount": 1
+        }
       },
       "missions": {
-        "Main-KOR-LetiumResearch-8": 1,
-        "Main-ICA-OilPump-2": 3,
-        "Main-Osiris-UplinkHack-2": 2
+        "Main-KOR-LetiumResearch-8": {
+          "inGameName": "Trek for Data",
+          "amount": 1
+        },
+        "Main-ICA-OilPump-2": {
+          "inGameName": "Back to Basics Part 2",
+          "amount": 3
+        },
+        "Main-Osiris-UplinkHack-2": {
+          "inGameName": "Satellite Master Part 2",
+          "amount": 2
+        }
       },
       "jobs": {
-        "NEW-Hard-ICA-Uplink-2": 1,
-        "NEW-Hard-ICA-Uplink-3": 3
+        "NEW-Hard-ICA-Uplink-2": {
+          "inGameName": "Data Drive V",
+          "amount": 1
+        },
+        "NEW-Hard-ICA-Uplink-3": {
+          "inGameName": "Data Drive VI",
+          "amount": 3
+        }
       },
       "quarters": {},
       "forge": {}
@@ -3729,7 +6843,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Unique-1": 1
+        "Main-KOR-Unique-1": {
+          "inGameName": "Miners' Strike",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3752,7 +6869,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Unique-1": 1
+        "Main-KOR-Unique-1": {
+          "inGameName": "Miners' Strike",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3775,7 +6895,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Unique-1": 1
+        "Main-KOR-Unique-1": {
+          "inGameName": "Miners' Strike",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3798,7 +6921,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Unique-2": 1
+        "Main-KOR-Unique-2": {
+          "inGameName": "The Missing Engineer",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3821,7 +6947,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Unique-3": 5
+        "Main-KOR-Unique-3": {
+          "inGameName": "Lab Heist",
+          "amount": 5
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3844,7 +6973,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Unique-4": 1
+        "Main-KOR-Unique-4": {
+          "inGameName": "Salvage Ops",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3867,7 +6999,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Unique-2": 1
+        "Main-ICA-Unique-2": {
+          "inGameName": "Old Friend",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3890,7 +7025,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Unique-4": 1
+        "Main-ICA-Unique-4": {
+          "inGameName": "Plan B Part 1",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3913,7 +7051,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Unique-5": 1
+        "Main-ICA-Unique-5": {
+          "inGameName": "Plan B Part 2",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3936,7 +7077,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Unique-6": 5
+        "Main-ICA-Unique-6": {
+          "inGameName": "Abandoned Oil Field",
+          "amount": 5
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3959,7 +7103,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Unique-1": 3
+        "Main-Osiris-Unique-1": {
+          "inGameName": "Old Bones",
+          "amount": 3
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -3982,7 +7129,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Unique-2": 1
+        "Main-Osiris-Unique-2": {
+          "inGameName": "Extinct Creatures",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4005,7 +7155,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Unique-3": 1
+        "Main-Osiris-Unique-3": {
+          "inGameName": "Crashed Osiris Freighter",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4028,7 +7181,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Unique-4": 1
+        "Main-Osiris-Unique-4": {
+          "inGameName": "Lost Scientist",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4051,7 +7207,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Caverns-2": 1
+        "Main-KOR-Caverns-2": {
+          "inGameName": "In a Deep Dark Hole Part 2",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4074,7 +7233,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Caverns-5": 8
+        "Main-KOR-Caverns-5": {
+          "inGameName": "In a Deep Dark Hole Part 5",
+          "amount": 8
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4097,7 +7259,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Caverns-8": 1
+        "Main-KOR-Caverns-8": {
+          "inGameName": "In a Deep Dark Hole Part 8",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4120,7 +7285,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-KOR-Caverns-11": 1
+        "Main-KOR-Caverns-11": {
+          "inGameName": "undefined Part 11",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4164,7 +7332,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Caverns-2": 1
+        "Main-Osiris-Caverns-2": {
+          "inGameName": "The Progenitor Device Part 3",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4187,7 +7358,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Caverns-2": 1
+        "Main-Osiris-Caverns-2": {
+          "inGameName": "The Progenitor Device Part 3",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4210,7 +7384,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Caverns-5": 1
+        "Main-Osiris-Caverns-5": {
+          "inGameName": "The Progenitor Device Part 7",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4233,7 +7410,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Caverns-10": 5
+        "Main-Osiris-Caverns-10": {
+          "inGameName": "undefined Part 12",
+          "amount": 5
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4256,7 +7436,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Caverns-13": 1
+        "Main-Osiris-Caverns-13": {
+          "inGameName": "undefined Part 15",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4279,7 +7462,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Caverns-2": 1
+        "Main-ICA-Caverns-2": {
+          "inGameName": "Race to the Bottom Part 2",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4323,7 +7509,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Caverns-5": 1
+        "Main-ICA-Caverns-5": {
+          "inGameName": "Race to the Bottom Part 6",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4346,7 +7535,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Caverns-7": 1
+        "Main-ICA-Caverns-7": {
+          "inGameName": "Race to the Bottom Part 8",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4369,7 +7561,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Caverns-9": 1
+        "Main-ICA-Caverns-9": {
+          "inGameName": "Race to the Bottom Part 10",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4392,7 +7587,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Caverns-12": 1
+        "Main-ICA-Caverns-12": {
+          "inGameName": "undefined Part 13",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -4415,7 +7613,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-ICA-Caverns-14": 1
+        "Main-ICA-Caverns-14": {
+          "inGameName": "undefined Part 16",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
@@ -6101,7 +9302,10 @@
     "uses": {
       "printing": {},
       "missions": {
-        "Main-Osiris-Caverns-14": 1
+        "Main-Osiris-Caverns-14": {
+          "inGameName": "undefined Part 17",
+          "amount": 1
+        }
       },
       "jobs": {},
       "quarters": {},
