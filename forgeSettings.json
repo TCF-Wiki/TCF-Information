@@ -1,7 +1,7 @@
 {
-  "CatalystAmount": 3,
-  "MaxInputItems": 5,
-  "RarityAmount": {
+  "catalystAmount": 3,
+  "maxInputItems": 5,
+  "rarityAmount": {
     "Common": 3,
     "Uncommon": 3,
     "Rare": 2,
@@ -9,24 +9,24 @@
     "Exotic": 1,
     "Legendary": 1
   },
-  "Timer_Default": 30,
-  "Timer_Ingots": 30,
-  "Timer_BaseItemCatalyst": {
+  "timer_Default": 30,
+  "timer_Ingots": 30,
+  "timer_BaseItemCatalyst": {
     "Epic": 45,
     "Exotic": 60,
     "Legendary": 90
   },
-  "Timer_Lottery": {
+  "timer_Lottery": {
     "Epic": 45,
     "Exotic": 60,
     "Legendary": 90
   },
-  "Probability_Lottery": {
+  "probability_Lottery": {
     "Epic": 0,
     "Legendary": 5,
     "Exotic": 95
   },
-  "SideProducts": {
+  "sideProducts": {
     "AF_Slag": 10,
     "AF_Token": 15
   }
