@@ -1,12 +1,12 @@
 {
-  "levels": [
-    {
+  "levels": {
+    "playerquarter_1": {
       "level": 1,
       "upgradesRequired": 0,
       "costs": {},
       "upgradeTime": 0
     },
-    {
+    "playerquarter_2": {
       "level": 2,
       "upgradesRequired": 11,
       "costs": {
@@ -17,7 +17,7 @@
       },
       "upgradeTime": 2880
     },
-    {
+    "playerquarter_3": {
       "level": 3,
       "upgradesRequired": 13,
       "costs": {
@@ -28,7 +28,7 @@
       },
       "upgradeTime": 11520
     },
-    {
+    "playerquarter_4": {
       "level": 4,
       "upgradesRequired": 18,
       "costs": {
@@ -39,7 +39,7 @@
       },
       "upgradeTime": 25920
     },
-    {
+    "playerquarter_5": {
       "level": 5,
       "upgradesRequired": 24,
       "costs": {
@@ -50,7 +50,7 @@
       },
       "upgradeTime": 46080
     },
-    {
+    "playerquarter_6": {
       "level": 6,
       "upgradesRequired": 32,
       "costs": {
@@ -61,7 +61,7 @@
       },
       "upgradeTime": 72000
     },
-    {
+    "playerquarter_7": {
       "level": 7,
       "upgradesRequired": 34,
       "costs": {
@@ -72,7 +72,7 @@
       },
       "upgradeTime": 107280
     },
-    {
+    "playerquarter_8": {
       "level": 8,
       "upgradesRequired": 44,
       "costs": {
@@ -83,7 +83,7 @@
       },
       "upgradeTime": 145440
     },
-    {
+    "playerquarter_9": {
       "level": 9,
       "upgradesRequired": 50,
       "costs": {
@@ -94,7 +94,7 @@
       },
       "upgradeTime": 189360
     },
-    {
+    "playerquarter_10": {
       "level": 10,
       "upgradesRequired": 60,
       "costs": {
@@ -105,7 +105,7 @@
       },
       "upgradeTime": 239040
     }
-  ],
+  },
   "nodes": {
     "increase_stash_1": {
       "type": "EYTechTreeNodePerkType::IncreaseStashSize",
