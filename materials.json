@@ -1,6 +1,7 @@
 {
   "CommonVeltecite": {
     "inGameName": "Flawed Veltecite",
+    "description": "While relatively low in value, flawed veltecite is still valuable enough to be worth taking a pickaxe to some rocks.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Resource"
@@ -13,6 +14,7 @@
   },
   "UncommonVelticite": {
     "inGameName": "Cloudy Veltecite",
+    "description": "Shards of Cloudy Veltecite are often used for energy storage and generation. Korolev are always looking for any that prospectors can mine.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Resource"
@@ -31,6 +33,7 @@
   },
   "RareVeltecite": {
     "inGameName": "Clear Veltecite",
+    "description": "A rare shard of clear Veltecite. Korolev will pay a decent bit of pocket money for any that prospectors uncover with their pickaxes.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Resource"
@@ -49,6 +52,7 @@
   },
   "EpicVeltecite": {
     "inGameName": "Pure Veltecite",
+    "description": "Very rare shard of pure Veltecite torn out of a mineral vein, highly valued by Korolev and others.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Resource"
@@ -67,6 +71,7 @@
   },
   "VelteciteHeart": {
     "inGameName": "Veltecite Heart",
+    "description": "The heart of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Resource"
@@ -79,6 +84,7 @@
   },
   "FocusCrystal": {
     "inGameName": "Focus Crystal",
+    "description": "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Resource"
@@ -91,6 +97,7 @@
   },
   "PureFocusCrystal": {
     "inGameName": "Pure Focus Crystal",
+    "description": "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Resource"
@@ -109,6 +116,7 @@
   },
   "Nickel": {
     "inGameName": "Nickel",
+    "description": "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this material is still worth mining.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Resource"
@@ -121,6 +129,7 @@
   },
   "PureNickel": {
     "inGameName": "Altered Nickel",
+    "description": "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this ore seems to have been affected by proximity with the rare crystals.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Resource"
@@ -139,6 +148,7 @@
   },
   "PolariumCrystal": {
     "inGameName": "Polirium Crystal",
+    "description": "Rare crystal, is of scientific interest and can be sold for K-Marks.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Resource"
@@ -151,6 +161,7 @@
   },
   "BrittleTitanOre": {
     "inGameName": "Brittle Titan Ore",
+    "description": "Somewhat common on H-C5 planets, Titan Ore was essential during the initial colonization. Still used in a variety of printing and upgrading processes.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Resource"
@@ -163,6 +174,7 @@
   },
   "TitanOre": {
     "inGameName": "Titan Ore",
+    "description": "Somewhat common on H-C5 planets, Titan Ore was essential during the initial colonization. Still used in a variety of printing and upgrading processes.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Resource"
@@ -181,6 +193,7 @@
   },
   "BrightcapMushroom": {
     "inGameName": "Brightcap Mushroom",
+    "description": "Good for selling and desired by Osiris for their rare properties. Also tastes good, if prepared properly.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Flora"
@@ -193,6 +206,7 @@
   },
   "MeteorCore": {
     "inGameName": "Meteor Core",
+    "description": "Rare radioactive crystal, retrieved from debris of Fortuna III's cracked moon. Extremely valuable.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Resource"
@@ -205,6 +219,7 @@
   },
   "MeteorFragment": {
     "inGameName": "Meteor Fragment",
+    "description": "Rare radioactive crystal, retrieved from debris of Fortuna III's cracked moon. Highly valuable.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Resource"
@@ -217,6 +232,7 @@
   },
   "BlueRunnerEgg": {
     "inGameName": "Blue Runner Egg",
+    "description": "Blue Runner eggs have a notoriously thick shell, allowing them to only care for the eggs when close to hatching. Can be sold on the station.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Valuable"
@@ -229,6 +245,7 @@
   },
   "Alloys": {
     "inGameName": "Metallic Alloys",
+    "description": "A collection of metal alloys used as a base material in many items, ready to slot into compatible printers.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Construction",
@@ -242,6 +259,7 @@
   },
   "SpareCasing": {
     "inGameName": "Hardened Metals",
+    "description": "Material used in a variety of printing and upgrading processes.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Generic"
@@ -254,6 +272,7 @@
   },
   "OpticGlass": {
     "inGameName": "Optic Glass",
+    "description": "Perfectly polished, lenses like these often find themselves used more in high-powered cutting machinery than in actual optic equipment.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Scientific"
@@ -266,6 +285,7 @@
   },
   "DerelictExplosives": {
     "inGameName": "Derelict Explosives",
+    "description": "Fortuna III's settlers took to using explosives to both mold the environment to their liking and get rid of the local pests. Can still be sold on the station, for fireworks of course.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Construction"
@@ -286,6 +306,7 @@
   },
   "PolymetallicPrefabricate": {
     "inGameName": "Polymetallic Prefabricate",
+    "description": "One of those miracle materials, sheets of this stuff is commonly used in the printing of various tools, machinery, and of course, weapons.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Scientific"
@@ -298,6 +319,7 @@
   },
   "CompoundSheets": {
     "inGameName": "Compound Sheets",
+    "description": "Standardized metal and plastic sheets like these are used to print everything from tractors to weapons, so long as you follow the right printing instructions.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Generic"
@@ -310,6 +332,7 @@
   },
   "HydraulicPiston": {
     "inGameName": "Hydraulic Piston",
+    "description": "Useful for printing weapons and beacons. The tech may be hundreds of years old, but if it works, it works.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Mechanical"
@@ -322,6 +345,7 @@
   },
   "Gyroscope": {
     "inGameName": "Gyroscope",
+    "description": "Helps keep things pointing where they're supposed to be pointing even in the roughest conditions, making it quite useful for printing some weapon components.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Scientific"
@@ -334,6 +358,7 @@
   },
   "BallBearings": {
     "inGameName": "Ball Bearings",
+    "description": "A simple mechanical component used to print a multitude of machines with moving parts, such as firearms.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Mechanical",
@@ -347,6 +372,7 @@
   },
   "PrintResin": {
     "inGameName": "Print Resin",
+    "description": "Can be loaded into most printers to print the base components of almost anything, from rubber ducks to weapon parts.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Generic"
@@ -366,6 +392,7 @@
   },
   "MultiTool": {
     "inGameName": "Salvaged Co-TEC MultiTool",
+    "description": "These used to be able print, repair, and manipulate simple machinery and electronics. Might still be useful if repaired or used for parts.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Mechanical"
@@ -378,6 +405,7 @@
   },
   "ShardSlicer": {
     "inGameName": "Shard Slicer",
+    "description": "A delicate yet powerful machine used for printing certain items.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Housing",
@@ -391,6 +419,7 @@
   },
   "CombatCPU_Blue": {
     "inGameName": "Zero Systems CPU",
+    "description": "Made for crunching through large datasets, used in several devices that require large amounts of simple calculations.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Electronic",
@@ -404,6 +433,7 @@
   },
   "CombatCPU_red": {
     "inGameName": "Master Unit CPU",
+    "description": "An advanced CPU, ideal for the running of adaptive AI systems or the manipulation of complex energy fields.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Valuable"
@@ -424,6 +454,7 @@
   },
   "MiniatureReactor": {
     "inGameName": "Miniature Reactor",
+    "description": "Useful for printing equipment with high power requirements.\r\nDO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Valuable"
@@ -436,6 +467,7 @@
   },
   "ShockAbsorber": {
     "inGameName": "Shock Absorber",
+    "description": "A component used for certain weapons with heavy recoil.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Construction"
@@ -448,6 +480,7 @@
   },
   "AutoLoader": {
     "inGameName": "Autoloader",
+    "description": "Used for printing a variety of equipment requiring regular charges, such as weapons.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Mechanical"
@@ -468,6 +501,7 @@
   },
   "MagneticFieldStabilizer": {
     "inGameName": "Magnetic Field Stabilizer",
+    "description": "A component necessary for certain weapons with high power usage.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Construction"
@@ -480,6 +514,7 @@
   },
   "Datapad": {
     "inGameName": "Interactive Screen",
+    "description": "Interactive Screens were common among civilians on Fortuna III, used for all sorts of purposes. Cached data and basic components give them some selling value.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Electronic"
@@ -492,6 +527,7 @@
   },
   "OldCurrency": {
     "inGameName": "Old Currency",
+    "description": "Currency used on Fortuna III before the evacuations. Still in use by some on Prospect Station.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Valuable"
@@ -504,6 +540,7 @@
   },
   "RadioactiveBrightcapMushroom": {
     "inGameName": "Glowy Brightcap Mushroom",
+    "description": "A rare glowy mushroom that can only be harvested during the storm on Fortuna. Highly coveted by Osiris.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Flora"
@@ -516,6 +553,7 @@
   },
   "BlueWood": {
     "inGameName": "Azure Tree Bark",
+    "description": "Azure Trees are found sprinkled around the less shaded areas of Fortuna III, with their bark coveted for artisanal goods.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Housing",
@@ -529,6 +567,7 @@
   },
   "WaterPlant": {
     "inGameName": "Waterweed Filament",
+    "description": "The pollen filament of a Waterweed, a plant that can only be harvested around water bodies such as lakes or swamps on Fortuna III. The blossoms themselves are worthless, but these Filaments fetch a decent price on Prospect Station.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Flora"
@@ -541,6 +580,7 @@
   },
   "DesertPlant": {
     "inGameName": "Dustbloom",
+    "description": "This lonely weed grows in open, arid areas on Fortuna III and develops valuable vibrant blossoms when exposed to direct sunlight.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Flora"
@@ -553,6 +593,7 @@
   },
   "IvyPlant": {
     "inGameName": "Pale Ivy Blossom",
+    "description": "The blossom of Pale Ivy, a strange plant that likes to climb up walls to keep its gorgeous, divinely smelling petals out of the reach of critters and insects.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Flora"
@@ -565,6 +606,7 @@
   },
   "AlienFruit": {
     "inGameName": "Indigenous Fruit",
+    "description": "Tastes delicious, and can be processed to gain some useful chemicals.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Flora"
@@ -577,6 +619,7 @@
   },
   "Fabrics": {
     "inGameName": "Textiles",
+    "description": "Heavy and durable fabrics, useful for printing various items.\r\n\r\nYou can never get the smell of mildew out of these.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Housing"
@@ -589,6 +632,7 @@
   },
   "Cables": {
     "inGameName": "Electronic Cables",
+    "description": "A bundle of cables, still in good condition.\r\n\r\nUnfortunately not platinum plated, unsuitable for true audio transmission.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Electronic",
@@ -602,6 +646,7 @@
   },
   "Insulation": {
     "inGameName": "Salvaged Insulation",
+    "description": "Even outside of its intended purpose, the materials still have various uses in item printing.\r\n\r\nYes, it's asbestos.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Generic"
@@ -614,6 +659,7 @@
   },
   "CopperWire": {
     "inGameName": "Copper Wire",
+    "description": "Still the best bang for the buck for electric cables, makes for a good and cheap electric conductor.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Construction"
@@ -626,6 +672,7 @@
   },
   "SmartMesh": {
     "inGameName": "Smart Mesh",
+    "description": "Adaptable material, used for printing various items.\r\n\r\nAlso a fun art tool!",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Mechanical",
@@ -639,6 +686,7 @@
   },
   "CircuitBoard": {
     "inGameName": "Circuit Board",
+    "description": "An old circuit board, its components can be salvaged and repurposed to build new items.\r\n\r\nAnd now you can put e-waste management on your resume.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Electronic"
@@ -651,6 +699,7 @@
   },
   "RadioSpareParts": {
     "inGameName": "Radio Equipment",
+    "description": "An old colonial radio transceiver; salvaging these for item printing is cheaper than buying new parts.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Electronic"
@@ -663,6 +712,7 @@
   },
   "Antibiotics": {
     "inGameName": "Old Medicine",
+    "description": "Medicine left behind on the planet, can be processed to make new supplies.\r\n\r\nFortuna's colonists definitely had a lot of pills...",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Medical"
@@ -675,6 +725,7 @@
   },
   "PortableLabEquipmentBox": {
     "inGameName": "Portable Lab",
+    "description": "A full lab in a box, also contains all sorts of specialized equipment and materials that can be repurposed.\r\n\r\nLoaded with delicate tools, sensitive software, and no manual.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Scientific",
@@ -697,6 +748,7 @@
   },
   "Battery": {
     "inGameName": "Fusion Cartridge Batteries",
+    "description": "A pack of high-powered, slightly radioactive batteries. Safe to use in most electronic devices.\r\n\r\nNot actually fusion powered, but still worryingly radioactive.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Housing"
@@ -709,6 +761,7 @@
   },
   "LiquidFertilizer": {
     "inGameName": "Magic-GROW Fertilizer",
+    "description": "A powerful and sweet smelling chemical, can be processed to help manufacture other items.\r\n\r\nDon't ingest within 6 hours of consuming any fruits or nuts. Or ideally ever.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Farming"
@@ -721,6 +774,7 @@
   },
   "SamplingDevice": {
     "inGameName": "Biological Sampler",
+    "description": "A portable device used for collecting biological samples in the field. Can be used to assist with printing delicate items.\r\n\r\nThis model incorporates a pressure-activated injector as well. Mildly concerning.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Medical"
@@ -733,6 +787,7 @@
   },
   "AnaestheticsContainers": {
     "inGameName": "Medical Supplies",
+    "description": "A small crate of miscellaneous medical supplies, has all sorts of chemicals useful for printing new items.\r\n\r\nThere are A LOT of warning labels here.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Medical"
@@ -745,6 +800,7 @@
   },
   "ProteinBar": {
     "inGameName": "Nutritional Bar",
+    "description": "Nutrion's flagship product, a full day's meal in a single candy bar.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Farming"
@@ -757,6 +813,7 @@
   },
   "Jewellery": {
     "inGameName": "Jewellery",
+    "description": "A simple and easy way to carry one's riches and memories.\r\n\r\nAlso very easy to lose during an emergency evacuation.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Valuable"
@@ -769,6 +826,7 @@
   },
   "SampleContainer": {
     "inGameName": "Sample Container",
+    "description": "A sealed self-powered container for exotic alien samples.\r\n\r\nScientists are always putting little things in jars and hoping for the best.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Housing",
@@ -782,6 +840,7 @@
   },
   "AluminumParts": {
     "inGameName": "Aluminum Scrap",
+    "description": "Mostly aluminum and steel; not the most valuable salvage, but useful for printing.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Generic"
@@ -794,6 +853,7 @@
   },
   "GenericCreatureDrop": {
     "inGameName": "Spinal Base",
+    "description": "Wanted for several rare materials easily harvested from the spine, as well as for research by those looking into the origins of Fortuna III's hostile creatures.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Creature"
@@ -806,6 +866,7 @@
   },
   "StormyCreatureDrop": {
     "inGameName": "Charged Spinal Base",
+    "description": "The base of the spine of a hostile Fortuna III creature affected by the Cycle. Contains some useful materials for various items or research.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Creature"
@@ -818,6 +879,7 @@
   },
   "NeuroToxicGlands": {
     "inGameName": "Toxic Glands",
+    "description": "The foul smelling sack some creatures use to produce compounds capable of breaking down common synthetic materials, nevermind human flesh.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Creature"
@@ -830,6 +892,7 @@
   },
   "AI_StriderHead": {
     "inGameName": "Strider Head",
+    "description": "The torn off head of a dead Strider.\r\n\r\nCareful, it can still bite!",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -842,6 +905,7 @@
   },
   "AI_RattlerHead": {
     "inGameName": "Rattler Head",
+    "description": "The torn off head of a dead Rattler.\r\n\r\nCorrosive drool everywhere, handle with gloves.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -854,6 +918,7 @@
   },
   "AI_WeremoleHead": {
     "inGameName": "Marauder Head",
+    "description": "The torn off head of a dead Marauder.\r\n\r\nThe eyes still follow you around. Creepy.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -866,6 +931,7 @@
   },
   "AI_CrusherHead": {
     "inGameName": "Crusher Head",
+    "description": "The torn off head of a dead Crusher.\r\n\r\nIt's even uglier up close... Still, a fine trophy!",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -878,6 +944,7 @@
   },
   "AlphaCrusherSkull": {
     "inGameName": "Alpha Crusher Skull",
+    "description": "It doesn't seem to have any real practical purpose, but this trophy is one of the most desired items Fortuna III produces.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature",
@@ -891,6 +958,7 @@
   },
   "AI_StriderMeat": {
     "inGameName": "Strider Flesh",
+    "description": "A chunk of Strider flesh. Presumably of a dead one.\r\n\r\nYou know, if you cook it properly it's actually pretty good.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Creature"
@@ -903,6 +971,7 @@
   },
   "AI_RattlerEyes": {
     "inGameName": "Rattler Eyes",
+    "description": "The eyes of a dead Rattler.\r\n\r\nWell, hopefully it was dead, anyway...",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Creature"
@@ -915,6 +984,7 @@
   },
   "AI_WeremoleMeat": {
     "inGameName": "Marauder Flesh",
+    "description": "A chunk of Marauder flesh.\r\n\r\nIt moves if you poke it.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -927,6 +997,7 @@
   },
   "AI_CrusherMeat": {
     "inGameName": "Crusher Flesh",
+    "description": "A chunk of Crusher flesh.\r\n\r\nEven its meat is hard as bone.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Creature"
@@ -939,6 +1010,7 @@
   },
   "AI_RattlerSkin": {
     "inGameName": "Rattler Skin",
+    "description": "Taken off a skinned Rattler.\r\n\r\nFashionable! Just don't think about where it came from.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Creature"
@@ -951,6 +1023,7 @@
   },
   "HardenedBoneAlloy": {
     "inGameName": "Hardened Bone Plates",
+    "description": "Dropped from some of Fortuna III's toughest creatures, can be used for printing certain items after refining.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Creature"
@@ -963,6 +1036,7 @@
   },
   "AI_CrusherSkin": {
     "inGameName": "Crusher Hide",
+    "description": "Taken off a skinned Crusher.\r\n\r\n(read: hacked repeatedly until something fell off)",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -975,6 +1049,7 @@
   },
   "AlphaWardenHeart": {
     "inGameName": "Alpha Crusher Heart",
+    "description": "The heart of an Alpha Crusher, or at least chunks of it, can be used for several almost miraculous medical treatments. It's also a local delicacy, for those with more money than sense.",
     "rarity": "Exotic",
     "tags": [
       "Loot.Category.Creature"
@@ -987,6 +1062,7 @@
   },
   "Adhesive": {
     "inGameName": "Resin Gun",
+    "description": "Multi purpose tool, handy for sticking things together or providing flexible insulation.\r\n\r\nThe warning label says to not use if you need a warning label.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Housing",
@@ -1000,6 +1076,7 @@
   },
   "KorolevScrip": {
     "inGameName": "Korolev Scrip",
+    "description": "Rewarded by Korolev, required for upgrades to your Quarters' Stash and Safe Pockets.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Valuable"
@@ -1012,6 +1089,7 @@
   },
   "OsirisScrip": {
     "inGameName": "Osiris Scrip",
+    "description": "Rewarded by Osiris, required for upgrades to your Quarters' K-Mark and Aurum generators.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Valuable"
@@ -1024,6 +1102,7 @@
   },
   "ICAScrip": {
     "inGameName": "ICA Scrip",
+    "description": "Rewarded by the ICA, required for upgrades to your Quarters' Supply Crate Generator and Gear Printer.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Valuable"
@@ -1036,6 +1115,7 @@
   },
   "Letium": {
     "inGameName": "Letium Clot",
+    "description": "Solidified mass of Letium, rare and valuable.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Resource"
@@ -1048,6 +1128,7 @@
   },
   "OilTank": {
     "inGameName": "NiC Oil Cannister",
+    "description": "A pressured cannister filled with concentrated Nanite-infused Crude. It reacts to the storm radiation in strange ways.\r\n\r\nAlmost looks like it's alive, moving and swirling on its own.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Resource"
@@ -1060,6 +1141,7 @@
   },
   "AI_StriderMeat_03": {
     "inGameName": "Heavy Strider Flesh",
+    "description": "A chunk of flesh from a Heavy Strider.\r\n\r\nTougher than normal Strider meat, it barely bleeds.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -1072,6 +1154,7 @@
   },
   "AI_RattlerEyes_02": {
     "inGameName": "Mature Rattler Eyes",
+    "description": "The eyes of a dead Mature Rattler.\r\n\r\nAge only improved the thing's sight...",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -1084,6 +1167,7 @@
   },
   "AI_WeremoleMeat_02": {
     "inGameName": "Savage Marauder Flesh",
+    "description": "A chunk of Savage Marauder flesh.\r\n\r\nBurns if you touch it without gloves.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Creature"
@@ -1096,6 +1180,7 @@
   },
   "AI_StriderHead_03": {
     "inGameName": "Heavy Strider Head",
+    "description": "The torn off head of a dead Heavy Strider.\r\n\r\nFar too ugly to mount on a wall.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1108,6 +1193,7 @@
   },
   "AI_RattlerHead_02": {
     "inGameName": "Mature Rattler Head",
+    "description": "The torn off head of a dead Mature Rattler.\r\n\r\nThese things do NOT age gracefully...",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1120,6 +1206,7 @@
   },
   "AI_WeremoleHead_02": {
     "inGameName": "Savage Marauder Head",
+    "description": "The torn off head of a dead Savage Marauder.\r\n\r\nIt's still blinking. Menacingly.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1132,6 +1219,7 @@
   },
   "ForgeIron": {
     "inGameName": "Tharis Iron",
+    "description": "A solid clump of inert ancient nanites fused with iron, along with various other elements trapped within when the mass solidified.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Resource"
@@ -1144,6 +1232,7 @@
   },
   "PureForgeIron": {
     "inGameName": "Pure Tharis Iron",
+    "description": "A small mass of inert nanites mixed with elemental iron and few other metals. The composite structure is almost perfect.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Resource"
@@ -1156,6 +1245,7 @@
   },
   "ForgeIronIngot": {
     "inGameName": "Tharis Iron Ingot",
+    "description": "A well shaped ingot made with Tharis Iron. Harder and heavier than anything else you have ever felt. Slightly warm to the touch.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Alien"
@@ -1168,6 +1258,7 @@
   },
   "ChargedForgeIronIngot": {
     "inGameName": "Charged Tharis Iron Ingot",
+    "description": "An ingot made of Pure Tharis Iron somehow charged with storm lightning. Sometimes lets off a shock when touched, and you can hear a buzz if you put it next to your ear.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
     "rarity": "Exotic",
     "tags": [
       "Loot.Category.Alien"
@@ -1180,6 +1271,7 @@
   },
   "SuperChargedForgeIronIngot": {
     "inGameName": "Super Charged Tharis Iron Ingot",
+    "description": "An ingot made of Pure Tharis Iron, heavily charged with storm lightning. Just touching it leaves your fingers numb.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Alien"
@@ -1192,6 +1284,7 @@
   },
   "GlowingCrystalCoreShard": {
     "inGameName": "Teratomorphic Crystal Core",
+    "description": "Extracted from a glowing Teratomorphic Crystal, just holding this in your bag gives you an uneasy feeling.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Resource"
@@ -1204,6 +1297,7 @@
   },
   "AF_Slag": {
     "inGameName": "Progenitor Slag",
+    "description": "Refuse from some unknown process. Not very useful, but still fetches a high price on the station by alien artefact collectors and admirers of rare art.",
     "rarity": "Exotic",
     "tags": [
       "Loot.Category.Alien"
@@ -1216,6 +1310,7 @@
   },
   "AF_Token": {
     "inGameName": "Abyss Alloy",
+    "description": "A sphere of processed and activated Tharis Iron impossibly locked in place. \r\n\r\nGives an aura of infinite potential.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Alien"
@@ -1228,6 +1323,7 @@
   },
   "TentaclePlant": {
     "inGameName": "Spine Briar",
+    "description": "A unique plant so far only found on Tharis Island. Nothing about it feels right...",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Flora"
@@ -1240,6 +1336,7 @@
   },
   "Alien_Scrap": {
     "inGameName": "Progenitor Composite",
+    "description": "A clearly alien material, the Progenitors built their monuments on Fortuna III with this. Could possibly be used to build other things, as well.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Alien"
@@ -1252,6 +1349,7 @@
   },
   "QuestItem_AlphaWardenBait": {
     "inGameName": "Alpha Crusher Bait",
+    "description": "Printed using Mutated Biomass, this bait can be used to summon an Alpha Crusher at one of its Feeding Grounds.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1264,6 +1362,7 @@
   },
   "QuestItem_LaserDrillBeacon": {
     "inGameName": "Laser Drill Beacon",
+    "description": "A powerful locator that can be used to call down a Korolev Laser Drill Platform on Extreme Letium Veins.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Utility"
@@ -1284,6 +1383,7 @@
   },
   "HardDrive_common": {
     "inGameName": "HardDrive_common",
+    "description": "HardDrive_common",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1301,6 +1401,7 @@
   },
   "HardDrive_uncommon": {
     "inGameName": "HardDrive_uncommon",
+    "description": "HardDrive_uncommon",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1313,6 +1414,7 @@
   },
   "HardDrive_rare": {
     "inGameName": "HardDrive_rare",
+    "description": "HardDrive_rare",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1325,6 +1427,7 @@
   },
   "HardDrive_epic": {
     "inGameName": "HardDrive_epic",
+    "description": "HardDrive_epic",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1337,6 +1440,7 @@
   },
   "HardDrive_legendary": {
     "inGameName": "HardDrive_legendary",
+    "description": "HardDrive_legendary",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1349,6 +1453,7 @@
   },
   "Data_DigSite": {
     "inGameName": "Data_DigSite",
+    "description": "Data_DigSite",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1361,6 +1466,7 @@
   },
   "QuestItem_OrbitalCanonTargetBeacon": {
     "inGameName": "QuestItem_OrbitalCanonTargetBeacon",
+    "description": "QuestItem_OrbitalCanonTargetBeacon",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Utility"
@@ -1382,6 +1488,7 @@
   },
   "QuestItem_OilPumpBeacon": {
     "inGameName": "Oil Pump Beacon",
+    "description": "A powerful locator that can be used to call down an ICA NiC pump and refiner on an oil deposit.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Utility"
@@ -1402,6 +1509,7 @@
   },
   "MissionItem_MinerItem1": {
     "inGameName": "Miner Cam #2F53",
+    "description": "Camera belonging to a Jamie Faulkner. The last video file is damaged, but the audio is of a large crowd demanding to be let in before suddenly cutting off.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1414,6 +1522,7 @@
   },
   "MissionItem_MinerItem2": {
     "inGameName": "Miner Cam #D027",
+    "description": "Owner named only as Temporary. Last video shows several workers running out barricaded buildings and towards a clearing with a guarded ship being loaded with ore. Video cuts off after the owner appears to trip and fall.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1426,6 +1535,7 @@
   },
   "MissionItem_MinerItem3": {
     "inGameName": "Miner Cam #A45D",
+    "description": "Camera belonging to a Mayumi S. Nagao. Video shows her being pushed out of a cargo ship by a Korolev Heavy Trooper and falling into the mud. Video cuts off shortly after an eruption of gunfire is heard around her.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1438,6 +1548,7 @@
   },
   "MissionItem_EngineerItem": {
     "inGameName": "Letium Coated Helmet",
+    "description": "An engineer's helmet caked in Letium. The embedded sensors may have recorded something important.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1450,6 +1561,7 @@
   },
   "MissionItem_CreatureSample": {
     "inGameName": "Letium Bio Samples",
+    "description": "A container preserving... something. A label on the side states: WARNING: HIGH LETIUM CONTENT, DO NOT SHAKE",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1462,6 +1574,7 @@
   },
   "MissionItem_LaserDrillPart": {
     "inGameName": "Laser Drill Control Unit",
+    "description": "Part of the system that manages the Drill. Hopefully it can be reconfigured to safely mine for Letium.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1474,6 +1587,7 @@
   },
   "MissionItem_ICAPersonalItem": {
     "inGameName": "Sign of Life from Stranded Prospector",
+    "description": "A photo of Marie and a prospector named Tao. Rare to see paper photographs anymore, it must have meant a lot to the owner.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1486,6 +1600,7 @@
   },
   "MissionItem_PowerPlantItem1": {
     "inGameName": "Notes on Meteor Experiment - 1",
+    "description": "Personal data tablet with theoretical research on powering energy generators with fragments from Fortuna's moon. The power output of a single working Fireball generator would be revolutionary.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1498,6 +1613,7 @@
   },
   "MissionItem_PowerPlantItem2": {
     "inGameName": "Notes on Meteor Experiment - 2",
+    "description": "Data on the first prototype for Project Fireball. Yields under safe conditions were underwhelming, with warnings of an uncontrollable chain reaction if pushed too hard without further research. Might explain why there's a giant hole in the moon...\r\n\r\nFinal notes suggest switching resources to look into NiC.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1510,6 +1626,7 @@
   },
   "MissionItem_OilPumpPart": {
     "inGameName": "Oil Pump Part",
+    "description": "One of the few remaining components from an old oil pump that still looks to be in working condition.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1522,6 +1639,7 @@
   },
   "MissionItem_OldBones": {
     "inGameName": "Old Bones",
+    "description": "Belonging to a long dead creature, damage has exposed metalic elements that seemed to have formed after death.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1534,6 +1652,7 @@
   },
   "MissionItem_AlphaSkull": {
     "inGameName": "Warden Tooth",
+    "description": "The tooth of a now extinct massive beast once common on Fortuna III. Parts of it seem to have unnatural grooves and geometric shapes.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1546,6 +1665,7 @@
   },
   "MissionItem_FlightRecorder": {
     "inGameName": "Flight Recorder",
+    "description": "A cargo ship's flight recorder, only slightly damaged. Highly encrypted and beyond your suit's ability to access.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1558,6 +1678,7 @@
   },
   "MissionItem_Notebook": {
     "inGameName": "Old Notebook",
+    "description": "An Osiris researcher's notebook. It's seen better days. Full of formulas, drawings, and long paragraphs regarding the unnatural evolution and mutations of Fortuna III's fauna caused by Progenitor terraformers.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1570,6 +1691,7 @@
   },
   "MissionItem_KorChiefEngineerDiary": {
     "inGameName": "Chief Engineer's Personal Diary",
+    "description": "An off the record log of some of the events that occurred on Tharis island. While badly damaged, and much of it is in short hand, what's evident is Korolev ran into serious issues in the caverns: several reports of miners going missing, pervasive malaise, multiple accidents...\r\n\r\nThe operation's foreman clearly had little regard for workplace safety.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1582,6 +1704,7 @@
   },
   "MissionItem_ForgeIronSample": {
     "inGameName": "Tharis Iron Sample",
+    "description": "A collected sample of a rare composite material found in the Tharis Caverns",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1594,6 +1717,7 @@
   },
   "MissionItem_PureForgeIronNugget": {
     "inGameName": "Pure Tharis Iron Nugget",
+    "description": "A tagged nugget of a rare composite material found in the Tharis Caverns. Denser and with next to no impurities than most samples.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1606,6 +1730,7 @@
   },
   "MissionItem_MiningPartyMedicalFiles": {
     "inGameName": "Mining Party Medical Files",
+    "description": "A collection of medical reports from the Korolev team working the caverns. Initial incidents involved exhaustion and minor injuries, but later reports focus on mental clouding, hallucinations, loss of time...\r\n\r\nSymptoms appear identical to those of prolonged exposure to the Teratomorphic Energy Field that now envelops most of Fortuna III.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1618,6 +1743,7 @@
   },
   "MissionItem_VadimPredecessorItem": {
     "inGameName": "The Tharis Files",
+    "description": "A folder kept by Gregor Kazan, the Head of Operations for Korolev when the storms hit Fortuna III decades ago. It appears he intentionally kept all reports and findings from the Tharis operations off the system, though the reason for that isn't explained, nor is how the folder ended up on the island.\r\n\r\nWorryingly, official records state less than 50 Korolev employees ever worked in the caverns, while these files list several hundred.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1630,6 +1756,7 @@
   },
   "MissionItem_StolenKorData1": {
     "inGameName": "Korolev Data Drive #473-D",
+    "description": "A chunky old data drive. Might have some valuable info, if it still works.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1642,6 +1769,7 @@
   },
   "MissionItem_StolenKorData2": {
     "inGameName": "Korolev Notes",
+    "description": "A Korolev data drive. Appears to have been used as a blunt instrument. Has definitely seen better days.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1654,6 +1782,7 @@
   },
   "MissionItem_CultistGlowCrystalItem": {
     "inGameName": "Mysterious Glowing Contraption",
+    "description": "A crystaline chunk with various cables and circuit boards haphazardly strapped on to it.\r\n\r\nIt's impossible to tell if the mind that created this had something utilitarian in mind, or if this creation is simply a form of religious art.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1666,6 +1795,7 @@
   },
   "MissionItem_CultistRitualItem": {
     "inGameName": "Cultist Ritual Item",
+    "description": "Some sort of cultist fetish, featuring a clump of Tharis Iron and a sigil or diagram of some kind. Maybe they venerated the alien material? Or it's just a symbol for the caverns themselves?",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1678,6 +1808,7 @@
   },
   "MissionItem_AlienShieldRecipe": {
     "inGameName": "Cultist Scribblings",
+    "description": "An old sheet of paper with various drawings and pictograms laid out as simple formulas, all but one scratched out.\r\n\r\nThe same trident-like drawing found on previous cultist items features prominently here.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1690,6 +1821,7 @@
   },
   "MissionItem_ColonistItem": {
     "inGameName": "Colonist Item",
+    "description": "An old mini-comm and some personal items. Whoever this belonged to likely didn't work on the island.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1702,6 +1834,7 @@
   },
   "MissionItem_StolenOsiHoloMap": {
     "inGameName": "Tharis Caverns Holo-Map",
+    "description": "A map liberated from an abandoned Osiris outpost. Shows the layout of the Tharis caverns, including several areas marked as high-interest.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1714,6 +1847,7 @@
   },
   "MissionItem_KorCivilianItem": {
     "inGameName": "Vintage Camera",
+    "description": "An ancient video recording device, probably fashionable in some retro circles. Amazingly it actually powered on, though only for a few seconds.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1726,6 +1860,7 @@
   },
   "MissionItem_AlienDoorFragment": {
     "inGameName": "Osiris Door Fragment",
+    "description": "A loose bit from the strange door in one of the Osiris installations on Tharis Island.\r\n\r\nThe door itself seems impenetrable, far more robust than what Osiris is known for building.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1738,6 +1873,7 @@
   },
   "MissionItem_AnalysisTool": {
     "inGameName": "Advanced Analysis Toolkit",
+    "description": "An old Osiris portable lab, still in working condition. Surely nobody will mind giving it a new home and purpose...",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1750,6 +1886,7 @@
   },
   "MissionItem_OsiChiefEngineerItem": {
     "inGameName": "Osiris Engineer Scanner",
+    "description": "Recovered off the body of an Osiris engineer in Tharis Caverns, appears to have been mapping out potential research locations when they met with a terrible fate.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1762,6 +1899,7 @@
   },
   "MissionItem_OsiHeadScientistItem": {
     "inGameName": "Osiris Helmet Recorder",
+    "description": "A damaged Osiris researcher helmet, these always carry their own camera and data storage.\r\n\r\nFortunately, whatever it was that did short work of its wearer managed to avoid breaking any of the valuable bits.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"

@@ -1,6 +1,7 @@
 {
   "CommonVeltecite": {
     "inGameName": "Flawed Veltecite",
+    "description": "While relatively low in value, flawed veltecite is still valuable enough to be worth taking a pickaxe to some rocks.",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -14,6 +15,7 @@
   },
   "UncommonVelticite": {
     "inGameName": "Cloudy Veltecite",
+    "description": "Shards of Cloudy Veltecite are often used for energy storage and generation. Korolev are always looking for any that prospectors can mine.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 3,
@@ -33,6 +35,7 @@
   },
   "RareVeltecite": {
     "inGameName": "Clear Veltecite",
+    "description": "A rare shard of clear Veltecite. Korolev will pay a decent bit of pocket money for any that prospectors uncover with their pickaxes.",
     "type": "material",
     "rarity": "Rare",
     "weight": 3,
@@ -52,6 +55,7 @@
   },
   "EpicVeltecite": {
     "inGameName": "Pure Veltecite",
+    "description": "Very rare shard of pure Veltecite torn out of a mineral vein, highly valued by Korolev and others.",
     "type": "material",
     "rarity": "Epic",
     "weight": 3,
@@ -71,6 +75,7 @@
   },
   "VelteciteHeart": {
     "inGameName": "Veltecite Heart",
+    "description": "The heart of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 10,
@@ -84,6 +89,7 @@
   },
   "FocusCrystal": {
     "inGameName": "Focus Crystal",
+    "description": "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures.",
     "type": "material",
     "rarity": "Rare",
     "weight": 4,
@@ -97,6 +103,7 @@
   },
   "PureFocusCrystal": {
     "inGameName": "Pure Focus Crystal",
+    "description": "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures.",
     "type": "material",
     "rarity": "Epic",
     "weight": 4,
@@ -116,6 +123,7 @@
   },
   "Nickel": {
     "inGameName": "Nickel",
+    "description": "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this material is still worth mining.",
     "type": "material",
     "rarity": "Common",
     "weight": 2,
@@ -129,6 +137,7 @@
   },
   "PureNickel": {
     "inGameName": "Altered Nickel",
+    "description": "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this ore seems to have been affected by proximity with the rare crystals.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 2,
@@ -148,6 +157,7 @@
   },
   "PolariumCrystal": {
     "inGameName": "Polirium Crystal",
+    "description": "Rare crystal, is of scientific interest and can be sold for K-Marks.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 8,
@@ -161,6 +171,7 @@
   },
   "BrittleTitanOre": {
     "inGameName": "Brittle Titan Ore",
+    "description": "Somewhat common on H-C5 planets, Titan Ore was essential during the initial colonization. Still used in a variety of printing and upgrading processes.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 3,
@@ -174,6 +185,7 @@
   },
   "TitanOre": {
     "inGameName": "Titan Ore",
+    "description": "Somewhat common on H-C5 planets, Titan Ore was essential during the initial colonization. Still used in a variety of printing and upgrading processes.",
     "type": "material",
     "rarity": "Rare",
     "weight": 3,
@@ -193,6 +205,7 @@
   },
   "BrightcapMushroom": {
     "inGameName": "Brightcap Mushroom",
+    "description": "Good for selling and desired by Osiris for their rare properties. Also tastes good, if prepared properly.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 2,
@@ -206,6 +219,7 @@
   },
   "MeteorCore": {
     "inGameName": "Meteor Core",
+    "description": "Rare radioactive crystal, retrieved from debris of Fortuna III's cracked moon. Extremely valuable.",
     "type": "material",
     "rarity": "Epic",
     "weight": 25,
@@ -219,6 +233,7 @@
   },
   "MeteorFragment": {
     "inGameName": "Meteor Fragment",
+    "description": "Rare radioactive crystal, retrieved from debris of Fortuna III's cracked moon. Highly valuable.",
     "type": "material",
     "rarity": "Rare",
     "weight": 5,
@@ -232,6 +247,7 @@
   },
   "BlueRunnerEgg": {
     "inGameName": "Blue Runner Egg",
+    "description": "Blue Runner eggs have a notoriously thick shell, allowing them to only care for the eggs when close to hatching. Can be sold on the station.",
     "type": "material",
     "rarity": "Rare",
     "weight": 7,
@@ -245,6 +261,7 @@
   },
   "Alloys": {
     "inGameName": "Metallic Alloys",
+    "description": "A collection of metal alloys used as a base material in many items, ready to slot into compatible printers.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -259,6 +276,7 @@
   },
   "SpareCasing": {
     "inGameName": "Hardened Metals",
+    "description": "Material used in a variety of printing and upgrading processes.",
     "type": "material",
     "rarity": "Common",
     "weight": 4,
@@ -272,6 +290,7 @@
   },
   "OpticGlass": {
     "inGameName": "Optic Glass",
+    "description": "Perfectly polished, lenses like these often find themselves used more in high-powered cutting machinery than in actual optic equipment.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 4,
@@ -285,6 +304,7 @@
   },
   "DerelictExplosives": {
     "inGameName": "Derelict Explosives",
+    "description": "Fortuna III's settlers took to using explosives to both mold the environment to their liking and get rid of the local pests. Can still be sold on the station, for fireworks of course.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 5,
@@ -306,6 +326,7 @@
   },
   "PolymetallicPrefabricate": {
     "inGameName": "Polymetallic Prefabricate",
+    "description": "One of those miracle materials, sheets of this stuff is commonly used in the printing of various tools, machinery, and of course, weapons.",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -319,6 +340,7 @@
   },
   "CompoundSheets": {
     "inGameName": "Compound Sheets",
+    "description": "Standardized metal and plastic sheets like these are used to print everything from tractors to weapons, so long as you follow the right printing instructions.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -332,6 +354,7 @@
   },
   "HydraulicPiston": {
     "inGameName": "Hydraulic Piston",
+    "description": "Useful for printing weapons and beacons. The tech may be hundreds of years old, but if it works, it works.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 5,
@@ -345,6 +368,7 @@
   },
   "Gyroscope": {
     "inGameName": "Gyroscope",
+    "description": "Helps keep things pointing where they're supposed to be pointing even in the roughest conditions, making it quite useful for printing some weapon components.",
     "type": "material",
     "rarity": "Epic",
     "weight": 4,
@@ -358,6 +382,7 @@
   },
   "BallBearings": {
     "inGameName": "Ball Bearings",
+    "description": "A simple mechanical component used to print a multitude of machines with moving parts, such as firearms.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 5,
@@ -372,6 +397,7 @@
   },
   "PrintResin": {
     "inGameName": "Print Resin",
+    "description": "Can be loaded into most printers to print the base components of almost anything, from rubber ducks to weapon parts.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 3,
@@ -392,6 +418,7 @@
   },
   "MultiTool": {
     "inGameName": "Salvaged Co-TEC MultiTool",
+    "description": "These used to be able print, repair, and manipulate simple machinery and electronics. Might still be useful if repaired or used for parts.",
     "type": "material",
     "rarity": "Rare",
     "weight": 5,
@@ -405,6 +432,7 @@
   },
   "ShardSlicer": {
     "inGameName": "Shard Slicer",
+    "description": "A delicate yet powerful machine used for printing certain items.",
     "type": "material",
     "rarity": "Rare",
     "weight": 5,
@@ -419,6 +447,7 @@
   },
   "CombatCPU_Blue": {
     "inGameName": "Zero Systems CPU",
+    "description": "Made for crunching through large datasets, used in several devices that require large amounts of simple calculations.",
     "type": "material",
     "rarity": "Rare",
     "weight": 5,
@@ -433,6 +462,7 @@
   },
   "CombatCPU_red": {
     "inGameName": "Master Unit CPU",
+    "description": "An advanced CPU, ideal for the running of adaptive AI systems or the manipulation of complex energy fields.",
     "type": "material",
     "rarity": "Epic",
     "weight": 5,
@@ -454,6 +484,7 @@
   },
   "MiniatureReactor": {
     "inGameName": "Miniature Reactor",
+    "description": "Useful for printing equipment with high power requirements.\r\nDO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B.",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -467,6 +498,7 @@
   },
   "ShockAbsorber": {
     "inGameName": "Shock Absorber",
+    "description": "A component used for certain weapons with heavy recoil.",
     "type": "material",
     "rarity": "Epic",
     "weight": 6,
@@ -480,6 +512,7 @@
   },
   "AutoLoader": {
     "inGameName": "Autoloader",
+    "description": "Used for printing a variety of equipment requiring regular charges, such as weapons.",
     "type": "material",
     "rarity": "Epic",
     "weight": 6,
@@ -501,6 +534,7 @@
   },
   "MagneticFieldStabilizer": {
     "inGameName": "Magnetic Field Stabilizer",
+    "description": "A component necessary for certain weapons with high power usage.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 6,
@@ -514,6 +548,7 @@
   },
   "Datapad": {
     "inGameName": "Interactive Screen",
+    "description": "Interactive Screens were common among civilians on Fortuna III, used for all sorts of purposes. Cached data and basic components give them some selling value.",
     "type": "material",
     "rarity": "Rare",
     "weight": 6,
@@ -527,6 +562,7 @@
   },
   "OldCurrency": {
     "inGameName": "Old Currency",
+    "description": "Currency used on Fortuna III before the evacuations. Still in use by some on Prospect Station.",
     "type": "material",
     "rarity": "Common",
     "weight": 0.001,
@@ -540,6 +576,7 @@
   },
   "RadioactiveBrightcapMushroom": {
     "inGameName": "Glowy Brightcap Mushroom",
+    "description": "A rare glowy mushroom that can only be harvested during the storm on Fortuna. Highly coveted by Osiris.",
     "type": "material",
     "rarity": "Rare",
     "weight": 2,
@@ -553,6 +590,7 @@
   },
   "BlueWood": {
     "inGameName": "Azure Tree Bark",
+    "description": "Azure Trees are found sprinkled around the less shaded areas of Fortuna III, with their bark coveted for artisanal goods.",
     "type": "material",
     "rarity": "Common",
     "weight": 7,
@@ -567,6 +605,7 @@
   },
   "WaterPlant": {
     "inGameName": "Waterweed Filament",
+    "description": "The pollen filament of a Waterweed, a plant that can only be harvested around water bodies such as lakes or swamps on Fortuna III. The blossoms themselves are worthless, but these Filaments fetch a decent price on Prospect Station.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 2,
@@ -580,6 +619,7 @@
   },
   "DesertPlant": {
     "inGameName": "Dustbloom",
+    "description": "This lonely weed grows in open, arid areas on Fortuna III and develops valuable vibrant blossoms when exposed to direct sunlight.",
     "type": "material",
     "rarity": "Epic",
     "weight": 2,
@@ -593,6 +633,7 @@
   },
   "IvyPlant": {
     "inGameName": "Pale Ivy Blossom",
+    "description": "The blossom of Pale Ivy, a strange plant that likes to climb up walls to keep its gorgeous, divinely smelling petals out of the reach of critters and insects.",
     "type": "material",
     "rarity": "Rare",
     "weight": 1,
@@ -606,6 +647,7 @@
   },
   "AlienFruit": {
     "inGameName": "Indigenous Fruit",
+    "description": "Tastes delicious, and can be processed to gain some useful chemicals.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 6,
@@ -619,6 +661,7 @@
   },
   "Fabrics": {
     "inGameName": "Textiles",
+    "description": "Heavy and durable fabrics, useful for printing various items.\r\n\r\nYou can never get the smell of mildew out of these.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -632,6 +675,7 @@
   },
   "Cables": {
     "inGameName": "Electronic Cables",
+    "description": "A bundle of cables, still in good condition.\r\n\r\nUnfortunately not platinum plated, unsuitable for true audio transmission.",
     "type": "material",
     "rarity": "Common",
     "weight": 6,
@@ -646,6 +690,7 @@
   },
   "Insulation": {
     "inGameName": "Salvaged Insulation",
+    "description": "Even outside of its intended purpose, the materials still have various uses in item printing.\r\n\r\nYes, it's asbestos.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -659,6 +704,7 @@
   },
   "CopperWire": {
     "inGameName": "Copper Wire",
+    "description": "Still the best bang for the buck for electric cables, makes for a good and cheap electric conductor.",
     "type": "material",
     "rarity": "Common",
     "weight": 8,
@@ -672,6 +718,7 @@
   },
   "SmartMesh": {
     "inGameName": "Smart Mesh",
+    "description": "Adaptable material, used for printing various items.\r\n\r\nAlso a fun art tool!",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -686,6 +733,7 @@
   },
   "CircuitBoard": {
     "inGameName": "Circuit Board",
+    "description": "An old circuit board, its components can be salvaged and repurposed to build new items.\r\n\r\nAnd now you can put e-waste management on your resume.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 7,
@@ -699,6 +747,7 @@
   },
   "RadioSpareParts": {
     "inGameName": "Radio Equipment",
+    "description": "An old colonial radio transceiver; salvaging these for item printing is cheaper than buying new parts.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 7,
@@ -712,6 +761,7 @@
   },
   "Antibiotics": {
     "inGameName": "Old Medicine",
+    "description": "Medicine left behind on the planet, can be processed to make new supplies.\r\n\r\nFortuna's colonists definitely had a lot of pills...",
     "type": "material",
     "rarity": "Common",
     "weight": 1,
@@ -725,6 +775,7 @@
   },
   "PortableLabEquipmentBox": {
     "inGameName": "Portable Lab",
+    "description": "A full lab in a box, also contains all sorts of specialized equipment and materials that can be repurposed.\r\n\r\nLoaded with delicate tools, sensitive software, and no manual.",
     "type": "material",
     "rarity": "Epic",
     "weight": 15,
@@ -748,6 +799,7 @@
   },
   "Battery": {
     "inGameName": "Fusion Cartridge Batteries",
+    "description": "A pack of high-powered, slightly radioactive batteries. Safe to use in most electronic devices.\r\n\r\nNot actually fusion powered, but still worryingly radioactive.",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -761,6 +813,7 @@
   },
   "LiquidFertilizer": {
     "inGameName": "Magic-GROW Fertilizer",
+    "description": "A powerful and sweet smelling chemical, can be processed to help manufacture other items.\r\n\r\nDon't ingest within 6 hours of consuming any fruits or nuts. Or ideally ever.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 7,
@@ -774,6 +827,7 @@
   },
   "SamplingDevice": {
     "inGameName": "Biological Sampler",
+    "description": "A portable device used for collecting biological samples in the field. Can be used to assist with printing delicate items.\r\n\r\nThis model incorporates a pressure-activated injector as well. Mildly concerning.",
     "type": "material",
     "rarity": "Rare",
     "weight": 8,
@@ -787,6 +841,7 @@
   },
   "AnaestheticsContainers": {
     "inGameName": "Medical Supplies",
+    "description": "A small crate of miscellaneous medical supplies, has all sorts of chemicals useful for printing new items.\r\n\r\nThere are A LOT of warning labels here.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 10,
@@ -800,6 +855,7 @@
   },
   "ProteinBar": {
     "inGameName": "Nutritional Bar",
+    "description": "Nutrion's flagship product, a full day's meal in a single candy bar.",
     "type": "material",
     "rarity": "Common",
     "weight": 1,
@@ -813,6 +869,7 @@
   },
   "Jewellery": {
     "inGameName": "Jewellery",
+    "description": "A simple and easy way to carry one's riches and memories.\r\n\r\nAlso very easy to lose during an emergency evacuation.",
     "type": "material",
     "rarity": "Rare",
     "weight": 2,
@@ -826,6 +883,7 @@
   },
   "SampleContainer": {
     "inGameName": "Sample Container",
+    "description": "A sealed self-powered container for exotic alien samples.\r\n\r\nScientists are always putting little things in jars and hoping for the best.",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -840,6 +898,7 @@
   },
   "AluminumParts": {
     "inGameName": "Aluminum Scrap",
+    "description": "Mostly aluminum and steel; not the most valuable salvage, but useful for printing.",
     "type": "material",
     "rarity": "Common",
     "weight": 10,
@@ -853,6 +912,7 @@
   },
   "GenericCreatureDrop": {
     "inGameName": "Spinal Base",
+    "description": "Wanted for several rare materials easily harvested from the spine, as well as for research by those looking into the origins of Fortuna III's hostile creatures.",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -866,6 +926,7 @@
   },
   "StormyCreatureDrop": {
     "inGameName": "Charged Spinal Base",
+    "description": "The base of the spine of a hostile Fortuna III creature affected by the Cycle. Contains some useful materials for various items or research.",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -879,6 +940,7 @@
   },
   "NeuroToxicGlands": {
     "inGameName": "Toxic Glands",
+    "description": "The foul smelling sack some creatures use to produce compounds capable of breaking down common synthetic materials, nevermind human flesh.",
     "type": "material",
     "rarity": "Common",
     "weight": 2,
@@ -892,6 +954,7 @@
   },
   "AI_StriderHead": {
     "inGameName": "Strider Head",
+    "description": "The torn off head of a dead Strider.\r\n\r\nCareful, it can still bite!",
     "type": "material",
     "rarity": "Legendary",
     "weight": 10,
@@ -905,6 +968,7 @@
   },
   "AI_RattlerHead": {
     "inGameName": "Rattler Head",
+    "description": "The torn off head of a dead Rattler.\r\n\r\nCorrosive drool everywhere, handle with gloves.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 15,
@@ -918,6 +982,7 @@
   },
   "AI_WeremoleHead": {
     "inGameName": "Marauder Head",
+    "description": "The torn off head of a dead Marauder.\r\n\r\nThe eyes still follow you around. Creepy.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 20,
@@ -931,6 +996,7 @@
   },
   "AI_CrusherHead": {
     "inGameName": "Crusher Head",
+    "description": "The torn off head of a dead Crusher.\r\n\r\nIt's even uglier up close... Still, a fine trophy!",
     "type": "material",
     "rarity": "Legendary",
     "weight": 30,
@@ -944,6 +1010,7 @@
   },
   "AlphaCrusherSkull": {
     "inGameName": "Alpha Crusher Skull",
+    "description": "It doesn't seem to have any real practical purpose, but this trophy is one of the most desired items Fortuna III produces.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 30,
@@ -958,6 +1025,7 @@
   },
   "AI_StriderMeat": {
     "inGameName": "Strider Flesh",
+    "description": "A chunk of Strider flesh. Presumably of a dead one.\r\n\r\nYou know, if you cook it properly it's actually pretty good.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 8,
@@ -971,6 +1039,7 @@
   },
   "AI_RattlerEyes": {
     "inGameName": "Rattler Eyes",
+    "description": "The eyes of a dead Rattler.\r\n\r\nWell, hopefully it was dead, anyway...",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 5,
@@ -984,6 +1053,7 @@
   },
   "AI_WeremoleMeat": {
     "inGameName": "Marauder Flesh",
+    "description": "A chunk of Marauder flesh.\r\n\r\nIt moves if you poke it.",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -997,6 +1067,7 @@
   },
   "AI_CrusherMeat": {
     "inGameName": "Crusher Flesh",
+    "description": "A chunk of Crusher flesh.\r\n\r\nEven its meat is hard as bone.",
     "type": "material",
     "rarity": "Epic",
     "weight": 25,
@@ -1010,6 +1081,7 @@
   },
   "AI_RattlerSkin": {
     "inGameName": "Rattler Skin",
+    "description": "Taken off a skinned Rattler.\r\n\r\nFashionable! Just don't think about where it came from.",
     "type": "material",
     "rarity": "Common",
     "weight": 8,
@@ -1023,6 +1095,7 @@
   },
   "HardenedBoneAlloy": {
     "inGameName": "Hardened Bone Plates",
+    "description": "Dropped from some of Fortuna III's toughest creatures, can be used for printing certain items after refining.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 9,
@@ -1036,6 +1109,7 @@
   },
   "AI_CrusherSkin": {
     "inGameName": "Crusher Hide",
+    "description": "Taken off a skinned Crusher.\r\n\r\n(read: hacked repeatedly until something fell off)",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -1049,6 +1123,7 @@
   },
   "AlphaWardenHeart": {
     "inGameName": "Alpha Crusher Heart",
+    "description": "The heart of an Alpha Crusher, or at least chunks of it, can be used for several almost miraculous medical treatments. It's also a local delicacy, for those with more money than sense.",
     "type": "material",
     "rarity": "Exotic",
     "weight": 20,
@@ -1062,6 +1137,7 @@
   },
   "Adhesive": {
     "inGameName": "Resin Gun",
+    "description": "Multi purpose tool, handy for sticking things together or providing flexible insulation.\r\n\r\nThe warning label says to not use if you need a warning label.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 5,
@@ -1076,6 +1152,7 @@
   },
   "KorolevScrip": {
     "inGameName": "Korolev Scrip",
+    "description": "Rewarded by Korolev, required for upgrades to your Quarters' Stash and Safe Pockets.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 0.1,
@@ -1089,6 +1166,7 @@
   },
   "OsirisScrip": {
     "inGameName": "Osiris Scrip",
+    "description": "Rewarded by Osiris, required for upgrades to your Quarters' K-Mark and Aurum generators.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 0.1,
@@ -1102,6 +1180,7 @@
   },
   "ICAScrip": {
     "inGameName": "ICA Scrip",
+    "description": "Rewarded by the ICA, required for upgrades to your Quarters' Supply Crate Generator and Gear Printer.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 0.1,
@@ -1115,6 +1194,7 @@
   },
   "Letium": {
     "inGameName": "Letium Clot",
+    "description": "Solidified mass of Letium, rare and valuable.",
     "type": "material",
     "rarity": "Epic",
     "weight": 3,
@@ -1128,6 +1208,7 @@
   },
   "OilTank": {
     "inGameName": "NiC Oil Cannister",
+    "description": "A pressured cannister filled with concentrated Nanite-infused Crude. It reacts to the storm radiation in strange ways.\r\n\r\nAlmost looks like it's alive, moving and swirling on its own.",
     "type": "material",
     "rarity": "Epic",
     "weight": 5,
@@ -1141,6 +1222,7 @@
   },
   "AI_StriderMeat_03": {
     "inGameName": "Heavy Strider Flesh",
+    "description": "A chunk of flesh from a Heavy Strider.\r\n\r\nTougher than normal Strider meat, it barely bleeds.",
     "type": "material",
     "rarity": "Rare",
     "weight": 8,
@@ -1154,6 +1236,7 @@
   },
   "AI_RattlerEyes_02": {
     "inGameName": "Mature Rattler Eyes",
+    "description": "The eyes of a dead Mature Rattler.\r\n\r\nAge only improved the thing's sight...",
     "type": "material",
     "rarity": "Rare",
     "weight": 5,
@@ -1167,6 +1250,7 @@
   },
   "AI_WeremoleMeat_02": {
     "inGameName": "Savage Marauder Flesh",
+    "description": "A chunk of Savage Marauder flesh.\r\n\r\nBurns if you touch it without gloves.",
     "type": "material",
     "rarity": "Epic",
     "weight": 10,
@@ -1180,6 +1264,7 @@
   },
   "AI_StriderHead_03": {
     "inGameName": "Heavy Strider Head",
+    "description": "The torn off head of a dead Heavy Strider.\r\n\r\nFar too ugly to mount on a wall.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 10,
@@ -1193,6 +1278,7 @@
   },
   "AI_RattlerHead_02": {
     "inGameName": "Mature Rattler Head",
+    "description": "The torn off head of a dead Mature Rattler.\r\n\r\nThese things do NOT age gracefully...",
     "type": "material",
     "rarity": "Legendary",
     "weight": 15,
@@ -1206,6 +1292,7 @@
   },
   "AI_WeremoleHead_02": {
     "inGameName": "Savage Marauder Head",
+    "description": "The torn off head of a dead Savage Marauder.\r\n\r\nIt's still blinking. Menacingly.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 20,
@@ -1219,6 +1306,7 @@
   },
   "ForgeIron": {
     "inGameName": "Tharis Iron",
+    "description": "A solid clump of inert ancient nanites fused with iron, along with various other elements trapped within when the mass solidified.",
     "type": "material",
     "rarity": "Rare",
     "weight": 3,
@@ -1232,6 +1320,7 @@
   },
   "PureForgeIron": {
     "inGameName": "Pure Tharis Iron",
+    "description": "A small mass of inert nanites mixed with elemental iron and few other metals. The composite structure is almost perfect.",
     "type": "material",
     "rarity": "Epic",
     "weight": 3,
@@ -1245,6 +1334,7 @@
   },
   "ForgeIronIngot": {
     "inGameName": "Tharis Iron Ingot",
+    "description": "A well shaped ingot made with Tharis Iron. Harder and heavier than anything else you have ever felt. Slightly warm to the touch.",
     "type": "material",
     "rarity": "Epic",
     "weight": 9,
@@ -1258,6 +1348,7 @@
   },
   "ChargedForgeIronIngot": {
     "inGameName": "Charged Tharis Iron Ingot",
+    "description": "An ingot made of Pure Tharis Iron somehow charged with storm lightning. Sometimes lets off a shock when touched, and you can hear a buzz if you put it next to your ear.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
     "type": "material",
     "rarity": "Exotic",
     "weight": 9,
@@ -1271,6 +1362,7 @@
   },
   "SuperChargedForgeIronIngot": {
     "inGameName": "Super Charged Tharis Iron Ingot",
+    "description": "An ingot made of Pure Tharis Iron, heavily charged with storm lightning. Just touching it leaves your fingers numb.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
     "type": "material",
     "rarity": "Legendary",
     "weight": 9,
@@ -1284,6 +1376,7 @@
   },
   "GlowingCrystalCoreShard": {
     "inGameName": "Teratomorphic Crystal Core",
+    "description": "Extracted from a glowing Teratomorphic Crystal, just holding this in your bag gives you an uneasy feeling.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 3,
@@ -1297,6 +1390,7 @@
   },
   "AF_Slag": {
     "inGameName": "Progenitor Slag",
+    "description": "Refuse from some unknown process. Not very useful, but still fetches a high price on the station by alien artefact collectors and admirers of rare art.",
     "type": "material",
     "rarity": "Exotic",
     "weight": 12,
@@ -1310,6 +1404,7 @@
   },
   "AF_Token": {
     "inGameName": "Abyss Alloy",
+    "description": "A sphere of processed and activated Tharis Iron impossibly locked in place. \r\n\r\nGives an aura of infinite potential.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 10,
@@ -1323,6 +1418,7 @@
   },
   "TentaclePlant": {
     "inGameName": "Spine Briar",
+    "description": "A unique plant so far only found on Tharis Island. Nothing about it feels right...",
     "type": "material",
     "rarity": "Rare",
     "weight": 7,
@@ -1336,6 +1432,7 @@
   },
   "Alien_Scrap": {
     "inGameName": "Progenitor Composite",
+    "description": "A clearly alien material, the Progenitors built their monuments on Fortuna III with this. Could possibly be used to build other things, as well.",
     "type": "material",
     "rarity": "Common",
     "weight": 4,
@@ -1349,6 +1446,7 @@
   },
   "QuestItem_AlphaWardenBait": {
     "inGameName": "Alpha Crusher Bait",
+    "description": "Printed using Mutated Biomass, this bait can be used to summon an Alpha Crusher at one of its Feeding Grounds.",
     "type": "material",
     "rarity": "Epic",
     "weight": 5,
@@ -1362,6 +1460,7 @@
   },
   "QuestItem_LaserDrillBeacon": {
     "inGameName": "Laser Drill Beacon",
+    "description": "A powerful locator that can be used to call down a Korolev Laser Drill Platform on Extreme Letium Veins.",
     "type": "material",
     "rarity": "Epic",
     "weight": 6,
@@ -1383,6 +1482,7 @@
   },
   "HardDrive_common": {
     "inGameName": "HardDrive_common",
+    "description": "HardDrive_common",
     "type": "material",
     "rarity": "Common",
     "weight": 15,
@@ -1401,6 +1501,7 @@
   },
   "HardDrive_uncommon": {
     "inGameName": "HardDrive_uncommon",
+    "description": "HardDrive_uncommon",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 15,
@@ -1414,6 +1515,7 @@
   },
   "HardDrive_rare": {
     "inGameName": "HardDrive_rare",
+    "description": "HardDrive_rare",
     "type": "material",
     "rarity": "Rare",
     "weight": 15,
@@ -1427,6 +1529,7 @@
   },
   "HardDrive_epic": {
     "inGameName": "HardDrive_epic",
+    "description": "HardDrive_epic",
     "type": "material",
     "rarity": "Epic",
     "weight": 15,
@@ -1440,6 +1543,7 @@
   },
   "HardDrive_legendary": {
     "inGameName": "HardDrive_legendary",
+    "description": "HardDrive_legendary",
     "type": "material",
     "rarity": "Legendary",
     "weight": 15,
@@ -1453,6 +1557,7 @@
   },
   "Data_DigSite": {
     "inGameName": "Data_DigSite",
+    "description": "Data_DigSite",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 10,
@@ -1466,6 +1571,7 @@
   },
   "QuestItem_OrbitalCanonTargetBeacon": {
     "inGameName": "QuestItem_OrbitalCanonTargetBeacon",
+    "description": "QuestItem_OrbitalCanonTargetBeacon",
     "type": "material",
     "rarity": "Epic",
     "weight": 6,
@@ -1488,6 +1594,7 @@
   },
   "QuestItem_OilPumpBeacon": {
     "inGameName": "Oil Pump Beacon",
+    "description": "A powerful locator that can be used to call down an ICA NiC pump and refiner on an oil deposit.",
     "type": "material",
     "rarity": "Epic",
     "weight": 6,
@@ -1509,6 +1616,7 @@
   },
   "MissionItem_MinerItem1": {
     "inGameName": "Miner Cam #2F53",
+    "description": "Camera belonging to a Jamie Faulkner. The last video file is damaged, but the audio is of a large crowd demanding to be let in before suddenly cutting off.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -1522,6 +1630,7 @@
   },
   "MissionItem_MinerItem2": {
     "inGameName": "Miner Cam #D027",
+    "description": "Owner named only as Temporary. Last video shows several workers running out barricaded buildings and towards a clearing with a guarded ship being loaded with ore. Video cuts off after the owner appears to trip and fall.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -1535,6 +1644,7 @@
   },
   "MissionItem_MinerItem3": {
     "inGameName": "Miner Cam #A45D",
+    "description": "Camera belonging to a Mayumi S. Nagao. Video shows her being pushed out of a cargo ship by a Korolev Heavy Trooper and falling into the mud. Video cuts off shortly after an eruption of gunfire is heard around her.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -1548,6 +1658,7 @@
   },
   "MissionItem_EngineerItem": {
     "inGameName": "Letium Coated Helmet",
+    "description": "An engineer's helmet caked in Letium. The embedded sensors may have recorded something important.",
     "type": "material",
     "rarity": "Common",
     "weight": 9,
@@ -1561,6 +1672,7 @@
   },
   "MissionItem_CreatureSample": {
     "inGameName": "Letium Bio Samples",
+    "description": "A container preserving... something. A label on the side states: WARNING: HIGH LETIUM CONTENT, DO NOT SHAKE",
     "type": "material",
     "rarity": "Common",
     "weight": 6,
@@ -1574,6 +1686,7 @@
   },
   "MissionItem_LaserDrillPart": {
     "inGameName": "Laser Drill Control Unit",
+    "description": "Part of the system that manages the Drill. Hopefully it can be reconfigured to safely mine for Letium.",
     "type": "material",
     "rarity": "Common",
     "weight": 18,
@@ -1587,6 +1700,7 @@
   },
   "MissionItem_ICAPersonalItem": {
     "inGameName": "Sign of Life from Stranded Prospector",
+    "description": "A photo of Marie and a prospector named Tao. Rare to see paper photographs anymore, it must have meant a lot to the owner.",
     "type": "material",
     "rarity": "Common",
     "weight": 2,
@@ -1600,6 +1714,7 @@
   },
   "MissionItem_PowerPlantItem1": {
     "inGameName": "Notes on Meteor Experiment - 1",
+    "description": "Personal data tablet with theoretical research on powering energy generators with fragments from Fortuna's moon. The power output of a single working Fireball generator would be revolutionary.",
     "type": "material",
     "rarity": "Common",
     "weight": 4,
@@ -1613,6 +1728,7 @@
   },
   "MissionItem_PowerPlantItem2": {
     "inGameName": "Notes on Meteor Experiment - 2",
+    "description": "Data on the first prototype for Project Fireball. Yields under safe conditions were underwhelming, with warnings of an uncontrollable chain reaction if pushed too hard without further research. Might explain why there's a giant hole in the moon...\r\n\r\nFinal notes suggest switching resources to look into NiC.",
     "type": "material",
     "rarity": "Common",
     "weight": 4,
@@ -1626,6 +1742,7 @@
   },
   "MissionItem_OilPumpPart": {
     "inGameName": "Oil Pump Part",
+    "description": "One of the few remaining components from an old oil pump that still looks to be in working condition.",
     "type": "material",
     "rarity": "Common",
     "weight": 10,
@@ -1639,6 +1756,7 @@
   },
   "MissionItem_OldBones": {
     "inGameName": "Old Bones",
+    "description": "Belonging to a long dead creature, damage has exposed metalic elements that seemed to have formed after death.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -1652,6 +1770,7 @@
   },
   "MissionItem_AlphaSkull": {
     "inGameName": "Warden Tooth",
+    "description": "The tooth of a now extinct massive beast once common on Fortuna III. Parts of it seem to have unnatural grooves and geometric shapes.",
     "type": "material",
     "rarity": "Common",
     "weight": 9,
@@ -1665,6 +1784,7 @@
   },
   "MissionItem_FlightRecorder": {
     "inGameName": "Flight Recorder",
+    "description": "A cargo ship's flight recorder, only slightly damaged. Highly encrypted and beyond your suit's ability to access.",
     "type": "material",
     "rarity": "Common",
     "weight": 15,
@@ -1678,6 +1798,7 @@
   },
   "MissionItem_Notebook": {
     "inGameName": "Old Notebook",
+    "description": "An Osiris researcher's notebook. It's seen better days. Full of formulas, drawings, and long paragraphs regarding the unnatural evolution and mutations of Fortuna III's fauna caused by Progenitor terraformers.",
     "type": "material",
     "rarity": "Common",
     "weight": 4,
@@ -1691,6 +1812,7 @@
   },
   "MissionItem_KorChiefEngineerDiary": {
     "inGameName": "Chief Engineer's Personal Diary",
+    "description": "An off the record log of some of the events that occurred on Tharis island. While badly damaged, and much of it is in short hand, what's evident is Korolev ran into serious issues in the caverns: several reports of miners going missing, pervasive malaise, multiple accidents...\r\n\r\nThe operation's foreman clearly had little regard for workplace safety.",
     "type": "material",
     "rarity": "Common",
     "weight": 1,
@@ -1704,6 +1826,7 @@
   },
   "MissionItem_ForgeIronSample": {
     "inGameName": "Tharis Iron Sample",
+    "description": "A collected sample of a rare composite material found in the Tharis Caverns",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -1717,6 +1840,7 @@
   },
   "MissionItem_PureForgeIronNugget": {
     "inGameName": "Pure Tharis Iron Nugget",
+    "description": "A tagged nugget of a rare composite material found in the Tharis Caverns. Denser and with next to no impurities than most samples.",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -1730,6 +1854,7 @@
   },
   "MissionItem_MiningPartyMedicalFiles": {
     "inGameName": "Mining Party Medical Files",
+    "description": "A collection of medical reports from the Korolev team working the caverns. Initial incidents involved exhaustion and minor injuries, but later reports focus on mental clouding, hallucinations, loss of time...\r\n\r\nSymptoms appear identical to those of prolonged exposure to the Teratomorphic Energy Field that now envelops most of Fortuna III.",
     "type": "material",
     "rarity": "Common",
     "weight": 2,
@@ -1743,6 +1868,7 @@
   },
   "MissionItem_VadimPredecessorItem": {
     "inGameName": "The Tharis Files",
+    "description": "A folder kept by Gregor Kazan, the Head of Operations for Korolev when the storms hit Fortuna III decades ago. It appears he intentionally kept all reports and findings from the Tharis operations off the system, though the reason for that isn't explained, nor is how the folder ended up on the island.\r\n\r\nWorryingly, official records state less than 50 Korolev employees ever worked in the caverns, while these files list several hundred.",
     "type": "material",
     "rarity": "Common",
     "weight": 1,
@@ -1756,6 +1882,7 @@
   },
   "MissionItem_StolenKorData1": {
     "inGameName": "Korolev Data Drive #473-D",
+    "description": "A chunky old data drive. Might have some valuable info, if it still works.",
     "type": "material",
     "rarity": "Common",
     "weight": 4,
@@ -1769,6 +1896,7 @@
   },
   "MissionItem_StolenKorData2": {
     "inGameName": "Korolev Notes",
+    "description": "A Korolev data drive. Appears to have been used as a blunt instrument. Has definitely seen better days.",
     "type": "material",
     "rarity": "Common",
     "weight": 4,
@@ -1782,6 +1910,7 @@
   },
   "MissionItem_CultistGlowCrystalItem": {
     "inGameName": "Mysterious Glowing Contraption",
+    "description": "A crystaline chunk with various cables and circuit boards haphazardly strapped on to it.\r\n\r\nIt's impossible to tell if the mind that created this had something utilitarian in mind, or if this creation is simply a form of religious art.",
     "type": "material",
     "rarity": "Common",
     "weight": 25,
@@ -1795,6 +1924,7 @@
   },
   "MissionItem_CultistRitualItem": {
     "inGameName": "Cultist Ritual Item",
+    "description": "Some sort of cultist fetish, featuring a clump of Tharis Iron and a sigil or diagram of some kind. Maybe they venerated the alien material? Or it's just a symbol for the caverns themselves?",
     "type": "material",
     "rarity": "Common",
     "weight": 4,
@@ -1808,6 +1938,7 @@
   },
   "MissionItem_AlienShieldRecipe": {
     "inGameName": "Cultist Scribblings",
+    "description": "An old sheet of paper with various drawings and pictograms laid out as simple formulas, all but one scratched out.\r\n\r\nThe same trident-like drawing found on previous cultist items features prominently here.",
     "type": "material",
     "rarity": "Common",
     "weight": 1,
@@ -1821,6 +1952,7 @@
   },
   "MissionItem_ColonistItem": {
     "inGameName": "Colonist Item",
+    "description": "An old mini-comm and some personal items. Whoever this belonged to likely didn't work on the island.",
     "type": "material",
     "rarity": "Common",
     "weight": 2,
@@ -1834,6 +1966,7 @@
   },
   "MissionItem_StolenOsiHoloMap": {
     "inGameName": "Tharis Caverns Holo-Map",
+    "description": "A map liberated from an abandoned Osiris outpost. Shows the layout of the Tharis caverns, including several areas marked as high-interest.",
     "type": "material",
     "rarity": "Common",
     "weight": 13,
@@ -1847,6 +1980,7 @@
   },
   "MissionItem_KorCivilianItem": {
     "inGameName": "Vintage Camera",
+    "description": "An ancient video recording device, probably fashionable in some retro circles. Amazingly it actually powered on, though only for a few seconds.",
     "type": "material",
     "rarity": "Common",
     "weight": 12,
@@ -1860,6 +1994,7 @@
   },
   "MissionItem_AlienDoorFragment": {
     "inGameName": "Osiris Door Fragment",
+    "description": "A loose bit from the strange door in one of the Osiris installations on Tharis Island.\r\n\r\nThe door itself seems impenetrable, far more robust than what Osiris is known for building.",
     "type": "material",
     "rarity": "Common",
     "weight": 6,
@@ -1873,6 +2008,7 @@
   },
   "MissionItem_AnalysisTool": {
     "inGameName": "Advanced Analysis Toolkit",
+    "description": "An old Osiris portable lab, still in working condition. Surely nobody will mind giving it a new home and purpose...",
     "type": "material",
     "rarity": "Common",
     "weight": 10,
@@ -1886,6 +2022,7 @@
   },
   "MissionItem_OsiChiefEngineerItem": {
     "inGameName": "Osiris Engineer Scanner",
+    "description": "Recovered off the body of an Osiris engineer in Tharis Caverns, appears to have been mapping out potential research locations when they met with a terrible fate.",
     "type": "material",
     "rarity": "Common",
     "weight": 6,
@@ -1899,6 +2036,7 @@
   },
   "MissionItem_OsiHeadScientistItem": {
     "inGameName": "Osiris Helmet Recorder",
+    "description": "A damaged Osiris researcher helmet, these always carry their own camera and data storage.\r\n\r\nFortunately, whatever it was that did short work of its wearer managed to avoid breaking any of the valuable bits.",
     "type": "material",
     "rarity": "Common",
     "weight": 8,
@@ -1912,7 +2050,8 @@
   },
   "WP_A_Pistol_Bullet_01": {
     "inGameName": "Hammer",
-    "type": "material",
+    "description": "Pistol, inflicts devastating damage on its targets, at the cost of any kind of subtlety.",
+    "type": "weapon",
     "rarity": "Exotic",
     "weight": 20,
     "cost": [
@@ -1930,7 +2069,8 @@
   },
   "WP_A_SGun_Energy_01": {
     "inGameName": "PKR Maelstrom",
-    "type": "material",
+    "description": "A semi-automatic shotgun, it's heavy and a poor choice at range, but utterly devastating up close.",
+    "type": "weapon",
     "rarity": "Rare",
     "weight": 25,
     "cost": [
@@ -1948,7 +2088,8 @@
   },
   "WP_A_SMG_Shard_01": {
     "inGameName": "KM-9 'Scrapper'",
-    "type": "material",
+    "description": "A rapid-firing shard SMG, a good choice for taking out targets at close range, though of little use in long range engagements.",
+    "type": "weapon",
     "rarity": "Uncommon",
     "weight": 30,
     "cost": [
@@ -1966,7 +2107,8 @@
   },
   "WP_A_AR_Bullet_01": {
     "inGameName": "KOR-47",
-    "type": "material",
+    "description": "Heavy assault rifle. Lower firing rate than most competing weapons in its class but packs a punch.",
+    "type": "weapon",
     "rarity": "Exotic",
     "weight": 35,
     "cost": [
@@ -1984,7 +2126,8 @@
   },
   "WP_A_BR_Bullet_01": {
     "inGameName": "KBR Longshot",
-    "type": "material",
+    "description": "A marksman rifle with good accuracy and power excels in medium range engagements.",
+    "type": "weapon",
     "rarity": "Epic",
     "weight": 50,
     "cost": [
@@ -2002,7 +2145,8 @@
   },
   "WP_A_Sniper_Gauss_01": {
     "inGameName": "KARMA-1",
-    "type": "material",
+    "description": "While heavy and requiring a charge-up to fire, a direct hit from the KARMA-1 will cripple if not outright kill any target.",
+    "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
     "cost": [
@@ -2024,7 +2168,8 @@
   },
   "WP_D_Pistol_Bullet_01": {
     "inGameName": "Bulldog",
-    "type": "material",
+    "description": "Shotgun that suffers from very limited range.",
+    "type": "weapon",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [
@@ -2042,7 +2187,8 @@
   },
   "WP_D_SGun_Shard_01": {
     "inGameName": "Shattergun",
-    "type": "material",
+    "description": "An unconventional shotgun shooting crystal fragments through kinetic and thermal energy.",
+    "type": "weapon",
     "rarity": "Epic",
     "weight": 25,
     "cost": [
@@ -2060,7 +2206,8 @@
   },
   "WP_D_SMG_Energy_01": {
     "inGameName": "Voltaic Brute",
-    "type": "material",
+    "description": "An SMG offering high versatility in its effective range.",
+    "type": "weapon",
     "rarity": "Exotic",
     "weight": 30,
     "cost": [
@@ -2078,7 +2225,8 @@
   },
   "WP_D_LMG_Energy_01": {
     "inGameName": "ICA Guarantee",
-    "type": "material",
+    "description": "A fast firing Phase LMG perfect to suppress targets.",
+    "type": "weapon",
     "rarity": "Rare",
     "weight": 50,
     "cost": [
@@ -2096,7 +2244,8 @@
   },
   "WP_D_AR_Bullet_01": {
     "inGameName": "Advocate",
-    "type": "material",
+    "description": "A dependable assault rifle offering a good balance between accuracy and rate of fire.",
+    "type": "weapon",
     "rarity": "Epic",
     "weight": 35,
     "cost": [
@@ -2114,7 +2263,8 @@
   },
   "WP_D_BR_Shard_01": {
     "inGameName": "Lacerator",
-    "type": "material",
+    "description": "A capable marksman rifle boasting a decent fire rate, accuracy, and handling.",
+    "type": "weapon",
     "rarity": "Rare",
     "weight": 50,
     "cost": [
@@ -2132,7 +2282,8 @@
   },
   "WP_D_Sniper_Gauss_01": {
     "inGameName": "Kinetic Arbiter",
-    "type": "material",
+    "description": "A gauss sniper rifle firing metal rods at immense velocity. This weapon is favored among Prospectors that want to resolve their differences quickly and from a safe distance.",
+    "type": "weapon",
     "rarity": "Exotic",
     "weight": 50,
     "cost": [
@@ -2150,7 +2301,8 @@
   },
   "WP_E_Pistol_Bullet_01": {
     "inGameName": "K-28",
-    "type": "material",
+    "description": "A standard semi-automatic pistol. It's an effective sidearm for any Prospector.",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 20,
     "cost": [
@@ -2168,7 +2320,8 @@
   },
   "WP_E_SGun_Bullet_01": {
     "inGameName": "B9 Trenchgun",
-    "type": "material",
+    "description": "Pump-action shotgun, high-spread, short range. Yep, it's a shotgun, all right.",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 25,
     "cost": [
@@ -2186,7 +2339,8 @@
   },
   "WP_E_SMG_Bullet_01": {
     "inGameName": "S-576 PDW",
-    "type": "material",
+    "description": "A commonly used SMG with high rate of fire which makes it formidable up close.",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 30,
     "cost": [
@@ -2204,7 +2358,8 @@
   },
   "WP_E_AR_Energy_01": {
     "inGameName": "AR-55 Autorifle",
-    "type": "material",
+    "description": "A decent fully automatic rifle, doesn't excel in any one department, but comfortably versatile and lethally effective.",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 35,
     "cost": [
@@ -2222,7 +2377,8 @@
   },
   "WP_E_Sniper_Bullet_01": {
     "inGameName": "C-32 Bolt Action",
-    "type": "material",
+    "description": "Bolt action sniper rifle that was commonly used by the local population.",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 50,
     "cost": [
@@ -2240,7 +2396,8 @@
   },
   "WP_E_SGun_Bullet_01_scrappy": {
     "inGameName": "WP_E_SGun_Bullet_01_scrappy",
-    "type": "material",
+    "description": "WP_E_SGun_Bullet_01_scrappy",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 25,
     "cost": [],
@@ -2253,7 +2410,8 @@
   },
   "WP_E_SMG_Bullet_01_scrappy": {
     "inGameName": "WP_E_SMG_Bullet_01_scrappy",
-    "type": "material",
+    "description": "WP_E_SMG_Bullet_01_scrappy",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 30,
     "cost": [],
@@ -2266,7 +2424,8 @@
   },
   "WP_E_AR_Energy_01_scrappy": {
     "inGameName": "WP_E_AR_Energy_01_scrappy",
-    "type": "material",
+    "description": "WP_E_AR_Energy_01_scrappy",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 35,
     "cost": [],
@@ -2279,7 +2438,8 @@
   },
   "WP_G_Pistol_Energy_01": {
     "inGameName": "Scarab",
-    "type": "material",
+    "description": "A dependable pistol, fires controlled and powerful three-shot bursts.",
+    "type": "weapon",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [
@@ -2297,7 +2457,8 @@
   },
   "WP_G_SMG_Needle_01": {
     "inGameName": "Asp Flechette Gun",
-    "type": "material",
+    "description": "Lightweight SMG. A formidable automatic weapon for close range encounters.",
+    "type": "weapon",
     "rarity": "Epic",
     "weight": 30,
     "cost": [
@@ -2315,7 +2476,8 @@
   },
   "WP_G_AR_Energy_01": {
     "inGameName": "Phasic Lancer",
-    "type": "material",
+    "description": "A burst rifle shooting accurate controlled 3-shot bursts, effective against most threats a Prospector might encounter.",
+    "type": "weapon",
     "rarity": "Rare",
     "weight": 35,
     "cost": [
@@ -2333,7 +2495,8 @@
   },
   "WP_G_AR_Beam_01": {
     "inGameName": "Gorgon",
-    "type": "material",
+    "description": "A powerful beam rifle that requires charging up before firing. Not the easiest to handle, but lethal in proper hands.",
+    "type": "weapon",
     "rarity": "Epic",
     "weight": 35,
     "cost": [
@@ -2351,7 +2514,8 @@
   },
   "WP_G_AR_Needle_01": {
     "inGameName": "Manticore",
-    "type": "material",
+    "description": "A flechette assault rifle, it's heavy hitting but less accurate compared to other rifles.",
+    "type": "weapon",
     "rarity": "Uncommon",
     "weight": 35,
     "cost": [
@@ -2369,7 +2533,8 @@
   },
   "WP_G_Sniper_Energy_01": {
     "inGameName": "Basilisk",
-    "type": "material",
+    "description": "A phase tech marksman rifle; considered ahead of its time, the impacts are powerful for its class, and it boasts a high rate of fire.",
+    "type": "weapon",
     "rarity": "Exotic",
     "weight": 50,
     "cost": [
@@ -2387,7 +2552,8 @@
   },
   "WP_A_HVY_Shell_01": {
     "inGameName": "KARLA",
-    "type": "material",
+    "description": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire.",
+    "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
     "cost": [],
@@ -2400,7 +2566,8 @@
   },
   "WP_A_Launch_MSL_01": {
     "inGameName": "KOMRAD",
-    "type": "material",
+    "description": "This fearsome weapon platform is capable of firing salvos of fast-moving missiles capable of making short work of any hostile element.",
+    "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
     "cost": [
@@ -2422,7 +2589,8 @@
   },
   "WP_E_Launch_Nade_01": {
     "inGameName": "FF4 Detonator",
-    "type": "material",
+    "description": "A standard grenade launcher with a high damage output, it requires skilled use to operate efficiently.",
+    "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
     "cost": [],
@@ -2435,7 +2603,8 @@
   },
   "WP_D_HVY_Exotic_01": {
     "inGameName": "HAZE",
-    "type": "material",
+    "description": "A slow firing launcher, projectiles create a harming energy field on impact. Further discharges of the launcher into an active field feed into it, until reaching a critical point resulting in a devastating release of energy.",
+    "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
     "cost": [],
@@ -2448,7 +2617,8 @@
   },
   "WP_G_HVY_Beam_01": {
     "inGameName": "Zeus Beam",
-    "type": "material",
+    "description": "Called Zeus for turning any mortal into the God of Lightning, this heavy weapon will fulminate any creature that meets your divine ire.",
+    "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
     "cost": [
@@ -2470,7 +2640,8 @@
   },
   "WP_E_Pistol_Bullet_01_scrappy": {
     "inGameName": "WP_E_Pistol_Bullet_01_scrappy",
-    "type": "material",
+    "description": "WP_E_Pistol_Bullet_01_scrappy",
+    "type": "weapon",
     "rarity": "Common",
     "weight": 20,
     "cost": [],
@@ -2483,7 +2654,8 @@
   },
   "Consumable_Health_01": {
     "inGameName": "Weak Stim",
-    "type": "material",
+    "description": "Offering an immediate 15 health boost.",
+    "type": "consumable",
     "rarity": "Common",
     "weight": 3,
     "cost": [
@@ -2513,7 +2685,8 @@
   },
   "Consumable_Health_02": {
     "inGameName": "Strong Stim",
-    "type": "material",
+    "description": "Offering an immediate 25 health boost.",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [
@@ -2538,7 +2711,8 @@
   },
   "Consumable_Health_03": {
     "inGameName": "Weak Medkit",
-    "type": "material",
+    "description": "Offering an immediate 100 health boost.",
+    "type": "consumable",
     "rarity": "Common",
     "weight": 15,
     "cost": [
@@ -2568,7 +2742,8 @@
   },
   "Consumable_Health_04": {
     "inGameName": "Combat Stim",
-    "type": "material",
+    "description": "Offering an immediate 30 health boost.",
+    "type": "consumable",
     "rarity": "Rare",
     "weight": 3,
     "cost": [
@@ -2593,7 +2768,8 @@
   },
   "Consumable_Health_05": {
     "inGameName": "Strong Medkit",
-    "type": "material",
+    "description": "Offering an immediate 100 health boost.",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 15,
     "cost": [
@@ -2617,7 +2793,8 @@
   },
   "Consumable_Health_06": {
     "inGameName": "Combat Medkit",
-    "type": "material",
+    "description": "Offering an immediate 100 health boost.",
+    "type": "consumable",
     "rarity": "Rare",
     "weight": 15,
     "cost": [
@@ -2642,7 +2819,8 @@
   },
   "Consumable_SmokeGrenade_01": {
     "inGameName": "Smoke Grenade",
-    "type": "material",
+    "description": "A non-lethal grenade that covers an area in thick smoke.",
+    "type": "consumable",
     "rarity": "Common",
     "weight": 5,
     "cost": [
@@ -2660,7 +2838,8 @@
   },
   "Consumable_GasGrenade_01": {
     "inGameName": "Gas Grenade",
-    "type": "material",
+    "description": "A grenade that covers an area in lethal poisonous gas.",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 5,
     "cost": [
@@ -2680,7 +2859,8 @@
   },
   "Consumable_AudioDecoy_01": {
     "inGameName": "Audio Decoy",
-    "type": "material",
+    "description": "A small device that emits the sounds of fake gunfire to distract enemies.",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 5,
     "cost": [
@@ -2704,7 +2884,8 @@
   },
   "OTecStim_Adrenaline": {
     "inGameName": "OTecStim_Adrenaline",
-    "type": "material",
+    "description": "OTecStim_Adrenaline",
+    "type": "consumable",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -2717,7 +2898,8 @@
   },
   "KineticShield": {
     "inGameName": "KineticShield",
-    "type": "material",
+    "description": "KineticShield",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [],
@@ -2730,7 +2912,8 @@
   },
   "Cloak": {
     "inGameName": "Cloak",
-    "type": "material",
+    "description": "Cloak",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 5,
     "cost": [],
@@ -2743,7 +2926,8 @@
   },
   "TurretHeavy": {
     "inGameName": "TurretHeavy",
-    "type": "material",
+    "description": "TurretHeavy",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [],
@@ -2756,7 +2940,8 @@
   },
   "KineticShield_Dome": {
     "inGameName": "KineticShield_Dome",
-    "type": "material",
+    "description": "KineticShield_Dome",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [],
@@ -2769,7 +2954,8 @@
   },
   "HealingWard": {
     "inGameName": "HealingWard",
-    "type": "material",
+    "description": "HealingWard",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [],
@@ -2782,7 +2968,8 @@
   },
   "TurretHeavy_Ouroboros": {
     "inGameName": "TurretHeavy_Ouroboros",
-    "type": "material",
+    "description": "TurretHeavy_Ouroboros",
+    "type": "consumable",
     "rarity": "Legendary",
     "weight": 20,
     "cost": [],
@@ -2795,7 +2982,8 @@
   },
   "Consumable_Shield_01": {
     "inGameName": "Shield Charger",
-    "type": "material",
+    "description": "A device that replenishes part of the missing shield.",
+    "type": "consumable",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -2808,7 +2996,8 @@
   },
   "Consumable_Stamina_01": {
     "inGameName": "Adrenaline Shot",
-    "type": "material",
+    "description": "A stim that lowers the consumption of stamina for 2 minutes.",
+    "type": "consumable",
     "rarity": "Epic",
     "weight": 5,
     "cost": [],
@@ -2821,7 +3010,8 @@
   },
   "Consumable_RoadFlare": {
     "inGameName": "Consumable_RoadFlare",
-    "type": "material",
+    "description": "Consumable_RoadFlare",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 5,
     "cost": [],
@@ -2834,7 +3024,8 @@
   },
   "Consumable_LaserTrap": {
     "inGameName": "Consumable_LaserTrap",
-    "type": "material",
+    "description": "Consumable_LaserTrap",
+    "type": "consumable",
     "rarity": "Rare",
     "weight": 20,
     "cost": [],
@@ -2847,7 +3038,8 @@
   },
   "Bombardment": {
     "inGameName": "Bombardment",
-    "type": "material",
+    "description": "Bombardment",
+    "type": "consumable",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -2860,7 +3052,8 @@
   },
   "ShockGrenade_01": {
     "inGameName": "ShockGrenade_01",
-    "type": "material",
+    "description": "ShockGrenade_01",
+    "type": "consumable",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -2873,7 +3066,8 @@
   },
   "ShockGrenade_02": {
     "inGameName": "ShockGrenade_02",
-    "type": "material",
+    "description": "ShockGrenade_02",
+    "type": "consumable",
     "rarity": "Uncommon",
     "weight": 5,
     "cost": [
@@ -2893,7 +3087,8 @@
   },
   "ShockGrenade_03": {
     "inGameName": "ShockGrenade_03",
-    "type": "material",
+    "description": "ShockGrenade_03",
+    "type": "consumable",
     "rarity": "Rare",
     "weight": 5,
     "cost": [
@@ -2913,7 +3108,8 @@
   },
   "ShockGrenade_04": {
     "inGameName": "ShockGrenade_04",
-    "type": "material",
+    "description": "ShockGrenade_04",
+    "type": "consumable",
     "rarity": "Epic",
     "weight": 5,
     "cost": [],
@@ -2926,7 +3122,8 @@
   },
   "ShockGrenade_05": {
     "inGameName": "ShockGrenade_05",
-    "type": "material",
+    "description": "ShockGrenade_05",
+    "type": "consumable",
     "rarity": "Exotic",
     "weight": 5,
     "cost": [
@@ -2946,7 +3143,8 @@
   },
   "Bag_01_broken": {
     "inGameName": "Worn Emergency Bag",
-    "type": "material",
+    "description": "A worn out backpack that doesn't seem to hold much.",
+    "type": "backpack",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -2957,7 +3155,8 @@
   },
   "Bag_01": {
     "inGameName": "Small Backpack",
-    "type": "material",
+    "description": "A small backpack for storing items.",
+    "type": "backpack",
     "rarity": "Common",
     "weight": 20,
     "cost": [
@@ -2985,7 +3184,8 @@
   },
   "Bag_02": {
     "inGameName": "Medium Backpack",
-    "type": "material",
+    "description": "A medium backpack for storing items.",
+    "type": "backpack",
     "rarity": "Uncommon",
     "weight": 30,
     "cost": [
@@ -3003,7 +3203,8 @@
   },
   "Bag_03": {
     "inGameName": "Large Backpack",
-    "type": "material",
+    "description": "A large backpack for storing items.",
+    "type": "backpack",
     "rarity": "Rare",
     "weight": 40,
     "cost": [
@@ -3022,7 +3223,8 @@
   },
   "Bag_04": {
     "inGameName": "Heavy Duty Backpack",
-    "type": "material",
+    "description": "An extra large backpack for storing items.",
+    "type": "backpack",
     "rarity": "Epic",
     "weight": 50,
     "cost": [
@@ -3041,7 +3243,8 @@
   },
   "Bag_05": {
     "inGameName": "Gigantic Backpack",
-    "type": "material",
+    "description": "An astonishingly large backpack for storing items.",
+    "type": "backpack",
     "rarity": "Exotic",
     "weight": 60,
     "cost": [],
@@ -3052,7 +3255,8 @@
   },
   "Bag_Altered_01": {
     "inGameName": "Huge Forged Backpack",
-    "type": "material",
+    "description": "An extra large backpack for storing items. This particular piece of gear was somehow altered with Progenitor tech.",
+    "type": "backpack",
     "rarity": "Epic",
     "weight": 50,
     "cost": [
@@ -3068,7 +3272,8 @@
   },
   "Bag_Altered_02": {
     "inGameName": "Gigantic Forged Backpack",
-    "type": "material",
+    "description": "An astonishingly large backpack for storing items. This particular piece of gear was somehow altered with Progenitor tech.",
+    "type": "backpack",
     "rarity": "Exotic",
     "weight": 60,
     "cost": [
@@ -3084,7 +3289,8 @@
   },
   "Bag_Altered_03": {
     "inGameName": "Monstrous Forged Backpack",
-    "type": "material",
+    "description": "A monstrously large backpack for storing items. Its fabric has little in common with the human materials it was once made of.",
+    "type": "backpack",
     "rarity": "Legendary",
     "weight": 70,
     "cost": [
@@ -3100,7 +3306,8 @@
   },
   "PlayerDefault": {
     "inGameName": "PlayerDefault",
-    "type": "material",
+    "description": "PlayerDefault",
+    "type": "shield",
     "rarity": "Common",
     "weight": 0,
     "cost": [],
@@ -3111,7 +3318,8 @@
   },
   "Shield_01": {
     "inGameName": "Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer.",
+    "type": "shield",
     "rarity": "Common",
     "weight": 40,
     "cost": [
@@ -3139,7 +3347,8 @@
   },
   "Shield_02": {
     "inGameName": "Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer.",
+    "type": "shield",
     "rarity": "Uncommon",
     "weight": 40,
     "cost": [
@@ -3157,7 +3366,8 @@
   },
   "Shield_03": {
     "inGameName": "Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer.",
+    "type": "shield",
     "rarity": "Rare",
     "weight": 40,
     "cost": [
@@ -3176,7 +3386,8 @@
   },
   "Shield_04": {
     "inGameName": "Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer.",
+    "type": "shield",
     "rarity": "Epic",
     "weight": 40,
     "cost": [
@@ -3195,7 +3406,8 @@
   },
   "Shield_05": {
     "inGameName": "Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer.",
+    "type": "shield",
     "rarity": "Exotic",
     "weight": 40,
     "cost": [
@@ -3214,7 +3426,8 @@
   },
   "Shield_Tactical_01": {
     "inGameName": "Tactical Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
     "rarity": "Common",
     "weight": 40,
     "cost": [
@@ -3242,7 +3455,8 @@
   },
   "Shield_Tactical_02": {
     "inGameName": "Tactical Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
     "rarity": "Uncommon",
     "weight": 40,
     "cost": [
@@ -3261,7 +3475,8 @@
   },
   "Shield_Tactical_03": {
     "inGameName": "Tactical Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
     "rarity": "Rare",
     "weight": 40,
     "cost": [
@@ -3280,7 +3495,8 @@
   },
   "Shield_Tactical_04": {
     "inGameName": "Tactical Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
     "rarity": "Epic",
     "weight": 40,
     "cost": [
@@ -3299,7 +3515,8 @@
   },
   "Shield_Tactical_05": {
     "inGameName": "Tactical Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
     "rarity": "Exotic",
     "weight": 40,
     "cost": [
@@ -3318,7 +3535,8 @@
   },
   "Shield_Restoration_01": {
     "inGameName": "Restoration Shield",
-    "type": "material",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "shield",
     "rarity": "Uncommon",
     "weight": 40,
     "cost": [
@@ -3337,7 +3555,8 @@
   },
   "Shield_Restoration_02": {
     "inGameName": "Restoration Shield",
-    "type": "material",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "shield",
     "rarity": "Rare",
     "weight": 40,
     "cost": [
@@ -3356,7 +3575,8 @@
   },
   "Shield_Restoration_03": {
     "inGameName": "Restoration Shield",
-    "type": "material",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "shield",
     "rarity": "Epic",
     "weight": 40,
     "cost": [
@@ -3375,7 +3595,8 @@
   },
   "Shield_Restoration_04": {
     "inGameName": "Restoration Shield",
-    "type": "material",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "shield",
     "rarity": "Exotic",
     "weight": 40,
     "cost": [
@@ -3395,7 +3616,8 @@
   },
   "Shield_Altered_01": {
     "inGameName": "Forged Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "type": "shield",
     "rarity": "Epic",
     "weight": 40,
     "cost": [
@@ -3411,7 +3633,8 @@
   },
   "Shield_Altered_02": {
     "inGameName": "Forged Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "type": "shield",
     "rarity": "Exotic",
     "weight": 40,
     "cost": [
@@ -3427,7 +3650,8 @@
   },
   "Shield_Altered_03": {
     "inGameName": "Forged Shield",
-    "type": "material",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "type": "shield",
     "rarity": "Legendary",
     "weight": 40,
     "cost": [
@@ -3443,7 +3667,8 @@
   },
   "Helmet_01": {
     "inGameName": "Helmet",
-    "type": "material",
+    "description": "Protects the head of its wearer.",
+    "type": "helmet",
     "rarity": "Common",
     "weight": 20,
     "cost": [
@@ -3471,7 +3696,8 @@
   },
   "Helmet_02": {
     "inGameName": "Helmet",
-    "type": "material",
+    "description": "Protects the head of its wearer.",
+    "type": "helmet",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [
@@ -3489,7 +3715,8 @@
   },
   "Helmet_03": {
     "inGameName": "Helmet",
-    "type": "material",
+    "description": "Protects the head of its wearer.",
+    "type": "helmet",
     "rarity": "Rare",
     "weight": 20,
     "cost": [
@@ -3507,7 +3734,8 @@
   },
   "Helmet_04": {
     "inGameName": "Helmet",
-    "type": "material",
+    "description": "Protects the head of its wearer.",
+    "type": "helmet",
     "rarity": "Epic",
     "weight": 20,
     "cost": [
@@ -3525,7 +3753,8 @@
   },
   "Helmet_05": {
     "inGameName": "Helmet",
-    "type": "material",
+    "description": "Protects the head of its wearer.",
+    "type": "helmet",
     "rarity": "Exotic",
     "weight": 20,
     "cost": [
@@ -3544,7 +3773,8 @@
   },
   "Helmet_Tactical_01": {
     "inGameName": "Tactical Helmet",
-    "type": "material",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
     "rarity": "Common",
     "weight": 20,
     "cost": [
@@ -3572,7 +3802,8 @@
   },
   "Helmet_Tactical_02": {
     "inGameName": "Tactical Helmet",
-    "type": "material",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [
@@ -3591,7 +3822,8 @@
   },
   "Helmet_Tactical_03": {
     "inGameName": "Tactical Helmet",
-    "type": "material",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
     "rarity": "Rare",
     "weight": 20,
     "cost": [
@@ -3610,7 +3842,8 @@
   },
   "Helmet_Tactical_04": {
     "inGameName": "Tactical Helmet",
-    "type": "material",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
     "rarity": "Epic",
     "weight": 20,
     "cost": [
@@ -3629,7 +3862,8 @@
   },
   "Helmet_Tactical_05": {
     "inGameName": "Tactical Helmet",
-    "type": "material",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
     "rarity": "Exotic",
     "weight": 20,
     "cost": [
@@ -3648,7 +3882,8 @@
   },
   "Helmet_Restoration_01": {
     "inGameName": "Restoration Helmet",
-    "type": "material",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "helmet",
     "rarity": "Uncommon",
     "weight": 20,
     "cost": [
@@ -3667,7 +3902,8 @@
   },
   "Helmet_Restoration_02": {
     "inGameName": "Restoration Helmet",
-    "type": "material",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "helmet",
     "rarity": "Rare",
     "weight": 20,
     "cost": [
@@ -3686,7 +3922,8 @@
   },
   "Helmet_Restoration_03": {
     "inGameName": "Restoration Helmet",
-    "type": "material",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "helmet",
     "rarity": "Epic",
     "weight": 20,
     "cost": [
@@ -3705,7 +3942,8 @@
   },
   "Helmet_Restoration_04": {
     "inGameName": "Restoration Helmet",
-    "type": "material",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "helmet",
     "rarity": "Exotic",
     "weight": 20,
     "cost": [
@@ -3725,7 +3963,8 @@
   },
   "Helmet_NV_01": {
     "inGameName": "NV Helmet",
-    "type": "material",
+    "description": "Military grade helmet that includes vision enhancement tech.",
+    "type": "helmet",
     "rarity": "Legendary",
     "weight": 20,
     "cost": [
@@ -3744,7 +3983,8 @@
   },
   "Helmet_Altered_01": {
     "inGameName": "Forged Helmet",
-    "type": "material",
+    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "type": "helmet",
     "rarity": "Epic",
     "weight": 20,
     "cost": [
@@ -3760,7 +4000,8 @@
   },
   "Helmet_Altered_02": {
     "inGameName": "Forged Helmet",
-    "type": "material",
+    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "type": "helmet",
     "rarity": "Exotic",
     "weight": 20,
     "cost": [
@@ -3776,7 +4017,8 @@
   },
   "Helmet_Altered_03": {
     "inGameName": "Forged Helmet",
-    "type": "material",
+    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "type": "helmet",
     "rarity": "Legendary",
     "weight": 20,
     "cost": [
@@ -3792,7 +4034,8 @@
   },
   "NoOptics": {
     "inGameName": "17348771467FF6FBFFDD14A72A7EF7EC",
-    "type": "material",
+    "description": "17348771467FF6FBFFDD14A72A7EF7EC",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -3803,7 +4046,8 @@
   },
   "NoMagazine": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
-    "type": "material",
+    "description": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -3814,7 +4058,8 @@
   },
   "NoBarrel": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
-    "type": "material",
+    "description": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -3825,7 +4070,8 @@
   },
   "NoStock": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
-    "type": "material",
+    "description": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -3836,7 +4082,8 @@
   },
   "NoGrip": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
-    "type": "material",
+    "description": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -3847,7 +4094,8 @@
   },
   "NoAttatchment": {
     "inGameName": "BB9C095D4770A7C37569F899815ECAFD",
-    "type": "material",
+    "description": "BB9C095D4770A7C37569F899815ECAFD",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -3858,7 +4106,8 @@
   },
   "Mod_Korolev_Scanner_AlienCrystals": {
     "inGameName": "Focus Crystal Scanning Module",
-    "type": "material",
+    "description": "Scanners equipped with this Attachment can highlight Focus Crystals and Pure Focus Crystals while scanning.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 1,
     "cost": [
@@ -3876,7 +4125,8 @@
   },
   "Mod_Korolev_Scanner_HeavyMetals": {
     "inGameName": "Titan Ore Scanning Module",
-    "type": "material",
+    "description": "Scanners equipped with this Attachment can highlight Titan Ore and Brittle Titan Ore while scanning.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 1,
     "cost": [
@@ -3894,7 +4144,8 @@
   },
   "Mod_Korolev_Scanner_Veltecite": {
     "inGameName": "Veltecite Scanning Module",
-    "type": "material",
+    "description": "Scanners equipped with this Attachment can highlight Veltecite while scanning.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [
@@ -3912,7 +4163,8 @@
   },
   "Mod_Optic_2x_01": {
     "inGameName": "2x Optic",
-    "type": "material",
+    "description": "Optic with 2x Magnification.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -3942,7 +4194,8 @@
   },
   "Mod_Optic_4x_01": {
     "inGameName": "4x Optic",
-    "type": "material",
+    "description": "Optic with 4x Magnification.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [
@@ -3962,7 +4215,8 @@
   },
   "Mod_Magazine_Light_03": {
     "inGameName": "Light Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -3983,7 +4237,8 @@
   },
   "Mod_Magazine_Light_02": {
     "inGameName": "Light Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -3996,7 +4251,8 @@
   },
   "Mod_Magazine_Light_01": {
     "inGameName": "Light Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [],
@@ -4009,7 +4265,8 @@
   },
   "Mod_Magazine_Medium_01": {
     "inGameName": "Medium Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [],
@@ -4022,7 +4279,8 @@
   },
   "Mod_Magazine_Heavy_01": {
     "inGameName": "Heavy Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [],
@@ -4035,7 +4293,8 @@
   },
   "Mod_Magazine_Shotgun_01": {
     "inGameName": "Shotgun Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [],
@@ -4048,7 +4307,8 @@
   },
   "Mod_Muzzle_Small_Supressor_01": {
     "inGameName": "Small Suppressor",
-    "type": "material",
+    "description": "Suppresses the produced sound when firing.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [
@@ -4069,7 +4329,8 @@
   },
   "Mod_Muzzle_Standard_Supressor_01": {
     "inGameName": "Medium Suppressor",
-    "type": "material",
+    "description": "Suppresses the produced sound when firing.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [
@@ -4090,7 +4351,8 @@
   },
   "Mod_Converter_Light_01": {
     "inGameName": "Light Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
     "cost": [],
@@ -4103,7 +4365,8 @@
   },
   "Mod_Converter_Medium_01": {
     "inGameName": "Medium Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
     "cost": [],
@@ -4116,7 +4379,8 @@
   },
   "Mod_Converter_Heavy_01": {
     "inGameName": "Heavy Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
     "cost": [],
@@ -4129,7 +4393,8 @@
   },
   "Mod_Converter_Shotgun_01": {
     "inGameName": "Shotgun Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
     "cost": [],
@@ -4142,7 +4407,8 @@
   },
   "Mod_ForeGrip_Angled_01": {
     "inGameName": "Angled Foregrip",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -4172,7 +4438,8 @@
   },
   "Mod_RearGrip_01": {
     "inGameName": "Ergonomic Grip",
-    "type": "material",
+    "description": "Improves a weapon's time to equip.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [
@@ -4202,7 +4469,8 @@
   },
   "Mod_Tactical_Flashlight_01": {
     "inGameName": "Tactical Light",
-    "type": "material",
+    "description": "A mounted flashlight that can be toggled on and off.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -4232,7 +4500,8 @@
   },
   "Mod_Stock_Marksman_01": {
     "inGameName": "Marksman Stock",
-    "type": "material",
+    "description": "Reduces the received kick from recoil.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -4262,7 +4531,8 @@
   },
   "Mod_Stock_Standard_01": {
     "inGameName": "Standard Stock",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -4292,7 +4562,8 @@
   },
   "Mod_Magazine_Medium_02": {
     "inGameName": "Medium Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4305,7 +4576,8 @@
   },
   "Mod_Magazine_Medium_03": {
     "inGameName": "Medium Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4326,7 +4598,8 @@
   },
   "Mod_Magazine_Heavy_02": {
     "inGameName": "Heavy Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4339,7 +4612,8 @@
   },
   "Mod_Magazine_Heavy_03": {
     "inGameName": "Heavy Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4360,7 +4634,8 @@
   },
   "Mod_Magazine_Shotgun_02": {
     "inGameName": "Shotgun Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4373,7 +4648,8 @@
   },
   "Mod_Magazine_Shotgun_03": {
     "inGameName": "Shotgun Extended",
-    "type": "material",
+    "description": "Increases the capacity of the magazine.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4394,7 +4670,8 @@
   },
   "Mod_Magazine_Light_ReloadSpeed_01": {
     "inGameName": "Light Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 3,
     "cost": [
@@ -4424,7 +4701,8 @@
   },
   "Mod_Magazine_Light_ReloadSpeed_02": {
     "inGameName": "Light Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [],
@@ -4437,7 +4715,8 @@
   },
   "Mod_Magazine_Light_ReloadSpeed_03": {
     "inGameName": "Light Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4450,7 +4729,8 @@
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
     "inGameName": "Light Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4471,7 +4751,8 @@
   },
   "Mod_Magazine_Medium_Reloadspeed_01": {
     "inGameName": "Medium Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 3,
     "cost": [
@@ -4501,7 +4782,8 @@
   },
   "Mod_Magazine_Medium_Reloadspeed_02": {
     "inGameName": "Medium Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [],
@@ -4514,7 +4796,8 @@
   },
   "Mod_Magazine_Medium_Reloadspeed_03": {
     "inGameName": "Medium Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4527,7 +4810,8 @@
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
     "inGameName": "Medium Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4548,7 +4832,8 @@
   },
   "Mod_Magazine_Heavy_ReloadSpeed_01": {
     "inGameName": "Heavy Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 3,
     "cost": [
@@ -4578,7 +4863,8 @@
   },
   "Mod_Magazine_Heavy_ReloadSpeed_02": {
     "inGameName": "Heavy Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [],
@@ -4591,7 +4877,8 @@
   },
   "Mod_Magazine_Heavy_ReloadSpeed_03": {
     "inGameName": "Heavy Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4604,7 +4891,8 @@
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
     "inGameName": "Heavy Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4625,7 +4913,8 @@
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_01": {
     "inGameName": "Shotgun Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 3,
     "cost": [
@@ -4655,7 +4944,8 @@
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_02": {
     "inGameName": "Shotgun Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
     "cost": [],
@@ -4668,7 +4958,8 @@
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_03": {
     "inGameName": "Shotgun Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4681,7 +4972,8 @@
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
     "inGameName": "Shotgun Quickdraw",
-    "type": "material",
+    "description": "Reduces the time to reload.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4702,7 +4994,8 @@
   },
   "Mod_Magazine_Light_EXTReload_01": {
     "inGameName": "Light Extended Quickdraw",
-    "type": "material",
+    "description": "Capacity and reload speed increase.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4715,7 +5008,8 @@
   },
   "Mod_Magazine_Light_EXTReload_02": {
     "inGameName": "Light Extended Quickdraw",
-    "type": "material",
+    "description": "Capacity and reload speed increase.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4736,7 +5030,8 @@
   },
   "Mod_Magazine_Medium_EXTReload_01": {
     "inGameName": "Medium Extended Quickdraw",
-    "type": "material",
+    "description": "Capacity and reload speed increase.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
@@ -4749,7 +5044,8 @@
   },
   "Mod_Magazine_Medium_EXTReload_02": {
     "inGameName": "Medium Extended Quickdraw",
-    "type": "material",
+    "description": "Capacity and reload speed increase.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
     "cost": [
@@ -4770,7 +5066,8 @@
   },
   "Mod_Stock_Standard_02": {
     "inGameName": "Standard Stock",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -4783,7 +5080,8 @@
   },
   "Mod_Stock_Standard_Equip_01": {
     "inGameName": "Quickdraw Stock",
-    "type": "material",
+    "description": "Improves a weapon's time to equip.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -4813,7 +5111,8 @@
   },
   "Mod_Stock_Standard_Equip_02": {
     "inGameName": "Quickdraw Stock",
-    "type": "material",
+    "description": "Improves a weapon's time to equip.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -4826,7 +5125,8 @@
   },
   "Mod_Stock_Standard_ADS_01": {
     "inGameName": "Tactical Stock",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -4839,7 +5139,8 @@
   },
   "Mod_Stock_Standard_ADS_02": {
     "inGameName": "Tactical Stock",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [],
@@ -4852,7 +5153,8 @@
   },
   "Mod_Stock_Standard_ADSEquip_01": {
     "inGameName": "Ultralight Stock",
-    "type": "material",
+    "description": "Reduces the time to equip and aim down the sight.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [],
@@ -4865,7 +5167,8 @@
   },
   "Mod_Stock_Standard_ADSEquip_02": {
     "inGameName": "Ultralight Stock",
-    "type": "material",
+    "description": "Reduces the time to equip and aim down the sight.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
     "cost": [
@@ -4885,7 +5188,8 @@
   },
   "Mod_Stock_Marksman_02": {
     "inGameName": "Marksman Stock",
-    "type": "material",
+    "description": "Reduces the received kick from recoil.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -4898,7 +5202,8 @@
   },
   "Mod_Stock_Marksman_Equip_01": {
     "inGameName": "MKM Quickdraw Stock",
-    "type": "material",
+    "description": "Improves a weapon's time to equip.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -4928,7 +5233,8 @@
   },
   "Mod_Stock_Marksman_Equip_02": {
     "inGameName": "MKM Quickdraw Stock",
-    "type": "material",
+    "description": "Improves a weapon's time to equip.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -4941,7 +5247,8 @@
   },
   "Mod_Stock_Marksman_ADS_01": {
     "inGameName": "MKM Tactical Stock",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -4954,7 +5261,8 @@
   },
   "Mod_Stock_Marksman_ADS_02": {
     "inGameName": "MKM Tactical Stock",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [],
@@ -4967,7 +5275,8 @@
   },
   "Mod_Stock_Marksman_ADSEquip_01": {
     "inGameName": "MKM Ultralight Stock",
-    "type": "material",
+    "description": "Reduces the time to equip and aim down the sight.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [],
@@ -4980,7 +5289,8 @@
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
     "inGameName": "MKM Ultralight Stock",
-    "type": "material",
+    "description": "Reduces the time to equip and aim down the sight.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
     "cost": [
@@ -5000,7 +5310,8 @@
   },
   "Mod_Muzzle_Small_Recoil_01": {
     "inGameName": "Small Muzzle Brake",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -5030,7 +5341,8 @@
   },
   "Mod_Muzzle_Small_Recoil_02": {
     "inGameName": "Small Muzzle Brake",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -5043,7 +5355,8 @@
   },
   "Mod_Muzzle_Small_Recoil_03": {
     "inGameName": "Small Muzzle Brake",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [],
@@ -5056,7 +5369,8 @@
   },
   "Mod_Muzzle_Standard_Recoil_01": {
     "inGameName": "Medium Muzzle Brake",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -5086,7 +5400,8 @@
   },
   "Mod_Muzzle_Standard_Recoil_02": {
     "inGameName": "Medium Muzzle Brake",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -5099,7 +5414,8 @@
   },
   "Mod_Muzzle_Standard_Recoil_03": {
     "inGameName": "Medium Muzzle Brake",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [],
@@ -5112,7 +5428,8 @@
   },
   "Mod_Converter_Light_02": {
     "inGameName": "Light Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
     "cost": [],
@@ -5125,7 +5442,8 @@
   },
   "Mod_Converter_Light_03": {
     "inGameName": "Light Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
     "cost": [
@@ -5146,7 +5464,8 @@
   },
   "Mod_Converter_Medium_02": {
     "inGameName": "Medium Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
     "cost": [],
@@ -5159,7 +5478,8 @@
   },
   "Mod_Converter_Medium_03": {
     "inGameName": "Medium Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
     "cost": [
@@ -5180,7 +5500,8 @@
   },
   "Mod_Converter_Heavy_02": {
     "inGameName": "Heavy Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
     "cost": [],
@@ -5193,7 +5514,8 @@
   },
   "Mod_Converter_Heavy_03": {
     "inGameName": "Heavy Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
     "cost": [
@@ -5214,7 +5536,8 @@
   },
   "Mod_Converter_Shotgun_02": {
     "inGameName": "Shotgun Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
     "cost": [],
@@ -5227,7 +5550,8 @@
   },
   "Mod_Converter_Shotgun_03": {
     "inGameName": "Shotgun Converter",
-    "type": "material",
+    "description": "Projectile penetration increase.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
     "cost": [
@@ -5248,7 +5572,8 @@
   },
   "Mod_Converter_Light_AIDMG_01": {
     "inGameName": "Light Creature Dmg",
-    "type": "material",
+    "description": "Increased damage towards creatures.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
     "cost": [],
@@ -5261,7 +5586,8 @@
   },
   "Mod_Converter_Light_AIDMG_02": {
     "inGameName": "Light Creature Dmg",
-    "type": "material",
+    "description": "Increased damage towards creatures.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
     "cost": [],
@@ -5274,7 +5600,8 @@
   },
   "Mod_Converter_Light_AIDMG_03": {
     "inGameName": "Light Creature Dmg",
-    "type": "material",
+    "description": "Increased damage towards creatures.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
     "cost": [
@@ -5295,7 +5622,8 @@
   },
   "Mod_Converter_Medium_AIDMG_01": {
     "inGameName": "Medium Creature Dmg",
-    "type": "material",
+    "description": "Increased damage towards creatures.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
     "cost": [],
@@ -5308,7 +5636,8 @@
   },
   "Mod_Converter_Medium_AIDMG_02": {
     "inGameName": "Medium Creature Dmg",
-    "type": "material",
+    "description": "Increased damage towards creatures.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
     "cost": [],
@@ -5321,7 +5650,8 @@
   },
   "Mod_Converter_Medium_AIDMG_03": {
     "inGameName": "Medium Creature Dmg",
-    "type": "material",
+    "description": "Increased damage towards creatures.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
     "cost": [
@@ -5342,7 +5672,8 @@
   },
   "Mod_Converter_Shotgun_Slug_01": {
     "inGameName": "Shotgun Slugs",
-    "type": "material",
+    "description": "Fires a single projectile improving the effective range.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
     "cost": [],
@@ -5355,7 +5686,8 @@
   },
   "Mod_ForeGrip_Angled_02": {
     "inGameName": "Angled Foregrip",
-    "type": "material",
+    "description": "Reduces the recoil when firing.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -5368,7 +5700,8 @@
   },
   "Mod_ForeGrip_Equip_01": {
     "inGameName": "Quickdraw Foregrip",
-    "type": "material",
+    "description": "Improves a weapon's time to equip.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -5398,7 +5731,8 @@
   },
   "Mod_ForeGrip_Equip_02": {
     "inGameName": "Quickdraw Foregrip",
-    "type": "material",
+    "description": "Improves a weapon's time to equip.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -5411,7 +5745,8 @@
   },
   "Mod_ForeGrip_ADS_01": {
     "inGameName": "Tactical Foregrip",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [],
@@ -5424,7 +5759,8 @@
   },
   "Mod_ForeGrip_ADS_02": {
     "inGameName": "Tactical Foregrip",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
     "cost": [],
@@ -5437,7 +5773,8 @@
   },
   "Mod_ForeGrip_ADS_03": {
     "inGameName": "Tactical Foregrip",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
     "cost": [
@@ -5458,7 +5795,8 @@
   },
   "Mod_RearGrip_02": {
     "inGameName": "Ergonomic Grip",
-    "type": "material",
+    "description": "Improves a weapon's time to equip.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 1,
     "cost": [],
@@ -5471,7 +5809,8 @@
   },
   "Mod_RearGrip_ADS_01": {
     "inGameName": "Tactical Rear Grip",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 1,
     "cost": [
@@ -5501,7 +5840,8 @@
   },
   "Mod_RearGrip_ADS_02": {
     "inGameName": "Tactical Rear Grip",
-    "type": "material",
+    "description": "Reduces the time to aim down the sight.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 1,
     "cost": [],
@@ -5514,7 +5854,8 @@
   },
   "Mod_Optic_1x_01": {
     "inGameName": "Red Dot Sight",
-    "type": "material",
+    "description": "A non-magnifying red dot sight.",
+    "type": "attachment",
     "rarity": "Common",
     "weight": 2,
     "cost": [
@@ -5544,7 +5885,8 @@
   },
   "Mod_Optic_1x_02": {
     "inGameName": "Holographic Sight",
-    "type": "material",
+    "description": "A non-magnifying Holographic sight.",
+    "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
     "cost": [
@@ -5564,7 +5906,8 @@
   },
   "Mod_Optic_Variable_01": {
     "inGameName": "2 - 4x Variable Optic",
-    "type": "material",
+    "description": "Variable optic that allows to swap between 2x and 4x magnification.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
     "cost": [
@@ -5584,7 +5927,8 @@
   },
   "Mod_Optic_8x_01": {
     "inGameName": "8x Optic",
-    "type": "material",
+    "description": "Optic with 8x Magnification.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
     "cost": [
@@ -5604,7 +5948,8 @@
   },
   "Mod_Optic_6x_01": {
     "inGameName": "6x Optic",
-    "type": "material",
+    "description": "Optic with 6x Magnification.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
     "cost": [
@@ -5624,7 +5969,8 @@
   },
   "Mod_Korolev_Scanner_Oil": {
     "inGameName": "Crude Oil Scanning Module",
-    "type": "material",
+    "description": "Scanners equipped with this Attachment can highlight active Crude Oil Wells while scanning.",
+    "type": "attachment",
     "rarity": "Epic",
     "weight": 1,
     "cost": [

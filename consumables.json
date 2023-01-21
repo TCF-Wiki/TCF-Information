@@ -1,6 +1,7 @@
 {
   "Consumable_Health_01": {
     "inGameName": "Weak Stim",
+    "description": "Offering an immediate 15 health boost.",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -36,6 +37,7 @@
   },
   "Consumable_Health_02": {
     "inGameName": "Strong Stim",
+    "description": "Offering an immediate 25 health boost.",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -66,6 +68,7 @@
   },
   "Consumable_Health_03": {
     "inGameName": "Weak Medkit",
+    "description": "Offering an immediate 100 health boost.",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -101,6 +104,7 @@
   },
   "Consumable_Health_04": {
     "inGameName": "Combat Stim",
+    "description": "Offering an immediate 30 health boost.",
     "rarity": "Rare",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -131,6 +135,7 @@
   },
   "Consumable_Health_05": {
     "inGameName": "Strong Medkit",
+    "description": "Offering an immediate 100 health boost.",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -160,6 +165,7 @@
   },
   "Consumable_Health_06": {
     "inGameName": "Combat Medkit",
+    "description": "Offering an immediate 100 health boost.",
     "rarity": "Rare",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -190,6 +196,7 @@
   },
   "Consumable_SmokeGrenade_01": {
     "inGameName": "Smoke Grenade",
+    "description": "A non-lethal grenade that covers an area in thick smoke.",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables"
@@ -208,6 +215,7 @@
   },
   "Consumable_GasGrenade_01": {
     "inGameName": "Gas Grenade",
+    "description": "A grenade that covers an area in lethal poisonous gas.",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -228,6 +236,7 @@
   },
   "Consumable_AudioDecoy_01": {
     "inGameName": "Audio Decoy",
+    "description": "A small device that emits the sounds of fake gunfire to distract enemies.",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -252,6 +261,7 @@
   },
   "OTecStim_Adrenaline": {
     "inGameName": "OTecStim_Adrenaline",
+    "description": "OTecStim_Adrenaline",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables"
@@ -270,6 +280,7 @@
   },
   "KineticShield": {
     "inGameName": "KineticShield",
+    "description": "KineticShield",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -283,6 +294,7 @@
   },
   "Cloak": {
     "inGameName": "Cloak",
+    "description": "Cloak",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -296,6 +308,7 @@
   },
   "TurretHeavy": {
     "inGameName": "TurretHeavy",
+    "description": "TurretHeavy",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -309,6 +322,7 @@
   },
   "KineticShield_Dome": {
     "inGameName": "KineticShield_Dome",
+    "description": "KineticShield_Dome",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -322,6 +336,7 @@
   },
   "HealingWard": {
     "inGameName": "HealingWard",
+    "description": "HealingWard",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -335,6 +350,7 @@
   },
   "TurretHeavy_Ouroboros": {
     "inGameName": "TurretHeavy_Ouroboros",
+    "description": "TurretHeavy_Ouroboros",
     "rarity": "Legendary",
     "tags": [
       "Equipment.Consumables"
@@ -348,6 +364,7 @@
   },
   "Consumable_Shield_01": {
     "inGameName": "Shield Charger",
+    "description": "A device that replenishes part of the missing shield.",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables"
@@ -366,6 +383,7 @@
   },
   "Consumable_Stamina_01": {
     "inGameName": "Adrenaline Shot",
+    "description": "A stim that lowers the consumption of stamina for 2 minutes.",
     "rarity": "Epic",
     "tags": [
       "Equipment.Consumables"
@@ -384,6 +402,7 @@
   },
   "Consumable_RoadFlare": {
     "inGameName": "Consumable_RoadFlare",
+    "description": "Consumable_RoadFlare",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -397,6 +416,7 @@
   },
   "Consumable_LaserTrap": {
     "inGameName": "Consumable_LaserTrap",
+    "description": "Consumable_LaserTrap",
     "rarity": "Rare",
     "tags": [
       "Equipment.Consumables"
@@ -410,6 +430,7 @@
   },
   "Bombardment": {
     "inGameName": "Bombardment",
+    "description": "Bombardment",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables"
@@ -423,6 +444,7 @@
   },
   "ShockGrenade_01": {
     "inGameName": "ShockGrenade_01",
+    "description": "ShockGrenade_01",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables"
@@ -436,6 +458,7 @@
   },
   "ShockGrenade_02": {
     "inGameName": "ShockGrenade_02",
+    "description": "ShockGrenade_02",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables"
@@ -456,6 +479,7 @@
   },
   "ShockGrenade_03": {
     "inGameName": "ShockGrenade_03",
+    "description": "ShockGrenade_03",
     "rarity": "Rare",
     "tags": [
       "Equipment.Consumables"
@@ -476,6 +500,7 @@
   },
   "ShockGrenade_04": {
     "inGameName": "ShockGrenade_04",
+    "description": "ShockGrenade_04",
     "rarity": "Epic",
     "tags": [
       "Equipment.Consumables"
@@ -489,6 +514,7 @@
   },
   "ShockGrenade_05": {
     "inGameName": "ShockGrenade_05",
+    "description": "ShockGrenade_05",
     "rarity": "Exotic",
     "tags": [
       "Equipment.Consumables"
