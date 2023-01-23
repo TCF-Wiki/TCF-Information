@@ -1877,14 +1877,6 @@
         "Helmet_05": {
           "inGameName": "Exotic Helmet",
           "amount": 1
-        },
-        "Helmet_Tactical_05": {
-          "inGameName": "Exotic Tactical Helmet",
-          "amount": 1
-        },
-        "Helmet_Restoration_04": {
-          "inGameName": "Exotic Restoration Helmet",
-          "amount": 1
         }
       },
       "missions": {
@@ -2726,18 +2718,6 @@
         "Helmet_Tactical_03": {
           "inGameName": "Rare Tactical Helmet",
           "amount": 1
-        },
-        "Helmet_Tactical_04": {
-          "inGameName": "Epic Tactical Helmet",
-          "amount": 1
-        },
-        "Helmet_Tactical_05": {
-          "inGameName": "Exotic Tactical Helmet",
-          "amount": 3
-        },
-        "Helmet_Restoration_04": {
-          "inGameName": "Exotic Restoration Helmet",
-          "amount": 2
         }
       },
       "missions": {
@@ -2859,14 +2839,6 @@
         "Helmet_Restoration_02": {
           "inGameName": "Rare Restoration Helmet",
           "amount": 2
-        },
-        "Helmet_Restoration_03": {
-          "inGameName": "Epic Restoration Helmet",
-          "amount": 3
-        },
-        "Helmet_Restoration_04": {
-          "inGameName": "Exotic Restoration Helmet",
-          "amount": 3
         }
       },
       "missions": {
@@ -3685,14 +3657,6 @@
         "Helmet_04": {
           "inGameName": "Epic Helmet",
           "amount": 4
-        },
-        "Helmet_Tactical_04": {
-          "inGameName": "Epic Tactical Helmet",
-          "amount": 5
-        },
-        "Helmet_Restoration_03": {
-          "inGameName": "Epic Restoration Helmet",
-          "amount": 5
         }
       },
       "missions": {
@@ -4884,14 +4848,6 @@
         "Helmet_04": {
           "inGameName": "Epic Helmet",
           "amount": 1
-        },
-        "Helmet_Tactical_04": {
-          "inGameName": "Epic Tactical Helmet",
-          "amount": 1
-        },
-        "Helmet_Restoration_03": {
-          "inGameName": "Epic Restoration Helmet",
-          "amount": 1
         }
       },
       "missions": {
@@ -4981,14 +4937,6 @@
         },
         "Helmet_05": {
           "inGameName": "Exotic Helmet",
-          "amount": 1
-        },
-        "Helmet_Tactical_05": {
-          "inGameName": "Exotic Tactical Helmet",
-          "amount": 1
-        },
-        "Helmet_Restoration_04": {
-          "inGameName": "Exotic Restoration Helmet",
           "amount": 1
         }
       },
@@ -9643,60 +9591,6 @@
       "forge": {}
     }
   },
-  "Helmet_Tactical_04": {
-    "inGameName": "Epic Tactical Helmet",
-    "description": "Protects the wearer's head, and increases their stamina.",
-    "type": "helmet",
-    "rarity": "Epic",
-    "weight": 20,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 17000,
-        "RadioSpareParts": 5,
-        "HardenedBoneAlloy": 1,
-        "Datapad": 1
-      }
-    ],
-    "sellValue": 5126,
-    "factionRep": 51,
-    "tags": [],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Helmet_Tactical_05": {
-    "inGameName": "Exotic Tactical Helmet",
-    "description": "Protects the wearer's head, and increases their stamina.",
-    "type": "helmet",
-    "rarity": "Exotic",
-    "weight": 20,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 34000,
-        "Datapad": 3,
-        "Gyroscope": 1,
-        "AI_CrusherSkin": 1
-      }
-    ],
-    "sellValue": 10252,
-    "factionRep": 103,
-    "tags": [],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
   "Helmet_Restoration_01": {
     "inGameName": "Uncommon Restoration Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
@@ -9741,61 +9635,6 @@
     ],
     "sellValue": 2278,
     "factionRep": 23,
-    "tags": [],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Helmet_Restoration_03": {
-    "inGameName": "Epic Restoration Helmet",
-    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
-    "type": "helmet",
-    "rarity": "Epic",
-    "weight": 20,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 17000,
-        "RadioSpareParts": 5,
-        "HardenedBoneAlloy": 1,
-        "RadioactiveBrightcapMushroom": 3
-      }
-    ],
-    "sellValue": 5126,
-    "factionRep": 51,
-    "tags": [],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Helmet_Restoration_04": {
-    "inGameName": "Exotic Restoration Helmet",
-    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
-    "type": "helmet",
-    "rarity": "Exotic",
-    "weight": 20,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 34000,
-        "Datapad": 2,
-        "Gyroscope": 1,
-        "AI_CrusherSkin": 1,
-        "RadioactiveBrightcapMushroom": 3
-      }
-    ],
-    "sellValue": 10252,
-    "factionRep": 103,
     "tags": [],
     "stackSize": 1,
     "uses": {
