@@ -1,6 +1,6 @@
 {
   "Helmet_01": {
-    "inGameName": "Helmet",
+    "inGameName": "Common Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Common",
     "weight": 20,
@@ -14,7 +14,7 @@
       "maxPrice": 190,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "Korolev",
@@ -35,7 +35,7 @@
     ]
   },
   "Helmet_02": {
-    "inGameName": "Helmet",
+    "inGameName": "Uncommon Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Uncommon",
     "weight": 20,
@@ -49,7 +49,7 @@
       "maxPrice": 765,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -60,7 +60,7 @@
     ]
   },
   "Helmet_03": {
-    "inGameName": "Helmet",
+    "inGameName": "Rare Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Rare",
     "weight": 20,
@@ -74,7 +74,7 @@
       "maxPrice": 3040,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -85,7 +85,7 @@
     ]
   },
   "Helmet_04": {
-    "inGameName": "Helmet",
+    "inGameName": "Epic Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Epic",
     "weight": 20,
@@ -99,7 +99,7 @@
       "maxPrice": 3400,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -110,7 +110,7 @@
     ]
   },
   "Helmet_05": {
-    "inGameName": "Helmet",
+    "inGameName": "Exotic Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Exotic",
     "weight": 20,
@@ -124,7 +124,7 @@
       "maxPrice": 4250,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -136,7 +136,7 @@
     ]
   },
   "Helmet_Tactical_01": {
-    "inGameName": "Tactical Helmet",
+    "inGameName": "Common Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Common",
     "weight": 20,
@@ -150,7 +150,9 @@
       "maxPrice": 280,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_01"
+    ],
     "cost": [
       {
         "shop": "Korolev",
@@ -171,7 +173,7 @@
     ]
   },
   "Helmet_Tactical_02": {
-    "inGameName": "Tactical Helmet",
+    "inGameName": "Uncommon Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Uncommon",
     "weight": 20,
@@ -185,7 +187,9 @@
       "maxPrice": 765,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_02"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -197,7 +201,7 @@
     ]
   },
   "Helmet_Tactical_03": {
-    "inGameName": "Tactical Helmet",
+    "inGameName": "Rare Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Rare",
     "weight": 20,
@@ -211,7 +215,9 @@
       "maxPrice": 3040,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_03"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -223,7 +229,7 @@
     ]
   },
   "Helmet_Tactical_04": {
-    "inGameName": "Tactical Helmet",
+    "inGameName": "Epic Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Epic",
     "weight": 20,
@@ -237,7 +243,9 @@
       "maxPrice": 3400,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_03"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -249,7 +257,7 @@
     ]
   },
   "Helmet_Tactical_05": {
-    "inGameName": "Tactical Helmet",
+    "inGameName": "Exotic Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Exotic",
     "weight": 20,
@@ -263,7 +271,9 @@
       "maxPrice": 4250,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_04"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -275,7 +285,7 @@
     ]
   },
   "Helmet_Restoration_01": {
-    "inGameName": "Restoration Helmet",
+    "inGameName": "Uncommon Restoration Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Uncommon",
     "weight": 20,
@@ -289,7 +299,9 @@
       "maxPrice": 765,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HealthRegenerationRate_01"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -301,7 +313,7 @@
     ]
   },
   "Helmet_Restoration_02": {
-    "inGameName": "Restoration Helmet",
+    "inGameName": "Rare Restoration Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Rare",
     "weight": 20,
@@ -315,7 +327,9 @@
       "maxPrice": 3040,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HealthRegenerationRate_02"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -327,7 +341,7 @@
     ]
   },
   "Helmet_Restoration_03": {
-    "inGameName": "Restoration Helmet",
+    "inGameName": "Epic Restoration Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Epic",
     "weight": 20,
@@ -341,7 +355,9 @@
       "maxPrice": 3400,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HealthRegenerationRate_02"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -353,7 +369,7 @@
     ]
   },
   "Helmet_Restoration_04": {
-    "inGameName": "Restoration Helmet",
+    "inGameName": "Exotic Restoration Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Exotic",
     "weight": 20,
@@ -367,7 +383,9 @@
       "maxPrice": 4250,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HealthRegenerationRate_03"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -380,7 +398,7 @@
     ]
   },
   "Helmet_NV_01": {
-    "inGameName": "NV Helmet",
+    "inGameName": "Legendary NV Helmet",
     "description": "Military grade helmet that includes vision enhancement tech.",
     "rarity": "Legendary",
     "weight": 20,
@@ -394,7 +412,9 @@
       "maxPrice": 7700,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HelmetNV_01"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -406,7 +426,7 @@
     ]
   },
   "Helmet_Altered_01": {
-    "inGameName": "Forged Helmet",
+    "inGameName": "Epic Forged Helmet",
     "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Epic",
     "weight": 20,
@@ -420,7 +440,7 @@
       "maxPrice": 4200,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "None",
@@ -429,7 +449,7 @@
     ]
   },
   "Helmet_Altered_02": {
-    "inGameName": "Forged Helmet",
+    "inGameName": "Exotic Forged Helmet",
     "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Exotic",
     "weight": 20,
@@ -443,7 +463,7 @@
       "maxPrice": 5375,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "None",
@@ -452,7 +472,7 @@
     ]
   },
   "Helmet_Altered_03": {
-    "inGameName": "Forged Helmet",
+    "inGameName": "Legendary Forged Helmet",
     "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Legendary",
     "weight": 20,
@@ -466,7 +486,7 @@
       "maxPrice": 8500,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "None",

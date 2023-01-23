@@ -14,11 +14,11 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "bonus": null,
+    "perks": [],
     "cost": []
   },
   "Shield_01": {
-    "inGameName": "Shield",
+    "inGameName": "Common Shield",
     "description": "Protects the body of its wearer.",
     "rarity": "Common",
     "weight": 40,
@@ -32,7 +32,7 @@
       "maxPrice": 225,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "Korolev",
@@ -53,7 +53,7 @@
     ]
   },
   "Shield_02": {
-    "inGameName": "Shield",
+    "inGameName": "Uncommon Shield",
     "description": "Protects the body of its wearer.",
     "rarity": "Uncommon",
     "weight": 40,
@@ -67,7 +67,7 @@
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -78,7 +78,7 @@
     ]
   },
   "Shield_03": {
-    "inGameName": "Shield",
+    "inGameName": "Rare Shield",
     "description": "Protects the body of its wearer.",
     "rarity": "Rare",
     "weight": 40,
@@ -92,7 +92,7 @@
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -104,7 +104,7 @@
     ]
   },
   "Shield_04": {
-    "inGameName": "Shield",
+    "inGameName": "Epic Shield",
     "description": "Protects the body of its wearer.",
     "rarity": "Epic",
     "weight": 40,
@@ -118,7 +118,7 @@
       "maxPrice": 7800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -130,7 +130,7 @@
     ]
   },
   "Shield_05": {
-    "inGameName": "Shield",
+    "inGameName": "Exotic Shield",
     "description": "Protects the body of its wearer.",
     "rarity": "Exotic",
     "weight": 40,
@@ -144,7 +144,7 @@
       "maxPrice": 9875,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -156,7 +156,7 @@
     ]
   },
   "Shield_Tactical_01": {
-    "inGameName": "Tactical Shield",
+    "inGameName": "Common Tactical Shield",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Common",
     "weight": 40,
@@ -170,7 +170,9 @@
       "maxPrice": 340,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_03"
+    ],
     "cost": [
       {
         "shop": "Korolev",
@@ -191,7 +193,7 @@
     ]
   },
   "Shield_Tactical_02": {
-    "inGameName": "Tactical Shield",
+    "inGameName": "Uncommon Tactical Shield",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Uncommon",
     "weight": 40,
@@ -205,7 +207,9 @@
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_04"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -217,7 +221,7 @@
     ]
   },
   "Shield_Tactical_03": {
-    "inGameName": "Tactical Shield",
+    "inGameName": "Rare Tactical Shield",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Rare",
     "weight": 40,
@@ -231,7 +235,9 @@
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_05"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -243,7 +249,7 @@
     ]
   },
   "Shield_Tactical_04": {
-    "inGameName": "Tactical Shield",
+    "inGameName": "Epic Tactical Shield",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Epic",
     "weight": 40,
@@ -257,7 +263,9 @@
       "maxPrice": 7800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_05"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -269,7 +277,7 @@
     ]
   },
   "Shield_Tactical_05": {
-    "inGameName": "Tactical Shield",
+    "inGameName": "Exotic Tactical Shield",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Exotic",
     "weight": 40,
@@ -283,7 +291,9 @@
       "maxPrice": 9875,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_MaxStamina_06"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -295,7 +305,7 @@
     ]
   },
   "Shield_Restoration_01": {
-    "inGameName": "Restoration Shield",
+    "inGameName": "Uncommon Restoration Shield",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Uncommon",
     "weight": 40,
@@ -309,7 +319,9 @@
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HealthRegenerationRate_02"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -321,7 +333,7 @@
     ]
   },
   "Shield_Restoration_02": {
-    "inGameName": "Restoration Shield",
+    "inGameName": "Rare Restoration Shield",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Rare",
     "weight": 40,
@@ -335,7 +347,9 @@
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HealthRegenerationRate_03"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -347,7 +361,7 @@
     ]
   },
   "Shield_Restoration_03": {
-    "inGameName": "Restoration Shield",
+    "inGameName": "Epic Restoration Shield",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Epic",
     "weight": 40,
@@ -361,7 +375,9 @@
       "maxPrice": 7800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HealthRegenerationRate_03"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -373,7 +389,7 @@
     ]
   },
   "Shield_Restoration_04": {
-    "inGameName": "Restoration Shield",
+    "inGameName": "Exotic Restoration Shield",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Exotic",
     "weight": 40,
@@ -387,7 +403,9 @@
       "maxPrice": 9875,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [
+      "Perk_HealthRegenerationRate_04"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -400,7 +418,7 @@
     ]
   },
   "Shield_Altered_01": {
-    "inGameName": "Forged Shield",
+    "inGameName": "Epic Forged Shield",
     "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Epic",
     "weight": 40,
@@ -414,7 +432,7 @@
       "maxPrice": 8600,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "None",
@@ -423,7 +441,7 @@
     ]
   },
   "Shield_Altered_02": {
-    "inGameName": "Forged Shield",
+    "inGameName": "Exotic Forged Shield",
     "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Exotic",
     "weight": 40,
@@ -437,7 +455,7 @@
       "maxPrice": 9375,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "None",
@@ -446,7 +464,7 @@
     ]
   },
   "Shield_Altered_03": {
-    "inGameName": "Forged Shield",
+    "inGameName": "Legendary Forged Shield",
     "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Legendary",
     "weight": 40,
@@ -460,7 +478,7 @@
       "maxPrice": 12800,
       "durabilityBrokenPriceModifier": 0.5
     },
-    "bonus": null,
+    "perks": [],
     "cost": [
       {
         "shop": "None",
