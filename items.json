@@ -503,10 +503,6 @@
         "Shield_05": {
           "inGameName": "Exotic Shield",
           "amount": 1
-        },
-        "Shield_Restoration_04": {
-          "inGameName": "Exotic Restoration Shield",
-          "amount": 1
         }
       },
       "missions": {
@@ -1298,8 +1294,8 @@
           "inGameName": "Audio Decoy",
           "amount": 2
         },
-        "ShockGrenade_02": {
-          "inGameName": "ShockGrenade_02",
+        "Consumable_Grenade_02": {
+          "inGameName": "Light Grenade",
           "amount": 2
         },
         "Helmet_02": {
@@ -2024,14 +2020,6 @@
           "inGameName": "Exotic Shield",
           "amount": 6
         },
-        "Shield_Tactical_05": {
-          "inGameName": "Exotic Tactical Shield",
-          "amount": 6
-        },
-        "Shield_Restoration_04": {
-          "inGameName": "Exotic Restoration Shield",
-          "amount": 6
-        },
         "Mod_Optic_4x_01": {
           "inGameName": "4x Optic",
           "amount": 1
@@ -2646,8 +2634,8 @@
           "inGameName": "Portable Lab",
           "amount": 5
         },
-        "ShockGrenade_03": {
-          "inGameName": "ShockGrenade_03",
+        "Consumable_Grenade_03": {
+          "inGameName": "Standard Grenade",
           "amount": 2
         },
         "Mod_Converter_Heavy_03": {
@@ -2867,14 +2855,6 @@
         "Shield_Restoration_02": {
           "inGameName": "Rare Restoration Shield",
           "amount": 2
-        },
-        "Shield_Restoration_03": {
-          "inGameName": "Epic Restoration Shield",
-          "amount": 5
-        },
-        "Shield_Restoration_04": {
-          "inGameName": "Exotic Restoration Shield",
-          "amount": 5
         },
         "Helmet_Restoration_02": {
           "inGameName": "Rare Restoration Helmet",
@@ -3107,10 +3087,6 @@
         "Bag_04": {
           "inGameName": "Heavy Duty Backpack",
           "amount": 1
-        },
-        "Shield_Tactical_04": {
-          "inGameName": "Epic Tactical Shield",
-          "amount": 2
         }
       },
       "missions": {
@@ -3477,8 +3453,8 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "ShockGrenade_02": {
-          "inGameName": "ShockGrenade_02",
+        "Consumable_Grenade_02": {
+          "inGameName": "Light Grenade",
           "amount": 2
         }
       },
@@ -3553,14 +3529,6 @@
         },
         "Shield_04": {
           "inGameName": "Epic Shield",
-          "amount": 2
-        },
-        "Shield_Tactical_04": {
-          "inGameName": "Epic Tactical Shield",
-          "amount": 2
-        },
-        "Shield_Restoration_03": {
-          "inGameName": "Epic Restoration Shield",
           "amount": 2
         },
         "Mod_Muzzle_Small_Supressor_01": {
@@ -4207,8 +4175,8 @@
           "inGameName": "Oil Pump Beacon",
           "amount": 12
         },
-        "ShockGrenade_03": {
-          "inGameName": "ShockGrenade_03",
+        "Consumable_Grenade_03": {
+          "inGameName": "Standard Grenade",
           "amount": 1
         },
         "Helmet_03": {
@@ -4913,14 +4881,6 @@
           "inGameName": "Epic Shield",
           "amount": 2
         },
-        "Shield_Tactical_04": {
-          "inGameName": "Epic Tactical Shield",
-          "amount": 3
-        },
-        "Shield_Restoration_03": {
-          "inGameName": "Epic Restoration Shield",
-          "amount": 3
-        },
         "Helmet_04": {
           "inGameName": "Epic Helmet",
           "amount": 1
@@ -5018,14 +4978,6 @@
         "Shield_05": {
           "inGameName": "Exotic Shield",
           "amount": 2
-        },
-        "Shield_Tactical_05": {
-          "inGameName": "Exotic Tactical Shield",
-          "amount": 3
-        },
-        "Shield_Restoration_04": {
-          "inGameName": "Exotic Restoration Shield",
-          "amount": 3
         },
         "Helmet_05": {
           "inGameName": "Exotic Helmet",
@@ -6182,8 +6134,8 @@
     "stackSize": 6,
     "uses": {
       "printing": {
-        "ShockGrenade_05": {
-          "inGameName": "ShockGrenade_05",
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
           "amount": 4
         }
       },
@@ -6367,12 +6319,7 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Shield_Tactical_05": {
-          "inGameName": "Exotic Tactical Shield",
-          "amount": 2
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-1.1": {
           "inGameName": "undefined Part 2",
@@ -6430,8 +6377,8 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "ShockGrenade_05": {
-          "inGameName": "ShockGrenade_05",
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
           "amount": 8
         }
       },
@@ -8751,261 +8698,9 @@
       "forge": {}
     }
   },
-  "OTecStim_Adrenaline": {
-    "inGameName": "OTecStim_Adrenaline",
-    "description": "OTecStim_Adrenaline",
-    "type": "consumable",
-    "rarity": "Common",
-    "weight": 5,
-    "cost": [],
-    "sellValue": 135,
-    "factionRep": 1,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 4,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "KineticShield": {
-    "inGameName": "KineticShield",
-    "description": "KineticShield",
-    "type": "consumable",
-    "rarity": "Uncommon",
-    "weight": 20,
-    "cost": [],
-    "sellValue": 152,
-    "factionRep": 2,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Cloak": {
-    "inGameName": "Cloak",
-    "description": "Cloak",
-    "type": "consumable",
-    "rarity": "Uncommon",
-    "weight": 5,
-    "cost": [],
-    "sellValue": 152,
-    "factionRep": 2,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "TurretHeavy": {
-    "inGameName": "TurretHeavy",
-    "description": "TurretHeavy",
-    "type": "consumable",
-    "rarity": "Uncommon",
-    "weight": 20,
-    "cost": [],
-    "sellValue": 304,
-    "factionRep": 3,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "KineticShield_Dome": {
-    "inGameName": "KineticShield_Dome",
-    "description": "KineticShield_Dome",
-    "type": "consumable",
-    "rarity": "Uncommon",
-    "weight": 20,
-    "cost": [],
-    "sellValue": 304,
-    "factionRep": 3,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "HealingWard": {
-    "inGameName": "HealingWard",
-    "description": "HealingWard",
-    "type": "consumable",
-    "rarity": "Uncommon",
-    "weight": 20,
-    "cost": [],
-    "sellValue": 304,
-    "factionRep": 3,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "TurretHeavy_Ouroboros": {
-    "inGameName": "TurretHeavy_Ouroboros",
-    "description": "TurretHeavy_Ouroboros",
-    "type": "consumable",
-    "rarity": "Legendary",
-    "weight": 20,
-    "cost": [],
-    "sellValue": 1538,
-    "factionRep": 15,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Consumable_Shield_01": {
-    "inGameName": "Shield Charger",
-    "description": "A device that replenishes part of the missing shield.",
-    "type": "consumable",
-    "rarity": "Common",
-    "weight": 5,
-    "cost": [],
-    "sellValue": 135,
-    "factionRep": 1,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 4,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Consumable_Stamina_01": {
-    "inGameName": "Adrenaline Shot",
-    "description": "A stim that lowers the consumption of stamina for 2 minutes.",
-    "type": "consumable",
-    "rarity": "Epic",
-    "weight": 5,
-    "cost": [],
-    "sellValue": 683,
-    "factionRep": 7,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 4,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Consumable_RoadFlare": {
-    "inGameName": "Consumable_RoadFlare",
-    "description": "Consumable_RoadFlare",
-    "type": "consumable",
-    "rarity": "Uncommon",
-    "weight": 5,
-    "cost": [],
-    "sellValue": 304,
-    "factionRep": 3,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 4,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Consumable_LaserTrap": {
-    "inGameName": "Consumable_LaserTrap",
-    "description": "Consumable_LaserTrap",
-    "type": "consumable",
-    "rarity": "Rare",
-    "weight": 20,
-    "cost": [],
-    "sellValue": 456,
-    "factionRep": 5,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 4,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Bombardment": {
-    "inGameName": "Bombardment",
-    "description": "Bombardment",
-    "type": "consumable",
-    "rarity": "Common",
-    "weight": 5,
-    "cost": [],
-    "sellValue": 135,
-    "factionRep": 1,
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "ShockGrenade_01": {
-    "inGameName": "ShockGrenade_01",
-    "description": "ShockGrenade_01",
+  "Consumable_Grenade_01": {
+    "inGameName": "Weak Grenade",
+    "description": "A thrown explosive device that detonates after a short delay.",
     "type": "consumable",
     "rarity": "Common",
     "weight": 5,
@@ -9024,9 +8719,9 @@
       "forge": {}
     }
   },
-  "ShockGrenade_02": {
-    "inGameName": "ShockGrenade_02",
-    "description": "ShockGrenade_02",
+  "Consumable_Grenade_02": {
+    "inGameName": "Light Grenade",
+    "description": "A thrown explosive device that detonates after a short delay.",
     "type": "consumable",
     "rarity": "Uncommon",
     "weight": 5,
@@ -9052,9 +8747,9 @@
       "forge": {}
     }
   },
-  "ShockGrenade_03": {
-    "inGameName": "ShockGrenade_03",
-    "description": "ShockGrenade_03",
+  "Consumable_Grenade_03": {
+    "inGameName": "Standard Grenade",
+    "description": "A thrown explosive device that detonates after a short delay.",
     "type": "consumable",
     "rarity": "Rare",
     "weight": 5,
@@ -9080,9 +8775,9 @@
       "forge": {}
     }
   },
-  "ShockGrenade_04": {
-    "inGameName": "ShockGrenade_04",
-    "description": "ShockGrenade_04",
+  "Consumable_Grenade_04": {
+    "inGameName": "Heavy Grenade",
+    "description": "A thrown explosive device that detonates after a short delay.",
     "type": "consumable",
     "rarity": "Epic",
     "weight": 5,
@@ -9101,9 +8796,9 @@
       "forge": {}
     }
   },
-  "ShockGrenade_05": {
-    "inGameName": "ShockGrenade_05",
-    "description": "ShockGrenade_05",
+  "Consumable_Grenade_05": {
+    "inGameName": "Assault Grenade",
+    "description": "A thrown explosive device that detonates after a short delay.",
     "type": "consumable",
     "rarity": "Exotic",
     "weight": 5,
@@ -9612,60 +9307,6 @@
       "forge": {}
     }
   },
-  "Shield_Tactical_04": {
-    "inGameName": "Epic Tactical Shield",
-    "description": "Protects the body of its wearer, and increases their stamina.",
-    "type": "shield",
-    "rarity": "Epic",
-    "weight": 40,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "DesertPlant": 2,
-        "HardenedBoneAlloy": 3
-      }
-    ],
-    "sellValue": 11618,
-    "factionRep": 116,
-    "tags": [],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Shield_Tactical_05": {
-    "inGameName": "Exotic Tactical Shield",
-    "description": "Protects the body of its wearer, and increases their stamina.",
-    "type": "shield",
-    "rarity": "Exotic",
-    "weight": 40,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "TentaclePlant": 2,
-        "AI_CrusherSkin": 3
-      }
-    ],
-    "sellValue": 23579,
-    "factionRep": 236,
-    "tags": [],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
   "Shield_Restoration_01": {
     "inGameName": "Uncommon Restoration Shield",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
@@ -9710,61 +9351,6 @@
     ],
     "sellValue": 4556,
     "factionRep": 46,
-    "tags": [],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Shield_Restoration_03": {
-    "inGameName": "Epic Restoration Shield",
-    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
-    "type": "shield",
-    "rarity": "Epic",
-    "weight": 40,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "RadioactiveBrightcapMushroom": 5,
-        "HardenedBoneAlloy": 3
-      }
-    ],
-    "sellValue": 11618,
-    "factionRep": 116,
-    "tags": [],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "Shield_Restoration_04": {
-    "inGameName": "Exotic Restoration Shield",
-    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
-    "type": "shield",
-    "rarity": "Exotic",
-    "weight": 40,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "PureFocusCrystal": 1,
-        "AI_CrusherSkin": 3,
-        "RadioactiveBrightcapMushroom": 5
-      }
-    ],
-    "sellValue": 23579,
-    "factionRep": 236,
     "tags": [],
     "stackSize": 1,
     "uses": {

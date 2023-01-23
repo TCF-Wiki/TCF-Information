@@ -248,62 +248,6 @@
       }
     ]
   },
-  "Shield_Tactical_04": {
-    "inGameName": "Epic Tactical Shield",
-    "description": "Protects the body of its wearer, and increases their stamina.",
-    "rarity": "Epic",
-    "weight": 40,
-    "armorAmount": 25,
-    "durability": 800,
-    "sellValue": 11618,
-    "factionRep": 116,
-    "repair": {
-      "baseCost": 1560,
-      "costModifierBroken": 3916,
-      "maxPrice": 7800,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      "Perk_MaxStamina_05"
-    ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "DesertPlant": 2,
-        "HardenedBoneAlloy": 3
-      }
-    ]
-  },
-  "Shield_Tactical_05": {
-    "inGameName": "Exotic Tactical Shield",
-    "description": "Protects the body of its wearer, and increases their stamina.",
-    "rarity": "Exotic",
-    "weight": 40,
-    "armorAmount": 30,
-    "durability": 900,
-    "sellValue": 23579,
-    "factionRep": 236,
-    "repair": {
-      "baseCost": 1975,
-      "costModifierBroken": 4953,
-      "maxPrice": 9875,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      "Perk_MaxStamina_06"
-    ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "TentaclePlant": 2,
-        "AI_CrusherSkin": 3
-      }
-    ]
-  },
   "Shield_Restoration_01": {
     "inGameName": "Uncommon Restoration Shield",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
@@ -357,63 +301,6 @@
         "CombatCPU_Blue": 2,
         "RadioactiveBrightcapMushroom": 2,
         "AI_RattlerSkin": 8
-      }
-    ]
-  },
-  "Shield_Restoration_03": {
-    "inGameName": "Epic Restoration Shield",
-    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
-    "rarity": "Epic",
-    "weight": 40,
-    "armorAmount": 25,
-    "durability": 800,
-    "sellValue": 11618,
-    "factionRep": 116,
-    "repair": {
-      "baseCost": 1560,
-      "costModifierBroken": 3916,
-      "maxPrice": 7800,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      "Perk_HealthRegenerationRate_03"
-    ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "RadioactiveBrightcapMushroom": 5,
-        "HardenedBoneAlloy": 3
-      }
-    ]
-  },
-  "Shield_Restoration_04": {
-    "inGameName": "Exotic Restoration Shield",
-    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
-    "rarity": "Exotic",
-    "weight": 40,
-    "armorAmount": 30,
-    "durability": 900,
-    "sellValue": 23579,
-    "factionRep": 236,
-    "repair": {
-      "baseCost": 1975,
-      "costModifierBroken": 4953,
-      "maxPrice": 9875,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      "Perk_HealthRegenerationRate_04"
-    ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "PureFocusCrystal": 1,
-        "AI_CrusherSkin": 3,
-        "RadioactiveBrightcapMushroom": 5
       }
     ]
   },
