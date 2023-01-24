@@ -6353,7 +6353,7 @@
   "QuestItem_LaserDrillBeacon": {
     "inGameName": "Laser Drill Beacon",
     "description": "A powerful locator that can be used to call down a Korolev Laser Drill Platform on Extreme Letium Veins.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Epic",
     "weight": 6,
     "cost": [
@@ -6382,7 +6382,7 @@
   "HardDrive_common": {
     "inGameName": "Data Drive Tier 1",
     "description": "A data drive. Data can be improved at an Uplink, or the drive exchanged for K-Marks.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 15,
     "cost": [
@@ -6408,7 +6408,7 @@
   "HardDrive_uncommon": {
     "inGameName": "Data Drive Tier 2",
     "description": "A data drive with some interesting information. Data can be improved at an Uplink, or the drive exchanged for K-Marks.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Uncommon",
     "weight": 15,
     "cost": [],
@@ -6448,7 +6448,7 @@
   "HardDrive_rare": {
     "inGameName": "Data Drive Tier 3",
     "description": "A data drive with rare information. Data can be improved at an Uplink, or the drive exchanged for K-Marks.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Rare",
     "weight": 15,
     "cost": [],
@@ -6500,7 +6500,7 @@
   "HardDrive_epic": {
     "inGameName": "Data Drive Tier 4",
     "description": "A data drive with valuable information. Data can be improved at an Uplink, or the drive exchanged for K-Marks.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Epic",
     "weight": 15,
     "cost": [],
@@ -6556,7 +6556,7 @@
   "HardDrive_legendary": {
     "inGameName": "Data Drive Tier 5",
     "description": "A data drive with highly valuable and unique information. Can be exchanged for K-Marks.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Legendary",
     "weight": 15,
     "cost": [],
@@ -6604,7 +6604,7 @@
   "Data_DigSite": {
     "inGameName": "Dig Site Data Drive",
     "description": "A data drive carrying information on the Bright Sands Dig Site.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Uncommon",
     "weight": 10,
     "cost": [],
@@ -6625,7 +6625,7 @@
   "QuestItem_OrbitalCanonTargetBeacon": {
     "inGameName": "Orbital Cannon Beacon",
     "description": "Used for opening the Elite Crusher Caverns, highly charged Osiris laser gets fired at location of this beacon.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Epic",
     "weight": 6,
     "cost": [
@@ -6655,7 +6655,7 @@
   "QuestItem_OilPumpBeacon": {
     "inGameName": "Oil Pump Beacon",
     "description": "A powerful locator that can be used to call down an ICA NiC pump and refiner on an oil deposit.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Epic",
     "weight": 6,
     "cost": [
@@ -6684,7 +6684,7 @@
   "MissionItem_MinerItem1": {
     "inGameName": "Miner Cam #2F53",
     "description": "Camera belonging to a Jamie Faulkner. The last video file is damaged, but the audio is of a large crowd demanding to be let in before suddenly cutting off.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -6710,7 +6710,7 @@
   "MissionItem_MinerItem2": {
     "inGameName": "Miner Cam #D027",
     "description": "Owner named only as Temporary. Last video shows several workers running out barricaded buildings and towards a clearing with a guarded ship being loaded with ore. Video cuts off after the owner appears to trip and fall.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -6736,7 +6736,7 @@
   "MissionItem_MinerItem3": {
     "inGameName": "Miner Cam #A45D",
     "description": "Camera belonging to a Mayumi S. Nagao. Video shows her being pushed out of a cargo ship by a Korolev Heavy Trooper and falling into the mud. Video cuts off shortly after an eruption of gunfire is heard around her.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -6762,7 +6762,7 @@
   "MissionItem_EngineerItem": {
     "inGameName": "Letium Coated Helmet",
     "description": "An engineer's helmet caked in Letium. The embedded sensors may have recorded something important.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 9,
     "cost": [],
@@ -6788,7 +6788,7 @@
   "MissionItem_CreatureSample": {
     "inGameName": "Letium Bio Samples",
     "description": "A container preserving... something. A label on the side states: WARNING: HIGH LETIUM CONTENT, DO NOT SHAKE",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 6,
     "cost": [],
@@ -6814,7 +6814,7 @@
   "MissionItem_LaserDrillPart": {
     "inGameName": "Laser Drill Control Unit",
     "description": "Part of the system that manages the Drill. Hopefully it can be reconfigured to safely mine for Letium.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 18,
     "cost": [],
@@ -6840,7 +6840,7 @@
   "MissionItem_ICAPersonalItem": {
     "inGameName": "Sign of Life from Stranded Prospector",
     "description": "A photo of Marie and a prospector named Tao. Rare to see paper photographs anymore, it must have meant a lot to the owner.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 2,
     "cost": [],
@@ -6866,7 +6866,7 @@
   "MissionItem_PowerPlantItem1": {
     "inGameName": "Notes on Meteor Experiment - 1",
     "description": "Personal data tablet with theoretical research on powering energy generators with fragments from Fortuna's moon. The power output of a single working Fireball generator would be revolutionary.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 4,
     "cost": [],
@@ -6892,7 +6892,7 @@
   "MissionItem_PowerPlantItem2": {
     "inGameName": "Notes on Meteor Experiment - 2",
     "description": "Data on the first prototype for Project Fireball. Yields under safe conditions were underwhelming, with warnings of an uncontrollable chain reaction if pushed too hard without further research. Might explain why there's a giant hole in the moon...\r\n\r\nFinal notes suggest switching resources to look into NiC.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 4,
     "cost": [],
@@ -6918,7 +6918,7 @@
   "MissionItem_OilPumpPart": {
     "inGameName": "Oil Pump Part",
     "description": "One of the few remaining components from an old oil pump that still looks to be in working condition.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 10,
     "cost": [],
@@ -6944,7 +6944,7 @@
   "MissionItem_OldBones": {
     "inGameName": "Old Bones",
     "description": "Belonging to a long dead creature, damage has exposed metalic elements that seemed to have formed after death.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 5,
     "cost": [],
@@ -6970,7 +6970,7 @@
   "MissionItem_AlphaSkull": {
     "inGameName": "Warden Tooth",
     "description": "The tooth of a now extinct massive beast once common on Fortuna III. Parts of it seem to have unnatural grooves and geometric shapes.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 9,
     "cost": [],
@@ -6996,7 +6996,7 @@
   "MissionItem_FlightRecorder": {
     "inGameName": "Flight Recorder",
     "description": "A cargo ship's flight recorder, only slightly damaged. Highly encrypted and beyond your suit's ability to access.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 15,
     "cost": [],
@@ -7022,7 +7022,7 @@
   "MissionItem_Notebook": {
     "inGameName": "Old Notebook",
     "description": "An Osiris researcher's notebook. It's seen better days. Full of formulas, drawings, and long paragraphs regarding the unnatural evolution and mutations of Fortuna III's fauna caused by Progenitor terraformers.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 4,
     "cost": [],
@@ -7048,7 +7048,7 @@
   "MissionItem_KorChiefEngineerDiary": {
     "inGameName": "Chief Engineer's Personal Diary",
     "description": "An off the record log of some of the events that occurred on Tharis island. While badly damaged, and much of it is in short hand, what's evident is Korolev ran into serious issues in the caverns: several reports of miners going missing, pervasive malaise, multiple accidents...\r\n\r\nThe operation's foreman clearly had little regard for workplace safety.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -7074,7 +7074,7 @@
   "MissionItem_ForgeIronSample": {
     "inGameName": "Tharis Iron Sample",
     "description": "A collected sample of a rare composite material found in the Tharis Caverns",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 3,
     "cost": [],
@@ -7100,7 +7100,7 @@
   "MissionItem_PureForgeIronNugget": {
     "inGameName": "Pure Tharis Iron Nugget",
     "description": "A tagged nugget of a rare composite material found in the Tharis Caverns. Denser and with next to no impurities than most samples.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 3,
     "cost": [],
@@ -7126,7 +7126,7 @@
   "MissionItem_MiningPartyMedicalFiles": {
     "inGameName": "Mining Party Medical Files",
     "description": "A collection of medical reports from the Korolev team working the caverns. Initial incidents involved exhaustion and minor injuries, but later reports focus on mental clouding, hallucinations, loss of time...\r\n\r\nSymptoms appear identical to those of prolonged exposure to the Teratomorphic Energy Field that now envelops most of Fortuna III.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 2,
     "cost": [],
@@ -7152,7 +7152,7 @@
   "MissionItem_VadimPredecessorItem": {
     "inGameName": "The Tharis Files",
     "description": "A folder kept by Gregor Kazan, the Head of Operations for Korolev when the storms hit Fortuna III decades ago. It appears he intentionally kept all reports and findings from the Tharis operations off the system, though the reason for that isn't explained, nor is how the folder ended up on the island.\r\n\r\nWorryingly, official records state less than 50 Korolev employees ever worked in the caverns, while these files list several hundred.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -7173,7 +7173,7 @@
   "MissionItem_StolenKorData1": {
     "inGameName": "Korolev Data Drive #473-D",
     "description": "A chunky old data drive. Might have some valuable info, if it still works.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 4,
     "cost": [],
@@ -7199,7 +7199,7 @@
   "MissionItem_StolenKorData2": {
     "inGameName": "Korolev Notes",
     "description": "A Korolev data drive. Appears to have been used as a blunt instrument. Has definitely seen better days.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 4,
     "cost": [],
@@ -7225,7 +7225,7 @@
   "MissionItem_CultistGlowCrystalItem": {
     "inGameName": "Mysterious Glowing Contraption",
     "description": "A crystaline chunk with various cables and circuit boards haphazardly strapped on to it.\r\n\r\nIt's impossible to tell if the mind that created this had something utilitarian in mind, or if this creation is simply a form of religious art.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 25,
     "cost": [],
@@ -7251,7 +7251,7 @@
   "MissionItem_CultistRitualItem": {
     "inGameName": "Cultist Ritual Item",
     "description": "Some sort of cultist fetish, featuring a clump of Tharis Iron and a sigil or diagram of some kind. Maybe they venerated the alien material? Or it's just a symbol for the caverns themselves?",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 4,
     "cost": [],
@@ -7277,7 +7277,7 @@
   "MissionItem_AlienShieldRecipe": {
     "inGameName": "Cultist Scribblings",
     "description": "An old sheet of paper with various drawings and pictograms laid out as simple formulas, all but one scratched out.\r\n\r\nThe same trident-like drawing found on previous cultist items features prominently here.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 1,
     "cost": [],
@@ -7303,7 +7303,7 @@
   "MissionItem_ColonistItem": {
     "inGameName": "Colonist Item",
     "description": "An old mini-comm and some personal items. Whoever this belonged to likely didn't work on the island.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 2,
     "cost": [],
@@ -7329,7 +7329,7 @@
   "MissionItem_StolenOsiHoloMap": {
     "inGameName": "Tharis Caverns Holo-Map",
     "description": "A map liberated from an abandoned Osiris outpost. Shows the layout of the Tharis caverns, including several areas marked as high-interest.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 13,
     "cost": [],
@@ -7350,7 +7350,7 @@
   "MissionItem_KorCivilianItem": {
     "inGameName": "Vintage Camera",
     "description": "An ancient video recording device, probably fashionable in some retro circles. Amazingly it actually powered on, though only for a few seconds.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 12,
     "cost": [],
@@ -7376,7 +7376,7 @@
   "MissionItem_AlienDoorFragment": {
     "inGameName": "Osiris Door Fragment",
     "description": "A loose bit from the strange door in one of the Osiris installations on Tharis Island.\r\n\r\nThe door itself seems impenetrable, far more robust than what Osiris is known for building.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 6,
     "cost": [],
@@ -7402,7 +7402,7 @@
   "MissionItem_AnalysisTool": {
     "inGameName": "Advanced Analysis Toolkit",
     "description": "An old Osiris portable lab, still in working condition. Surely nobody will mind giving it a new home and purpose...",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 10,
     "cost": [],
@@ -7428,7 +7428,7 @@
   "MissionItem_OsiChiefEngineerItem": {
     "inGameName": "Osiris Engineer Scanner",
     "description": "Recovered off the body of an Osiris engineer in Tharis Caverns, appears to have been mapping out potential research locations when they met with a terrible fate.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 6,
     "cost": [],
@@ -7454,7 +7454,7 @@
   "MissionItem_OsiHeadScientistItem": {
     "inGameName": "Osiris Helmet Recorder",
     "description": "A damaged Osiris researcher helmet, these always carry their own camera and data storage.\r\n\r\nFortunately, whatever it was that did short work of its wearer managed to avoid breaking any of the valuable bits.",
-    "type": "material",
+    "type": "questItem",
     "rarity": "Common",
     "weight": 8,
     "cost": [],

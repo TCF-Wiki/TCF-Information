@@ -10,6 +10,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "UncommonVelticite": {
@@ -23,6 +24,7 @@
     "stackSize": 10,
     "sellValue": 570,
     "factionRep": 6,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -42,6 +44,7 @@
     "stackSize": 10,
     "sellValue": 855,
     "factionRep": 9,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -61,6 +64,7 @@
     "stackSize": 10,
     "sellValue": 1922,
     "factionRep": 19,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -80,6 +84,7 @@
     "stackSize": 3,
     "sellValue": 6488,
     "factionRep": 65,
+    "questItem": false,
     "cost": []
   },
   "FocusCrystal": {
@@ -93,6 +98,7 @@
     "stackSize": 10,
     "sellValue": 961,
     "factionRep": 10,
+    "questItem": false,
     "cost": []
   },
   "PureFocusCrystal": {
@@ -106,6 +112,7 @@
     "stackSize": 10,
     "sellValue": 2884,
     "factionRep": 29,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -125,6 +132,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "PureNickel": {
@@ -138,6 +146,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -157,6 +166,7 @@
     "stackSize": 5,
     "sellValue": 38924,
     "factionRep": 389,
+    "questItem": false,
     "cost": []
   },
   "BrittleTitanOre": {
@@ -170,6 +180,7 @@
     "stackSize": 10,
     "sellValue": 570,
     "factionRep": 6,
+    "questItem": false,
     "cost": []
   },
   "TitanOre": {
@@ -183,6 +194,7 @@
     "stackSize": 10,
     "sellValue": 855,
     "factionRep": 9,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -202,6 +214,7 @@
     "stackSize": 10,
     "sellValue": 169,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "MeteorCore": {
@@ -215,6 +228,7 @@
     "stackSize": 3,
     "sellValue": 7594,
     "factionRep": 76,
+    "questItem": false,
     "cost": []
   },
   "MeteorFragment": {
@@ -228,6 +242,7 @@
     "stackSize": 10,
     "sellValue": 1013,
     "factionRep": 10,
+    "questItem": false,
     "cost": []
   },
   "BlueRunnerEgg": {
@@ -241,6 +256,7 @@
     "stackSize": 10,
     "sellValue": 2532,
     "factionRep": 25,
+    "questItem": false,
     "cost": []
   },
   "Alloys": {
@@ -255,6 +271,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "SpareCasing": {
@@ -268,6 +285,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "OpticGlass": {
@@ -281,6 +299,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "DerelictExplosives": {
@@ -294,6 +313,7 @@
     "stackSize": 10,
     "sellValue": 1709,
     "factionRep": 17,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -315,6 +335,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "CompoundSheets": {
@@ -328,6 +349,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "HydraulicPiston": {
@@ -341,6 +363,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "Gyroscope": {
@@ -354,6 +377,7 @@
     "stackSize": 10,
     "sellValue": 2563,
     "factionRep": 26,
+    "questItem": false,
     "cost": []
   },
   "BallBearings": {
@@ -368,6 +392,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "PrintResin": {
@@ -381,6 +406,7 @@
     "stackSize": 10,
     "sellValue": 1709,
     "factionRep": 17,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -401,6 +427,7 @@
     "stackSize": 10,
     "sellValue": 1139,
     "factionRep": 11,
+    "questItem": false,
     "cost": []
   },
   "ShardSlicer": {
@@ -415,6 +442,7 @@
     "stackSize": 10,
     "sellValue": 1709,
     "factionRep": 17,
+    "questItem": false,
     "cost": []
   },
   "CombatCPU_Blue": {
@@ -429,6 +457,7 @@
     "stackSize": 10,
     "sellValue": 507,
     "factionRep": 5,
+    "questItem": false,
     "cost": []
   },
   "CombatCPU_red": {
@@ -442,6 +471,7 @@
     "stackSize": 10,
     "sellValue": 3845,
     "factionRep": 38,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -463,6 +493,7 @@
     "stackSize": 10,
     "sellValue": 2025,
     "factionRep": 20,
+    "questItem": false,
     "cost": []
   },
   "ShockAbsorber": {
@@ -476,6 +507,7 @@
     "stackSize": 10,
     "sellValue": 760,
     "factionRep": 8,
+    "questItem": false,
     "cost": []
   },
   "AutoLoader": {
@@ -489,6 +521,7 @@
     "stackSize": 10,
     "sellValue": 3845,
     "factionRep": 38,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -510,6 +543,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "Datapad": {
@@ -523,6 +557,7 @@
     "stackSize": 10,
     "sellValue": 1709,
     "factionRep": 17,
+    "questItem": false,
     "cost": []
   },
   "OldCurrency": {
@@ -536,6 +571,7 @@
     "stackSize": 10000,
     "sellValue": 1,
     "factionRep": 0,
+    "questItem": false,
     "cost": []
   },
   "RadioactiveBrightcapMushroom": {
@@ -549,6 +585,7 @@
     "stackSize": 10,
     "sellValue": 507,
     "factionRep": 5,
+    "questItem": false,
     "cost": []
   },
   "BlueWood": {
@@ -563,6 +600,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "WaterPlant": {
@@ -576,6 +614,7 @@
     "stackSize": 10,
     "sellValue": 228,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "DesertPlant": {
@@ -589,6 +628,7 @@
     "stackSize": 10,
     "sellValue": 769,
     "factionRep": 8,
+    "questItem": false,
     "cost": []
   },
   "IvyPlant": {
@@ -602,6 +642,7 @@
     "stackSize": 10,
     "sellValue": 427,
     "factionRep": 4,
+    "questItem": false,
     "cost": []
   },
   "AlienFruit": {
@@ -615,6 +656,7 @@
     "stackSize": 10,
     "sellValue": 760,
     "factionRep": 8,
+    "questItem": false,
     "cost": []
   },
   "Fabrics": {
@@ -628,6 +670,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "Cables": {
@@ -642,6 +685,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "Insulation": {
@@ -655,6 +699,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "CopperWire": {
@@ -668,6 +713,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "SmartMesh": {
@@ -682,6 +728,7 @@
     "stackSize": 10,
     "sellValue": 1709,
     "factionRep": 17,
+    "questItem": false,
     "cost": []
   },
   "CircuitBoard": {
@@ -695,6 +742,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "RadioSpareParts": {
@@ -708,6 +756,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "Antibiotics": {
@@ -721,6 +770,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "PortableLabEquipmentBox": {
@@ -735,6 +785,7 @@
     "stackSize": 10,
     "sellValue": 3845,
     "factionRep": 38,
+    "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -757,6 +808,7 @@
     "stackSize": 10,
     "sellValue": 150,
     "factionRep": 2,
+    "questItem": false,
     "cost": []
   },
   "LiquidFertilizer": {
@@ -770,6 +822,7 @@
     "stackSize": 10,
     "sellValue": 338,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "SamplingDevice": {
@@ -783,6 +836,7 @@
     "stackSize": 10,
     "sellValue": 1139,
     "factionRep": 11,
+    "questItem": false,
     "cost": []
   },
   "AnaestheticsContainers": {
@@ -796,6 +850,7 @@
     "stackSize": 10,
     "sellValue": 760,
     "factionRep": 8,
+    "questItem": false,
     "cost": []
   },
   "ProteinBar": {
@@ -809,6 +864,7 @@
     "stackSize": 10,
     "sellValue": 507,
     "factionRep": 5,
+    "questItem": false,
     "cost": []
   },
   "Jewellery": {
@@ -822,6 +878,7 @@
     "stackSize": 10,
     "sellValue": 1013,
     "factionRep": 10,
+    "questItem": false,
     "cost": []
   },
   "SampleContainer": {
@@ -836,6 +893,7 @@
     "stackSize": 10,
     "sellValue": 507,
     "factionRep": 5,
+    "questItem": false,
     "cost": []
   },
   "AluminumParts": {
@@ -849,6 +907,7 @@
     "stackSize": 10,
     "sellValue": 507,
     "factionRep": 5,
+    "questItem": false,
     "cost": []
   },
   "GenericCreatureDrop": {
@@ -862,6 +921,7 @@
     "stackSize": 10,
     "sellValue": 300,
     "factionRep": 3,
+    "questItem": false,
     "cost": []
   },
   "StormyCreatureDrop": {
@@ -875,6 +935,7 @@
     "stackSize": 10,
     "sellValue": 450,
     "factionRep": 5,
+    "questItem": false,
     "cost": []
   },
   "NeuroToxicGlands": {
@@ -888,6 +949,7 @@
     "stackSize": 10,
     "sellValue": 900,
     "factionRep": 9,
+    "questItem": false,
     "cost": []
   },
   "AI_StriderHead": {
@@ -901,6 +963,7 @@
     "stackSize": 5,
     "sellValue": 6812,
     "factionRep": 68,
+    "questItem": false,
     "cost": []
   },
   "AI_RattlerHead": {
@@ -914,6 +977,7 @@
     "stackSize": 5,
     "sellValue": 15570,
     "factionRep": 156,
+    "questItem": false,
     "cost": []
   },
   "AI_WeremoleHead": {
@@ -927,6 +991,7 @@
     "stackSize": 5,
     "sellValue": 38924,
     "factionRep": 389,
+    "questItem": false,
     "cost": []
   },
   "AI_CrusherHead": {
@@ -940,6 +1005,7 @@
     "stackSize": 5,
     "sellValue": 97310,
     "factionRep": 973,
+    "questItem": false,
     "cost": []
   },
   "AlphaCrusherSkull": {
@@ -954,6 +1020,7 @@
     "stackSize": 1,
     "sellValue": 518986,
     "factionRep": 5190,
+    "questItem": false,
     "cost": []
   },
   "AI_StriderMeat": {
@@ -967,6 +1034,7 @@
     "stackSize": 10,
     "sellValue": 675,
     "factionRep": 7,
+    "questItem": false,
     "cost": []
   },
   "AI_RattlerEyes": {
@@ -980,6 +1048,7 @@
     "stackSize": 10,
     "sellValue": 1519,
     "factionRep": 15,
+    "questItem": false,
     "cost": []
   },
   "AI_WeremoleMeat": {
@@ -993,6 +1062,7 @@
     "stackSize": 10,
     "sellValue": 5126,
     "factionRep": 51,
+    "questItem": false,
     "cost": []
   },
   "AI_CrusherMeat": {
@@ -1006,6 +1076,7 @@
     "stackSize": 10,
     "sellValue": 17300,
     "factionRep": 173,
+    "questItem": false,
     "cost": []
   },
   "AI_RattlerSkin": {
@@ -1019,6 +1090,7 @@
     "stackSize": 10,
     "sellValue": 675,
     "factionRep": 7,
+    "questItem": false,
     "cost": []
   },
   "HardenedBoneAlloy": {
@@ -1032,6 +1104,7 @@
     "stackSize": 10,
     "sellValue": 3417,
     "factionRep": 34,
+    "questItem": false,
     "cost": []
   },
   "AI_CrusherSkin": {
@@ -1045,6 +1118,7 @@
     "stackSize": 10,
     "sellValue": 11533,
     "factionRep": 115,
+    "questItem": false,
     "cost": []
   },
   "AlphaWardenHeart": {
@@ -1058,6 +1132,7 @@
     "stackSize": 1,
     "sellValue": 129747,
     "factionRep": 1297,
+    "questItem": false,
     "cost": []
   },
   "Adhesive": {
@@ -1072,6 +1147,7 @@
     "stackSize": 10,
     "sellValue": 760,
     "factionRep": 8,
+    "questItem": false,
     "cost": []
   },
   "KorolevScrip": {
@@ -1085,6 +1161,7 @@
     "stackSize": 10000,
     "sellValue": 10,
     "factionRep": 0,
+    "questItem": false,
     "cost": []
   },
   "OsirisScrip": {
@@ -1098,6 +1175,7 @@
     "stackSize": 10000,
     "sellValue": 10,
     "factionRep": 0,
+    "questItem": false,
     "cost": []
   },
   "ICAScrip": {
@@ -1111,6 +1189,7 @@
     "stackSize": 10000,
     "sellValue": 10,
     "factionRep": 0,
+    "questItem": false,
     "cost": []
   },
   "Letium": {
@@ -1124,6 +1203,7 @@
     "stackSize": 10,
     "sellValue": 11533,
     "factionRep": 115,
+    "questItem": false,
     "cost": []
   },
   "OilTank": {
@@ -1137,6 +1217,7 @@
     "stackSize": 10,
     "sellValue": 20183,
     "factionRep": 202,
+    "questItem": false,
     "cost": []
   },
   "AI_StriderMeat_03": {
@@ -1150,6 +1231,7 @@
     "stackSize": 10,
     "sellValue": 5126,
     "factionRep": 51,
+    "questItem": false,
     "cost": []
   },
   "AI_RattlerEyes_02": {
@@ -1163,6 +1245,7 @@
     "stackSize": 10,
     "sellValue": 5126,
     "factionRep": 51,
+    "questItem": false,
     "cost": []
   },
   "AI_WeremoleMeat_02": {
@@ -1176,6 +1259,7 @@
     "stackSize": 10,
     "sellValue": 11533,
     "factionRep": 115,
+    "questItem": false,
     "cost": []
   },
   "AI_StriderHead_03": {
@@ -1189,6 +1273,7 @@
     "stackSize": 3,
     "sellValue": 52548,
     "factionRep": 525,
+    "questItem": false,
     "cost": []
   },
   "AI_RattlerHead_02": {
@@ -1202,6 +1287,7 @@
     "stackSize": 3,
     "sellValue": 52548,
     "factionRep": 525,
+    "questItem": false,
     "cost": []
   },
   "AI_WeremoleHead_02": {
@@ -1215,6 +1301,7 @@
     "stackSize": 3,
     "sellValue": 116772,
     "factionRep": 1168,
+    "questItem": false,
     "cost": []
   },
   "ForgeIron": {
@@ -1228,6 +1315,7 @@
     "stackSize": 10,
     "sellValue": 1025,
     "factionRep": 10,
+    "questItem": false,
     "cost": []
   },
   "PureForgeIron": {
@@ -1241,6 +1329,7 @@
     "stackSize": 10,
     "sellValue": 2307,
     "factionRep": 23,
+    "questItem": false,
     "cost": []
   },
   "ForgeIronIngot": {
@@ -1254,6 +1343,7 @@
     "stackSize": 6,
     "sellValue": 3845,
     "factionRep": 38,
+    "questItem": false,
     "cost": []
   },
   "ChargedForgeIronIngot": {
@@ -1267,6 +1357,7 @@
     "stackSize": 6,
     "sellValue": 8650,
     "factionRep": 87,
+    "questItem": false,
     "cost": []
   },
   "SuperChargedForgeIronIngot": {
@@ -1280,6 +1371,7 @@
     "stackSize": 6,
     "sellValue": 12975,
     "factionRep": 130,
+    "questItem": false,
     "cost": []
   },
   "GlowingCrystalCoreShard": {
@@ -1293,6 +1385,7 @@
     "stackSize": 10,
     "sellValue": 1709,
     "factionRep": 17,
+    "questItem": false,
     "cost": []
   },
   "AF_Slag": {
@@ -1306,6 +1399,7 @@
     "stackSize": 3,
     "sellValue": 77848,
     "factionRep": 778,
+    "questItem": false,
     "cost": []
   },
   "AF_Token": {
@@ -1319,6 +1413,7 @@
     "stackSize": 5,
     "sellValue": 12975,
     "factionRep": 130,
+    "questItem": false,
     "cost": []
   },
   "TentaclePlant": {
@@ -1332,6 +1427,7 @@
     "stackSize": 10,
     "sellValue": 2563,
     "factionRep": 26,
+    "questItem": false,
     "cost": []
   },
   "Alien_Scrap": {
@@ -1345,6 +1441,7 @@
     "stackSize": 10,
     "sellValue": 760,
     "factionRep": 8,
+    "questItem": false,
     "cost": []
   },
   "QuestItem_LaserDrillBeacon": {
@@ -1358,6 +1455,7 @@
     "stackSize": 3,
     "sellValue": 4936,
     "factionRep": 5,
+    "questItem": true,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -1379,6 +1477,7 @@
     "stackSize": 1,
     "sellValue": 30,
     "factionRep": 0,
+    "questItem": true,
     "cost": [
       {
         "shop": "ICA",
@@ -1397,6 +1496,7 @@
     "stackSize": 1,
     "sellValue": 1013,
     "factionRep": 1,
+    "questItem": true,
     "cost": []
   },
   "HardDrive_rare": {
@@ -1410,6 +1510,7 @@
     "stackSize": 1,
     "sellValue": 2531,
     "factionRep": 3,
+    "questItem": true,
     "cost": []
   },
   "HardDrive_epic": {
@@ -1423,6 +1524,7 @@
     "stackSize": 1,
     "sellValue": 6075,
     "factionRep": 6,
+    "questItem": true,
     "cost": []
   },
   "HardDrive_legendary": {
@@ -1436,6 +1538,7 @@
     "stackSize": 1,
     "sellValue": 10252,
     "factionRep": 10,
+    "questItem": true,
     "cost": []
   },
   "Data_DigSite": {
@@ -1449,6 +1552,7 @@
     "stackSize": 1,
     "sellValue": 34,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "QuestItem_OrbitalCanonTargetBeacon": {
@@ -1462,6 +1566,7 @@
     "stackSize": 3,
     "sellValue": 4936,
     "factionRep": 5,
+    "questItem": true,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -1484,6 +1589,7 @@
     "stackSize": 3,
     "sellValue": 4936,
     "factionRep": 5,
+    "questItem": true,
     "cost": [
       {
         "shop": "CraftingStation",
@@ -1505,6 +1611,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_MinerItem2": {
@@ -1518,6 +1625,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_MinerItem3": {
@@ -1531,6 +1639,7 @@
     "stackSize": 1,
     "sellValue": 0,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_EngineerItem": {
@@ -1544,6 +1653,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_CreatureSample": {
@@ -1557,6 +1667,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_LaserDrillPart": {
@@ -1570,6 +1681,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_ICAPersonalItem": {
@@ -1583,6 +1695,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_PowerPlantItem1": {
@@ -1596,6 +1709,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_PowerPlantItem2": {
@@ -1609,6 +1723,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_OilPumpPart": {
@@ -1622,6 +1737,7 @@
     "stackSize": 1,
     "sellValue": 15,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_OldBones": {
@@ -1635,6 +1751,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_AlphaSkull": {
@@ -1648,6 +1765,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_FlightRecorder": {
@@ -1661,6 +1779,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_Notebook": {
@@ -1674,6 +1793,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_KorChiefEngineerDiary": {
@@ -1687,6 +1807,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_ForgeIronSample": {
@@ -1700,6 +1821,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_PureForgeIronNugget": {
@@ -1713,6 +1835,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_MiningPartyMedicalFiles": {
@@ -1726,6 +1849,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_VadimPredecessorItem": {
@@ -1739,6 +1863,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_StolenKorData1": {
@@ -1752,6 +1877,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_StolenKorData2": {
@@ -1765,6 +1891,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_CultistGlowCrystalItem": {
@@ -1778,6 +1905,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_CultistRitualItem": {
@@ -1791,6 +1919,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_AlienShieldRecipe": {
@@ -1804,6 +1933,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_ColonistItem": {
@@ -1817,6 +1947,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_StolenOsiHoloMap": {
@@ -1830,6 +1961,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_KorCivilianItem": {
@@ -1843,6 +1975,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_AlienDoorFragment": {
@@ -1856,6 +1989,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_AnalysisTool": {
@@ -1869,6 +2003,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_OsiChiefEngineerItem": {
@@ -1882,6 +2017,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   },
   "MissionItem_OsiHeadScientistItem": {
@@ -1895,6 +2031,7 @@
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,
+    "questItem": true,
     "cost": []
   }
 }
