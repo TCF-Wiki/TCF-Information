@@ -26,14 +26,6 @@
         }
       },
       "jobs": {
-        "Test-MultipleObjectives": {
-          "inGameName": "6C7AFB14492AA7750BCAAE99B1D70906",
-          "amount": 5
-        },
-        "Test-Not-Free-Contract": {
-          "inGameName": "86F28CEF43A8271D1901DC80335C83BE",
-          "amount": 2
-        },
         "Easy-KOR-Minerals-1": {
           "inGameName": "Veltecite Run I",
           "amount": 3
@@ -573,10 +565,6 @@
         }
       },
       "jobs": {
-        "Test-Location-MultipleObjectives": {
-          "inGameName": "DA2B223E47A67475AA12259FB6D31831",
-          "amount": 2
-        },
         "Easy-KOR_FTUE-Minerals-1": {
           "inGameName": "Nickel Run",
           "amount": 2
@@ -907,10 +895,6 @@
           "inGameName": "Naturalist III",
           "amount": 25
         },
-        "Medium-Brightcaps-Zeal-1": {
-          "inGameName": "2F4537B3434A0E6BA0ABD0990E135D57",
-          "amount": 8
-        },
         "Medium-Osiris-Conditional-3": {
           "inGameName": "Muddied Waters",
           "amount": 2
@@ -1153,10 +1137,6 @@
       "jobs": {
         "Medium-Osiris-Tracking-1": {
           "inGameName": "Live Sample",
-          "amount": 1
-        },
-        "Medium-Osiris-Hunt-1_0": {
-          "inGameName": "8949018140F121F83C22CEA2D7274F5E",
           "amount": 1
         },
         "NEW-Easy-Osiris-BlueRunnerEgg-1": {
@@ -6368,27 +6348,6 @@
           "amount": 3
         }
       }
-    }
-  },
-  "QuestItem_AlphaWardenBait": {
-    "inGameName": "Alpha Crusher Bait",
-    "description": "Printed using Mutated Biomass, this bait can be used to summon an Alpha Crusher at one of its Feeding Grounds.",
-    "type": "material",
-    "rarity": "Epic",
-    "weight": 5,
-    "cost": [],
-    "sellValue": 0,
-    "factionRep": 0,
-    "tags": [
-      "Loot.Category.MissionItem"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
     }
   },
   "QuestItem_LaserDrillBeacon": {
