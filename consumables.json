@@ -439,40 +439,6 @@
       }
     ]
   },
-  "Consumable_Grenade_01": {
-    "inGameName": "Weak Grenade",
-    "description": "A thrown explosive device that detonates after a short delay.",
-    "rarity": "Common",
-    "tags": [
-      "Equipment.Consumables"
-    ],
-    "weight": 5,
-    "stackSize": 4,
-    "sellValue": 0,
-    "factionRep": 0,
-    "action": null,
-    "tuning": {
-      "damageType": "Damage",
-      "penetration": 5,
-      "directDamage": 0,
-      "radialDamage": 100,
-      "cooldownTime": 4,
-      "actionTime": 1,
-      "refireTime": 0.4,
-      "reloadTime": 2.6,
-      "movementSpeedMultiplier": 1,
-      "weakDamageMultiplier": 1,
-      "weakDamageMultiplierEnemy": 1,
-      "directDamagePlayerMultiplier": 1,
-      "directDamageEnemyMultiplier": 2,
-      "radialDamagePlayerMultiplier": 1,
-      "radialDamageEnemyMultiplier": 2,
-      "unequipTime": 0.6,
-      "equipTime": 0.6,
-      "spinupTime": 0
-    },
-    "cost": []
-  },
   "Consumable_Grenade_02": {
     "inGameName": "Light Grenade",
     "description": "A thrown explosive device that detonates after a short delay.",
