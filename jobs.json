@@ -697,7 +697,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 20
+        "maxProgress": 20,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "OwnNumOfItem",
@@ -1178,7 +1186,15 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 6
+        "maxProgress": 6,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1649,7 +1665,17 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 7
+        "maxProgress": 7,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1684,7 +1710,17 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Shotgun"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1719,7 +1755,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 12
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1754,7 +1798,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1789,11 +1841,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 10
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1828,7 +1896,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1863,11 +1939,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1902,7 +1994,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 10
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1937,7 +2037,17 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -1972,11 +2082,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 15
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2011,7 +2137,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2046,7 +2180,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2081,7 +2223,17 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 12
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2116,11 +2268,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 6
+        "maxProgress": 6,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2155,11 +2323,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 10
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 15
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2194,7 +2378,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 12
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2229,7 +2421,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 20
+        "maxProgress": 20,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2264,7 +2464,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2299,11 +2507,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 16
+        "maxProgress": 16,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2338,7 +2562,18 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 2
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle",
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2373,7 +2608,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2408,7 +2651,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 4
+        "maxProgress": 4,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2443,15 +2694,39 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 6
+        "maxProgress": 6,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 12
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2486,7 +2761,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2521,7 +2804,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 4
+        "maxProgress": 4,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2556,7 +2847,86 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SGun_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_HVY_Shell_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SMG_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2591,11 +2961,31 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 2
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Shotgun"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 2
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::Pistol"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2630,11 +3020,43 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 4
+        "maxProgress": 4,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 4
+        "maxProgress": 4,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2669,7 +3091,72 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2704,7 +3191,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2739,7 +3234,17 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2774,15 +3279,63 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 2
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2817,7 +3370,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2852,7 +3413,72 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2887,11 +3513,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 10
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2926,7 +3568,65 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -2961,11 +3661,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -3000,7 +3716,23 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 4
+        "maxProgress": 4,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -3040,7 +3772,15 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -3116,7 +3856,15 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Acid",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -3939,7 +4687,15 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15
+        "maxProgress": 15,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -4618,7 +5374,15 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -4766,7 +5530,86 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SGun_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_HVY_Shell_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SMG_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -4801,7 +5644,15 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 20
+        "maxProgress": 20,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "OwnNumOfItem",
@@ -4928,7 +5779,17 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 5
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SMG"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -5508,11 +6369,27 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 12
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "MP_AlienCaverns_P",
+          "m_onlyDuringStorm": false
+        }
       },
       {
         "type": "Kills",
-        "maxProgress": 4
+        "maxProgress": 4,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_mapName": "MP_AlienCaverns_P",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
