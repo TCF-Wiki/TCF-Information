@@ -3,6 +3,7 @@
     "inGameName": "No Optics",
     "description": "17348771467FF6FBFFDD14A72A7EF7EC",
     "type": "Optics",
+    "compatible": [],
     "rarity": "Common",
     "tags": [],
     "weight": 1,
@@ -16,6 +17,7 @@
     "inGameName": "No Magazine",
     "description": "BB9C095D4770A7C37569F899815ECAFD",
     "type": "Magazine",
+    "compatible": [],
     "rarity": "Common",
     "tags": [],
     "weight": 1,
@@ -29,6 +31,7 @@
     "inGameName": "No Barrel",
     "description": "BB9C095D4770A7C37569F899815ECAFD",
     "type": "Barrel",
+    "compatible": [],
     "rarity": "Common",
     "tags": [],
     "weight": 1,
@@ -42,6 +45,7 @@
     "inGameName": "No Stock",
     "description": "BB9C095D4770A7C37569F899815ECAFD",
     "type": "Stock",
+    "compatible": [],
     "rarity": "Common",
     "tags": [],
     "weight": 1,
@@ -55,6 +59,7 @@
     "inGameName": "No Grip",
     "description": "BB9C095D4770A7C37569F899815ECAFD",
     "type": "RearGrip",
+    "compatible": [],
     "rarity": "Common",
     "tags": [],
     "weight": 1,
@@ -68,6 +73,7 @@
     "inGameName": "No Attatchment",
     "description": "BB9C095D4770A7C37569F899815ECAFD",
     "type": "Attachment",
+    "compatible": [],
     "rarity": "Common",
     "tags": [],
     "weight": 1,
@@ -81,6 +87,9 @@
     "inGameName": "Focus Crystal Scanning Module",
     "description": "Scanners equipped with this Attachment can highlight Focus Crystals and Pure Focus Crystals while scanning.",
     "type": "ScannerUpgrade3",
+    "compatible": [
+      "Tools.Scanner.Scanner3"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -107,6 +116,9 @@
     "inGameName": "Titan Ore Scanning Module",
     "description": "Scanners equipped with this Attachment can highlight Titan Ore and Brittle Titan Ore while scanning.",
     "type": "ScannerUpgrade2",
+    "compatible": [
+      "Tools.Scanner.Scanner2"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -133,6 +145,9 @@
     "inGameName": "Veltecite Scanning Module",
     "description": "Scanners equipped with this Attachment can highlight Veltecite while scanning.",
     "type": "ScannerUpgrade1",
+    "compatible": [
+      "Tools.Scanner.Scanner1"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -159,6 +174,7 @@
     "inGameName": "2x Optic",
     "description": "Optic with 2x Magnification.",
     "type": "Optics",
+    "compatible": [],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -197,6 +213,7 @@
     "inGameName": "4x Optic",
     "description": "Optic with 4x Magnification.",
     "type": "Optics",
+    "compatible": [],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -219,6 +236,9 @@
     "inGameName": "Light Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -248,6 +268,9 @@
     "inGameName": "Light Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -269,6 +292,9 @@
     "inGameName": "Light Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -290,6 +316,9 @@
     "inGameName": "Medium Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -311,6 +340,9 @@
     "inGameName": "Heavy Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -332,6 +364,9 @@
     "inGameName": "Shotgun Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -353,6 +388,10 @@
     "inGameName": "Small Suppressor",
     "description": "Suppresses the produced sound when firing.",
     "type": "Muzzle",
+    "compatible": [
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -382,6 +421,11 @@
     "inGameName": "Medium Suppressor",
     "description": "Suppresses the produced sound when firing.",
     "type": "Muzzle",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.AR",
+      "Weapon.Category.DMR"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -411,6 +455,9 @@
     "inGameName": "Light Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -432,6 +479,9 @@
     "inGameName": "Medium Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -453,6 +503,9 @@
     "inGameName": "Heavy Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -474,6 +527,9 @@
     "inGameName": "Shotgun Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -495,6 +551,7 @@
     "inGameName": "Angled Foregrip",
     "description": "Reduces the recoil when firing.",
     "type": "ForeGrip",
+    "compatible": [],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -533,6 +590,7 @@
     "inGameName": "Ergonomic Grip",
     "description": "Improves a weapon's time to equip.",
     "type": "RearGrip",
+    "compatible": [],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -571,6 +629,7 @@
     "inGameName": "Tactical Light",
     "description": "A mounted flashlight that can be toggled on and off.",
     "type": "Tactical",
+    "compatible": [],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -603,6 +662,10 @@
     "inGameName": "Marksman Stock",
     "description": "Reduces the received kick from recoil.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -641,6 +704,12 @@
     "inGameName": "Standard Stock",
     "description": "Reduces the recoil when firing.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.SMG",
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -679,6 +748,9 @@
     "inGameName": "Medium Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -700,6 +772,9 @@
     "inGameName": "Medium Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -729,6 +804,9 @@
     "inGameName": "Heavy Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -750,6 +828,9 @@
     "inGameName": "Heavy Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -779,6 +860,9 @@
     "inGameName": "Shotgun Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -800,6 +884,9 @@
     "inGameName": "Shotgun Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -829,6 +916,9 @@
     "inGameName": "Light Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -867,6 +957,9 @@
     "inGameName": "Light Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -888,6 +981,9 @@
     "inGameName": "Light Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -909,6 +1005,9 @@
     "inGameName": "Light Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -938,6 +1037,9 @@
     "inGameName": "Medium Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -976,6 +1078,9 @@
     "inGameName": "Medium Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -997,6 +1102,9 @@
     "inGameName": "Medium Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1018,6 +1126,9 @@
     "inGameName": "Medium Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -1047,6 +1158,9 @@
     "inGameName": "Heavy Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -1085,6 +1199,9 @@
     "inGameName": "Heavy Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1106,6 +1223,9 @@
     "inGameName": "Heavy Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1127,6 +1247,9 @@
     "inGameName": "Heavy Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -1156,6 +1279,9 @@
     "inGameName": "Shotgun Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -1194,6 +1320,9 @@
     "inGameName": "Shotgun Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1215,6 +1344,9 @@
     "inGameName": "Shotgun Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1236,6 +1368,9 @@
     "inGameName": "Shotgun Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -1265,6 +1400,9 @@
     "inGameName": "Light Extended Quickdraw",
     "description": "Capacity and reload speed increase.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1291,6 +1429,9 @@
     "inGameName": "Light Extended Quickdraw",
     "description": "Capacity and reload speed increase.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -1325,6 +1466,9 @@
     "inGameName": "Medium Extended Quickdraw",
     "description": "Capacity and reload speed increase.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1351,6 +1495,9 @@
     "inGameName": "Medium Extended Quickdraw",
     "description": "Capacity and reload speed increase.",
     "type": "Magazine",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -1385,6 +1532,12 @@
     "inGameName": "Standard Stock",
     "description": "Reduces the recoil when firing.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.SMG",
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1406,6 +1559,12 @@
     "inGameName": "Quickdraw Stock",
     "description": "Improves a weapon's time to equip.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.SMG",
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -1444,6 +1603,12 @@
     "inGameName": "Quickdraw Stock",
     "description": "Improves a weapon's time to equip.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.SMG",
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1465,6 +1630,12 @@
     "inGameName": "Tactical Stock",
     "description": "Reduces the time to aim down the sight.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.SMG",
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1486,6 +1657,12 @@
     "inGameName": "Tactical Stock",
     "description": "Reduces the time to aim down the sight.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.SMG",
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1507,6 +1684,12 @@
     "inGameName": "Ultralight Stock",
     "description": "Reduces the time to equip and aim down the sight.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.SMG",
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1533,6 +1716,12 @@
     "inGameName": "Ultralight Stock",
     "description": "Reduces the time to equip and aim down the sight.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.SMG",
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -1566,6 +1755,10 @@
     "inGameName": "Marksman Stock",
     "description": "Reduces the received kick from recoil.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1587,6 +1780,10 @@
     "inGameName": "MKM Quickdraw Stock",
     "description": "Improves a weapon's time to equip.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -1625,6 +1822,10 @@
     "inGameName": "MKM Quickdraw Stock",
     "description": "Improves a weapon's time to equip.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1646,6 +1847,10 @@
     "inGameName": "MKM Tactical Stock",
     "description": "Reduces the time to aim down the sight.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1667,6 +1872,10 @@
     "inGameName": "MKM Tactical Stock",
     "description": "Reduces the time to aim down the sight.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1688,6 +1897,10 @@
     "inGameName": "MKM Ultralight Stock",
     "description": "Reduces the time to equip and aim down the sight.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1714,6 +1927,10 @@
     "inGameName": "MKM Ultralight Stock",
     "description": "Reduces the time to equip and aim down the sight.",
     "type": "Stock",
+    "compatible": [
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -1747,6 +1964,10 @@
     "inGameName": "Small Muzzle Brake",
     "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
+    "compatible": [
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -1785,6 +2006,10 @@
     "inGameName": "Small Muzzle Brake",
     "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
+    "compatible": [
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1806,6 +2031,10 @@
     "inGameName": "Small Muzzle Brake",
     "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
+    "compatible": [
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1827,6 +2056,11 @@
     "inGameName": "Medium Muzzle Brake",
     "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.AR",
+      "Weapon.Category.DMR"
+    ],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -1865,6 +2099,11 @@
     "inGameName": "Medium Muzzle Brake",
     "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.AR",
+      "Weapon.Category.DMR"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -1886,6 +2125,11 @@
     "inGameName": "Medium Muzzle Brake",
     "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
+    "compatible": [
+      "Weapon.Category.Shotgun",
+      "Weapon.Category.AR",
+      "Weapon.Category.DMR"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1907,6 +2151,9 @@
     "inGameName": "Light Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1928,6 +2175,9 @@
     "inGameName": "Light Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -1957,6 +2207,9 @@
     "inGameName": "Medium Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -1978,6 +2231,9 @@
     "inGameName": "Medium Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2007,6 +2263,9 @@
     "inGameName": "Heavy Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -2028,6 +2287,9 @@
     "inGameName": "Heavy Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Heavy"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2057,6 +2319,9 @@
     "inGameName": "Shotgun Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -2078,6 +2343,9 @@
     "inGameName": "Shotgun Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2107,6 +2375,9 @@
     "inGameName": "Light Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2128,6 +2399,9 @@
     "inGameName": "Light Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -2149,6 +2423,9 @@
     "inGameName": "Light Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Light"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2178,6 +2455,9 @@
     "inGameName": "Medium Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2199,6 +2479,9 @@
     "inGameName": "Medium Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -2220,6 +2503,9 @@
     "inGameName": "Medium Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Medium"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2249,6 +2535,9 @@
     "inGameName": "Shotgun Slugs",
     "description": "Fires a single projectile improving the effective range.",
     "type": "AmmoConverter",
+    "compatible": [
+      "Weapon.Ammo.Shotgun"
+    ],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2285,6 +2574,7 @@
     "inGameName": "Angled Foregrip",
     "description": "Reduces the recoil when firing.",
     "type": "ForeGrip",
+    "compatible": [],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2306,6 +2596,7 @@
     "inGameName": "Quickdraw Foregrip",
     "description": "Improves a weapon's time to equip.",
     "type": "ForeGrip",
+    "compatible": [],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -2344,6 +2635,7 @@
     "inGameName": "Quickdraw Foregrip",
     "description": "Improves a weapon's time to equip.",
     "type": "ForeGrip",
+    "compatible": [],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2365,6 +2657,7 @@
     "inGameName": "Tactical Foregrip",
     "description": "Reduces the time to aim down the sight.",
     "type": "ForeGrip",
+    "compatible": [],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2386,6 +2679,7 @@
     "inGameName": "Tactical Foregrip",
     "description": "Reduces the time to aim down the sight.",
     "type": "ForeGrip",
+    "compatible": [],
     "rarity": "Rare",
     "tags": [
       "Weapon.Attachment"
@@ -2407,6 +2701,7 @@
     "inGameName": "Tactical Foregrip",
     "description": "Reduces the time to aim down the sight.",
     "type": "ForeGrip",
+    "compatible": [],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2436,6 +2731,7 @@
     "inGameName": "Ergonomic Grip",
     "description": "Improves a weapon's time to equip.",
     "type": "RearGrip",
+    "compatible": [],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2457,6 +2753,7 @@
     "inGameName": "Tactical Rear Grip",
     "description": "Reduces the time to aim down the sight.",
     "type": "RearGrip",
+    "compatible": [],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -2495,6 +2792,7 @@
     "inGameName": "Tactical Rear Grip",
     "description": "Reduces the time to aim down the sight.",
     "type": "RearGrip",
+    "compatible": [],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2516,6 +2814,7 @@
     "inGameName": "Red Dot Sight",
     "description": "A non-magnifying red dot sight.",
     "type": "Optics",
+    "compatible": [],
     "rarity": "Common",
     "tags": [
       "Weapon.Attachment"
@@ -2548,6 +2847,7 @@
     "inGameName": "Holographic Sight",
     "description": "A non-magnifying Holographic sight.",
     "type": "Optics",
+    "compatible": [],
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Attachment"
@@ -2570,6 +2870,7 @@
     "inGameName": "2 - 4x Variable Optic",
     "description": "Variable optic that allows to swap between 2x and 4x magnification.",
     "type": "Optics",
+    "compatible": [],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2598,6 +2899,10 @@
     "inGameName": "8x Optic",
     "description": "Optic with 8x Magnification.",
     "type": "Optics",
+    "compatible": [
+      "Weapon.Category.Sniper",
+      "Weapon.Category.DMR"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2626,6 +2931,10 @@
     "inGameName": "6x Optic",
     "description": "Optic with 6x Magnification.",
     "type": "Optics",
+    "compatible": [
+      "Weapon.Category.Sniper",
+      "Weapon.Category.DMR"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
@@ -2654,6 +2963,9 @@
     "inGameName": "Crude Oil Scanning Module",
     "description": "Scanners equipped with this Attachment can highlight active Crude Oil Wells while scanning.",
     "type": "ScannerUpgrade4",
+    "compatible": [
+      "Tools.Scanner.Scanner4"
+    ],
     "rarity": "Epic",
     "tags": [
       "Weapon.Attachment"
