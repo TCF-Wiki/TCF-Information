@@ -1,26 +1,30 @@
 {
   "Bag_01_broken": {
-    "ingamename": "Worn Emergency Bag",
+    "inGameName": "Worn Emergency Bag",
+    "description": "A worn out backpack that doesn't seem to hold much.",
     "rarity": "Common",
+    "weight": 5,
     "weightLimit": 100,
     "durability": -1,
-    "weight": 5,
+    "sellValue": 180,
+    "factionRep": 2,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [],
-    "sellValue": 180,
-    "factionRep": 2
+    "cost": []
   },
   "Bag_01": {
-    "ingamename": "Small Backpack",
+    "inGameName": "Small Backpack",
+    "description": "A small backpack for storing items.",
     "rarity": "Common",
+    "weight": 20,
     "weightLimit": 200,
     "durability": -1,
-    "weight": 20,
+    "sellValue": 180,
+    "factionRep": 2,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
@@ -44,16 +48,17 @@
         "shop": "QuickShop",
         "SoftCurrency": 600
       }
-    ],
-    "sellValue": 180,
-    "factionRep": 2
+    ]
   },
   "Bag_02": {
-    "ingamename": "Medium Backpack",
+    "inGameName": "Medium Backpack",
+    "description": "A medium backpack for storing items.",
     "rarity": "Uncommon",
+    "weight": 30,
     "weightLimit": 250,
     "durability": -1,
-    "weight": 30,
+    "sellValue": 810,
+    "factionRep": 8,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
@@ -67,16 +72,17 @@
         "PolymetallicPrefabricate": 2,
         "PureNickel": 2
       }
-    ],
-    "sellValue": 810,
-    "factionRep": 8
+    ]
   },
   "Bag_03": {
-    "ingamename": "Large Backpack",
+    "inGameName": "Large Backpack",
+    "description": "A large backpack for storing items.",
     "rarity": "Rare",
+    "weight": 40,
     "weightLimit": 300,
     "durability": -1,
-    "weight": 40,
+    "sellValue": 1823,
+    "factionRep": 18,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
@@ -91,16 +97,17 @@
         "IvyPlant": 1,
         "PureNickel": 3
       }
-    ],
-    "sellValue": 1823,
-    "factionRep": 18
+    ]
   },
   "Bag_04": {
-    "ingamename": "Heavy Duty Backpack",
+    "inGameName": "Heavy Duty Backpack",
+    "description": "An extra large backpack for storing items.",
     "rarity": "Epic",
+    "weight": 50,
     "weightLimit": 350,
     "durability": -1,
-    "weight": 50,
+    "sellValue": 3645,
+    "factionRep": 36,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
@@ -115,32 +122,34 @@
         "DesertPlant": 1,
         "TitanOre": 1
       }
-    ],
-    "sellValue": 3645,
-    "factionRep": 36
+    ]
   },
   "Bag_05": {
-    "ingamename": "Gigantic Backpack",
+    "inGameName": "Gigantic Backpack",
+    "description": "An astonishingly large backpack for storing items.",
     "rarity": "Exotic",
+    "weight": 60,
     "weightLimit": 400,
     "durability": -1,
-    "weight": 60,
+    "sellValue": 6834,
+    "factionRep": 68,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [],
-    "sellValue": 6834,
-    "factionRep": 68
+    "cost": []
   },
   "Bag_Altered_01": {
-    "ingamename": "Huge Forged Backpack",
+    "inGameName": "Huge Forged Backpack",
+    "description": "An extra large backpack for storing items. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Epic",
+    "weight": 50,
     "weightLimit": 350,
     "durability": -1,
-    "weight": 50,
+    "sellValue": 5468,
+    "factionRep": 55,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
@@ -152,16 +161,17 @@
         "shop": "None",
         "SoftCurrency": 18000
       }
-    ],
-    "sellValue": 5468,
-    "factionRep": 55
+    ]
   },
   "Bag_Altered_02": {
-    "ingamename": "Gigantic Forged Backpack",
+    "inGameName": "Gigantic Forged Backpack",
+    "description": "An astonishingly large backpack for storing items. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Exotic",
+    "weight": 60,
     "weightLimit": 400,
     "durability": -1,
-    "weight": 60,
+    "sellValue": 9568,
+    "factionRep": 96,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
@@ -173,16 +183,17 @@
         "shop": "None",
         "SoftCurrency": 32000
       }
-    ],
-    "sellValue": 9568,
-    "factionRep": 96
+    ]
   },
   "Bag_Altered_03": {
-    "ingamename": "Monstrous Forged Backpack",
+    "inGameName": "Monstrous Forged Backpack",
+    "description": "A monstrously large backpack for storing items. Its fabric has little in common with the human materials it was once made of.",
     "rarity": "Legendary",
+    "weight": 70,
     "weightLimit": 500,
     "durability": -1,
-    "weight": 70,
+    "sellValue": 14352,
+    "factionRep": 144,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
@@ -194,8 +205,6 @@
         "shop": "None",
         "SoftCurrency": 48000
       }
-    ],
-    "sellValue": 14352,
-    "factionRep": 144
+    ]
   }
 }

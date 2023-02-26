@@ -1,34 +1,38 @@
 {
   "PlayerDefault": {
-    "ingamename": "PlayerDefault",
+    "inGameName": "PlayerDefault",
+    "description": "PlayerDefault",
     "rarity": "Common",
+    "weight": 0,
     "armorAmount": 0,
     "durability": -1,
-    "weight": 0,
-    "bonus": {},
+    "sellValue": 135,
+    "factionRep": 1,
     "repair": {
       "baseCost": 100,
       "costModifierBroken": 100,
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [],
-    "sellValue": 135,
-    "factionRep": 1
+    "perks": [],
+    "cost": []
   },
   "Shield_01": {
-    "ingamename": "Common Shield",
+    "inGameName": "Common Shield",
+    "description": "Protects the body of its wearer.",
     "rarity": "Common",
+    "weight": 40,
     "armorAmount": 10,
     "durability": 500,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 135,
+    "factionRep": 1,
     "repair": {
       "baseCost": 45,
       "costModifierBroken": 113,
       "maxPrice": 225,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [],
     "cost": [
       {
         "shop": "Korolev",
@@ -46,23 +50,24 @@
         "shop": "QuickShop",
         "SoftCurrency": 450
       }
-    ],
-    "sellValue": 135,
-    "factionRep": 1
+    ]
   },
   "Shield_02": {
-    "ingamename": "Uncommon Shield",
+    "inGameName": "Uncommon Shield",
+    "description": "Protects the body of its wearer.",
     "rarity": "Uncommon",
+    "weight": 40,
     "armorAmount": 15,
     "durability": 600,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 608,
+    "factionRep": 6,
     "repair": {
       "baseCost": 180,
       "costModifierBroken": 446,
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -70,23 +75,24 @@
         "PolymetallicPrefabricate": 2,
         "GenericCreatureDrop": 5
       }
-    ],
-    "sellValue": 608,
-    "factionRep": 6
+    ]
   },
   "Shield_03": {
-    "ingamename": "Rare Shield",
+    "inGameName": "Rare Shield",
+    "description": "Protects the body of its wearer.",
     "rarity": "Rare",
+    "weight": 40,
     "armorAmount": 20,
     "durability": 700,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 4556,
+    "factionRep": 46,
     "repair": {
       "baseCost": 1200,
       "costModifierBroken": 2978,
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -95,23 +101,24 @@
         "UncommonVelticite": 2,
         "AI_RattlerSkin": 5
       }
-    ],
-    "sellValue": 4556,
-    "factionRep": 46
+    ]
   },
   "Shield_04": {
-    "ingamename": "Epic Shield",
+    "inGameName": "Epic Shield",
+    "description": "Protects the body of its wearer.",
     "rarity": "Epic",
+    "weight": 40,
     "armorAmount": 25,
     "durability": 800,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 11618,
+    "factionRep": 116,
     "repair": {
       "baseCost": 1560,
       "costModifierBroken": 3916,
       "maxPrice": 7800,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -120,23 +127,24 @@
         "TitanOre": 1,
         "HardenedBoneAlloy": 2
       }
-    ],
-    "sellValue": 11618,
-    "factionRep": 116
+    ]
   },
   "Shield_05": {
-    "ingamename": "Exotic Shield",
+    "inGameName": "Exotic Shield",
+    "description": "Protects the body of its wearer.",
     "rarity": "Exotic",
+    "weight": 40,
     "armorAmount": 30,
     "durability": 900,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 23579,
+    "factionRep": 236,
     "repair": {
       "baseCost": 1975,
       "costModifierBroken": 4953,
       "maxPrice": 9875,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -145,23 +153,26 @@
         "PureFocusCrystal": 1,
         "AI_CrusherSkin": 2
       }
-    ],
-    "sellValue": 23579,
-    "factionRep": 236
+    ]
   },
   "Shield_Tactical_01": {
-    "ingamename": "Common Tactical Shield",
+    "inGameName": "Common Tactical Shield",
+    "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Common",
+    "weight": 40,
     "armorAmount": 10,
     "durability": 500,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 203,
+    "factionRep": 2,
     "repair": {
       "baseCost": 68,
       "costModifierBroken": 171,
       "maxPrice": 340,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [
+      "Perk_MaxStamina_03"
+    ],
     "cost": [
       {
         "shop": "Korolev",
@@ -179,23 +190,26 @@
         "shop": "QuickShop",
         "SoftCurrency": 680
       }
-    ],
-    "sellValue": 203,
-    "factionRep": 2
+    ]
   },
   "Shield_Tactical_02": {
-    "ingamename": "Uncommon Tactical Shield",
+    "inGameName": "Uncommon Tactical Shield",
+    "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Uncommon",
+    "weight": 40,
     "armorAmount": 15,
     "durability": 600,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 608,
+    "factionRep": 6,
     "repair": {
       "baseCost": 180,
       "costModifierBroken": 446,
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [
+      "Perk_MaxStamina_04"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -204,23 +218,26 @@
         "WaterPlant": 2,
         "GenericCreatureDrop": 5
       }
-    ],
-    "sellValue": 608,
-    "factionRep": 6
+    ]
   },
   "Shield_Tactical_03": {
-    "ingamename": "Rare Tactical Shield",
+    "inGameName": "Rare Tactical Shield",
+    "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Rare",
+    "weight": 40,
     "armorAmount": 20,
     "durability": 700,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 4556,
+    "factionRep": 46,
     "repair": {
       "baseCost": 1200,
       "costModifierBroken": 2978,
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [
+      "Perk_MaxStamina_05"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -229,73 +246,26 @@
         "IvyPlant": 2,
         "AI_RattlerSkin": 8
       }
-    ],
-    "sellValue": 4556,
-    "factionRep": 46
-  },
-  "Shield_Tactical_04": {
-    "ingamename": "Rare Tactical Shield",
-    "rarity": "Epic",
-    "armorAmount": 25,
-    "durability": 800,
-    "weight": 40,
-    "bonus": {},
-    "repair": {
-      "baseCost": 1560,
-      "costModifierBroken": 3916,
-      "maxPrice": 7800,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "DesertPlant": 2,
-        "HardenedBoneAlloy": 3
-      }
-    ],
-    "sellValue": 11618,
-    "factionRep": 116
-  },
-  "Shield_Tactical_05": {
-    "ingamename": "Rare Tactical Shield",
-    "rarity": "Exotic",
-    "armorAmount": 30,
-    "durability": 900,
-    "weight": 40,
-    "bonus": {},
-    "repair": {
-      "baseCost": 1975,
-      "costModifierBroken": 4953,
-      "maxPrice": 9875,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "TentaclePlant": 2,
-        "AI_CrusherSkin": 3
-      }
-    ],
-    "sellValue": 23579,
-    "factionRep": 236
+    ]
   },
   "Shield_Restoration_01": {
-    "ingamename": "Uncommon Restoration Shield",
+    "inGameName": "Uncommon Restoration Shield",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Uncommon",
+    "weight": 40,
     "armorAmount": 15,
     "durability": 600,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 608,
+    "factionRep": 6,
     "repair": {
       "baseCost": 180,
       "costModifierBroken": 446,
       "maxPrice": 900,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [
+      "Perk_HealthRegenerationRate_02"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -304,23 +274,26 @@
         "BrightcapMushroom": 2,
         "GenericCreatureDrop": 5
       }
-    ],
-    "sellValue": 608,
-    "factionRep": 6
+    ]
   },
   "Shield_Restoration_02": {
-    "ingamename": "Rare Restoration Shield",
+    "inGameName": "Rare Restoration Shield",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Rare",
+    "weight": 40,
     "armorAmount": 20,
     "durability": 700,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 4556,
+    "factionRep": 46,
     "repair": {
       "baseCost": 1200,
       "costModifierBroken": 2978,
       "maxPrice": 6000,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [
+      "Perk_HealthRegenerationRate_03"
+    ],
     "cost": [
       {
         "shop": "CraftingStation",
@@ -329,125 +302,75 @@
         "RadioactiveBrightcapMushroom": 2,
         "AI_RattlerSkin": 8
       }
-    ],
-    "sellValue": 4556,
-    "factionRep": 46
-  },
-  "Shield_Restoration_03": {
-    "ingamename": "Rare Restoration Shield",
-    "rarity": "Epic",
-    "armorAmount": 25,
-    "durability": 800,
-    "weight": 40,
-    "bonus": {},
-    "repair": {
-      "baseCost": 1560,
-      "costModifierBroken": 3916,
-      "maxPrice": 7800,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "RadioactiveBrightcapMushroom": 5,
-        "HardenedBoneAlloy": 3
-      }
-    ],
-    "sellValue": 11618,
-    "factionRep": 116
-  },
-  "Shield_Restoration_04": {
-    "ingamename": "Rare Restoration Shield",
-    "rarity": "Exotic",
-    "armorAmount": 30,
-    "durability": 900,
-    "weight": 40,
-    "bonus": {},
-    "repair": {
-      "baseCost": 1975,
-      "costModifierBroken": 4953,
-      "maxPrice": 9875,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "PureFocusCrystal": 1,
-        "AI_CrusherSkin": 3,
-        "RadioactiveBrightcapMushroom": 5
-      }
-    ],
-    "sellValue": 23579,
-    "factionRep": 236
+    ]
   },
   "Shield_Altered_01": {
-    "ingamename": "Forged Shield",
+    "inGameName": "Epic Forged Shield",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Epic",
+    "weight": 40,
     "armorAmount": 25,
     "durability": 800,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 12985,
+    "factionRep": 130,
     "repair": {
       "baseCost": 1720,
       "costModifierBroken": 4283,
       "maxPrice": 8600,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [],
     "cost": [
       {
         "shop": "None",
         "SoftCurrency": 43000
       }
-    ],
-    "sellValue": 12985,
-    "factionRep": 130
+    ]
   },
   "Shield_Altered_02": {
-    "ingamename": "Forged Shield",
+    "inGameName": "Exotic Forged Shield",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Exotic",
+    "weight": 40,
     "armorAmount": 30,
     "durability": 900,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 22553,
+    "factionRep": 226,
     "repair": {
       "baseCost": 1875,
       "costModifierBroken": 4681,
       "maxPrice": 9375,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [],
     "cost": [
       {
         "shop": "None",
         "SoftCurrency": 75000
       }
-    ],
-    "sellValue": 22553,
-    "factionRep": 226
+    ]
   },
   "Shield_Altered_03": {
-    "ingamename": "Forged Shield",
+    "inGameName": "Legendary Forged Shield",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Legendary",
+    "weight": 40,
     "armorAmount": 33,
     "durability": 1000,
-    "weight": 40,
-    "bonus": {},
+    "sellValue": 38444,
+    "factionRep": 384,
     "repair": {
       "baseCost": 2560,
       "costModifierBroken": 6396,
       "maxPrice": 12800,
       "durabilityBrokenPriceModifier": 0.5
     },
+    "perks": [],
     "cost": [
       {
         "shop": "None",
         "SoftCurrency": 128000
       }
-    ],
-    "sellValue": 38444,
-    "factionRep": 384
+    ]
   }
 }

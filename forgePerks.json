@@ -1,0 +1,790 @@
+{
+  "Perk_HealthRegen": {
+    "description": "Health restoration per second",
+    "elite": false,
+    "equipment": [
+      "Equipment.Helmet",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "AI_WeremoleMeat_02": 2,
+      "IvyPlant": 2,
+      "BrightcapMushroom": 3,
+      "AlienFruit": 3
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::HealthRegenerationRate",
+        "type": "EYGPAModifierType::Additive",
+        "value": 0.1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 1,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.3,
+      "stepGranularity": 0.1,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.8
+    }
+  },
+  "Perk_HealingAmount": {
+    "description": "Bonus to Stim and Medkit healing",
+    "elite": false,
+    "equipment": [
+      "Equipment.Shield"
+    ],
+    "items": {
+      "IvyPlant": 2,
+      "TentaclePlant": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::HealingAmountScaling",
+        "type": "EYGPAModifierType::Additive",
+        "value": 0.1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 1,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 5,
+      "stepGranularity": 2,
+      "numSteps": 6,
+      "calculatedMaxValue": 15
+    }
+  },
+  "Perk_MaxHealth": {
+    "description": "Maximum health",
+    "elite": false,
+    "equipment": [
+      "Equipment.Helmet"
+    ],
+    "items": {
+      "AI_WeremoleHead": 1,
+      "AI_WeremoleMeat_02": 2,
+      "TentaclePlant": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::MaxHealth",
+        "type": "EYGPAModifierType::Additive",
+        "value": 0.1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 1,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 5,
+      "stepGranularity": 5,
+      "numSteps": 3,
+      "calculatedMaxValue": 15
+    }
+  },
+  "Perk_HealingSpeed": {
+    "description": "Faster Stim and Medkit use",
+    "elite": false,
+    "equipment": [
+      "Equipment.Helmet",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "RadioactiveBrightcapMushroom": 2,
+      "TentaclePlant": 2,
+      "AI_WeremoleMeat_02": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::HealingApplicationTimeScaling",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0.1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 1,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.7,
+      "stepGranularity": 0.05,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  },
+  "Perk_HealthRegen_Storm": {
+    "description": "Health restoration per second during a Storm",
+    "elite": false,
+    "equipment": [
+      "Equipment.Shield",
+      "Equipment.Helmet"
+    ],
+    "items": {
+      "StormyCreatureDrop": 3,
+      "RadioactiveBrightcapMushroom": 2,
+      "FocusCrystal": 2,
+      "IvyPlant": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::HealthRegenerationRate",
+        "type": "EYGPAModifierType::Additive",
+        "value": 0.1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 1,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.2,
+      "numSteps": 6,
+      "calculatedMaxValue": 1.5
+    }
+  },
+  "Perk_MaxStamina": {
+    "description": "Maximum stamina",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item",
+      "Equipment.Helmet",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "WaterPlant": 3,
+      "AI_StriderMeat": 3,
+      "AI_WeremoleMeat": 2,
+      "AI_RattlerEyes": 3,
+      "HardenedBoneAlloy": 3
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::MaxStamina",
+        "type": "EYGPAModifierType::Additive",
+        "value": 0.1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 1,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 20,
+      "stepGranularity": 5,
+      "numSteps": 6,
+      "calculatedMaxValue": 45
+    }
+  },
+  "Perk_StaminaConsumption": {
+    "description": "Less stamina consumption",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item",
+      "Equipment.Helmet",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "AI_RattlerEyes": 3,
+      "BrightcapMushroom": 3,
+      "AI_StriderMeat": 3
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::StaminaConsumptionRate",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0.1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 1,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.8,
+      "stepGranularity": 0.03,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.95
+    }
+  },
+  "Perk_StormProtection": {
+    "description": "Less damage from Storm strikes",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item",
+      "Equipment.Helmet",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "MeteorFragment": 2,
+      "StormyCreatureDrop": 3,
+      "AI_WeremoleMeat": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::DamageScalingReceivedFromStorm",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0.1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 1,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.7,
+      "stepGranularity": 0.05,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.95
+    }
+  },
+  "Perk_AIProtection": {
+    "description": "Less damage from hostile fauna attacks",
+    "elite": false,
+    "equipment": [
+      "Equipment.Helmet",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "AI_RattlerHead": 1,
+      "HardenedBoneAlloy": 3,
+      "TitanOre": 2,
+      "AI_RattlerEyes_02": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::DamageScalingReceivedFromAI",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0.7,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.75,
+      "stepGranularity": 0.05,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.95
+    }
+  },
+  "Perk_FallingDamage": {
+    "description": "Less damage from falling",
+    "elite": false,
+    "equipment": [
+      "Equipment.Shield",
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "HardenedBoneAlloy": 3,
+      "BlueRunnerEgg": 2,
+      "Alien_Scrap": 3,
+      "NeuroToxicGlands": 3
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::FallingDamageReduction",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0.7,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.7,
+      "stepGranularity": 0.05,
+      "numSteps": 6,
+      "calculatedMaxValue": 0.95
+    }
+  },
+  "Perk_Armor_Helmet": {
+    "description": "Extra armor",
+    "elite": false,
+    "equipment": [
+      "Equipment.Helmet"
+    ],
+    "items": {
+      "AI_CrusherSkin": 2,
+      "FocusCrystal": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::HelmetArmorScaling",
+        "type": "EYGPAModifierType::Additive",
+        "value": 0.7,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 3,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 3
+    }
+  },
+  "Perk_StaminaRegenDelay_Storm": {
+    "description": "Stamina regenerates without delay during a Storm",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "MiniatureReactor": 2,
+      "StormyCreatureDrop": 3
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::StaminaRegenerationDelayScaling",
+        "type": "EYGPAModifierType::Override",
+        "value": 0.2,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.2,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 0.2
+    }
+  },
+  "Perk_HunterVisionHelm": {
+    "description": "Enhanced Alien Hunter Vision which consumes stamina (can be toggled on/off)",
+    "elite": true,
+    "equipment": [
+      "Equipment.Helmet"
+    ],
+    "items": {
+      "AI_WeremoleHead": 1,
+      "AI_RattlerHead": 1
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::HelmetThermal",
+        "type": "EYGPAModifierType::Override",
+        "value": 1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      },
+      {
+        "attribute": "EYGameplayAttribute::HelmetThermalStaminaConsumptionPerSecond",
+        "type": "EYGPAModifierType::Additive",
+        "value": -1,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 8,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 8
+    }
+  },
+  "Perk_AIDetection": {
+    "description": "Hostile fauna is less aggressive towards the wearer",
+    "elite": true,
+    "equipment": [
+      "Equipment.Shield"
+    ],
+    "items": {
+      "AI_WeremoleMeat": 2,
+      "NeuroToxicGlands": 3,
+      "AI_RattlerEyes": 3,
+      "AI_RattlerHead": 1
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::AIDetectionHearingModifier",
+        "type": "EYGPAModifierType::Multiplicitive_PostAdd",
+        "value": 0.5,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      },
+      {
+        "attribute": "EYGameplayAttribute::AIDetectionSightModifier",
+        "type": "EYGPAModifierType::Multiplicitive_PostAdd",
+        "value": 0.5,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.6,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 0.6
+    }
+  },
+  "Perk_ItemWeightReduction": {
+    "description": "Reduced weight of this piece of gear",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item",
+      "Equipment.Helmet",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "AlienFruit": 3,
+      "WaterPlant": 3,
+      "MeteorFragment": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::ItemWeightReduction",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 4,
+      "calculatedMaxValue": 0.8
+    }
+  },
+  "Perk_MaxCapacity": {
+    "description": "Extra backpack capacity",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "DesertPlant": 2,
+      "MeteorCore": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::BagSizeIncrease",
+        "type": "EYGPAModifierType::Additive",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 10,
+      "stepGranularity": 10,
+      "numSteps": 5,
+      "calculatedMaxValue": 50
+    }
+  },
+  "Perk_AOEReduction": {
+    "description": "Less damage from explosions",
+    "elite": false,
+    "equipment": [
+      "Equipment.Helmet",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "AI_CrusherSkin": 2,
+      "TitanOre": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::RadialDamageScaling",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  },
+  "Perk_WeightAll": {
+    "description": "Reduced weight of all items carried in backpack",
+    "elite": true,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "MiniatureReactor": 2,
+      "MeteorCore": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReduction",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  },
+  "Perk_WeightFaunaResources": {
+    "description": "Reduced weight of minerals and creature parts carried in backpack",
+    "elite": true,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "AlienFruit": 3,
+      "DesertPlant": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReductionFauna",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      },
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReductionMinerals",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  },
+  "Perk_WeightConsumablesAmmo": {
+    "description": "Reduced weight of ammo and consumables carried in backpack",
+    "elite": true,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "Alien_Scrap": 3
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReductionAmmo",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      },
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReductionConsumables",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  },
+  "Perk_WeightWeaponGear": {
+    "description": "Reduced weight of weapons and gear carried in backpack",
+    "elite": true,
+    "equipment": [
+      "Equipment.Back Item"
+    ],
+    "items": {
+      "Alien_Scrap": 3
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReductionWeapons",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      },
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReductionShield",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      },
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReductionHelmet",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 0.5,
+      "stepGranularity": 0.1,
+      "numSteps": 5,
+      "calculatedMaxValue": 0.9
+    }
+  },
+  "Perk_WalkSpeed": {
+    "description": "Increased walk speed",
+    "elite": false,
+    "equipment": [
+      "Equipment.Back Item",
+      "Equipment.Shield"
+    ],
+    "items": {
+      "BlueRunnerEgg": 2,
+      "NeuroToxicGlands": 3,
+      "AI_RattlerEyes_02": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::MaxWalkSpeedScaling",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 1.04,
+      "stepGranularity": 0.02,
+      "numSteps": 3,
+      "calculatedMaxValue": 1.0799999
+    }
+  },
+  "Perk_Armor_Shield": {
+    "description": "Extra armor",
+    "elite": false,
+    "equipment": [
+      "Equipment.Shield"
+    ],
+    "items": {
+      "AI_CrusherSkin": 2,
+      "FocusCrystal": 2
+    },
+    "attributes": [
+      {
+        "attribute": "EYGameplayAttribute::ShieldArmorScaling",
+        "type": "EYGPAModifierType::Additive",
+        "value": 0.7,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
+      }
+    ],
+    "attributeOverrides": {
+      "minValue": 3,
+      "stepGranularity": 1,
+      "numSteps": 1,
+      "calculatedMaxValue": 3
+    }
+  }
+}
