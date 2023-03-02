@@ -6,7 +6,6 @@
   "walkSpeedMaximumInStation": 480,
   "sprintSpeedModifierInStation": 1.82,
   "sprintDashSpeedModifier": 2.45,
-  "backwardMovementSpeedReduction": 0.65,
   "slide": {
     "slideVelocityReduction": 300,
     "minSlideSpeed": 375,
@@ -45,6 +44,6 @@
   "fall": {
     "hardLandingFallingDistanceMin": 600,
     "hardLandingStateActiveDuration": 1,
-    "mediumLandingFallingDistanceMin": 200
+    "mediumLandingFallingDistanceMin": 0.00001
   }
 }

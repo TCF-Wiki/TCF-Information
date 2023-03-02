@@ -23,7 +23,7 @@
     "rarity": "Common",
     "weight": 40,
     "armorAmount": 10,
-    "durability": 500,
+    "durability": 200,
     "sellValue": 135,
     "factionRep": 1,
     "repair": {
@@ -58,7 +58,7 @@
     "rarity": "Uncommon",
     "weight": 40,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 300,
     "sellValue": 608,
     "factionRep": 6,
     "repair": {
@@ -83,7 +83,7 @@
     "rarity": "Rare",
     "weight": 40,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 350,
     "sellValue": 4556,
     "factionRep": 46,
     "repair": {
@@ -109,7 +109,7 @@
     "rarity": "Epic",
     "weight": 40,
     "armorAmount": 25,
-    "durability": 800,
+    "durability": 400,
     "sellValue": 11618,
     "factionRep": 116,
     "repair": {
@@ -135,7 +135,7 @@
     "rarity": "Exotic",
     "weight": 40,
     "armorAmount": 30,
-    "durability": 900,
+    "durability": 500,
     "sellValue": 23579,
     "factionRep": 236,
     "repair": {
@@ -161,7 +161,7 @@
     "rarity": "Common",
     "weight": 40,
     "armorAmount": 10,
-    "durability": 500,
+    "durability": 200,
     "sellValue": 203,
     "factionRep": 2,
     "repair": {
@@ -198,7 +198,7 @@
     "rarity": "Uncommon",
     "weight": 40,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 300,
     "sellValue": 608,
     "factionRep": 6,
     "repair": {
@@ -226,7 +226,7 @@
     "rarity": "Rare",
     "weight": 40,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 350,
     "sellValue": 4556,
     "factionRep": 46,
     "repair": {
@@ -254,7 +254,7 @@
     "rarity": "Uncommon",
     "weight": 40,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 300,
     "sellValue": 608,
     "factionRep": 6,
     "repair": {
@@ -282,7 +282,7 @@
     "rarity": "Rare",
     "weight": 40,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 350,
     "sellValue": 4556,
     "factionRep": 46,
     "repair": {
@@ -305,12 +305,12 @@
     ]
   },
   "Shield_Altered_01": {
-    "inGameName": "Epic Forged Shield",
-    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Epic Shield_Altered_01",
+    "description": "Shield_Altered_01",
     "rarity": "Epic",
     "weight": 40,
     "armorAmount": 25,
-    "durability": 800,
+    "durability": 400,
     "sellValue": 12985,
     "factionRep": 130,
     "repair": {
@@ -320,20 +320,15 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 43000
-      }
-    ]
+    "cost": []
   },
   "Shield_Altered_02": {
-    "inGameName": "Exotic Forged Shield",
-    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Exotic Shield_Altered_02",
+    "description": "Shield_Altered_02",
     "rarity": "Exotic",
     "weight": 40,
     "armorAmount": 30,
-    "durability": 900,
+    "durability": 500,
     "sellValue": 22553,
     "factionRep": 226,
     "repair": {
@@ -343,20 +338,15 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 75000
-      }
-    ]
+    "cost": []
   },
   "Shield_Altered_03": {
-    "inGameName": "Legendary Forged Shield",
-    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Legendary Shield_Altered_03",
+    "description": "Shield_Altered_03",
     "rarity": "Legendary",
     "weight": 40,
     "armorAmount": 33,
-    "durability": 1000,
+    "durability": 550,
     "sellValue": 38444,
     "factionRep": 384,
     "repair": {
@@ -366,11 +356,6 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 128000
-      }
-    ]
+    "cost": []
   }
 }

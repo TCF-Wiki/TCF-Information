@@ -5,7 +5,7 @@
     "rarity": "Common",
     "weight": 20,
     "armorAmount": 10,
-    "durability": 500,
+    "durability": 150,
     "sellValue": 113,
     "factionRep": 1,
     "repair": {
@@ -40,7 +40,7 @@
     "rarity": "Uncommon",
     "weight": 20,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 200,
     "sellValue": 506,
     "factionRep": 5,
     "repair": {
@@ -65,7 +65,7 @@
     "rarity": "Rare",
     "weight": 20,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 250,
     "sellValue": 2278,
     "factionRep": 23,
     "repair": {
@@ -90,13 +90,13 @@
     "rarity": "Epic",
     "weight": 20,
     "armorAmount": 25,
-    "durability": 800,
+    "durability": 300,
     "sellValue": 5126,
     "factionRep": 51,
     "repair": {
-      "baseCost": 680,
-      "costModifierBroken": 1695,
-      "maxPrice": 3400,
+      "baseCost": 1190,
+      "costModifierBroken": 2966,
+      "maxPrice": 5950,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -115,7 +115,7 @@
     "rarity": "Exotic",
     "weight": 20,
     "armorAmount": 30,
-    "durability": 900,
+    "durability": 350,
     "sellValue": 10252,
     "factionRep": 103,
     "repair": {
@@ -141,7 +141,7 @@
     "rarity": "Common",
     "weight": 20,
     "armorAmount": 10,
-    "durability": 500,
+    "durability": 150,
     "sellValue": 169,
     "factionRep": 2,
     "repair": {
@@ -178,7 +178,7 @@
     "rarity": "Uncommon",
     "weight": 20,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 200,
     "sellValue": 506,
     "factionRep": 5,
     "repair": {
@@ -206,7 +206,7 @@
     "rarity": "Rare",
     "weight": 20,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 250,
     "sellValue": 2278,
     "factionRep": 23,
     "repair": {
@@ -234,7 +234,7 @@
     "rarity": "Uncommon",
     "weight": 20,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 200,
     "sellValue": 506,
     "factionRep": 5,
     "repair": {
@@ -262,7 +262,7 @@
     "rarity": "Rare",
     "weight": 20,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 250,
     "sellValue": 2278,
     "factionRep": 23,
     "repair": {
@@ -290,7 +290,7 @@
     "rarity": "Legendary",
     "weight": 20,
     "armorAmount": 33,
-    "durability": 1000,
+    "durability": 400,
     "sellValue": 23066,
     "factionRep": 231,
     "repair": {
@@ -313,12 +313,12 @@
     ]
   },
   "Helmet_Altered_01": {
-    "inGameName": "Epic Forged Helmet",
-    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Epic Helmet_Altered_01",
+    "description": "Helmet_Altered_01",
     "rarity": "Epic",
     "weight": 20,
     "armorAmount": 25,
-    "durability": 800,
+    "durability": 300,
     "sellValue": 6265,
     "factionRep": 63,
     "repair": {
@@ -328,20 +328,15 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 21000
-      }
-    ]
+    "cost": []
   },
   "Helmet_Altered_02": {
-    "inGameName": "Exotic Forged Helmet",
-    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Exotic Helmet_Altered_02",
+    "description": "Helmet_Altered_02",
     "rarity": "Exotic",
     "weight": 20,
     "armorAmount": 30,
-    "durability": 900,
+    "durability": 350,
     "sellValue": 12815,
     "factionRep": 128,
     "repair": {
@@ -351,20 +346,15 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 43000
-      }
-    ]
+    "cost": []
   },
   "Helmet_Altered_03": {
-    "inGameName": "Legendary Forged Helmet",
-    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Legendary Helmet_Altered_03",
+    "description": "Helmet_Altered_03",
     "rarity": "Legendary",
     "weight": 20,
     "armorAmount": 33,
-    "durability": 1000,
+    "durability": 400,
     "sellValue": 25629,
     "factionRep": 256,
     "repair": {
@@ -374,11 +364,6 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 85000
-      }
-    ]
+    "cost": []
   }
 }

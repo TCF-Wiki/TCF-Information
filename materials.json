@@ -94,10 +94,10 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 4,
+    "weight": 6,
     "stackSize": 10,
-    "sellValue": 961,
-    "factionRep": 10,
+    "sellValue": 769,
+    "factionRep": 8,
     "questItem": false,
     "cost": []
   },
@@ -108,15 +108,15 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 4,
+    "weight": 6,
     "stackSize": 10,
-    "sellValue": 2884,
-    "factionRep": 29,
+    "sellValue": 2307,
+    "factionRep": 23,
     "questItem": false,
     "cost": [
       {
         "shop": "CraftingStation",
-        "SoftCurrency": 5800,
+        "SoftCurrency": 4600,
         "FocusCrystal": 9
       }
     ]
@@ -1100,7 +1100,7 @@
     "tags": [
       "Loot.Category.Creature"
     ],
-    "weight": 9,
+    "weight": 11,
     "stackSize": 10,
     "sellValue": 3417,
     "factionRep": 34,
@@ -1158,7 +1158,7 @@
       "Loot.Category.Valuable"
     ],
     "weight": 0.1,
-    "stackSize": 10000,
+    "stackSize": 1000,
     "sellValue": 10,
     "factionRep": 0,
     "questItem": false,
@@ -1172,7 +1172,7 @@
       "Loot.Category.Valuable"
     ],
     "weight": 0.1,
-    "stackSize": 10000,
+    "stackSize": 1000,
     "sellValue": 10,
     "factionRep": 0,
     "questItem": false,
@@ -1186,7 +1186,7 @@
       "Loot.Category.Valuable"
     ],
     "weight": 0.1,
-    "stackSize": 10000,
+    "stackSize": 1000,
     "sellValue": 10,
     "factionRep": 0,
     "questItem": false,
@@ -1304,6 +1304,90 @@
     "questItem": false,
     "cost": []
   },
+  "AI_HowlerDart": {
+    "inGameName": "AI_HowlerDart",
+    "description": "AI_HowlerDart",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "weight": 5,
+    "stackSize": 10,
+    "sellValue": 11533,
+    "factionRep": 115,
+    "questItem": false,
+    "cost": []
+  },
+  "AI_HowlerGland_01": {
+    "inGameName": "AI_HowlerGland_01",
+    "description": "AI_HowlerGland_01",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "weight": 5,
+    "stackSize": 10,
+    "sellValue": 46132,
+    "factionRep": 461,
+    "questItem": false,
+    "cost": []
+  },
+  "AI_HowlerGland_02": {
+    "inGameName": "AI_HowlerGland_02",
+    "description": "AI_HowlerGland_02",
+    "rarity": "Exotic",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "weight": 5,
+    "stackSize": 10,
+    "sellValue": 77848,
+    "factionRep": 778,
+    "questItem": false,
+    "cost": []
+  },
+  "AI_HowlerSyrinx_01": {
+    "inGameName": "AI_HowlerSyrinx_01",
+    "description": "AI_HowlerSyrinx_01",
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "weight": 5,
+    "stackSize": 10,
+    "sellValue": 103797,
+    "factionRep": 1038,
+    "questItem": false,
+    "cost": []
+  },
+  "AI_HowlerSyrinx_02": {
+    "inGameName": "AI_HowlerSyrinx_02",
+    "description": "AI_HowlerSyrinx_02",
+    "rarity": "Legendary",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "weight": 5,
+    "stackSize": 10,
+    "sellValue": 129747,
+    "factionRep": 1297,
+    "questItem": false,
+    "cost": []
+  },
+  "AI_HowlerPellet": {
+    "inGameName": "AI_HowlerPellet",
+    "description": "AI_HowlerPellet",
+    "rarity": "Rare",
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "weight": 5,
+    "stackSize": 10,
+    "sellValue": 2563,
+    "factionRep": 26,
+    "questItem": false,
+    "cost": []
+  },
   "ForgeIron": {
     "inGameName": "Tharis Iron",
     "description": "A solid clump of inert ancient nanites fused with iron, along with various other elements trapped within when the mass solidified.",
@@ -1311,7 +1395,7 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
+    "weight": 6,
     "stackSize": 10,
     "sellValue": 1025,
     "factionRep": 10,
@@ -1325,7 +1409,7 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
+    "weight": 6,
     "stackSize": 10,
     "sellValue": 2307,
     "factionRep": 23,
@@ -1381,7 +1465,7 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "weight": 3,
+    "weight": 5,
     "stackSize": 10,
     "sellValue": 1709,
     "factionRep": 17,
@@ -1587,8 +1671,8 @@
     ],
     "weight": 6,
     "stackSize": 3,
-    "sellValue": 4936,
-    "factionRep": 5,
+    "sellValue": 987,
+    "factionRep": 1,
     "questItem": true,
     "cost": [
       {
@@ -1637,7 +1721,7 @@
     ],
     "weight": 5,
     "stackSize": 1,
-    "sellValue": 0,
+    "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
     "cost": []
@@ -2028,6 +2112,138 @@
       "Loot.Category.MissionItem"
     ],
     "weight": 8,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_ICAWildlifePhotographerCam": {
+    "inGameName": "QuestItem_ICAWildlifePhotographerCam",
+    "description": "QuestItem_ICAWildlifePhotographerCam",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_ICAHowlerData1": {
+    "inGameName": "QuestItem_ICAHowlerData1",
+    "description": "QuestItem_ICAHowlerData1",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_ICAHowlerData2": {
+    "inGameName": "QuestItem_ICAHowlerData2",
+    "description": "QuestItem_ICAHowlerData2",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_KORHowlerEvidence1": {
+    "inGameName": "QuestItem_KORHowlerEvidence1",
+    "description": "QuestItem_KORHowlerEvidence1",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_KORHowlerEvidence2": {
+    "inGameName": "QuestItem_KORHowlerEvidence2",
+    "description": "QuestItem_KORHowlerEvidence2",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_OSIHowlerClue1": {
+    "inGameName": "QuestItem_OSIHowlerClue1",
+    "description": "QuestItem_OSIHowlerClue1",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_OSIHowlerSample1": {
+    "inGameName": "QuestItem_OSIHowlerSample1",
+    "description": "QuestItem_OSIHowlerSample1",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_ICAAudioDecoysPlan": {
+    "inGameName": "QuestItem_ICAAudioDecoysPlan",
+    "description": "QuestItem_ICAAudioDecoysPlan",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_OSIStrongStimRecipe": {
+    "inGameName": "QuestItem_OSIStrongStimRecipe",
+    "description": "QuestItem_OSIStrongStimRecipe",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_OSIPaleIvySample": {
+    "inGameName": "QuestItem_OSIPaleIvySample",
+    "description": "QuestItem_OSIPaleIvySample",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_OSICrystalCaveClue": {
+    "inGameName": "QuestItem_OSICrystalCaveClue",
+    "description": "QuestItem_OSICrystalCaveClue",
+    "rarity": "Common",
+    "tags": [],
+    "weight": 4,
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,

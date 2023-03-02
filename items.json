@@ -19,12 +19,7 @@
           "amount": 5
         }
       },
-      "missions": {
-        "Main-KOR-GainTrust-4": {
-          "inGameName": "Company Identity",
-          "amount": 5
-        }
-      },
+      "missions": {},
       "jobs": {},
       "quarters": {
         "generate_aurum_1.2": {
@@ -71,13 +66,25 @@
         "Shield_03": {
           "inGameName": "Rare Shield",
           "amount": 2
+        },
+        "Mod_Muzzle_Small_Recoil_03": {
+          "inGameName": "Small Muzzle Brake",
+          "amount": 2
+        },
+        "Mod_Muzzle_Standard_Recoil_03": {
+          "inGameName": "Medium Muzzle Brake",
+          "amount": 2
+        },
+        "Mod_Converter_Light_AIDMG_01": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 2
+        },
+        "Mod_Converter_Medium_AIDMG_01": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 2
         }
       },
       "missions": {
-        "Main-KOR-MiningTool-1": {
-          "inGameName": "Mineral Master",
-          "amount": 7
-        },
         "Main-KOR-GruntWork-2": {
           "inGameName": "Through the Optic Glass",
           "amount": 3
@@ -166,6 +173,10 @@
           "inGameName": "Medium Extended Quickdraw",
           "amount": 1
         },
+        "Mod_ForeGrip_ADS_02": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 1
+        },
         "Mod_ForeGrip_ADS_03": {
           "inGameName": "Tactical Foregrip",
           "amount": 1
@@ -174,10 +185,10 @@
       "missions": {
         "Main-KOR-Veltecite-1": {
           "inGameName": "Active Scan",
-          "amount": 3
+          "amount": 1
         },
         "Main-Osiris-CaveRumors-3": {
-          "inGameName": "Lost Knowledge Part 4",
+          "inGameName": "undefined Part 4",
           "amount": 8
         },
         "Main-Osiris-CrystalSamples-1": {
@@ -251,10 +262,6 @@
         }
       },
       "missions": {
-        "Main-KOR-GruntWork-3": {
-          "inGameName": "A Pinch of Pure Power",
-          "amount": 1
-        },
         "Main-ICA-OilScanModule-1": {
           "inGameName": "An Eye for Oil Part 1",
           "amount": 2
@@ -356,10 +363,10 @@
     "description": "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures.",
     "type": "material",
     "rarity": "Rare",
-    "weight": 4,
+    "weight": 6,
     "cost": [],
-    "sellValue": 961,
-    "factionRep": 10,
+    "sellValue": 769,
+    "factionRep": 8,
     "tags": [
       "Loot.Category.Resource"
     ],
@@ -422,16 +429,16 @@
     "description": "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures.",
     "type": "material",
     "rarity": "Epic",
-    "weight": 4,
+    "weight": 6,
     "cost": [
       {
         "shop": "CraftingStation",
-        "SoftCurrency": 5800,
+        "SoftCurrency": 4600,
         "FocusCrystal": 9
       }
     ],
-    "sellValue": 2884,
-    "factionRep": 29,
+    "sellValue": 2307,
+    "factionRep": 23,
     "tags": [
       "Loot.Category.Resource"
     ],
@@ -470,10 +477,6 @@
       "quarters": {
         "generate_aurum_4.2": {
           "inGameName": "Generate aurum 4.2",
-          "amount": 2
-        },
-        "generate_kmarks_4.2": {
-          "inGameName": "Generate kmarks 4.2",
           "amount": 2
         },
         "kmarks_passive_cap_4.3": {
@@ -568,14 +571,25 @@
         "Bag_03": {
           "inGameName": "Large Backpack",
           "amount": 3
+        },
+        "Mod_Converter_Light_01": {
+          "inGameName": "Light Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Medium_01": {
+          "inGameName": "Medium Converter",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Recoil_03": {
+          "inGameName": "Small Muzzle Brake",
+          "amount": 2
+        },
+        "Mod_Muzzle_Standard_Recoil_03": {
+          "inGameName": "Medium Muzzle Brake",
+          "amount": 2
         }
       },
-      "missions": {
-        "Main-KOR-MiningTool-1": {
-          "inGameName": "Mineral Master",
-          "amount": 6
-        }
-      },
+      "missions": {},
       "jobs": {
         "NEW-Medium-KOR-Mine-4": {
           "inGameName": "Titans of Industry",
@@ -642,13 +656,41 @@
         "TitanOre": {
           "inGameName": "Titan Ore",
           "amount": 6
+        },
+        "Mod_Converter_Light_01": {
+          "inGameName": "Light Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Medium_01": {
+          "inGameName": "Medium Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Heavy_01": {
+          "inGameName": "Heavy Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Shotgun_01": {
+          "inGameName": "Shotgun Converter",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_03": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_02": {
+          "inGameName": "Marksman Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_ADS_01": {
+          "inGameName": "MKM Tactical Stock",
+          "amount": 2
         }
       },
       "missions": {
-        "Main-KOR-GruntWork-3": {
-          "inGameName": "A Pinch of Pure Power",
-          "amount": 7
-        },
         "Main-KOR-EarlyMap2-3": {
           "inGameName": "Uncharted Territory Part 3",
           "amount": 6
@@ -714,8 +756,16 @@
           "inGameName": "Medium Converter",
           "amount": 1
         },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
         "Mod_Converter_Light_AIDMG_03": {
           "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
           "amount": 1
         },
         "Mod_Converter_Medium_AIDMG_03": {
@@ -899,8 +949,8 @@
           "inGameName": "Increase stash 5.0",
           "amount": 4
         },
-        "increase_bag_4.0": {
-          "inGameName": "Increase bag 4.0",
+        "increase_bag_5.0": {
+          "inGameName": "Increase bag 5.0",
           "amount": 3
         },
         "generate_kmarks_3.2": {
@@ -945,6 +995,14 @@
       "printing": {
         "DerelictExplosives": {
           "inGameName": "Derelict Explosives",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
           "amount": 1
         }
       },
@@ -1023,7 +1081,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-StrongStims-2": {
-          "inGameName": "Stimulating Developments Part 2",
+          "inGameName": "undefined Part 2",
           "amount": 3
         }
       },
@@ -1066,7 +1124,20 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
+      "printing": {
+        "Mod_Stock_Standard_02": {
+          "inGameName": "Standard Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Standard_ADS_01": {
+          "inGameName": "Tactical Stock",
+          "amount": 2
+        },
+        "Mod_RearGrip_ADS_02": {
+          "inGameName": "Tactical Rear Grip",
+          "amount": 2
+        }
+      },
       "missions": {
         "Main-KOR-BuildLaserDrill-1": {
           "inGameName": "Building Blocks",
@@ -1159,6 +1230,14 @@
           "inGameName": "Uncommon Restoration Helmet",
           "amount": 2
         },
+        "Mod_Magazine_Heavy_01": {
+          "inGameName": "Heavy Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Shotgun_01": {
+          "inGameName": "Shotgun Extended",
+          "amount": 1
+        },
         "Mod_Optic_1x_02": {
           "inGameName": "Holographic Sight",
           "amount": 2
@@ -1167,7 +1246,7 @@
       "missions": {
         "Main-ICA-GainTrust-1": {
           "inGameName": "Don't Forget to Recycle",
-          "amount": 2
+          "amount": 1
         }
       },
       "jobs": {
@@ -1256,11 +1335,7 @@
         },
         "Main-KOR-LetiumResearch-1": {
           "inGameName": "Shopping List",
-          "amount": 5
-        },
-        "Main-Osiris-GruntWork-1": {
-          "inGameName": "Field Research Part 1",
-          "amount": 2
+          "amount": 3
         },
         "Main-Osiris-PrototypeLaser-2": {
           "inGameName": "Laser Show Part 2",
@@ -1449,23 +1524,48 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
-      "missions": {
-        "Main-KOR-GainTrust-2": {
-          "inGameName": "Spare Parts",
+      "printing": {
+        "Mod_Magazine_Light_01": {
+          "inGameName": "Light Extended",
           "amount": 2
         },
+        "Mod_Magazine_Medium_01": {
+          "inGameName": "Medium Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_01": {
+          "inGameName": "Heavy Extended",
+          "amount": 3
+        },
+        "Mod_Magazine_Shotgun_01": {
+          "inGameName": "Shotgun Extended",
+          "amount": 3
+        },
+        "Mod_Magazine_Light_ReloadSpeed_03": {
+          "inGameName": "Light Quickdraw",
+          "amount": 3
+        },
+        "Mod_Magazine_Medium_Reloadspeed_03": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 3
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_03": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 4
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 4
+        }
+      },
+      "missions": {
         "Main-KOR-MiningTool-2": {
           "inGameName": "Inevitable Automation",
-          "amount": 10
+          "amount": 5
         },
         "Main-KOR-BuildLaserDrill-1": {
           "inGameName": "Building Blocks",
           "amount": 20
-        },
-        "Main-ICA-FTUE-1": {
-          "inGameName": "Simple Needs",
-          "amount": 1
         }
       },
       "jobs": {
@@ -1732,12 +1832,20 @@
         "AutoLoader": {
           "inGameName": "Autoloader",
           "amount": 5
+        },
+        "Mod_Converter_Heavy_01": {
+          "inGameName": "Heavy Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Shotgun_01": {
+          "inGameName": "Shotgun Converter",
+          "amount": 2
         }
       },
       "missions": {
         "Main-KOR-MiningTool-2": {
           "inGameName": "Inevitable Automation",
-          "amount": 5
+          "amount": 2
         },
         "Main-ICA-AudioDecoys-2": {
           "inGameName": "Audiophiles Beware Part 2",
@@ -1801,6 +1909,18 @@
           "inGameName": "4x Optic",
           "amount": 1
         },
+        "Mod_Magazine_Light_ReloadSpeed_03": {
+          "inGameName": "Light Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_Reloadspeed_03": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 1
+        },
+        "Mod_ForeGrip_ADS_02": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 1
+        },
         "Mod_Optic_Variable_01": {
           "inGameName": "2 - 4x Variable Optic",
           "amount": 2
@@ -1822,10 +1942,6 @@
       },
       "jobs": {},
       "quarters": {
-        "playerquarter_7": {
-          "inGameName": "Player Quarters Level 7",
-          "amount": 9
-        },
         "increase_stash_4.1": {
           "inGameName": "Increase stash 4.1",
           "amount": 8
@@ -1935,10 +2051,6 @@
         }
       },
       "quarters": {
-        "playerquarter_6": {
-          "inGameName": "Player Quarters Level 6",
-          "amount": 9
-        },
         "increase_stash_3.0": {
           "inGameName": "Increase stash 3.0",
           "amount": 4
@@ -2051,6 +2163,14 @@
         "Shield_Restoration_02": {
           "inGameName": "Rare Restoration Shield",
           "amount": 2
+        },
+        "Mod_Magazine_Light_ReloadSpeed_03": {
+          "inGameName": "Light Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_Reloadspeed_03": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 1
         }
       },
       "missions": {
@@ -2223,12 +2343,8 @@
         }
       },
       "quarters": {
-        "increase_stash_4.1": {
-          "inGameName": "Increase stash 4.1",
-          "amount": 5
-        },
-        "increase_bag_3.0": {
-          "inGameName": "Increase bag 3.0",
+        "increase_bag_4.0": {
+          "inGameName": "Increase bag 4.0",
           "amount": 4
         },
         "generate_aurum_3.4": {
@@ -2403,6 +2519,14 @@
           "inGameName": "Standard Grenade",
           "amount": 2
         },
+        "Mod_Muzzle_Small_Recoil_03": {
+          "inGameName": "Small Muzzle Brake",
+          "amount": 3
+        },
+        "Mod_Muzzle_Standard_Recoil_03": {
+          "inGameName": "Medium Muzzle Brake",
+          "amount": 3
+        },
         "Mod_Converter_Heavy_03": {
           "inGameName": "Heavy Converter",
           "amount": 5
@@ -2411,11 +2535,15 @@
       "missions": {
         "Main-KOR-BuildLaserDrill-3": {
           "inGameName": "Custom Rig",
-          "amount": 10
+          "amount": 8
         },
         "Main-ICA-MeteorReactor-1": {
           "inGameName": "Project Fireball Part 1",
           "amount": 6
+        },
+        "Main-Osiris-Caverns-0.2-Unlock": {
+          "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
+          "amount": 2
         }
       },
       "jobs": {
@@ -2549,6 +2677,10 @@
         "Main-ICA-Caverns-13.1": {
           "inGameName": "undefined Part 15",
           "amount": 30000
+        },
+        "Main-Badum-FinalQuestline1-3": {
+          "inGameName": "Main-Badum-FinalQuestline1-3",
+          "amount": 100000
         }
       },
       "jobs": {
@@ -2605,7 +2737,7 @@
       "missions": {
         "Main-Osiris-StormSamples-1": {
           "inGameName": "Storm Rider Part 1",
-          "amount": 10
+          "amount": 6
         },
         "Main-Osiris-StrongMedkits-2": {
           "inGameName": "Path to Strong Medkits Part 2",
@@ -2620,7 +2752,7 @@
           "amount": 10
         },
         "Main-Osiris-Caverns-9": {
-          "inGameName": "The Progenitor Device Part 11",
+          "inGameName": "undefined Part 11",
           "amount": 5
         }
       },
@@ -2666,7 +2798,24 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
+      "printing": {
+        "Mod_Stock_Standard_02": {
+          "inGameName": "Standard Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Standard_ADS_01": {
+          "inGameName": "Tactical Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_02": {
+          "inGameName": "Marksman Stock",
+          "amount": 3
+        },
+        "Mod_Stock_Marksman_ADS_01": {
+          "inGameName": "MKM Tactical Stock",
+          "amount": 3
+        }
+      },
       "missions": {
         "Main-ICA-GainTrust-4": {
           "inGameName": "The Forester",
@@ -2690,10 +2839,6 @@
         },
         "increase_stash_1.1": {
           "inGameName": "Increase stash 1.1",
-          "amount": 2
-        },
-        "daily_crate_1.0": {
-          "inGameName": "Daily crate 1.0",
           "amount": 2
         },
         "kmarks_passive_cap_2.0": {
@@ -2741,12 +2886,8 @@
         }
       },
       "missions": {
-        "Main-Osiris-GainTrust-1": {
-          "inGameName": "The Real Wetwork",
-          "amount": 1
-        },
         "Main-Osiris-CaveRumors-1": {
-          "inGameName": "Lost Knowledge Part 1",
+          "inGameName": "undefined Part 1",
           "amount": 12
         },
         "Main-Osiris-SideWork1-2": {
@@ -2897,10 +3038,6 @@
         }
       },
       "missions": {
-        "Main-Osiris-GruntWork-5": {
-          "inGameName": "Field Research Part 6",
-          "amount": 1
-        },
         "Main-Osiris-StrongMedkits-2": {
           "inGameName": "Path to Strong Medkits Part 2",
           "amount": 10
@@ -3023,8 +3160,8 @@
       },
       "jobs": {},
       "quarters": {
-        "increase_bag_1.0": {
-          "inGameName": "Increase bag 1.0",
+        "increase_bag_2.0": {
+          "inGameName": "Increase bag 2.0",
           "amount": 2
         },
         "daily_crate_3.0": {
@@ -3075,11 +3212,11 @@
       "missions": {
         "Main-KOR-MiningTool-5": {
           "inGameName": "Final Touches",
-          "amount": 5
+          "amount": 2
         },
         "Main-KOR-Veltecite-1": {
           "inGameName": "Active Scan",
-          "amount": 5
+          "amount": 3
         }
       },
       "jobs": {},
@@ -3126,7 +3263,16 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
+      "printing": {
+        "Mod_Magazine_Light_01": {
+          "inGameName": "Light Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_01": {
+          "inGameName": "Medium Extended",
+          "amount": 2
+        }
+      },
       "missions": {
         "Main-KOR-CraftingBackpack-2": {
           "inGameName": "Exotic Leathers",
@@ -3190,7 +3336,7 @@
         },
         "Main-ICA-AudioDecoys-2": {
           "inGameName": "Audiophiles Beware Part 2",
-          "amount": 8
+          "amount": 5
         },
         "Main-ICA-OilScanModule-1": {
           "inGameName": "An Eye for Oil Part 1",
@@ -3323,19 +3469,24 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
-      "missions": {
-        "Main-KOR-GainTrust-4": {
-          "inGameName": "Company Identity",
-          "amount": 1
+      "printing": {
+        "Mod_Magazine_Heavy_ReloadSpeed_03": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 3
         },
+        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 3
+        }
+      },
+      "missions": {
         "Main-KOR-Veltecite-1": {
           "inGameName": "Active Scan",
-          "amount": 5
+          "amount": 2
         },
         "Main-KOR-BuildLaserDrill-3": {
           "inGameName": "Custom Rig",
-          "amount": 10
+          "amount": 9
         },
         "Main-ICA-GainTrust-3": {
           "inGameName": "Basic Needs",
@@ -3343,11 +3494,11 @@
         },
         "Main-ICA-OilPump-6": {
           "inGameName": "Back to Basics Part 6",
-          "amount": 15
+          "amount": 11
         },
         "Main-ICA-OilScanModule-2": {
           "inGameName": "An Eye for Oil Part 2",
-          "amount": 10
+          "amount": 6
         },
         "Main-Osiris-PrototypeLaser-1": {
           "inGameName": "Laser Show Part 1",
@@ -3470,7 +3621,7 @@
       },
       "missions": {
         "Main-Osiris-StrongStims-2": {
-          "inGameName": "Stimulating Developments Part 2",
+          "inGameName": "undefined Part 2",
           "amount": 5
         }
       },
@@ -3525,8 +3676,8 @@
       },
       "jobs": {},
       "quarters": {
-        "increase_bag_4.0": {
-          "inGameName": "Increase bag 4.0",
+        "increase_bag_5.0": {
+          "inGameName": "Increase bag 5.0",
           "amount": 1
         },
         "daily_crate_4.1": {
@@ -3560,10 +3711,6 @@
         "Main-ICA-GruntWork-3": {
           "inGameName": "Doing the Work Part 3",
           "amount": 3
-        },
-        "Main-ICA-GruntWork-7": {
-          "inGameName": "Doing the Work Part 7",
-          "amount": 5
         },
         "Main-Osiris-PrototypeLaser-1": {
           "inGameName": "Laser Show Part 1",
@@ -3662,7 +3809,7 @@
           "amount": 5
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "Race to the Bottom Part 5",
+          "inGameName": "undefined Part 5",
           "amount": 5
         }
       },
@@ -3711,7 +3858,7 @@
       },
       "missions": {
         "Main-Osiris-StrongStims-1": {
-          "inGameName": "Stimulating Developments Part 1",
+          "inGameName": "undefined Part 1",
           "amount": 4
         },
         "Main-Osiris-StrongMedkits-1": {
@@ -3765,8 +3912,8 @@
         }
       },
       "quarters": {
-        "increase_bag_2.0": {
-          "inGameName": "Increase bag 2.0",
+        "increase_bag_3.0": {
+          "inGameName": "Increase bag 3.0",
           "amount": 4
         },
         "aurum_passive_cap_2.0": {
@@ -3849,8 +3996,8 @@
           "inGameName": "Increase stash 2.0",
           "amount": 2
         },
-        "increase_bag_3.0": {
-          "inGameName": "Increase bag 3.0",
+        "increase_bag_4.0": {
+          "inGameName": "Increase bag 4.0",
           "amount": 8
         },
         "reduce_pq_upgrading_time_2.1": {
@@ -3921,6 +4068,10 @@
         "Main-KOR-EarlyMap2-2": {
           "inGameName": "Uncharted Territory Part 2",
           "amount": 3
+        },
+        "Main-Osiris-Caverns-0.2-Unlock": {
+          "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
+          "amount": 2
         }
       },
       "jobs": {},
@@ -3929,8 +4080,8 @@
           "inGameName": "Player Quarters Level 6",
           "amount": 18
         },
-        "increase_bag_2.0": {
-          "inGameName": "Increase bag 2.0",
+        "increase_bag_3.0": {
+          "inGameName": "Increase bag 3.0",
           "amount": 4
         },
         "reduce_pq_upgrading_time_2.0": {
@@ -3983,13 +4134,17 @@
         "Helmet_Restoration_01": {
           "inGameName": "Uncommon Restoration Helmet",
           "amount": 4
+        },
+        "Mod_Converter_Light_AIDMG_01": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 3
+        },
+        "Mod_Converter_Medium_AIDMG_01": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 3
         }
       },
       "missions": {
-        "Main-KOR-LetiumRumors-3": {
-          "inGameName": "Rapid Gentrification",
-          "amount": 20
-        },
         "Main-KOR-LetiumResearch-2": {
           "inGameName": "Don't Dig Too Deep",
           "amount": 20
@@ -4014,6 +4169,10 @@
         }
       },
       "quarters": {
+        "increase_bag_1.0": {
+          "inGameName": "Increase bag 1.0",
+          "amount": 3
+        },
         "generate_aurum_1.0": {
           "inGameName": "Generate aurum 1.0",
           "amount": 6
@@ -4051,8 +4210,12 @@
           "amount": 20
         },
         "Main-Osiris-Caverns-9": {
-          "inGameName": "The Progenitor Device Part 11",
+          "inGameName": "undefined Part 11",
           "amount": 5
+        },
+        "Main-Badum-FinalQuestline1-4": {
+          "inGameName": "Main-Badum-FinalQuestline1-4",
+          "amount": 400
         }
       },
       "jobs": {
@@ -4104,6 +4267,14 @@
         "Consumable_GasGrenade_01": {
           "inGameName": "Gas Grenade",
           "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
         }
       },
       "missions": {
@@ -4116,7 +4287,7 @@
           "amount": 3
         },
         "Main-Osiris-StrongStims-2": {
-          "inGameName": "Stimulating Developments Part 2",
+          "inGameName": "undefined Part 2",
           "amount": 2
         }
       },
@@ -4337,10 +4508,6 @@
         "Main-KOR-LetiumResearch-7": {
           "inGameName": "Fresh Meat",
           "amount": 5
-        },
-        "Main-Osiris-GruntWork-7": {
-          "inGameName": "Field Research Part 8",
-          "amount": 3
         }
       },
       "jobs": {},
@@ -4500,6 +4667,14 @@
         "Helmet_Restoration_02": {
           "inGameName": "Rare Restoration Helmet",
           "amount": 2
+        },
+        "Mod_ForeGrip_ADS_02": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 2
+        },
+        "Mod_RearGrip_ADS_02": {
+          "inGameName": "Tactical Rear Grip",
+          "amount": 2
         }
       },
       "missions": {
@@ -4520,7 +4695,7 @@
           "amount": 1
         },
         "Main-Osiris-CaveRumors-1": {
-          "inGameName": "Lost Knowledge Part 1",
+          "inGameName": "undefined Part 1",
           "amount": 6
         },
         "Main-ICA-ExtraWork2-3": {
@@ -4543,7 +4718,7 @@
     "description": "Dropped from some of Fortuna III's toughest creatures, can be used for printing certain items after refining.",
     "type": "material",
     "rarity": "Uncommon",
-    "weight": 9,
+    "weight": 11,
     "cost": [],
     "sellValue": 3417,
     "factionRep": 34,
@@ -4718,12 +4893,7 @@
           "amount": 1
         }
       },
-      "missions": {
-        "Main-Osiris-TestRun-1": {
-          "inGameName": "Breaking and Entering Part 1",
-          "amount": 1
-        }
-      },
+      "missions": {},
       "jobs": {
         "NEW-Hard-Osiris-EliteCrusher-1": {
           "inGameName": "The Rarest Sample",
@@ -4770,7 +4940,7 @@
       "missions": {
         "Main-KOR-MiningTool-5": {
           "inGameName": "Final Touches",
-          "amount": 3
+          "amount": 2
         },
         "Main-KOR-CraftingBackpack-1": {
           "inGameName": "Order Refill",
@@ -4820,7 +4990,7 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10000,
+    "stackSize": 1000,
     "uses": {
       "printing": {
         "QuestItem_LaserDrillBeacon": {
@@ -4828,7 +4998,12 @@
           "amount": 80
         }
       },
-      "missions": {},
+      "missions": {
+        "Main-Badum-FinalQuestline1-7": {
+          "inGameName": "Main-Badum-FinalQuestline1-7",
+          "amount": 800
+        }
+      },
       "jobs": {},
       "quarters": {
         "increase_stash_1.0": {
@@ -4897,18 +5072,22 @@
         },
         "increase_bag_2.0": {
           "inGameName": "Increase bag 2.0",
-          "amount": 11
+          "amount": 2
         },
         "increase_bag_3.0": {
           "inGameName": "Increase bag 3.0",
-          "amount": 86
+          "amount": 11
         },
         "increase_bag_4.0": {
           "inGameName": "Increase bag 4.0",
-          "amount": 130
+          "amount": 86
         },
         "increase_bag_5.0": {
           "inGameName": "Increase bag 5.0",
+          "amount": 130
+        },
+        "increase_bag_6.0": {
+          "inGameName": "Increase bag 6.0",
           "amount": 292
         },
         "kmarks_passive_cap_1.0": {
@@ -5003,7 +5182,7 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10000,
+    "stackSize": 1000,
     "uses": {
       "printing": {
         "QuestItem_OrbitalCanonTargetBeacon": {
@@ -5015,6 +5194,10 @@
         "Main-KOR-BuildLaserDrill-6": {
           "inGameName": "This is Goodbye",
           "amount": 20
+        },
+        "Main-Badum-FinalQuestline1-7": {
+          "inGameName": "Main-Badum-FinalQuestline1-7",
+          "amount": 800
         }
       },
       "jobs": {},
@@ -5195,7 +5378,7 @@
     "tags": [
       "Loot.Category.Valuable"
     ],
-    "stackSize": 10000,
+    "stackSize": 1000,
     "uses": {
       "printing": {
         "QuestItem_OilPumpBeacon": {
@@ -5203,7 +5386,12 @@
           "amount": 80
         }
       },
-      "missions": {},
+      "missions": {
+        "Main-Badum-FinalQuestline1-7": {
+          "inGameName": "Main-Badum-FinalQuestline1-7",
+          "amount": 800
+        }
+      },
       "jobs": {},
       "quarters": {
         "reduce_pq_upgrading_time_1.0": {
@@ -5253,10 +5441,6 @@
         "reduce_pq_upgrading_time_4.2": {
           "inGameName": "Reduce pq upgrading time 4.2",
           "amount": 292
-        },
-        "daily_crate_1.0": {
-          "inGameName": "Daily crate 1.0",
-          "amount": 1
         },
         "daily_crate_1.1": {
           "inGameName": "Daily crate 1.1",
@@ -5390,6 +5574,10 @@
         "Main-KOR-TestRun-1": {
           "inGameName": "The Test Run",
           "amount": 15
+        },
+        "Main-Badum-FinalQuestline1-6": {
+          "inGameName": "Main-Badum-FinalQuestline1-6",
+          "amount": 200
         }
       },
       "jobs": {
@@ -5444,6 +5632,10 @@
         "Main-ICA-Caverns-13.1": {
           "inGameName": "undefined Part 15",
           "amount": 18
+        },
+        "Main-Badum-FinalQuestline1-6": {
+          "inGameName": "Main-Badum-FinalQuestline1-6",
+          "amount": 120
         }
       },
       "jobs": {
@@ -5480,7 +5672,12 @@
     "stackSize": 10,
     "uses": {
       "printing": {},
-      "missions": {},
+      "missions": {
+        "Main-Osiris-GruntWork-3.1": {
+          "inGameName": "Main-Osiris-GruntWork-3.1",
+          "amount": 3
+        }
+      },
       "jobs": {},
       "quarters": {
         "playerquarter_5": {
@@ -5490,10 +5687,6 @@
         "generate_aurum_3.3": {
           "inGameName": "Generate aurum 3.3",
           "amount": 11
-        },
-        "kmarks_passive_cap_4.0": {
-          "inGameName": "Kmarks passive cap 4.0",
-          "amount": 12
         }
       },
       "forge": {}
@@ -5514,7 +5707,12 @@
     "stackSize": 10,
     "uses": {
       "printing": {},
-      "missions": {},
+      "missions": {
+        "Main-Osiris-GruntWork-7": {
+          "inGameName": "Field Research Part 8",
+          "amount": 3
+        }
+      },
       "jobs": {},
       "quarters": {
         "generate_aurum_4.1": {
@@ -5554,7 +5752,12 @@
           "amount": 10
         }
       },
-      "missions": {},
+      "missions": {
+        "Main-KOR-LetiumRumors-3": {
+          "inGameName": "Rapid Gentrification",
+          "amount": 5
+        }
+      },
       "jobs": {},
       "quarters": {
         "playerquarter_7": {
@@ -5653,12 +5856,205 @@
       "forge": {}
     }
   },
+  "AI_HowlerDart": {
+    "inGameName": "AI_HowlerDart",
+    "description": "AI_HowlerDart",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 11533,
+    "factionRep": 115,
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
+          "amount": 1
+        },
+        "HowlerGrenade_01": {
+          "inGameName": "HowlerGrenade_01",
+          "amount": 2
+        }
+      },
+      "missions": {
+        "Main-Osiris-CaveRumors-0.1": {
+          "inGameName": "Main-Osiris-CaveRumors-0.1",
+          "amount": 1
+        },
+        "Main-Osiris-Howler-7": {
+          "inGameName": "Main-Osiris-Howler-7",
+          "amount": 3
+        }
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_7": {
+          "inGameName": "Player Quarters Level 7",
+          "amount": 4
+        },
+        "kmarks_passive_cap_4.0": {
+          "inGameName": "Kmarks passive cap 4.0",
+          "amount": 1
+        },
+        "aurum_passive_cap_4.0": {
+          "inGameName": "Aurum passive cap 4.0",
+          "amount": 2
+        }
+      },
+      "forge": {}
+    }
+  },
+  "AI_HowlerGland_01": {
+    "inGameName": "AI_HowlerGland_01",
+    "description": "AI_HowlerGland_01",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 46132,
+    "factionRep": 461,
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "AI_HowlerGland_02": {
+    "inGameName": "AI_HowlerGland_02",
+    "description": "AI_HowlerGland_02",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 77848,
+    "factionRep": 778,
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "AI_HowlerSyrinx_01": {
+    "inGameName": "AI_HowlerSyrinx_01",
+    "description": "AI_HowlerSyrinx_01",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 103797,
+    "factionRep": 1038,
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {
+        "increase_bag_6.0": {
+          "inGameName": "Increase bag 6.0",
+          "amount": 6
+        }
+      },
+      "forge": {}
+    }
+  },
+  "AI_HowlerSyrinx_02": {
+    "inGameName": "AI_HowlerSyrinx_02",
+    "description": "AI_HowlerSyrinx_02",
+    "type": "material",
+    "rarity": "Legendary",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 129747,
+    "factionRep": 1297,
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "AI_HowlerPellet": {
+    "inGameName": "AI_HowlerPellet",
+    "description": "AI_HowlerPellet",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 2563,
+    "factionRep": 26,
+    "tags": [
+      "Loot.Category.Creature"
+    ],
+    "stackSize": 10,
+    "uses": {
+      "printing": {
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 1
+        }
+      },
+      "missions": {
+        "Main-Osiris-Howler-7": {
+          "inGameName": "Main-Osiris-Howler-7",
+          "amount": 9
+        }
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_6": {
+          "inGameName": "Player Quarters Level 6",
+          "amount": 5
+        },
+        "increase_stash_4.1": {
+          "inGameName": "Increase stash 4.1",
+          "amount": 2
+        },
+        "generate_aurum_4.4": {
+          "inGameName": "Generate aurum 4.4",
+          "amount": 5
+        },
+        "generate_kmarks_4.2": {
+          "inGameName": "Generate kmarks 4.2",
+          "amount": 5
+        }
+      },
+      "forge": {}
+    }
+  },
   "ForgeIron": {
     "inGameName": "Tharis Iron",
     "description": "A solid clump of inert ancient nanites fused with iron, along with various other elements trapped within when the mass solidified.",
     "type": "material",
     "rarity": "Rare",
-    "weight": 3,
+    "weight": 6,
     "cost": [],
     "sellValue": 1025,
     "factionRep": 10,
@@ -5670,15 +6066,15 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-7": {
-          "inGameName": "In a Deep Dark Hole Part 7",
+          "inGameName": "undefined Part 7",
           "amount": 5
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "Race to the Bottom Part 5",
+          "inGameName": "undefined Part 5",
           "amount": 5
         },
         "Main-Osiris-Caverns-8": {
-          "inGameName": "The Progenitor Device Part 10",
+          "inGameName": "undefined Part 10",
           "amount": 5
         }
       },
@@ -5702,7 +6098,7 @@
     "description": "A small mass of inert nanites mixed with elemental iron and few other metals. The composite structure is almost perfect.",
     "type": "material",
     "rarity": "Epic",
-    "weight": 3,
+    "weight": 6,
     "cost": [],
     "sellValue": 2307,
     "factionRep": 23,
@@ -5714,11 +6110,11 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-9": {
-          "inGameName": "In a Deep Dark Hole Part 9",
+          "inGameName": "undefined Part 9",
           "amount": 5
         },
         "Main-Osiris-Caverns-8": {
-          "inGameName": "The Progenitor Device Part 10",
+          "inGameName": "undefined Part 10",
           "amount": 1
         }
       },
@@ -5842,7 +6238,7 @@
     "description": "Extracted from a glowing Teratomorphic Crystal, just holding this in your bag gives you an uneasy feeling.",
     "type": "material",
     "rarity": "Uncommon",
-    "weight": 3,
+    "weight": 5,
     "cost": [],
     "sellValue": 1709,
     "factionRep": 17,
@@ -5854,19 +6250,19 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-7": {
-          "inGameName": "In a Deep Dark Hole Part 7",
+          "inGameName": "undefined Part 7",
           "amount": 5
         },
         "Main-KOR-Caverns-9": {
-          "inGameName": "In a Deep Dark Hole Part 9",
+          "inGameName": "undefined Part 9",
           "amount": 5
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "Race to the Bottom Part 5",
+          "inGameName": "undefined Part 5",
           "amount": 5
         },
         "Main-Osiris-Caverns-6": {
-          "inGameName": "The Progenitor Device Part 8",
+          "inGameName": "undefined Part 8",
           "amount": 5
         }
       },
@@ -5908,11 +6304,16 @@
     "stackSize": 3,
     "uses": {
       "printing": {},
-      "missions": {},
+      "missions": {
+        "Main-Badum-FinalQuestline1-6": {
+          "inGameName": "Main-Badum-FinalQuestline1-6",
+          "amount": 10
+        }
+      },
       "jobs": {},
       "quarters": {
-        "increase_bag_5.0": {
-          "inGameName": "Increase bag 5.0",
+        "increase_bag_6.0": {
+          "inGameName": "Increase bag 6.0",
           "amount": 4
         },
         "aurum_passive_cap_4.3": {
@@ -6174,7 +6575,7 @@
       "missions": {
         "Main-ICA-Unique-3": {
           "inGameName": "The Stranded Prospector",
-          "amount": 3
+          "amount": 2
         }
       },
       "jobs": {
@@ -6235,10 +6636,6 @@
         "reduce_pq_upgrading_time_4.1": {
           "inGameName": "Reduce pq upgrading time 4.1",
           "amount": 1
-        },
-        "aurum_passive_cap_4.0": {
-          "inGameName": "Aurum passive cap 4.0",
-          "amount": 1
         }
       },
       "forge": {}
@@ -6271,7 +6668,7 @@
         },
         "Main-ICA-OilPump-2": {
           "inGameName": "Back to Basics Part 2",
-          "amount": 3
+          "amount": 2
         },
         "Main-Osiris-UplinkHack-2": {
           "inGameName": "Satellite Master Part 2",
@@ -6358,8 +6755,8 @@
         "ICAScrip": 80
       }
     ],
-    "sellValue": 4936,
-    "factionRep": 5,
+    "sellValue": 987,
+    "factionRep": 1,
     "tags": [
       "Loot.Category.Utility"
     ],
@@ -6431,7 +6828,7 @@
     "rarity": "Common",
     "weight": 5,
     "cost": [],
-    "sellValue": 0,
+    "sellValue": 2,
     "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
@@ -6753,7 +7150,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-2": {
-          "inGameName": "In a Deep Dark Hole Part 2",
+          "inGameName": "undefined Part 2",
           "amount": 1
         }
       },
@@ -6779,7 +7176,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-5": {
-          "inGameName": "In a Deep Dark Hole Part 5",
+          "inGameName": "undefined Part 5",
           "amount": 8
         }
       },
@@ -6805,7 +7202,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-8": {
-          "inGameName": "In a Deep Dark Hole Part 8",
+          "inGameName": "undefined Part 8",
           "amount": 1
         }
       },
@@ -6878,7 +7275,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-2": {
-          "inGameName": "The Progenitor Device Part 3",
+          "inGameName": "undefined Part 3",
           "amount": 1
         }
       },
@@ -6904,7 +7301,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-2": {
-          "inGameName": "The Progenitor Device Part 3",
+          "inGameName": "undefined Part 3",
           "amount": 1
         }
       },
@@ -6930,7 +7327,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-5": {
-          "inGameName": "The Progenitor Device Part 7",
+          "inGameName": "undefined Part 7",
           "amount": 1
         }
       },
@@ -7008,7 +7405,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-2": {
-          "inGameName": "Race to the Bottom Part 2",
+          "inGameName": "undefined Part 2",
           "amount": 1
         }
       },
@@ -7055,7 +7452,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-5": {
-          "inGameName": "Race to the Bottom Part 6",
+          "inGameName": "undefined Part 6",
           "amount": 1
         }
       },
@@ -7081,7 +7478,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-7": {
-          "inGameName": "Race to the Bottom Part 8",
+          "inGameName": "undefined Part 8",
           "amount": 1
         }
       },
@@ -7107,7 +7504,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-9": {
-          "inGameName": "Race to the Bottom Part 10",
+          "inGameName": "undefined Part 10",
           "amount": 1
         }
       },
@@ -7168,6 +7565,270 @@
       "forge": {}
     }
   },
+  "MissionItem_ICAWildlifePhotographerCam": {
+    "inGameName": "QuestItem_ICAWildlifePhotographerCam",
+    "description": "QuestItem_ICAWildlifePhotographerCam",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-GainTrust-2": {
+          "inGameName": "Animal Control",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_ICAHowlerData1": {
+    "inGameName": "QuestItem_ICAHowlerData1",
+    "description": "QuestItem_ICAHowlerData1",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-GruntWork-3.1": {
+          "inGameName": "Main-ICA-Gruntwork-3.1",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_ICAHowlerData2": {
+    "inGameName": "QuestItem_ICAHowlerData2",
+    "description": "QuestItem_ICAHowlerData2",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-GruntWork-7": {
+          "inGameName": "Doing the Work Part 7",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_KORHowlerEvidence1": {
+    "inGameName": "QuestItem_KORHowlerEvidence1",
+    "description": "QuestItem_KORHowlerEvidence1",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-GruntWork-3": {
+          "inGameName": "A Pinch of Pure Power",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_KORHowlerEvidence2": {
+    "inGameName": "QuestItem_KORHowlerEvidence2",
+    "description": "QuestItem_KORHowlerEvidence2",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-GruntWork-6": {
+          "inGameName": "For all the Trees",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_OSIHowlerClue1": {
+    "inGameName": "QuestItem_OSIHowlerClue1",
+    "description": "QuestItem_OSIHowlerClue1",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Howler-1": {
+          "inGameName": "Main-Osiris-Howler-1",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_OSIHowlerSample1": {
+    "inGameName": "QuestItem_OSIHowlerSample1",
+    "description": "QuestItem_OSIHowlerSample1",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Howler-3": {
+          "inGameName": "Main-Osiris-Howler-3",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_ICAAudioDecoysPlan": {
+    "inGameName": "QuestItem_ICAAudioDecoysPlan",
+    "description": "QuestItem_ICAAudioDecoysPlan",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-ICA-AudioDecoys-1": {
+          "inGameName": "Audiophiles Beware Part 1",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_OSIStrongStimRecipe": {
+    "inGameName": "QuestItem_OSIStrongStimRecipe",
+    "description": "QuestItem_OSIStrongStimRecipe",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-StrongStims-0.1": {
+          "inGameName": "Main-Osiris-StrongStims-0.1",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_OSIPaleIvySample": {
+    "inGameName": "QuestItem_OSIPaleIvySample",
+    "description": "QuestItem_OSIPaleIvySample",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-GruntWork-5": {
+          "inGameName": "Field Research Part 6",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "MissionItem_OSICrystalCaveClue": {
+    "inGameName": "QuestItem_OSICrystalCaveClue",
+    "description": "QuestItem_OSICrystalCaveClue",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-CaveRumors-2": {
+          "inGameName": "undefined Part 3",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
   "WP_A_Pistol_Bullet_01": {
     "inGameName": "Hammer",
     "description": "Pistol, inflicts devastating damage on its targets, at the cost of any kind of subtlety.",
@@ -7177,13 +7838,15 @@
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 56000
+        "SoftCurrency": 56000,
+        "KorolevScrip": 20
       }
     ],
     "sellValue": 16805,
     "factionRep": 168,
     "tags": [
-      "Weapon.Category.Pistol"
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light_04"
     ],
     "stackSize": 1,
     "uses": {
@@ -7203,13 +7866,15 @@
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 17000
+        "SoftCurrency": 17000,
+        "KorolevScrip": 4
       }
     ],
     "sellValue": 5058,
     "factionRep": 51,
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun_03"
     ],
     "stackSize": 1,
     "uses": {
@@ -7229,13 +7894,15 @@
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 6400
+        "SoftCurrency": 6400,
+        "KorolevScrip": 1
       }
     ],
     "sellValue": 1918,
     "factionRep": 19,
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light"
     ],
     "stackSize": 1,
     "uses": {
@@ -7255,13 +7922,15 @@
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 161000
+        "SoftCurrency": 161000,
+        "KorolevScrip": 22
       }
     ],
     "sellValue": 48261,
     "factionRep": 483,
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium_04"
     ],
     "stackSize": 1,
     "uses": {
@@ -7281,13 +7950,15 @@
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 76000
+        "SoftCurrency": 76000,
+        "KorolevScrip": 12
       }
     ],
     "sellValue": 22781,
     "factionRep": 228,
     "tags": [
-      "Weapon.Category.DMR"
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_03"
     ],
     "stackSize": 1,
     "uses": {
@@ -7317,7 +7988,8 @@
     "sellValue": 325513,
     "factionRep": 3255,
     "tags": [
-      "Weapon.Category.Sniper"
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy_05"
     ],
     "stackSize": 1,
     "uses": {
@@ -7337,13 +8009,15 @@
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 6400
+        "SoftCurrency": 6400,
+        "ICAScrip": 1
       }
     ],
     "sellValue": 1918,
     "factionRep": 19,
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun"
     ],
     "stackSize": 1,
     "uses": {
@@ -7363,13 +8037,15 @@
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 41000
+        "SoftCurrency": 41000,
+        "ICAScrip": 9
       }
     ],
     "sellValue": 12341,
     "factionRep": 123,
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun_03"
     ],
     "stackSize": 1,
     "uses": {
@@ -7389,13 +8065,15 @@
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 114000
+        "SoftCurrency": 114000,
+        "ICAScrip": 22
       }
     ],
     "sellValue": 34172,
     "factionRep": 342,
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light_04"
     ],
     "stackSize": 1,
     "uses": {
@@ -7415,13 +8093,15 @@
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 24000
+        "SoftCurrency": 24000,
+        "ICAScrip": 5
       }
     ],
     "sellValue": 7143,
     "factionRep": 71,
     "tags": [
-      "Weapon.Category.LMG"
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Medium_03"
     ],
     "stackSize": 1,
     "uses": {
@@ -7441,13 +8121,15 @@
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 58000
+        "SoftCurrency": 58000,
+        "ICAScrip": 10
       }
     ],
     "sellValue": 17429,
     "factionRep": 174,
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium_04"
     ],
     "stackSize": 1,
     "uses": {
@@ -7467,13 +8149,15 @@
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 31000
+        "SoftCurrency": 31000,
+        "ICAScrip": 6
       }
     ],
     "sellValue": 9336,
     "factionRep": 93,
     "tags": [
-      "Weapon.Category.DMR"
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_03"
     ],
     "stackSize": 1,
     "uses": {
@@ -7493,13 +8177,15 @@
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 315000
+        "SoftCurrency": 315000,
+        "ICAScrip": 25
       }
     ],
     "sellValue": 94459,
     "factionRep": 945,
     "tags": [
-      "Weapon.Category.Sniper"
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy_05"
     ],
     "stackSize": 1,
     "uses": {
@@ -7525,7 +8211,8 @@
     "sellValue": 228,
     "factionRep": 2,
     "tags": [
-      "Weapon.Category.Pistol"
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light"
     ],
     "stackSize": 1,
     "uses": {
@@ -7551,7 +8238,8 @@
     "sellValue": 371,
     "factionRep": 4,
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun"
     ],
     "stackSize": 1,
     "uses": {
@@ -7577,7 +8265,8 @@
     "sellValue": 371,
     "factionRep": 4,
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light"
     ],
     "stackSize": 1,
     "uses": {
@@ -7603,7 +8292,8 @@
     "sellValue": 524,
     "factionRep": 5,
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
     ],
     "stackSize": 1,
     "uses": {
@@ -7629,7 +8319,8 @@
     "sellValue": 2052,
     "factionRep": 21,
     "tags": [
-      "Weapon.Category.Sniper"
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy"
     ],
     "stackSize": 1,
     "uses": {
@@ -7650,7 +8341,8 @@
     "sellValue": 124,
     "factionRep": 1,
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun"
     ],
     "stackSize": 1,
     "uses": {
@@ -7671,7 +8363,8 @@
     "sellValue": 124,
     "factionRep": 1,
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light"
     ],
     "stackSize": 1,
     "uses": {
@@ -7692,7 +8385,8 @@
     "sellValue": 175,
     "factionRep": 2,
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
     ],
     "stackSize": 1,
     "uses": {
@@ -7712,13 +8406,15 @@
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 3900
+        "SoftCurrency": 3900,
+        "OsirisScrip": 1
       }
     ],
     "sellValue": 1179,
     "factionRep": 12,
     "tags": [
-      "Weapon.Category.Pistol"
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light"
     ],
     "stackSize": 1,
     "uses": {
@@ -7738,13 +8434,15 @@
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 41000
+        "SoftCurrency": 41000,
+        "OsirisScrip": 9
       }
     ],
     "sellValue": 12341,
     "factionRep": 123,
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light_04"
     ],
     "stackSize": 1,
     "uses": {
@@ -7764,13 +8462,15 @@
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 24000
+        "SoftCurrency": 24000,
+        "OsirisScrip": 5
       }
     ],
     "sellValue": 7143,
     "factionRep": 71,
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium_03"
     ],
     "stackSize": 1,
     "uses": {
@@ -7790,13 +8490,15 @@
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 58000
+        "SoftCurrency": 58000,
+        "OsirisScrip": 10
       }
     ],
     "sellValue": 17429,
     "factionRep": 174,
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium_04"
     ],
     "stackSize": 1,
     "uses": {
@@ -7816,13 +8518,15 @@
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 9000
+        "SoftCurrency": 9000,
+        "OsirisScrip": 2
       }
     ],
     "sellValue": 2709,
     "factionRep": 27,
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
     ],
     "stackSize": 1,
     "uses": {
@@ -7842,13 +8546,15 @@
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 210000
+        "SoftCurrency": 210000,
+        "OsirisScrip": 24
       }
     ],
     "sellValue": 63080,
     "factionRep": 631,
     "tags": [
-      "Weapon.Category.DMR"
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_05"
     ],
     "stackSize": 1,
     "uses": {
@@ -7899,7 +8605,8 @@
     "sellValue": 297815,
     "factionRep": 2978,
     "tags": [
-      "Weapon.Category.Launcher"
+      "Weapon.Category.Launcher",
+      "Weapon.Ammo.Special_06_1"
     ],
     "stackSize": 1,
     "uses": {
@@ -7971,7 +8678,8 @@
     "sellValue": 270540,
     "factionRep": 2705,
     "tags": [
-      "Weapon.Category.LMG"
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Special_06_2"
     ],
     "stackSize": 1,
     "uses": {
@@ -7992,7 +8700,289 @@
     "sellValue": 76,
     "factionRep": 1,
     "tags": [
-      "Weapon.Category.Pistol"
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_Sniper_Shard_01": {
+    "inGameName": "WP_A_Sniper_Shard_01",
+    "description": "WP_A_Sniper_Shard_01",
+    "type": "weapon",
+    "rarity": "Common",
+    "weight": 50,
+    "cost": [],
+    "sellValue": 4500,
+    "factionRep": 45,
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_AR_Needle_02": {
+    "inGameName": "WP_G_AR_Needle_02",
+    "description": "WP_G_AR_Needle_02",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 35,
+    "cost": [],
+    "sellValue": 7143,
+    "factionRep": 71,
+    "tags": [
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_D_LMG_Energy_02": {
+    "inGameName": "WP_D_LMG_Energy_02",
+    "description": "WP_D_LMG_Energy_02",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 9000,
+        "ICAScrip": 3
+      }
+    ],
+    "sellValue": 2709,
+    "factionRep": 27,
+    "tags": [
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Medium_03"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_Pistol_Energy_02": {
+    "inGameName": "WP_G_Pistol_Energy_02",
+    "description": "WP_G_Pistol_Energy_02",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 3109,
+    "factionRep": 31,
+    "tags": [
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_E_SMG_Bullet_02": {
+    "inGameName": "WP_E_SMG_Bullet_02",
+    "description": "WP_E_SMG_Bullet_02",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 30,
+    "cost": [],
+    "sellValue": 1918,
+    "factionRep": 19,
+    "tags": [
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_E_AR_Energy_02": {
+    "inGameName": "WP_E_AR_Energy_02",
+    "description": "WP_E_AR_Energy_02",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 35,
+    "cost": [],
+    "sellValue": 2709,
+    "factionRep": 27,
+    "tags": [
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_BR_Bullet_02": {
+    "inGameName": "WP_A_BR_Bullet_02",
+    "description": "WP_A_BR_Bullet_02",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 50,
+    "cost": [],
+    "sellValue": 9336,
+    "factionRep": 93,
+    "tags": [
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_03"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_SMG_Needle_02": {
+    "inGameName": "WP_G_SMG_Needle_02",
+    "description": "WP_G_SMG_Needle_02",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 30,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 17000,
+        "OsirisScrip": 7
+      }
+    ],
+    "sellValue": 5058,
+    "factionRep": 51,
+    "tags": [
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light_04"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_Pistol_Bullet_02": {
+    "inGameName": "WP_A_Pistol_Bullet_02",
+    "description": "WP_A_Pistol_Bullet_02",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 10000,
+        "KorolevScrip": 7
+      }
+    ],
+    "sellValue": 3109,
+    "factionRep": 31,
+    "tags": [
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light_04"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_Sniper_Gauss_02": {
+    "inGameName": "WP_A_Sniper_Gauss_02",
+    "description": "WP_A_Sniper_Gauss_02",
+    "type": "weapon",
+    "rarity": "Epic",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 34114,
+    "factionRep": 341,
+    "tags": [
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy_05"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_HVY_Beam_02": {
+    "inGameName": "WP_G_HVY_Beam_02",
+    "description": "WP_G_HVY_Beam_02",
+    "type": "weapon",
+    "rarity": "Epic",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 120240,
+    "factionRep": 1202,
+    "tags": [
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Special_06_2"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_E_Sniper_Bullet_02": {
+    "inGameName": "WP_E_Sniper_Bullet_02",
+    "description": "WP_E_Sniper_Bullet_02",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 50,
+    "cost": [],
+    "sellValue": 5303,
+    "factionRep": 53,
+    "tags": [
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy"
     ],
     "stackSize": 1,
     "uses": {
@@ -8126,6 +9116,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 460,
+        "AI_HowlerPellet": 1,
         "Antibiotics": 2,
         "WaterPlant": 2,
         "IvyPlant": 1
@@ -8191,6 +9182,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 460,
+        "AI_HowlerPellet": 1,
         "AnaestheticsContainers": 2,
         "WaterPlant": 3,
         "IvyPlant": 1
@@ -8363,7 +9355,35 @@
         "shop": "CraftingStation",
         "SoftCurrency": 6800,
         "ChargedForgeIronIngot": 4,
-        "Alien_Scrap": 8
+        "Alien_Scrap": 8,
+        "AI_HowlerDart": 1
+      }
+    ],
+    "sellValue": 1025,
+    "factionRep": 10,
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "HowlerGrenade_01": {
+    "inGameName": "HowlerGrenade_01",
+    "description": "HowlerGrenade_01",
+    "type": "consumable",
+    "rarity": "Exotic",
+    "weight": 5,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 10000,
+        "AI_HowlerDart": 2
       }
     ],
     "sellValue": 1025,
@@ -8540,12 +9560,7 @@
     "type": "backpack",
     "rarity": "Epic",
     "weight": 50,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 18000
-      }
-    ],
+    "cost": [],
     "sellValue": 5468,
     "factionRep": 55,
     "tags": [],
@@ -8569,12 +9584,7 @@
     "type": "backpack",
     "rarity": "Exotic",
     "weight": 60,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 32000
-      }
-    ],
+    "cost": [],
     "sellValue": 9568,
     "factionRep": 96,
     "tags": [],
@@ -8593,12 +9603,7 @@
     "type": "backpack",
     "rarity": "Legendary",
     "weight": 70,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 48000
-      }
-    ],
+    "cost": [],
     "sellValue": 14352,
     "factionRep": 144,
     "tags": [],
@@ -8918,17 +9923,12 @@
     }
   },
   "Shield_Altered_01": {
-    "inGameName": "Epic Forged Shield",
-    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Epic Shield_Altered_01",
+    "description": "Shield_Altered_01",
     "type": "shield",
     "rarity": "Epic",
     "weight": 40,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 43000
-      }
-    ],
+    "cost": [],
     "sellValue": 12985,
     "factionRep": 130,
     "tags": [],
@@ -8942,17 +9942,12 @@
     }
   },
   "Shield_Altered_02": {
-    "inGameName": "Exotic Forged Shield",
-    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Exotic Shield_Altered_02",
+    "description": "Shield_Altered_02",
     "type": "shield",
     "rarity": "Exotic",
     "weight": 40,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 75000
-      }
-    ],
+    "cost": [],
     "sellValue": 22553,
     "factionRep": 226,
     "tags": [],
@@ -8966,17 +9961,12 @@
     }
   },
   "Shield_Altered_03": {
-    "inGameName": "Legendary Forged Shield",
-    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Legendary Shield_Altered_03",
+    "description": "Shield_Altered_03",
     "type": "shield",
     "rarity": "Legendary",
     "weight": 40,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 128000
-      }
-    ],
+    "cost": [],
     "sellValue": 38444,
     "factionRep": 384,
     "tags": [],
@@ -9302,17 +10292,12 @@
     }
   },
   "Helmet_Altered_01": {
-    "inGameName": "Epic Forged Helmet",
-    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Epic Helmet_Altered_01",
+    "description": "Helmet_Altered_01",
     "type": "helmet",
     "rarity": "Epic",
     "weight": 20,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 21000
-      }
-    ],
+    "cost": [],
     "sellValue": 6265,
     "factionRep": 63,
     "tags": [],
@@ -9326,17 +10311,12 @@
     }
   },
   "Helmet_Altered_02": {
-    "inGameName": "Exotic Forged Helmet",
-    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Exotic Helmet_Altered_02",
+    "description": "Helmet_Altered_02",
     "type": "helmet",
     "rarity": "Exotic",
     "weight": 20,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 43000
-      }
-    ],
+    "cost": [],
     "sellValue": 12815,
     "factionRep": 128,
     "tags": [],
@@ -9350,17 +10330,12 @@
     }
   },
   "Helmet_Altered_03": {
-    "inGameName": "Legendary Forged Helmet",
-    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
+    "inGameName": "Legendary Helmet_Altered_03",
+    "description": "Helmet_Altered_03",
     "type": "helmet",
     "rarity": "Legendary",
     "weight": 20,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 85000
-      }
-    ],
+    "cost": [],
     "sellValue": 25629,
     "factionRep": 256,
     "tags": [],
@@ -9687,7 +10662,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "CompoundSheets": 2,
+        "Insulation": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -9708,7 +10690,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "CompoundSheets": 2,
+        "Insulation": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -9729,7 +10718,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "CompoundSheets": 3,
+        "SpareCasing": 1
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -9750,7 +10746,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "CompoundSheets": 3,
+        "SpareCasing": 1
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -9829,7 +10832,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BrittleTitanOre": 2,
+        "PureNickel": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -9850,7 +10860,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BrittleTitanOre": 2,
+        "PureNickel": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -9871,7 +10888,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BrittleTitanOre": 2,
+        "BallBearings": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -9892,7 +10916,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BrittleTitanOre": 2,
+        "BallBearings": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -10312,7 +11343,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "CompoundSheets": 3,
+        "CombatCPU_Blue": 1,
+        "PrintResin": 1
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -10421,7 +11460,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "CompoundSheets": 3,
+        "CombatCPU_Blue": 1,
+        "PrintResin": 1
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -10530,7 +11577,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "CompoundSheets": 4,
+        "CircuitBoard": 3,
+        "BrittleTitanOre": 2
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -10639,7 +11694,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "CompoundSheets": 4,
+        "CircuitBoard": 3,
+        "BrittleTitanOre": 2
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -10789,7 +11852,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BlueWood": 2,
+        "Alloys": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -10869,7 +11939,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BlueWood": 2,
+        "Alloys": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -10960,7 +12037,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BlueWood": 3,
+        "BrittleTitanOre": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -11040,7 +12124,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BlueWood": 3,
+        "BrittleTitanOre": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -11190,7 +12281,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "MagneticFieldStabilizer": 3,
+        "PureNickel": 2,
+        "UncommonVelticite": 2
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -11270,7 +12369,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "MagneticFieldStabilizer": 3,
+        "PureNickel": 2,
+        "UncommonVelticite": 2
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -11491,7 +12598,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "UncommonVelticite": 2,
+        "GenericCreatureDrop": 3
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -11512,7 +12626,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "MeteorFragment": 1,
+        "TitanOre": 1,
+        "NeuroToxicGlands": 1
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -11562,7 +12684,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "UncommonVelticite": 2,
+        "GenericCreatureDrop": 3
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [
@@ -11583,7 +12712,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "MeteorFragment": 1,
+        "TitanOre": 1,
+        "NeuroToxicGlands": 1
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -11755,7 +12892,15 @@
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "RareVeltecite": 1,
+        "PrintResin": 1,
+        "AI_RattlerSkin": 2
+      }
+    ],
     "sellValue": 986,
     "factionRep": 10,
     "tags": [
@@ -11864,7 +13009,14 @@
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 1,
-    "cost": [],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "Alloys": 2,
+        "AI_RattlerSkin": 2
+      }
+    ],
     "sellValue": 374,
     "factionRep": 4,
     "tags": [

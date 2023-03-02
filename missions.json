@@ -62,6 +62,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -99,12 +103,11 @@
     "factionReputation": 50,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-KOR-GainTrust_3_job_bg",
+    "image": "T_UI_Mission_Main-KOR-GainTrust_2_new_job_bg",
     "objectives": [
       {
-        "type": "OwnNumOfItem",
-        "maxProgress": 2,
-        "itemToOwn": "CompoundSheets"
+        "type": "LootContainer",
+        "maxProgress": 3
       },
       {
         "type": "OwnNumOfItem",
@@ -164,6 +167,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -207,17 +214,19 @@
     "factionReputation": 50,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-KOR-GainTrust_5_job_bg",
+    "image": "T_UI_Mission_Main-KOR-GainTrust_4_new_job_bg",
     "objectives": [
       {
-        "type": "OwnNumOfItem",
-        "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite"
+        "type": "VisitArea",
+        "maxProgress": 1
       },
       {
-        "type": "OwnNumOfItem",
-        "maxProgress": 1,
-        "itemToOwn": "CircuitBoard"
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
       }
     ],
     "rewards": [
@@ -258,17 +267,23 @@
     "factionReputation": 130,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-KOR-MiningTool_1_job_bg",
+    "image": "T_UI_Mission_Main-KOR-GainTrust_2_job_bg",
     "objectives": [
       {
-        "type": "OwnNumOfItem",
-        "maxProgress": 6,
-        "itemToOwn": "PureNickel"
-      },
-      {
-        "type": "OwnNumOfItem",
-        "maxProgress": 7,
-        "itemToOwn": "UncommonVelticite"
+        "type": "Kills",
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "MP_Map01_P",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -315,12 +330,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 5,
         "itemToOwn": "CompoundSheets"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 2,
         "itemToOwn": "BallBearings"
       }
     ],
@@ -372,6 +387,27 @@
                 "ObjectName": "DataTable PRO_Weapons",
                 "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
+              "RowName": "WP_A_Sniper_Gauss_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
               "RowName": "WP_A_Pistol_Bullet_01"
             },
             {
@@ -439,6 +475,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -458,6 +498,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Medium Backpack",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "Faction Reputation",
         "amount": 160
       }
@@ -470,61 +516,6 @@
     "chainName": "What a Tool!",
     "chainDescription": "Tired of swinging that pickaxe yet? Want a new mining tool that'll turn those rocks to dust in just a few short seconds?\r\n\r\nKorolev's got you covered, if you complete these simple tasks for them.",
     "chainPart": 3
-  },
-  "Main-KOR-MiningTool-4": {
-    "inGameName": "Very Fast Moving Parts",
-    "description": "We're missing some parts, but can't move them on the station without raising eyebrows. Get these items to the Swamp on Bright Sands.",
-    "faction": "Korolev",
-    "factionReputation": 160,
-    "difficulty": "Invalid",
-    "failConditions": [],
-    "image": "T_UI_Mission_Main-KOR-MiningTool_4_job_bg",
-    "objectives": [
-      {
-        "type": "DeadDrop",
-        "maxProgress": 3,
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Alloys"
-      },
-      {
-        "type": "DeadDrop",
-        "maxProgress": 2,
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "HydraulicPiston"
-      }
-    ],
-    "rewards": [
-      {
-        "item": "Medium Backpack",
-        "amount": 1,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Korolev Scrip",
-        "amount": 3,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "SoftCurrency",
-        "amount": 6500,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Faction Reputation",
-        "amount": 160
-      }
-    ],
-    "unlockLevel": 0,
-    "unlockContracts": [
-      "Tools of the Trade"
-    ],
-    "isMainChain": false,
-    "chainName": "What a Tool!",
-    "chainDescription": "Tired of swinging that pickaxe yet? Want a new mining tool that'll turn those rocks to dust in just a few short seconds?\r\n\r\nKorolev's got you covered, if you complete these simple tasks for them.",
-    "chainPart": 4
   },
   "Main-KOR-MiningTool-5": {
     "inGameName": "Final Touches",
@@ -542,12 +533,12 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 2,
         "itemToOwn": "Cables"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "Adhesive"
       }
     ],
@@ -577,7 +568,7 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      "Very Fast Moving Parts"
+      "Tools of the Trade"
     ],
     "isMainChain": false,
     "chainName": "What a Tool!",
@@ -601,6 +592,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -613,6 +608,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -663,10 +662,6 @@
         "type": "OwnNumOfItem",
         "maxProgress": 2,
         "itemToOwn": "OpticGlass"
-      },
-      {
-        "type": "VisitArea",
-        "maxProgress": 1
       }
     ],
     "rewards": [
@@ -709,17 +704,20 @@
     "factionReputation": 160,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-KOR-GruntWork_3_job_bg",
+    "image": "T_UI_Mission_Main-KOR-GruntWork_3_new_job_bg",
     "objectives": [
       {
-        "type": "OwnNumOfItem",
-        "maxProgress": 7,
-        "itemToOwn": "BrittleTitanOre"
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "EpicVeltecite"
+        "itemToOwn": "MissionItem_KORHowlerEvidence1"
       }
     ],
     "rewards": [
@@ -765,6 +763,27 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_02"
+            },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
@@ -837,9 +856,17 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
       }
     ],
     "rewards": [
@@ -882,7 +909,7 @@
     "factionReputation": 200,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-KOR-GruntWork_6_job_bg",
+    "image": "T_UI_Mission_Main-KOR-GruntWork_5_alt_job_bg",
     "objectives": [
       {
         "type": "OwnNumOfItem",
@@ -929,12 +956,8 @@
     "factionReputation": 240,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-KOR-GruntWork_7_job_bg",
+    "image": "T_UI_Mission_Main-KOR-GruntWork_6_new_job_bg",
     "objectives": [
-      {
-        "type": "VisitArea",
-        "maxProgress": 1
-      },
       {
         "type": "Kills",
         "maxProgress": 8,
@@ -943,9 +966,22 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_KORHowlerEvidence2"
       }
     ],
     "rewards": [
@@ -1045,6 +1081,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -1099,17 +1139,17 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 1,
         "itemToOwn": "RareVeltecite"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "Cables"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 2,
         "itemToOwn": "CircuitBoard"
       }
     ],
@@ -1163,6 +1203,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -1359,18 +1403,16 @@
         "maxProgress": 15,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_SGun_Energy_01"
-            }
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
           ],
+          "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "MP_Map02_P",
           "m_onlyDuringStorm": false
         }
       },
@@ -1379,20 +1421,22 @@
         "maxProgress": 1,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_A_SGun_Energy_01"
-            }
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
           ],
+          "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "MP_Map02_P",
           "m_onlyDuringStorm": false
         }
+      },
+      {
+        "type": "LootContainer",
+        "maxProgress": 12
       }
     ],
     "rewards": [
@@ -1435,36 +1479,50 @@
     "factionReputation": 380,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-KOR-LetiumRumors_4_job_bg",
+    "image": "T_UI_Mission_Main-KOR-LetiumRumors_3_alt_job_bg",
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
-      },
-      {
-        "type": "Kills",
-        "maxProgress": 10,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Weremole_2"
+          },
+          "m_mapName": "MP_Map02_P",
           "m_onlyDuringStorm": false
         }
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 20,
-        "itemToOwn": "GenericCreatureDrop"
+        "maxProgress": 5,
+        "itemToOwn": "AI_WeremoleMeat_02"
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Rattler_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": true
+        }
       }
     ],
     "rewards": [
@@ -1620,6 +1678,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -1632,6 +1694,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -1687,6 +1753,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -1699,6 +1769,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -1798,6 +1872,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -1902,7 +1980,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "itemToOwn": "OpticGlass"
       },
       {
@@ -1964,6 +2042,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -2083,13 +2165,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 6,
+        "maxProgress": 3,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
         "deadDropItem": "RareVeltecite"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
         "deadDropItem": "EpicVeltecite"
       }
@@ -2143,6 +2225,27 @@
           "m_killTarget": "EYKillTypeAction::All",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_02"
+            },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
@@ -2215,6 +2318,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -2584,6 +2691,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -2598,6 +2709,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -2647,12 +2762,12 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 8,
         "itemToOwn": "MagneticFieldStabilizer"
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 9,
         "itemToOwn": "CircuitBoard"
       },
       {
@@ -2717,6 +2832,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -2876,6 +2995,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -2979,6 +3102,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -3070,7 +3197,7 @@
     "unlockContracts": [
       "Unlimited Power"
     ],
-    "isMainChain": false,
+    "isMainChain": true,
     "chainName": "The Test Run",
     "chainDescription": "With the Laser Drill complete, it's up to you to test it out and finally retrieve some Letium for Korolev.\r\n\r\nRemember to be careful, that thing will draw a lot of unwanted attention during descent, and it'll take a while to produce results!",
     "chainPart": 1
@@ -3082,12 +3209,11 @@
     "factionReputation": 50,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-ICA-GainTrust_1_job_bg",
+    "image": "T_UI_Mission_Main-ICA-FTUE_1_new_job_bg",
     "objectives": [
       {
-        "type": "OwnNumOfItem",
-        "maxProgress": 1,
-        "itemToOwn": "CompoundSheets"
+        "type": "LootContainer",
+        "maxProgress": 1
       }
     ],
     "rewards": [
@@ -3132,7 +3258,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 2,
+        "maxProgress": 1,
         "itemToOwn": "SpareCasing"
       },
       {
@@ -3173,23 +3299,20 @@
     "factionReputation": 50,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-ICA-GainTrust_3_job_bg",
+    "image": "T_UI_Mission_Main-ICA-GainTrust_2_new_job_bg",
     "objectives": [
       {
         "type": "VisitArea",
         "maxProgress": 1
       },
       {
-        "type": "Kills",
-        "maxProgress": 3,
-        "killConditions": {
-          "m_killTarget": "EYKillTypeAction::Creatures",
-          "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [],
-          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
-        }
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_ICAWildlifePhotographerCam"
       }
     ],
     "rewards": [
@@ -3284,10 +3407,6 @@
     "image": "T_UI_Mission_Main-ICA-GainTrust_5_job_bg",
     "objectives": [
       {
-        "type": "VisitArea",
-        "maxProgress": 1
-      },
-      {
         "type": "Kills",
         "maxProgress": 5,
         "killConditions": {
@@ -3295,9 +3414,17 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
+      },
+      {
+        "type": "LootContainer",
+        "maxProgress": 3
       },
       {
         "type": "OwnNumOfItem",
@@ -3349,13 +3476,16 @@
     "factionReputation": 160,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-ICA-AudioDecoys_1_job_bg",
+    "image": "T_UI_Mission_Main-ICA-AudioDecoys_1_new_job_bg",
     "objectives": [
       {
-        "type": "DeadDrop",
-        "maxProgress": 2,
-        "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_ICAAudioDecoysPlan"
       }
     ],
     "rewards": [
@@ -3396,7 +3526,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "itemToOwn": "CopperWire"
       },
       {
@@ -3449,13 +3579,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "Cables"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "deadDropLocation": "Map01_SwampCamp",
         "deadDropItem": "Battery"
       }
@@ -3557,6 +3687,53 @@
     "chainDescription": "Thousands of people live on Prospect Station without any concept of what it takes to keep the lights on. The ICA needs brave prospectors risking it all to operate on the planet, so they can keep things running in orbit.\r\n\r\nThere's evidence one such prospector got stranded on the surface, now it's up to you to help track them down. Despite all the violence and rivalry, nobody deserves to be left alone on Fortuna III.",
     "chainPart": 3
   },
+  "Main-ICA-GruntWork-3.1": {
+    "inGameName": "Main-ICA-Gruntwork-3.1",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-ICA-GruntWork_3_1_new_job_bg",
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_ICAHowlerData1"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 200
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMainChain": false
+  },
   "Main-ICA-GruntWork-4": {
     "inGameName": "Doing the Work Part 4",
     "description": "The ICA may run this station, but it's Korolev that owns the veltecite refiners needed to generate its power. The ICA funded research for alternative power sources, before the evacuations. Head down there and get us our data back.",
@@ -3596,7 +3773,7 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      ""
+      "Main-ICA-GruntWork-3.1"
     ],
     "isMainChain": false,
     "chainName": "Doing the Work",
@@ -3669,28 +3846,32 @@
     "factionReputation": 310,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-ICA-GruntWork_7_job_bg",
+    "image": "T_UI_Mission_Main-ICA-GruntWork_7_new_job_bg",
     "objectives": [
       {
-        "type": "VisitArea",
-        "maxProgress": 1
-      },
-      {
         "type": "Kills",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
       },
       {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
         "type": "OwnNumOfItem",
-        "maxProgress": 5,
-        "itemToOwn": "Battery"
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_ICAHowlerData2"
       }
     ],
     "rewards": [
@@ -3808,7 +3989,7 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 4,
+        "maxProgress": 3,
         "deadDropLocation": "Map01_CommsBase_Tower",
         "deadDropItem": "Consumable_SmokeGrenade_01"
       }
@@ -3958,7 +4139,7 @@
     "factionReputation": 480,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-ICA-MeteorReactor_2_job_bg",
+    "image": "T_UI_Mission_Main-ICA-MeteorReactor_2_alt_job_bg",
     "objectives": [
       {
         "type": "VisitArea",
@@ -4007,6 +4188,75 @@
     "chainDescription": "Prospect Station's power woes may soon be over. You just need to retrieve some very delicate machinery, get some highly radioactive meteor fragments, and help the ICA build a highly experimental power generator.\r\n\r\nA prospector's life is definitely never boring.",
     "chainPart": 2
   },
+  "Main-ICA-MeteorReactor-2.1": {
+    "inGameName": "Main-ICA-MeteorReactor-2.1",
+    "description": "",
+    "faction": "ICA",
+    "factionReputation": 480,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-ICA-MeteorReactor_2_new_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Howler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 8,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Rattler_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 14,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 480
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Plan B Part 1"
+    ],
+    "isMainChain": false
+  },
   "Main-ICA-MeteorReactor-3": {
     "inGameName": "Project Fireball Part 5",
     "description": "I read through the report you brought back; it's not the easy win I had hoped for, but my people assure me they can make improvements on the original designs to make it work. We'll need some meteor cores first, of course. Oh, and take out some other prospectors; reports of increased violence should keep any Korolev people on the field away, don't want them getting curious about what we're up to.",
@@ -4031,6 +4281,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4070,30 +4324,44 @@
     "factionReputation": 750,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-ICA-MeteorReactor_6_job_bg",
+    "image": "T_UI_Mission_Main-ICA-MeteorReactor_4_alt_job_bg",
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 12,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Strider_3"
+          },
+          "m_mapName": "MP_Map01_P",
+          "m_onlyDuringStorm": true
         }
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 12,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Strider_3"
+          },
+          "m_mapName": "MP_Map02_P",
+          "m_onlyDuringStorm": true
         }
       }
     ],
@@ -4275,6 +4543,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4380,12 +4652,16 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 8,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4448,6 +4724,13 @@
                 "ObjectName": "DataTable PRO_Weapons",
                 "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
+              "RowName": "WP_D_LMG_Energy_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
               "RowName": "WP_D_Pistol_Bullet_01"
             },
             {
@@ -4501,6 +4784,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4556,6 +4843,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4623,6 +4914,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4672,6 +4967,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4684,6 +4983,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4696,6 +4999,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -4851,7 +5158,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "HardDrive_legendary"
       }
     ],
@@ -4957,6 +5264,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -5011,7 +5322,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 15,
+        "maxProgress": 11,
         "itemToOwn": "CircuitBoard"
       },
       {
@@ -5085,6 +5396,13 @@
                 "ObjectName": "DataTable PRO_Weapons",
                 "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
+              "RowName": "WP_D_LMG_Energy_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
               "RowName": "WP_D_Pistol_Bullet_01"
             },
             {
@@ -5138,6 +5456,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -5275,7 +5597,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMainChain": false,
+    "isMainChain": true,
     "chainName": "An Eye for Oil",
     "chainDescription": "You may be able to stumble upon a good oil well by chance, but the ICA can't depend on just dumb luck alone if they want this project to succeed. \r\n\r\nA new mod for your Scanner will ensure you always know where to call down Oil Pumps.",
     "chainPart": 1
@@ -5291,7 +5613,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "CircuitBoard"
       },
       {
@@ -5349,6 +5671,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -5382,7 +5708,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMainChain": false,
+    "isMainChain": true,
     "chainName": "Put to the Test",
     "chainDescription": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges.\r\n\r\nA lot is riding on this, Prospector.",
     "chainPart": 1
@@ -5458,6 +5784,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_Map01_P",
           "m_onlyDuringStorm": false
         }
@@ -5483,6 +5813,12 @@
         "isUnlockReward": false
       },
       {
+        "item": "Jewellery",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
         "item": "Faction Reputation",
         "amount": 50
       }
@@ -5501,12 +5837,11 @@
     "factionReputation": 50,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-OSIRIS-GainTrust_2_job_bg",
+    "image": "T_UI_Mission_Main-OSIRIS-GainTrust_1_new_job_bg",
     "objectives": [
       {
-        "type": "OwnNumOfItem",
-        "maxProgress": 1,
-        "itemToOwn": "WaterPlant"
+        "type": "LootContainer",
+        "maxProgress": 1
       }
     ],
     "rewards": [
@@ -5555,6 +5890,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -5606,6 +5945,10 @@
     "image": "T_UI_Mission_Main-OSIRIS-GainTrust_4_job_bg",
     "objectives": [
       {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
         "type": "Kills",
         "maxProgress": 4,
         "killConditions": {
@@ -5613,6 +5956,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -5712,11 +6059,15 @@
     "factionReputation": 130,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-OSIRIS-GruntWork_1_job_bg",
+    "image": "T_UI_Mission_Main-OSIRIS-GruntWork_1_new_alternative_job_bg",
     "objectives": [
       {
         "type": "VisitArea",
         "maxProgress": 1
+      },
+      {
+        "type": "LootContainer",
+        "maxProgress": 4
       },
       {
         "type": "Kills",
@@ -5726,14 +6077,13 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
-      },
-      {
-        "type": "OwnNumOfItem",
-        "maxProgress": 2,
-        "itemToOwn": "OpticGlass"
       }
     ],
     "rewards": [
@@ -5784,12 +6134,16 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 5,
+        "maxProgress": 4,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -5802,6 +6156,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -5853,58 +6211,12 @@
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
+          "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -5943,6 +6255,64 @@
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries.",
     "chainPart": 4
   },
+  "Main-Osiris-GruntWork-3.1": {
+    "inGameName": "Main-Osiris-GruntWork-3.1",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 200,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-OSIRIS-GruntWork_3_1_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Strider_3"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_StriderMeat_03"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 4,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 7700,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 200
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMainChain": false
+  },
   "Main-Osiris-GruntWork-4": {
     "inGameName": "Field Research Part 5",
     "description": "One of our more 'hands-on' researchers forgot how to pack their tool bag, and another picked a fight with some thorn bushes and lost. Again. Anyways, stash some Med Kits and a Biological Sampler for them at these locations.",
@@ -5959,8 +6329,12 @@
         "deadDropItem": "SamplingDevice"
       },
       {
+        "type": "LootContainer",
+        "maxProgress": 3
+      },
+      {
         "type": "DeadDrop",
-        "maxProgress": 2,
+        "maxProgress": 3,
         "deadDropLocation": "Map01_WaterfallLab",
         "deadDropItem": "Consumable_Health_03"
       }
@@ -5991,7 +6365,7 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      ""
+      "Main-Osiris-GruntWork-3.1"
     ],
     "isMainChain": false,
     "chainName": "Field Research",
@@ -6005,28 +6379,32 @@
     "factionReputation": 200,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-OSIRIS-GruntWork_6_job_bg",
+    "image": "T_UI_Mission_Main-OSIRIS-GruntWork_5_new_job_bg",
     "objectives": [
       {
-        "type": "VisitArea",
-        "maxProgress": 1
-      },
-      {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
       },
       {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "IvyPlant"
+        "itemToOwn": "MissionItem_OSIPaleIvySample"
       }
     ],
     "rewards": [
@@ -6077,10 +6455,32 @@
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [
+            "EYDeviceCategory::AssaultRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [
             "EYDeviceCategory::SMG"
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -6140,12 +6540,19 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 2,
+        "maxProgress": 3,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Rattler_2"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -6153,7 +6560,7 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AI_RattlerEyes"
+        "itemToOwn": "AI_RattlerEyes_02"
       }
     ],
     "rewards": [
@@ -6240,14 +6647,14 @@
     "chainDescription": "You've met up to Sullivan's standards, a feat few manage. Now that you've proven yourself capable, he might send you to investigate some of the planet's old mysteries.",
     "chainPart": 10
   },
-  "Main-Osiris-StrongStims-1": {
-    "inGameName": "Stimulating Developments Part 1",
-    "description": "This should interest you: we have a small team researching new, stronger health stims, but we're low on certain materials that were never restocked on station. Head to the Vaccine Labs and bring back some Medical Supplies.",
+  "Main-Osiris-StrongStims-0.1": {
+    "inGameName": "Main-Osiris-StrongStims-0.1",
+    "description": "",
     "faction": "Osiris",
     "factionReputation": 160,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-OSIRIS-StrongStims_1_job_bg",
+    "image": "T_UI_Mission_Main-OSIRIS-StrongStims_1_new_job_bg",
     "objectives": [
       {
         "type": "VisitArea",
@@ -6256,6 +6663,55 @@
       {
         "type": "VisitArea",
         "maxProgress": 1
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_OSIStrongStimRecipe"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 8400,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 160
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMainChain": false,
+    "chainName": "Stimulating Developments",
+    "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims."
+  },
+  "Main-Osiris-StrongStims-1": {
+    "inGameName": "undefined Part 1",
+    "description": "This should interest you: we have a small team researching new, stronger health stims, but we're low on certain materials that were never restocked on station. Head to the Vaccine Labs and bring back some Medical Supplies.",
+    "faction": "Osiris",
+    "factionReputation": 160,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-OSIRIS-StrongStims_1_job_bg",
+    "objectives": [
+      {
+        "type": "LootContainer",
+        "maxProgress": 5
+      },
+      {
+        "type": "LootContainer",
+        "maxProgress": 5
       },
       {
         "type": "OwnNumOfItem",
@@ -6283,15 +6739,13 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      ""
+      "Main-Osiris-StrongStims-0.1"
     ],
     "isMainChain": false,
-    "chainName": "Stimulating Developments",
-    "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims.",
     "chainPart": 1
   },
   "Main-Osiris-StrongStims-2": {
-    "inGameName": "Stimulating Developments Part 2",
+    "inGameName": "undefined Part 2",
     "description": "There are a few more items from the surface our team needs, Prospector. Get what we need from this list if you want access to stronger stims.",
     "faction": "Osiris",
     "factionReputation": 200,
@@ -6344,12 +6798,67 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Stimulating Developments",
-    "chainDescription": "Osiris specialize in medical tech, from surgical robots to powerful medicines and even healing nanites. Many of their advancements are only possible thanks to prospectors like you retrieving samples from the planet.\r\n\r\nGet Osiris what they need, and you'll be rewarded with access to new, stronger health stims.",
     "chainPart": 2
   },
+  "Main-Osiris-CaveRumors-0.1": {
+    "inGameName": "Main-Osiris-CaveRumors-0.1",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 380,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_6_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Howler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "MP_Map02_P",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "AI_HowlerDart"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 11,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 380
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      ""
+    ],
+    "isMainChain": true,
+    "chainName": "Lost Knowledge",
+    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on research from prospectors like you."
+  },
   "Main-Osiris-CaveRumors-1": {
-    "inGameName": "Lost Knowledge Part 1",
+    "inGameName": "undefined Part 1",
     "description": "Prospector, one of our researchers has noticed rattler hides are particularly susceptible to cell pattern changes based on their diets. Head to Nutrion Farms Processing and help us by getting the right samples.",
     "faction": "Osiris",
     "factionReputation": 380,
@@ -6398,87 +6907,44 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      ""
+      "Main-Osiris-CaveRumors-0.1"
     ],
-    "isMainChain": true,
-    "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on research from prospectors like you.",
+    "isMainChain": false,
     "chainPart": 1
   },
   "Main-Osiris-CaveRumors-2": {
-    "inGameName": "Lost Knowledge Part 3",
+    "inGameName": "undefined Part 3",
     "description": "We've received several reports of faulty weapons: jams, low power, misaligned sights... I need you to get me data on our weapons' performance against real targets. The old Favela in Crescent Falls should be a good test site.",
     "faction": "Osiris",
     "factionReputation": 380,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-OSIRIS-CaveRumors_3_job_bg",
+    "image": "T_UI_Mission_Main-OSIRIS-CaveRumors_2_new_job_bg",
     "objectives": [
-      {
-        "type": "VisitArea",
-        "maxProgress": 1
-      },
       {
         "type": "Kills",
         "maxProgress": 2,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
-          "m_allowedSpecificWeapons": [
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Pistol_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_SMG_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Beam_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_AR_Needle_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_Sniper_Energy_01"
-            },
-            {
-              "DataTable": {
-                "ObjectName": "DataTable PRO_Weapons",
-                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
-              },
-              "RowName": "WP_G_HVY_Beam_01"
-            }
-          ],
+          "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "MP_Map02_P",
           "m_onlyDuringStorm": false
         }
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_OSICrystalCaveClue"
       }
     ],
     "rewards": [
@@ -6496,7 +6962,7 @@
       },
       {
         "item": "SoftCurrency",
-        "amount": 7800,
+        "amount": 15000,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -6510,12 +6976,10 @@
       "Crashed Osiris Freighter"
     ],
     "isMainChain": false,
-    "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on research from prospectors like you.",
     "chainPart": 3
   },
   "Main-Osiris-CaveRumors-3": {
-    "inGameName": "Lost Knowledge Part 4",
+    "inGameName": "undefined Part 4",
     "description": "I listened through parts of that crashed ship's flight recorder, and several conversations caught from the cabin had our man talking about 'Crystal Caverns' in relation to his research. Head there and see what you find, collect mineral and bio-samples from the area.",
     "faction": "Osiris",
     "factionReputation": 480,
@@ -6535,6 +6999,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -6568,8 +7036,6 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Lost Knowledge",
-    "chainDescription": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on research from prospectors like you.",
     "chainPart": 4
   },
   "Main-Osiris-ExplosivesTry-1": {
@@ -6735,7 +7201,7 @@
     "objectives": [
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 10,
+        "maxProgress": 6,
         "itemToOwn": "RadioactiveBrightcapMushroom"
       }
     ],
@@ -6777,14 +7243,18 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 12,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
-          "m_mapName": "",
-          "m_onlyDuringStorm": false
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "MP_Map02_P",
+          "m_onlyDuringStorm": true
         }
       }
     ],
@@ -6980,6 +7450,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -7039,6 +7513,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -7203,6 +7681,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -7684,6 +8166,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -7844,6 +8330,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -7897,6 +8387,34 @@
                 "ObjectName": "DataTable PRO_Weapons",
                 "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
+              "RowName": "WP_G_HVY_Beam_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
@@ -7943,6 +8461,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -8088,7 +8610,7 @@
     "factionReputation": 3600,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "T_UI_Mission_Main-OSIRIS-TestRun_1_job_bg",
+    "image": "T_UI_Mission_Main-OSIRIS-TestRun_1_alt_job_bg",
     "objectives": [
       {
         "type": "VisitArea",
@@ -8096,20 +8618,38 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 10,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
       },
       {
-        "type": "OwnNumOfItem",
+        "type": "Kills",
         "maxProgress": 1,
-        "itemToOwn": "AlphaWardenHeart"
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Crusher_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
       }
     ],
     "rewards": [
@@ -8146,7 +8686,7 @@
     "unlockContracts": [
       ""
     ],
-    "isMainChain": false,
+    "isMainChain": true,
     "chainName": "Breaking and Entering",
     "chainDescription": "Everything is ready to fire up that Orbital Cannon! You'll need to place a beacon at the right location for the satellite to lock on to the cavern entrance, then hope those calibrations fixes worked out.\r\n\r\nOnce the cavern opens up, be quick to get in and explore them; anything you find inside may be of immense importance for Osiris.",
     "chainPart": 1
@@ -8220,6 +8760,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -8232,6 +8776,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -8244,6 +8792,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -8400,6 +8952,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -8635,7 +9191,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 3,
+        "maxProgress": 2,
         "itemToOwn": "HardDrive_rare"
       }
     ],
@@ -8757,7 +9313,7 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      "Plan B Part 1"
+      "Main-ICA-MeteorReactor-2.1"
     ],
     "isMainChain": false,
     "chainName": "Doing the Work",
@@ -8785,6 +9341,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -8927,6 +9487,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -9062,7 +9626,7 @@
     "chainPart": 2
   },
   "Main-KOR-Caverns-1": {
-    "inGameName": "In a Deep Dark Hole Part 1",
+    "inGameName": "undefined Part 1",
     "description": "Your raids of old Osiris data unearthed something I had forgotten about, Tharis Island. We had a small base on it excavating something rare, very very valuable. Our charts say the radiation has almost become safe there now... maybe you can have a look, take care of some of the creatures there for us.",
     "faction": "Korolev",
     "factionReputation": 750,
@@ -9078,6 +9642,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         }
@@ -9103,15 +9671,13 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      "Lab Heist"
+      "Main-KOR-Caverns-0.2-Unlock"
     ],
-    "isMainChain": true,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "isMainChain": false,
     "chainPart": 1
   },
   "Main-KOR-Caverns-2": {
-    "inGameName": "In a Deep Dark Hole Part 2",
+    "inGameName": "undefined Part 2",
     "description": "Aha, so the situation is not as bad as feared. Our installation on the island had... issues, even before the storms. What information Gregor... my predecessor, left, it does not clear up what happened. Prospector, I need you to search for the remains of site's Chief Engineer, he would have kept a detailed logbook of everything going on there.",
     "faction": "Korolev",
     "factionReputation": 750,
@@ -9158,12 +9724,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 2
   },
   "Main-KOR-Caverns-3": {
-    "inGameName": "In a Deep Dark Hole Part 3",
+    "inGameName": "undefined Part 3",
     "description": "There is a lot to go through here: accounts of illnesses, accidents, some kind of forbidden area... But the site was still made to operate, harvesting something called 'Spine Briars'. They must have been very valuable, to keep the men working under these conditions; acquire some, and stash them at our old outpost.",
     "faction": "Korolev",
     "factionReputation": 930,
@@ -9201,12 +9765,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 3
   },
   "Main-KOR-Caverns-4": {
-    "inGameName": "In a Deep Dark Hole Part 4",
+    "inGameName": "undefined Part 4",
     "description": "Evidently the word has spread quickly that Tharis Island is again safe to step on, and already there are looters hired out to pilfer our property. Take one of our weapons and make an example of them, Prospector.",
     "faction": "Korolev",
     "factionReputation": 930,
@@ -9221,6 +9783,27 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_02"
+            },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
@@ -9293,6 +9876,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         }
@@ -9321,12 +9908,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 4
   },
   "Main-KOR-Caverns-5": {
-    "inGameName": "In a Deep Dark Hole Part 5",
+    "inGameName": "undefined Part 5",
     "description": "Another lead has come up from the logbook you recovered; one of the team's geologists was collecting a 'strange ore'. I can't tell what that means, but I do have her last known location before her transponder went dark. Go investigate, see what you can bring back for us.",
     "faction": "Korolev",
     "factionReputation": 1200,
@@ -9371,12 +9956,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 5
   },
   "Main-KOR-Caverns-6": {
-    "inGameName": "In a Deep Dark Hole Part 6",
+    "inGameName": "undefined Part 6",
     "description": "What you brought back, it's definitely not natural. 'Tharis Iron', is what they called it, and I can see why it became a priority for Gregor to recover more. I need you to find the site's old mining machines, so we can know if proper exploitation had started, if there may have been more brought out before the operation ended.",
     "faction": "Korolev",
     "factionReputation": 1200,
@@ -9420,12 +10003,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 6
   },
   "Main-KOR-Caverns-7": {
-    "inGameName": "In a Deep Dark Hole Part 7",
+    "inGameName": "undefined Part 7",
     "description": "Our researchers want more of these exotic samples, they believe they might interact with each other under the right conditions. Bring back enough Teratomorphic Crystals and Tharis Iron for the scientists to play their games.",
     "faction": "Korolev",
     "factionReputation": 1500,
@@ -9467,12 +10048,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 7
   },
   "Main-KOR-Caverns-8": {
-    "inGameName": "In a Deep Dark Hole Part 8",
+    "inGameName": "undefined Part 8",
     "description": "To nobody's surprise, least of all mine, those experiments did not lead to anything useful. Ah well, I can always rely on you to get us more samples... Speaking of which, a prospector I had hired to collect more Tharis Iron reported finding what they called a 'pure sample', before some creatures scared him off. Maybe you can retrieve it for us?",
     "faction": "Korolev",
     "factionReputation": 1500,
@@ -9492,6 +10071,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -9525,12 +10108,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 8
   },
   "Main-KOR-Caverns-9": {
-    "inGameName": "In a Deep Dark Hole Part 9",
+    "inGameName": "undefined Part 9",
     "description": "Ah, this Refined Tharis Iron is definitely something... we just don't know what, yet, or how to convert the 'normal' alien ore into it. I already know what the next requisition order will list, so just get me more of this refined ore, and more Teratomorphic Crystals to replenish our stock.",
     "faction": "Korolev",
     "factionReputation": 1800,
@@ -9572,8 +10153,6 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 9
   },
   "Main-KOR-Caverns-10": {
@@ -9593,6 +10172,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -9605,6 +10188,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -9617,6 +10204,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -9794,7 +10385,7 @@
     "chainPart": 13
   },
   "Main-ICA-Caverns-1": {
-    "inGameName": "Race to the Bottom Part 1",
+    "inGameName": "undefined Part 1",
     "description": "There is a special task I would like you to carry out for us, Prospector. Some time ago we detected a new window in the TEF, the radiation field around the planet, over a small island; we kept that information to ourselves for as long as we could to run our own recon, but the information is public now.\r\nThe window barely covers a Korolev mining site, but it was the last stop of a civilian evac ship; logs show it never made it off the island, with over a dozen of our people on board. Will you help us find out what happened to them?",
     "faction": "ICA",
     "factionReputation": 750,
@@ -9835,15 +10426,13 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      ""
+      "Main-ICA-Caverns-0.2-Unlock"
     ],
-    "isMainChain": true,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "isMainChain": false,
     "chainPart": 1
   },
   "Main-ICA-Caverns-2": {
-    "inGameName": "Race to the Bottom Part 2",
+    "inGameName": "undefined Part 2",
     "description": "Killed... with guns and blades. By other people. I don't know how to convey this to the families, the ones that were still... just waiting.\r\nOld records don't say much about the island just mentions of a large cavern near the surface, an Atrium. Check there for, well, anything. There must be an explanation for what happened. A reason.",
     "faction": "ICA",
     "factionReputation": 750,
@@ -9863,6 +10452,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -9896,12 +10489,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
     "chainPart": 2
   },
   "Main-ICA-Caverns-3": {
-    "inGameName": "Race to the Bottom Part 3",
+    "inGameName": "undefined Part 3",
     "description": "The diary you brought back to us only leaves me with more questions. Whoever attacked the site went after Osiris' first, all their researchers and the lab itself. Then Korolev, but they were prepared... When the evac ship arrived, it was overrun and the survivors scattered, with some making it to the Korolev encampent.\r\nI don't have any more data on the cavern systems the corps were so interested in... hell, there's barely any records on the island at all! Osiris' people have always been fastidious about logging everything; search through their lab for a logbook or a map, anything that can help us understand the area.",
     "faction": "ICA",
     "factionReputation": 930,
@@ -9947,8 +10538,6 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
     "chainPart": 3
   },
   "Main-ICA-Caverns-3.1": {
@@ -9968,6 +10557,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": true
         }
@@ -9980,6 +10573,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_Map02_P",
           "m_onlyDuringStorm": false
         }
@@ -9992,6 +10589,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_Map01_P",
           "m_onlyDuringStorm": false
         }
@@ -10023,7 +10624,7 @@
     "chainPart": 4
   },
   "Main-ICA-Caverns-4": {
-    "inGameName": "Race to the Bottom Part 5",
+    "inGameName": "undefined Part 5",
     "description": "I've done some digging around old files, and some prodding of old corp drones with a dim view of their former employers. The attacks weren't a surprise, they'd been happening for weeks before the final evac. And neither corporation ever made them public, never mind thought to pull out. Whatever they were looking for, it was worth sacrificing their own people for. Please, bring back whatever samples from those caverns you can find.",
     "faction": "ICA",
     "factionReputation": 1200,
@@ -10070,12 +10671,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
     "chainPart": 5
   },
   "Main-ICA-Caverns-5": {
-    "inGameName": "Race to the Bottom Part 6",
+    "inGameName": "undefined Part 6",
     "description": "What you delivered was definitely unique, but it doesn't seem more special than Veltecite, or any number of the other rare materials found on the surface. Though I should leave our scientists to decide that, I suppose.\r\nMaybe you'll find something at the Korolev camp? The workers wouldn't have been allowed to record anything, but maybe one of the colonists that took shelter with them did?",
     "faction": "ICA",
     "factionReputation": 1200,
@@ -10116,12 +10715,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
     "chainPart": 6
   },
   "Main-ICA-Caverns-6": {
-    "inGameName": "Race to the Bottom Part 7",
+    "inGameName": "undefined Part 7",
     "description": "We only managed to recover a few fragments of the videolog you recovered, but what I've seen was enough. The corps held back on evacs until it was too late, despite the encroaching storms and increasing attacks from some savage 'cultists'. They were still down there working as the rest of the planet was being abandoned, still hoping to find something in those caverns. And now they're back at it, sending prospectors down to continue their work.\r\nSend a message for us, the corps need to know when to quit.",
     "faction": "ICA",
     "factionReputation": 1500,
@@ -10137,6 +10734,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         }
@@ -10149,6 +10750,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         }
@@ -10177,12 +10782,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
     "chainPart": 7
   },
   "Main-ICA-Caverns-7": {
-    "inGameName": "Race to the Bottom Part 8",
+    "inGameName": "undefined Part 8",
     "description": "I've been reviewing more of the recordings you brought back to us, and something stood out, from one of the Osiris facilities. Recent images I've seen of the area from other Prospectors show a new door where there wasn't one in the footage; somehow, Osiris managed to not only get a team down there while the TEF radiation was at its highest, but even do some renovation work! I had someone go take a closer look at it, but they were chased away and dropped the sample they managed to pry off; can you retrieve it for us?",
     "faction": "ICA",
     "factionReputation": 1500,
@@ -10227,12 +10830,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
     "chainPart": 8
   },
   "Main-ICA-Caverns-8": {
-    "inGameName": "Race to the Bottom Part 9",
+    "inGameName": "undefined Part 9",
     "description": "That door? It's not made of any alloy we've seen used before. There are mentions of some sort of new metal Osiris was studying, 'Tharis Iron'; could that be what they used here? What the corps were so desperate for? But why use it just to build a vault door and nothing else? We need a better sample of this material, maybe then we'll get some answers.",
     "faction": "ICA",
     "factionReputation": 1800,
@@ -10270,12 +10871,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
     "chainPart": 9
   },
   "Main-ICA-Caverns-9": {
-    "inGameName": "Race to the Bottom Part 10",
+    "inGameName": "undefined Part 10",
     "description": "Whatever this stuff you got us is, we don't have the tools to study it properly. The corps have a stranglehold on all the good scientific equipment on the station... but not on the surface. Head to Osiris' Pinnacle Labs on Crescent Falls, I know that place still has top tier gear, even if Sullivan's abandoned it all as 'obsolete junk'.",
     "faction": "ICA",
     "factionReputation": 1800,
@@ -10320,8 +10919,6 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "Race to the Bottom",
-    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
     "chainPart": 10
   },
   "Main-ICA-Caverns-10": {
@@ -10343,6 +10940,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         }
@@ -10390,13 +10991,13 @@
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 8,
+        "maxProgress": 9,
         "deadDropLocation": "Map03_OsirisMain",
         "deadDropItem": "OilTank"
       },
       {
         "type": "DeadDrop",
-        "maxProgress": 5,
+        "maxProgress": 6,
         "deadDropLocation": "Map03_KorolevMain",
         "deadDropItem": "DerelictExplosives"
       }
@@ -10544,6 +11145,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         }
@@ -10675,7 +11280,7 @@
     "chainPart": 16
   },
   "Main-Osiris-Caverns-1": {
-    "inGameName": "The Progenitor Device Part 1",
+    "inGameName": "undefined Part 1",
     "description": "I have some recon work for you, Prospector. Recent survey data shows a dip in TEF radiation on a 'Tharis Island', the spot of one our old field labs. The installation was just being set up when the evac order came through, and with all the chaos, the records don't show any researchers making it out, nor why they were there in the first place. Head down there, check the outpost, and report back to me.",
     "faction": "Osiris",
     "factionReputation": 750,
@@ -10712,11 +11317,9 @@
     ],
     "unlockLevel": 0,
     "unlockContracts": [
-      "Lost Scientist"
+      "Main-Osiris-Caverns-0.2-Unlock"
     ],
-    "isMainChain": true,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "isMainChain": false,
     "chainPart": 1
   },
   "Main-Osiris-Caverns-1.1": {
@@ -10736,6 +11339,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         }
@@ -10772,7 +11379,7 @@
     "chainPart": 2
   },
   "Main-Osiris-Caverns-2": {
-    "inGameName": "The Progenitor Device Part 3",
+    "inGameName": "undefined Part 3",
     "description": "I need more information before I act; get into the Korolev Island HQ and retrieve whatever information that might shed some light on what happened. If Korolev truly is responsible for what happened, there will be hell to pay.",
     "faction": "Osiris",
     "factionReputation": 930,
@@ -10818,12 +11425,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
     "chainPart": 3
   },
   "Main-Osiris-Caverns-3": {
-    "inGameName": "The Progenitor Device Part 4",
+    "inGameName": "undefined Part 4",
     "description": "Unexpected. Both our people and Korolev's were attacked by a third party, what a Korolev foreman referred as 'cultists'. From the description, this group behaved similar to those afflicted by prolonged exposure to the TEF's radiation, but the first recorded encounter predates the first storms by a matter of months.\r\nProspector, I need you to search for the Surveyor Pods deployed in the caverns, they would have recorded evidence of any exotic radiation, even before they knew what it was.",
     "faction": "Osiris",
     "factionReputation": 930,
@@ -10867,12 +11472,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
     "chainPart": 4
   },
   "Main-Osiris-Caverns-4": {
-    "inGameName": "The Progenitor Device Part 5",
+    "inGameName": "undefined Part 5",
     "description": "Just as I suspected, those caverns had been leaking TEF radiation for years before anyone ever set foot in them. That entire area can give us a preview of what sites on the surface may look like decades from now, if the field continues to affect the planet.\r\nBut first things first: hunt down some Crushers from one of the affected areas and stash samples of their remains at one of our outpost so we can analyze the radiation.",
     "faction": "Osiris",
     "factionReputation": 1200,
@@ -10888,6 +11491,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -10922,8 +11529,6 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
     "chainPart": 5
   },
   "Main-Osiris-Caverns-4.1": {
@@ -10968,7 +11573,7 @@
     "chainPart": 6
   },
   "Main-Osiris-Caverns-5": {
-    "inGameName": "The Progenitor Device Part 7",
+    "inGameName": "undefined Part 7",
     "description": "The results came back on the Crushers irradiated by Tharis: inconclusive; none of the creatures you dispatched seemed to be over a decade old, which may hint at the limits their natural lifespan, or at how efficient your fellow prospectors have been at thinning their numbers. One thing did stand out, though; a foreign bioluminescent compound. I've found mentions of a 'Cave of Stars', the likely source. Search the area, and bring back anything that may be of interest.",
     "faction": "Osiris",
     "factionReputation": 1500,
@@ -10988,6 +11593,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -11021,12 +11630,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
     "chainPart": 7
   },
   "Main-Osiris-Caverns-6": {
-    "inGameName": "The Progenitor Device Part 8",
+    "inGameName": "undefined Part 8",
     "description": "These 'cultists' weren't merely men gone feral, they had kept some level of organization, and built a devotion to the Tharis caverns. They seemed obsessed with clusters of a glowing crystaline compound unique to the island; bring me some samples, this merits study.",
     "faction": "Osiris",
     "factionReputation": 1500,
@@ -11063,12 +11670,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
     "chainPart": 8
   },
   "Main-Osiris-Caverns-7": {
-    "inGameName": "The Progenitor Device Part 9",
+    "inGameName": "undefined Part 9",
     "description": "These 'Teratomorphic Crystals' are proving to be an interesting puzzle. There's nothing organic or 'living' about them, but they don't resemble any natural formation I've ever seen. And they appear to absorb TEF energy like a battery.\r\nPerhaps the cultists knew more about them. The records you recovered mention of wall markings scattered throughout the caverns, perhaps they hold some cyphered information. Find them, Prospector.",
     "faction": "Osiris",
     "factionReputation": 1800,
@@ -11112,12 +11717,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
     "chainPart": 9
   },
   "Main-Osiris-Caverns-8": {
-    "inGameName": "The Progenitor Device Part 10",
+    "inGameName": "undefined Part 10",
     "description": "It appears the cultists were fixated on the same rare ore that kept Korolev and our own Osiris people, 'Tharis Ore' as they called it. Bring me samples, normal and the 'refined' type. If the Teratomorphic Crystals interacted with TEF radiation, it's reasonable to believe this material might too.",
     "faction": "Osiris",
     "factionReputation": 1800,
@@ -11163,12 +11766,10 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
     "chainPart": 10
   },
   "Main-Osiris-Caverns-9": {
-    "inGameName": "The Progenitor Device Part 11",
+    "inGameName": "undefined Part 11",
     "description": "Our experiments with Tharis Iron proved very productive; concentrated blasts of TEF radiation caused the samples to react by warping into different shapes. Some, almost organic, and very reminiscent of patterns seen in Fortuna III's newer flora and fauna. Bring me samples of creatures killed at the peak of a storm. And some Charged Brightcaps, too.",
     "faction": "Osiris",
     "factionReputation": 2300,
@@ -11184,6 +11785,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": true
         }
@@ -11222,8 +11827,6 @@
       ""
     ],
     "isMainChain": false,
-    "chainName": "The Progenitor Device",
-    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
     "chainPart": 11
   },
   "Main-Osiris-Caverns-10": {
@@ -11341,6 +11944,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         }
@@ -11436,6 +12043,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": true
         }
@@ -11550,6 +12161,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -11845,6 +12460,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         }
@@ -11882,5 +12501,1272 @@
     "chainName": "A Whole New Ecosystem",
     "chainDescription": "Osiris has been studying both the Fauna and Flora on Crescent Falls for years before the Storm made the Area uninhabitable. According to recent reports, that beautiful Ecosystem might slowly become accessible again. Help Osiris reclaim their Research Facilities.",
     "chainPart": 3
+  },
+  "Main-Osiris-Howler-1": {
+    "inGameName": "Main-Osiris-Howler-1",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_1_job_bg",
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_OSIHowlerClue1"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 5900,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 130
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Papers, Please"
+    ],
+    "isMainChain": true,
+    "chainName": "Main-Osiris-Questline-Howler"
+  },
+  "Main-Osiris-Howler-2": {
+    "inGameName": "Main-Osiris-Howler-2",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_2_job_bg",
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 2,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 130
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-Howler-1"
+    ],
+    "isMainChain": false,
+    "chainName": "Main-Osiris-Questline-Howler"
+  },
+  "Main-Osiris-Howler-3": {
+    "inGameName": "Main-Osiris-Howler-3",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_3_job_bg",
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_OSIHowlerSample1"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 3,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 6500,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 130
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-Howler-2"
+    ],
+    "isMainChain": false,
+    "chainName": "Main-Osiris-Questline-Howler"
+  },
+  "Main-Osiris-Howler-4": {
+    "inGameName": "Main-Osiris-Howler-4",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_4_job_bg",
+    "objectives": [
+      {
+        "type": "FactionLevel",
+        "maxProgress": 10
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 12000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 130
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-Howler-3"
+    ],
+    "isMainChain": false,
+    "chainName": "Main-Osiris-Questline-Howler"
+  },
+  "Main-Osiris-Howler-5": {
+    "inGameName": "Main-Osiris-Howler-5",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_5_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Strider_3"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Rattler_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Weremole_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Phasic Lancer",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Osiris Scrip",
+        "amount": 12,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 13000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 130
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-Howler-4"
+    ],
+    "isMainChain": false,
+    "chainName": "Main-Osiris-Questline-Howler"
+  },
+  "Main-Osiris-Howler-6": {
+    "inGameName": "Main-Osiris-Howler-6",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_6_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Howler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 15,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 130
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-Howler-5"
+    ],
+    "isMainChain": false,
+    "chainName": "Main-Osiris-Questline-Howler"
+  },
+  "Main-Osiris-Howler-7": {
+    "inGameName": "Main-Osiris-Howler-7",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_7_job_bg",
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 9,
+        "itemToOwn": "AI_HowlerPellet"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "AI_HowlerDart"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Epic Helmet",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Osiris Scrip",
+        "amount": 16,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 17000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 130
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-Howler-6"
+    ],
+    "isMainChain": false,
+    "chainName": "Main-Osiris-Questline-Howler"
+  },
+  "Main-Osiris-Howler-8": {
+    "inGameName": "Main-Osiris-Howler-8",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 130,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_8_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [
+            "EYDeviceCategory::SniperRifle"
+          ],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Howler",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Howler"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": true
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Epic Shield",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Osiris Scrip",
+        "amount": 20,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 130
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-Howler-7"
+    ],
+    "isMainChain": false,
+    "chainName": "Main-Osiris-Questline-Howler"
+  },
+  "Main-Badum-FinalQuestline1-1-FTUE": {
+    "inGameName": "Main-Badum-FinalQuestline1-1-FTUE",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-1-FTUE_job_bg",
+    "objectives": [
+      {
+        "type": "FactionLevel",
+        "maxProgress": 12
+      },
+      {
+        "type": "FactionLevel",
+        "maxProgress": 12
+      },
+      {
+        "type": "FactionLevel",
+        "maxProgress": 12
+      }
+    ],
+    "rewards": [
+      {
+        "item": "UnboundSynth02_Boots",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [],
+    "isMainChain": true,
+    "chainName": "Main-Badum-Questline-FinalQuestline1"
+  },
+  "Main-Badum-FinalQuestline1-2": {
+    "inGameName": "Main-Badum-FinalQuestline1-2",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-2_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 300,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Strider_3"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 200,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Rattler_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 80,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Weremole_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Aurum",
+        "amount": 200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Badum-FinalQuestline1-1-FTUE"
+    ],
+    "isMainChain": false
+  },
+  "Main-Badum-FinalQuestline1-3": {
+    "inGameName": "Main-Badum-FinalQuestline1-3",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-3_job_bg",
+    "objectives": [
+      {
+        "type": "LootContainer",
+        "maxProgress": 3000
+      },
+      {
+        "type": "LootContainer",
+        "maxProgress": 35
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 100000,
+        "itemToOwn": "OldCurrency"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "UnboundSynth02_Gloves",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Badum-FinalQuestline1-2"
+    ],
+    "isMainChain": false
+  },
+  "Main-Badum-FinalQuestline1-4": {
+    "inGameName": "Main-Badum-FinalQuestline1-4",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-4_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": true
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 5,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Howler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": true
+        }
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 400,
+        "itemToOwn": "StormyCreatureDrop"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Aurum",
+        "amount": 200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Badum-FinalQuestline1-3"
+    ],
+    "isMainChain": false
+  },
+  "Main-Badum-FinalQuestline1-5": {
+    "inGameName": "Main-Badum-FinalQuestline1-5",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-5_job_bg",
+    "objectives": [
+      {
+        "type": "CompletedMission",
+        "maxProgress": 1
+      },
+      {
+        "type": "CompletedMission",
+        "maxProgress": 1
+      },
+      {
+        "type": "CompletedMission",
+        "maxProgress": 1
+      }
+    ],
+    "rewards": [
+      {
+        "item": "UnboundSynth02_Chest",
+        "amount": 1,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Badum-FinalQuestline1-4"
+    ],
+    "isMainChain": false
+  },
+  "Main-Badum-FinalQuestline1-6": {
+    "inGameName": "Main-Badum-FinalQuestline1-6",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-6_job_bg",
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 200,
+        "itemToOwn": "Letium"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 120,
+        "itemToOwn": "OilTank"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "AF_Slag"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Aurum",
+        "amount": 200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Badum-FinalQuestline1-5"
+    ],
+    "isMainChain": false
+  },
+  "Main-Badum-FinalQuestline1-7": {
+    "inGameName": "Main-Badum-FinalQuestline1-7",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-7_job_bg",
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 800,
+        "itemToOwn": "KorolevScrip"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 800,
+        "itemToOwn": "ICAScrip"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 800,
+        "itemToOwn": "OsirisScrip"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "DarkUnboundSynth",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Badum-FinalQuestline1-6"
+    ],
+    "isMainChain": false
+  },
+  "Main-Badum-FinalQuestline1-8": {
+    "inGameName": "Main-Badum-FinalQuestline1-8",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-8_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SGun_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_HVY_Shell_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SMG_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Crusher_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Crusher_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Crusher_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Aurum",
+        "amount": 200,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Badum-FinalQuestline1-7"
+    ],
+    "isMainChain": false
+  },
+  "Main-Badum-FinalQuestline1-9": {
+    "inGameName": "Main-Badum-FinalQuestline1-9",
+    "description": "",
+    "faction": "Badum",
+    "factionReputation": 0,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "Main-Badum-FinalQuestline1-9_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 300,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 25,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        }
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Melee_Karambit01",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 0
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Badum-FinalQuestline1-8"
+    ],
+    "isMainChain": false
+  },
+  "Main-Osiris-Caverns-0.2-Unlock": {
+    "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
+    "description": "",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-Osiris-Caverns-0_2-Unlock_job_bg",
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "MagneticFieldStabilizer"
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "AluminumParts"
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 750
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-Caverns-0.1-Unlock"
+    ],
+    "isMainChain": false
   }
 }

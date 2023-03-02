@@ -4,7 +4,8 @@
     "description": "Pistol, inflicts devastating damage on its targets, at the cost of any kind of subtlety.",
     "rarity": "Exotic",
     "tags": [
-      "Weapon.Category.Pistol"
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light_04"
     ],
     "weight": 20,
     "sellValue": 16805,
@@ -17,7 +18,7 @@
     "refireTime": 0.4,
     "reloadTime": 2.175,
     "ammoInClip": 6,
-    "ammoType": "Light",
+    "ammoType": "Light_04",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -33,15 +34,16 @@
     "FalloffStart": 3000,
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
-    "unequipTime": 0.4,
-    "equipTime": 0.6,
-    "animationEquipTime": 1,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 56000
+        "SoftCurrency": 56000,
+        "KorolevScrip": 20
       }
     ],
     "modSlots": [
@@ -57,7 +59,8 @@
     "description": "A semi-automatic shotgun, it's heavy and a poor choice at range, but utterly devastating up close.",
     "rarity": "Rare",
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun_03"
     ],
     "weight": 25,
     "sellValue": 5058,
@@ -70,7 +73,7 @@
     "refireTime": 0.4,
     "reloadTime": 2.2,
     "ammoInClip": 8,
-    "ammoType": "Shotgun",
+    "ammoType": "Shotgun_03",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -87,14 +90,15 @@
     "FalloffEnd": 3000,
     "FalloffMultiplier": 0.5,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": true,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 17000
+        "SoftCurrency": 17000,
+        "KorolevScrip": 4
       }
     ],
     "modSlots": [
@@ -113,7 +117,8 @@
     "description": "A rapid-firing shard SMG, a good choice for taking out targets at close range, though of little use in long range engagements.",
     "rarity": "Uncommon",
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light"
     ],
     "weight": 30,
     "sellValue": 1918,
@@ -139,18 +144,19 @@
     "directDamageEnemyMultiplier": 1,
     "radialDamagePlayerMultiplier": 1,
     "radialDamageEnemyMultiplier": 1,
-    "FalloffStart": 2000,
-    "FalloffEnd": 5000,
+    "FalloffStart": 1000,
+    "FalloffEnd": 4000,
     "FalloffMultiplier": 0.7,
-    "unequipTime": 0.5,
-    "equipTime": 0.8,
-    "animationEquipTime": 1.4,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 6400
+        "SoftCurrency": 6400,
+        "KorolevScrip": 1
       }
     ],
     "modSlots": [
@@ -168,7 +174,8 @@
     "description": "Heavy assault rifle. Lower firing rate than most competing weapons in its class but packs a punch.",
     "rarity": "Exotic",
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium_04"
     ],
     "weight": 35,
     "sellValue": 48261,
@@ -181,7 +188,7 @@
     "refireTime": 0.12,
     "reloadTime": 3.2,
     "ammoInClip": 26,
-    "ammoType": "Medium",
+    "ammoType": "Medium_04",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -198,14 +205,15 @@
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 161000
+        "SoftCurrency": 161000,
+        "KorolevScrip": 22
       }
     ],
     "modSlots": [
@@ -224,7 +232,8 @@
     "description": "A marksman rifle with good accuracy and power excels in medium range engagements.",
     "rarity": "Epic",
     "tags": [
-      "Weapon.Category.DMR"
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_03"
     ],
     "weight": 50,
     "sellValue": 22781,
@@ -237,7 +246,7 @@
     "refireTime": 0.6,
     "reloadTime": 3.55,
     "ammoInClip": 12,
-    "ammoType": "Heavy",
+    "ammoType": "Heavy_03",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -254,14 +263,15 @@
     "FalloffEnd": 10000,
     "FalloffMultiplier": 1,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Korolev",
-        "SoftCurrency": 76000
+        "SoftCurrency": 76000,
+        "KorolevScrip": 12
       }
     ],
     "modSlots": [
@@ -280,7 +290,8 @@
     "description": "While heavy and requiring a charge-up to fire, a direct hit from the KARMA-1 will cripple if not outright kill any target.",
     "rarity": "Legendary",
     "tags": [
-      "Weapon.Category.Sniper"
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy_05"
     ],
     "weight": 60,
     "sellValue": 325513,
@@ -293,12 +304,12 @@
     "refireTime": 1.4,
     "reloadTime": 4.4,
     "ammoInClip": 5,
-    "ammoType": "Heavy",
+    "ammoType": "Heavy_05",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
     "amountOfImmediateFires": 1,
-    "movementSpeedMultiplier": 0.8,
+    "movementSpeedMultiplier": 0.9,
     "projectileSpeed": 70000,
     "weakDamageMultiplier": 2,
     "weakDamageMultiplierEnemy": 1,
@@ -309,9 +320,9 @@
     "FalloffStart": 10000,
     "FalloffEnd": 15000,
     "FalloffMultiplier": 1,
-    "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.4,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0.5,
     "cost": [
@@ -331,7 +342,8 @@
     "description": "Shotgun that suffers from very limited range.",
     "rarity": "Uncommon",
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun"
     ],
     "weight": 20,
     "sellValue": 1918,
@@ -360,15 +372,16 @@
     "FalloffStart": 1000,
     "FalloffEnd": 3000,
     "FalloffMultiplier": 0.5,
-    "unequipTime": 0.4,
-    "equipTime": 0.6,
-    "animationEquipTime": 1,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 6400
+        "SoftCurrency": 6400,
+        "ICAScrip": 1
       }
     ],
     "modSlots": []
@@ -378,7 +391,8 @@
     "description": "An unconventional shotgun shooting crystal fragments through kinetic and thermal energy.",
     "rarity": "Epic",
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun_03"
     ],
     "weight": 25,
     "sellValue": 12341,
@@ -391,7 +405,7 @@
     "refireTime": 1.255,
     "reloadTime": 3.3,
     "ammoInClip": 4,
-    "ammoType": "Shotgun",
+    "ammoType": "Shotgun_03",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -408,14 +422,15 @@
     "FalloffEnd": 2000,
     "FalloffMultiplier": 0.5,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 41000
+        "SoftCurrency": 41000,
+        "ICAScrip": 9
       }
     ],
     "modSlots": [
@@ -434,7 +449,8 @@
     "description": "An SMG offering high versatility in its effective range.",
     "rarity": "Exotic",
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light_04"
     ],
     "weight": 30,
     "sellValue": 34172,
@@ -442,12 +458,12 @@
     "faction": "ICA",
     "factionRep": 342,
     "penetration": 30,
-    "directDamage": 9,
+    "directDamage": 6,
     "radialDamage": 0,
     "refireTime": 0.075,
     "reloadTime": 2.54,
     "ammoInClip": 25,
-    "ammoType": "Light",
+    "ammoType": "Light_04",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -460,18 +476,19 @@
     "directDamageEnemyMultiplier": 1,
     "radialDamagePlayerMultiplier": 1,
     "radialDamageEnemyMultiplier": 1,
-    "FalloffStart": 2000,
-    "FalloffEnd": 5000,
+    "FalloffStart": 1000,
+    "FalloffEnd": 4000,
     "FalloffMultiplier": 0.7,
     "unequipTime": 0.5,
-    "equipTime": 0.8,
-    "animationEquipTime": 1.4,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 114000
+        "SoftCurrency": 114000,
+        "ICAScrip": 22
       }
     ],
     "modSlots": [
@@ -490,7 +507,8 @@
     "description": "A fast firing Phase LMG perfect to suppress targets.",
     "rarity": "Rare",
     "tags": [
-      "Weapon.Category.LMG"
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Medium_03"
     ],
     "weight": 50,
     "sellValue": 7143,
@@ -503,7 +521,7 @@
     "refireTime": 0.09,
     "reloadTime": 3.9,
     "ammoInClip": 40,
-    "ammoType": "Medium",
+    "ammoType": "Medium_03",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -519,15 +537,16 @@
     "FalloffStart": 3500,
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
-    "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.37,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 24000
+        "SoftCurrency": 24000,
+        "ICAScrip": 5
       }
     ],
     "modSlots": [
@@ -545,7 +564,8 @@
     "description": "A dependable assault rifle offering a good balance between accuracy and rate of fire.",
     "rarity": "Epic",
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium_04"
     ],
     "weight": 35,
     "sellValue": 17429,
@@ -558,7 +578,7 @@
     "refireTime": 0.105,
     "reloadTime": 3.2,
     "ammoInClip": 24,
-    "ammoType": "Medium",
+    "ammoType": "Medium_04",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -575,14 +595,15 @@
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 58000
+        "SoftCurrency": 58000,
+        "ICAScrip": 10
       }
     ],
     "modSlots": [
@@ -601,7 +622,8 @@
     "description": "A capable marksman rifle boasting a decent fire rate, accuracy, and handling.",
     "rarity": "Rare",
     "tags": [
-      "Weapon.Category.DMR"
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_03"
     ],
     "weight": 50,
     "sellValue": 9336,
@@ -614,7 +636,7 @@
     "refireTime": 0.4,
     "reloadTime": 2.55,
     "ammoInClip": 16,
-    "ammoType": "Heavy",
+    "ammoType": "Heavy_03",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -631,14 +653,15 @@
     "FalloffEnd": 10000,
     "FalloffMultiplier": 1,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 31000
+        "SoftCurrency": 31000,
+        "ICAScrip": 6
       }
     ],
     "modSlots": [
@@ -657,7 +680,8 @@
     "description": "A gauss sniper rifle firing metal rods at immense velocity. This weapon is favored among Prospectors that want to resolve their differences quickly and from a safe distance.",
     "rarity": "Exotic",
     "tags": [
-      "Weapon.Category.Sniper"
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy_05"
     ],
     "weight": 50,
     "sellValue": 94459,
@@ -670,7 +694,7 @@
     "refireTime": 1.7,
     "reloadTime": 5.3,
     "ammoInClip": 4,
-    "ammoType": "Heavy",
+    "ammoType": "Heavy_05",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -686,15 +710,16 @@
     "FalloffStart": 10000,
     "FalloffEnd": 15000,
     "FalloffMultiplier": 1,
-    "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.4,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "ICA",
-        "SoftCurrency": 315000
+        "SoftCurrency": 315000,
+        "ICAScrip": 25
       }
     ],
     "modSlots": [
@@ -712,7 +737,8 @@
     "description": "A standard semi-automatic pistol. It's an effective sidearm for any Prospector.",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.Pistol"
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light"
     ],
     "weight": 20,
     "sellValue": 228,
@@ -741,9 +767,9 @@
     "FalloffStart": 1500,
     "FalloffEnd": 3000,
     "FalloffMultiplier": 0.5,
-    "unequipTime": 0.4,
-    "equipTime": 0.6,
-    "animationEquipTime": 1,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
@@ -765,7 +791,8 @@
     "description": "Pump-action shotgun, high-spread, short range. Yep, it's a shotgun, all right.",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun"
     ],
     "weight": 25,
     "sellValue": 371,
@@ -795,8 +822,8 @@
     "FalloffEnd": 3000,
     "FalloffMultiplier": 0.5,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": true,
     "spinupTime": 0,
     "cost": [
@@ -821,7 +848,8 @@
     "description": "A commonly used SMG with high rate of fire which makes it formidable up close.",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light"
     ],
     "weight": 30,
     "sellValue": 371,
@@ -847,12 +875,12 @@
     "directDamageEnemyMultiplier": 1,
     "radialDamagePlayerMultiplier": 1,
     "radialDamageEnemyMultiplier": 1,
-    "FalloffStart": 2000,
-    "FalloffEnd": 5000,
+    "FalloffStart": 1000,
+    "FalloffEnd": 4000,
     "FalloffMultiplier": 0.7,
-    "unequipTime": 0.5,
-    "equipTime": 0.8,
-    "animationEquipTime": 1.4,
+    "unequipTime": 0.4,
+    "equipTime": 0.5,
+    "animationEquipTime": 1.07,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
@@ -877,7 +905,8 @@
     "description": "A decent fully automatic rifle, doesn't excel in any one department, but comfortably versatile and lethally effective.",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
     ],
     "weight": 35,
     "sellValue": 524,
@@ -907,8 +936,8 @@
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
@@ -933,7 +962,8 @@
     "description": "Bolt action sniper rifle that was commonly used by the local population.",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.Sniper"
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy"
     ],
     "weight": 50,
     "sellValue": 2052,
@@ -962,9 +992,9 @@
     "FalloffStart": 10000,
     "FalloffEnd": 15000,
     "FalloffMultiplier": 1,
-    "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.4,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
@@ -988,12 +1018,13 @@
     "description": "WP_E_SGun_Bullet_01_scrappy",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.Shotgun"
+      "Weapon.Category.Shotgun",
+      "Weapon.Ammo.Shotgun"
     ],
     "weight": 25,
     "sellValue": 124,
-    "buyValue": null,
-    "faction": null,
+    "buyValue": 410,
+    "faction": "None",
     "factionRep": 1,
     "penetration": 5,
     "directDamage": 8,
@@ -1018,8 +1049,8 @@
     "FalloffEnd": 3000,
     "FalloffMultiplier": 0.5,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": true,
     "spinupTime": 0,
     "cost": [],
@@ -1030,12 +1061,13 @@
     "description": "WP_E_SMG_Bullet_01_scrappy",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light"
     ],
     "weight": 30,
     "sellValue": 124,
-    "buyValue": null,
-    "faction": null,
+    "buyValue": 410,
+    "faction": "None",
     "factionRep": 1,
     "penetration": 5,
     "directDamage": 9,
@@ -1056,12 +1088,12 @@
     "directDamageEnemyMultiplier": 1,
     "radialDamagePlayerMultiplier": 1,
     "radialDamageEnemyMultiplier": 1,
-    "FalloffStart": 2000,
-    "FalloffEnd": 5000,
+    "FalloffStart": 1000,
+    "FalloffEnd": 4000,
     "FalloffMultiplier": 0.7,
-    "unequipTime": 0.5,
-    "equipTime": 0.8,
-    "animationEquipTime": 1.4,
+    "unequipTime": 0.4,
+    "equipTime": 0.5,
+    "animationEquipTime": 1.07,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [],
@@ -1072,12 +1104,13 @@
     "description": "WP_E_AR_Energy_01_scrappy",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
     ],
     "weight": 35,
     "sellValue": 175,
-    "buyValue": null,
-    "faction": null,
+    "buyValue": 580,
+    "faction": "None",
     "factionRep": 2,
     "penetration": 5,
     "directDamage": 12,
@@ -1102,8 +1135,8 @@
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [],
@@ -1114,7 +1147,8 @@
     "description": "A dependable pistol, fires controlled and powerful three-shot bursts.",
     "rarity": "Uncommon",
     "tags": [
-      "Weapon.Category.Pistol"
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light"
     ],
     "weight": 20,
     "sellValue": 1179,
@@ -1143,15 +1177,16 @@
     "FalloffStart": 1500,
     "FalloffEnd": 3000,
     "FalloffMultiplier": 0.5,
-    "unequipTime": 0.4,
-    "equipTime": 0.6,
-    "animationEquipTime": 1,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 3900
+        "SoftCurrency": 3900,
+        "OsirisScrip": 1
       }
     ],
     "modSlots": [
@@ -1167,7 +1202,8 @@
     "description": "Lightweight SMG. A formidable automatic weapon for close range encounters.",
     "rarity": "Epic",
     "tags": [
-      "Weapon.Category.SMG"
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light_04"
     ],
     "weight": 30,
     "sellValue": 12341,
@@ -1180,7 +1216,7 @@
     "refireTime": 0.095,
     "reloadTime": 2.5,
     "ammoInClip": 20,
-    "ammoType": "Light",
+    "ammoType": "Light_04",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -1193,18 +1229,19 @@
     "directDamageEnemyMultiplier": 1,
     "radialDamagePlayerMultiplier": 1,
     "radialDamageEnemyMultiplier": 1,
-    "FalloffStart": 2000,
-    "FalloffEnd": 5000,
+    "FalloffStart": 1000,
+    "FalloffEnd": 4000,
     "FalloffMultiplier": 0.7,
-    "unequipTime": 0.5,
-    "equipTime": 0.8,
-    "animationEquipTime": 1.4,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 41000
+        "SoftCurrency": 41000,
+        "OsirisScrip": 9
       }
     ],
     "modSlots": [
@@ -1223,7 +1260,8 @@
     "description": "A burst rifle shooting accurate controlled 3-shot bursts, effective against most threats a Prospector might encounter.",
     "rarity": "Rare",
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium_03"
     ],
     "weight": 35,
     "sellValue": 7143,
@@ -1236,7 +1274,7 @@
     "refireTime": 0.35,
     "reloadTime": 2.45,
     "ammoInClip": 21,
-    "ammoType": "Medium",
+    "ammoType": "Medium_03",
     "ammoPerBullet": 1,
     "amountOfBurst": 2,
     "burstInterval": 0.06,
@@ -1253,14 +1291,15 @@
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": true,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 24000
+        "SoftCurrency": 24000,
+        "OsirisScrip": 5
       }
     ],
     "modSlots": [
@@ -1279,7 +1318,8 @@
     "description": "A powerful beam rifle that requires charging up before firing. Not the easiest to handle, but lethal in proper hands.",
     "rarity": "Epic",
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium_04"
     ],
     "weight": 35,
     "sellValue": 17429,
@@ -1292,7 +1332,7 @@
     "refireTime": 0.17,
     "reloadTime": 2,
     "ammoInClip": 24,
-    "ammoType": "Medium",
+    "ammoType": "Medium_04",
     "ammoPerBullet": 0.5,
     "amountOfBurst": 11,
     "burstInterval": 0.027,
@@ -1309,14 +1349,15 @@
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0.35,
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 58000
+        "SoftCurrency": 58000,
+        "OsirisScrip": 10
       }
     ],
     "modSlots": [
@@ -1333,7 +1374,8 @@
     "description": "A flechette assault rifle, it's heavy hitting but less accurate compared to other rifles.",
     "rarity": "Uncommon",
     "tags": [
-      "Weapon.Category.AR"
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
     ],
     "weight": 35,
     "sellValue": 2709,
@@ -1363,14 +1405,15 @@
     "FalloffEnd": 6000,
     "FalloffMultiplier": 0.75,
     "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 9000
+        "SoftCurrency": 9000,
+        "OsirisScrip": 2
       }
     ],
     "modSlots": [
@@ -1389,7 +1432,8 @@
     "description": "A phase tech marksman rifle; considered ahead of its time, the impacts are powerful for its class, and it boasts a high rate of fire.",
     "rarity": "Exotic",
     "tags": [
-      "Weapon.Category.DMR"
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_05"
     ],
     "weight": 50,
     "sellValue": 63080,
@@ -1397,18 +1441,18 @@
     "faction": "Osiris",
     "factionRep": 631,
     "penetration": 30,
-    "directDamage": 34,
+    "directDamage": 28,
     "radialDamage": 0,
-    "refireTime": 0.5,
+    "refireTime": 0.6,
     "reloadTime": 3.85,
     "ammoInClip": 8,
-    "ammoType": "Heavy",
+    "ammoType": "Heavy_05",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
     "amountOfImmediateFires": 1,
     "movementSpeedMultiplier": 0.8,
-    "projectileSpeed": 54000,
+    "projectileSpeed": 45000,
     "weakDamageMultiplier": 1.6,
     "weakDamageMultiplierEnemy": 1,
     "directDamagePlayerMultiplier": 1,
@@ -1418,15 +1462,16 @@
     "FalloffStart": 5000,
     "FalloffEnd": 10000,
     "FalloffMultiplier": 1,
-    "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.4,
     "immediateFireIncreasesSpread": true,
     "spinupTime": 0,
     "cost": [
       {
         "shop": "Osiris",
-        "SoftCurrency": 210000
+        "SoftCurrency": 210000,
+        "OsirisScrip": 24
       }
     ],
     "modSlots": [
@@ -1449,8 +1494,8 @@
     ],
     "weight": 60,
     "sellValue": 117760,
-    "buyValue": null,
-    "faction": null,
+    "buyValue": 393000,
+    "faction": "None",
     "factionRep": 1178,
     "penetration": 10,
     "directDamage": 250,
@@ -1487,7 +1532,8 @@
     "description": "This fearsome weapon platform is capable of firing salvos of fast-moving missiles capable of making short work of any hostile element.",
     "rarity": "Legendary",
     "tags": [
-      "Weapon.Category.Launcher"
+      "Weapon.Category.Launcher",
+      "Weapon.Ammo.Special_06_1"
     ],
     "weight": 60,
     "sellValue": 297815,
@@ -1500,7 +1546,7 @@
     "refireTime": 1,
     "reloadTime": 2.9,
     "ammoInClip": 6,
-    "ammoType": "Special",
+    "ammoType": "Special_06_1",
     "ammoPerBullet": 1,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -1517,8 +1563,8 @@
     "FalloffEnd": -1,
     "FalloffMultiplier": 1,
     "unequipTime": 0.5,
-    "equipTime": 0.5,
-    "animationEquipTime": 1.2,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [
@@ -1542,8 +1588,8 @@
     ],
     "weight": 60,
     "sellValue": 51258,
-    "buyValue": null,
-    "faction": null,
+    "buyValue": 171000,
+    "faction": "None",
     "factionRep": 513,
     "penetration": 10,
     "directDamage": 0,
@@ -1584,8 +1630,8 @@
     ],
     "weight": 60,
     "sellValue": 51258,
-    "buyValue": null,
-    "faction": null,
+    "buyValue": 171000,
+    "faction": "None",
     "factionRep": 513,
     "penetration": 20,
     "directDamage": 0,
@@ -1622,7 +1668,8 @@
     "description": "Called Zeus for turning any mortal into the God of Lightning, this heavy weapon will fulminate any creature that meets your divine ire.",
     "rarity": "Legendary",
     "tags": [
-      "Weapon.Category.LMG"
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Special_06_2"
     ],
     "weight": 60,
     "sellValue": 270540,
@@ -1635,7 +1682,7 @@
     "refireTime": 0.03,
     "reloadTime": 2.6,
     "ammoInClip": 25,
-    "ammoType": "Special",
+    "ammoType": "Special_06_2",
     "ammoPerBullet": 0.11,
     "amountOfBurst": 0,
     "burstInterval": -1,
@@ -1651,9 +1698,9 @@
     "FalloffStart": 3500,
     "FalloffEnd": 5000,
     "FalloffMultiplier": 1,
-    "unequipTime": 0.5,
-    "equipTime": 1,
-    "animationEquipTime": 2,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.37,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0.7,
     "cost": [
@@ -1673,12 +1720,13 @@
     "description": "WP_E_Pistol_Bullet_01_scrappy",
     "rarity": "Common",
     "tags": [
-      "Weapon.Category.Pistol"
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light"
     ],
     "weight": 20,
     "sellValue": 76,
-    "buyValue": null,
-    "faction": null,
+    "buyValue": 250,
+    "faction": "None",
     "factionRep": 1,
     "penetration": 5,
     "directDamage": 13,
@@ -1702,12 +1750,617 @@
     "FalloffStart": 1500,
     "FalloffEnd": 3000,
     "FalloffMultiplier": 0.5,
-    "unequipTime": 0.4,
-    "equipTime": 0.6,
-    "animationEquipTime": 1,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
     "immediateFireIncreasesSpread": false,
     "spinupTime": 0,
     "cost": [],
     "modSlots": []
+  },
+  "WP_A_Sniper_Shard_01": {
+    "inGameName": "WP_A_Sniper_Shard_01",
+    "description": "WP_A_Sniper_Shard_01",
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Category.Sniper"
+    ],
+    "weight": 50,
+    "sellValue": 4500,
+    "buyValue": 15000,
+    "faction": "None",
+    "factionRep": 45,
+    "penetration": 20,
+    "directDamage": 45,
+    "radialDamage": 0,
+    "refireTime": 1.8,
+    "reloadTime": 4.58,
+    "ammoInClip": 5,
+    "ammoType": "Heavy",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 0.85,
+    "projectileSpeed": 50000,
+    "weakDamageMultiplier": 1.6,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 5000,
+    "FalloffEnd": 10000,
+    "FalloffMultiplier": 1,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.4,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [],
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "AmmoConverter",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_G_AR_Needle_02": {
+    "inGameName": "WP_G_AR_Needle_02",
+    "description": "WP_G_AR_Needle_02",
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
+    ],
+    "weight": 35,
+    "sellValue": 7143,
+    "buyValue": 24000,
+    "faction": "None",
+    "factionRep": 71,
+    "penetration": 20,
+    "directDamage": 13,
+    "radialDamage": 0,
+    "refireTime": 0.12,
+    "reloadTime": 3.35,
+    "ammoInClip": 24,
+    "ammoType": "Medium",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 0.9,
+    "projectileSpeed": 33800,
+    "weakDamageMultiplier": 1.7,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 3000,
+    "FalloffEnd": 6000,
+    "FalloffMultiplier": 0.75,
+    "unequipTime": 0.5,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [],
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_D_LMG_Energy_02": {
+    "inGameName": "WP_D_LMG_Energy_02",
+    "description": "WP_D_LMG_Energy_02",
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Medium_03"
+    ],
+    "weight": 50,
+    "sellValue": 2709,
+    "buyValue": 9000,
+    "faction": "ICA",
+    "factionRep": 27,
+    "penetration": 15,
+    "directDamage": 8,
+    "radialDamage": 0,
+    "refireTime": 0.09,
+    "reloadTime": 3.9,
+    "ammoInClip": 40,
+    "ammoType": "Medium_03",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 0.8,
+    "projectileSpeed": 36400,
+    "weakDamageMultiplier": 1.6,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 3500,
+    "FalloffEnd": 6000,
+    "FalloffMultiplier": 0.75,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.37,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 9000,
+        "ICAScrip": 3
+      }
+    ],
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_G_Pistol_Energy_02": {
+    "inGameName": "WP_G_Pistol_Energy_02",
+    "description": "WP_G_Pistol_Energy_02",
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light"
+    ],
+    "weight": 20,
+    "sellValue": 3109,
+    "buyValue": 10000,
+    "faction": "None",
+    "factionRep": 31,
+    "penetration": 20,
+    "directDamage": 14,
+    "radialDamage": 0,
+    "refireTime": 0.26,
+    "reloadTime": 1.93,
+    "ammoInClip": 15,
+    "ammoType": "Light",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 2,
+    "burstInterval": 0.07,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 1,
+    "projectileSpeed": 27600,
+    "weakDamageMultiplier": 1.5,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 1500,
+    "FalloffEnd": 3000,
+    "FalloffMultiplier": 0.5,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [],
+    "modSlots": [
+      "Magazine",
+      "Muzzle",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_E_SMG_Bullet_02": {
+    "inGameName": "WP_E_SMG_Bullet_02",
+    "description": "WP_E_SMG_Bullet_02",
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light"
+    ],
+    "weight": 30,
+    "sellValue": 1918,
+    "buyValue": 6400,
+    "faction": "None",
+    "factionRep": 19,
+    "penetration": 15,
+    "directDamage": 11,
+    "radialDamage": 0,
+    "refireTime": 0.07,
+    "reloadTime": 3.05,
+    "ammoInClip": 20,
+    "ammoType": "Light",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 1,
+    "projectileSpeed": 33600,
+    "weakDamageMultiplier": 1.5,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 1000,
+    "FalloffEnd": 4000,
+    "FalloffMultiplier": 0.7,
+    "unequipTime": 0.4,
+    "equipTime": 0.5,
+    "animationEquipTime": 1.07,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [],
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_E_AR_Energy_02": {
+    "inGameName": "WP_E_AR_Energy_02",
+    "description": "WP_E_AR_Energy_02",
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Category.AR",
+      "Weapon.Ammo.Medium"
+    ],
+    "weight": 35,
+    "sellValue": 2709,
+    "buyValue": 9000,
+    "faction": "None",
+    "factionRep": 27,
+    "penetration": 15,
+    "directDamage": 13,
+    "radialDamage": 0,
+    "refireTime": 0.11,
+    "reloadTime": 2.7,
+    "ammoInClip": 22,
+    "ammoType": "Medium",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 0.9,
+    "projectileSpeed": 36400,
+    "weakDamageMultiplier": 1.7,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 3000,
+    "FalloffEnd": 6000,
+    "FalloffMultiplier": 0.75,
+    "unequipTime": 0.5,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [],
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_A_BR_Bullet_02": {
+    "inGameName": "WP_A_BR_Bullet_02",
+    "description": "WP_A_BR_Bullet_02",
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_03"
+    ],
+    "weight": 50,
+    "sellValue": 9336,
+    "buyValue": 31000,
+    "faction": "None",
+    "factionRep": 93,
+    "penetration": 20,
+    "directDamage": 32,
+    "radialDamage": 0,
+    "refireTime": 0.6,
+    "reloadTime": 3.55,
+    "ammoInClip": 12,
+    "ammoType": "Heavy_03",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 0.9,
+    "projectileSpeed": 40000,
+    "weakDamageMultiplier": 1.5,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 5000,
+    "FalloffEnd": 10000,
+    "FalloffMultiplier": 1,
+    "unequipTime": 0.5,
+    "equipTime": 0.7,
+    "animationEquipTime": 1.27,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [],
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_G_SMG_Needle_02": {
+    "inGameName": "WP_G_SMG_Needle_02",
+    "description": "WP_G_SMG_Needle_02",
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light_04"
+    ],
+    "weight": 30,
+    "sellValue": 5058,
+    "buyValue": 17000,
+    "faction": "Osiris",
+    "factionRep": 51,
+    "penetration": 20,
+    "directDamage": 8,
+    "radialDamage": 0,
+    "refireTime": 0.095,
+    "reloadTime": 2.5,
+    "ammoInClip": 20,
+    "ammoType": "Light_04",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 1,
+    "projectileSpeed": 31200,
+    "weakDamageMultiplier": 1.5,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 1000,
+    "FalloffEnd": 4000,
+    "FalloffMultiplier": 0.7,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 17000,
+        "OsirisScrip": 7
+      }
+    ],
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "Muzzle",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_A_Pistol_Bullet_02": {
+    "inGameName": "WP_A_Pistol_Bullet_02",
+    "description": "WP_A_Pistol_Bullet_02",
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light_04"
+    ],
+    "weight": 20,
+    "sellValue": 3109,
+    "buyValue": 10000,
+    "faction": "Korolev",
+    "factionRep": 31,
+    "penetration": 20,
+    "directDamage": 24,
+    "radialDamage": 0,
+    "refireTime": 0.4,
+    "reloadTime": 2.175,
+    "ammoInClip": 6,
+    "ammoType": "Light_04",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 1,
+    "projectileSpeed": 34500,
+    "weakDamageMultiplier": 2,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 3000,
+    "FalloffEnd": 6000,
+    "FalloffMultiplier": 0.75,
+    "unequipTime": 0.3,
+    "equipTime": 0.4,
+    "animationEquipTime": 0.83,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 10000,
+        "KorolevScrip": 7
+      }
+    ],
+    "modSlots": [
+      "Magazine",
+      "Muzzle",
+      "RearGrip",
+      "Tactical"
+    ]
+  },
+  "WP_A_Sniper_Gauss_02": {
+    "inGameName": "WP_A_Sniper_Gauss_02",
+    "description": "WP_A_Sniper_Gauss_02",
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy_05"
+    ],
+    "weight": 60,
+    "sellValue": 34114,
+    "buyValue": 114000,
+    "faction": "None",
+    "factionRep": 341,
+    "penetration": 25,
+    "directDamage": 65,
+    "radialDamage": 0,
+    "refireTime": 1.4,
+    "reloadTime": 4.4,
+    "ammoInClip": 5,
+    "ammoType": "Heavy_05",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 0.9,
+    "projectileSpeed": 70000,
+    "weakDamageMultiplier": 2,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 10000,
+    "FalloffEnd": 15000,
+    "FalloffMultiplier": 1,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.4,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0.5,
+    "cost": [],
+    "modSlots": []
+  },
+  "WP_G_HVY_Beam_02": {
+    "inGameName": "WP_G_HVY_Beam_02",
+    "description": "WP_G_HVY_Beam_02",
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Special_06_2"
+    ],
+    "weight": 60,
+    "sellValue": 120240,
+    "buyValue": 401000,
+    "faction": "None",
+    "factionRep": 1202,
+    "penetration": 25,
+    "directDamage": 3,
+    "radialDamage": 0,
+    "refireTime": 0.03,
+    "reloadTime": 2.6,
+    "ammoInClip": 25,
+    "ammoType": "Special_06_2",
+    "ammoPerBullet": 0.11,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 0.8,
+    "projectileSpeed": 1000,
+    "weakDamageMultiplier": 1.8,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 3500,
+    "FalloffEnd": 5000,
+    "FalloffMultiplier": 1,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.37,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0.7,
+    "cost": [],
+    "modSlots": []
+  },
+  "WP_E_Sniper_Bullet_02": {
+    "inGameName": "WP_E_Sniper_Bullet_02",
+    "description": "WP_E_Sniper_Bullet_02",
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy"
+    ],
+    "weight": 50,
+    "sellValue": 5303,
+    "buyValue": 18000,
+    "faction": "None",
+    "factionRep": 53,
+    "penetration": 15,
+    "directDamage": 55,
+    "radialDamage": 0,
+    "refireTime": 1.8,
+    "reloadTime": 4.58,
+    "ammoInClip": 4,
+    "ammoType": "Heavy",
+    "ammoPerBullet": 1,
+    "amountOfBurst": 0,
+    "burstInterval": -1,
+    "amountOfImmediateFires": 1,
+    "movementSpeedMultiplier": 0.8,
+    "projectileSpeed": 50000,
+    "weakDamageMultiplier": 1.6,
+    "weakDamageMultiplierEnemy": 1,
+    "directDamagePlayerMultiplier": 1,
+    "directDamageEnemyMultiplier": 1,
+    "radialDamagePlayerMultiplier": 1,
+    "radialDamageEnemyMultiplier": 1,
+    "FalloffStart": 10000,
+    "FalloffEnd": 15000,
+    "FalloffMultiplier": 1,
+    "unequipTime": 0.7,
+    "equipTime": 0.9,
+    "animationEquipTime": 1.4,
+    "immediateFireIncreasesSpread": false,
+    "spinupTime": 0,
+    "cost": [],
+    "modSlots": [
+      "Optics",
+      "Magazine",
+      "Stock",
+      "ForeGrip",
+      "RearGrip",
+      "Tactical"
+    ]
   }
 }

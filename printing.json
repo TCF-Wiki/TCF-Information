@@ -12,7 +12,7 @@
     "RareVeltecite": 5
   },
   "PureFocusCrystal": {
-    "SoftCurrency": 5800,
+    "SoftCurrency": 4600,
     "FocusCrystal": 9
   },
   "PureNickel": {
@@ -101,6 +101,7 @@
   },
   "Consumable_Health_04": {
     "SoftCurrency": 460,
+    "AI_HowlerPellet": 1,
     "Antibiotics": 2,
     "WaterPlant": 2,
     "IvyPlant": 1
@@ -112,6 +113,7 @@
   },
   "Consumable_Health_06": {
     "SoftCurrency": 460,
+    "AI_HowlerPellet": 1,
     "AnaestheticsContainers": 2,
     "WaterPlant": 3,
     "IvyPlant": 1
@@ -139,7 +141,12 @@
   "Consumable_Grenade_05": {
     "SoftCurrency": 6800,
     "ChargedForgeIronIngot": 4,
-    "Alien_Scrap": 8
+    "Alien_Scrap": 8,
+    "AI_HowlerDart": 1
+  },
+  "HowlerGrenade_01": {
+    "SoftCurrency": 10000,
+    "AI_HowlerDart": 2
   },
   "Bag_02": {
     "SoftCurrency": 2700,
@@ -267,6 +274,26 @@
     "MultiTool": 2,
     "RareVeltecite": 1
   },
+  "Mod_Magazine_Light_01": {
+    "SoftCurrency": 1200,
+    "CompoundSheets": 2,
+    "Insulation": 2
+  },
+  "Mod_Magazine_Medium_01": {
+    "SoftCurrency": 1200,
+    "CompoundSheets": 2,
+    "Insulation": 2
+  },
+  "Mod_Magazine_Heavy_01": {
+    "SoftCurrency": 1200,
+    "CompoundSheets": 3,
+    "SpareCasing": 1
+  },
+  "Mod_Magazine_Shotgun_01": {
+    "SoftCurrency": 1200,
+    "CompoundSheets": 3,
+    "SpareCasing": 1
+  },
   "Mod_Muzzle_Small_Supressor_01": {
     "SoftCurrency": 4900,
     "HydraulicPiston": 5,
@@ -278,6 +305,26 @@
     "HydraulicPiston": 5,
     "SmartMesh": 1,
     "AluminumParts": 3
+  },
+  "Mod_Converter_Light_01": {
+    "SoftCurrency": 1200,
+    "BrittleTitanOre": 2,
+    "PureNickel": 2
+  },
+  "Mod_Converter_Medium_01": {
+    "SoftCurrency": 1200,
+    "BrittleTitanOre": 2,
+    "PureNickel": 2
+  },
+  "Mod_Converter_Heavy_01": {
+    "SoftCurrency": 1200,
+    "BrittleTitanOre": 2,
+    "BallBearings": 2
+  },
+  "Mod_Converter_Shotgun_01": {
+    "SoftCurrency": 1200,
+    "BrittleTitanOre": 2,
+    "BallBearings": 2
   },
   "Mod_Magazine_Medium_03": {
     "SoftCurrency": 8000,
@@ -297,11 +344,23 @@
     "MultiTool": 2,
     "RareVeltecite": 1
   },
+  "Mod_Magazine_Light_ReloadSpeed_03": {
+    "SoftCurrency": 3300,
+    "CompoundSheets": 3,
+    "CombatCPU_Blue": 1,
+    "PrintResin": 1
+  },
   "Mod_Magazine_Light_ReloadSpeed_04": {
     "SoftCurrency": 8000,
     "HydraulicPiston": 5,
     "MultiTool": 2,
     "RareVeltecite": 1
+  },
+  "Mod_Magazine_Medium_Reloadspeed_03": {
+    "SoftCurrency": 3300,
+    "CompoundSheets": 3,
+    "CombatCPU_Blue": 1,
+    "PrintResin": 1
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
     "SoftCurrency": 8000,
@@ -309,11 +368,23 @@
     "MultiTool": 2,
     "RareVeltecite": 1
   },
+  "Mod_Magazine_Heavy_ReloadSpeed_03": {
+    "SoftCurrency": 3300,
+    "CompoundSheets": 4,
+    "CircuitBoard": 3,
+    "BrittleTitanOre": 2
+  },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
     "SoftCurrency": 8000,
     "HydraulicPiston": 5,
     "MultiTool": 2,
     "RareVeltecite": 1
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+    "SoftCurrency": 3300,
+    "CompoundSheets": 4,
+    "CircuitBoard": 3,
+    "BrittleTitanOre": 2
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
     "SoftCurrency": 8000,
@@ -333,15 +404,47 @@
     "MultiTool": 2,
     "RareVeltecite": 1
   },
+  "Mod_Stock_Standard_02": {
+    "SoftCurrency": 1200,
+    "BlueWood": 2,
+    "Alloys": 2
+  },
+  "Mod_Stock_Standard_ADS_01": {
+    "SoftCurrency": 1200,
+    "BlueWood": 2,
+    "Alloys": 2
+  },
   "Mod_Stock_Standard_ADSEquip_02": {
     "SoftCurrency": 8000,
     "ShockAbsorber": 1,
     "MiniatureReactor": 1
   },
+  "Mod_Stock_Marksman_02": {
+    "SoftCurrency": 1200,
+    "BlueWood": 3,
+    "BrittleTitanOre": 2
+  },
+  "Mod_Stock_Marksman_ADS_01": {
+    "SoftCurrency": 1200,
+    "BlueWood": 3,
+    "BrittleTitanOre": 2
+  },
   "Mod_Stock_Marksman_ADSEquip_02": {
     "SoftCurrency": 8000,
     "ShockAbsorber": 1,
     "MultiTool": 2
+  },
+  "Mod_Muzzle_Small_Recoil_03": {
+    "SoftCurrency": 3300,
+    "MagneticFieldStabilizer": 3,
+    "PureNickel": 2,
+    "UncommonVelticite": 2
+  },
+  "Mod_Muzzle_Standard_Recoil_03": {
+    "SoftCurrency": 3300,
+    "MagneticFieldStabilizer": 3,
+    "PureNickel": 2,
+    "UncommonVelticite": 2
   },
   "Mod_Converter_Light_03": {
     "SoftCurrency": 8000,
@@ -367,11 +470,33 @@
     "AutoLoader": 1,
     "DerelictExplosives": 1
   },
+  "Mod_Converter_Light_AIDMG_01": {
+    "SoftCurrency": 1200,
+    "UncommonVelticite": 2,
+    "GenericCreatureDrop": 3
+  },
+  "Mod_Converter_Light_AIDMG_02": {
+    "SoftCurrency": 3300,
+    "MeteorFragment": 1,
+    "TitanOre": 1,
+    "NeuroToxicGlands": 1
+  },
   "Mod_Converter_Light_AIDMG_03": {
     "SoftCurrency": 8000,
     "HydraulicPiston": 5,
     "AutoLoader": 1,
     "TitanOre": 1
+  },
+  "Mod_Converter_Medium_AIDMG_01": {
+    "SoftCurrency": 1200,
+    "UncommonVelticite": 2,
+    "GenericCreatureDrop": 3
+  },
+  "Mod_Converter_Medium_AIDMG_02": {
+    "SoftCurrency": 3300,
+    "MeteorFragment": 1,
+    "TitanOre": 1,
+    "NeuroToxicGlands": 1
   },
   "Mod_Converter_Medium_AIDMG_03": {
     "SoftCurrency": 8000,
@@ -379,11 +504,22 @@
     "AutoLoader": 1,
     "TitanOre": 1
   },
+  "Mod_ForeGrip_ADS_02": {
+    "SoftCurrency": 3300,
+    "RareVeltecite": 1,
+    "PrintResin": 1,
+    "AI_RattlerSkin": 2
+  },
   "Mod_ForeGrip_ADS_03": {
     "SoftCurrency": 8000,
     "HydraulicPiston": 5,
     "MultiTool": 2,
     "RareVeltecite": 1
+  },
+  "Mod_RearGrip_ADS_02": {
+    "SoftCurrency": 1200,
+    "Alloys": 2,
+    "AI_RattlerSkin": 2
   },
   "Mod_Optic_1x_02": {
     "SoftCurrency": 1200,

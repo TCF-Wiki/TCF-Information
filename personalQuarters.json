@@ -56,7 +56,7 @@
       "costs": {
         "SoftCurrency": 16000,
         "AluminumParts": 18,
-        "MultiTool": 9,
+        "AI_HowlerPellet": 5,
         "AI_WeremoleMeat": 6
       },
       "upgradeTime": 72000
@@ -66,7 +66,7 @@
       "upgradesRequired": 34,
       "costs": {
         "SoftCurrency": 32000,
-        "PrintResin": 9,
+        "AI_HowlerDart": 4,
         "Datapad": 7,
         "AI_WeremoleMeat_02": 1
       },
@@ -237,7 +237,7 @@
           "costs": {
             "SoftCurrency": 84554,
             "PrintResin": 8,
-            "MiniatureReactor": 5,
+            "AI_HowlerPellet": 2,
             "KorolevScrip": 58
           }
         },
@@ -296,11 +296,11 @@
       "tier": 1,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
           "upgradeTime": 120,
           "costs": {
-            "SoftCurrency": 872,
-            "Fabrics": 2,
+            "SoftCurrency": 350,
+            "GenericCreatureDrop": 3,
             "KorolevScrip": 1
           }
         }
@@ -308,11 +308,27 @@
     },
     "increase_bag_2": {
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
-      "PQLevelRequired": 3,
+      "PQLevelRequired": 2,
       "tier": 2,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
+          "upgradeTime": 120,
+          "costs": {
+            "SoftCurrency": 872,
+            "Fabrics": 2,
+            "KorolevScrip": 2
+          }
+        }
+      ]
+    },
+    "increase_bag_3": {
+      "type": "EYTechTreeNodePerkType::IncreaseBagSize",
+      "PQLevelRequired": 3,
+      "tier": 3,
+      "levels": [
+        {
+          "upgradeAmount": 1,
           "upgradeTime": 2520,
           "costs": {
             "SoftCurrency": 13566,
@@ -323,10 +339,10 @@
         }
       ]
     },
-    "increase_bag_3": {
+    "increase_bag_4": {
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 5,
-      "tier": 3,
+      "tier": 4,
       "levels": [
         {
           "upgradeAmount": 1,
@@ -340,13 +356,13 @@
         }
       ]
     },
-    "increase_bag_4": {
+    "increase_bag_5": {
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 7,
-      "tier": 4,
+      "tier": 5,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
           "upgradeTime": 59520,
           "costs": {
             "SoftCurrency": 211058,
@@ -357,16 +373,17 @@
         }
       ]
     },
-    "increase_bag_5": {
+    "increase_bag_6": {
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 10,
-      "tier": 5,
+      "tier": 6,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
           "upgradeTime": 103320,
           "costs": {
             "SoftCurrency": 526885,
+            "AI_HowlerSyrinx_01": 6,
             "AF_Slag": 4,
             "KorolevScrip": 292
           }
@@ -738,6 +755,7 @@
           "costs": {
             "SoftCurrency": 521189,
             "AF_Token": 1,
+            "AI_HowlerPellet": 5,
             "OsirisScrip": 292
           }
         }
@@ -942,7 +960,7 @@
           "costs": {
             "SoftCurrency": 49437,
             "TentaclePlant": 2,
-            "PureFocusCrystal": 2,
+            "AI_HowlerPellet": 5,
             "OsirisScrip": 130
           }
         },
@@ -976,9 +994,7 @@
           "upgradeAmount": 1,
           "upgradeTime": 5,
           "costs": {
-            "SoftCurrency": 872,
-            "BlueWood": 2,
-            "ICAScrip": 1
+            "SoftCurrency": 500
           }
         },
         {
@@ -1242,7 +1258,7 @@
           "upgradeTime": 98400,
           "costs": {
             "EpicVeltecite": 2,
-            "AI_StriderMeat_03": 12,
+            "AI_HowlerDart": 1,
             "SoftCurrency": 25223,
             "KorolevScrip": 58
           }
@@ -1456,7 +1472,7 @@
           "upgradeAmount": 3,
           "upgradeTime": 129720,
           "costs": {
-            "HardDrive_epic": 1,
+            "AI_HowlerDart": 2,
             "EpicVeltecite": 3,
             "SoftCurrency": 265000,
             "ICAScrip": 58
