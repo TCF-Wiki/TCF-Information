@@ -6063,7 +6063,12 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
+      "printing": {
+        "Map03_KeyCard_04_AlienCorridor": {
+          "inGameName": "Bar Storage Key",
+          "amount": 20
+        }
+      },
       "missions": {
         "Main-KOR-Caverns-7": {
           "inGameName": "Main-KOR-Caverns-7",
@@ -6429,6 +6434,10 @@
         "Consumable_Grenade_05": {
           "inGameName": "Assault Grenade",
           "amount": 8
+        },
+        "Map03_KeyCard_04_AlienCorridor": {
+          "inGameName": "Bar Storage Key",
+          "amount": 10
         }
       },
       "missions": {},
@@ -8332,8 +8341,8 @@
     }
   },
   "WP_E_SGun_Bullet_01_scrappy": {
-    "inGameName": "WP_E_SGun_Bullet_01_scrappy",
-    "description": "WP_E_SGun_Bullet_01_scrappy",
+    "inGameName": "Rusty B9 Trenchgun",
+    "description": "Rusty Pump-action shotgun, high-spread, short range. Just a bit damaged. Audible range: 350m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 25,
@@ -8354,8 +8363,8 @@
     }
   },
   "WP_E_SMG_Bullet_01_scrappy": {
-    "inGameName": "WP_E_SMG_Bullet_01_scrappy",
-    "description": "WP_E_SMG_Bullet_01_scrappy",
+    "inGameName": "Rusty S-576 PDW",
+    "description": "A rusty used SMG with high rate of fire, still has some worth in close range engagements. Audible range: 350m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 30,
@@ -8376,8 +8385,8 @@
     }
   },
   "WP_E_AR_Energy_01_scrappy": {
-    "inGameName": "WP_E_AR_Energy_01_scrappy",
-    "description": "WP_E_AR_Energy_01_scrappy",
+    "inGameName": "Rusty AR-55 Autorifle",
+    "description": "A rusty automatic rifle, doesn't seem to excel anymore. Audible range: 400m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 35,
@@ -8691,8 +8700,8 @@
     }
   },
   "WP_E_Pistol_Bullet_01_scrappy": {
-    "inGameName": "WP_E_Pistol_Bullet_01_scrappy",
-    "description": "WP_E_Pistol_Bullet_01_scrappy",
+    "inGameName": "Rusty K-28",
+    "description": "An old rusty semi-automatic pistol. Its glory days are over. Audible range: 300m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 20,
@@ -9371,6 +9380,508 @@
       "Equipment.Consumables"
     ],
     "stackSize": 4,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "KeyCard_DUMMY": {
+    "inGameName": "???",
+    "description": "Unknown Keycard",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 1,
+    "cost": [],
+    "sellValue": 2278,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map01_KeyCard_01": {
+    "inGameName": "Server Access Key",
+    "description": "Labeled only as 'Servers - Bright Sands', with the Com-Base logo.",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 3400,
+        "ICAScrip": 2
+      }
+    ],
+    "sellValue": 675,
+    "factionRep": 1,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map01_KeyCard_02": {
+    "inGameName": "Mine Access Key",
+    "description": "Appears to be for one of the mine entrances along the northern edge of Bright Sands.",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 3400,
+        "KorolevScrip": 2
+      }
+    ],
+    "sellValue": 675,
+    "factionRep": 1,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map01_KeyCard_03": {
+    "inGameName": "Tall House Key",
+    "description": "A generic keycard, someone drew a house on stilts on the back.",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 300,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map01_KeyCard_04": {
+    "inGameName": "Clean Room Key",
+    "description": "Keycard carrying the 'Asclepius Vaccines' logo. And several biohazard warnings... may want to wash your hands.",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3400,
+        "OsirisScrip": 2
+      }
+    ],
+    "sellValue": 675,
+    "factionRep": 1,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map01_KeyCard_05": {
+    "inGameName": "Archaeologist's Office Key",
+    "description": "Decades of swampy grime have eaten away at the keycard's cover, but someone scratched 'SKELETON' onto it with a knife. Hopefully still works.",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3400,
+        "OsirisScrip": 1
+      }
+    ],
+    "sellValue": 300,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map01_KeyCard_06": {
+    "inGameName": "Storage Room Key",
+    "description": "The keycard is pretty scratched up, and might have been part of some creature's meal, but you can still see the words 'Jungle Outpost' at the top.",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 1013,
+    "factionRep": 1,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map01_KeyCard_07": {
+    "inGameName": "Base Camp Armory Key",
+    "description": "The key is in almost prestine condition. Hopefully so are the contents of the armory it grants access to.",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 1013,
+    "factionRep": 1,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_01": {
+    "inGameName": "Boss' Office Key",
+    "description": "The unmistakable 'STARPORT' logo leaps out from the card. The smaller 'Top Floor Admin' whispers for your attention in pitiful subscript underneath.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_02": {
+    "inGameName": "Janitor's Key",
+    "description": "A janitor's key loop with a single simple key with a cute broom charm attached; it appears to longingly sweep at the floor as it dangles from your hand",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 5100,
+        "ICAScrip": 5
+      }
+    ],
+    "sellValue": 300,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_03": {
+    "inGameName": "Garage Office Key",
+    "description": "The keycard has an image of one of those rad looking 6-wheeler trucks printed on it with the text 'Garage Office' alongside it.",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 5100,
+        "KorolevScrip": 5
+      }
+    ],
+    "sellValue": 1013,
+    "factionRep": 1,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_04": {
+    "inGameName": "Overseer's Office Key",
+    "description": "Labeled with 'Nutrion Farms' and is emblazoned the Nutrion Farms logo. It's still covered in a sickly stale pumpkin juice... ew.",
+    "type": "material",
+    "rarity": "Rare",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 5100,
+        "ICAScrip": 6
+      }
+    ],
+    "sellValue": 675,
+    "factionRep": 1,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_05": {
+    "inGameName": "Loose House Key",
+    "description": "Looks like the key to someone's house. The amount of rust and moss on it seems to imply its origin is somewhere deep in a jungle.",
+    "type": "material",
+    "rarity": "Common",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 300,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_06": {
+    "inGameName": "Lab Keycard",
+    "description": "A bright white keycard with the telltale livery of Osiris. 'Pinnacle Labs' is laser etched professionally onto it.",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_07": {
+    "inGameName": "Bar Storage Key",
+    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_08": {
+    "inGameName": "Bar Storage Key",
+    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map02_KeyCard_09": {
+    "inGameName": "Bar Storage Key",
+    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map03_KeyCard_01": {
+    "inGameName": "Bar Storage Key",
+    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 7600,
+        "OsirisScrip": 10
+      }
+    ],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map03_KeyCard_02": {
+    "inGameName": "Bar Storage Key",
+    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map03_KeyCard_03": {
+    "inGameName": "Bar Storage Key",
+    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 7600,
+        "KorolevScrip": 10
+      }
+    ],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Map03_KeyCard_04_AlienCorridor": {
+    "inGameName": "Bar Storage Key",
+    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 0.1,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "ForgeIron": 20,
+        "Alien_Scrap": 10
+      }
+    ],
+    "sellValue": 1519,
+    "factionRep": 2,
+    "tags": [
+      "Loot.Category.Key",
+      "Loot.Category.Alien"
+    ],
+    "stackSize": 1,
     "uses": {
       "printing": {},
       "missions": {},

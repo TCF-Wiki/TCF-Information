@@ -3209,7 +3209,7 @@
       "description": "Each faction, will offer you a series of <BH2>Missions</> that further their goals on Fortuna III; completing these won't just reward you with K-Marks and a reputation boost, but often useful kit, and more.  <BH2>Jobs</> are often more simpler tasks, the bread and butter for prospectors, getting each faction what it needs to keep itself in operation. Access to these is gated by your reputation with the faction, with the higher tier Jobs also increasing in difficulty... and rewards."
     },
     "Codex_Prospecting": {
-      "description": "<BH2>Guns</>! You'll want to carry at least one while on the surface, because you can bet everyone else will be too. Plus there's the matter of all the alien monsters that want to make you their newest chew toy.  It's not all about rate for fire and accuracy; pay special attention to the <BH2>Penetration</> value; the higher, the more damage you'll do to Shielded prospectors and creatures with thick hides.  Want a personal touch? Most weapons can have <BH2>Mods</> attached to improve their performance or change their behaviour in just the right way.  Oh, and don't forget to take some <BH2>Ammo</> with you!"
+      "description": "'Prospector' is the title given to those that brave going down to the planet's surface. Initially a legal requirement for anyone putting their life at risk to mine for valuable minerals"
     },
     "Codex_Prospecting_Insurance": {
       "description": "The surface is a dangerous place to be, and many prospectors don't make it back on their own two feet. Your suit's stasis foam will protect you and your safe pockets, but your gear, bag, and anything in it won't be coming back to the station with you.  That's where insuring your items can help. <BH2>Standard Insurance</> works per-drop, and will get you some <BH2>K-Marks</> back on lost items if you're taken out. Eases the pain for high-risk runs, you know?  <BH2>Gear Salvage</> will cost you <BH2>Aurum</>, or an <BH2>Insurance Token</>, but it flags your gear for a bot to bring it back to the station. So long as nobody else grabs it first, you'll get the back in some time. And if someone did, you'll still get a <BH2>K-Mark</> compensation payout. The salvage flag will stick with the item no matter how many drops you take it on, until the payout triggers or you modify its attachments.  Remember to check your <BH2>Delivery Station</> in your <BH2>Quarters</> for payout; there's a limit to how many can be held for you!"
@@ -3222,6 +3222,9 @@
     },
     "Codex_Prospecting_Consumables": {
       "description": "<BH2>Stims</> and <BH2>Medkits</> will keep you alive on the planet; use Stims for a quick health boost, and reserve the Medkits for when you've got enough time to use them.  <BH2>Grenades</> don't just come in the big boom variety; an <BH2>Audio Decoy</> or <BH2>Smoke Grenade</> might hide your escape or aid in an ambush, while a <BH2>Gas Grenade</> will turn any area into a serious safety hazard."
+    },
+    "Codex_Prospecting_Weapons": {
+      "description": "<BH2>Guns</>! You'll want to carry at least one while on the surface, because you can bet everyone else will be too. Plus there's the matter of all the alien monsters that want to make you their newest chew toy.  It's not all about rate for fire and accuracy; pay special attention to the <BH2>Penetration</> value; the higher, the more damage you'll do to Shielded prospectors and creatures with thick hides.  Want a personal touch? Most weapons can have <BH2>Mods</> attached to improve their performance or change their behaviour in just the right way.  Oh, and don't forget to take some <BH2>Ammo</> with you!"
     },
     "Codex_Prospecting_Armor": {
       "description": "If you want to keep your insides inside, then you'll want to equip a <BH2>Shield</> vest and a <BH2>Helmet</>. The higher the <BH2>Armor</> value, the more damage it will absorb from each hit, while a higher <BH2>Durability</> keeps it, and you, intact for longer.  Don't forget to <BH2>Repair</> your damaged equipment at the <BH2>Gear Printer</>!"
@@ -3957,448 +3960,448 @@
       "name": "'Dig Site' Data Drive",
       "description": "A data drive carrying information on the Bright Sands Dig Site."
     },
-    "ChalniFeather": {
+    "Material_ChalniFeather": {
       "name": "Chalni Feather",
       "description": "Material used in a variety of printing and upgrading processes."
     },
-    "VaintarShell": {
+    "Material_VaintarShell": {
       "name": "Vaintar Shell",
       "description": "Material used in a variety of printing and upgrading processes."
     },
-    "Cadmium": {
+    "Material_Cadmium": {
       "name": "Cadmium",
       "description": "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this material is still worth selling at the station."
     },
-    "StormSurgeCrystal": {
+    "Material_StormSurgeCrystal": {
       "name": "Storm Surge Crystal",
       "description": "Malformed veltecite, created when the Cycle emits a localized spike and excites latent veltecite veins underground into growing at an accelerated rate. It's definitely health hazard, but it's also worth a lot..."
     },
-    "MeteorFragment": {
+    "Material_MeteorFragment": {
       "name": "Meteor Fragment",
       "description": "Rare radioactive crystal, retrieved from debris of Fortuna III's cracked moon. Highly valuable."
     },
-    "MeteorCore": {
+    "Material_MeteorCore": {
       "name": "Meteor Core",
       "description": "Rare radioactive crystal, retrieved from debris of Fortuna III's cracked moon. Extremely valuable."
     },
-    "Biomass": {
+    "Material_Biomass": {
       "name": "Mutated Biomass",
       "description": "Fortuna III's hostile creatures are already mutated versions of smaller and less aggressive ancestors, but Cycle Storms push forward rarer latent mutations. Researchers buy this stuff, as do some 'fancy' restaurants."
     },
-    "BlueRunnerEgg": {
+    "Material_BlueRunnerEgg": {
       "name": "Blue Runner Egg",
       "description": "Blue Runner eggs have a notoriously thick shell, allowing them to only care for the eggs when close to hatching. Can be sold on the station."
     },
-    "AlphaWardenHeart": {
+    "Material_AlphaWardenHeart": {
       "name": "Alpha Crusher Heart",
       "description": "The heart of an Alpha Crusher, or at least chunks of it, can be used for several almost miraculous medical treatments. It's also a local delicacy, for those with more money than sense."
     },
-    "Brightcap": {
+    "Material_Brightcap": {
       "name": "Brightcap Mushroom",
       "description": "Good for selling and desired by Osiris for their rare properties. Also tastes good, if prepared properly."
     },
-    "GlowyBrightcap": {
+    "Material_GlowyBrightcap": {
       "name": "Glowy Brightcap Mushroom",
       "description": "A rare glowy mushroom that can only be harvested during the storm on Fortuna. Highly coveted by Osiris."
     },
-    "VelteciteFragment": {
+    "Material_VelteciteFragment": {
       "name": "Veltecite Fragment",
       "description": "Veltecite Fragment, NEED PROPER DESCRIPTION"
     },
-    "Nickel": {
+    "Material_Nickel": {
       "name": "Nickel",
       "description": "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this material is still worth mining."
     },
-    "CommonVeltecite": {
+    "Material_CommonVeltecite": {
       "name": "Flawed Veltecite",
       "description": "While relatively low in value, flawed veltecite is still valuable enough to be worth taking a pickaxe to some rocks."
     },
-    "ArdorShard": {
+    "Material_ArdorShard": {
       "name": "Cloudy Veltecite",
       "description": "Shards of Cloudy Veltecite are often used for energy storage and generation. Korolev are always looking for any that prospectors can mine."
     },
-    "RareVeltecite": {
+    "Material_RareVeltecite": {
       "name": "Clear Veltecite",
       "description": "A rare shard of clear Veltecite. Korolev will pay a decent bit of pocket money for any that prospectors uncover with their pickaxes."
     },
-    "EpicVeltecite": {
+    "Material_EpicVeltecite": {
       "name": "Pure Veltecite",
       "description": "Very rare shard of pure Veltecite torn out of a mineral vein, highly valued by Korolev and others."
     },
-    "GlowingCrystalCoreShard": {
+    "Material_GlowingCrystalCoreShard": {
       "name": "Teratomorphic Crystal Core",
       "description": "Extracted from a glowing Teratomorphic Crystal, just holding this in your bag gives you an uneasy feeling."
     },
-    "LegendaryVeltecite": {
+    "Material_LegendaryVeltecite": {
       "name": "Veltecite Heart",
       "description": "The 'heart' of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted."
     },
-    "MagneticOre": {
+    "Material_MagneticOre": {
       "name": "Magnetite",
       "description": "Properly refined and treated, these ores can be used to create powerful magnets used in a variety of printing and upgrading processes."
     },
-    "FocusCrystal": {
+    "Material_FocusCrystal": {
       "name": "Focus Crystal",
       "description": "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures."
     },
-    "Polonium": {
+    "Material_Polonium": {
       "name": "Polonium",
       "description": "Valuable glowy mineral that can only be mined during an active storm on Fortuna III"
     },
-    "PolariumCrystal": {
+    "Material_PolariumCrystal": {
       "name": "Polirium Crystal",
       "description": "Rare crystal, is of scientific interest and can be sold for K-Marks."
     },
-    "DerelictExplosives": {
+    "Material_DerelictExplosives": {
       "name": "Derelict Explosives",
       "description": "Fortuna III's settlers took to using explosives to both mold the environment to their liking and get rid of the local pests. Can still be sold on the station, for fireworks of course."
     },
-    "OpticGlass": {
+    "Material_OpticGlass": {
       "name": "Optic Glass",
       "description": "Perfectly polished, lenses like these often find themselves used more in high-powered cutting machinery than in actual optic equipment."
     },
-    "PowerSource": {
+    "Material_PowerSource": {
       "name": "Power Cell",
       "description": "Material used in a variety of printing and upgrading processes."
     },
-    "SpareCasing": {
+    "Material_SpareCasing": {
       "name": "Hardened Metals",
       "description": "Material used in a variety of printing and upgrading processes."
     },
-    "ExoNeedles": {
+    "Material_ExoNeedles": {
       "name": "Howler Needles",
       "description": "Material used in a variety of printing and upgrading processes."
     },
-    "NeuroToxicGlands": {
+    "Material_NeuroToxicGlands": {
       "name": "Toxic Glands",
       "description": "The foul smelling sack some creatures use to produce compounds capable of breaking down common synthetic materials, nevermind human flesh."
     },
-    "TitanOre": {
+    "Material_TitanOre": {
       "name": "Titan Ore",
       "description": "Somewhat common on H-C5 planets, Titan Ore was essential during the initial colonization. Still used in a variety of printing and upgrading processes."
     },
-    "PolymetallicPrefabricate": {
+    "Material_PolymetallicPrefabricate": {
       "name": "Polymetallic Prefabricate",
       "description": "One of those 'miracle materials', sheets of this stuff is commonly used in the printing of various tools, machinery, and of course, weapons."
     },
-    "AzureTree": {
+    "Material_AzureTree": {
       "name": "Azure Tree Bark",
       "description": "Azure Trees are found sprinkled around the less shaded areas of Fortuna III, with their bark coveted for artisanal goods."
     },
-    "WinterMaterial_Event_01": {
+    "Material_WinterMaterial_Event_01": {
       "name": "Singing Spaceman",
       "description": "A jolly little spaceman figurine, themed after the suits used by the crew of the Starlight Song as they assisted in the rescue of Aurora Station over the planet Neptune in 2125.  Models like this would often sing short and happy songs, light up, or even dance around."
     },
-    "UncommonModKit": {
+    "Material_UncommonModKit": {
       "name": "Uncommon Mod Kit",
       "description": "Uncommon mod kit description FILL IN."
     },
-    "RareModKit": {
+    "Material_RareModKit": {
       "name": "Rare Mod Kit",
       "description": "Rare mod kit description FILL IN."
     },
-    "EpicModKit": {
+    "Material_EpicModKit": {
       "name": "Epic Mod Kit",
       "description": "Epic mod kit description FILL IN."
     },
-    "LegendaryModKit": {
+    "Material_LegendaryModKit": {
       "name": "Legendary Mod Kit",
       "description": "Legendary mod kit description FILL IN."
     },
-    "OldCurrency": {
+    "Material_OldCurrency": {
       "name": "Old Currency",
       "description": "Currency used on Fortuna III before the evacuations. Still in use by some on Prospect Station."
     },
-    "DataPad": {
+    "Material_DataPad": {
       "name": "Interactive Screen",
       "description": "Interactive Screens were common among civilians on Fortuna III, used for all sorts of purposes. Cached data and basic components give them some selling value."
     },
-    "MagStab": {
+    "Material_MagStab": {
       "name": "Magnetic Field Stabilizer",
       "description": "A component necessary for certain weapons with high power usage."
     },
-    "AutoLoader": {
+    "Material_AutoLoader": {
       "name": "Autoloader",
       "description": "Used for printing a variety of equipment requiring regular charges, such as weapons."
     },
-    "ShockAbsorber": {
+    "Material_ShockAbsorber": {
       "name": "Shock Absorber",
       "description": "A component used for certain weapons with heavy recoil."
     },
-    "MiniReactor": {
+    "Material_MiniReactor": {
       "name": "Miniature Reactor",
       "description": "Useful for printing equipment with high power requirements. DO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B."
     },
-    "CPURed": {
+    "Material_CPURed": {
       "name": "Master Unit CPU",
       "description": "An advanced CPU, ideal for the running of adaptive AI systems or the manipulation of complex energy fields."
     },
-    "CPUBlue": {
+    "Material_CPUBlue": {
       "name": "Zero Systems CPU",
       "description": "Made for crunching through large datasets, used in several devices that require large amounts of simple calculations."
     },
-    "ShardSlicer": {
+    "Material_ShardSlicer": {
       "name": "Shard Slicer",
       "description": "A delicate yet powerful machine used for printing certain items."
     },
-    "MultiTool": {
+    "Material_MultiTool": {
       "name": "Salvaged CoTEC MultiTool",
       "description": "These used to be able print, repair, and manipulate simple machinery and electronics. Might still be useful if repaired or used for parts."
     },
-    "PrintResin": {
+    "Material_PrintResin": {
       "name": "Print Resin",
       "description": "Can be loaded into most printers to print the base components of almost anything, from rubber ducks to weapon parts."
     },
-    "BallBearings": {
+    "Material_BallBearings": {
       "name": "Ball Bearings",
       "description": "A simple mechanical component used to print a multitude of machines with moving parts, such as firearms."
     },
-    "GyroScope": {
+    "Material_GyroScope": {
       "name": "Gyroscope",
       "description": "Helps keep things pointing where they're supposed to be pointing even in the roughest conditions, making it quite useful for printing some weapon components."
     },
-    "HydraulicPiston": {
+    "Material_HydraulicPiston": {
       "name": "Hydraulic Piston",
       "description": "Useful for printing weapons and beacons. The tech may be hundreds of years old, but if it works, it works."
     },
-    "CompoundSheets": {
+    "Material_CompoundSheets": {
       "name": "Compound Sheets",
       "description": "Standardized metal and plastic sheets like these are used to print everything from tractors to weapons, so long as you follow the right printing instructions."
     },
-    "Alloys": {
+    "Material_Alloys": {
       "name": "Metallic Alloys",
       "description": "A collection of metal alloys used as a base material in many items, ready to slot into compatible printers."
     },
-    "CreatureClaw": {
+    "Material_CreatureClaw": {
       "name": "Sharp Claw",
       "description": "Hard and sharp, claws like these are capable of piercing a prospector's defenses and rip their flesh apart with ease."
     },
-    "CrusherTongue": {
+    "Material_CrusherTongue": {
       "name": "Crusher Tongue",
       "description": "Tough and slimy, the tongue's secretions have a variety of uses if refined, and the flesh itself is considered a delicacy if prepared correctly."
     },
-    "AlphaCrusherSkull": {
+    "Material_AlphaCrusherSkull": {
       "name": "Alpha Crusher Skull",
       "description": "It doesn't seem to have any real practical purpose, but this trophy is one of the most desired items Fortuna III produces."
     },
-    "GenericCreatureDrop": {
+    "Material_GenericCreatureDrop": {
       "name": "Spinal Base",
       "description": "Wanted for several rare materials easily harvested from the spine, as well as for research by those looking into the origins of Fortuna III's hostile creatures."
     },
-    "StormyCreatureDrop": {
+    "Material_StormyCreatureDrop": {
       "name": "Charged Spinal Base",
       "description": "The base of the spine of a hostile Fortuna III creature affected by the Cycle. Contains some useful materials for various items or research."
     },
-    "HardenedBoneAlloy": {
+    "Material_HardenedBoneAlloy": {
       "name": "Hardened Bone Plates",
       "description": "Dropped from some of Fortuna III's toughest creatures, can be used for printing certain items after refining."
     },
-    "FlakedLethium": {
+    "Material_FlakedLethium": {
       "name": "Letium Clot",
       "description": "Solidified mass of Letium, rare and valuable."
     },
-    "OilTank": {
+    "Material_OilTank": {
       "name": "NiC Oil Cannister",
       "description": "A pressured cannister filled with concentrated Nanite-infused Crude. It reacts to the storm radiation in strange ways.  Almost looks like it's alive, moving and swirling on its own.",
       "lore": ""
     },
-    "PureNickel": {
+    "Material_PureNickel": {
       "name": "Altered Nickel",
       "description": "Found in various mineral veins pushed to the surface by the same process that spawns veltecite, this ore seems to have been affected by proximity with the rare crystals."
     },
-    "BrittleTitanOre": {
+    "Material_BrittleTitanOre": {
       "name": "Brittle Titan Ore",
       "description": "Somewhat common on H-C5 planets, Titan Ore was essential during the initial colonization. Still used in a variety of printing and upgrading processes."
     },
-    "PureFocusCrystal": {
+    "Material_PureFocusCrystal": {
       "name": "Pure Focus Crystal",
       "description": "Growths of these crystals are common on Fortuna III, valuable on the station for where they're often used in the creation of miniature figures."
     },
-    "WaterPlant": {
+    "Material_WaterPlant": {
       "name": "Waterweed Filament",
       "description": "The pollen filament of a Waterweed, a plant that can only be harvested around water bodies such as lakes or swamps on Fortuna III. The blossoms themselves are worthless, but these Filaments fetch a decent price on Prospect Station."
     },
-    "DesertPlant": {
+    "Material_DesertPlant": {
       "name": "Dustbloom",
       "description": "This lonely weed grows in open, arid areas on Fortuna III and develops valuable vibrant blossoms when exposed to direct sunlight."
     },
-    "IvyPlant": {
+    "Material_IvyPlant": {
       "name": "Pale Ivy Blossom",
       "description": "The blossom of Pale Ivy, a strange plant that likes to climb up walls to keep its gorgeous, divinely smelling petals out of the reach of critters and insects."
     },
-    "Alien Fruit": {
+    "Material_Alien Fruit": {
       "name": "Indigenous Fruit",
       "description": "Tastes delicious, and can be processed to gain some useful chemicals."
     },
-    "Fabrics": {
+    "Material_Fabrics": {
       "name": "Textiles",
       "description": "Heavy and durable fabrics, useful for printing various items.  You can never get the smell of mildew out of these."
     },
-    "Cables": {
+    "Material_Cables": {
       "name": "Electronic Cables",
       "description": "A bundle of cables, still in good condition.  Unfortunately not platinum plated, unsuitable for true audio transmission."
     },
-    "Insulation": {
+    "Material_Insulation": {
       "name": "Salvaged Insulation",
       "description": "Even outside of its intended purpose, the materials still have various uses in item printing.  Yes, it's asbestos."
     },
-    "Copper Wire": {
+    "Material_Copper Wire": {
       "name": "Copper Wire",
       "description": "Still the best bang for the buck for electric cables, makes for a good and cheap electric conductor."
     },
-    "Smart mesh": {
+    "Material_Smart mesh": {
       "name": "Smart Mesh",
       "description": "Adaptable material, used for printing various items.  Also a fun art tool!"
     },
-    "Circuit Board": {
+    "Material_Circuit Board": {
       "name": "Circuit Board",
       "description": "An old circuit board, its components can be salvaged and repurposed to build new items.  And now you can put e-waste management on your resume."
     },
-    "Adhesive": {
+    "Material_Adhesive": {
       "name": "Resin Gun",
       "description": "Multi purpose tool, handy for sticking things together or providing flexible insulation.  The warning label says to not use if you need a warning label."
     },
-    "RadioSpareParts": {
+    "Material_RadioSpareParts": {
       "name": "Radio Equipment",
       "description": "An old colonial radio transceiver; salvaging these for item printing is cheaper than buying new parts."
     },
-    "Antibiotics": {
+    "Material_Antibiotics": {
       "name": "Old Medicine",
       "description": "Medicine left behind on the planet, can be processed to make new supplies.  Fortuna's colonists definitely had a lot of pills..."
     },
-    "PortableLabEquipmentBox": {
+    "Material_PortableLabEquipmentBox": {
       "name": "Portable Lab",
       "description": "A full lab in a box, also contains all sorts of specialized equipment and materials that can be repurposed.  Loaded with delicate tools, sensitive software, and no manual."
     },
-    "Battery": {
+    "Material_Battery": {
       "name": "'Fusion Cartridge' Batteries",
       "description": "A pack of high-powered, slightly radioactive batteries. Safe to use in most electronic devices.  Not actually fusion powered, but still worryingly radioactive."
     },
-    "LiquidFertilizer": {
+    "Material_LiquidFertilizer": {
       "name": "'Magic-GROW' Fertilizer",
       "description": "A powerful and sweet smelling chemical, can be processed to help manufacture other items.  Don't ingest within 6 hours of consuming any fruits or nuts. Or ideally ever."
     },
-    "SamplingDevice": {
+    "Material_SamplingDevice": {
       "name": "Biological Sampler",
       "description": "A portable device used for collecting biological samples in the field. Can be used to assist with printing delicate items.  This model incorporates a pressure-activated injector as well. Mildly concerning."
     },
-    "AnaestheticsContainers": {
+    "Material_AnaestheticsContainers": {
       "name": "Medical Supplies",
       "description": "A small crate of miscellaneous medical supplies, has all sorts of chemicals useful for printing new items.  There are A LOT of warning labels here."
     },
-    "ProteinBar": {
+    "Material_ProteinBar": {
       "name": "Nutritional Bar",
       "description": "Nutrion's flagship product, a full day's meal in a single candy bar."
     },
-    "Jewellery": {
+    "Material_Jewellery": {
       "name": "Jewellery",
       "description": "A simple and easy way to carry one's riches and memories.  Also very easy to lose during an emergency evacuation."
     },
-    "SampleContainer": {
+    "Material_SampleContainer": {
       "name": "Sample Container",
       "description": "A sealed self-powered container for exotic alien samples.  Scientists are always putting little things in jars and hoping for the best."
     },
-    "AluminumParts": {
+    "Material_AluminumParts": {
       "name": "Aluminum Scrap",
       "description": "Mostly aluminum and steel; not the most valuable salvage, but useful for printing."
     },
-    "ForgeIron": {
+    "Material_ForgeIron": {
       "name": "Tharis Iron",
       "description": "A solid clump of inert ancient nanites fused with iron, along with various other elements trapped within when the mass solidified."
     },
-    "PureForgeIron": {
+    "Material_PureForgeIron": {
       "name": "Pure Tharis Iron",
       "description": "A small mass of inert nanites mixed with elemental iron and few other metals. The composite structure is almost perfect."
     },
-    "ForgeIronIngot": {
+    "Material_ForgeIronIngot": {
       "name": "Tharis Iron Ingot",
       "description": "A well shaped ingot made with Tharis Iron. Harder and heavier than anything else you have ever felt. Slightly warm to the touch."
     },
-    "ChargedForgeIronIngot": {
+    "Material_ChargedForgeIronIngot": {
       "name": "Charged Tharis Iron Ingot",
       "description": "An ingot made of Pure Tharis Iron somehow charged with storm lightning. Sometimes lets off a shock when touched, and you can hear a buzz if you put it next to your ear.  OSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!"
     },
-    "SuperChargedForgeIronIngot": {
+    "Material_SuperChargedForgeIronIngot": {
       "name": "Super Charged Tharis Iron Ingot",
       "description": "An ingot made of Pure Tharis Iron, heavily charged with storm lightning. Just touching it leaves your fingers numb.  OSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!"
     },
-    "StriderHead": {
+    "Material_StriderHead": {
       "name": "Strider Head",
       "description": "The torn off head of a dead Strider.  Careful, it can still bite!"
     },
-    "StriderHead_03": {
+    "Material_StriderHead_03": {
       "name": "Heavy Strider Head",
       "description": "The torn off head of a dead Heavy Strider.  Far too ugly to mount on a wall."
     },
-    "RattlerHead": {
+    "Material_RattlerHead": {
       "name": "Rattler Head",
       "description": "The torn off head of a dead Rattler.  Corrosive drool everywhere, handle with gloves."
     },
-    "RattlerHead_02": {
+    "Material_RattlerHead_02": {
       "name": "Mature Rattler Head",
       "description": "The torn off head of a dead Mature Rattler.  These things do NOT age gracefully..."
     },
-    "WeremoleHead": {
+    "Material_WeremoleHead": {
       "name": "Marauder Head",
       "description": "The torn off head of a dead Marauder.  The eyes still follow you around. Creepy."
     },
-    "WeremoleHead_02": {
+    "Material_WeremoleHead_02": {
       "name": "Savage Marauder Head",
       "description": "The torn off head of a dead Savage Marauder.  It's still blinking. Menacingly."
     },
-    "CrusherHead": {
+    "Material_CrusherHead": {
       "name": "Crusher Head",
       "description": "The torn off head of a dead Crusher.  It's even uglier up close... Still, a fine trophy!"
     },
-    "StriderMeat": {
+    "Material_StriderMeat": {
       "name": "Strider Flesh",
       "description": "A chunk of Strider flesh. Presumably of a dead one.  You know, if you cook it properly it's actually pretty good."
     },
-    "StriderMeat_3": {
+    "Material_StriderMeat_3": {
       "name": "Heavy Strider Flesh",
       "description": "A chunk of flesh from a Heavy Strider.  Tougher than normal Strider meat, it barely bleeds."
     },
-    "RattlerEyes": {
+    "Material_RattlerEyes": {
       "name": "Rattler Eyes",
       "description": "The eyes of a dead Rattler.  Well, hopefully it was dead, anyway..."
     },
-    "RattlerEyes_2": {
+    "Material_RattlerEyes_2": {
       "name": "Mature Rattler Eyes",
       "description": "The eyes of a dead Mature Rattler.  Age only improved the thing's sight..."
     },
-    "WeremoleMeat": {
+    "Material_WeremoleMeat": {
       "name": "Marauder Flesh",
       "description": "A chunk of Marauder flesh.  It moves if you poke it."
     },
-    "WeremoleMeat_2": {
+    "Material_WeremoleMeat_2": {
       "name": "Savage Marauder Flesh",
       "description": "A chunk of Savage Marauder flesh.  Burns if you touch it without gloves."
     },
-    "CrusherMeat": {
+    "Material_CrusherMeat": {
       "name": "Crusher Flesh",
       "description": "A chunk of Crusher flesh.  Even its meat is hard as bone."
     },
-    "RattlerSkin": {
+    "Material_RattlerSkin": {
       "name": "Rattler Skin",
       "description": "Taken off a skinned Rattler.  Fashionable! Just don't think about where it came from."
     },
-    "CrusherSkin": {
+    "Material_CrusherSkin": {
       "name": "Crusher Hide",
       "description": "Taken off a skinned Crusher.  (read: hacked repeatedly until something fell off)"
     },
-    "AF_Slag": {
+    "Material_AF_Slag": {
       "name": "Progenitor Slag",
       "description": "Refuse from some unknown process. Not very useful, but still fetches a high price on the station by alien artefact collectors and admirers of rare art."
     },
-    "AF_Token": {
+    "Material_AF_Token": {
       "name": "Abyss Alloy",
       "description": "A sphere of processed and activated Tharis Iron impossibly locked in place.   Gives an aura of infinite potential."
     },
-    "AlienPlant": {
+    "Material_AlienPlant": {
       "name": "Spine Briar",
       "description": "A unique plant so far only found on Tharis Island. Nothing about it feels right..."
     },
-    "AlienScrap": {
+    "Material_AlienScrap": {
       "name": "Progenitor Composite",
       "description": "A clearly alien material, the Progenitors built their monuments on Fortuna III with this. Could possibly be used to build other things, as well."
     },
@@ -4554,27 +4557,27 @@
       "name": "Spike from an Unknown Creature",
       "description": "A very dangerous-looking Spike, left behind by a strange new Creature that seems to have appeared on Fortuna. Be on your guard."
     },
-    "AI_HowlerDart": {
+    "Material_AI_HowlerDart": {
       "name": "Howler Dart",
       "description": "One of the deadly projectiles Howlers use to skewer prey from a distance. This one was still not fully formed and can be harvested for useful materials. Worth some coin to the right people."
     },
-    "AI_HowlerGland_01": {
+    "Material_AI_HowlerGland_01": {
       "name": "Howler Ichor Gland",
       "description": "A damaged gland ripped out of a dead Howler. Used by the creatures to excrete several compounds and pheromones, commonly referred to as 'honey'; the organ alone is in high demand."
     },
-    "AI_HowlerGland_02": {
+    "Material_AI_HowlerGland_02": {
       "name": "Inflamed Howler Ichor Gland",
       "description": "Known as the 'Honey Gland', this organ is still capable of producing someo of the valued honey-like substance Howlers use to attract and dominate other creatures. Very valuable."
     },
-    "AI_HowlerSyrinx_01": {
+    "Material_AI_HowlerSyrinx_01": {
       "name": "Damaged Howler Syrinx",
       "description": "Effectively the 'vocal cords' that Howlers use to emit their iconic screams. Reaches a high price on the station."
     },
-    "AI_HowlerSyrinx_02": {
+    "Material_AI_HowlerSyrinx_02": {
       "name": "Intact Howler Syrinx",
       "description": "The sound emitting organ of a dead Howler, removed in one whole neat piece. The intricacies of its 'construction' make it very valuable."
     },
-    "AI_HowlerPellet": {
+    "Material_AI_HowlerPellet": {
       "name": "Howler Ichor Bulb",
       "description": "An encased glob of Howler 'honey', the sticky substance the creatures use to affect other creatures, and as sustenance for their young. It's been found to be highly nutritious, sweet, and have almost mythical regenerative properties. Of course, it's also extremely addictive with a lethal withdrawal."
     }
@@ -11098,82 +11101,82 @@
     "WP_Shared_Scrappy": {
       "description": "It has outlived it's glory days."
     },
-    "WP_A_AR_Bullet_01": {
+    "Weapons_WP_A_AR_Bullet_01": {
       "name": "KOR-47",
       "description": "Heavy assault rifle. Lower rate of fire than others in its class, but packs a punch. Audible range: 400m",
       "lore": "The KOR Bullpup Automatic Rifle 2247, more commonly known as the KOR-47, is Korolev Heavy Industries' signature weapon and a mainstay of many national and private armed forces."
     },
-    "WP_G_Pistol_Energy_01": {
+    "Weapons_WP_G_Pistol_Energy_01": {
       "name": "Scarab",
       "description": "A dependable pistol, fires in controlled and powerful three-shot bursts. Audible range: 300m",
       "lore": "The Scarab, an Adaptive Phase Pistol, is one of Osiris' most successful weapons, able to induce a localized rapid matter state change on remote targets at a fraction of the energy cost of more conventional laser-based weaponry. With energy efficiency and safety in mind, the Scarab is a solid choice of sidearm, though its compact form limits the extent of its lethality."
     },
-    "WP_G_Pistol_Energy_02": {
+    "Weapons_WP_G_Pistol_Energy_02": {
       "name": "Scarab - Mk.II",
       "description": "An improved version of the standard Scarab Adaptive Phase Pistol, custom built for the Osiris Harbinger Expeditionary Corps. A rare find, worth keeping hold of. Audible range: 300m",
       "lore": "The Scarab, an Adaptive Phase Pistol, is one of Osiris' most successful weapons, able to induce a localized rapid matter state change on remote targets at a fraction of the energy cost of more conventional laser-based weaponry. With energy efficiency and safety in mind, the Scarab is a solid choice of sidearm, though its compact form limits the extent of its lethality."
     },
-    "WP_G_SMG_Needle_01": {
+    "Weapons_WP_G_SMG_Needle_01": {
       "name": "Asp Flechette Gun",
       "description": "Lightweight SMG. A formidable automatic weapon for close range encounters. Audible range: 350m",
       "lore": "Intended for use by law enforcement in pressurized environments, this weapons' flechettes provide lethal stopping power, can easily defeat light armor, and are designed to prevent overpenetration; a risk in any environment, but disastrous on ships and stations."
     },
-    "WP_G_SMG_Needle_02": {
+    "Weapons_WP_G_SMG_Needle_02": {
       "name": "Asp Flechette Gun - Mk.I",
       "description": "A civilian security issue Asp. Not as powerful as the standard Osiris version, it's still a competent SMG.  Audible range: 350m",
       "lore": "Intended for use by law enforcement in pressurized environments, this weapons' flechettes provide lethal stopping power, can easily defeat light armor, and are designed to prevent overpenetration; a risk in any environment, but disastrous on ships and stations."
     },
-    "WP_D_Sniper_Gauss_01": {
+    "Weapons_WP_D_Sniper_Gauss_01": {
       "name": "Kinetic Arbiter",
       "description": "A gauss sniper rifle that fires metal rods at immense velocity. Favored among Prospectors that want to resolve issues quickly quickly and from a safe distance. Audible range: 500m",
       "lore": "One of The ICA's most advanced conventional weapons, the Kinetic Arbiter is little more than a military-grade gauss gun stripped down to its most basic components needed to function, without any of the the fancy fittings or safety mechanisms."
     },
-    "WP_A_HVY_Shell_01": {
+    "Weapons_WP_A_HVY_Shell_01": {
       "name": "KARLA",
       "description": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire.",
       "lore": "The Korolev Anti-material Repeating Light Artillery, or KARLA, was originally intended as a vehicle-mounted weapon, but advanced recoil management allowed Korolev to produce a portable version for use without a warsuit."
     },
-    "WP_D_SGun_Shard_01": {
+    "Weapons_WP_D_SGun_Shard_01": {
       "name": "Shattergun",
       "description": "An unconventional shotgun that fires shard fragments by shattering an unstable fuel crystal. Audible range: 350m",
       "lore": "Crafted on Prospect station using salvage and wood from the planet itself, this scattergun demonstrates The ICA's ingenuity and ability to thrive with limited resources. A molded adrentite crystal, byproduct of its refinement for use as rocket fuel, serves as both projectile and propellant; a small electric charge incites a rearrangement in the crystal's lattice, with the sudden energy release fracturing the crystal into thin shards along its length as they're shot through the barrel."
     },
-    "WP_G_AR_Energy_01": {
+    "Weapons_WP_G_AR_Energy_01": {
       "name": "Phasic Lancer",
       "description": "A burst rifle that fires in accurate 3-shot bursts, effective against most threats a Prospector might encounter. Audible range: 400m",
       "lore": "After the success of the Adaptive Phase Pistol, Osiris thought to develop a weapon platform of more interest to the military market. While this new powered-up weapon can handle significantly more energy than its smaller cousin, Osiris has yet to solve the problem of overheating in full-auto firing mode, or the high risk of carrier-shield leakage when in charged mode."
     },
-    "WP_A_Pistol_Bullet_01": {
+    "Weapons_WP_A_Pistol_Bullet_01": {
       "name": "Hammer",
       "description": "A heavy pistol that can inflict devastating damage, at the cost of any kind of subtlety. Audible range: 400m",
       "lore": "Based on their ubiquitous rivet guns, also known as 'energy hammers', the 'Hammer' was an attempt at developing a low cost personal defense weapon. Popular among those wanting a dependable high-powered pistol, its weight and complex operation make it unattractive to the mass market."
     },
-    "WP_A_Pistol_Bullet_02": {
+    "Weapons_WP_A_Pistol_Bullet_02": {
       "name": "Hammer - Mk.I",
       "description": "An older version of the Hammer, popular among colonists before the storms. Packs less of a punch, but still a beast. Audible range: 400m",
       "lore": "Based on their ubiquitous rivet guns, also known as 'energy hammers', the 'Hammer' was an attempt at developing a low cost personal defense weapon. Popular among those wanting a dependable high-powered pistol, its weight and complex operation make it unattractive to the mass market."
     },
-    "WP_D_Pistol_Bullet_01": {
+    "Weapons_WP_D_Pistol_Bullet_01": {
       "name": "Bulldog",
       "description": "A powerful shotgun pistol that suffers from very limited range. Audible range: 300m",
       "lore": "Simple and effective, compact firearms utilizing shotgun shells are popular on stations as close range problem solvers for their high damage as well as for mitigating the risk of overpenetration that more conventional pistols carry. The Bulldog is the ICA's prefered design, easy to build and maintain, and even easier to operate."
     },
-    "WP_D_AR_Bullet_01": {
+    "Weapons_WP_D_AR_Bullet_01": {
       "name": "Advocate",
       "description": "A dependable assault rifle that offers a good balance between accuracy and rate of fire. Audible range: 400m",
       "lore": "Based on the SAR-62 carbine used by the Federation itself, the ICA 'Advocate' has only a few deviations from the original design, meant to allow for its manufacture in environments of relative scarcity."
     },
-    "WP_G_HVY_Beam_01": {
+    "Weapons_WP_G_HVY_Beam_01": {
       "name": "Zeus Beam",
       "description": "Called 'Zeus' for turning any mortal into the God of Lightning, it can fulminate any creature that meets your divine ire. Audible range: 350m",
       "lore": "While beam based weapons have found heavy use on warships for centuries, only in recent years has technology allowed for a portable form factor. These weapons use a linked-light beam to contain and focus a jet of plasma accross great distances, with a fairly predictable effect on whatever it contacts."
     },
-    "WP_G_HVY_Beam_02": {
+    "Weapons_WP_G_HVY_Beam_02": {
       "name": "Zeus Beam - Mk.I",
       "description": "An older prototype version of the mighty Zeus. Still capable of fulminating most targets. Audible range: 350m",
       "lore": "While beam based weapons have found heavy use on warships for centuries, only in recent years has technology allowed for a portable form factor. These weapons use a linked-light beam to contain and focus a jet of plasma accross great distances, with a fairly predictable effect on whatever it contacts."
     },
-    "WP_A_Launch_MSL_01": {
+    "Weapons_WP_A_Launch_MSL_01": {
       "name": "KOMRAD",
       "description": "This fearsome weapon is fires salvos of fast-moving missiles capable of making short work of near any hostile element. Audible range: 500m",
       "lore": "Short for Korolev Ozone-powered Micro Rocket Assault Device, the KOMRAD is one of the most destructive weapon systems developed by the megacorp, and one of its most expensive."
@@ -11192,12 +11195,12 @@
       "description": "A more powerful variant of the C-32 used by Sentinels to keep the peace outside the old settled areas. Audible range: 500m",
       "lore": "Anachronistic by design, this CoTEC bolt action rifle was meant for civilian use in frontier planets to manage hostile wildlife. Effective in its purpose, the massive increase in wildlife hostility and numbers lead to mass production of lower grade rifles like this one."
     },
-    "WP_E_SMG_Bullet_01": {
+    "Weapons_WP_E_SMG_Bullet_01": {
       "name": "S-576 PDW",
       "description": "A popular SMG with high rate of fire, formidable at close range. Audible range: 350m",
       "lore": "The CoTEC S-576 is one of the standard firearms used aboard Federation ships, stations, and outposts. Lightweight, compact, and produced in mass by various manufacturers, this model is a staple in practically every weapons market. This model doesn't look quite right, but it still gets the job done."
     },
-    "WP_E_SMG_Bullet_02": {
+    "Weapons_WP_E_SMG_Bullet_02": {
       "name": "S-576 PDW - Mk.II",
       "description": "An improved version of the S-576, meant for use by colony security forces before the surface was abandoned.  Audible range: 350m",
       "lore": "The CoTEC S-576 is one of the standard firearms used aboard Federation ships, stations, and outposts. Lightweight, compact, and produced in mass by various manufacturers, this model is a staple in practically every weapons market. This model doesn't look quite right, but it still gets the job done."
@@ -11211,92 +11214,92 @@
       "description": "A standard semi-automatic pistol. An effective sidearm for any Prospector. Audible range: 300m",
       "lore": "With a design that's seen no change in over two centuries, the CoTEC K-28 is one of the most popular weapons throughout known space, as are its many knock offs."
     },
-    "WP_A_BR_Bullet_01": {
+    "Weapons_WP_A_BR_Bullet_01": {
       "name": "KBR Longshot",
       "description": "A marksman rifle with good accuracy and power. Excels in medium range engagements. Audible range: 450m",
       "lore": "The predecessor to the KOR-47, the Longshot was developed for the Federation to serve as a long range support weapon for ground troops. Designed with a low unit cost in mind, Korolev opted to ensure high accuracy and power over developing a fully automatic weapon."
     },
-    "WP_A_BR_Bullet_02": {
+    "Weapons_WP_A_BR_Bullet_02": {
       "name": "KBR Longshot - Mk.I",
       "description": "And older version of the KBR used by Korolev's on-site security forces. Audible range: 450m",
       "lore": "The predecessor to the KOR-47, the Longshot was developed for the Federation to serve as a long range support weapon for ground troops. Designed with a low unit cost in mind, Korolev opted to ensure high accuracy and power over developing a fully automatic weapon."
     },
-    "WP_D_BR_Shard_01": {
+    "Weapons_WP_D_BR_Shard_01": {
       "name": "Lacerator",
       "description": "A capable marksman rifle, has a decent fire rate, accuracy, and good handling. Audible range: 450m",
       "lore": "Building upon the the ICA's own Shattergun, this battle rifle is tuned to discharge the crystaline shards it uses as ammunition in a more controlled and accurate burst."
     },
-    "WP_A_Sniper_Gauss_01": {
+    "Weapons_WP_A_Sniper_Gauss_01": {
       "name": "KARMA-1",
       "description": "While heavy and requiring a charge-up to fire, a direct hit from will cripple if not outright kill almost any target. Audible range: 500m",
       "lore": "The Korolev Advanced Recursive Magnetic Artillery, first prototype, is a miniaturization of the sort of weaponry more commonly found on warships, offered exclusively to the Prospectors for early testing. While no longer powerful enough to take down a spacecraft, it's more than enough to handle the threats of Fortuna III."
     },
-    "WP_A_Sniper_Gauss_02": {
+    "Weapons_WP_A_Sniper_Gauss_02": {
       "name": "KARMA-XT - Mk.I",
       "description": "One of various KARMA prototypes Korolev built on Fortuna III. Features a less powerful battery than the KARMA-1 release version. Audible range: 500m",
       "lore": "The Korolev Advanced Recursive Magnetic Artillery, first prototype, is a miniaturization of the sort of weaponry more commonly found on warships, offered exclusively to the Prospectors for early testing. While no longer powerful enough to take down a spacecraft, it's more than enough to handle the threats of Fortuna III."
     },
-    "WP_D_SMG_Energy_01": {
+    "Weapons_WP_D_SMG_Energy_01": {
       "name": "Voltaic Brute",
       "description": "An SMG with high versatility in its effective range. Audible range: 350m",
       "lore": "Using parts built on Prospect station with material from the surface combined with salvaged components from power tools meant to build starships, the ICA's 'Brute' more than lives up to its name."
     },
-    "Exotic_Delta_FanProjectiles01": {
+    "Weapons_Exotic_Delta_FanProjectiles01": {
       "name": "Guillotine",
       "description": "text",
       "lore": "text"
     },
-    "WP_E_Launch_Nade_01": {
+    "Weapons_WP_E_Launch_Nade_01": {
       "name": "FF4 Detonator",
       "description": "A standard grenade launcher with a high damage output; it requires skilled use to operate efficiently.",
       "lore": "Initially intended for use by colonists to clear out vermin en masse, the Detonator's payload has been modified for larger and more dangerous targets. This one seems to be from even before the colony was founded."
     },
-    "Launcher_Epsilon_Grenade02": {
+    "Weapons_Launcher_Epsilon_Grenade02": {
       "name": "FF4 Detonator",
       "description": "A standard grenade launcher with a high damage output; it requires skilled use to operate efficiently.",
       "lore": "Initially intended for use by colonists to clear out vermin en masse, the Detonator's payload has been modified for larger and more dangerous targets."
     },
-    "WP_G_AR_Beam_01": {
+    "Weapons_WP_G_AR_Beam_01": {
       "name": "Gorgon",
       "description": "A powerful beam rifle that needs charging up to fire. Not the easiest to handle, but lethal in proper hands. Audible range: 350m",
       "lore": "The Zeus' little sister, the Gorgon may not be as devastating, but its glare can leave any target petrified in place. And crispy."
     },
-    "WP_A_SGun_Energy_01": {
+    "Weapons_WP_A_SGun_Energy_01": {
       "name": "PKR Maelstrom",
       "description": "A semi-automatic shotgun; heavy and a poor choice at range, but utterly devastating up close. Audible range: 350m",
       "lore": "Korolev's first attempt at a building a phase weapon, the Phase-Kinetic Reactive 'Maelstrom's' ammo pack carries more than enough energy to fulminate whatever gets in its way in a matter of seconds, provided it's close enough."
     },
-    "WP_G_Sniper_Energy_01": {
+    "Weapons_WP_G_Sniper_Energy_01": {
       "name": "Basilisk",
       "description": "A phase tech marksman rifle; the impacts are powerful for its class, and it boasts a high rate of fire. Audible range: 450m",
       "lore": "The result of an offshoot project during early development of the Phasic Lancer, the Basilisk trades higher ammo count for a much stronger energy discharge. While still in the prototyping, Osiris is happy to offer this rifle to Prospectors of a high enough standing."
     },
-    "WP_D_HVY_Exotic_01": {
+    "Weapons_WP_D_HVY_Exotic_01": {
       "name": "HAZE",
       "description": "A slow firing launcher, projectiles create a harming energy field on impact. Further discharges of the launcher into an active field feed into it, until reaching a critical point resulting in a devastating release of energy.",
       "lore": "Discovered while developing an a veltecite-powered plasma cannon, High Amplitude Zender Emmissions were found to have an effect remarkably similar to the effect of the energy field known as 'The Cycle', though the decaying plasma core fueling it is much shorter lived than the anomaly surrounding Fortuna III."
     },
-    "WP_G_AR_Needle_01": {
+    "Weapons_WP_G_AR_Needle_01": {
       "name": "Manticore",
       "description": "A flechette assault rifle; it's heavy hitting, but less accurate compared to similar rifles. Audible range: 400m",
       "lore": "Intended for use in pressurised environments, the Manticore was designed for more militaristic use than the compact ASP. Lightweight, accurate, and lethal, it's seen use by marines both performing as and defending against boarding parties."
     },
-    "WP_G_AR_Needle_02": {
+    "Weapons_WP_G_AR_Needle_02": {
       "name": "Manticore - Mk.II",
       "description": "The Harbinger Expeditionary Corps. variant of the Manticore, more powerful than the civilian Manticore available for sale. Audible range: 400m",
       "lore": "Intended for use in pressurised environments, the Manticore was designed for more militaristic use than the compact ASP. Lightweight, accurate, and lethal, it's seen use by marines both performing as and defending against boarding parties."
     },
-    "WP_A_SMG_Shard_01": {
+    "Weapons_WP_A_SMG_Shard_01": {
       "name": "KM-9 'Scrapper'",
       "description": "A rapid-firing shard SMG; a good choice for taking out targets at close range, though of little use in long range engagements. Audible range: 350m",
       "lore": "Faced with an ever-increasing surplus of adrentite sludge, an inventive Korolev waste management engineer brought forth a novel way of handling the hazardous byproduct: shoot it. The 'Scrapper' was the first viable weapon produced by Korolev Munitions, one of the megacorp's many competing arms manufacturing branches, and the first known to use adrentite crystals as ammunition."
     },
-    "WP_E_AR_Energy_01": {
+    "Weapons_WP_E_AR_Energy_01": {
       "name": "AR-55 Autorifle",
       "description": "A decent fully automatic rifle; doesn't excel in any one department, but it's effective and versatile. Audible range: 400m",
       "lore": "The AR-55 Phase Autorifle was commissioned by the IFA in an attempt to improve standard Authority armament without further increasing their reliance on Korolev Heavy Industries. While the IFA would eventually settle with the SAR-62, CoTEC's AR-55 remains a popular weapon in private armies and corporate security forces, and has succeeded at being an effective market counter to the popular KOR-47."
     },
-    "WP_E_AR_Energy_02": {
+    "Weapons_WP_E_AR_Energy_02": {
       "name": "AR-55 Autorifle - Mk.II",
       "description": "A contraband version of the AR-55, originally intended for use in the Demia Rebellion. More powerful than the mass produced version CoTEC would later sell to various frontier worlds. Audible range: 400m",
       "lore": "The AR-55 Phase Autorifle was commissioned by the IFA in an attempt to improve standard Authority armament without further increasing their reliance on Korolev Heavy Industries. While the IFA would eventually settle with the SAR-62, CoTEC's AR-55 remains a popular weapon in private armies and corporate security forces, and has succeeded at being an effective market counter to the popular KOR-47."
@@ -11305,7 +11308,7 @@
       "name": "Rusty AR-55 Autorifle",
       "description": "A rusty automatic rifle, doesn't seem to excel anymore. Audible range: 400m"
     },
-    "WP_E_SGun_Bullet_01": {
+    "Weapons_WP_E_SGun_Bullet_01": {
       "name": "B9 Trenchgun",
       "description": "Pump-action shotgun with high-spread and short range. Yep, it's a shotgun, all right. Audible range: 350m"
     },
@@ -11313,27 +11316,27 @@
       "name": "Rusty B9 Trenchgun",
       "description": "Rusty Pump-action shotgun, high-spread, short range. Just a bit damaged. Audible range: 350m"
     },
-    "WP_A_LMG_Needle_01": {
+    "Weapons_WP_A_LMG_Needle_01": {
       "name": "KOR LMG",
       "description": "EMPTY",
       "lore": "EMPTY"
     },
-    "WP_D_LMG_Energy_01": {
+    "Weapons_WP_D_LMG_Energy_01": {
       "name": "ICA Guarantee",
       "description": "A fast firing phase LMG, perfect for pinning down targets. Audible range: 400m",
       "lore": "This Fortuna III custom isn't known for its finesse, but it'll chew through any target if the user manages keep it under control. With the amount of ammo expended, you're Guaranteed to hit something!"
     },
-    "WP_D_LMG_Energy_02": {
+    "Weapons_WP_D_LMG_Energy_02": {
       "name": "ICA Guarantee - Mk.I",
       "description": "A less powerful version of the Guarantee, originally intended for when more conventional methods of pest control  were not enough. Audible range: 400m",
       "lore": "This Fortuna III custom isn't known for its finesse, but it'll chew through any target if the user manages keep it under control. With the amount of ammo expended, you're Guaranteed to hit something!"
     },
-    "WP_G_HVY_Beam_01_Event_01": {
+    "Weapons_WP_G_HVY_Beam_01_Event_01": {
       "name": "Holiday Zeus Beam",
       "description": "A less powerful version of the Zeus, mass produced just in time for the holidays.  Called 'Zeus' for turning any mortal into the God of Lightning, this heavy weapon will fulminate any creature that meets your jolly ire.",
       "lore": "NOTE: This item will only be available during the holidays!"
     },
-    "WP_D_Pistol_Bullet_01_Event_01": {
+    "Weapons_WP_D_Pistol_Bullet_01_Event_01": {
       "name": "Holiday Bulldog",
       "description": "Not quite a snowball launcher, unless you ever played with Kevin and his iceballs.  While very very mean at close range, in its default configuration it suffers from very limited range.",
       "lore": "NOTE: This item will only be available during the holidays!"
@@ -11401,75 +11404,75 @@
     "Ammo special": {
       "description": "Ammo for explosive weaponry."
     },
-    "TOOL_MineralScanner_01": {
+    "Weapons_TOOL_MineralScanner_01": {
       "name": "Scanner",
       "description": "A versatile scanning device connected to the user's HUD that renders the outline of nearby obstacles and solid objects, even in low visibility situations (such as darkness, fog, or smoke).   By default, it's also able to accurately detect Nickel deposits, but can be modified with special attachments to detect various other valuable mineral types found on the surface.",
       "lore": ""
     },
-    "TOOL_AdvancedMineralScanner": {
+    "Weapons_TOOL_AdvancedMineralScanner": {
       "name": "Advanced Scanner",
       "description": "A more advanced Korolev version of the common scanning device that is able to detect any form of valuable minerals.",
       "lore": ""
     },
-    "TOOL_Pickaxe_01": {
+    "Weapons_TOOL_Pickaxe_01": {
       "name": "Pickaxe",
       "description": "A Prospector's trusty pickaxe, used to tear valuable minerals from veins and deposits on Fortuna III.",
       "lore": ""
     },
-    "TOOL_Mining_01": {
+    "Weapons_TOOL_Mining_01": {
       "name": "Heavy Mining Tool",
       "description": "An experimental automatic Mining tool designed by Korolev to allow for more efficient extraction of Minerals from Fortuna III.",
       "lore": ""
     },
-    "Melee_Knife_01": {
+    "Weapons_Melee_Knife_01": {
       "name": "Knife"
     },
-    "TOOL_Flashlight_01": {
+    "Weapons_TOOL_Flashlight_01": {
       "name": "Flashlight",
       "description": "A portable hand-held electric light.",
       "lore": ""
     },
-    "TOOL_Binocular_Basic_01": {
+    "Weapons_TOOL_Binocular_Basic_01": {
       "name": "Binocular",
       "description": "Used to look at things at a distance",
       "lore": ""
     },
-    "TOOL_MessaggePost_01": {
+    "Weapons_TOOL_MessaggePost_01": {
       "name": "MessagePost",
       "description": "Used to create Message Post",
       "lore": "Message Post are easy to create in the future."
     },
-    "TOOL_FlareGun_01": {
+    "Weapons_TOOL_FlareGun_01": {
       "name": "Flare Gun",
       "description": "Used to create Flares",
       "lore": "Flares are easy to create in the future."
     },
-    "TOOL_Stormbrella_01": {
+    "Weapons_TOOL_Stormbrella_01": {
       "name": "Stormbrella",
       "description": "When active attracts and protects from Lightning strikes during the Storm",
       "lore": "Those lightning strikes can be deadly..."
     },
-    "TOOL_ThrowableLight_01": {
+    "Weapons_TOOL_ThrowableLight_01": {
       "name": "Throwable Light",
       "description": "Its a light!",
       "lore": "'"
     },
-    "TOOL_ThrowableStormProtection_01": {
+    "Weapons_TOOL_ThrowableStormProtection_01": {
       "name": "Throwable Storm Protection",
       "description": "Its a storm protection thingy!",
       "lore": "How handy during Storms."
     },
-    "TOOL_Transponder_01": {
+    "Weapons_TOOL_Transponder_01": {
       "name": "Transponder",
       "description": "Transponder to transpond transpondy-thingies",
       "lore": "Friend?"
     },
-    "TOOL_PlaceableLight_01": {
+    "Weapons_TOOL_PlaceableLight_01": {
       "name": "Placeable Light",
       "description": "Its a light!",
       "lore": "This time you place it!"
     },
-    "TOOL_PlaceableStormProtection_01": {
+    "Weapons_TOOL_PlaceableStormProtection_01": {
       "name": "Placeable Storm Protection",
       "description": "Its a storm protection thingy!",
       "lore": "This time you place it!"
