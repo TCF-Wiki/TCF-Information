@@ -1487,7 +1487,7 @@
   },
   "WP_A_HVY_Shell_01": {
     "inGameName": "KARLA",
-    "description": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire. , Weapons_WP_A_HVY_Shell_01_Lore,The Korolev Anti-material Repeating Light Artillery, or KARLA, was originally intended as a vehicle-mounted weapon, but advanced recoil management allowed Korolev to produce a portable version for use without a warsuit.",
+    "description": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire.",
     "rarity": "Legendary",
     "tags": [
       "Weapon.Category.Launcher"
@@ -1581,7 +1581,7 @@
   },
   "WP_E_Launch_Nade_01": {
     "inGameName": "FF4 Detonator",
-    "description": "A standard grenade launcher with a high damage output; it requires skilled use to operate efficiently. , Weapons_WP_E_Launch_Nade_01_Lore,Initially intended for use by colonists to clear out vermin en masse, the Detonator's payload has been modified for larger and more dangerous targets. This one seems to be from even before the colony was founded.",
+    "description": "A standard grenade launcher with a high damage output; it requires skilled use to operate efficiently.",
     "rarity": "Legendary",
     "tags": [
       "Weapon.Category.Launcher"
@@ -1623,7 +1623,7 @@
   },
   "WP_D_HVY_Exotic_01": {
     "inGameName": "HAZE",
-    "description": "A slow firing launcher, projectiles create a harming energy field on impact. Further discharges of the launcher into an active field feed into it, until reaching a critical point resulting in a devastating release of energy. , Weapons_WP_D_HVY_Exotic_01_Lore,Discovered while developing an a veltecite-powered plasma cannon, High Amplitude Zender Emmissions were found to have an effect remarkably similar to the effect of the energy field known as 'The Cycle', though the decaying plasma core fueling it is much shorter lived than the anomaly surrounding Fortuna III.",
+    "description": "A slow firing launcher, projectiles create a harming energy field on impact. Further discharges of the launcher into an active field feed into it, until reaching a critical point resulting in a devastating release of energy.",
     "rarity": "Legendary",
     "tags": [
       "Weapon.Category.Launcher"
@@ -1757,56 +1757,6 @@
     "spinupTime": 0,
     "cost": [],
     "modSlots": []
-  },
-  "WP_A_Sniper_Shard_01": {
-    "inGameName": "Suppressed Prototype Sniper",
-    "description": "A suppressed sniper in a lightweight design firing shards allowing it to be less noticeable and easier to reposition.",
-    "rarity": "Common",
-    "tags": [
-      "Weapon.Category.Sniper"
-    ],
-    "weight": 50,
-    "sellValue": 4500,
-    "buyValue": 15000,
-    "faction": "None",
-    "factionRep": 45,
-    "penetration": 20,
-    "directDamage": 45,
-    "radialDamage": 0,
-    "refireTime": 1.8,
-    "reloadTime": 4.58,
-    "ammoInClip": 5,
-    "ammoType": "Heavy",
-    "ammoPerBullet": 1,
-    "amountOfBurst": 0,
-    "burstInterval": -1,
-    "amountOfImmediateFires": 1,
-    "movementSpeedMultiplier": 0.85,
-    "projectileSpeed": 50000,
-    "weakDamageMultiplier": 1.6,
-    "weakDamageMultiplierEnemy": 1,
-    "directDamagePlayerMultiplier": 1,
-    "directDamageEnemyMultiplier": 1,
-    "radialDamagePlayerMultiplier": 1,
-    "radialDamageEnemyMultiplier": 1,
-    "FalloffStart": 5000,
-    "FalloffEnd": 10000,
-    "FalloffMultiplier": 1,
-    "unequipTime": 0.7,
-    "equipTime": 0.9,
-    "animationEquipTime": 1.4,
-    "immediateFireIncreasesSpread": false,
-    "spinupTime": 0,
-    "cost": [],
-    "modSlots": [
-      "Optics",
-      "Magazine",
-      "Stock",
-      "AmmoConverter",
-      "ForeGrip",
-      "RearGrip",
-      "Tactical"
-    ]
   },
   "WP_G_AR_Needle_02": {
     "inGameName": "Manticore - Mk.II",
@@ -2315,7 +2265,7 @@
   },
   "WP_E_Sniper_Bullet_02": {
     "inGameName": "C-32 Bolt Action - Mk.II",
-    "description": "A more powerful variant of the C-32 used by Sentinels to keep the peace outside the old settled areas.  Audible range: 500m",
+    "description": "A more powerful variant of the C-32 used by Sentinels to keep the peace outside the old settled areas. Audible range: 500m",
     "rarity": "Uncommon",
     "tags": [
       "Weapon.Category.Sniper",

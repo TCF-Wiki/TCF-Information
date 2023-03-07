@@ -84,8 +84,8 @@
     "cost": []
   },
   "Mod_Korolev_Scanner_AlienCrystals": {
-    "inGameName": "Focus Crystal Scanning Module, Mod_Korolev_Scanner_AlienCrystals_Description,Scanners equipped with this Attachment can highlight Focus Crystals and Pure Focus Crystals while scanning.",
-    "description": "Mod_Korolev_Scanner_AlienCrystals",
+    "inGameName": "Focus Crystal Scanning Module",
+    "description": "Scanners equipped with this Attachment can highlight Focus Crystals and Pure Focus Crystals while scanning.",
     "type": "ScannerUpgrade3",
     "compatible": [
       "Tools.Scanner.Scanner3"
@@ -113,8 +113,8 @@
     ]
   },
   "Mod_Korolev_Scanner_HeavyMetals": {
-    "inGameName": "Titan Ore Scanning Module, Mod_Korolev_Scanner_HeavyMetals_Description,Scanners equipped with this Attachment can highlight Titan Ore and Brittle Titan Ore while scanning.",
-    "description": "Mod_Korolev_Scanner_HeavyMetals",
+    "inGameName": "Titan Ore Scanning Module",
+    "description": "Scanners equipped with this Attachment can highlight Titan Ore and Brittle Titan Ore while scanning.",
     "type": "ScannerUpgrade2",
     "compatible": [
       "Tools.Scanner.Scanner2"
@@ -142,8 +142,8 @@
     ]
   },
   "Mod_Korolev_Scanner_Veltecite": {
-    "inGameName": "Veltecite Scanning Module, Mod_Korolev_Scanner_Veltecite_Description,Scanners equipped with this Attachment can highlight Veltecite while scanning.",
-    "description": "Mod_Korolev_Scanner_Veltecite",
+    "inGameName": "Veltecite Scanning Module",
+    "description": "Scanners equipped with this Attachment can highlight Veltecite while scanning.",
     "type": "ScannerUpgrade1",
     "compatible": [
       "Tools.Scanner.Scanner1"
@@ -171,8 +171,8 @@
     ]
   },
   "Mod_Optic_2x_01": {
-    "inGameName": "2x Optic, Mod_Optic_2x_01_Description,Optic with 2x Magnification.",
-    "description": "Mod_Optic_2x_01",
+    "inGameName": "2x Optic",
+    "description": "Optic with 2x Magnification.",
     "type": "Optics",
     "compatible": [],
     "rarity": "Common",
@@ -210,8 +210,8 @@
     ]
   },
   "Mod_Optic_4x_01": {
-    "inGameName": "4x Optic, Mod_Optic_4x_01_Description,Optic with 4x Magnification.",
-    "description": "Mod_Optic_4x_01",
+    "inGameName": "4x Optic",
+    "description": "Optic with 4x Magnification.",
     "type": "Optics",
     "compatible": [],
     "rarity": "Rare",
@@ -233,8 +233,8 @@
     ]
   },
   "Mod_Magazine_Light_03": {
-    "inGameName": "Light Extended, Mod_Magazine_Light_03_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Light_03",
+    "inGameName": "Light Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.SMG",
@@ -266,8 +266,8 @@
     ]
   },
   "Mod_Magazine_Light_02": {
-    "inGameName": "Light Extended, Mod_Magazine_Light_02_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Light_02",
+    "inGameName": "Light Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.SMG",
@@ -291,8 +291,8 @@
     "cost": []
   },
   "Mod_Magazine_Light_01": {
-    "inGameName": "Light Extended, Mod_Magazine_Light_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Light_01",
+    "inGameName": "Light Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -323,8 +323,8 @@
     ]
   },
   "Mod_Magazine_Medium_01": {
-    "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Medium_01",
+    "inGameName": "Medium Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.LMG",
@@ -355,8 +355,8 @@
     ]
   },
   "Mod_Magazine_Heavy_01": {
-    "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Heavy_01",
+    "inGameName": "Heavy Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Sniper",
@@ -387,8 +387,8 @@
     ]
   },
   "Mod_Magazine_Shotgun_01": {
-    "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Shotgun_01",
+    "inGameName": "Shotgun Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -418,8 +418,8 @@
     ]
   },
   "Mod_Muzzle_Small_Supressor_01": {
-    "inGameName": "Small Suppressor, Mod_Muzzle_Small_Supressor_01_Description,Suppresses the produced sound when firing.",
-    "description": "Mod_Muzzle_Small_Supressor_01",
+    "inGameName": "Small Suppressor",
+    "description": "Suppresses the produced sound when firing.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -451,8 +451,8 @@
     ]
   },
   "Mod_Muzzle_Standard_Supressor_01": {
-    "inGameName": "Medium Suppressor, Mod_Muzzle_Standard_Supressor_01_Description,Suppresses the produced sound when firing.",
-    "description": "Mod_Muzzle_Standard_Supressor_01",
+    "inGameName": "Medium Suppressor",
+    "description": "Suppresses the produced sound when firing.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -485,8 +485,8 @@
     ]
   },
   "Mod_Converter_Light_01": {
-    "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Light_01",
+    "inGameName": "Light Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.SMG",
@@ -517,8 +517,8 @@
     ]
   },
   "Mod_Converter_Medium_01": {
-    "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Medium_01",
+    "inGameName": "Medium Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.LMG",
@@ -549,8 +549,8 @@
     ]
   },
   "Mod_Converter_Heavy_01": {
-    "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Heavy_01",
+    "inGameName": "Heavy Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.DMR",
@@ -581,8 +581,8 @@
     ]
   },
   "Mod_Converter_Shotgun_01": {
-    "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Shotgun_01",
+    "inGameName": "Shotgun Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -612,8 +612,8 @@
     ]
   },
   "Mod_ForeGrip_Angled_01": {
-    "inGameName": "Angled Foregrip, Mod_ForeGrip_Angled_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_ForeGrip_Angled_01",
+    "inGameName": "Angled Foregrip",
+    "description": "Reduces the recoil when firing.",
     "type": "ForeGrip",
     "compatible": [],
     "rarity": "Common",
@@ -651,8 +651,8 @@
     ]
   },
   "Mod_RearGrip_01": {
-    "inGameName": "Ergonomic Grip, Mod_RearGrip_01_Description,Improves a weapon's time to equip.",
-    "description": "Mod_RearGrip_01",
+    "inGameName": "Ergonomic Grip",
+    "description": "Improves a weapon's time to equip.",
     "type": "RearGrip",
     "compatible": [],
     "rarity": "Common",
@@ -690,8 +690,8 @@
     ]
   },
   "Mod_Tactical_Flashlight_01": {
-    "inGameName": "Tactical Light, Mod_Tactical_Flashlight_01_Description,A mounted flashlight that can be toggled on and off.",
-    "description": "Mod_Tactical_Flashlight_01",
+    "inGameName": "Tactical Light",
+    "description": "A mounted flashlight that can be toggled on and off.",
     "type": "Tactical",
     "compatible": [],
     "rarity": "Common",
@@ -723,8 +723,8 @@
     ]
   },
   "Mod_Stock_Marksman_01": {
-    "inGameName": "Marksman Stock, Mod_Stock_Marksman_01_Description,Reduces the received kick from recoil.",
-    "description": "Mod_Stock_Marksman_01",
+    "inGameName": "Marksman Stock",
+    "description": "Reduces the received kick from recoil.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.DMR",
@@ -765,8 +765,8 @@
     ]
   },
   "Mod_Stock_Standard_01": {
-    "inGameName": "Standard Stock, Mod_Stock_Standard_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_Stock_Standard_01",
+    "inGameName": "Standard Stock",
+    "description": "Reduces the recoil when firing.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -809,8 +809,8 @@
     ]
   },
   "Mod_Magazine_Medium_02": {
-    "inGameName": "Medium Extended, Mod_Magazine_Medium_02_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Medium_02",
+    "inGameName": "Medium Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.LMG",
@@ -834,8 +834,8 @@
     "cost": []
   },
   "Mod_Magazine_Medium_03": {
-    "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Medium_01",
+    "inGameName": "Medium Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.LMG",
@@ -867,8 +867,8 @@
     ]
   },
   "Mod_Magazine_Heavy_02": {
-    "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Heavy_01",
+    "inGameName": "Heavy Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.DMR",
@@ -892,8 +892,8 @@
     "cost": []
   },
   "Mod_Magazine_Heavy_03": {
-    "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Heavy_01",
+    "inGameName": "Heavy Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.DMR",
@@ -925,8 +925,8 @@
     ]
   },
   "Mod_Magazine_Shotgun_02": {
-    "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Shotgun_01",
+    "inGameName": "Shotgun Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -949,8 +949,8 @@
     "cost": []
   },
   "Mod_Magazine_Shotgun_03": {
-    "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
-    "description": "Mod_Magazine_Shotgun_01",
+    "inGameName": "Shotgun Extended",
+    "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -981,8 +981,8 @@
     ]
   },
   "Mod_Magazine_Light_ReloadSpeed_01": {
-    "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Light_ReloadSpeed_01",
+    "inGameName": "Light Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -1023,8 +1023,8 @@
     ]
   },
   "Mod_Magazine_Light_ReloadSpeed_02": {
-    "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Light_ReloadSpeed_01",
+    "inGameName": "Light Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -1048,8 +1048,8 @@
     "cost": []
   },
   "Mod_Magazine_Light_ReloadSpeed_03": {
-    "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Light_ReloadSpeed_01",
+    "inGameName": "Light Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -1081,8 +1081,8 @@
     ]
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
-    "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Light_ReloadSpeed_01",
+    "inGameName": "Light Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -1114,8 +1114,8 @@
     ]
   },
   "Mod_Magazine_Medium_Reloadspeed_01": {
-    "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Medium_Reloadspeed_01",
+    "inGameName": "Medium Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.AR",
@@ -1156,8 +1156,8 @@
     ]
   },
   "Mod_Magazine_Medium_Reloadspeed_02": {
-    "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Medium_Reloadspeed_01",
+    "inGameName": "Medium Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.AR",
@@ -1181,8 +1181,8 @@
     "cost": []
   },
   "Mod_Magazine_Medium_Reloadspeed_03": {
-    "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Medium_Reloadspeed_01",
+    "inGameName": "Medium Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.AR",
@@ -1214,8 +1214,8 @@
     ]
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
-    "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Medium_Reloadspeed_01",
+    "inGameName": "Medium Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.AR",
@@ -1247,8 +1247,8 @@
     ]
   },
   "Mod_Magazine_Heavy_ReloadSpeed_01": {
-    "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Heavy_ReloadSpeed_01",
+    "inGameName": "Heavy Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.DMR",
@@ -1289,8 +1289,8 @@
     ]
   },
   "Mod_Magazine_Heavy_ReloadSpeed_02": {
-    "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Heavy_ReloadSpeed_01",
+    "inGameName": "Heavy Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.DMR",
@@ -1314,8 +1314,8 @@
     "cost": []
   },
   "Mod_Magazine_Heavy_ReloadSpeed_03": {
-    "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Heavy_ReloadSpeed_01",
+    "inGameName": "Heavy Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.DMR",
@@ -1347,8 +1347,8 @@
     ]
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
-    "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Heavy_ReloadSpeed_01",
+    "inGameName": "Heavy Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.DMR",
@@ -1380,8 +1380,8 @@
     ]
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_01": {
-    "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Shotgun_ReloadSpeed_01",
+    "inGameName": "Shotgun Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -1421,8 +1421,8 @@
     ]
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_02": {
-    "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Shotgun_ReloadSpeed_01",
+    "inGameName": "Shotgun Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -1445,8 +1445,8 @@
     "cost": []
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-    "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Shotgun_ReloadSpeed_01",
+    "inGameName": "Shotgun Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -1477,8 +1477,8 @@
     ]
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-    "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
-    "description": "Mod_Magazine_Shotgun_ReloadSpeed_01",
+    "inGameName": "Shotgun Quickdraw",
+    "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -1509,8 +1509,8 @@
     ]
   },
   "Mod_Magazine_Light_EXTReload_01": {
-    "inGameName": "Light Extended Quickdraw, Mod_Magazine_Light_EXTReload_01_Description,Capacity and reload speed increase.",
-    "description": "Mod_Magazine_Light_EXTReload_01",
+    "inGameName": "Light Extended Quickdraw",
+    "description": "Capacity and reload speed increase.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -1539,8 +1539,8 @@
     "cost": []
   },
   "Mod_Magazine_Light_EXTReload_02": {
-    "inGameName": "Light Extended Quickdraw, Mod_Magazine_Light_EXTReload_01_Description,Capacity and reload speed increase.",
-    "description": "Mod_Magazine_Light_EXTReload_01",
+    "inGameName": "Light Extended Quickdraw",
+    "description": "Capacity and reload speed increase.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -1577,8 +1577,8 @@
     ]
   },
   "Mod_Magazine_Medium_EXTReload_01": {
-    "inGameName": "Medium Extended Quickdraw, Mod_Magazine_Medium_EXTReload_01_Description,Capacity and reload speed increase.",
-    "description": "Mod_Magazine_Medium_EXTReload_01",
+    "inGameName": "Medium Extended Quickdraw",
+    "description": "Capacity and reload speed increase.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.AR",
@@ -1607,8 +1607,8 @@
     "cost": []
   },
   "Mod_Magazine_Medium_EXTReload_02": {
-    "inGameName": "Medium Extended Quickdraw, Mod_Magazine_Medium_EXTReload_01_Description,Capacity and reload speed increase.",
-    "description": "Mod_Magazine_Medium_EXTReload_01",
+    "inGameName": "Medium Extended Quickdraw",
+    "description": "Capacity and reload speed increase.",
     "type": "Magazine",
     "compatible": [
       "Weapon.Category.AR",
@@ -1645,8 +1645,8 @@
     ]
   },
   "Mod_Stock_Standard_02": {
-    "inGameName": "Standard Stock, Mod_Stock_Standard_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_Stock_Standard_01",
+    "inGameName": "Standard Stock",
+    "description": "Reduces the recoil when firing.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -1679,8 +1679,8 @@
     ]
   },
   "Mod_Stock_Standard_Equip_01": {
-    "inGameName": "Quickdraw Stock, Mod_Stock_Standard_Equip_01_Description,Improves a weapon's time to equip.",
-    "description": "Mod_Stock_Standard_Equip_01",
+    "inGameName": "Quickdraw Stock",
+    "description": "Improves a weapon's time to equip.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -1723,8 +1723,8 @@
     ]
   },
   "Mod_Stock_Standard_Equip_02": {
-    "inGameName": "Quickdraw Stock, Mod_Stock_Standard_Equip_01_Description,Improves a weapon's time to equip.",
-    "description": "Mod_Stock_Standard_Equip_01",
+    "inGameName": "Quickdraw Stock",
+    "description": "Improves a weapon's time to equip.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -1750,8 +1750,8 @@
     "cost": []
   },
   "Mod_Stock_Standard_ADS_01": {
-    "inGameName": "Tactical Stock, Mod_Stock_Standard_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_Stock_Standard_ADS_01",
+    "inGameName": "Tactical Stock",
+    "description": "Reduces the time to aim down the sight.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -1784,8 +1784,8 @@
     ]
   },
   "Mod_Stock_Standard_ADS_02": {
-    "inGameName": "Tactical Stock, Mod_Stock_Standard_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_Stock_Standard_ADS_01",
+    "inGameName": "Tactical Stock",
+    "description": "Reduces the time to aim down the sight.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -1811,8 +1811,8 @@
     "cost": []
   },
   "Mod_Stock_Standard_ADSEquip_01": {
-    "inGameName": "Ultralight Stock, Mod_Stock_Standard_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
-    "description": "Mod_Stock_Standard_ADSEquip_01",
+    "inGameName": "Ultralight Stock",
+    "description": "Reduces the time to equip and aim down the sight.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -1843,8 +1843,8 @@
     "cost": []
   },
   "Mod_Stock_Standard_ADSEquip_02": {
-    "inGameName": "Ultralight Stock, Mod_Stock_Standard_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
-    "description": "Mod_Stock_Standard_ADSEquip_01",
+    "inGameName": "Ultralight Stock",
+    "description": "Reduces the time to equip and aim down the sight.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -1882,8 +1882,8 @@
     ]
   },
   "Mod_Stock_Marksman_02": {
-    "inGameName": "Marksman Stock, Mod_Stock_Marksman_01_Description,Reduces the received kick from recoil.",
-    "description": "Mod_Stock_Marksman_01",
+    "inGameName": "Marksman Stock",
+    "description": "Reduces the received kick from recoil.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.DMR",
@@ -1914,8 +1914,8 @@
     ]
   },
   "Mod_Stock_Marksman_Equip_01": {
-    "inGameName": "MKM Quickdraw Stock, Mod_Stock_Marksman_Equip_01_Description,Improves a weapon's time to equip.",
-    "description": "Mod_Stock_Marksman_Equip_01",
+    "inGameName": "MKM Quickdraw Stock",
+    "description": "Improves a weapon's time to equip.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.DMR",
@@ -1956,8 +1956,8 @@
     ]
   },
   "Mod_Stock_Marksman_Equip_02": {
-    "inGameName": "MKM Quickdraw Stock, Mod_Stock_Marksman_Equip_01_Description,Improves a weapon's time to equip.",
-    "description": "Mod_Stock_Marksman_Equip_01",
+    "inGameName": "MKM Quickdraw Stock",
+    "description": "Improves a weapon's time to equip.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.DMR",
@@ -1981,8 +1981,8 @@
     "cost": []
   },
   "Mod_Stock_Marksman_ADS_01": {
-    "inGameName": "MKM Tactical Stock, Mod_Stock_Marksman_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_Stock_Marksman_ADS_01",
+    "inGameName": "MKM Tactical Stock",
+    "description": "Reduces the time to aim down the sight.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.DMR",
@@ -2013,8 +2013,8 @@
     ]
   },
   "Mod_Stock_Marksman_ADS_02": {
-    "inGameName": "MKM Tactical Stock, Mod_Stock_Marksman_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_Stock_Marksman_ADS_01",
+    "inGameName": "MKM Tactical Stock",
+    "description": "Reduces the time to aim down the sight.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.DMR",
@@ -2038,8 +2038,8 @@
     "cost": []
   },
   "Mod_Stock_Marksman_ADSEquip_01": {
-    "inGameName": "MKM Ultralight Stock, Mod_Stock_Marksman_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
-    "description": "Mod_Stock_Marksman_ADSEquip_01",
+    "inGameName": "MKM Ultralight Stock",
+    "description": "Reduces the time to equip and aim down the sight.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.DMR",
@@ -2068,8 +2068,8 @@
     "cost": []
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
-    "inGameName": "MKM Ultralight Stock, Mod_Stock_Marksman_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
-    "description": "Mod_Stock_Marksman_ADSEquip_01",
+    "inGameName": "MKM Ultralight Stock",
+    "description": "Reduces the time to equip and aim down the sight.",
     "type": "Stock",
     "compatible": [
       "Weapon.Category.DMR",
@@ -2105,8 +2105,8 @@
     ]
   },
   "Mod_Muzzle_Small_Recoil_01": {
-    "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_Muzzle_Small_Recoil_01",
+    "inGameName": "Small Muzzle Brake",
+    "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -2147,8 +2147,8 @@
     ]
   },
   "Mod_Muzzle_Small_Recoil_02": {
-    "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_Muzzle_Small_Recoil_01",
+    "inGameName": "Small Muzzle Brake",
+    "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -2172,8 +2172,8 @@
     "cost": []
   },
   "Mod_Muzzle_Small_Recoil_03": {
-    "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_Muzzle_Small_Recoil_01",
+    "inGameName": "Small Muzzle Brake",
+    "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -2205,8 +2205,8 @@
     ]
   },
   "Mod_Muzzle_Standard_Recoil_01": {
-    "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_Muzzle_Standard_Recoil_01",
+    "inGameName": "Medium Muzzle Brake",
+    "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -2248,8 +2248,8 @@
     ]
   },
   "Mod_Muzzle_Standard_Recoil_02": {
-    "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_Muzzle_Standard_Recoil_01",
+    "inGameName": "Medium Muzzle Brake",
+    "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -2274,8 +2274,8 @@
     "cost": []
   },
   "Mod_Muzzle_Standard_Recoil_03": {
-    "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_Muzzle_Standard_Recoil_01",
+    "inGameName": "Medium Muzzle Brake",
+    "description": "Reduces the recoil when firing.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -2308,8 +2308,8 @@
     ]
   },
   "Mod_Converter_Light_02": {
-    "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Light_01",
+    "inGameName": "Light Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -2333,8 +2333,8 @@
     "cost": []
   },
   "Mod_Converter_Light_03": {
-    "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Light_01",
+    "inGameName": "Light Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -2366,8 +2366,8 @@
     ]
   },
   "Mod_Converter_Medium_02": {
-    "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Medium_01",
+    "inGameName": "Medium Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.AR",
@@ -2391,8 +2391,8 @@
     "cost": []
   },
   "Mod_Converter_Medium_03": {
-    "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Medium_01",
+    "inGameName": "Medium Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.AR",
@@ -2424,8 +2424,8 @@
     ]
   },
   "Mod_Converter_Heavy_02": {
-    "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Heavy_01",
+    "inGameName": "Heavy Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.DMR",
@@ -2449,8 +2449,8 @@
     "cost": []
   },
   "Mod_Converter_Heavy_03": {
-    "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Heavy_01",
+    "inGameName": "Heavy Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.DMR",
@@ -2482,8 +2482,8 @@
     ]
   },
   "Mod_Converter_Shotgun_02": {
-    "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Shotgun_01",
+    "inGameName": "Shotgun Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -2506,8 +2506,8 @@
     "cost": []
   },
   "Mod_Converter_Shotgun_03": {
-    "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
-    "description": "Mod_Converter_Shotgun_01",
+    "inGameName": "Shotgun Converter",
+    "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -2538,8 +2538,8 @@
     ]
   },
   "Mod_Converter_Light_AIDMG_01": {
-    "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
-    "description": "Mod_Converter_Light_AIDMG_01",
+    "inGameName": "Light Creature Dmg",
+    "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -2570,8 +2570,8 @@
     ]
   },
   "Mod_Converter_Light_AIDMG_02": {
-    "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
-    "description": "Mod_Converter_Light_AIDMG_01",
+    "inGameName": "Light Creature Dmg",
+    "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -2603,8 +2603,8 @@
     ]
   },
   "Mod_Converter_Light_AIDMG_03": {
-    "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
-    "description": "Mod_Converter_Light_AIDMG_01",
+    "inGameName": "Light Creature Dmg",
+    "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -2636,8 +2636,8 @@
     ]
   },
   "Mod_Converter_Medium_AIDMG_01": {
-    "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
-    "description": "Mod_Converter_Medium_AIDMG_01",
+    "inGameName": "Medium Creature Dmg",
+    "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.AR",
@@ -2668,8 +2668,8 @@
     ]
   },
   "Mod_Converter_Medium_AIDMG_02": {
-    "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
-    "description": "Mod_Converter_Medium_AIDMG_01",
+    "inGameName": "Medium Creature Dmg",
+    "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.AR",
@@ -2701,8 +2701,8 @@
     ]
   },
   "Mod_Converter_Medium_AIDMG_03": {
-    "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
-    "description": "Mod_Converter_Medium_AIDMG_01",
+    "inGameName": "Medium Creature Dmg",
+    "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.AR",
@@ -2734,8 +2734,8 @@
     ]
   },
   "Mod_Converter_Shotgun_Slug_01": {
-    "inGameName": "Shotgun Slugs, Mod_Converter_Shotgun_Slug_01_Description,Fires a single projectile improving the effective range.",
-    "description": "Mod_Converter_Shotgun_Slug_01",
+    "inGameName": "Shotgun Slugs",
+    "description": "Fires a single projectile improving the effective range.",
     "type": "AmmoConverter",
     "compatible": [
       "Weapon.Category.Shotgun"
@@ -2773,8 +2773,8 @@
     "cost": []
   },
   "Mod_ForeGrip_Angled_02": {
-    "inGameName": "Angled Foregrip, Mod_ForeGrip_Angled_01_Description,Reduces the recoil when firing.",
-    "description": "Mod_ForeGrip_Angled_01",
+    "inGameName": "Angled Foregrip",
+    "description": "Reduces the recoil when firing.",
     "type": "ForeGrip",
     "compatible": [],
     "rarity": "Uncommon",
@@ -2795,8 +2795,8 @@
     "cost": []
   },
   "Mod_ForeGrip_Equip_01": {
-    "inGameName": "Quickdraw Foregrip, Mod_ForeGrip_Equip_01_Description,Improves a weapon's time to equip.",
-    "description": "Mod_ForeGrip_Equip_01",
+    "inGameName": "Quickdraw Foregrip",
+    "description": "Improves a weapon's time to equip.",
     "type": "ForeGrip",
     "compatible": [],
     "rarity": "Common",
@@ -2834,8 +2834,8 @@
     ]
   },
   "Mod_ForeGrip_Equip_02": {
-    "inGameName": "Quickdraw Foregrip, Mod_ForeGrip_Equip_01_Description,Improves a weapon's time to equip.",
-    "description": "Mod_ForeGrip_Equip_01",
+    "inGameName": "Quickdraw Foregrip",
+    "description": "Improves a weapon's time to equip.",
     "type": "ForeGrip",
     "compatible": [],
     "rarity": "Uncommon",
@@ -2856,8 +2856,8 @@
     "cost": []
   },
   "Mod_ForeGrip_ADS_01": {
-    "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_ForeGrip_ADS_01",
+    "inGameName": "Tactical Foregrip",
+    "description": "Reduces the time to aim down the sight.",
     "type": "ForeGrip",
     "compatible": [],
     "rarity": "Uncommon",
@@ -2878,8 +2878,8 @@
     "cost": []
   },
   "Mod_ForeGrip_ADS_02": {
-    "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_ForeGrip_ADS_01",
+    "inGameName": "Tactical Foregrip",
+    "description": "Reduces the time to aim down the sight.",
     "type": "ForeGrip",
     "compatible": [],
     "rarity": "Rare",
@@ -2908,8 +2908,8 @@
     ]
   },
   "Mod_ForeGrip_ADS_03": {
-    "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_ForeGrip_ADS_01",
+    "inGameName": "Tactical Foregrip",
+    "description": "Reduces the time to aim down the sight.",
     "type": "ForeGrip",
     "compatible": [],
     "rarity": "Epic",
@@ -2938,8 +2938,8 @@
     ]
   },
   "Mod_RearGrip_02": {
-    "inGameName": "Ergonomic Grip, Mod_RearGrip_01_Description,Improves a weapon's time to equip.",
-    "description": "Mod_RearGrip_01",
+    "inGameName": "Ergonomic Grip",
+    "description": "Improves a weapon's time to equip.",
     "type": "RearGrip",
     "compatible": [],
     "rarity": "Uncommon",
@@ -2960,8 +2960,8 @@
     "cost": []
   },
   "Mod_RearGrip_ADS_01": {
-    "inGameName": "Tactical Rear Grip, Mod_RearGrip_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_RearGrip_ADS_01",
+    "inGameName": "Tactical Rear Grip",
+    "description": "Reduces the time to aim down the sight.",
     "type": "RearGrip",
     "compatible": [],
     "rarity": "Common",
@@ -2999,8 +2999,8 @@
     ]
   },
   "Mod_RearGrip_ADS_02": {
-    "inGameName": "Tactical Rear Grip, Mod_RearGrip_ADS_01_Description,Reduces the time to aim down the sight.",
-    "description": "Mod_RearGrip_ADS_01",
+    "inGameName": "Tactical Rear Grip",
+    "description": "Reduces the time to aim down the sight.",
     "type": "RearGrip",
     "compatible": [],
     "rarity": "Uncommon",
@@ -3028,8 +3028,8 @@
     ]
   },
   "Mod_Optic_1x_01": {
-    "inGameName": "Red Dot Sight, Mod_Optic_1x_01_Description,A non-magnifying red dot sight.",
-    "description": "Mod_Optic_1x_01",
+    "inGameName": "Red Dot Sight",
+    "description": "A non-magnifying red dot sight.",
     "type": "Optics",
     "compatible": [],
     "rarity": "Common",
@@ -3061,8 +3061,8 @@
     ]
   },
   "Mod_Optic_1x_02": {
-    "inGameName": "Holographic Sight, Mod_Optic_1x_02_Description,A non-magnifying Holographic sight.",
-    "description": "Mod_Optic_1x_02",
+    "inGameName": "Holographic Sight",
+    "description": "A non-magnifying Holographic sight.",
     "type": "Optics",
     "compatible": [],
     "rarity": "Uncommon",
@@ -3084,8 +3084,8 @@
     ]
   },
   "Mod_Optic_Variable_01": {
-    "inGameName": "2 - 4x Variable Optic, Mod_Optic_Variable_01_Description,Variable optic that allows to swap between 2x and 4x magnification.",
-    "description": "Mod_Optic_Variable_01",
+    "inGameName": "2 - 4x Variable Optic",
+    "description": "Variable optic that allows to swap between 2x and 4x magnification.",
     "type": "Optics",
     "compatible": [],
     "rarity": "Epic",
@@ -3113,8 +3113,8 @@
     ]
   },
   "Mod_Optic_8x_01": {
-    "inGameName": "8x Optic, Mod_Optic_8x_01_Description,Optic with 8x Magnification.",
-    "description": "Mod_Optic_8x_01",
+    "inGameName": "8x Optic",
+    "description": "Optic with 8x Magnification.",
     "type": "Optics",
     "compatible": [
       "Weapon.Category.Sniper",
@@ -3145,8 +3145,8 @@
     ]
   },
   "Mod_Optic_6x_01": {
-    "inGameName": "6x Optic, Mod_Optic_6x_01_Description,Optic with 6x Magnification.",
-    "description": "Mod_Optic_6x_01",
+    "inGameName": "6x Optic",
+    "description": "Optic with 6x Magnification.",
     "type": "Optics",
     "compatible": [
       "Weapon.Category.Sniper",
@@ -3177,8 +3177,8 @@
     ]
   },
   "Mod_Korolev_Scanner_Oil": {
-    "inGameName": "Crude Oil Scanning Module, Mod_Korolev_Scanner_Oil_Description,Scanners equipped with this Attachment can highlight active Crude Oil Wells while scanning.",
-    "description": "Mod_Korolev_Scanner_Oil",
+    "inGameName": "Crude Oil Scanning Module",
+    "description": "Scanners equipped with this Attachment can highlight active Crude Oil Wells while scanning.",
     "type": "ScannerUpgrade4",
     "compatible": [
       "Tools.Scanner.Scanner4"
