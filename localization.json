@@ -1,9 +1,5 @@
 {
   "Consumables": {
-    "Consumable_HowlerGrenade": {
-      "description": "A thrown device, developed by Osiris, that detonates  after a short delay and disorients and slows targets in a radius.",
-      "name": "Howler Grenade"
-    },
     "Abilities_NoAbility": {
       "name": "NoAbility"
     },
@@ -46,6 +42,10 @@
     "Consumable_Grenade_05": {
       "name": "Assault Grenade",
       "description": "A thrown explosive device that detonates after a short delay."
+    },
+    "Consumable_HowlerGrenade": {
+      "name": "Howler Grenade",
+      "description": "A thrown device, developed by Osiris, that detonates after a short delay and disorients and slows targets in a radius."
     },
     "Consumable_SmokeGrenade_01": {
       "name": "Smoke Grenade",
