@@ -64,23 +64,23 @@
           "amount": 5
         },
         "Shield_03": {
-          "inGameName": "Rare Shield",
+          "inGameName": "Reinforced Shields",
           "amount": 2
         },
         "Mod_Muzzle_Small_Recoil_03": {
-          "inGameName": "Small Muzzle Brake",
+          "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
           "amount": 2
         },
         "Mod_Muzzle_Standard_Recoil_03": {
-          "inGameName": "Medium Muzzle Brake",
+          "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
           "amount": 2
         },
         "Mod_Converter_Light_AIDMG_01": {
-          "inGameName": "Light Creature Dmg",
+          "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 2
         },
         "Mod_Converter_Medium_AIDMG_01": {
-          "inGameName": "Medium Creature Dmg",
+          "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 2
         }
       },
@@ -134,51 +134,51 @@
           "amount": 5
         },
         "Mod_Magazine_Light_03": {
-          "inGameName": "Light Extended",
+          "inGameName": "Light Extended, Mod_Magazine_Light_03_Description,Increases the capacity of the magazine.",
           "amount": 1
         },
         "Mod_Magazine_Medium_03": {
-          "inGameName": "Medium Extended",
+          "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
           "amount": 1
         },
         "Mod_Magazine_Heavy_03": {
-          "inGameName": "Heavy Extended",
+          "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
           "amount": 1
         },
         "Mod_Magazine_Shotgun_03": {
-          "inGameName": "Shotgun Extended",
+          "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
           "amount": 1
         },
         "Mod_Magazine_Light_ReloadSpeed_04": {
-          "inGameName": "Light Quickdraw",
+          "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 1
         },
         "Mod_Magazine_Medium_Reloadspeed_04": {
-          "inGameName": "Medium Quickdraw",
+          "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
           "amount": 1
         },
         "Mod_Magazine_Heavy_ReloadSpeed_04": {
-          "inGameName": "Heavy Quickdraw",
+          "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 1
         },
         "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-          "inGameName": "Shotgun Quickdraw",
+          "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 1
         },
         "Mod_Magazine_Light_EXTReload_02": {
-          "inGameName": "Light Extended Quickdraw",
+          "inGameName": "Light Extended Quickdraw, Mod_Magazine_Light_EXTReload_01_Description,Capacity and reload speed increase.",
           "amount": 1
         },
         "Mod_Magazine_Medium_EXTReload_02": {
-          "inGameName": "Medium Extended Quickdraw",
+          "inGameName": "Medium Extended Quickdraw, Mod_Magazine_Medium_EXTReload_01_Description,Capacity and reload speed increase.",
           "amount": 1
         },
         "Mod_ForeGrip_ADS_02": {
-          "inGameName": "Tactical Foregrip",
+          "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 1
         },
         "Mod_ForeGrip_ADS_03": {
-          "inGameName": "Tactical Foregrip",
+          "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 1
         }
       },
@@ -188,11 +188,11 @@
           "amount": 1
         },
         "Main-Osiris-CaveRumors-3": {
-          "inGameName": "undefined Part 4",
+          "inGameName": "Main-Osiris-CaveRumors-3",
           "amount": 8
         },
         "Main-Osiris-CrystalSamples-1": {
-          "inGameName": "Everything is Crystals Part 1",
+          "inGameName": "Main-Osiris-CrystalSamples-1",
           "amount": 8
         }
       },
@@ -257,17 +257,17 @@
     "uses": {
       "printing": {
         "Helmet_NV_01": {
-          "inGameName": "Legendary NV Helmet",
+          "inGameName": "NV Helmet",
           "amount": 3
         }
       },
       "missions": {
         "Main-ICA-OilScanModule-1": {
-          "inGameName": "An Eye for Oil Part 1",
+          "inGameName": "Main-ICA-OilScanModule-1",
           "amount": 2
         },
         "Main-Osiris-CrystalSamples-1": {
-          "inGameName": "Everything is Crystals Part 1",
+          "inGameName": "Main-Osiris-CrystalSamples-1",
           "amount": 3
         }
       },
@@ -304,7 +304,7 @@
   },
   "VelteciteHeart": {
     "inGameName": "Veltecite Heart",
-    "description": "The heart of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted.",
+    "description": "The 'heart' of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 10,
@@ -323,7 +323,7 @@
           "amount": 1
         },
         "Main-Osiris-CraftFuel-2": {
-          "inGameName": "Building a better Death Ray Part 2",
+          "inGameName": "Main-Osiris-CraftFuel-2",
           "amount": 1
         }
       },
@@ -384,7 +384,7 @@
           "amount": 3
         },
         "Main-Osiris-CrystalSamples-2": {
-          "inGameName": "Everything is Crystals Part 2",
+          "inGameName": "Main-Osiris-CrystalSamples-2",
           "amount": 5
         }
       },
@@ -446,7 +446,7 @@
     "uses": {
       "printing": {
         "Shield_05": {
-          "inGameName": "Exotic Shield",
+          "inGameName": "Enhanced Shields",
           "amount": 1
         }
       },
@@ -573,19 +573,19 @@
           "amount": 3
         },
         "Mod_Converter_Light_01": {
-          "inGameName": "Light Converter",
+          "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
           "amount": 2
         },
         "Mod_Converter_Medium_01": {
-          "inGameName": "Medium Converter",
+          "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
           "amount": 2
         },
         "Mod_Muzzle_Small_Recoil_03": {
-          "inGameName": "Small Muzzle Brake",
+          "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
           "amount": 2
         },
         "Mod_Muzzle_Standard_Recoil_03": {
-          "inGameName": "Medium Muzzle Brake",
+          "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
           "amount": 2
         }
       },
@@ -658,41 +658,41 @@
           "amount": 6
         },
         "Mod_Converter_Light_01": {
-          "inGameName": "Light Converter",
+          "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
           "amount": 2
         },
         "Mod_Converter_Medium_01": {
-          "inGameName": "Medium Converter",
+          "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
           "amount": 2
         },
         "Mod_Converter_Heavy_01": {
-          "inGameName": "Heavy Converter",
+          "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
           "amount": 2
         },
         "Mod_Converter_Shotgun_01": {
-          "inGameName": "Shotgun Converter",
+          "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
           "amount": 2
         },
         "Mod_Magazine_Heavy_ReloadSpeed_03": {
-          "inGameName": "Heavy Quickdraw",
+          "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 2
         },
         "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-          "inGameName": "Shotgun Quickdraw",
+          "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 2
         },
         "Mod_Stock_Marksman_02": {
-          "inGameName": "Marksman Stock",
+          "inGameName": "Marksman Stock, Mod_Stock_Marksman_01_Description,Reduces the received kick from recoil.",
           "amount": 2
         },
         "Mod_Stock_Marksman_ADS_01": {
-          "inGameName": "MKM Tactical Stock",
+          "inGameName": "MKM Tactical Stock, Mod_Stock_Marksman_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 2
         }
       },
       "missions": {
         "Main-KOR-EarlyMap2-3": {
-          "inGameName": "Uncharted Territory Part 3",
+          "inGameName": "Main-KOR-EarlyMap2-3",
           "amount": 6
         }
       },
@@ -745,31 +745,31 @@
           "amount": 1
         },
         "Shield_04": {
-          "inGameName": "Epic Shield",
+          "inGameName": "Combat Shields",
           "amount": 1
         },
         "Mod_Converter_Light_03": {
-          "inGameName": "Light Converter",
+          "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
           "amount": 1
         },
         "Mod_Converter_Medium_03": {
-          "inGameName": "Medium Converter",
+          "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
           "amount": 1
         },
         "Mod_Converter_Light_AIDMG_02": {
-          "inGameName": "Light Creature Dmg",
+          "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         },
         "Mod_Converter_Light_AIDMG_03": {
-          "inGameName": "Light Creature Dmg",
+          "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         },
         "Mod_Converter_Medium_AIDMG_02": {
-          "inGameName": "Medium Creature Dmg",
+          "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         },
         "Mod_Converter_Medium_AIDMG_03": {
-          "inGameName": "Medium Creature Dmg",
+          "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         }
       },
@@ -843,11 +843,11 @@
           "amount": 2
         },
         "Shield_Restoration_01": {
-          "inGameName": "Uncommon Restoration Shield",
+          "inGameName": "Standard Restorative Shields",
           "amount": 2
         },
         "Helmet_Restoration_01": {
-          "inGameName": "Uncommon Restoration Helmet",
+          "inGameName": "Standard Restorative Helmet",
           "amount": 2
         }
       },
@@ -857,7 +857,7 @@
           "amount": 3
         },
         "Main-Osiris-SideWork1-1": {
-          "inGameName": "The Needs of the One Part 1",
+          "inGameName": "Main-Osiris-SideWork1-1",
           "amount": 25
         }
       },
@@ -912,7 +912,7 @@
           "amount": 10
         },
         "Helmet_NV_01": {
-          "inGameName": "Legendary NV Helmet",
+          "inGameName": "NV Helmet",
           "amount": 4
         }
       },
@@ -922,7 +922,7 @@
           "amount": 2
         },
         "Main-ICA-MeteorReactor-3": {
-          "inGameName": "Project Fireball Part 5",
+          "inGameName": "Main-ICA-MeteorReactor-3",
           "amount": 3
         }
       },
@@ -998,11 +998,11 @@
           "amount": 1
         },
         "Mod_Converter_Light_AIDMG_02": {
-          "inGameName": "Light Creature Dmg",
+          "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         },
         "Mod_Converter_Medium_AIDMG_02": {
-          "inGameName": "Medium Creature Dmg",
+          "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         }
       },
@@ -1012,7 +1012,7 @@
           "amount": 3
         },
         "Main-ICA-MeteorReactor-1": {
-          "inGameName": "Project Fireball Part 1",
+          "inGameName": "Main-ICA-MeteorReactor-1",
           "amount": 3
         }
       },
@@ -1081,7 +1081,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-StrongStims-2": {
-          "inGameName": "undefined Part 2",
+          "inGameName": "Main-Osiris-StrongStims-2",
           "amount": 3
         }
       },
@@ -1126,15 +1126,15 @@
     "uses": {
       "printing": {
         "Mod_Stock_Standard_02": {
-          "inGameName": "Standard Stock",
+          "inGameName": "Standard Stock, Mod_Stock_Standard_01_Description,Reduces the recoil when firing.",
           "amount": 2
         },
         "Mod_Stock_Standard_ADS_01": {
-          "inGameName": "Tactical Stock",
+          "inGameName": "Tactical Stock, Mod_Stock_Standard_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 2
         },
         "Mod_RearGrip_ADS_02": {
-          "inGameName": "Tactical Rear Grip",
+          "inGameName": "Tactical Rear Grip, Mod_RearGrip_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 2
         }
       },
@@ -1148,19 +1148,19 @@
           "amount": 3
         },
         "Main-ICA-GruntWork-3": {
-          "inGameName": "Doing the Work Part 3",
+          "inGameName": "Main-ICA-GruntWork-3",
           "amount": 3
         },
         "Main-ICA-GasGrenades-2": {
-          "inGameName": "Toxic Love Part 2",
+          "inGameName": "Main-ICA-GasGrenades-2",
           "amount": 10
         },
         "Main-ICA-OilPump-3": {
-          "inGameName": "Back to Basics Part 4",
+          "inGameName": "Main-ICA-OilPump-3",
           "amount": 20
         },
         "Main-Osiris-PrototypeLaser-1": {
-          "inGameName": "Laser Show Part 1",
+          "inGameName": "Main-Osiris-PrototypeLaser-1",
           "amount": 10
         }
       },
@@ -1219,27 +1219,27 @@
           "amount": 2
         },
         "Helmet_02": {
-          "inGameName": "Uncommon Helmet",
+          "inGameName": "Standard Helmet",
           "amount": 2
         },
         "Helmet_Tactical_02": {
-          "inGameName": "Uncommon Tactical Helmet",
+          "inGameName": "Standard Tactical Helmet",
           "amount": 2
         },
         "Helmet_Restoration_01": {
-          "inGameName": "Uncommon Restoration Helmet",
+          "inGameName": "Standard Restorative Helmet",
           "amount": 2
         },
         "Mod_Magazine_Heavy_01": {
-          "inGameName": "Heavy Extended",
+          "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
           "amount": 1
         },
         "Mod_Magazine_Shotgun_01": {
-          "inGameName": "Shotgun Extended",
+          "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
           "amount": 1
         },
         "Mod_Optic_1x_02": {
-          "inGameName": "Holographic Sight",
+          "inGameName": "Holographic Sight, Mod_Optic_1x_02_Description,A non-magnifying Holographic sight.",
           "amount": 2
         }
       },
@@ -1308,23 +1308,23 @@
     "uses": {
       "printing": {
         "Mod_Optic_4x_01": {
-          "inGameName": "4x Optic",
+          "inGameName": "4x Optic, Mod_Optic_4x_01_Description,Optic with 4x Magnification.",
           "amount": 2
         },
         "Mod_Optic_1x_02": {
-          "inGameName": "Holographic Sight",
+          "inGameName": "Holographic Sight, Mod_Optic_1x_02_Description,A non-magnifying Holographic sight.",
           "amount": 1
         },
         "Mod_Optic_Variable_01": {
-          "inGameName": "2 - 4x Variable Optic",
+          "inGameName": "2 - 4x Variable Optic, Mod_Optic_Variable_01_Description,Variable optic that allows to swap between 2x and 4x magnification.",
           "amount": 3
         },
         "Mod_Optic_8x_01": {
-          "inGameName": "8x Optic",
+          "inGameName": "8x Optic, Mod_Optic_8x_01_Description,Optic with 8x Magnification.",
           "amount": 3
         },
         "Mod_Optic_6x_01": {
-          "inGameName": "6x Optic",
+          "inGameName": "6x Optic, Mod_Optic_6x_01_Description,Optic with 6x Magnification.",
           "amount": 3
         }
       },
@@ -1338,7 +1338,7 @@
           "amount": 3
         },
         "Main-Osiris-PrototypeLaser-2": {
-          "inGameName": "Laser Show Part 2",
+          "inGameName": "Main-Osiris-PrototypeLaser-2",
           "amount": 6
         }
       },
@@ -1401,13 +1401,13 @@
           "amount": 20
         },
         "Mod_Converter_Shotgun_03": {
-          "inGameName": "Shotgun Converter",
+          "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
           "amount": 1
         }
       },
       "missions": {
         "Main-Osiris-ExplosivesTry-1": {
-          "inGameName": "Explosive Delivery Part 1",
+          "inGameName": "Main-Osiris-ExplosivesTry-1",
           "amount": 6
         }
       },
@@ -1440,7 +1440,7 @@
   },
   "PolymetallicPrefabricate": {
     "inGameName": "Polymetallic Prefabricate",
-    "description": "One of those miracle materials, sheets of this stuff is commonly used in the printing of various tools, machinery, and of course, weapons.",
+    "description": "One of those 'miracle materials', sheets of this stuff is commonly used in the printing of various tools, machinery, and of course, weapons.",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -1462,15 +1462,15 @@
           "amount": 2
         },
         "Shield_02": {
-          "inGameName": "Uncommon Shield",
+          "inGameName": "Standard Shields",
           "amount": 2
         },
         "Shield_Tactical_02": {
-          "inGameName": "Uncommon Tactical Shield",
+          "inGameName": "Standard Tactical Shields",
           "amount": 2
         },
         "Shield_Restoration_01": {
-          "inGameName": "Uncommon Restoration Shield",
+          "inGameName": "Standard Restorative Shields",
           "amount": 2
         }
       },
@@ -1526,35 +1526,35 @@
     "uses": {
       "printing": {
         "Mod_Magazine_Light_01": {
-          "inGameName": "Light Extended",
+          "inGameName": "Light Extended, Mod_Magazine_Light_01_Description,Increases the capacity of the magazine.",
           "amount": 2
         },
         "Mod_Magazine_Medium_01": {
-          "inGameName": "Medium Extended",
+          "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
           "amount": 2
         },
         "Mod_Magazine_Heavy_01": {
-          "inGameName": "Heavy Extended",
+          "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
           "amount": 3
         },
         "Mod_Magazine_Shotgun_01": {
-          "inGameName": "Shotgun Extended",
+          "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
           "amount": 3
         },
         "Mod_Magazine_Light_ReloadSpeed_03": {
-          "inGameName": "Light Quickdraw",
+          "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 3
         },
         "Mod_Magazine_Medium_Reloadspeed_03": {
-          "inGameName": "Medium Quickdraw",
+          "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
           "amount": 3
         },
         "Mod_Magazine_Heavy_ReloadSpeed_03": {
-          "inGameName": "Heavy Quickdraw",
+          "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 4
         },
         "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-          "inGameName": "Shotgun Quickdraw",
+          "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 4
         }
       },
@@ -1627,79 +1627,79 @@
           "amount": 12
         },
         "Mod_Magazine_Light_03": {
-          "inGameName": "Light Extended",
+          "inGameName": "Light Extended, Mod_Magazine_Light_03_Description,Increases the capacity of the magazine.",
           "amount": 5
         },
         "Mod_Muzzle_Small_Supressor_01": {
-          "inGameName": "Small Suppressor",
+          "inGameName": "Small Suppressor, Mod_Muzzle_Small_Supressor_01_Description,Suppresses the produced sound when firing.",
           "amount": 5
         },
         "Mod_Muzzle_Standard_Supressor_01": {
-          "inGameName": "Medium Suppressor",
+          "inGameName": "Medium Suppressor, Mod_Muzzle_Standard_Supressor_01_Description,Suppresses the produced sound when firing.",
           "amount": 5
         },
         "Mod_Magazine_Medium_03": {
-          "inGameName": "Medium Extended",
+          "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
           "amount": 5
         },
         "Mod_Magazine_Heavy_03": {
-          "inGameName": "Heavy Extended",
+          "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
           "amount": 5
         },
         "Mod_Magazine_Shotgun_03": {
-          "inGameName": "Shotgun Extended",
+          "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
           "amount": 5
         },
         "Mod_Magazine_Light_ReloadSpeed_04": {
-          "inGameName": "Light Quickdraw",
+          "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 5
         },
         "Mod_Magazine_Medium_Reloadspeed_04": {
-          "inGameName": "Medium Quickdraw",
+          "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
           "amount": 5
         },
         "Mod_Magazine_Heavy_ReloadSpeed_04": {
-          "inGameName": "Heavy Quickdraw",
+          "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 5
         },
         "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-          "inGameName": "Shotgun Quickdraw",
+          "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 5
         },
         "Mod_Magazine_Light_EXTReload_02": {
-          "inGameName": "Light Extended Quickdraw",
+          "inGameName": "Light Extended Quickdraw, Mod_Magazine_Light_EXTReload_01_Description,Capacity and reload speed increase.",
           "amount": 5
         },
         "Mod_Magazine_Medium_EXTReload_02": {
-          "inGameName": "Medium Extended Quickdraw",
+          "inGameName": "Medium Extended Quickdraw, Mod_Magazine_Medium_EXTReload_01_Description,Capacity and reload speed increase.",
           "amount": 5
         },
         "Mod_Converter_Light_03": {
-          "inGameName": "Light Converter",
+          "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
           "amount": 5
         },
         "Mod_Converter_Medium_03": {
-          "inGameName": "Medium Converter",
+          "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
           "amount": 5
         },
         "Mod_Converter_Heavy_03": {
-          "inGameName": "Heavy Converter",
+          "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
           "amount": 5
         },
         "Mod_Converter_Shotgun_03": {
-          "inGameName": "Shotgun Converter",
+          "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
           "amount": 5
         },
         "Mod_Converter_Light_AIDMG_03": {
-          "inGameName": "Light Creature Dmg",
+          "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 5
         },
         "Mod_Converter_Medium_AIDMG_03": {
-          "inGameName": "Medium Creature Dmg",
+          "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 5
         },
         "Mod_ForeGrip_ADS_03": {
-          "inGameName": "Tactical Foregrip",
+          "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 5
         }
       },
@@ -1709,11 +1709,11 @@
           "amount": 1
         },
         "Main-ICA-GasGrenades-2": {
-          "inGameName": "Toxic Love Part 2",
+          "inGameName": "Main-ICA-GasGrenades-2",
           "amount": 7
         },
         "Main-ICA-OilPump-3": {
-          "inGameName": "Back to Basics Part 4",
+          "inGameName": "Main-ICA-OilPump-3",
           "amount": 12
         }
       },
@@ -1768,7 +1768,7 @@
           "amount": 3
         },
         "Helmet_05": {
-          "inGameName": "Exotic Helmet",
+          "inGameName": "Ehanced Helmet",
           "amount": 1
         }
       },
@@ -1778,11 +1778,11 @@
           "amount": 1
         },
         "Main-ICA-OilPump-8": {
-          "inGameName": "Back to Basics Part 8",
+          "inGameName": "Main-ICA-OilPump-8",
           "amount": 2
         },
         "Main-Osiris-PrototypeLaser-2": {
-          "inGameName": "Laser Show Part 2",
+          "inGameName": "Main-Osiris-PrototypeLaser-2",
           "amount": 1
         }
       },
@@ -1834,11 +1834,11 @@
           "amount": 5
         },
         "Mod_Converter_Heavy_01": {
-          "inGameName": "Heavy Converter",
+          "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
           "amount": 2
         },
         "Mod_Converter_Shotgun_01": {
-          "inGameName": "Shotgun Converter",
+          "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
           "amount": 2
         }
       },
@@ -1848,7 +1848,7 @@
           "amount": 2
         },
         "Main-ICA-AudioDecoys-2": {
-          "inGameName": "Audiophiles Beware Part 2",
+          "inGameName": "Main-ICA-AudioDecoys-2",
           "amount": 5
         }
       },
@@ -1902,35 +1902,35 @@
     "uses": {
       "printing": {
         "Shield_05": {
-          "inGameName": "Exotic Shield",
+          "inGameName": "Enhanced Shields",
           "amount": 6
         },
         "Mod_Optic_4x_01": {
-          "inGameName": "4x Optic",
+          "inGameName": "4x Optic, Mod_Optic_4x_01_Description,Optic with 4x Magnification.",
           "amount": 1
         },
         "Mod_Magazine_Light_ReloadSpeed_03": {
-          "inGameName": "Light Quickdraw",
+          "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 1
         },
         "Mod_Magazine_Medium_Reloadspeed_03": {
-          "inGameName": "Medium Quickdraw",
+          "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
           "amount": 1
         },
         "Mod_ForeGrip_ADS_02": {
-          "inGameName": "Tactical Foregrip",
+          "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 1
         },
         "Mod_Optic_Variable_01": {
-          "inGameName": "2 - 4x Variable Optic",
+          "inGameName": "2 - 4x Variable Optic, Mod_Optic_Variable_01_Description,Variable optic that allows to swap between 2x and 4x magnification.",
           "amount": 2
         },
         "Mod_Optic_8x_01": {
-          "inGameName": "8x Optic",
+          "inGameName": "8x Optic, Mod_Optic_8x_01_Description,Optic with 8x Magnification.",
           "amount": 2
         },
         "Mod_Optic_6x_01": {
-          "inGameName": "6x Optic",
+          "inGameName": "6x Optic, Mod_Optic_6x_01_Description,Optic with 6x Magnification.",
           "amount": 2
         }
       },
@@ -1967,7 +1967,7 @@
     }
   },
   "MultiTool": {
-    "inGameName": "Salvaged Co-TEC MultiTool",
+    "inGameName": "Salvaged CoTEC MultiTool",
     "description": "These used to be able print, repair, and manipulate simple machinery and electronics. Might still be useful if repaired or used for parts.",
     "type": "material",
     "rarity": "Rare",
@@ -1986,51 +1986,51 @@
           "amount": 2
         },
         "Mod_Magazine_Light_03": {
-          "inGameName": "Light Extended",
+          "inGameName": "Light Extended, Mod_Magazine_Light_03_Description,Increases the capacity of the magazine.",
           "amount": 2
         },
         "Mod_Magazine_Medium_03": {
-          "inGameName": "Medium Extended",
+          "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
           "amount": 2
         },
         "Mod_Magazine_Heavy_03": {
-          "inGameName": "Heavy Extended",
+          "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
           "amount": 2
         },
         "Mod_Magazine_Shotgun_03": {
-          "inGameName": "Shotgun Extended",
+          "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
           "amount": 2
         },
         "Mod_Magazine_Light_ReloadSpeed_04": {
-          "inGameName": "Light Quickdraw",
+          "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 2
         },
         "Mod_Magazine_Medium_Reloadspeed_04": {
-          "inGameName": "Medium Quickdraw",
+          "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
           "amount": 2
         },
         "Mod_Magazine_Heavy_ReloadSpeed_04": {
-          "inGameName": "Heavy Quickdraw",
+          "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 2
         },
         "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-          "inGameName": "Shotgun Quickdraw",
+          "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 2
         },
         "Mod_Magazine_Light_EXTReload_02": {
-          "inGameName": "Light Extended Quickdraw",
+          "inGameName": "Light Extended Quickdraw, Mod_Magazine_Light_EXTReload_01_Description,Capacity and reload speed increase.",
           "amount": 2
         },
         "Mod_Magazine_Medium_EXTReload_02": {
-          "inGameName": "Medium Extended Quickdraw",
+          "inGameName": "Medium Extended Quickdraw, Mod_Magazine_Medium_EXTReload_01_Description,Capacity and reload speed increase.",
           "amount": 2
         },
         "Mod_Stock_Marksman_ADSEquip_02": {
-          "inGameName": "MKM Ultralight Stock",
+          "inGameName": "MKM Ultralight Stock, Mod_Stock_Marksman_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
           "amount": 2
         },
         "Mod_ForeGrip_ADS_03": {
-          "inGameName": "Tactical Foregrip",
+          "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 2
         }
       },
@@ -2040,7 +2040,7 @@
           "amount": 5
         },
         "Main-ICA-MeteorReactor-2": {
-          "inGameName": "Project Fireball Part 2",
+          "inGameName": "Main-ICA-MeteorReactor-2",
           "amount": 3
         }
       },
@@ -2097,11 +2097,11 @@
           "amount": 1
         },
         "Main-ICA-OilPump-6": {
-          "inGameName": "Back to Basics Part 6",
+          "inGameName": "Main-ICA-OilPump-6",
           "amount": 6
         },
         "Main-ICA-ExtraWork2-1": {
-          "inGameName": "The Community Needs You Part 1",
+          "inGameName": "Main-ICA-ExtraWork2-1",
           "amount": 1
         }
       },
@@ -2153,23 +2153,23 @@
           "amount": 3
         },
         "Shield_03": {
-          "inGameName": "Rare Shield",
+          "inGameName": "Reinforced Shields",
           "amount": 2
         },
         "Shield_Tactical_03": {
-          "inGameName": "Rare Tactical Shield",
+          "inGameName": "Reinforced Tactical Shields",
           "amount": 2
         },
         "Shield_Restoration_02": {
-          "inGameName": "Rare Restoration Shield",
+          "inGameName": "Reinforced Restorative Shields",
           "amount": 2
         },
         "Mod_Magazine_Light_ReloadSpeed_03": {
-          "inGameName": "Light Quickdraw",
+          "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 1
         },
         "Mod_Magazine_Medium_Reloadspeed_03": {
-          "inGameName": "Medium Quickdraw",
+          "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
           "amount": 1
         }
       },
@@ -2179,7 +2179,7 @@
           "amount": 3
         },
         "Main-ICA-GruntWork-3": {
-          "inGameName": "Doing the Work Part 3",
+          "inGameName": "Main-ICA-GruntWork-3",
           "amount": 1
         }
       },
@@ -2247,7 +2247,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-OilPump-6": {
-          "inGameName": "Back to Basics Part 6",
+          "inGameName": "Main-ICA-OilPump-6",
           "amount": 3
         }
       },
@@ -2284,7 +2284,7 @@
   },
   "MiniatureReactor": {
     "inGameName": "Miniature Reactor",
-    "description": "Useful for printing equipment with high power requirements.\r\nDO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B.",
+    "description": "Useful for printing equipment with high power requirements. DO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B.",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -2302,7 +2302,7 @@
           "amount": 1
         },
         "Mod_Stock_Standard_ADSEquip_02": {
-          "inGameName": "Ultralight Stock",
+          "inGameName": "Ultralight Stock, Mod_Stock_Standard_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
           "amount": 1
         }
       },
@@ -2312,15 +2312,15 @@
           "amount": 5
         },
         "Main-ICA-OilPump-8": {
-          "inGameName": "Back to Basics Part 8",
+          "inGameName": "Main-ICA-OilPump-8",
           "amount": 5
         },
         "Main-ICA-OilScanModule-2": {
-          "inGameName": "An Eye for Oil Part 2",
+          "inGameName": "Main-ICA-OilScanModule-2",
           "amount": 5
         },
         "Main-ICA-ExtraWork2-1": {
-          "inGameName": "The Community Needs You Part 1",
+          "inGameName": "Main-ICA-ExtraWork2-1",
           "amount": 3
         }
       },
@@ -2388,17 +2388,17 @@
           "amount": 1
         },
         "Mod_Stock_Standard_ADSEquip_02": {
-          "inGameName": "Ultralight Stock",
+          "inGameName": "Ultralight Stock, Mod_Stock_Standard_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
           "amount": 1
         },
         "Mod_Stock_Marksman_ADSEquip_02": {
-          "inGameName": "MKM Ultralight Stock",
+          "inGameName": "MKM Ultralight Stock, Mod_Stock_Marksman_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
           "amount": 1
         }
       },
       "missions": {
         "Main-ICA-OilPump-3": {
-          "inGameName": "Back to Basics Part 4",
+          "inGameName": "Main-ICA-OilPump-3",
           "amount": 5
         }
       },
@@ -2453,27 +2453,27 @@
     "uses": {
       "printing": {
         "Mod_Converter_Light_03": {
-          "inGameName": "Light Converter",
+          "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
           "amount": 1
         },
         "Mod_Converter_Medium_03": {
-          "inGameName": "Medium Converter",
+          "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
           "amount": 1
         },
         "Mod_Converter_Heavy_03": {
-          "inGameName": "Heavy Converter",
+          "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
           "amount": 1
         },
         "Mod_Converter_Shotgun_03": {
-          "inGameName": "Shotgun Converter",
+          "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
           "amount": 1
         },
         "Mod_Converter_Light_AIDMG_03": {
-          "inGameName": "Light Creature Dmg",
+          "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         },
         "Mod_Converter_Medium_AIDMG_03": {
-          "inGameName": "Medium Creature Dmg",
+          "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         }
       },
@@ -2520,15 +2520,15 @@
           "amount": 2
         },
         "Mod_Muzzle_Small_Recoil_03": {
-          "inGameName": "Small Muzzle Brake",
+          "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
           "amount": 3
         },
         "Mod_Muzzle_Standard_Recoil_03": {
-          "inGameName": "Medium Muzzle Brake",
+          "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
           "amount": 3
         },
         "Mod_Converter_Heavy_03": {
-          "inGameName": "Heavy Converter",
+          "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
           "amount": 5
         }
       },
@@ -2538,7 +2538,7 @@
           "amount": 8
         },
         "Main-ICA-MeteorReactor-1": {
-          "inGameName": "Project Fireball Part 1",
+          "inGameName": "Main-ICA-MeteorReactor-1",
           "amount": 6
         },
         "Main-Osiris-Caverns-0.2-Unlock": {
@@ -2605,17 +2605,17 @@
           "amount": 25
         },
         "Helmet_05": {
-          "inGameName": "Exotic Helmet",
+          "inGameName": "Ehanced Helmet",
           "amount": 1
         },
         "Helmet_Tactical_03": {
-          "inGameName": "Rare Tactical Helmet",
+          "inGameName": "Reinforced Tactical Helmet",
           "amount": 1
         }
       },
       "missions": {
         "Main-ICA-OilScanModule-2": {
-          "inGameName": "An Eye for Oil Part 2",
+          "inGameName": "Main-ICA-OilScanModule-2",
           "amount": 5
         }
       },
@@ -2675,11 +2675,11 @@
           "amount": 8000
         },
         "Main-ICA-Caverns-13.1": {
-          "inGameName": "undefined Part 15",
+          "inGameName": "Main-ICA-Caverns-13.1",
           "amount": 30000
         },
         "Main-Badum-FinalQuestline1-3": {
-          "inGameName": "Main-Badum-FinalQuestline1-3",
+          "inGameName": "'",
           "amount": 100000
         }
       },
@@ -2726,33 +2726,33 @@
     "uses": {
       "printing": {
         "Shield_Restoration_02": {
-          "inGameName": "Rare Restoration Shield",
+          "inGameName": "Reinforced Restorative Shields",
           "amount": 2
         },
         "Helmet_Restoration_02": {
-          "inGameName": "Rare Restoration Helmet",
+          "inGameName": "Reinforced Restorative Helmet",
           "amount": 2
         }
       },
       "missions": {
         "Main-Osiris-StormSamples-1": {
-          "inGameName": "Storm Rider Part 1",
+          "inGameName": "Main-Osiris-StormSamples-1",
           "amount": 6
         },
         "Main-Osiris-StrongMedkits-2": {
-          "inGameName": "Path to Strong Medkits Part 2",
+          "inGameName": "Main-Osiris-StrongMedkits-2",
           "amount": 8
         },
         "Main-Osiris-CraftFuel-1": {
-          "inGameName": "Building a better Death Ray Part 1",
+          "inGameName": "Main-Osiris-CraftFuel-1",
           "amount": 10
         },
         "Main-Osiris-CombatStims-2": {
-          "inGameName": "Combat Ready Part 2",
+          "inGameName": "Main-Osiris-CombatStims-2",
           "amount": 10
         },
         "Main-Osiris-Caverns-9": {
-          "inGameName": "undefined Part 11",
+          "inGameName": "Main-Osiris-Caverns-9",
           "amount": 5
         }
       },
@@ -2800,19 +2800,19 @@
     "uses": {
       "printing": {
         "Mod_Stock_Standard_02": {
-          "inGameName": "Standard Stock",
+          "inGameName": "Standard Stock, Mod_Stock_Standard_01_Description,Reduces the recoil when firing.",
           "amount": 2
         },
         "Mod_Stock_Standard_ADS_01": {
-          "inGameName": "Tactical Stock",
+          "inGameName": "Tactical Stock, Mod_Stock_Standard_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 2
         },
         "Mod_Stock_Marksman_02": {
-          "inGameName": "Marksman Stock",
+          "inGameName": "Marksman Stock, Mod_Stock_Marksman_01_Description,Reduces the received kick from recoil.",
           "amount": 3
         },
         "Mod_Stock_Marksman_ADS_01": {
-          "inGameName": "MKM Tactical Stock",
+          "inGameName": "MKM Tactical Stock, Mod_Stock_Marksman_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 3
         }
       },
@@ -2822,7 +2822,7 @@
           "amount": 3
         },
         "Main-Osiris-SideWork1-1": {
-          "inGameName": "The Needs of the One Part 1",
+          "inGameName": "Main-Osiris-SideWork1-1",
           "amount": 12
         }
       },
@@ -2881,21 +2881,21 @@
           "amount": 3
         },
         "Shield_Tactical_02": {
-          "inGameName": "Uncommon Tactical Shield",
+          "inGameName": "Standard Tactical Shields",
           "amount": 2
         }
       },
       "missions": {
         "Main-Osiris-CaveRumors-1": {
-          "inGameName": "undefined Part 1",
+          "inGameName": "Main-Osiris-CaveRumors-1",
           "amount": 12
         },
         "Main-Osiris-SideWork1-2": {
-          "inGameName": "The Needs of the One Part 2",
+          "inGameName": "Main-Osiris-SideWork1-2",
           "amount": 25
         },
         "Main-Osiris-StrongMedkits-1": {
-          "inGameName": "Path to Strong Medkits Part 1",
+          "inGameName": "Main-Osiris-StrongMedkits-1",
           "amount": 15
         }
       },
@@ -2957,15 +2957,15 @@
       },
       "missions": {
         "Main-Osiris-SideWork1-4": {
-          "inGameName": "The Needs of the One Part 4",
+          "inGameName": "Main-Osiris-SideWork1-4",
           "amount": 3
         },
         "Main-Osiris-CraftFuel-1": {
-          "inGameName": "Building a better Death Ray Part 1",
+          "inGameName": "Main-Osiris-CraftFuel-1",
           "amount": 5
         },
         "Main-Osiris-CombatStims-3": {
-          "inGameName": "Combat Ready Part 3",
+          "inGameName": "Main-Osiris-CombatStims-3",
           "amount": 8
         }
       },
@@ -3033,17 +3033,17 @@
           "amount": 1
         },
         "Shield_Tactical_03": {
-          "inGameName": "Rare Tactical Shield",
+          "inGameName": "Reinforced Tactical Shields",
           "amount": 2
         }
       },
       "missions": {
         "Main-Osiris-StrongMedkits-2": {
-          "inGameName": "Path to Strong Medkits Part 2",
+          "inGameName": "Main-Osiris-StrongMedkits-2",
           "amount": 10
         },
         "Main-Osiris-EarlyMap2-2": {
-          "inGameName": "A Whole New Ecosystem Part 2",
+          "inGameName": "Main-Osiris-EarlyMap2-2",
           "amount": 3
         }
       },
@@ -3096,7 +3096,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-CommunityWork-3": {
-          "inGameName": "Working for the Community Part 3",
+          "inGameName": "Main-ICA-CommunityWork-3",
           "amount": 8
         }
       },
@@ -3130,7 +3130,7 @@
   },
   "Fabrics": {
     "inGameName": "Textiles",
-    "description": "Heavy and durable fabrics, useful for printing various items.\r\n\r\nYou can never get the smell of mildew out of these.",
+    "description": "Heavy and durable fabrics, useful for printing various items.  You can never get the smell of mildew out of these.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -3154,7 +3154,7 @@
           "amount": 6
         },
         "Main-ICA-ExtraWork2-1": {
-          "inGameName": "The Community Needs You Part 1",
+          "inGameName": "Main-ICA-ExtraWork2-1",
           "amount": 5
         }
       },
@@ -3178,7 +3178,7 @@
   },
   "Cables": {
     "inGameName": "Electronic Cables",
-    "description": "A bundle of cables, still in good condition.\r\n\r\nUnfortunately not platinum plated, unsuitable for true audio transmission.",
+    "description": "A bundle of cables, still in good condition.  Unfortunately not platinum plated, unsuitable for true audio transmission.",
     "type": "material",
     "rarity": "Common",
     "weight": 6,
@@ -3205,7 +3205,7 @@
           "amount": 2
         },
         "Helmet_Tactical_02": {
-          "inGameName": "Uncommon Tactical Helmet",
+          "inGameName": "Standard Tactical Helmet",
           "amount": 2
         }
       },
@@ -3251,7 +3251,7 @@
   },
   "Insulation": {
     "inGameName": "Salvaged Insulation",
-    "description": "Even outside of its intended purpose, the materials still have various uses in item printing.\r\n\r\nYes, it's asbestos.",
+    "description": "Even outside of its intended purpose, the materials still have various uses in item printing.  Yes, it's asbestos.",
     "type": "material",
     "rarity": "Common",
     "weight": 5,
@@ -3265,11 +3265,11 @@
     "uses": {
       "printing": {
         "Mod_Magazine_Light_01": {
-          "inGameName": "Light Extended",
+          "inGameName": "Light Extended, Mod_Magazine_Light_01_Description,Increases the capacity of the magazine.",
           "amount": 2
         },
         "Mod_Magazine_Medium_01": {
-          "inGameName": "Medium Extended",
+          "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
           "amount": 2
         }
       },
@@ -3279,11 +3279,11 @@
           "amount": 10
         },
         "Main-Osiris-SatelliteRepairs-3": {
-          "inGameName": "Orbital Repairs Part 3",
+          "inGameName": "Main-Osiris-SatelliteRepairs-3",
           "amount": 20
         },
         "Main-KOR-EarlyMap2-3": {
-          "inGameName": "Uncharted Territory Part 3",
+          "inGameName": "Main-KOR-EarlyMap2-3",
           "amount": 6
         }
       },
@@ -3335,11 +3335,11 @@
           "amount": 15
         },
         "Main-ICA-AudioDecoys-2": {
-          "inGameName": "Audiophiles Beware Part 2",
+          "inGameName": "Main-ICA-AudioDecoys-2",
           "amount": 5
         },
         "Main-ICA-OilScanModule-1": {
-          "inGameName": "An Eye for Oil Part 1",
+          "inGameName": "Main-ICA-OilScanModule-1",
           "amount": 9
         }
       },
@@ -3372,7 +3372,7 @@
   },
   "SmartMesh": {
     "inGameName": "Smart Mesh",
-    "description": "Adaptable material, used for printing various items.\r\n\r\nAlso a fun art tool!",
+    "description": "Adaptable material, used for printing various items.  Also a fun art tool!",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -3399,15 +3399,15 @@
           "amount": 1
         },
         "Shield_04": {
-          "inGameName": "Epic Shield",
+          "inGameName": "Combat Shields",
           "amount": 2
         },
         "Mod_Muzzle_Small_Supressor_01": {
-          "inGameName": "Small Suppressor",
+          "inGameName": "Small Suppressor, Mod_Muzzle_Small_Supressor_01_Description,Suppresses the produced sound when firing.",
           "amount": 1
         },
         "Mod_Muzzle_Standard_Supressor_01": {
-          "inGameName": "Medium Suppressor",
+          "inGameName": "Medium Suppressor, Mod_Muzzle_Standard_Supressor_01_Description,Suppresses the produced sound when firing.",
           "amount": 1
         }
       },
@@ -3417,15 +3417,15 @@
           "amount": 5
         },
         "Main-ICA-CommunityWork-3": {
-          "inGameName": "Working for the Community Part 3",
+          "inGameName": "Main-ICA-CommunityWork-3",
           "amount": 3
         },
         "Main-ICA-OilPump-8": {
-          "inGameName": "Back to Basics Part 8",
+          "inGameName": "Main-ICA-OilPump-8",
           "amount": 6
         },
         "Main-Osiris-SatelliteRepairs-3": {
-          "inGameName": "Orbital Repairs Part 3",
+          "inGameName": "Main-Osiris-SatelliteRepairs-3",
           "amount": 8
         }
       },
@@ -3457,7 +3457,7 @@
   },
   "CircuitBoard": {
     "inGameName": "Circuit Board",
-    "description": "An old circuit board, its components can be salvaged and repurposed to build new items.\r\n\r\nAnd now you can put e-waste management on your resume.",
+    "description": "An old circuit board, its components can be salvaged and repurposed to build new items.  And now you can put e-waste management on your resume.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 7,
@@ -3471,11 +3471,11 @@
     "uses": {
       "printing": {
         "Mod_Magazine_Heavy_ReloadSpeed_03": {
-          "inGameName": "Heavy Quickdraw",
+          "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 3
         },
         "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-          "inGameName": "Shotgun Quickdraw",
+          "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
           "amount": 3
         }
       },
@@ -3493,15 +3493,15 @@
           "amount": 1
         },
         "Main-ICA-OilPump-6": {
-          "inGameName": "Back to Basics Part 6",
+          "inGameName": "Main-ICA-OilPump-6",
           "amount": 11
         },
         "Main-ICA-OilScanModule-2": {
-          "inGameName": "An Eye for Oil Part 2",
+          "inGameName": "Main-ICA-OilScanModule-2",
           "amount": 6
         },
         "Main-Osiris-PrototypeLaser-1": {
-          "inGameName": "Laser Show Part 1",
+          "inGameName": "Main-Osiris-PrototypeLaser-1",
           "amount": 8
         }
       },
@@ -3559,7 +3559,7 @@
           "amount": 3
         },
         "Helmet_04": {
-          "inGameName": "Epic Helmet",
+          "inGameName": "Combat Helmet",
           "amount": 4
         }
       },
@@ -3569,11 +3569,11 @@
           "amount": 5
         },
         "Main-ICA-OilScanModule-1": {
-          "inGameName": "An Eye for Oil Part 1",
+          "inGameName": "Main-ICA-OilScanModule-1",
           "amount": 10
         },
         "Main-Osiris-PrototypeLaser-2": {
-          "inGameName": "Laser Show Part 2",
+          "inGameName": "Main-Osiris-PrototypeLaser-2",
           "amount": 10
         }
       },
@@ -3597,7 +3597,7 @@
   },
   "Antibiotics": {
     "inGameName": "Old Medicine",
-    "description": "Medicine left behind on the planet, can be processed to make new supplies.\r\n\r\nFortuna's colonists definitely had a lot of pills...",
+    "description": "Medicine left behind on the planet, can be processed to make new supplies.  Fortuna's colonists definitely had a lot of pills...",
     "type": "material",
     "rarity": "Common",
     "weight": 1,
@@ -3621,7 +3621,7 @@
       },
       "missions": {
         "Main-Osiris-StrongStims-2": {
-          "inGameName": "undefined Part 2",
+          "inGameName": "Main-Osiris-StrongStims-2",
           "amount": 5
         }
       },
@@ -3637,7 +3637,7 @@
   },
   "PortableLabEquipmentBox": {
     "inGameName": "Portable Lab",
-    "description": "A full lab in a box, also contains all sorts of specialized equipment and materials that can be repurposed.\r\n\r\nLoaded with delicate tools, sensitive software, and no manual.",
+    "description": "A full lab in a box, also contains all sorts of specialized equipment and materials that can be repurposed.  Loaded with delicate tools, sensitive software, and no manual.",
     "type": "material",
     "rarity": "Epic",
     "weight": 15,
@@ -3666,11 +3666,11 @@
           "amount": 1
         },
         "Main-Osiris-CrystalSamples-2": {
-          "inGameName": "Everything is Crystals Part 2",
+          "inGameName": "Main-Osiris-CrystalSamples-2",
           "amount": 1
         },
         "Main-Osiris-CombatStims-2": {
-          "inGameName": "Combat Ready Part 2",
+          "inGameName": "Main-Osiris-CombatStims-2",
           "amount": 1
         }
       },
@@ -3693,8 +3693,8 @@
     }
   },
   "Battery": {
-    "inGameName": "Fusion Cartridge Batteries",
-    "description": "A pack of high-powered, slightly radioactive batteries. Safe to use in most electronic devices.\r\n\r\nNot actually fusion powered, but still worryingly radioactive.",
+    "inGameName": "Fusion Cartridge Batteries ,, Material_Battery_Description,",
+    "description": "Battery",
     "type": "material",
     "rarity": "Common",
     "weight": 3,
@@ -3709,11 +3709,11 @@
       "printing": {},
       "missions": {
         "Main-ICA-GruntWork-3": {
-          "inGameName": "Doing the Work Part 3",
+          "inGameName": "Main-ICA-GruntWork-3",
           "amount": 3
         },
         "Main-Osiris-PrototypeLaser-1": {
-          "inGameName": "Laser Show Part 1",
+          "inGameName": "Main-Osiris-PrototypeLaser-1",
           "amount": 8
         }
       },
@@ -3736,8 +3736,8 @@
     }
   },
   "LiquidFertilizer": {
-    "inGameName": "Magic-GROW Fertilizer",
-    "description": "A powerful and sweet smelling chemical, can be processed to help manufacture other items.\r\n\r\nDon't ingest within 6 hours of consuming any fruits or nuts. Or ideally ever.",
+    "inGameName": "Magic-GROW Fertilizer,, Material_LiquidFertilizer_Description,",
+    "description": "LiquidFertilizer",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 7,
@@ -3752,15 +3752,15 @@
       "printing": {},
       "missions": {
         "Main-ICA-CommunityWork-3": {
-          "inGameName": "Working for the Community Part 3",
+          "inGameName": "Main-ICA-CommunityWork-3",
           "amount": 15
         },
         "Main-Osiris-SideWork1-1": {
-          "inGameName": "The Needs of the One Part 1",
+          "inGameName": "Main-Osiris-SideWork1-1",
           "amount": 10
         },
         "Main-Osiris-CraftFuel-1": {
-          "inGameName": "Building a better Death Ray Part 1",
+          "inGameName": "Main-Osiris-CraftFuel-1",
           "amount": 10
         }
       },
@@ -3785,7 +3785,7 @@
   },
   "SamplingDevice": {
     "inGameName": "Biological Sampler",
-    "description": "A portable device used for collecting biological samples in the field. Can be used to assist with printing delicate items.\r\n\r\nThis model incorporates a pressure-activated injector as well. Mildly concerning.",
+    "description": "A portable device used for collecting biological samples in the field. Can be used to assist with printing delicate items.  This model incorporates a pressure-activated injector as well. Mildly concerning.",
     "type": "material",
     "rarity": "Rare",
     "weight": 8,
@@ -3805,11 +3805,11 @@
       },
       "missions": {
         "Main-ICA-OilSearch-3": {
-          "inGameName": "Never Give Up Part 3",
+          "inGameName": "Main-ICA-OilSearch-3",
           "amount": 5
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "undefined Part 5",
+          "inGameName": "Main-ICA-Caverns-4",
           "amount": 5
         }
       },
@@ -3834,7 +3834,7 @@
   },
   "AnaestheticsContainers": {
     "inGameName": "Medical Supplies",
-    "description": "A small crate of miscellaneous medical supplies, has all sorts of chemicals useful for printing new items.\r\n\r\nThere are A LOT of warning labels here.",
+    "description": "A small crate of miscellaneous medical supplies, has all sorts of chemicals useful for printing new items.  There are A LOT of warning labels here.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 10,
@@ -3858,15 +3858,15 @@
       },
       "missions": {
         "Main-Osiris-StrongStims-1": {
-          "inGameName": "undefined Part 1",
+          "inGameName": "Main-Osiris-StrongStims-1",
           "amount": 4
         },
         "Main-Osiris-StrongMedkits-1": {
-          "inGameName": "Path to Strong Medkits Part 1",
+          "inGameName": "Main-Osiris-StrongMedkits-1",
           "amount": 3
         },
         "Main-Osiris-CombatStims-2": {
-          "inGameName": "Combat Ready Part 2",
+          "inGameName": "Main-Osiris-CombatStims-2",
           "amount": 5
         }
       },
@@ -3901,7 +3901,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-EarlyMap2-4": {
-          "inGameName": "Uncharted Territory Part 4",
+          "inGameName": "Main-KOR-EarlyMap2-4",
           "amount": 3
         }
       },
@@ -3926,7 +3926,7 @@
   },
   "Jewellery": {
     "inGameName": "Jewellery",
-    "description": "A simple and easy way to carry one's riches and memories.\r\n\r\nAlso very easy to lose during an emergency evacuation.",
+    "description": "A simple and easy way to carry one's riches and memories.  Also very easy to lose during an emergency evacuation.",
     "type": "material",
     "rarity": "Rare",
     "weight": 2,
@@ -3941,13 +3941,13 @@
       "printing": {},
       "missions": {
         "Main-KOR-FirstExtraWork-2": {
-          "inGameName": "Time for More Work Part 2",
+          "inGameName": "Main-KOR-FirstExtraWork-2",
           "amount": 5
         }
       },
       "jobs": {
         "NEW-Hard-ICA-Gather-8": {
-          "inGameName": "Prim & Proper",
+          "inGameName": "Prim & Proper,, NEW-Hard-ICA-Gather-8_Description,A delegation from off system just arrived, and our people need to look their best to woo them for patronage. Get us some Jewellery from the surface, hopefully we can impress.",
           "amount": 10
         }
       },
@@ -3966,7 +3966,7 @@
   },
   "SampleContainer": {
     "inGameName": "Sample Container",
-    "description": "A sealed self-powered container for exotic alien samples.\r\n\r\nScientists are always putting little things in jars and hoping for the best.",
+    "description": "A sealed self-powered container for exotic alien samples.  Scientists are always putting little things in jars and hoping for the best.",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -3982,11 +3982,11 @@
       "printing": {},
       "missions": {
         "Main-ICA-OilSearch-2": {
-          "inGameName": "Never Give Up Part 2",
+          "inGameName": "Main-ICA-OilSearch-2",
           "amount": 5
         },
         "Main-Osiris-CrystalSamples-2": {
-          "inGameName": "Everything is Crystals Part 2",
+          "inGameName": "Main-Osiris-CrystalSamples-2",
           "amount": 8
         }
       },
@@ -4044,29 +4044,29 @@
           "amount": 1
         },
         "Helmet_03": {
-          "inGameName": "Rare Helmet",
+          "inGameName": "Reinforced Helmet",
           "amount": 2
         },
         "Helmet_Tactical_03": {
-          "inGameName": "Rare Tactical Helmet",
+          "inGameName": "Reinforced Tactical Helmet",
           "amount": 2
         },
         "Helmet_Restoration_02": {
-          "inGameName": "Rare Restoration Helmet",
+          "inGameName": "Reinforced Restorative Helmet",
           "amount": 2
         },
         "Mod_Muzzle_Small_Supressor_01": {
-          "inGameName": "Small Suppressor",
+          "inGameName": "Small Suppressor, Mod_Muzzle_Small_Supressor_01_Description,Suppresses the produced sound when firing.",
           "amount": 3
         },
         "Mod_Muzzle_Standard_Supressor_01": {
-          "inGameName": "Medium Suppressor",
+          "inGameName": "Medium Suppressor, Mod_Muzzle_Standard_Supressor_01_Description,Suppresses the produced sound when firing.",
           "amount": 3
         }
       },
       "missions": {
         "Main-KOR-EarlyMap2-2": {
-          "inGameName": "Uncharted Territory Part 2",
+          "inGameName": "Main-KOR-EarlyMap2-2",
           "amount": 3
         },
         "Main-Osiris-Caverns-0.2-Unlock": {
@@ -4112,35 +4112,35 @@
     "uses": {
       "printing": {
         "Shield_02": {
-          "inGameName": "Uncommon Shield",
+          "inGameName": "Standard Shields",
           "amount": 5
         },
         "Shield_Tactical_02": {
-          "inGameName": "Uncommon Tactical Shield",
+          "inGameName": "Standard Tactical Shields",
           "amount": 5
         },
         "Shield_Restoration_01": {
-          "inGameName": "Uncommon Restoration Shield",
+          "inGameName": "Standard Restorative Shields",
           "amount": 5
         },
         "Helmet_02": {
-          "inGameName": "Uncommon Helmet",
+          "inGameName": "Standard Helmet",
           "amount": 5
         },
         "Helmet_Tactical_02": {
-          "inGameName": "Uncommon Tactical Helmet",
+          "inGameName": "Standard Tactical Helmet",
           "amount": 4
         },
         "Helmet_Restoration_01": {
-          "inGameName": "Uncommon Restoration Helmet",
+          "inGameName": "Standard Restorative Helmet",
           "amount": 4
         },
         "Mod_Converter_Light_AIDMG_01": {
-          "inGameName": "Light Creature Dmg",
+          "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 3
         },
         "Mod_Converter_Medium_AIDMG_01": {
-          "inGameName": "Medium Creature Dmg",
+          "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 3
         }
       },
@@ -4202,19 +4202,19 @@
       "printing": {},
       "missions": {
         "Main-ICA-ExtraWork-3": {
-          "inGameName": "Private Business Part 3",
+          "inGameName": "Main-ICA-ExtraWork-3",
           "amount": 10
         },
         "Main-Osiris-CraftFuel-2": {
-          "inGameName": "Building a better Death Ray Part 2",
+          "inGameName": "Main-Osiris-CraftFuel-2",
           "amount": 20
         },
         "Main-Osiris-Caverns-9": {
-          "inGameName": "undefined Part 11",
+          "inGameName": "Main-Osiris-Caverns-9",
           "amount": 5
         },
         "Main-Badum-FinalQuestline1-4": {
-          "inGameName": "Main-Badum-FinalQuestline1-4",
+          "inGameName": "'",
           "amount": 400
         }
       },
@@ -4269,11 +4269,11 @@
           "amount": 1
         },
         "Mod_Converter_Light_AIDMG_02": {
-          "inGameName": "Light Creature Dmg",
+          "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         },
         "Mod_Converter_Medium_AIDMG_02": {
-          "inGameName": "Medium Creature Dmg",
+          "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
           "amount": 1
         }
       },
@@ -4283,11 +4283,11 @@
           "amount": 8
         },
         "Main-ICA-GasGrenades-2": {
-          "inGameName": "Toxic Love Part 2",
+          "inGameName": "Main-ICA-GasGrenades-2",
           "amount": 3
         },
         "Main-Osiris-StrongStims-2": {
-          "inGameName": "undefined Part 2",
+          "inGameName": "Main-Osiris-StrongStims-2",
           "amount": 2
         }
       },
@@ -4320,7 +4320,7 @@
   },
   "AI_StriderHead": {
     "inGameName": "Strider Head",
-    "description": "The torn off head of a dead Strider.\r\n\r\nCareful, it can still bite!",
+    "description": "The torn off head of a dead Strider.  Careful, it can still bite!",
     "type": "material",
     "rarity": "Legendary",
     "weight": 10,
@@ -4341,7 +4341,7 @@
   },
   "AI_RattlerHead": {
     "inGameName": "Rattler Head",
-    "description": "The torn off head of a dead Rattler.\r\n\r\nCorrosive drool everywhere, handle with gloves.",
+    "description": "The torn off head of a dead Rattler.  Corrosive drool everywhere, handle with gloves.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 15,
@@ -4375,7 +4375,7 @@
   },
   "AI_WeremoleHead": {
     "inGameName": "Marauder Head",
-    "description": "The torn off head of a dead Marauder.\r\n\r\nThe eyes still follow you around. Creepy.",
+    "description": "The torn off head of a dead Marauder.  The eyes still follow you around. Creepy.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 20,
@@ -4405,7 +4405,7 @@
   },
   "AI_CrusherHead": {
     "inGameName": "Crusher Head",
-    "description": "The torn off head of a dead Crusher.\r\n\r\nIt's even uglier up close... Still, a fine trophy!",
+    "description": "The torn off head of a dead Crusher.  It's even uglier up close... Still, a fine trophy!",
     "type": "material",
     "rarity": "Legendary",
     "weight": 30,
@@ -4448,7 +4448,7 @@
   },
   "AI_StriderMeat": {
     "inGameName": "Strider Flesh",
-    "description": "A chunk of Strider flesh. Presumably of a dead one.\r\n\r\nYou know, if you cook it properly it's actually pretty good.",
+    "description": "A chunk of Strider flesh. Presumably of a dead one.  You know, if you cook it properly it's actually pretty good.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 8,
@@ -4467,11 +4467,11 @@
           "amount": 10
         },
         "Main-Osiris-GainTrust-4": {
-          "inGameName": "Papers, Please",
+          "inGameName": "Papers, Please,, Main-Osiris-GainTrust-4_Description,'We need to run some tests on how the creatures of Fortuna III identify each other, how they tell friend from foe. These samples should advance our research. '",
           "amount": 3
         },
         "Main-Osiris-SideWork1-2": {
-          "inGameName": "The Needs of the One Part 2",
+          "inGameName": "Main-Osiris-SideWork1-2",
           "amount": 12
         }
       },
@@ -4491,7 +4491,7 @@
   },
   "AI_RattlerEyes": {
     "inGameName": "Rattler Eyes",
-    "description": "The eyes of a dead Rattler.\r\n\r\nWell, hopefully it was dead, anyway...",
+    "description": "The eyes of a dead Rattler.  Well, hopefully it was dead, anyway...",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 5,
@@ -4539,7 +4539,7 @@
   },
   "AI_WeremoleMeat": {
     "inGameName": "Marauder Flesh",
-    "description": "A chunk of Marauder flesh.\r\n\r\nIt moves if you poke it.",
+    "description": "A chunk of Marauder flesh.  It moves if you poke it.",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -4558,7 +4558,7 @@
           "amount": 3
         },
         "Main-Osiris-StrongMedkits-1": {
-          "inGameName": "Path to Strong Medkits Part 1",
+          "inGameName": "Main-Osiris-StrongMedkits-1",
           "amount": 3
         }
       },
@@ -4595,7 +4595,7 @@
   },
   "AI_CrusherMeat": {
     "inGameName": "Crusher Flesh",
-    "description": "A chunk of Crusher flesh.\r\n\r\nEven its meat is hard as bone.",
+    "description": "A chunk of Crusher flesh.  Even its meat is hard as bone.",
     "type": "material",
     "rarity": "Epic",
     "weight": 25,
@@ -4615,7 +4615,7 @@
       },
       "missions": {
         "Main-Osiris-CombatStims-1": {
-          "inGameName": "Combat Ready Part 1",
+          "inGameName": "Main-Osiris-CombatStims-1",
           "amount": 1
         }
       },
@@ -4631,7 +4631,7 @@
   },
   "AI_RattlerSkin": {
     "inGameName": "Rattler Skin",
-    "description": "Taken off a skinned Rattler.\r\n\r\nFashionable! Just don't think about where it came from.",
+    "description": "Taken off a skinned Rattler.  Fashionable! Just don't think about where it came from.",
     "type": "material",
     "rarity": "Common",
     "weight": 8,
@@ -4645,35 +4645,35 @@
     "uses": {
       "printing": {
         "Shield_03": {
-          "inGameName": "Rare Shield",
+          "inGameName": "Reinforced Shields",
           "amount": 5
         },
         "Shield_Tactical_03": {
-          "inGameName": "Rare Tactical Shield",
+          "inGameName": "Reinforced Tactical Shields",
           "amount": 8
         },
         "Shield_Restoration_02": {
-          "inGameName": "Rare Restoration Shield",
+          "inGameName": "Reinforced Restorative Shields",
           "amount": 8
         },
         "Helmet_03": {
-          "inGameName": "Rare Helmet",
+          "inGameName": "Reinforced Helmet",
           "amount": 2
         },
         "Helmet_Tactical_03": {
-          "inGameName": "Rare Tactical Helmet",
+          "inGameName": "Reinforced Tactical Helmet",
           "amount": 2
         },
         "Helmet_Restoration_02": {
-          "inGameName": "Rare Restoration Helmet",
+          "inGameName": "Reinforced Restorative Helmet",
           "amount": 2
         },
         "Mod_ForeGrip_ADS_02": {
-          "inGameName": "Tactical Foregrip",
+          "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 2
         },
         "Mod_RearGrip_ADS_02": {
-          "inGameName": "Tactical Rear Grip",
+          "inGameName": "Tactical Rear Grip, Mod_RearGrip_ADS_01_Description,Reduces the time to aim down the sight.",
           "amount": 2
         }
       },
@@ -4687,19 +4687,19 @@
           "amount": 5
         },
         "Main-ICA-OilSearch-3": {
-          "inGameName": "Never Give Up Part 3",
+          "inGameName": "Main-ICA-OilSearch-3",
           "amount": 8
         },
         "Main-Osiris-GainTrust-4": {
-          "inGameName": "Papers, Please",
+          "inGameName": "Papers, Please,, Main-Osiris-GainTrust-4_Description,'We need to run some tests on how the creatures of Fortuna III identify each other, how they tell friend from foe. These samples should advance our research. '",
           "amount": 1
         },
         "Main-Osiris-CaveRumors-1": {
-          "inGameName": "undefined Part 1",
+          "inGameName": "Main-Osiris-CaveRumors-1",
           "amount": 6
         },
         "Main-ICA-ExtraWork2-3": {
-          "inGameName": "The Community Needs You Part 3",
+          "inGameName": "Main-ICA-ExtraWork2-3",
           "amount": 10
         }
       },
@@ -4729,11 +4729,11 @@
     "uses": {
       "printing": {
         "Shield_04": {
-          "inGameName": "Epic Shield",
+          "inGameName": "Combat Shields",
           "amount": 2
         },
         "Helmet_04": {
-          "inGameName": "Epic Helmet",
+          "inGameName": "Combat Helmet",
           "amount": 1
         }
       },
@@ -4747,23 +4747,23 @@
           "amount": 5
         },
         "Main-ICA-ExtraWork-3": {
-          "inGameName": "Private Business Part 3",
+          "inGameName": "Main-ICA-ExtraWork-3",
           "amount": 5
         },
         "Main-ICA-OilPump-4": {
-          "inGameName": "Back to Basics Part 5",
+          "inGameName": "Main-ICA-OilPump-4",
           "amount": 5
         },
         "Main-Osiris-SideWork1-3": {
-          "inGameName": "The Needs of the One Part 3",
+          "inGameName": "Main-Osiris-SideWork1-3",
           "amount": 3
         },
         "Main-Osiris-SatelliteRepairs-3": {
-          "inGameName": "Orbital Repairs Part 3",
+          "inGameName": "Main-Osiris-SatelliteRepairs-3",
           "amount": 8
         },
         "Main-ICA-ExtraWork2-3": {
-          "inGameName": "The Community Needs You Part 3",
+          "inGameName": "Main-ICA-ExtraWork2-3",
           "amount": 5
         }
       },
@@ -4805,7 +4805,7 @@
   },
   "AI_CrusherSkin": {
     "inGameName": "Crusher Hide",
-    "description": "Taken off a skinned Crusher.\r\n\r\n(read: hacked repeatedly until something fell off)",
+    "description": "Taken off a skinned Crusher.  (read: hacked repeatedly until something fell off)",
     "type": "material",
     "rarity": "Rare",
     "weight": 10,
@@ -4819,17 +4819,17 @@
     "uses": {
       "printing": {
         "Shield_05": {
-          "inGameName": "Exotic Shield",
+          "inGameName": "Enhanced Shields",
           "amount": 2
         },
         "Helmet_05": {
-          "inGameName": "Exotic Helmet",
+          "inGameName": "Ehanced Helmet",
           "amount": 1
         }
       },
       "missions": {
         "Main-Osiris-SatelliteRepairs-4": {
-          "inGameName": "Orbital Repairs Part 4",
+          "inGameName": "Main-Osiris-SatelliteRepairs-4",
           "amount": 3
         }
       },
@@ -4889,7 +4889,7 @@
           "amount": 3
         },
         "Helmet_NV_01": {
-          "inGameName": "Legendary NV Helmet",
+          "inGameName": "NV Helmet",
           "amount": 1
         }
       },
@@ -4923,7 +4923,7 @@
   },
   "Adhesive": {
     "inGameName": "Resin Gun",
-    "description": "Multi purpose tool, handy for sticking things together or providing flexible insulation.\r\n\r\nThe warning label says to not use if you need a warning label.",
+    "description": "Multi purpose tool, handy for sticking things together or providing flexible insulation.  The warning label says to not use if you need a warning label.",
     "type": "material",
     "rarity": "Uncommon",
     "weight": 5,
@@ -5000,7 +5000,7 @@
       },
       "missions": {
         "Main-Badum-FinalQuestline1-7": {
-          "inGameName": "Main-Badum-FinalQuestline1-7",
+          "inGameName": "'",
           "amount": 800
         }
       },
@@ -5196,7 +5196,7 @@
           "amount": 20
         },
         "Main-Badum-FinalQuestline1-7": {
-          "inGameName": "Main-Badum-FinalQuestline1-7",
+          "inGameName": "'",
           "amount": 800
         }
       },
@@ -5388,7 +5388,7 @@
       },
       "missions": {
         "Main-Badum-FinalQuestline1-7": {
-          "inGameName": "Main-Badum-FinalQuestline1-7",
+          "inGameName": "'",
           "amount": 800
         }
       },
@@ -5576,7 +5576,7 @@
           "amount": 15
         },
         "Main-Badum-FinalQuestline1-6": {
-          "inGameName": "Main-Badum-FinalQuestline1-6",
+          "inGameName": "'",
           "amount": 200
         }
       },
@@ -5606,7 +5606,7 @@
   },
   "OilTank": {
     "inGameName": "NiC Oil Cannister",
-    "description": "A pressured cannister filled with concentrated Nanite-infused Crude. It reacts to the storm radiation in strange ways.\r\n\r\nAlmost looks like it's alive, moving and swirling on its own.",
+    "description": "A pressured cannister filled with concentrated Nanite-infused Crude. It reacts to the storm radiation in strange ways.  Almost looks like it's alive, moving and swirling on its own.",
     "type": "material",
     "rarity": "Epic",
     "weight": 5,
@@ -5626,15 +5626,15 @@
       },
       "missions": {
         "Main-ICA-TestRun-2": {
-          "inGameName": "Put to the Test Part 2",
+          "inGameName": "Main-ICA-TestRun-2",
           "amount": 15
         },
         "Main-ICA-Caverns-13.1": {
-          "inGameName": "undefined Part 15",
+          "inGameName": "Main-ICA-Caverns-13.1",
           "amount": 18
         },
         "Main-Badum-FinalQuestline1-6": {
-          "inGameName": "Main-Badum-FinalQuestline1-6",
+          "inGameName": "'",
           "amount": 120
         }
       },
@@ -5659,7 +5659,7 @@
   },
   "AI_StriderMeat_03": {
     "inGameName": "Heavy Strider Flesh",
-    "description": "A chunk of flesh from a Heavy Strider.\r\n\r\nTougher than normal Strider meat, it barely bleeds.",
+    "description": "A chunk of flesh from a Heavy Strider.  Tougher than normal Strider meat, it barely bleeds.",
     "type": "material",
     "rarity": "Rare",
     "weight": 8,
@@ -5694,7 +5694,7 @@
   },
   "AI_RattlerEyes_02": {
     "inGameName": "Mature Rattler Eyes",
-    "description": "The eyes of a dead Mature Rattler.\r\n\r\nAge only improved the thing's sight...",
+    "description": "The eyes of a dead Mature Rattler.  Age only improved the thing's sight...",
     "type": "material",
     "rarity": "Rare",
     "weight": 5,
@@ -5709,7 +5709,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-GruntWork-7": {
-          "inGameName": "Field Research Part 8",
+          "inGameName": "Main-Osiris-GruntWork-7",
           "amount": 3
         }
       },
@@ -5734,7 +5734,7 @@
   },
   "AI_WeremoleMeat_02": {
     "inGameName": "Savage Marauder Flesh",
-    "description": "A chunk of Savage Marauder flesh.\r\n\r\nBurns if you touch it without gloves.",
+    "description": "A chunk of Savage Marauder flesh.  Burns if you touch it without gloves.",
     "type": "material",
     "rarity": "Epic",
     "weight": 10,
@@ -5795,7 +5795,7 @@
   },
   "AI_StriderHead_03": {
     "inGameName": "Heavy Strider Head",
-    "description": "The torn off head of a dead Heavy Strider.\r\n\r\nFar too ugly to mount on a wall.",
+    "description": "The torn off head of a dead Heavy Strider.  Far too ugly to mount on a wall.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 10,
@@ -5816,7 +5816,7 @@
   },
   "AI_RattlerHead_02": {
     "inGameName": "Mature Rattler Head",
-    "description": "The torn off head of a dead Mature Rattler.\r\n\r\nThese things do NOT age gracefully...",
+    "description": "The torn off head of a dead Mature Rattler.  These things do NOT age gracefully...",
     "type": "material",
     "rarity": "Legendary",
     "weight": 15,
@@ -5837,7 +5837,7 @@
   },
   "AI_WeremoleHead_02": {
     "inGameName": "Savage Marauder Head",
-    "description": "The torn off head of a dead Savage Marauder.\r\n\r\nIt's still blinking. Menacingly.",
+    "description": "The torn off head of a dead Savage Marauder.  It's still blinking. Menacingly.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 20,
@@ -5857,8 +5857,8 @@
     }
   },
   "AI_HowlerDart": {
-    "inGameName": "AI_HowlerDart",
-    "description": "AI_HowlerDart",
+    "inGameName": "Howler Dart",
+    "description": "One of the deadly projectiles Howlers use to skewer prey from a distance. This one was still not fully formed and can be harvested for useful materials. Worth some coin to the right people. , Material_AI_HowlerDart_Location,Occasionally dropped by dead Howlers.",
     "type": "material",
     "rarity": "Epic",
     "weight": 5,
@@ -5909,8 +5909,8 @@
     }
   },
   "AI_HowlerGland_01": {
-    "inGameName": "AI_HowlerGland_01",
-    "description": "AI_HowlerGland_01",
+    "inGameName": "Howler Ichor Gland",
+    "description": "A damaged gland ripped out of a dead Howler. Used by the creatures to excrete several compounds and pheromones, commonly referred to as 'honey'; the organ alone is in high demand. , Material_AI_HowlerGland_01_Location,Can sometimes be found on dead Howlers.",
     "type": "material",
     "rarity": "Epic",
     "weight": 5,
@@ -5930,8 +5930,8 @@
     }
   },
   "AI_HowlerGland_02": {
-    "inGameName": "AI_HowlerGland_02",
-    "description": "AI_HowlerGland_02",
+    "inGameName": "Inflamed Howler Ichor Gland",
+    "description": "Known as the 'Honey Gland, this organ is still capable of producing someo of the valued honey-like substance Howlers use to attract and dominate other creatures. Very valuable. , Material_AI_HowlerGland_02_Location,Can be ripped out of of dead Howlers, if you're lucky.",
     "type": "material",
     "rarity": "Exotic",
     "weight": 5,
@@ -5951,8 +5951,8 @@
     }
   },
   "AI_HowlerSyrinx_01": {
-    "inGameName": "AI_HowlerSyrinx_01",
-    "description": "AI_HowlerSyrinx_01",
+    "inGameName": "Damaged Howler Syrinx",
+    "description": "Effectively the 'vocal cords' that Howlers use to emit their iconic screams. Reaches a high price on the station. , Material_AI_HowlerSyrinx_01_Location,Rarely dropped by dead Howlers.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 5,
@@ -5977,8 +5977,8 @@
     }
   },
   "AI_HowlerSyrinx_02": {
-    "inGameName": "AI_HowlerSyrinx_02",
-    "description": "AI_HowlerSyrinx_02",
+    "inGameName": "Intact Howler Syrinx",
+    "description": "The sound emitting organ of a dead Howler, removed in one whole neat piece. The intricacies of its 'construction' make it very valuable. , Material_AI_HowlerSyrinx_02_Location,Very rarey found on dead Howlers.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 5,
@@ -5998,8 +5998,8 @@
     }
   },
   "AI_HowlerPellet": {
-    "inGameName": "AI_HowlerPellet",
-    "description": "AI_HowlerPellet",
+    "inGameName": "Howler Ichor Bulb",
+    "description": "An encased glob of Howler 'honey', the sticky substance the creatures use to affect other creatures, and as sustenance for their young. It's been found to be highly nutritious, sweet, and have almost mythical regenerative properties. Of course, it's also extremely addictive with a lethal withdrawal. , Material_AI_HowlerPellet_Location,Can be found in Howler nests.",
     "type": "material",
     "rarity": "Rare",
     "weight": 5,
@@ -6066,15 +6066,15 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-7": {
-          "inGameName": "undefined Part 7",
+          "inGameName": "Main-KOR-Caverns-7",
           "amount": 5
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "undefined Part 5",
+          "inGameName": "Main-ICA-Caverns-4",
           "amount": 5
         },
         "Main-Osiris-Caverns-8": {
-          "inGameName": "undefined Part 10",
+          "inGameName": "Main-Osiris-Caverns-8",
           "amount": 5
         }
       },
@@ -6110,11 +6110,11 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-9": {
-          "inGameName": "undefined Part 9",
+          "inGameName": "Main-KOR-Caverns-9",
           "amount": 5
         },
         "Main-Osiris-Caverns-8": {
-          "inGameName": "undefined Part 10",
+          "inGameName": "Main-Osiris-Caverns-8",
           "amount": 1
         }
       },
@@ -6145,7 +6145,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-12": {
-          "inGameName": "undefined Part 14",
+          "inGameName": "Main-Osiris-Caverns-12",
           "amount": 1
         }
       },
@@ -6165,7 +6165,7 @@
   },
   "ChargedForgeIronIngot": {
     "inGameName": "Charged Tharis Iron Ingot",
-    "description": "An ingot made of Pure Tharis Iron somehow charged with storm lightning. Sometimes lets off a shock when touched, and you can hear a buzz if you put it next to your ear.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
+    "description": "An ingot made of Pure Tharis Iron somehow charged with storm lightning. Sometimes lets off a shock when touched, and you can hear a buzz if you put it next to your ear.  OSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
     "type": "material",
     "rarity": "Exotic",
     "weight": 9,
@@ -6185,11 +6185,11 @@
       },
       "missions": {
         "Main-ICA-Caverns-13": {
-          "inGameName": "undefined Part 14",
+          "inGameName": "Main-ICA-Caverns-13",
           "amount": 5
         },
         "Main-Osiris-Caverns-14": {
-          "inGameName": "undefined Part 17",
+          "inGameName": "Main-Osiris-Caverns-14",
           "amount": 1
         }
       },
@@ -6214,7 +6214,7 @@
   },
   "SuperChargedForgeIronIngot": {
     "inGameName": "Super Charged Tharis Iron Ingot",
-    "description": "An ingot made of Pure Tharis Iron, heavily charged with storm lightning. Just touching it leaves your fingers numb.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
+    "description": "An ingot made of Pure Tharis Iron, heavily charged with storm lightning. Just touching it leaves your fingers numb.  OSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
     "type": "material",
     "rarity": "Legendary",
     "weight": 9,
@@ -6250,19 +6250,19 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-7": {
-          "inGameName": "undefined Part 7",
+          "inGameName": "Main-KOR-Caverns-7",
           "amount": 5
         },
         "Main-KOR-Caverns-9": {
-          "inGameName": "undefined Part 9",
+          "inGameName": "Main-KOR-Caverns-9",
           "amount": 5
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "undefined Part 5",
+          "inGameName": "Main-ICA-Caverns-4",
           "amount": 5
         },
         "Main-Osiris-Caverns-6": {
-          "inGameName": "undefined Part 8",
+          "inGameName": "Main-Osiris-Caverns-6",
           "amount": 5
         }
       },
@@ -6306,7 +6306,7 @@
       "printing": {},
       "missions": {
         "Main-Badum-FinalQuestline1-6": {
-          "inGameName": "Main-Badum-FinalQuestline1-6",
+          "inGameName": "'",
           "amount": 10
         }
       },
@@ -6326,7 +6326,7 @@
   },
   "AF_Token": {
     "inGameName": "Abyss Alloy",
-    "description": "A sphere of processed and activated Tharis Iron impossibly locked in place. \r\n\r\nGives an aura of infinite potential.",
+    "description": "A sphere of processed and activated Tharis Iron impossibly locked in place.   Gives an aura of infinite potential.",
     "type": "material",
     "rarity": "Legendary",
     "weight": 10,
@@ -6371,7 +6371,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-1.1": {
-          "inGameName": "undefined Part 2",
+          "inGameName": "Main-Osiris-Caverns-1.1",
           "amount": 5
         }
       },
@@ -6543,7 +6543,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-GruntWork-4": {
-          "inGameName": "Doing the Work Part 4",
+          "inGameName": "Main-ICA-GruntWork-4",
           "amount": 1
         }
       },
@@ -6622,7 +6622,7 @@
           "amount": 1
         },
         "Main-Osiris-UplinkHack-1": {
-          "inGameName": "Satellite Master Part 1",
+          "inGameName": "Main-Osiris-UplinkHack-1",
           "amount": 2
         }
       },
@@ -6667,11 +6667,11 @@
           "amount": 1
         },
         "Main-ICA-OilPump-2": {
-          "inGameName": "Back to Basics Part 2",
+          "inGameName": "Main-ICA-OilPump-2",
           "amount": 2
         },
         "Main-Osiris-UplinkHack-2": {
-          "inGameName": "Satellite Master Part 2",
+          "inGameName": "Main-Osiris-UplinkHack-2",
           "amount": 2
         }
       },
@@ -6690,7 +6690,7 @@
     }
   },
   "Data_DigSite": {
-    "inGameName": "Dig Site Data Drive",
+    "inGameName": "'Dig Site' Data Drive",
     "description": "A data drive carrying information on the Bright Sands Dig Site.",
     "type": "questItem",
     "rarity": "Uncommon",
@@ -6771,7 +6771,7 @@
   },
   "MissionItem_MinerItem1": {
     "inGameName": "Miner Cam #2F53",
-    "description": "Camera belonging to a Jamie Faulkner. The last video file is damaged, but the audio is of a large crowd demanding to be let in before suddenly cutting off.",
+    "description": "Camera belonging to a 'Jamie Faulkner'. The last video file is damaged, but the audio is of a large crowd demanding to be let in' before suddenly cutting off. '",
     "type": "questItem",
     "rarity": "Common",
     "weight": 5,
@@ -6797,7 +6797,7 @@
   },
   "MissionItem_MinerItem2": {
     "inGameName": "Miner Cam #D027",
-    "description": "Owner named only as Temporary. Last video shows several workers running out barricaded buildings and towards a clearing with a guarded ship being loaded with ore. Video cuts off after the owner appears to trip and fall.",
+    "description": "Owner named only as 'Temporary'. Last video shows several workers running out barricaded buildings and towards a clearing with a guarded ship being loaded with ore. Video cuts off after the owner appears to trip and fall.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 5,
@@ -6823,7 +6823,7 @@
   },
   "MissionItem_MinerItem3": {
     "inGameName": "Miner Cam #A45D",
-    "description": "Camera belonging to a Mayumi S. Nagao. Video shows her being pushed out of a cargo ship by a Korolev Heavy Trooper and falling into the mud. Video cuts off shortly after an eruption of gunfire is heard around her.",
+    "description": "Camera belonging to a 'Mayumi S. Nagao'. Video shows her being pushed out of a cargo ship by a Korolev Heavy Trooper and falling into the mud. Video cuts off shortly after an eruption of gunfire is heard around her.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 5,
@@ -6875,7 +6875,7 @@
   },
   "MissionItem_CreatureSample": {
     "inGameName": "Letium Bio Samples",
-    "description": "A container preserving... something. A label on the side states: WARNING: HIGH LETIUM CONTENT, DO NOT SHAKE",
+    "description": "A container preserving... something. A label on the side states: 'WARNING: HIGH LETIUM CONTENT, DO NOT SHAKE'",
     "type": "questItem",
     "rarity": "Common",
     "weight": 6,
@@ -6953,7 +6953,7 @@
   },
   "MissionItem_PowerPlantItem1": {
     "inGameName": "Notes on Meteor Experiment - 1",
-    "description": "Personal data tablet with theoretical research on powering energy generators with fragments from Fortuna's moon. The power output of a single working Fireball generator would be revolutionary.",
+    "description": "Personal data tablet with theoretical research on powering energy generators with fragments from Fortuna's moon. The power output of a single working 'Fireball generator would be revolutionary. '",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -6979,7 +6979,7 @@
   },
   "MissionItem_PowerPlantItem2": {
     "inGameName": "Notes on Meteor Experiment - 2",
-    "description": "Data on the first prototype for Project Fireball. Yields under safe conditions were underwhelming, with warnings of an uncontrollable chain reaction if pushed too hard without further research. Might explain why there's a giant hole in the moon...\r\n\r\nFinal notes suggest switching resources to look into NiC.",
+    "description": "Data on the first prototype for 'Project Fireball'. Yields under safe conditions were underwhelming, with warnings of an uncontrollable chain reaction if pushed too hard without further research. Might explain why there's a giant hole in the moon...  Final notes suggest switching resources to look into 'NiC'.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7135,7 +7135,7 @@
   },
   "MissionItem_KorChiefEngineerDiary": {
     "inGameName": "Chief Engineer's Personal Diary",
-    "description": "An off the record log of some of the events that occurred on Tharis island. While badly damaged, and much of it is in short hand, what's evident is Korolev ran into serious issues in the caverns: several reports of miners going missing, pervasive malaise, multiple accidents...\r\n\r\nThe operation's foreman clearly had little regard for workplace safety.",
+    "description": "An off the record log of some of the events that occurred on Tharis island. While badly damaged, and much of it is in short hand, what's evident is Korolev ran into serious issues in the caverns: several reports of miners going missing, pervasive malaise, multiple accidents...  The operation's foreman clearly had little regard for workplace safety.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 1,
@@ -7150,7 +7150,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-2": {
-          "inGameName": "undefined Part 2",
+          "inGameName": "Main-KOR-Caverns-2",
           "amount": 1
         }
       },
@@ -7176,7 +7176,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-5": {
-          "inGameName": "undefined Part 5",
+          "inGameName": "Main-KOR-Caverns-5",
           "amount": 8
         }
       },
@@ -7202,7 +7202,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-8": {
-          "inGameName": "undefined Part 8",
+          "inGameName": "Main-KOR-Caverns-8",
           "amount": 1
         }
       },
@@ -7213,7 +7213,7 @@
   },
   "MissionItem_MiningPartyMedicalFiles": {
     "inGameName": "Mining Party Medical Files",
-    "description": "A collection of medical reports from the Korolev team working the caverns. Initial incidents involved exhaustion and minor injuries, but later reports focus on mental clouding, hallucinations, loss of time...\r\n\r\nSymptoms appear identical to those of prolonged exposure to the Teratomorphic Energy Field that now envelops most of Fortuna III.",
+    "description": "A collection of medical reports from the Korolev team working the caverns. Initial incidents involved exhaustion and minor injuries, but later reports focus on mental clouding, hallucinations, loss of time...  Symptoms appear identical to those of prolonged exposure to the Teratomorphic Energy Field that now envelops most of Fortuna III.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 2,
@@ -7228,7 +7228,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-Caverns-11": {
-          "inGameName": "undefined Part 11",
+          "inGameName": "Main-KOR-Caverns-11",
           "amount": 1
         }
       },
@@ -7239,7 +7239,7 @@
   },
   "MissionItem_VadimPredecessorItem": {
     "inGameName": "The Tharis Files",
-    "description": "A folder kept by Gregor Kazan, the Head of Operations for Korolev when the storms hit Fortuna III decades ago. It appears he intentionally kept all reports and findings from the Tharis operations off the system, though the reason for that isn't explained, nor is how the folder ended up on the island.\r\n\r\nWorryingly, official records state less than 50 Korolev employees ever worked in the caverns, while these files list several hundred.",
+    "description": "A folder kept by Gregor Kazan, the Head of Operations for Korolev when the storms hit Fortuna III decades ago. It appears he intentionally kept all reports and findings from the Tharis operations off the system, though the reason for that isn't explained, nor is how the folder ended up on the island.  Worryingly, official records state less than 50 Korolev employees ever worked in the caverns, while these files list several hundred.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 1,
@@ -7275,7 +7275,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-2": {
-          "inGameName": "undefined Part 3",
+          "inGameName": "Main-Osiris-Caverns-2",
           "amount": 1
         }
       },
@@ -7301,7 +7301,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-2": {
-          "inGameName": "undefined Part 3",
+          "inGameName": "Main-Osiris-Caverns-2",
           "amount": 1
         }
       },
@@ -7312,7 +7312,7 @@
   },
   "MissionItem_CultistGlowCrystalItem": {
     "inGameName": "Mysterious Glowing Contraption",
-    "description": "A crystaline chunk with various cables and circuit boards haphazardly strapped on to it.\r\n\r\nIt's impossible to tell if the mind that created this had something utilitarian in mind, or if this creation is simply a form of religious art.",
+    "description": "A crystaline chunk with various cables and circuit boards haphazardly strapped on to it.  It's impossible to tell if the mind that created this had something utilitarian in mind, or if this creation is simply a form of religious 'art'.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 25,
@@ -7327,7 +7327,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-5": {
-          "inGameName": "undefined Part 7",
+          "inGameName": "Main-Osiris-Caverns-5",
           "amount": 1
         }
       },
@@ -7353,7 +7353,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-10": {
-          "inGameName": "undefined Part 12",
+          "inGameName": "Main-Osiris-Caverns-10",
           "amount": 5
         }
       },
@@ -7364,7 +7364,7 @@
   },
   "MissionItem_AlienShieldRecipe": {
     "inGameName": "Cultist Scribblings",
-    "description": "An old sheet of paper with various drawings and pictograms laid out as simple formulas, all but one scratched out.\r\n\r\nThe same trident-like drawing found on previous cultist items features prominently here.",
+    "description": "An old sheet of paper with various drawings and pictograms laid out as simple formulas, all but one scratched out.  The same trident-like drawing found on previous cultist items features prominently here.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 1,
@@ -7379,7 +7379,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-13": {
-          "inGameName": "undefined Part 15",
+          "inGameName": "Main-Osiris-Caverns-13",
           "amount": 1
         }
       },
@@ -7405,7 +7405,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-2": {
-          "inGameName": "undefined Part 2",
+          "inGameName": "Main-ICA-Caverns-2",
           "amount": 1
         }
       },
@@ -7452,7 +7452,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-5": {
-          "inGameName": "undefined Part 6",
+          "inGameName": "Main-ICA-Caverns-5",
           "amount": 1
         }
       },
@@ -7463,7 +7463,7 @@
   },
   "MissionItem_AlienDoorFragment": {
     "inGameName": "Osiris Door Fragment",
-    "description": "A loose bit from the strange door in one of the Osiris installations on Tharis Island.\r\n\r\nThe door itself seems impenetrable, far more robust than what Osiris is known for building.",
+    "description": "A loose bit from the strange door in one of the Osiris installations on Tharis Island.  The door itself seems impenetrable, far more robust than what Osiris is known for building.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 6,
@@ -7478,7 +7478,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-7": {
-          "inGameName": "undefined Part 8",
+          "inGameName": "Main-ICA-Caverns-7",
           "amount": 1
         }
       },
@@ -7504,7 +7504,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-9": {
-          "inGameName": "undefined Part 10",
+          "inGameName": "Main-ICA-Caverns-9",
           "amount": 1
         }
       },
@@ -7530,7 +7530,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-12": {
-          "inGameName": "undefined Part 13",
+          "inGameName": "Main-ICA-Caverns-12",
           "amount": 1
         }
       },
@@ -7541,7 +7541,7 @@
   },
   "MissionItem_OsiHeadScientistItem": {
     "inGameName": "Osiris Helmet Recorder",
-    "description": "A damaged Osiris researcher helmet, these always carry their own camera and data storage.\r\n\r\nFortunately, whatever it was that did short work of its wearer managed to avoid breaking any of the valuable bits.",
+    "description": "A damaged Osiris researcher helmet, these always carry their own camera and data storage.  Fortunately, whatever it was that did short work of its wearer managed to avoid breaking any of the valuable bits.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 8,
@@ -7556,7 +7556,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-Caverns-14": {
-          "inGameName": "undefined Part 16",
+          "inGameName": "Main-ICA-Caverns-14",
           "amount": 1
         }
       },
@@ -7566,8 +7566,8 @@
     }
   },
   "MissionItem_ICAWildlifePhotographerCam": {
-    "inGameName": "QuestItem_ICAWildlifePhotographerCam",
-    "description": "QuestItem_ICAWildlifePhotographerCam",
+    "inGameName": "Damaged Camera Drone",
+    "description": "A common drone used by journalists and photographers. Appears to have been in hover mode over its owner until recently.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7580,7 +7580,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-GainTrust-2": {
-          "inGameName": "Animal Control",
+          "inGameName": "Sightseeing",
           "amount": 1
         }
       },
@@ -7590,8 +7590,8 @@
     }
   },
   "MissionItem_ICAHowlerData1": {
-    "inGameName": "QuestItem_ICAHowlerData1",
-    "description": "QuestItem_ICAHowlerData1",
+    "inGameName": "Security Camera Footage",
+    "description": "Data drive from a Korolev security camera. It shows a giant creature viciously attacking a pair of prospectors second after their pods landed. Given your basic knowledge of anatomy, mainly in regards to how many litres of blood an adult has in them, it seems extremely unlikely they survived.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7604,7 +7604,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-GruntWork-3.1": {
-          "inGameName": "Main-ICA-Gruntwork-3.1",
+          "inGameName": "Road Rage",
           "amount": 1
         }
       },
@@ -7614,8 +7614,8 @@
     }
   },
   "MissionItem_ICAHowlerData2": {
-    "inGameName": "QuestItem_ICAHowlerData2",
-    "description": "QuestItem_ICAHowlerData2",
+    "inGameName": "Howler Combat Tips",
+    "description": "A collection of 'tips' on avoiding and fighting the creature known as 'Howler'. It warns against moving when the creature 'screams', and to aim for its belly when possible. Avoiding the beast altogether is listed as the best strategy, something the tip-maker failed to do.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7628,7 +7628,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-GruntWork-7": {
-          "inGameName": "Doing the Work Part 7",
+          "inGameName": "Main-ICA-GruntWork-7",
           "amount": 1
         }
       },
@@ -7638,8 +7638,8 @@
     }
   },
   "MissionItem_KORHowlerEvidence1": {
-    "inGameName": "QuestItem_KORHowlerEvidence1",
-    "description": "QuestItem_KORHowlerEvidence1",
+    "inGameName": "Howler Dossier",
+    "description": "A dossier full of old reports and photos that place previous Howler sightings near Korolev mining sites, usually immediately after a blasting or wall breach.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7652,7 +7652,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-GruntWork-3": {
-          "inGameName": "A Pinch of Pure Power",
+          "inGameName": "Main-KOR-GruntWork-3",
           "amount": 1
         }
       },
@@ -7662,8 +7662,8 @@
     }
   },
   "MissionItem_KORHowlerEvidence2": {
-    "inGameName": "QuestItem_KORHowlerEvidence2",
-    "description": "QuestItem_KORHowlerEvidence2",
+    "inGameName": "Old Howler Data",
+    "description": "A more detailed report on past Howler sighting Korolev covered. Whether or not Howler appearances were caused by Korolev mining is not confirmed, but at the time the corp certainly believed so, and went out of their way to keep all the data they collected off-network.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7676,7 +7676,7 @@
       "printing": {},
       "missions": {
         "Main-KOR-GruntWork-6": {
-          "inGameName": "For all the Trees",
+          "inGameName": "Main-KOR-GruntWork-6",
           "amount": 1
         }
       },
@@ -7686,8 +7686,8 @@
     }
   },
   "MissionItem_OSIHowlerClue1": {
-    "inGameName": "QuestItem_OSIHowlerClue1",
-    "description": "QuestItem_OSIHowlerClue1",
+    "inGameName": "Shredded Armor Panel",
+    "description": "Broken and mangled, with some beast's claw still lodged in it. Few creatures are able to deal this much damage. Osiris will want to analyse this.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7710,8 +7710,8 @@
     }
   },
   "MissionItem_OSIHowlerSample1": {
-    "inGameName": "QuestItem_OSIHowlerSample1",
-    "description": "QuestItem_OSIHowlerSample1",
+    "inGameName": "Auditory Organ",
+    "description": "Appears to be the organ the howling beasts use to echolocate targets. You're unsure why this was in one of its nests... perhaps molting? Or part of a grim mating ritual?",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7734,8 +7734,8 @@
     }
   },
   "MissionItem_ICAAudioDecoysPlan": {
-    "inGameName": "QuestItem_ICAAudioDecoysPlan",
-    "description": "QuestItem_ICAAudioDecoysPlan",
+    "inGameName": "Audio Decoy Schematics",
+    "description": "Schematics for a new kind of non-lethal grenade, aimed at simulating weapons fire.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7748,7 +7748,7 @@
       "printing": {},
       "missions": {
         "Main-ICA-AudioDecoys-1": {
-          "inGameName": "Audiophiles Beware Part 1",
+          "inGameName": "Main-ICA-AudioDecoys-1",
           "amount": 1
         }
       },
@@ -7758,8 +7758,8 @@
     }
   },
   "MissionItem_OSIStrongStimRecipe": {
-    "inGameName": "QuestItem_OSIStrongStimRecipe",
-    "description": "QuestItem_OSIStrongStimRecipe",
+    "inGameName": "Med Stims Formula",
+    "description": "The recipe required to create stronger med stims. Very few of these components sound safe to ever be near living tissue.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7782,8 +7782,8 @@
     }
   },
   "MissionItem_OSIPaleIvySample": {
-    "inGameName": "QuestItem_OSIPaleIvySample",
-    "description": "QuestItem_OSIPaleIvySample",
+    "inGameName": "Flora Sample",
+    "description": "Sample of a flower native to Fortuna III. While this plant could theoretically survive on Bright Sands, it's very unlikely it originated from here.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7796,7 +7796,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-GruntWork-5": {
-          "inGameName": "Field Research Part 6",
+          "inGameName": "Main-Osiris-GruntWork-5",
           "amount": 1
         }
       },
@@ -7806,8 +7806,8 @@
     }
   },
   "MissionItem_OSICrystalCaveClue": {
-    "inGameName": "QuestItem_OSICrystalCaveClue",
-    "description": "QuestItem_OSICrystalCaveClue",
+    "inGameName": "Crystalline Material Research",
+    "description": "Old Osiris research documents, focussed on a new rare crystaline structure. Likely pilfered from an Osiris research lab or lost in the evacuations, it's unlikely the research would have been carried out at the Favela.",
     "type": "questItem",
     "rarity": "Common",
     "weight": 4,
@@ -7820,7 +7820,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-CaveRumors-2": {
-          "inGameName": "undefined Part 3",
+          "inGameName": "Main-Osiris-CaveRumors-2",
           "amount": 1
         }
       },
@@ -7831,7 +7831,7 @@
   },
   "WP_A_Pistol_Bullet_01": {
     "inGameName": "Hammer",
-    "description": "Pistol, inflicts devastating damage on its targets, at the cost of any kind of subtlety.",
+    "description": "A heavy pistol that can inflict devastating damage, at the cost of any kind of subtlety. Audible range: 400m",
     "type": "weapon",
     "rarity": "Exotic",
     "weight": 20,
@@ -7859,7 +7859,7 @@
   },
   "WP_A_SGun_Energy_01": {
     "inGameName": "PKR Maelstrom",
-    "description": "A semi-automatic shotgun, it's heavy and a poor choice at range, but utterly devastating up close.",
+    "description": "A semi-automatic shotgun; heavy and a poor choice at range, but utterly devastating up close. Audible range: 350m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 25,
@@ -7887,7 +7887,7 @@
   },
   "WP_A_SMG_Shard_01": {
     "inGameName": "KM-9 'Scrapper'",
-    "description": "A rapid-firing shard SMG, a good choice for taking out targets at close range, though of little use in long range engagements.",
+    "description": "A rapid-firing shard SMG; a good choice for taking out targets at close range, though of little use in long range engagements. Audible range: 350m",
     "type": "weapon",
     "rarity": "Uncommon",
     "weight": 30,
@@ -7915,7 +7915,7 @@
   },
   "WP_A_AR_Bullet_01": {
     "inGameName": "KOR-47",
-    "description": "Heavy assault rifle. Lower firing rate than most competing weapons in its class but packs a punch.",
+    "description": "Heavy assault rifle. Lower rate of fire than others in its class, but packs a punch. Audible range: 400m",
     "type": "weapon",
     "rarity": "Exotic",
     "weight": 35,
@@ -7943,7 +7943,7 @@
   },
   "WP_A_BR_Bullet_01": {
     "inGameName": "KBR Longshot",
-    "description": "A marksman rifle with good accuracy and power excels in medium range engagements.",
+    "description": "A marksman rifle with good accuracy and power. Excels in medium range engagements. Audible range: 450m",
     "type": "weapon",
     "rarity": "Epic",
     "weight": 50,
@@ -7971,7 +7971,7 @@
   },
   "WP_A_Sniper_Gauss_01": {
     "inGameName": "KARMA-1",
-    "description": "While heavy and requiring a charge-up to fire, a direct hit from the KARMA-1 will cripple if not outright kill any target.",
+    "description": "While heavy and requiring a charge-up to fire, a direct hit from will cripple if not outright kill almost any target. Audible range: 500m",
     "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
@@ -8002,7 +8002,7 @@
   },
   "WP_D_Pistol_Bullet_01": {
     "inGameName": "Bulldog",
-    "description": "Shotgun that suffers from very limited range.",
+    "description": "A powerful shotgun pistol that suffers from very limited range. Audible range: 300m",
     "type": "weapon",
     "rarity": "Uncommon",
     "weight": 20,
@@ -8030,7 +8030,7 @@
   },
   "WP_D_SGun_Shard_01": {
     "inGameName": "Shattergun",
-    "description": "An unconventional shotgun shooting crystal fragments through kinetic and thermal energy.",
+    "description": "An unconventional shotgun that fires shard fragments by shattering an unstable fuel crystal. Audible range: 350m",
     "type": "weapon",
     "rarity": "Epic",
     "weight": 25,
@@ -8058,7 +8058,7 @@
   },
   "WP_D_SMG_Energy_01": {
     "inGameName": "Voltaic Brute",
-    "description": "An SMG offering high versatility in its effective range.",
+    "description": "An SMG with high versatility in its effective range. Audible range: 350m",
     "type": "weapon",
     "rarity": "Exotic",
     "weight": 30,
@@ -8086,7 +8086,7 @@
   },
   "WP_D_LMG_Energy_01": {
     "inGameName": "ICA Guarantee",
-    "description": "A fast firing Phase LMG perfect to suppress targets.",
+    "description": "A fast firing phase LMG, perfect for pinning down targets. Audible range: 400m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 50,
@@ -8114,7 +8114,7 @@
   },
   "WP_D_AR_Bullet_01": {
     "inGameName": "Advocate",
-    "description": "A dependable assault rifle offering a good balance between accuracy and rate of fire.",
+    "description": "A dependable assault rifle that offers a good balance between accuracy and rate of fire. Audible range: 400m",
     "type": "weapon",
     "rarity": "Epic",
     "weight": 35,
@@ -8142,7 +8142,7 @@
   },
   "WP_D_BR_Shard_01": {
     "inGameName": "Lacerator",
-    "description": "A capable marksman rifle boasting a decent fire rate, accuracy, and handling.",
+    "description": "A capable marksman rifle, has a decent fire rate, accuracy, and good handling. Audible range: 450m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 50,
@@ -8170,7 +8170,7 @@
   },
   "WP_D_Sniper_Gauss_01": {
     "inGameName": "Kinetic Arbiter",
-    "description": "A gauss sniper rifle firing metal rods at immense velocity. This weapon is favored among Prospectors that want to resolve their differences quickly and from a safe distance.",
+    "description": "A gauss sniper rifle that fires metal rods at immense velocity. Favored among Prospectors that want to resolve issues quickly quickly and from a safe distance. Audible range: 500m",
     "type": "weapon",
     "rarity": "Exotic",
     "weight": 50,
@@ -8198,7 +8198,7 @@
   },
   "WP_E_Pistol_Bullet_01": {
     "inGameName": "K-28",
-    "description": "A standard semi-automatic pistol. It's an effective sidearm for any Prospector.",
+    "description": "A standard semi-automatic pistol. An effective sidearm for any Prospector. Audible range: 300m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 20,
@@ -8225,7 +8225,7 @@
   },
   "WP_E_SGun_Bullet_01": {
     "inGameName": "B9 Trenchgun",
-    "description": "Pump-action shotgun, high-spread, short range. Yep, it's a shotgun, all right.",
+    "description": "Pump-action shotgun with high-spread and short range. Yep, it's a shotgun, all right. Audible range: 350m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 25,
@@ -8252,7 +8252,7 @@
   },
   "WP_E_SMG_Bullet_01": {
     "inGameName": "S-576 PDW",
-    "description": "A commonly used SMG with high rate of fire which makes it formidable up close.",
+    "description": "A popular SMG with high rate of fire, formidable at close range. Audible range: 350m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 30,
@@ -8279,7 +8279,7 @@
   },
   "WP_E_AR_Energy_01": {
     "inGameName": "AR-55 Autorifle",
-    "description": "A decent fully automatic rifle, doesn't excel in any one department, but comfortably versatile and lethally effective.",
+    "description": "A decent fully automatic rifle; doesn't excel in any one department, but it's effective and versatile. Audible range: 400m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 35,
@@ -8306,7 +8306,7 @@
   },
   "WP_E_Sniper_Bullet_01": {
     "inGameName": "C-32 Bolt Action",
-    "description": "Bolt action sniper rifle that was commonly used by the local population.",
+    "description": "Bolt action sniper rifle that was commonly used by colonists. Accurate and dependable. Audible range: 500m",
     "type": "weapon",
     "rarity": "Common",
     "weight": 50,
@@ -8399,7 +8399,7 @@
   },
   "WP_G_Pistol_Energy_01": {
     "inGameName": "Scarab",
-    "description": "A dependable pistol, fires controlled and powerful three-shot bursts.",
+    "description": "A dependable pistol, fires in controlled and powerful three-shot bursts. Audible range: 300m",
     "type": "weapon",
     "rarity": "Uncommon",
     "weight": 20,
@@ -8427,7 +8427,7 @@
   },
   "WP_G_SMG_Needle_01": {
     "inGameName": "Asp Flechette Gun",
-    "description": "Lightweight SMG. A formidable automatic weapon for close range encounters.",
+    "description": "Lightweight SMG. A formidable automatic weapon for close range encounters. Audible range: 350m",
     "type": "weapon",
     "rarity": "Epic",
     "weight": 30,
@@ -8455,7 +8455,7 @@
   },
   "WP_G_AR_Energy_01": {
     "inGameName": "Phasic Lancer",
-    "description": "A burst rifle shooting accurate controlled 3-shot bursts, effective against most threats a Prospector might encounter.",
+    "description": "A burst rifle that fires in accurate 3-shot bursts, effective against most threats a Prospector might encounter. Audible range: 400m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 35,
@@ -8483,7 +8483,7 @@
   },
   "WP_G_AR_Beam_01": {
     "inGameName": "Gorgon",
-    "description": "A powerful beam rifle that requires charging up before firing. Not the easiest to handle, but lethal in proper hands.",
+    "description": "A powerful beam rifle that needs charging up to fire. Not the easiest to handle, but lethal in proper hands. Audible range: 350m",
     "type": "weapon",
     "rarity": "Epic",
     "weight": 35,
@@ -8511,7 +8511,7 @@
   },
   "WP_G_AR_Needle_01": {
     "inGameName": "Manticore",
-    "description": "A flechette assault rifle, it's heavy hitting but less accurate compared to other rifles.",
+    "description": "A flechette assault rifle; it's heavy hitting, but less accurate compared to similar rifles. Audible range: 400m",
     "type": "weapon",
     "rarity": "Uncommon",
     "weight": 35,
@@ -8539,7 +8539,7 @@
   },
   "WP_G_Sniper_Energy_01": {
     "inGameName": "Basilisk",
-    "description": "A phase tech marksman rifle; considered ahead of its time, the impacts are powerful for its class, and it boasts a high rate of fire.",
+    "description": "A phase tech marksman rifle; the impacts are powerful for its class, and it boasts a high rate of fire. Audible range: 450m",
     "type": "weapon",
     "rarity": "Exotic",
     "weight": 50,
@@ -8567,7 +8567,7 @@
   },
   "WP_A_HVY_Shell_01": {
     "inGameName": "KARLA",
-    "description": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire.",
+    "description": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire. , Weapons_WP_A_HVY_Shell_01_Lore,The Korolev Anti-material Repeating Light Artillery, or KARLA, was originally intended as a vehicle-mounted weapon, but advanced recoil management allowed Korolev to produce a portable version for use without a warsuit.",
     "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
@@ -8588,7 +8588,7 @@
   },
   "WP_A_Launch_MSL_01": {
     "inGameName": "KOMRAD",
-    "description": "This fearsome weapon platform is capable of firing salvos of fast-moving missiles capable of making short work of any hostile element.",
+    "description": "This fearsome weapon is fires salvos of fast-moving missiles capable of making short work of near any hostile element. Audible range: 500m",
     "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
@@ -8619,7 +8619,7 @@
   },
   "WP_E_Launch_Nade_01": {
     "inGameName": "FF4 Detonator",
-    "description": "A standard grenade launcher with a high damage output, it requires skilled use to operate efficiently.",
+    "description": "A standard grenade launcher with a high damage output; it requires skilled use to operate efficiently. , Weapons_WP_E_Launch_Nade_01_Lore,Initially intended for use by colonists to clear out vermin en masse, the Detonator's payload has been modified for larger and more dangerous targets. This one seems to be from even before the colony was founded.",
     "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
@@ -8640,7 +8640,7 @@
   },
   "WP_D_HVY_Exotic_01": {
     "inGameName": "HAZE",
-    "description": "A slow firing launcher, projectiles create a harming energy field on impact. Further discharges of the launcher into an active field feed into it, until reaching a critical point resulting in a devastating release of energy.",
+    "description": "A slow firing launcher, projectiles create a harming energy field on impact. Further discharges of the launcher into an active field feed into it, until reaching a critical point resulting in a devastating release of energy. , Weapons_WP_D_HVY_Exotic_01_Lore,Discovered while developing an a veltecite-powered plasma cannon, High Amplitude Zender Emmissions were found to have an effect remarkably similar to the effect of the energy field known as 'The Cycle', though the decaying plasma core fueling it is much shorter lived than the anomaly surrounding Fortuna III.",
     "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
@@ -8661,7 +8661,7 @@
   },
   "WP_G_HVY_Beam_01": {
     "inGameName": "Zeus Beam",
-    "description": "Called Zeus for turning any mortal into the God of Lightning, this heavy weapon will fulminate any creature that meets your divine ire.",
+    "description": "Called 'Zeus' for turning any mortal into the God of Lightning, it can fulminate any creature that meets your divine ire. Audible range: 350m",
     "type": "weapon",
     "rarity": "Legendary",
     "weight": 60,
@@ -8713,8 +8713,8 @@
     }
   },
   "WP_A_Sniper_Shard_01": {
-    "inGameName": "WP_A_Sniper_Shard_01",
-    "description": "WP_A_Sniper_Shard_01",
+    "inGameName": "Suppressed Prototype Sniper",
+    "description": "A suppressed sniper in a lightweight design firing shards allowing it to be less noticeable and easier to reposition.",
     "type": "weapon",
     "rarity": "Common",
     "weight": 50,
@@ -8734,8 +8734,8 @@
     }
   },
   "WP_G_AR_Needle_02": {
-    "inGameName": "WP_G_AR_Needle_02",
-    "description": "WP_G_AR_Needle_02",
+    "inGameName": "Manticore - Mk.II",
+    "description": "The Harbinger Expeditionary Corps. variant of the Manticore, more powerful than the civilian Manticore available for sale. Audible range: 400m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 35,
@@ -8756,8 +8756,8 @@
     }
   },
   "WP_D_LMG_Energy_02": {
-    "inGameName": "WP_D_LMG_Energy_02",
-    "description": "WP_D_LMG_Energy_02",
+    "inGameName": "ICA Guarantee - Mk.I",
+    "description": "A less powerful version of the Guarantee, originally intended for when more conventional methods of pest control  were not enough. Audible range: 400m",
     "type": "weapon",
     "rarity": "Uncommon",
     "weight": 50,
@@ -8784,8 +8784,8 @@
     }
   },
   "WP_G_Pistol_Energy_02": {
-    "inGameName": "WP_G_Pistol_Energy_02",
-    "description": "WP_G_Pistol_Energy_02",
+    "inGameName": "Scarab - Mk.II",
+    "description": "An improved version of the standard Scarab Adaptive Phase Pistol, custom built for the Osiris Harbinger Expeditionary Corps. A rare find, worth keeping hold of. Audible range: 300m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 20,
@@ -8806,8 +8806,8 @@
     }
   },
   "WP_E_SMG_Bullet_02": {
-    "inGameName": "WP_E_SMG_Bullet_02",
-    "description": "WP_E_SMG_Bullet_02",
+    "inGameName": "S-576 PDW - Mk.II",
+    "description": "An improved version of the S-576, meant for use by colony security forces before the surface was abandoned.  Audible range: 350m",
     "type": "weapon",
     "rarity": "Uncommon",
     "weight": 30,
@@ -8828,8 +8828,8 @@
     }
   },
   "WP_E_AR_Energy_02": {
-    "inGameName": "WP_E_AR_Energy_02",
-    "description": "WP_E_AR_Energy_02",
+    "inGameName": "AR-55 Autorifle - Mk.II",
+    "description": "A contraband version of the AR-55, originally intended for use in the Demia Rebellion. More powerful than the mass produced version CoTEC would later sell to various frontier worlds. Audible range: 400m",
     "type": "weapon",
     "rarity": "Uncommon",
     "weight": 35,
@@ -8850,8 +8850,8 @@
     }
   },
   "WP_A_BR_Bullet_02": {
-    "inGameName": "WP_A_BR_Bullet_02",
-    "description": "WP_A_BR_Bullet_02",
+    "inGameName": "KBR Longshot - Mk.I",
+    "description": "And older version of the KBR used by Korolev's on-site security forces. Audible range: 450m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 50,
@@ -8872,8 +8872,8 @@
     }
   },
   "WP_G_SMG_Needle_02": {
-    "inGameName": "WP_G_SMG_Needle_02",
-    "description": "WP_G_SMG_Needle_02",
+    "inGameName": "Asp Flechette Gun - Mk.I",
+    "description": "A civilian security issue Asp. Not as powerful as the standard Osiris version, it's still a competent SMG.  Audible range: 350m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 30,
@@ -8900,8 +8900,8 @@
     }
   },
   "WP_A_Pistol_Bullet_02": {
-    "inGameName": "WP_A_Pistol_Bullet_02",
-    "description": "WP_A_Pistol_Bullet_02",
+    "inGameName": "Hammer - Mk.I",
+    "description": "An older version of the Hammer, popular among colonists before the storms. Packs less of a punch, but still a beast. Audible range: 400m",
     "type": "weapon",
     "rarity": "Rare",
     "weight": 20,
@@ -8928,8 +8928,8 @@
     }
   },
   "WP_A_Sniper_Gauss_02": {
-    "inGameName": "WP_A_Sniper_Gauss_02",
-    "description": "WP_A_Sniper_Gauss_02",
+    "inGameName": "KARMA-XT - Mk.I",
+    "description": "One of various KARMA prototypes Korolev built on Fortuna III. Features a less powerful battery than the KARMA-1 release version. Audible range: 500m",
     "type": "weapon",
     "rarity": "Epic",
     "weight": 60,
@@ -8950,8 +8950,8 @@
     }
   },
   "WP_G_HVY_Beam_02": {
-    "inGameName": "WP_G_HVY_Beam_02",
-    "description": "WP_G_HVY_Beam_02",
+    "inGameName": "Zeus Beam - Mk.I",
+    "description": "An older prototype version of the mighty Zeus. Still capable of fulminating most targets. Audible range: 350m",
     "type": "weapon",
     "rarity": "Epic",
     "weight": 60,
@@ -8972,8 +8972,8 @@
     }
   },
   "WP_E_Sniper_Bullet_02": {
-    "inGameName": "WP_E_Sniper_Bullet_02",
-    "description": "WP_E_Sniper_Bullet_02",
+    "inGameName": "C-32 Bolt Action - Mk.II",
+    "description": "A more powerful variant of the C-32 used by Sentinels to keep the peace outside the old settled areas.  Audible range: 500m",
     "type": "weapon",
     "rarity": "Uncommon",
     "weight": 50,
@@ -8995,7 +8995,7 @@
   },
   "Consumable_Health_01": {
     "inGameName": "Weak Stim",
-    "description": "Offering an immediate 15 health boost.",
+    "description": "Fast application. Provides a slight health boost.",
     "type": "consumable",
     "rarity": "Common",
     "weight": 3,
@@ -9033,7 +9033,7 @@
   },
   "Consumable_Health_02": {
     "inGameName": "Strong Stim",
-    "description": "Offering an immediate 25 health boost.",
+    "description": "Fast application. Provides a small health boost.",
     "type": "consumable",
     "rarity": "Uncommon",
     "weight": 3,
@@ -9066,7 +9066,7 @@
   },
   "Consumable_Health_03": {
     "inGameName": "Weak Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a great health boost.",
     "type": "consumable",
     "rarity": "Common",
     "weight": 15,
@@ -9104,7 +9104,7 @@
   },
   "Consumable_Health_04": {
     "inGameName": "Combat Stim",
-    "description": "Offering an immediate 30 health boost.",
+    "description": "Fast application. Provides a moderate health boost.",
     "type": "consumable",
     "rarity": "Rare",
     "weight": 3,
@@ -9138,7 +9138,7 @@
   },
   "Consumable_Health_05": {
     "inGameName": "Strong Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a massive health boost.",
     "type": "consumable",
     "rarity": "Uncommon",
     "weight": 15,
@@ -9170,7 +9170,7 @@
   },
   "Consumable_Health_06": {
     "inGameName": "Combat Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a full health boost.",
     "type": "consumable",
     "rarity": "Rare",
     "weight": 15,
@@ -9569,7 +9569,7 @@
       "printing": {},
       "missions": {
         "Main-Osiris-Caverns-14": {
-          "inGameName": "undefined Part 17",
+          "inGameName": "Main-Osiris-Caverns-14",
           "amount": 1
         }
       },
@@ -9636,7 +9636,7 @@
     }
   },
   "Shield_01": {
-    "inGameName": "Common Shield",
+    "inGameName": "Basic Shields",
     "description": "Protects the body of its wearer.",
     "type": "shield",
     "rarity": "Common",
@@ -9672,7 +9672,7 @@
     }
   },
   "Shield_02": {
-    "inGameName": "Uncommon Shield",
+    "inGameName": "Standard Shields",
     "description": "Protects the body of its wearer.",
     "type": "shield",
     "rarity": "Uncommon",
@@ -9698,7 +9698,7 @@
     }
   },
   "Shield_03": {
-    "inGameName": "Rare Shield",
+    "inGameName": "Reinforced Shields",
     "description": "Protects the body of its wearer.",
     "type": "shield",
     "rarity": "Rare",
@@ -9725,7 +9725,7 @@
     }
   },
   "Shield_04": {
-    "inGameName": "Epic Shield",
+    "inGameName": "Combat Shields",
     "description": "Protects the body of its wearer.",
     "type": "shield",
     "rarity": "Epic",
@@ -9752,7 +9752,7 @@
     }
   },
   "Shield_05": {
-    "inGameName": "Exotic Shield",
+    "inGameName": "Enhanced Shields",
     "description": "Protects the body of its wearer.",
     "type": "shield",
     "rarity": "Exotic",
@@ -9779,7 +9779,7 @@
     }
   },
   "Shield_Tactical_01": {
-    "inGameName": "Common Tactical Shield",
+    "inGameName": "Basic Tactical Shields",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "type": "shield",
     "rarity": "Common",
@@ -9815,7 +9815,7 @@
     }
   },
   "Shield_Tactical_02": {
-    "inGameName": "Uncommon Tactical Shield",
+    "inGameName": "Standard Tactical Shields",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "type": "shield",
     "rarity": "Uncommon",
@@ -9842,7 +9842,7 @@
     }
   },
   "Shield_Tactical_03": {
-    "inGameName": "Rare Tactical Shield",
+    "inGameName": "Reinforced Tactical Shields",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "type": "shield",
     "rarity": "Rare",
@@ -9869,7 +9869,7 @@
     }
   },
   "Shield_Restoration_01": {
-    "inGameName": "Uncommon Restoration Shield",
+    "inGameName": "Standard Restorative Shields",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "type": "shield",
     "rarity": "Uncommon",
@@ -9896,7 +9896,7 @@
     }
   },
   "Shield_Restoration_02": {
-    "inGameName": "Rare Restoration Shield",
+    "inGameName": "Reinforced Restorative Shields",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "type": "shield",
     "rarity": "Rare",
@@ -9923,8 +9923,8 @@
     }
   },
   "Shield_Altered_01": {
-    "inGameName": "Epic Shield_Altered_01",
-    "description": "Shield_Altered_01",
+    "inGameName": "Combat Forged Shields",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "type": "shield",
     "rarity": "Epic",
     "weight": 40,
@@ -9942,8 +9942,8 @@
     }
   },
   "Shield_Altered_02": {
-    "inGameName": "Exotic Shield_Altered_02",
-    "description": "Shield_Altered_02",
+    "inGameName": "Enhanced Forged Shields",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "type": "shield",
     "rarity": "Exotic",
     "weight": 40,
@@ -9961,8 +9961,8 @@
     }
   },
   "Shield_Altered_03": {
-    "inGameName": "Legendary Shield_Altered_03",
-    "description": "Shield_Altered_03",
+    "inGameName": "Titan Forged Shields",
+    "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "type": "shield",
     "rarity": "Legendary",
     "weight": 40,
@@ -9980,7 +9980,7 @@
     }
   },
   "Helmet_01": {
-    "inGameName": "Common Helmet",
+    "inGameName": "Basic Helmet",
     "description": "Protects the head of its wearer.",
     "type": "helmet",
     "rarity": "Common",
@@ -10016,7 +10016,7 @@
     }
   },
   "Helmet_02": {
-    "inGameName": "Uncommon Helmet",
+    "inGameName": "Standard Helmet",
     "description": "Protects the head of its wearer.",
     "type": "helmet",
     "rarity": "Uncommon",
@@ -10042,7 +10042,7 @@
     }
   },
   "Helmet_03": {
-    "inGameName": "Rare Helmet",
+    "inGameName": "Reinforced Helmet",
     "description": "Protects the head of its wearer.",
     "type": "helmet",
     "rarity": "Rare",
@@ -10068,7 +10068,7 @@
     }
   },
   "Helmet_04": {
-    "inGameName": "Epic Helmet",
+    "inGameName": "Combat Helmet",
     "description": "Protects the head of its wearer.",
     "type": "helmet",
     "rarity": "Epic",
@@ -10094,7 +10094,7 @@
     }
   },
   "Helmet_05": {
-    "inGameName": "Exotic Helmet",
+    "inGameName": "Ehanced Helmet",
     "description": "Protects the head of its wearer.",
     "type": "helmet",
     "rarity": "Exotic",
@@ -10121,7 +10121,7 @@
     }
   },
   "Helmet_Tactical_01": {
-    "inGameName": "Common Tactical Helmet",
+    "inGameName": "Basic Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "type": "helmet",
     "rarity": "Common",
@@ -10157,7 +10157,7 @@
     }
   },
   "Helmet_Tactical_02": {
-    "inGameName": "Uncommon Tactical Helmet",
+    "inGameName": "Standard Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "type": "helmet",
     "rarity": "Uncommon",
@@ -10184,7 +10184,7 @@
     }
   },
   "Helmet_Tactical_03": {
-    "inGameName": "Rare Tactical Helmet",
+    "inGameName": "Reinforced Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "type": "helmet",
     "rarity": "Rare",
@@ -10211,7 +10211,7 @@
     }
   },
   "Helmet_Restoration_01": {
-    "inGameName": "Uncommon Restoration Helmet",
+    "inGameName": "Standard Restorative Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "type": "helmet",
     "rarity": "Uncommon",
@@ -10238,7 +10238,7 @@
     }
   },
   "Helmet_Restoration_02": {
-    "inGameName": "Rare Restoration Helmet",
+    "inGameName": "Reinforced Restorative Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "type": "helmet",
     "rarity": "Rare",
@@ -10265,7 +10265,7 @@
     }
   },
   "Helmet_NV_01": {
-    "inGameName": "Legendary NV Helmet",
+    "inGameName": "NV Helmet",
     "description": "Military grade helmet that includes vision enhancement tech.",
     "type": "helmet",
     "rarity": "Legendary",
@@ -10292,8 +10292,8 @@
     }
   },
   "Helmet_Altered_01": {
-    "inGameName": "Epic Helmet_Altered_01",
-    "description": "Helmet_Altered_01",
+    "inGameName": "Combat Forged Helmet",
+    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "type": "helmet",
     "rarity": "Epic",
     "weight": 20,
@@ -10311,8 +10311,8 @@
     }
   },
   "Helmet_Altered_02": {
-    "inGameName": "Exotic Helmet_Altered_02",
-    "description": "Helmet_Altered_02",
+    "inGameName": "Enhanced Forged Helmet",
+    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "type": "helmet",
     "rarity": "Exotic",
     "weight": 20,
@@ -10330,8 +10330,8 @@
     }
   },
   "Helmet_Altered_03": {
-    "inGameName": "Legendary Helmet_Altered_03",
-    "description": "Helmet_Altered_03",
+    "inGameName": "Titan Forged Helmet",
+    "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "type": "helmet",
     "rarity": "Legendary",
     "weight": 20,
@@ -10463,8 +10463,8 @@
     }
   },
   "Mod_Korolev_Scanner_AlienCrystals": {
-    "inGameName": "Focus Crystal Scanning Module",
-    "description": "Scanners equipped with this Attachment can highlight Focus Crystals and Pure Focus Crystals while scanning.",
+    "inGameName": "Focus Crystal Scanning Module, Mod_Korolev_Scanner_AlienCrystals_Description,Scanners equipped with this Attachment can highlight Focus Crystals and Pure Focus Crystals while scanning.",
+    "description": "Mod_Korolev_Scanner_AlienCrystals",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 1,
@@ -10489,8 +10489,8 @@
     }
   },
   "Mod_Korolev_Scanner_HeavyMetals": {
-    "inGameName": "Titan Ore Scanning Module",
-    "description": "Scanners equipped with this Attachment can highlight Titan Ore and Brittle Titan Ore while scanning.",
+    "inGameName": "Titan Ore Scanning Module, Mod_Korolev_Scanner_HeavyMetals_Description,Scanners equipped with this Attachment can highlight Titan Ore and Brittle Titan Ore while scanning.",
+    "description": "Mod_Korolev_Scanner_HeavyMetals",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 1,
@@ -10515,8 +10515,8 @@
     }
   },
   "Mod_Korolev_Scanner_Veltecite": {
-    "inGameName": "Veltecite Scanning Module",
-    "description": "Scanners equipped with this Attachment can highlight Veltecite while scanning.",
+    "inGameName": "Veltecite Scanning Module, Mod_Korolev_Scanner_Veltecite_Description,Scanners equipped with this Attachment can highlight Veltecite while scanning.",
+    "description": "Mod_Korolev_Scanner_Veltecite",
     "type": "attachment",
     "rarity": "Common",
     "weight": 1,
@@ -10541,8 +10541,8 @@
     }
   },
   "Mod_Optic_2x_01": {
-    "inGameName": "2x Optic",
-    "description": "Optic with 2x Magnification.",
+    "inGameName": "2x Optic, Mod_Optic_2x_01_Description,Optic with 2x Magnification.",
+    "description": "Mod_Optic_2x_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -10579,8 +10579,8 @@
     }
   },
   "Mod_Optic_4x_01": {
-    "inGameName": "4x Optic",
-    "description": "Optic with 4x Magnification.",
+    "inGameName": "4x Optic, Mod_Optic_4x_01_Description,Optic with 4x Magnification.",
+    "description": "Mod_Optic_4x_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -10607,8 +10607,8 @@
     }
   },
   "Mod_Magazine_Light_03": {
-    "inGameName": "Light Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Light Extended, Mod_Magazine_Light_03_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Light_03",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -10636,8 +10636,8 @@
     }
   },
   "Mod_Magazine_Light_02": {
-    "inGameName": "Light Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Light Extended, Mod_Magazine_Light_02_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Light_02",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -10657,8 +10657,8 @@
     }
   },
   "Mod_Magazine_Light_01": {
-    "inGameName": "Light Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Light Extended, Mod_Magazine_Light_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Light_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
@@ -10685,8 +10685,8 @@
     }
   },
   "Mod_Magazine_Medium_01": {
-    "inGameName": "Medium Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Medium_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
@@ -10713,8 +10713,8 @@
     }
   },
   "Mod_Magazine_Heavy_01": {
-    "inGameName": "Heavy Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Heavy_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
@@ -10741,8 +10741,8 @@
     }
   },
   "Mod_Magazine_Shotgun_01": {
-    "inGameName": "Shotgun Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Shotgun_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
@@ -10769,8 +10769,8 @@
     }
   },
   "Mod_Muzzle_Small_Supressor_01": {
-    "inGameName": "Small Suppressor",
-    "description": "Suppresses the produced sound when firing.",
+    "inGameName": "Small Suppressor, Mod_Muzzle_Small_Supressor_01_Description,Suppresses the produced sound when firing.",
+    "description": "Mod_Muzzle_Small_Supressor_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -10798,8 +10798,8 @@
     }
   },
   "Mod_Muzzle_Standard_Supressor_01": {
-    "inGameName": "Medium Suppressor",
-    "description": "Suppresses the produced sound when firing.",
+    "inGameName": "Medium Suppressor, Mod_Muzzle_Standard_Supressor_01_Description,Suppresses the produced sound when firing.",
+    "description": "Mod_Muzzle_Standard_Supressor_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -10827,8 +10827,8 @@
     }
   },
   "Mod_Converter_Light_01": {
-    "inGameName": "Light Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Light_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
@@ -10855,8 +10855,8 @@
     }
   },
   "Mod_Converter_Medium_01": {
-    "inGameName": "Medium Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Medium_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
@@ -10883,8 +10883,8 @@
     }
   },
   "Mod_Converter_Heavy_01": {
-    "inGameName": "Heavy Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Heavy_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
@@ -10911,8 +10911,8 @@
     }
   },
   "Mod_Converter_Shotgun_01": {
-    "inGameName": "Shotgun Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Shotgun_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
@@ -10939,8 +10939,8 @@
     }
   },
   "Mod_ForeGrip_Angled_01": {
-    "inGameName": "Angled Foregrip",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Angled Foregrip, Mod_ForeGrip_Angled_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_ForeGrip_Angled_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -10977,8 +10977,8 @@
     }
   },
   "Mod_RearGrip_01": {
-    "inGameName": "Ergonomic Grip",
-    "description": "Improves a weapon's time to equip.",
+    "inGameName": "Ergonomic Grip, Mod_RearGrip_01_Description,Improves a weapon's time to equip.",
+    "description": "Mod_RearGrip_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 1,
@@ -11015,8 +11015,8 @@
     }
   },
   "Mod_Tactical_Flashlight_01": {
-    "inGameName": "Tactical Light",
-    "description": "A mounted flashlight that can be toggled on and off.",
+    "inGameName": "Tactical Light, Mod_Tactical_Flashlight_01_Description,A mounted flashlight that can be toggled on and off.",
+    "description": "Mod_Tactical_Flashlight_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -11053,8 +11053,8 @@
     }
   },
   "Mod_Stock_Marksman_01": {
-    "inGameName": "Marksman Stock",
-    "description": "Reduces the received kick from recoil.",
+    "inGameName": "Marksman Stock, Mod_Stock_Marksman_01_Description,Reduces the received kick from recoil.",
+    "description": "Mod_Stock_Marksman_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -11091,8 +11091,8 @@
     }
   },
   "Mod_Stock_Standard_01": {
-    "inGameName": "Standard Stock",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Standard Stock, Mod_Stock_Standard_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_Stock_Standard_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -11129,8 +11129,8 @@
     }
   },
   "Mod_Magazine_Medium_02": {
-    "inGameName": "Medium Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Medium Extended, Mod_Magazine_Medium_02_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Medium_02",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11150,8 +11150,8 @@
     }
   },
   "Mod_Magazine_Medium_03": {
-    "inGameName": "Medium Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Medium Extended, Mod_Magazine_Medium_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Medium_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11179,8 +11179,8 @@
     }
   },
   "Mod_Magazine_Heavy_02": {
-    "inGameName": "Heavy Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Heavy_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11200,8 +11200,8 @@
     }
   },
   "Mod_Magazine_Heavy_03": {
-    "inGameName": "Heavy Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Heavy Extended, Mod_Magazine_Heavy_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Heavy_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11229,8 +11229,8 @@
     }
   },
   "Mod_Magazine_Shotgun_02": {
-    "inGameName": "Shotgun Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Shotgun_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11250,8 +11250,8 @@
     }
   },
   "Mod_Magazine_Shotgun_03": {
-    "inGameName": "Shotgun Extended",
-    "description": "Increases the capacity of the magazine.",
+    "inGameName": "Shotgun Extended, Mod_Magazine_Shotgun_01_Description,Increases the capacity of the magazine.",
+    "description": "Mod_Magazine_Shotgun_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11279,8 +11279,8 @@
     }
   },
   "Mod_Magazine_Light_ReloadSpeed_01": {
-    "inGameName": "Light Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Light_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 3,
@@ -11317,8 +11317,8 @@
     }
   },
   "Mod_Magazine_Light_ReloadSpeed_02": {
-    "inGameName": "Light Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Light_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
@@ -11338,8 +11338,8 @@
     }
   },
   "Mod_Magazine_Light_ReloadSpeed_03": {
-    "inGameName": "Light Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Light_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11367,8 +11367,8 @@
     }
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
-    "inGameName": "Light Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Light Quickdraw, Mod_Magazine_Light_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Light_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11396,8 +11396,8 @@
     }
   },
   "Mod_Magazine_Medium_Reloadspeed_01": {
-    "inGameName": "Medium Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Medium_Reloadspeed_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 3,
@@ -11434,8 +11434,8 @@
     }
   },
   "Mod_Magazine_Medium_Reloadspeed_02": {
-    "inGameName": "Medium Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Medium_Reloadspeed_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
@@ -11455,8 +11455,8 @@
     }
   },
   "Mod_Magazine_Medium_Reloadspeed_03": {
-    "inGameName": "Medium Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Medium_Reloadspeed_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11484,8 +11484,8 @@
     }
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
-    "inGameName": "Medium Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Medium Quickdraw, Mod_Magazine_Medium_Reloadspeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Medium_Reloadspeed_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11513,8 +11513,8 @@
     }
   },
   "Mod_Magazine_Heavy_ReloadSpeed_01": {
-    "inGameName": "Heavy Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Heavy_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 3,
@@ -11551,8 +11551,8 @@
     }
   },
   "Mod_Magazine_Heavy_ReloadSpeed_02": {
-    "inGameName": "Heavy Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Heavy_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
@@ -11572,8 +11572,8 @@
     }
   },
   "Mod_Magazine_Heavy_ReloadSpeed_03": {
-    "inGameName": "Heavy Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Heavy_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11601,8 +11601,8 @@
     }
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
-    "inGameName": "Heavy Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Heavy Quickdraw, Mod_Magazine_Heavy_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Heavy_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11630,8 +11630,8 @@
     }
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_01": {
-    "inGameName": "Shotgun Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Shotgun_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 3,
@@ -11668,8 +11668,8 @@
     }
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_02": {
-    "inGameName": "Shotgun Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Shotgun_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 3,
@@ -11689,8 +11689,8 @@
     }
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-    "inGameName": "Shotgun Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Shotgun_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11718,8 +11718,8 @@
     }
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-    "inGameName": "Shotgun Quickdraw",
-    "description": "Reduces the time to reload.",
+    "inGameName": "Shotgun Quickdraw, Mod_Magazine_Shotgun_ReloadSpeed_01_Description,Reduces the time to reload.",
+    "description": "Mod_Magazine_Shotgun_ReloadSpeed_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11747,8 +11747,8 @@
     }
   },
   "Mod_Magazine_Light_EXTReload_01": {
-    "inGameName": "Light Extended Quickdraw",
-    "description": "Capacity and reload speed increase.",
+    "inGameName": "Light Extended Quickdraw, Mod_Magazine_Light_EXTReload_01_Description,Capacity and reload speed increase.",
+    "description": "Mod_Magazine_Light_EXTReload_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11768,8 +11768,8 @@
     }
   },
   "Mod_Magazine_Light_EXTReload_02": {
-    "inGameName": "Light Extended Quickdraw",
-    "description": "Capacity and reload speed increase.",
+    "inGameName": "Light Extended Quickdraw, Mod_Magazine_Light_EXTReload_01_Description,Capacity and reload speed increase.",
+    "description": "Mod_Magazine_Light_EXTReload_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11797,8 +11797,8 @@
     }
   },
   "Mod_Magazine_Medium_EXTReload_01": {
-    "inGameName": "Medium Extended Quickdraw",
-    "description": "Capacity and reload speed increase.",
+    "inGameName": "Medium Extended Quickdraw, Mod_Magazine_Medium_EXTReload_01_Description,Capacity and reload speed increase.",
+    "description": "Mod_Magazine_Medium_EXTReload_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 3,
@@ -11818,8 +11818,8 @@
     }
   },
   "Mod_Magazine_Medium_EXTReload_02": {
-    "inGameName": "Medium Extended Quickdraw",
-    "description": "Capacity and reload speed increase.",
+    "inGameName": "Medium Extended Quickdraw, Mod_Magazine_Medium_EXTReload_01_Description,Capacity and reload speed increase.",
+    "description": "Mod_Magazine_Medium_EXTReload_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 3,
@@ -11847,8 +11847,8 @@
     }
   },
   "Mod_Stock_Standard_02": {
-    "inGameName": "Standard Stock",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Standard Stock, Mod_Stock_Standard_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_Stock_Standard_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -11875,8 +11875,8 @@
     }
   },
   "Mod_Stock_Standard_Equip_01": {
-    "inGameName": "Quickdraw Stock",
-    "description": "Improves a weapon's time to equip.",
+    "inGameName": "Quickdraw Stock, Mod_Stock_Standard_Equip_01_Description,Improves a weapon's time to equip.",
+    "description": "Mod_Stock_Standard_Equip_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -11913,8 +11913,8 @@
     }
   },
   "Mod_Stock_Standard_Equip_02": {
-    "inGameName": "Quickdraw Stock",
-    "description": "Improves a weapon's time to equip.",
+    "inGameName": "Quickdraw Stock, Mod_Stock_Standard_Equip_01_Description,Improves a weapon's time to equip.",
+    "description": "Mod_Stock_Standard_Equip_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -11934,8 +11934,8 @@
     }
   },
   "Mod_Stock_Standard_ADS_01": {
-    "inGameName": "Tactical Stock",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "Tactical Stock, Mod_Stock_Standard_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_Stock_Standard_ADS_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -11962,8 +11962,8 @@
     }
   },
   "Mod_Stock_Standard_ADS_02": {
-    "inGameName": "Tactical Stock",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "Tactical Stock, Mod_Stock_Standard_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_Stock_Standard_ADS_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -11983,8 +11983,8 @@
     }
   },
   "Mod_Stock_Standard_ADSEquip_01": {
-    "inGameName": "Ultralight Stock",
-    "description": "Reduces the time to equip and aim down the sight.",
+    "inGameName": "Ultralight Stock, Mod_Stock_Standard_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
+    "description": "Mod_Stock_Standard_ADSEquip_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -12004,8 +12004,8 @@
     }
   },
   "Mod_Stock_Standard_ADSEquip_02": {
-    "inGameName": "Ultralight Stock",
-    "description": "Reduces the time to equip and aim down the sight.",
+    "inGameName": "Ultralight Stock, Mod_Stock_Standard_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
+    "description": "Mod_Stock_Standard_ADSEquip_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
@@ -12032,8 +12032,8 @@
     }
   },
   "Mod_Stock_Marksman_02": {
-    "inGameName": "Marksman Stock",
-    "description": "Reduces the received kick from recoil.",
+    "inGameName": "Marksman Stock, Mod_Stock_Marksman_01_Description,Reduces the received kick from recoil.",
+    "description": "Mod_Stock_Marksman_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -12060,8 +12060,8 @@
     }
   },
   "Mod_Stock_Marksman_Equip_01": {
-    "inGameName": "MKM Quickdraw Stock",
-    "description": "Improves a weapon's time to equip.",
+    "inGameName": "MKM Quickdraw Stock, Mod_Stock_Marksman_Equip_01_Description,Improves a weapon's time to equip.",
+    "description": "Mod_Stock_Marksman_Equip_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -12098,8 +12098,8 @@
     }
   },
   "Mod_Stock_Marksman_Equip_02": {
-    "inGameName": "MKM Quickdraw Stock",
-    "description": "Improves a weapon's time to equip.",
+    "inGameName": "MKM Quickdraw Stock, Mod_Stock_Marksman_Equip_01_Description,Improves a weapon's time to equip.",
+    "description": "Mod_Stock_Marksman_Equip_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -12119,8 +12119,8 @@
     }
   },
   "Mod_Stock_Marksman_ADS_01": {
-    "inGameName": "MKM Tactical Stock",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "MKM Tactical Stock, Mod_Stock_Marksman_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_Stock_Marksman_ADS_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -12147,8 +12147,8 @@
     }
   },
   "Mod_Stock_Marksman_ADS_02": {
-    "inGameName": "MKM Tactical Stock",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "MKM Tactical Stock, Mod_Stock_Marksman_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_Stock_Marksman_ADS_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -12168,8 +12168,8 @@
     }
   },
   "Mod_Stock_Marksman_ADSEquip_01": {
-    "inGameName": "MKM Ultralight Stock",
-    "description": "Reduces the time to equip and aim down the sight.",
+    "inGameName": "MKM Ultralight Stock, Mod_Stock_Marksman_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
+    "description": "Mod_Stock_Marksman_ADSEquip_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -12189,8 +12189,8 @@
     }
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
-    "inGameName": "MKM Ultralight Stock",
-    "description": "Reduces the time to equip and aim down the sight.",
+    "inGameName": "MKM Ultralight Stock, Mod_Stock_Marksman_ADSEquip_01_Description,Reduces the time to equip and aim down the sight.",
+    "description": "Mod_Stock_Marksman_ADSEquip_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
@@ -12217,8 +12217,8 @@
     }
   },
   "Mod_Muzzle_Small_Recoil_01": {
-    "inGameName": "Small Muzzle Brake",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_Muzzle_Small_Recoil_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -12255,8 +12255,8 @@
     }
   },
   "Mod_Muzzle_Small_Recoil_02": {
-    "inGameName": "Small Muzzle Brake",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_Muzzle_Small_Recoil_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -12276,8 +12276,8 @@
     }
   },
   "Mod_Muzzle_Small_Recoil_03": {
-    "inGameName": "Small Muzzle Brake",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Small Muzzle Brake, Mod_Muzzle_Small_Recoil_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_Muzzle_Small_Recoil_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -12305,8 +12305,8 @@
     }
   },
   "Mod_Muzzle_Standard_Recoil_01": {
-    "inGameName": "Medium Muzzle Brake",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_Muzzle_Standard_Recoil_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -12343,8 +12343,8 @@
     }
   },
   "Mod_Muzzle_Standard_Recoil_02": {
-    "inGameName": "Medium Muzzle Brake",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_Muzzle_Standard_Recoil_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -12364,8 +12364,8 @@
     }
   },
   "Mod_Muzzle_Standard_Recoil_03": {
-    "inGameName": "Medium Muzzle Brake",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Medium Muzzle Brake, Mod_Muzzle_Standard_Recoil_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_Muzzle_Standard_Recoil_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -12393,8 +12393,8 @@
     }
   },
   "Mod_Converter_Light_02": {
-    "inGameName": "Light Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Light_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
@@ -12414,8 +12414,8 @@
     }
   },
   "Mod_Converter_Light_03": {
-    "inGameName": "Light Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Light Converter, Mod_Converter_Light_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Light_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
@@ -12443,8 +12443,8 @@
     }
   },
   "Mod_Converter_Medium_02": {
-    "inGameName": "Medium Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Medium_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
@@ -12464,8 +12464,8 @@
     }
   },
   "Mod_Converter_Medium_03": {
-    "inGameName": "Medium Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Medium Converter, Mod_Converter_Medium_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Medium_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
@@ -12493,8 +12493,8 @@
     }
   },
   "Mod_Converter_Heavy_02": {
-    "inGameName": "Heavy Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Heavy_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
@@ -12514,8 +12514,8 @@
     }
   },
   "Mod_Converter_Heavy_03": {
-    "inGameName": "Heavy Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Heavy Converter, Mod_Converter_Heavy_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Heavy_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
@@ -12543,8 +12543,8 @@
     }
   },
   "Mod_Converter_Shotgun_02": {
-    "inGameName": "Shotgun Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Shotgun_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
@@ -12564,8 +12564,8 @@
     }
   },
   "Mod_Converter_Shotgun_03": {
-    "inGameName": "Shotgun Converter",
-    "description": "Projectile penetration increase.",
+    "inGameName": "Shotgun Converter, Mod_Converter_Shotgun_01_Description,Projectile penetration increase.",
+    "description": "Mod_Converter_Shotgun_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
@@ -12593,8 +12593,8 @@
     }
   },
   "Mod_Converter_Light_AIDMG_01": {
-    "inGameName": "Light Creature Dmg",
-    "description": "Increased damage towards creatures.",
+    "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
+    "description": "Mod_Converter_Light_AIDMG_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
@@ -12621,8 +12621,8 @@
     }
   },
   "Mod_Converter_Light_AIDMG_02": {
-    "inGameName": "Light Creature Dmg",
-    "description": "Increased damage towards creatures.",
+    "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
+    "description": "Mod_Converter_Light_AIDMG_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
@@ -12650,8 +12650,8 @@
     }
   },
   "Mod_Converter_Light_AIDMG_03": {
-    "inGameName": "Light Creature Dmg",
-    "description": "Increased damage towards creatures.",
+    "inGameName": "Light Creature Dmg, Mod_Converter_Light_AIDMG_01_Description,Increased damage towards creatures.",
+    "description": "Mod_Converter_Light_AIDMG_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
@@ -12679,8 +12679,8 @@
     }
   },
   "Mod_Converter_Medium_AIDMG_01": {
-    "inGameName": "Medium Creature Dmg",
-    "description": "Increased damage towards creatures.",
+    "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
+    "description": "Mod_Converter_Medium_AIDMG_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
@@ -12707,8 +12707,8 @@
     }
   },
   "Mod_Converter_Medium_AIDMG_02": {
-    "inGameName": "Medium Creature Dmg",
-    "description": "Increased damage towards creatures.",
+    "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
+    "description": "Mod_Converter_Medium_AIDMG_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 4,
@@ -12736,8 +12736,8 @@
     }
   },
   "Mod_Converter_Medium_AIDMG_03": {
-    "inGameName": "Medium Creature Dmg",
-    "description": "Increased damage towards creatures.",
+    "inGameName": "Medium Creature Dmg, Mod_Converter_Medium_AIDMG_01_Description,Increased damage towards creatures.",
+    "description": "Mod_Converter_Medium_AIDMG_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 4,
@@ -12765,8 +12765,8 @@
     }
   },
   "Mod_Converter_Shotgun_Slug_01": {
-    "inGameName": "Shotgun Slugs",
-    "description": "Fires a single projectile improving the effective range.",
+    "inGameName": "Shotgun Slugs, Mod_Converter_Shotgun_Slug_01_Description,Fires a single projectile improving the effective range.",
+    "description": "Mod_Converter_Shotgun_Slug_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 4,
@@ -12786,8 +12786,8 @@
     }
   },
   "Mod_ForeGrip_Angled_02": {
-    "inGameName": "Angled Foregrip",
-    "description": "Reduces the recoil when firing.",
+    "inGameName": "Angled Foregrip, Mod_ForeGrip_Angled_01_Description,Reduces the recoil when firing.",
+    "description": "Mod_ForeGrip_Angled_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -12807,8 +12807,8 @@
     }
   },
   "Mod_ForeGrip_Equip_01": {
-    "inGameName": "Quickdraw Foregrip",
-    "description": "Improves a weapon's time to equip.",
+    "inGameName": "Quickdraw Foregrip, Mod_ForeGrip_Equip_01_Description,Improves a weapon's time to equip.",
+    "description": "Mod_ForeGrip_Equip_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -12845,8 +12845,8 @@
     }
   },
   "Mod_ForeGrip_Equip_02": {
-    "inGameName": "Quickdraw Foregrip",
-    "description": "Improves a weapon's time to equip.",
+    "inGameName": "Quickdraw Foregrip, Mod_ForeGrip_Equip_01_Description,Improves a weapon's time to equip.",
+    "description": "Mod_ForeGrip_Equip_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -12866,8 +12866,8 @@
     }
   },
   "Mod_ForeGrip_ADS_01": {
-    "inGameName": "Tactical Foregrip",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_ForeGrip_ADS_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -12887,8 +12887,8 @@
     }
   },
   "Mod_ForeGrip_ADS_02": {
-    "inGameName": "Tactical Foregrip",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_ForeGrip_ADS_01",
     "type": "attachment",
     "rarity": "Rare",
     "weight": 2,
@@ -12916,8 +12916,8 @@
     }
   },
   "Mod_ForeGrip_ADS_03": {
-    "inGameName": "Tactical Foregrip",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "Tactical Foregrip, Mod_ForeGrip_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_ForeGrip_ADS_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
@@ -12945,8 +12945,8 @@
     }
   },
   "Mod_RearGrip_02": {
-    "inGameName": "Ergonomic Grip",
-    "description": "Improves a weapon's time to equip.",
+    "inGameName": "Ergonomic Grip, Mod_RearGrip_01_Description,Improves a weapon's time to equip.",
+    "description": "Mod_RearGrip_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 1,
@@ -12966,8 +12966,8 @@
     }
   },
   "Mod_RearGrip_ADS_01": {
-    "inGameName": "Tactical Rear Grip",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "Tactical Rear Grip, Mod_RearGrip_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_RearGrip_ADS_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 1,
@@ -13004,8 +13004,8 @@
     }
   },
   "Mod_RearGrip_ADS_02": {
-    "inGameName": "Tactical Rear Grip",
-    "description": "Reduces the time to aim down the sight.",
+    "inGameName": "Tactical Rear Grip, Mod_RearGrip_ADS_01_Description,Reduces the time to aim down the sight.",
+    "description": "Mod_RearGrip_ADS_01",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 1,
@@ -13032,8 +13032,8 @@
     }
   },
   "Mod_Optic_1x_01": {
-    "inGameName": "Red Dot Sight",
-    "description": "A non-magnifying red dot sight.",
+    "inGameName": "Red Dot Sight, Mod_Optic_1x_01_Description,A non-magnifying red dot sight.",
+    "description": "Mod_Optic_1x_01",
     "type": "attachment",
     "rarity": "Common",
     "weight": 2,
@@ -13070,8 +13070,8 @@
     }
   },
   "Mod_Optic_1x_02": {
-    "inGameName": "Holographic Sight",
-    "description": "A non-magnifying Holographic sight.",
+    "inGameName": "Holographic Sight, Mod_Optic_1x_02_Description,A non-magnifying Holographic sight.",
+    "description": "Mod_Optic_1x_02",
     "type": "attachment",
     "rarity": "Uncommon",
     "weight": 2,
@@ -13098,8 +13098,8 @@
     }
   },
   "Mod_Optic_Variable_01": {
-    "inGameName": "2 - 4x Variable Optic",
-    "description": "Variable optic that allows to swap between 2x and 4x magnification.",
+    "inGameName": "2 - 4x Variable Optic, Mod_Optic_Variable_01_Description,Variable optic that allows to swap between 2x and 4x magnification.",
+    "description": "Mod_Optic_Variable_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
@@ -13126,8 +13126,8 @@
     }
   },
   "Mod_Optic_8x_01": {
-    "inGameName": "8x Optic",
-    "description": "Optic with 8x Magnification.",
+    "inGameName": "8x Optic, Mod_Optic_8x_01_Description,Optic with 8x Magnification.",
+    "description": "Mod_Optic_8x_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
@@ -13154,8 +13154,8 @@
     }
   },
   "Mod_Optic_6x_01": {
-    "inGameName": "6x Optic",
-    "description": "Optic with 6x Magnification.",
+    "inGameName": "6x Optic, Mod_Optic_6x_01_Description,Optic with 6x Magnification.",
+    "description": "Mod_Optic_6x_01",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 2,
@@ -13182,8 +13182,8 @@
     }
   },
   "Mod_Korolev_Scanner_Oil": {
-    "inGameName": "Crude Oil Scanning Module",
-    "description": "Scanners equipped with this Attachment can highlight active Crude Oil Wells while scanning.",
+    "inGameName": "Crude Oil Scanning Module, Mod_Korolev_Scanner_Oil_Description,Scanners equipped with this Attachment can highlight active Crude Oil Wells while scanning.",
+    "description": "Mod_Korolev_Scanner_Oil",
     "type": "attachment",
     "rarity": "Epic",
     "weight": 1,

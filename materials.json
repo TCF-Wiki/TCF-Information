@@ -75,7 +75,7 @@
   },
   "VelteciteHeart": {
     "inGameName": "Veltecite Heart",
-    "description": "The heart of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted.",
+    "description": "The 'heart' of a veltecite vein, from which pure and common veltecite grows out of like roots reaching upwards to the surface. Incredibly rare and highly coveted.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Resource"
@@ -326,7 +326,7 @@
   },
   "PolymetallicPrefabricate": {
     "inGameName": "Polymetallic Prefabricate",
-    "description": "One of those miracle materials, sheets of this stuff is commonly used in the printing of various tools, machinery, and of course, weapons.",
+    "description": "One of those 'miracle materials', sheets of this stuff is commonly used in the printing of various tools, machinery, and of course, weapons.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Scientific"
@@ -417,7 +417,7 @@
     ]
   },
   "MultiTool": {
-    "inGameName": "Salvaged Co-TEC MultiTool",
+    "inGameName": "Salvaged CoTEC MultiTool",
     "description": "These used to be able print, repair, and manipulate simple machinery and electronics. Might still be useful if repaired or used for parts.",
     "rarity": "Rare",
     "tags": [
@@ -484,7 +484,7 @@
   },
   "MiniatureReactor": {
     "inGameName": "Miniature Reactor",
-    "description": "Useful for printing equipment with high power requirements.\r\nDO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B.",
+    "description": "Useful for printing equipment with high power requirements. DO NOT DISASSEMBLE. DO NOT ATTEMPT TO REPAIR. IF DAMAGED, DISPOSE OF AS INSTRUCTED IN FIG-24B.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Valuable"
@@ -661,7 +661,7 @@
   },
   "Fabrics": {
     "inGameName": "Textiles",
-    "description": "Heavy and durable fabrics, useful for printing various items.\r\n\r\nYou can never get the smell of mildew out of these.",
+    "description": "Heavy and durable fabrics, useful for printing various items.  You can never get the smell of mildew out of these.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Housing"
@@ -675,7 +675,7 @@
   },
   "Cables": {
     "inGameName": "Electronic Cables",
-    "description": "A bundle of cables, still in good condition.\r\n\r\nUnfortunately not platinum plated, unsuitable for true audio transmission.",
+    "description": "A bundle of cables, still in good condition.  Unfortunately not platinum plated, unsuitable for true audio transmission.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Electronic",
@@ -690,7 +690,7 @@
   },
   "Insulation": {
     "inGameName": "Salvaged Insulation",
-    "description": "Even outside of its intended purpose, the materials still have various uses in item printing.\r\n\r\nYes, it's asbestos.",
+    "description": "Even outside of its intended purpose, the materials still have various uses in item printing.  Yes, it's asbestos.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Generic"
@@ -718,7 +718,7 @@
   },
   "SmartMesh": {
     "inGameName": "Smart Mesh",
-    "description": "Adaptable material, used for printing various items.\r\n\r\nAlso a fun art tool!",
+    "description": "Adaptable material, used for printing various items.  Also a fun art tool!",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Mechanical",
@@ -733,7 +733,7 @@
   },
   "CircuitBoard": {
     "inGameName": "Circuit Board",
-    "description": "An old circuit board, its components can be salvaged and repurposed to build new items.\r\n\r\nAnd now you can put e-waste management on your resume.",
+    "description": "An old circuit board, its components can be salvaged and repurposed to build new items.  And now you can put e-waste management on your resume.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Electronic"
@@ -761,7 +761,7 @@
   },
   "Antibiotics": {
     "inGameName": "Old Medicine",
-    "description": "Medicine left behind on the planet, can be processed to make new supplies.\r\n\r\nFortuna's colonists definitely had a lot of pills...",
+    "description": "Medicine left behind on the planet, can be processed to make new supplies.  Fortuna's colonists definitely had a lot of pills...",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Medical"
@@ -775,7 +775,7 @@
   },
   "PortableLabEquipmentBox": {
     "inGameName": "Portable Lab",
-    "description": "A full lab in a box, also contains all sorts of specialized equipment and materials that can be repurposed.\r\n\r\nLoaded with delicate tools, sensitive software, and no manual.",
+    "description": "A full lab in a box, also contains all sorts of specialized equipment and materials that can be repurposed.  Loaded with delicate tools, sensitive software, and no manual.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Scientific",
@@ -798,8 +798,8 @@
     ]
   },
   "Battery": {
-    "inGameName": "Fusion Cartridge Batteries",
-    "description": "A pack of high-powered, slightly radioactive batteries. Safe to use in most electronic devices.\r\n\r\nNot actually fusion powered, but still worryingly radioactive.",
+    "inGameName": "Fusion Cartridge Batteries ,, Material_Battery_Description,",
+    "description": "Battery",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Housing"
@@ -812,8 +812,8 @@
     "cost": []
   },
   "LiquidFertilizer": {
-    "inGameName": "Magic-GROW Fertilizer",
-    "description": "A powerful and sweet smelling chemical, can be processed to help manufacture other items.\r\n\r\nDon't ingest within 6 hours of consuming any fruits or nuts. Or ideally ever.",
+    "inGameName": "Magic-GROW Fertilizer,, Material_LiquidFertilizer_Description,",
+    "description": "LiquidFertilizer",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Farming"
@@ -827,7 +827,7 @@
   },
   "SamplingDevice": {
     "inGameName": "Biological Sampler",
-    "description": "A portable device used for collecting biological samples in the field. Can be used to assist with printing delicate items.\r\n\r\nThis model incorporates a pressure-activated injector as well. Mildly concerning.",
+    "description": "A portable device used for collecting biological samples in the field. Can be used to assist with printing delicate items.  This model incorporates a pressure-activated injector as well. Mildly concerning.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Medical"
@@ -841,7 +841,7 @@
   },
   "AnaestheticsContainers": {
     "inGameName": "Medical Supplies",
-    "description": "A small crate of miscellaneous medical supplies, has all sorts of chemicals useful for printing new items.\r\n\r\nThere are A LOT of warning labels here.",
+    "description": "A small crate of miscellaneous medical supplies, has all sorts of chemicals useful for printing new items.  There are A LOT of warning labels here.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Medical"
@@ -869,7 +869,7 @@
   },
   "Jewellery": {
     "inGameName": "Jewellery",
-    "description": "A simple and easy way to carry one's riches and memories.\r\n\r\nAlso very easy to lose during an emergency evacuation.",
+    "description": "A simple and easy way to carry one's riches and memories.  Also very easy to lose during an emergency evacuation.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Valuable"
@@ -883,7 +883,7 @@
   },
   "SampleContainer": {
     "inGameName": "Sample Container",
-    "description": "A sealed self-powered container for exotic alien samples.\r\n\r\nScientists are always putting little things in jars and hoping for the best.",
+    "description": "A sealed self-powered container for exotic alien samples.  Scientists are always putting little things in jars and hoping for the best.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Housing",
@@ -954,7 +954,7 @@
   },
   "AI_StriderHead": {
     "inGameName": "Strider Head",
-    "description": "The torn off head of a dead Strider.\r\n\r\nCareful, it can still bite!",
+    "description": "The torn off head of a dead Strider.  Careful, it can still bite!",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -968,7 +968,7 @@
   },
   "AI_RattlerHead": {
     "inGameName": "Rattler Head",
-    "description": "The torn off head of a dead Rattler.\r\n\r\nCorrosive drool everywhere, handle with gloves.",
+    "description": "The torn off head of a dead Rattler.  Corrosive drool everywhere, handle with gloves.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -982,7 +982,7 @@
   },
   "AI_WeremoleHead": {
     "inGameName": "Marauder Head",
-    "description": "The torn off head of a dead Marauder.\r\n\r\nThe eyes still follow you around. Creepy.",
+    "description": "The torn off head of a dead Marauder.  The eyes still follow you around. Creepy.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -996,7 +996,7 @@
   },
   "AI_CrusherHead": {
     "inGameName": "Crusher Head",
-    "description": "The torn off head of a dead Crusher.\r\n\r\nIt's even uglier up close... Still, a fine trophy!",
+    "description": "The torn off head of a dead Crusher.  It's even uglier up close... Still, a fine trophy!",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1025,7 +1025,7 @@
   },
   "AI_StriderMeat": {
     "inGameName": "Strider Flesh",
-    "description": "A chunk of Strider flesh. Presumably of a dead one.\r\n\r\nYou know, if you cook it properly it's actually pretty good.",
+    "description": "A chunk of Strider flesh. Presumably of a dead one.  You know, if you cook it properly it's actually pretty good.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Creature"
@@ -1039,7 +1039,7 @@
   },
   "AI_RattlerEyes": {
     "inGameName": "Rattler Eyes",
-    "description": "The eyes of a dead Rattler.\r\n\r\nWell, hopefully it was dead, anyway...",
+    "description": "The eyes of a dead Rattler.  Well, hopefully it was dead, anyway...",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Creature"
@@ -1053,7 +1053,7 @@
   },
   "AI_WeremoleMeat": {
     "inGameName": "Marauder Flesh",
-    "description": "A chunk of Marauder flesh.\r\n\r\nIt moves if you poke it.",
+    "description": "A chunk of Marauder flesh.  It moves if you poke it.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -1067,7 +1067,7 @@
   },
   "AI_CrusherMeat": {
     "inGameName": "Crusher Flesh",
-    "description": "A chunk of Crusher flesh.\r\n\r\nEven its meat is hard as bone.",
+    "description": "A chunk of Crusher flesh.  Even its meat is hard as bone.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Creature"
@@ -1081,7 +1081,7 @@
   },
   "AI_RattlerSkin": {
     "inGameName": "Rattler Skin",
-    "description": "Taken off a skinned Rattler.\r\n\r\nFashionable! Just don't think about where it came from.",
+    "description": "Taken off a skinned Rattler.  Fashionable! Just don't think about where it came from.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.Creature"
@@ -1109,7 +1109,7 @@
   },
   "AI_CrusherSkin": {
     "inGameName": "Crusher Hide",
-    "description": "Taken off a skinned Crusher.\r\n\r\n(read: hacked repeatedly until something fell off)",
+    "description": "Taken off a skinned Crusher.  (read: hacked repeatedly until something fell off)",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -1137,7 +1137,7 @@
   },
   "Adhesive": {
     "inGameName": "Resin Gun",
-    "description": "Multi purpose tool, handy for sticking things together or providing flexible insulation.\r\n\r\nThe warning label says to not use if you need a warning label.",
+    "description": "Multi purpose tool, handy for sticking things together or providing flexible insulation.  The warning label says to not use if you need a warning label.",
     "rarity": "Uncommon",
     "tags": [
       "Loot.Category.Housing",
@@ -1208,7 +1208,7 @@
   },
   "OilTank": {
     "inGameName": "NiC Oil Cannister",
-    "description": "A pressured cannister filled with concentrated Nanite-infused Crude. It reacts to the storm radiation in strange ways.\r\n\r\nAlmost looks like it's alive, moving and swirling on its own.",
+    "description": "A pressured cannister filled with concentrated Nanite-infused Crude. It reacts to the storm radiation in strange ways.  Almost looks like it's alive, moving and swirling on its own.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Resource"
@@ -1222,7 +1222,7 @@
   },
   "AI_StriderMeat_03": {
     "inGameName": "Heavy Strider Flesh",
-    "description": "A chunk of flesh from a Heavy Strider.\r\n\r\nTougher than normal Strider meat, it barely bleeds.",
+    "description": "A chunk of flesh from a Heavy Strider.  Tougher than normal Strider meat, it barely bleeds.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -1236,7 +1236,7 @@
   },
   "AI_RattlerEyes_02": {
     "inGameName": "Mature Rattler Eyes",
-    "description": "The eyes of a dead Mature Rattler.\r\n\r\nAge only improved the thing's sight...",
+    "description": "The eyes of a dead Mature Rattler.  Age only improved the thing's sight...",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -1250,7 +1250,7 @@
   },
   "AI_WeremoleMeat_02": {
     "inGameName": "Savage Marauder Flesh",
-    "description": "A chunk of Savage Marauder flesh.\r\n\r\nBurns if you touch it without gloves.",
+    "description": "A chunk of Savage Marauder flesh.  Burns if you touch it without gloves.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Creature"
@@ -1264,7 +1264,7 @@
   },
   "AI_StriderHead_03": {
     "inGameName": "Heavy Strider Head",
-    "description": "The torn off head of a dead Heavy Strider.\r\n\r\nFar too ugly to mount on a wall.",
+    "description": "The torn off head of a dead Heavy Strider.  Far too ugly to mount on a wall.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1278,7 +1278,7 @@
   },
   "AI_RattlerHead_02": {
     "inGameName": "Mature Rattler Head",
-    "description": "The torn off head of a dead Mature Rattler.\r\n\r\nThese things do NOT age gracefully...",
+    "description": "The torn off head of a dead Mature Rattler.  These things do NOT age gracefully...",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1292,7 +1292,7 @@
   },
   "AI_WeremoleHead_02": {
     "inGameName": "Savage Marauder Head",
-    "description": "The torn off head of a dead Savage Marauder.\r\n\r\nIt's still blinking. Menacingly.",
+    "description": "The torn off head of a dead Savage Marauder.  It's still blinking. Menacingly.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1305,8 +1305,8 @@
     "cost": []
   },
   "AI_HowlerDart": {
-    "inGameName": "AI_HowlerDart",
-    "description": "AI_HowlerDart",
+    "inGameName": "Howler Dart",
+    "description": "One of the deadly projectiles Howlers use to skewer prey from a distance. This one was still not fully formed and can be harvested for useful materials. Worth some coin to the right people. , Material_AI_HowlerDart_Location,Occasionally dropped by dead Howlers.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Creature"
@@ -1319,8 +1319,8 @@
     "cost": []
   },
   "AI_HowlerGland_01": {
-    "inGameName": "AI_HowlerGland_01",
-    "description": "AI_HowlerGland_01",
+    "inGameName": "Howler Ichor Gland",
+    "description": "A damaged gland ripped out of a dead Howler. Used by the creatures to excrete several compounds and pheromones, commonly referred to as 'honey'; the organ alone is in high demand. , Material_AI_HowlerGland_01_Location,Can sometimes be found on dead Howlers.",
     "rarity": "Epic",
     "tags": [
       "Loot.Category.Creature"
@@ -1333,8 +1333,8 @@
     "cost": []
   },
   "AI_HowlerGland_02": {
-    "inGameName": "AI_HowlerGland_02",
-    "description": "AI_HowlerGland_02",
+    "inGameName": "Inflamed Howler Ichor Gland",
+    "description": "Known as the 'Honey Gland, this organ is still capable of producing someo of the valued honey-like substance Howlers use to attract and dominate other creatures. Very valuable. , Material_AI_HowlerGland_02_Location,Can be ripped out of of dead Howlers, if you're lucky.",
     "rarity": "Exotic",
     "tags": [
       "Loot.Category.Creature"
@@ -1347,8 +1347,8 @@
     "cost": []
   },
   "AI_HowlerSyrinx_01": {
-    "inGameName": "AI_HowlerSyrinx_01",
-    "description": "AI_HowlerSyrinx_01",
+    "inGameName": "Damaged Howler Syrinx",
+    "description": "Effectively the 'vocal cords' that Howlers use to emit their iconic screams. Reaches a high price on the station. , Material_AI_HowlerSyrinx_01_Location,Rarely dropped by dead Howlers.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1361,8 +1361,8 @@
     "cost": []
   },
   "AI_HowlerSyrinx_02": {
-    "inGameName": "AI_HowlerSyrinx_02",
-    "description": "AI_HowlerSyrinx_02",
+    "inGameName": "Intact Howler Syrinx",
+    "description": "The sound emitting organ of a dead Howler, removed in one whole neat piece. The intricacies of its 'construction' make it very valuable. , Material_AI_HowlerSyrinx_02_Location,Very rarey found on dead Howlers.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Creature"
@@ -1375,8 +1375,8 @@
     "cost": []
   },
   "AI_HowlerPellet": {
-    "inGameName": "AI_HowlerPellet",
-    "description": "AI_HowlerPellet",
+    "inGameName": "Howler Ichor Bulb",
+    "description": "An encased glob of Howler 'honey', the sticky substance the creatures use to affect other creatures, and as sustenance for their young. It's been found to be highly nutritious, sweet, and have almost mythical regenerative properties. Of course, it's also extremely addictive with a lethal withdrawal. , Material_AI_HowlerPellet_Location,Can be found in Howler nests.",
     "rarity": "Rare",
     "tags": [
       "Loot.Category.Creature"
@@ -1432,7 +1432,7 @@
   },
   "ChargedForgeIronIngot": {
     "inGameName": "Charged Tharis Iron Ingot",
-    "description": "An ingot made of Pure Tharis Iron somehow charged with storm lightning. Sometimes lets off a shock when touched, and you can hear a buzz if you put it next to your ear.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
+    "description": "An ingot made of Pure Tharis Iron somehow charged with storm lightning. Sometimes lets off a shock when touched, and you can hear a buzz if you put it next to your ear.  OSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
     "rarity": "Exotic",
     "tags": [
       "Loot.Category.Alien"
@@ -1446,7 +1446,7 @@
   },
   "SuperChargedForgeIronIngot": {
     "inGameName": "Super Charged Tharis Iron Ingot",
-    "description": "An ingot made of Pure Tharis Iron, heavily charged with storm lightning. Just touching it leaves your fingers numb.\r\n\r\nOSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
+    "description": "An ingot made of Pure Tharis Iron, heavily charged with storm lightning. Just touching it leaves your fingers numb.  OSIRIS ADVISORY: Do not any under circumstances interact with this material without Class T protective gear!",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Alien"
@@ -1488,7 +1488,7 @@
   },
   "AF_Token": {
     "inGameName": "Abyss Alloy",
-    "description": "A sphere of processed and activated Tharis Iron impossibly locked in place. \r\n\r\nGives an aura of infinite potential.",
+    "description": "A sphere of processed and activated Tharis Iron impossibly locked in place.   Gives an aura of infinite potential.",
     "rarity": "Legendary",
     "tags": [
       "Loot.Category.Alien"
@@ -1626,7 +1626,7 @@
     "cost": []
   },
   "Data_DigSite": {
-    "inGameName": "Dig Site Data Drive",
+    "inGameName": "'Dig Site' Data Drive",
     "description": "A data drive carrying information on the Bright Sands Dig Site.",
     "rarity": "Uncommon",
     "tags": [
@@ -1686,7 +1686,7 @@
   },
   "MissionItem_MinerItem1": {
     "inGameName": "Miner Cam #2F53",
-    "description": "Camera belonging to a Jamie Faulkner. The last video file is damaged, but the audio is of a large crowd demanding to be let in before suddenly cutting off.",
+    "description": "Camera belonging to a 'Jamie Faulkner'. The last video file is damaged, but the audio is of a large crowd demanding to be let in' before suddenly cutting off. '",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1700,7 +1700,7 @@
   },
   "MissionItem_MinerItem2": {
     "inGameName": "Miner Cam #D027",
-    "description": "Owner named only as Temporary. Last video shows several workers running out barricaded buildings and towards a clearing with a guarded ship being loaded with ore. Video cuts off after the owner appears to trip and fall.",
+    "description": "Owner named only as 'Temporary'. Last video shows several workers running out barricaded buildings and towards a clearing with a guarded ship being loaded with ore. Video cuts off after the owner appears to trip and fall.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1714,7 +1714,7 @@
   },
   "MissionItem_MinerItem3": {
     "inGameName": "Miner Cam #A45D",
-    "description": "Camera belonging to a Mayumi S. Nagao. Video shows her being pushed out of a cargo ship by a Korolev Heavy Trooper and falling into the mud. Video cuts off shortly after an eruption of gunfire is heard around her.",
+    "description": "Camera belonging to a 'Mayumi S. Nagao'. Video shows her being pushed out of a cargo ship by a Korolev Heavy Trooper and falling into the mud. Video cuts off shortly after an eruption of gunfire is heard around her.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1742,7 +1742,7 @@
   },
   "MissionItem_CreatureSample": {
     "inGameName": "Letium Bio Samples",
-    "description": "A container preserving... something. A label on the side states: WARNING: HIGH LETIUM CONTENT, DO NOT SHAKE",
+    "description": "A container preserving... something. A label on the side states: 'WARNING: HIGH LETIUM CONTENT, DO NOT SHAKE'",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1784,7 +1784,7 @@
   },
   "MissionItem_PowerPlantItem1": {
     "inGameName": "Notes on Meteor Experiment - 1",
-    "description": "Personal data tablet with theoretical research on powering energy generators with fragments from Fortuna's moon. The power output of a single working Fireball generator would be revolutionary.",
+    "description": "Personal data tablet with theoretical research on powering energy generators with fragments from Fortuna's moon. The power output of a single working 'Fireball generator would be revolutionary. '",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1798,7 +1798,7 @@
   },
   "MissionItem_PowerPlantItem2": {
     "inGameName": "Notes on Meteor Experiment - 2",
-    "description": "Data on the first prototype for Project Fireball. Yields under safe conditions were underwhelming, with warnings of an uncontrollable chain reaction if pushed too hard without further research. Might explain why there's a giant hole in the moon...\r\n\r\nFinal notes suggest switching resources to look into NiC.",
+    "description": "Data on the first prototype for 'Project Fireball'. Yields under safe conditions were underwhelming, with warnings of an uncontrollable chain reaction if pushed too hard without further research. Might explain why there's a giant hole in the moon...  Final notes suggest switching resources to look into 'NiC'.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1882,7 +1882,7 @@
   },
   "MissionItem_KorChiefEngineerDiary": {
     "inGameName": "Chief Engineer's Personal Diary",
-    "description": "An off the record log of some of the events that occurred on Tharis island. While badly damaged, and much of it is in short hand, what's evident is Korolev ran into serious issues in the caverns: several reports of miners going missing, pervasive malaise, multiple accidents...\r\n\r\nThe operation's foreman clearly had little regard for workplace safety.",
+    "description": "An off the record log of some of the events that occurred on Tharis island. While badly damaged, and much of it is in short hand, what's evident is Korolev ran into serious issues in the caverns: several reports of miners going missing, pervasive malaise, multiple accidents...  The operation's foreman clearly had little regard for workplace safety.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1924,7 +1924,7 @@
   },
   "MissionItem_MiningPartyMedicalFiles": {
     "inGameName": "Mining Party Medical Files",
-    "description": "A collection of medical reports from the Korolev team working the caverns. Initial incidents involved exhaustion and minor injuries, but later reports focus on mental clouding, hallucinations, loss of time...\r\n\r\nSymptoms appear identical to those of prolonged exposure to the Teratomorphic Energy Field that now envelops most of Fortuna III.",
+    "description": "A collection of medical reports from the Korolev team working the caverns. Initial incidents involved exhaustion and minor injuries, but later reports focus on mental clouding, hallucinations, loss of time...  Symptoms appear identical to those of prolonged exposure to the Teratomorphic Energy Field that now envelops most of Fortuna III.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1938,7 +1938,7 @@
   },
   "MissionItem_VadimPredecessorItem": {
     "inGameName": "The Tharis Files",
-    "description": "A folder kept by Gregor Kazan, the Head of Operations for Korolev when the storms hit Fortuna III decades ago. It appears he intentionally kept all reports and findings from the Tharis operations off the system, though the reason for that isn't explained, nor is how the folder ended up on the island.\r\n\r\nWorryingly, official records state less than 50 Korolev employees ever worked in the caverns, while these files list several hundred.",
+    "description": "A folder kept by Gregor Kazan, the Head of Operations for Korolev when the storms hit Fortuna III decades ago. It appears he intentionally kept all reports and findings from the Tharis operations off the system, though the reason for that isn't explained, nor is how the folder ended up on the island.  Worryingly, official records state less than 50 Korolev employees ever worked in the caverns, while these files list several hundred.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -1980,7 +1980,7 @@
   },
   "MissionItem_CultistGlowCrystalItem": {
     "inGameName": "Mysterious Glowing Contraption",
-    "description": "A crystaline chunk with various cables and circuit boards haphazardly strapped on to it.\r\n\r\nIt's impossible to tell if the mind that created this had something utilitarian in mind, or if this creation is simply a form of religious art.",
+    "description": "A crystaline chunk with various cables and circuit boards haphazardly strapped on to it.  It's impossible to tell if the mind that created this had something utilitarian in mind, or if this creation is simply a form of religious 'art'.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -2008,7 +2008,7 @@
   },
   "MissionItem_AlienShieldRecipe": {
     "inGameName": "Cultist Scribblings",
-    "description": "An old sheet of paper with various drawings and pictograms laid out as simple formulas, all but one scratched out.\r\n\r\nThe same trident-like drawing found on previous cultist items features prominently here.",
+    "description": "An old sheet of paper with various drawings and pictograms laid out as simple formulas, all but one scratched out.  The same trident-like drawing found on previous cultist items features prominently here.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -2064,7 +2064,7 @@
   },
   "MissionItem_AlienDoorFragment": {
     "inGameName": "Osiris Door Fragment",
-    "description": "A loose bit from the strange door in one of the Osiris installations on Tharis Island.\r\n\r\nThe door itself seems impenetrable, far more robust than what Osiris is known for building.",
+    "description": "A loose bit from the strange door in one of the Osiris installations on Tharis Island.  The door itself seems impenetrable, far more robust than what Osiris is known for building.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -2106,7 +2106,7 @@
   },
   "MissionItem_OsiHeadScientistItem": {
     "inGameName": "Osiris Helmet Recorder",
-    "description": "A damaged Osiris researcher helmet, these always carry their own camera and data storage.\r\n\r\nFortunately, whatever it was that did short work of its wearer managed to avoid breaking any of the valuable bits.",
+    "description": "A damaged Osiris researcher helmet, these always carry their own camera and data storage.  Fortunately, whatever it was that did short work of its wearer managed to avoid breaking any of the valuable bits.",
     "rarity": "Common",
     "tags": [
       "Loot.Category.MissionItem"
@@ -2119,8 +2119,8 @@
     "cost": []
   },
   "MissionItem_ICAWildlifePhotographerCam": {
-    "inGameName": "QuestItem_ICAWildlifePhotographerCam",
-    "description": "QuestItem_ICAWildlifePhotographerCam",
+    "inGameName": "Damaged Camera Drone",
+    "description": "A common drone used by journalists and photographers. Appears to have been in hover mode over its owner until recently.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2131,8 +2131,8 @@
     "cost": []
   },
   "MissionItem_ICAHowlerData1": {
-    "inGameName": "QuestItem_ICAHowlerData1",
-    "description": "QuestItem_ICAHowlerData1",
+    "inGameName": "Security Camera Footage",
+    "description": "Data drive from a Korolev security camera. It shows a giant creature viciously attacking a pair of prospectors second after their pods landed. Given your basic knowledge of anatomy, mainly in regards to how many litres of blood an adult has in them, it seems extremely unlikely they survived.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2143,8 +2143,8 @@
     "cost": []
   },
   "MissionItem_ICAHowlerData2": {
-    "inGameName": "QuestItem_ICAHowlerData2",
-    "description": "QuestItem_ICAHowlerData2",
+    "inGameName": "Howler Combat Tips",
+    "description": "A collection of 'tips' on avoiding and fighting the creature known as 'Howler'. It warns against moving when the creature 'screams', and to aim for its belly when possible. Avoiding the beast altogether is listed as the best strategy, something the tip-maker failed to do.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2155,8 +2155,8 @@
     "cost": []
   },
   "MissionItem_KORHowlerEvidence1": {
-    "inGameName": "QuestItem_KORHowlerEvidence1",
-    "description": "QuestItem_KORHowlerEvidence1",
+    "inGameName": "Howler Dossier",
+    "description": "A dossier full of old reports and photos that place previous Howler sightings near Korolev mining sites, usually immediately after a blasting or wall breach.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2167,8 +2167,8 @@
     "cost": []
   },
   "MissionItem_KORHowlerEvidence2": {
-    "inGameName": "QuestItem_KORHowlerEvidence2",
-    "description": "QuestItem_KORHowlerEvidence2",
+    "inGameName": "Old Howler Data",
+    "description": "A more detailed report on past Howler sighting Korolev covered. Whether or not Howler appearances were caused by Korolev mining is not confirmed, but at the time the corp certainly believed so, and went out of their way to keep all the data they collected off-network.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2179,8 +2179,8 @@
     "cost": []
   },
   "MissionItem_OSIHowlerClue1": {
-    "inGameName": "QuestItem_OSIHowlerClue1",
-    "description": "QuestItem_OSIHowlerClue1",
+    "inGameName": "Shredded Armor Panel",
+    "description": "Broken and mangled, with some beast's claw still lodged in it. Few creatures are able to deal this much damage. Osiris will want to analyse this.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2191,8 +2191,8 @@
     "cost": []
   },
   "MissionItem_OSIHowlerSample1": {
-    "inGameName": "QuestItem_OSIHowlerSample1",
-    "description": "QuestItem_OSIHowlerSample1",
+    "inGameName": "Auditory Organ",
+    "description": "Appears to be the organ the howling beasts use to echolocate targets. You're unsure why this was in one of its nests... perhaps molting? Or part of a grim mating ritual?",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2203,8 +2203,8 @@
     "cost": []
   },
   "MissionItem_ICAAudioDecoysPlan": {
-    "inGameName": "QuestItem_ICAAudioDecoysPlan",
-    "description": "QuestItem_ICAAudioDecoysPlan",
+    "inGameName": "Audio Decoy Schematics",
+    "description": "Schematics for a new kind of non-lethal grenade, aimed at simulating weapons fire.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2215,8 +2215,8 @@
     "cost": []
   },
   "MissionItem_OSIStrongStimRecipe": {
-    "inGameName": "QuestItem_OSIStrongStimRecipe",
-    "description": "QuestItem_OSIStrongStimRecipe",
+    "inGameName": "Med Stims Formula",
+    "description": "The recipe required to create stronger med stims. Very few of these components sound safe to ever be near living tissue.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2227,8 +2227,8 @@
     "cost": []
   },
   "MissionItem_OSIPaleIvySample": {
-    "inGameName": "QuestItem_OSIPaleIvySample",
-    "description": "QuestItem_OSIPaleIvySample",
+    "inGameName": "Flora Sample",
+    "description": "Sample of a flower native to Fortuna III. While this plant could theoretically survive on Bright Sands, it's very unlikely it originated from here.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,
@@ -2239,8 +2239,8 @@
     "cost": []
   },
   "MissionItem_OSICrystalCaveClue": {
-    "inGameName": "QuestItem_OSICrystalCaveClue",
-    "description": "QuestItem_OSICrystalCaveClue",
+    "inGameName": "Crystalline Material Research",
+    "description": "Old Osiris research documents, focussed on a new rare crystaline structure. Likely pilfered from an Osiris research lab or lost in the evacuations, it's unlikely the research would have been carried out at the Favela.",
     "rarity": "Common",
     "tags": [],
     "weight": 4,

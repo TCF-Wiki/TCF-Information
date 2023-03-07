@@ -158,7 +158,7 @@
     },
     "VDP_VeteranExplorer": {
       "ingamename": "Exploratory Vessel",
-      "description": "",
+      "description": "Shop_VDP_VeteranExplorer",
       "image": "DropPod_Omega01_VeteranExplorer",
       "shopImage": "Shop_VeteranExplorer",
       "rarity": "Uncommon",
@@ -169,8 +169,8 @@
       "priceRealMoney": 0
     },
     "VDP_StormDivers": {
-      "ingamename": "Shop_Vanity_Season2Event_DropPod",
-      "description": "Shop_Vanity_Season2Event_DropPod",
+      "ingamename": "Lightning Strike",
+      "description": "Be the storm!,   Vanity_Shotgun_COT_Trenchgun_StealthBomber_Name,Operative Trenchgun",
       "image": "Vanity_Droppod_Stormdivers",
       "shopImage": "Shop_StormDivers",
       "rarity": "Rare",
@@ -181,8 +181,8 @@
       "priceRealMoney": 0
     },
     "VDP_Fighterjet": {
-      "ingamename": "Shop_Droppod_Strider",
-      "description": "Shop_Droppod_Strider",
+      "ingamename": "Big Bite",
+      "description": "Time to chew this planet up!",
       "image": "Vanity_Droppod_Fighterjet",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -193,8 +193,8 @@
       "priceRealMoney": 0
     },
     "VDP_Stealthbomber": {
-      "ingamename": "Shop_Droppod_Operative",
-      "description": "Shop_Droppod_Operative",
+      "ingamename": "Stealth Drop",
+      "description": "Arriving unseen to a planet near you.",
       "image": "Vanity_Droppod_Stealthbomber",
       "shopImage": "Shop_StealthBomber",
       "rarity": "Uncommon",
@@ -244,7 +244,7 @@
     },
     "Charm_Velecite": {
       "ingamename": "Veltecite Shard",
-      "description": "A memento from the surface.\r\n\r\nDon't worry about the tingling sensation in your fingers...",
+      "description": "A memento from the surface.  Don't worry about the tingling sensation in your fingers...",
       "image": "Vanity_Charm_Veltecite",
       "shopImage": "Shop_CharmVelteciteShard",
       "rarity": "Uncommon",
@@ -316,7 +316,7 @@
     },
     "Charm_Peace": {
       "ingamename": "Peace & Love",
-      "description": "Listen, it might seem counter-intuitive, but there's going to be a lot of peace once we're finished here.",
+      "description": "Listen, it might seem counter-intuitive, but there's going to be a lot of 'peace' once we're finished here.",
       "image": "Vanity_Charm_Peace",
       "shopImage": "Shop_CharmPeace",
       "rarity": "Common",
@@ -328,7 +328,7 @@
     },
     "Charm_Mail": {
       "ingamename": "Courier",
-      "description": "A little adornment for handing out special deliveries.",
+      "description": "A little adornment for handing out 'special deliveries'.",
       "image": "Vanity_Charm_PostOffice",
       "shopImage": "Shop_CharmMail",
       "rarity": "Common",
@@ -1157,7 +1157,7 @@
       "priceRealMoney": 0
     },
     "Season03_Spray_11": {
-      "ingamename": "screw u!",
+      "ingamename": "SCREW U!",
       "description": "Shop_Season03_spray_screwu_description",
       "image": "Vanity_Sprays_screwu",
       "shopImage": "Shop_Spray_ScrewU",
@@ -2396,7 +2396,7 @@
     },
     "3P_Emote_I_Surrender_01": {
       "ingamename": "Hands up!",
-      "description": "",
+      "description": "Easy there!",
       "image": "UI_Items_Emote_Surrender_Icon_D",
       "shopImage": "UI_FortunaPass_EmoteSurrender_D",
       "rarity": "Common",
@@ -2419,8 +2419,8 @@
       "priceRealMoney": 0
     },
     "3P_Emote_Spit_Take_01": {
-      "ingamename": "Shop_Emote_Spit_Take_01",
-      "description": "Shop_Emote_Spit_Take_01",
+      "ingamename": "Spit-take",
+      "description": "He did WHAT!?",
       "image": "UI_Items_Emote_SpitTake_Icon_D",
       "shopImage": "Shop_SpitTake",
       "rarity": "Uncommon",
@@ -2431,8 +2431,8 @@
       "priceRealMoney": 0
     },
     "3P_Emote_Aurum_Rain_01": {
-      "ingamename": "Shop_Emote_Aurum_Rain_01",
-      "description": "Shop_Emote_Aurum_Rain_01",
+      "ingamename": "Make it Rain!",
+      "description": "The humble are virtuous, but prospectors are prosperous!",
       "image": "UI_Items_Emote_AurumRain_Icon_D",
       "shopImage": "Shop_AurumRain",
       "rarity": "Uncommon",
@@ -2443,8 +2443,8 @@
       "priceRealMoney": 0
     },
     "3P_Emote_MarauderHold_01": {
-      "ingamename": "Shop_Emote_MarauderHold_01",
-      "description": "Shop_Emote_MarauderHold_01",
+      "ingamename": "Behold!",
+      "description": "Kneel before Lil' Jeff!",
       "image": "UI_Items_Emote_MarauderHold_Icon_D",
       "shopImage": "Shop_MarauderHold",
       "rarity": "Rare",
@@ -2455,8 +2455,8 @@
       "priceRealMoney": 0
     },
     "3P_Emote_Petting_Creature_01": {
-      "ingamename": "Pet the leafman",
-      "description": "So cute!",
+      "ingamename": "Pet the Leafman",
+      "description": "They're so cute!",
       "image": "UI_Items_Emote_PetLeafman_Icon_D",
       "shopImage": "Shop_PetLeafman",
       "rarity": "Rare",
@@ -2467,8 +2467,8 @@
       "priceRealMoney": 0
     },
     "3P_Emote_Failed_Bomb_01": {
-      "ingamename": "Failure",
-      "description": "Woops...",
+      "ingamename": "Butter Fingers",
+      "description": "Woops!",
       "image": "UI_Items_Emote_FailedBomb_Icon_D",
       "shopImage": "Shop_FailedBomb",
       "rarity": "Rare",
@@ -2649,7 +2649,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_Pistol_Gamma01_Founders": {
@@ -2665,7 +2665,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_Pistol_Alpha01_Founders": {
@@ -2681,7 +2681,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_Pistol_Delta01_Founders": {
@@ -2727,7 +2727,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "C-32 Bolt Action",
-        "WP_E_Sniper_Bullet_02"
+        "C-32 Bolt Action - Mk.II"
       ]
     },
     "Vanity_All_Season01_01": {
@@ -2990,7 +2990,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_Pistol_Epsilon01_GoldRush": {
@@ -3021,7 +3021,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_Pistol_Epsilon01_Gamescom01": {
@@ -3052,7 +3052,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_Pistol_Delta01_Gaudy": {
@@ -3083,7 +3083,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_Pistol_Delta01_Gilded": {
@@ -3114,7 +3114,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KBR Longshot",
-        "WP_A_BR_Bullet_02"
+        "KBR Longshot - Mk.I"
       ]
     },
     "Vanity_BattleRifle_Epsilon01_GoldRush": {
@@ -3130,7 +3130,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "C-32 Bolt Action",
-        "WP_E_Sniper_Bullet_02"
+        "C-32 Bolt Action - Mk.II"
       ]
     },
     "Vanity_LightBeam_Gamma01_GoldRush": {
@@ -3296,7 +3296,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Manticore",
-        "WP_G_AR_Needle_02"
+        "Manticore - Mk.II"
       ]
     },
     "Vanity_AssaultRifle_Gamma02_CombatKnife01": {
@@ -3312,7 +3312,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Manticore",
-        "WP_G_AR_Needle_02"
+        "Manticore - Mk.II"
       ]
     },
     "Vanity_HeavyBeam_Gamma01_Rainbow": {
@@ -3328,7 +3328,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Zeus Beam",
-        "WP_G_HVY_Beam_02"
+        "Zeus Beam - Mk.I"
       ]
     },
     "Vanity_MachineGun_Delta01_Paradise": {
@@ -3344,7 +3344,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "ICA Guarantee",
-        "WP_D_LMG_Energy_02"
+        "ICA Guarantee - Mk.I"
       ]
     },
     "Vanity_MissileLauncherSmall_Alpha01_Warden": {
@@ -3375,7 +3375,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_SMG_Alpha01_Rusted01": {
@@ -3421,7 +3421,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Asp Flechette Gun",
-        "WP_G_SMG_Needle_02"
+        "Asp Flechette Gun - Mk.I"
       ]
     },
     "Vanity_SMG_Gamma01_Pop01": {
@@ -3437,7 +3437,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Asp Flechette Gun",
-        "WP_G_SMG_Needle_02"
+        "Asp Flechette Gun - Mk.I"
       ]
     },
     "Vanity_SMG_Delta01_BlackCarbon": {
@@ -3483,7 +3483,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KARMA-1",
-        "WP_A_Sniper_Gauss_02"
+        "KARMA-XT - Mk.I"
       ]
     },
     "Vanity_SniperRifle_Gamma01_Surge": {
@@ -3962,7 +3962,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_LightBeam_Gamma01_Anubis": {
@@ -4008,7 +4008,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Manticore",
-        "WP_G_AR_Needle_02"
+        "Manticore - Mk.II"
       ]
     },
     "Vanity_HeavyBeam_Gamma01_Anubis": {
@@ -4024,7 +4024,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Zeus Beam",
-        "WP_G_HVY_Beam_02"
+        "Zeus Beam - Mk.I"
       ]
     },
     "Vanity_SMG_Gamma01_Anubis": {
@@ -4040,7 +4040,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Asp Flechette Gun",
-        "WP_G_SMG_Needle_02"
+        "Asp Flechette Gun - Mk.I"
       ]
     },
     "Vanity_SniperRifle_Gamma01_Anubis": {
@@ -4130,7 +4130,7 @@
       ]
     },
     "Vanity_MachineGun_Delta01_Americana": {
-      "ingamename": "Frontier Spirit Guarantee",
+      "ingamename": "Frontier Spirit ICA Guarantee",
       "description": "",
       "image": "Vanity_WeaponSkin_P_MachinegunDeltaAmericana",
       "shopImage": "Shop_FrontierSpiritGuarantee",
@@ -4142,7 +4142,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "ICA Guarantee",
-        "WP_D_LMG_Energy_02"
+        "ICA Guarantee - Mk.I"
       ]
     },
     "Vanity_SMG_Delta01_Americana": {
@@ -4203,7 +4203,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_BattleRifle_Epsilon01_Season2": {
@@ -4219,7 +4219,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "C-32 Bolt Action",
-        "WP_E_Sniper_Bullet_02"
+        "C-32 Bolt Action - Mk.II"
       ]
     },
     "Vanity_Pistol_Epsilon01_Season2": {
@@ -4250,7 +4250,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_BattleRifle_Alpha01_Paladin": {
@@ -4266,7 +4266,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KBR Longshot",
-        "WP_A_BR_Bullet_02"
+        "KBR Longshot - Mk.I"
       ]
     },
     "Vanity_AssaultRifle_Alpha01_Paladin": {
@@ -4327,7 +4327,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KARMA-1",
-        "WP_A_Sniper_Gauss_02"
+        "KARMA-XT - Mk.I"
       ]
     },
     "Vanity_Shotgun_Alpha01_Paladin": {
@@ -4411,7 +4411,7 @@
       "exclusiveWeapon": []
     },
     "Vanity_All_Striped02": {
-      "ingamename": "Cold Heat",
+      "ingamename": "Scanner Lines",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
       "shopImage": "",
@@ -4424,7 +4424,7 @@
       "exclusiveWeapon": []
     },
     "Vanity_All_Striped03": {
-      "ingamename": "Green Grass",
+      "ingamename": "Researcher Green",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
       "shopImage": "",
@@ -4450,7 +4450,7 @@
       "exclusiveWeapon": []
     },
     "Vanity_All_Gradient02": {
-      "ingamename": "Deep Blue",
+      "ingamename": "Neon Blast",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
       "shopImage": "",
@@ -4542,7 +4542,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KBR Longshot",
-        "WP_A_BR_Bullet_02"
+        "KBR Longshot - Mk.I"
       ]
     },
     "Vanity_AutoCannon_Alpha01_Season02Reward": {
@@ -4558,7 +4558,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KARMA-1",
-        "WP_A_Sniper_Gauss_02"
+        "KARMA-XT - Mk.I"
       ]
     },
     "Vanity_MissileLauncherSmall_Alpha01_Season02Reward": {
@@ -4589,7 +4589,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_Shotgun_Alpha01_Season02Reward": {
@@ -4635,7 +4635,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KARMA-1",
-        "WP_A_Sniper_Gauss_02"
+        "KARMA-XT - Mk.I"
       ]
     },
     "Vanity_All_Egg01": {
@@ -4800,7 +4800,7 @@
     },
     "Vanity_MissileLauncherSmall_Alpha01_Ronin_Season03": {
       "ingamename": "War Spirit KOMRAD",
-      "description": "",
+      "description": "Can be applied to any KOMRAD you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_KomradRonin",
       "shopImage": "Shop_WarSpiritKomrad",
       "rarity": "Uncommon",
@@ -4815,7 +4815,7 @@
     },
     "Vanity_BattleRifle_Alpha01_Grafitti_Season03": {
       "ingamename": "Wildstyle KBR Longshot",
-      "description": "",
+      "description": "Can be applied to any KBR Longshot you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LongshotGraffiti",
       "shopImage": "",
       "rarity": "Common",
@@ -4826,7 +4826,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KBR Longshot",
-        "WP_A_BR_Bullet_02"
+        "KBR Longshot - Mk.I"
       ]
     },
     "Vanity_Shotgun_Alpha01_Ronin_Season03": {
@@ -4846,7 +4846,7 @@
     },
     "Vanity_SniperRifle_Alpha01_Grafitti_Season03": {
       "ingamename": "Wildstyle KARMA-1",
-      "description": "",
+      "description": "Can be applied to any KARMA-1 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_KarmaGraffiti",
       "shopImage": "Shop_WildStyleKarma1",
       "rarity": "Common",
@@ -4857,12 +4857,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KARMA-1",
-        "WP_A_Sniper_Gauss_02"
+        "KARMA-XT - Mk.I"
       ]
     },
     "Vanity_AssaultRifle_Alpha01_ArtDeco_Season03": {
       "ingamename": "Art Deco KOR-47",
-      "description": "",
+      "description": "Can be applied to any KOR-47 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_AssaultRifleAlpha01ArtDeco",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -4892,7 +4892,7 @@
     },
     "Vanity_Pistol_Alpha01_Streamer_Season03": {
       "ingamename": "Vivid Hammer",
-      "description": "",
+      "description": "Can be applied to any Hammer you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_HammerStreamer",
       "shopImage": "Shop_VividHammer",
       "rarity": "Rare",
@@ -4903,12 +4903,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_HeavyBeam_Gamma01_Ronin_Season03": {
       "ingamename": "War Spirit Zeus Beam",
-      "description": "",
+      "description": "Can be applied to any Zeus you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ZeuzARonin",
       "shopImage": "Shop_RoninZeusBeam",
       "rarity": "Uncommon",
@@ -4919,12 +4919,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Zeus Beam",
-        "WP_G_HVY_Beam_02"
+        "Zeus Beam - Mk.I"
       ]
     },
     "Vanity_SniperRifle_Gamma01_Streamer_Season03": {
       "ingamename": "Vivid Basilisk",
-      "description": "",
+      "description": "Time for a light show!",
       "image": "Vanity_WeaponSkin_P_BasiliskStreamer",
       "shopImage": "Shop_VividBasilisk",
       "rarity": "Rare",
@@ -4939,7 +4939,7 @@
     },
     "Vanity_AssaultRifle_Gamma02_Streamer_Season03": {
       "ingamename": "Vivid Manticore",
-      "description": "",
+      "description": "Can be applied to any Manticore you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ManticoreStreamer",
       "shopImage": "Shop_VividManticore",
       "rarity": "Rare",
@@ -4950,12 +4950,28 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Manticore",
-        "WP_G_AR_Needle_02"
+        "Manticore - Mk.II"
+      ]
+    },
+    "Vanity_SMG_Gamma01_Streamer_Season03": {
+      "ingamename": "Vivid ASP Flechette Gun",
+      "description": "Can be applied to any Asp Flechette Gun you own. Owned skins are not lost on the surface.",
+      "image": "Vanity_WeaponSkin_P_NeedlerStreamer",
+      "shopImage": "Shop_VividASPFlechette",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.WeaponSkin"
+      ],
+      "priceHardCurrency": 1125,
+      "priceRealMoney": 0,
+      "exclusiveWeapon": [
+        "Asp Flechette Gun",
+        "Asp Flechette Gun - Mk.I"
       ]
     },
     "Vanity_AssaultRifle_Gamma01_ArtDeco_Season03": {
       "ingamename": "Art Deco Phasic Lancer",
-      "description": "",
+      "description": "Can be applied to any Phasic Lancer you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LancerArtDeco",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -4981,12 +4997,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_LightBeam_Gamma01_ArtDeco_Season03": {
       "ingamename": "Art Deco Gorgon",
-      "description": "",
+      "description": "Can be applied to any Gorgon you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_GorgonArtDeco",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -4999,24 +5015,9 @@
         "Gorgon"
       ]
     },
-    "Vanity_Pistol_Delta01_Streamer_Season03": {
-      "ingamename": "Vivid Bulldog",
-      "description": "",
-      "image": "Vanity_WeaponSkin_P_BulldogStreamer",
-      "shopImage": "Shop_VividBulldog",
-      "rarity": "Rare",
-      "tags": [
-        "Vanity.Type.WeaponSkin"
-      ],
-      "priceHardCurrency": 1125,
-      "priceRealMoney": 0,
-      "exclusiveWeapon": [
-        "Bulldog"
-      ]
-    },
     "Vanity_AssaultRifle_Delta01_ArtDeco_Season03": {
       "ingamename": "Art Deco Advocate",
-      "description": "",
+      "description": "Can be applied to any Advocate you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_AdvocateArtDeco",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5031,7 +5032,7 @@
     },
     "Vanity_AssaultRifle_Delta02_ArtDeco_Season03": {
       "ingamename": "Art Deco Lacerator",
-      "description": "",
+      "description": "Can be applied to any Lacerator you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LaceratorArtDeco",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5046,7 +5047,7 @@
     },
     "Vanity_MachineGun_Delta01_Streamer_Season03": {
       "ingamename": "Vivid ICA Guarantee",
-      "description": "",
+      "description": "Can be applied to any ICA Guarantee you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_MachinegunDeltaStreamer",
       "shopImage": "Shop_VividICAGuarantee",
       "rarity": "Rare",
@@ -5057,12 +5058,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "ICA Guarantee",
-        "WP_D_LMG_Energy_02"
+        "ICA Guarantee - Mk.I"
       ]
     },
     "Vanity_SMG_Delta01_Streamer_Season03": {
       "ingamename": "Vivid Voltaic Brute",
-      "description": "",
+      "description": "Can be applied to any Voltaic Brute you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_BruteStreamer",
       "shopImage": "Shop_VividVoltaicBrute",
       "rarity": "Rare",
@@ -5077,7 +5078,7 @@
     },
     "Vanity_SniperRifle_Delta01_Ronin_Season03": {
       "ingamename": "War Spirit Kinetic Arbiter",
-      "description": "",
+      "description": "Can be applied to any Kinetic Arbiter you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ArbiterRonin",
       "shopImage": "Shop_WarSpiritKineticArbiter",
       "rarity": "Uncommon",
@@ -5092,7 +5093,7 @@
     },
     "Vanity_Shotgun_Delta01_Streamer_Season03": {
       "ingamename": "Vivid Shattergun",
-      "description": "",
+      "description": "Can be applied to any Shattergun you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ShattergunStreamer",
       "shopImage": "Shop_VividShattergun",
       "rarity": "Rare",
@@ -5118,7 +5119,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "C-32 Bolt Action",
-        "WP_E_Sniper_Bullet_02"
+        "C-32 Bolt Action - Mk.II"
       ]
     },
     "Vanity_SMG_Epsilon01_Ronin_Season03": {
@@ -5134,7 +5135,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_Pistol_Epsilon01_ArtDeco_Season03": {
@@ -5165,7 +5166,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_SMG_Delta01_Glowing01": {
@@ -5226,7 +5227,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "C-32 Bolt Action",
-        "WP_E_Sniper_Bullet_02"
+        "C-32 Bolt Action - Mk.II"
       ]
     },
     "Vanity_Pistol_Epsilon01_Poacher": {
@@ -5272,7 +5273,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KBR Longshot",
-        "WP_A_BR_Bullet_02"
+        "KBR Longshot - Mk.I"
       ]
     },
     "Vanity_HeavyBeam_Gamma01_Veteran": {
@@ -5288,7 +5289,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Zeus Beam",
-        "WP_G_HVY_Beam_02"
+        "Zeus Beam - Mk.I"
       ]
     },
     "Vanity_Shotgun_Alpha01_Syndicate": {
@@ -5334,7 +5335,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KARMA-1",
-        "WP_A_Sniper_Gauss_02"
+        "KARMA-XT - Mk.I"
       ]
     },
     "Vanity_SMG_Gamma01_Vaporwave": {
@@ -5350,7 +5351,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Asp Flechette Gun",
-        "WP_G_SMG_Needle_02"
+        "Asp Flechette Gun - Mk.I"
       ]
     },
     "Vanity_All_Gradient06": {
@@ -5367,7 +5368,7 @@
       "exclusiveWeapon": []
     },
     "Vanity_All_Gradient07": {
-      "ingamename": "Neon Wave",
+      "ingamename": "Dark Neon",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Gradient07",
       "shopImage": "",
@@ -5500,12 +5501,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KBR Longshot",
-        "WP_A_BR_Bullet_02"
+        "KBR Longshot - Mk.I"
       ]
     },
     "Vanity_AssaultRifle_KOR_Kor47_Marshal": {
       "ingamename": "Marshal KOR-47",
-      "description": "",
+      "description": "Can be applied to any KOR-47 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_Kor47Marshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5520,7 +5521,7 @@
     },
     "Vanity_AssaultRifle_OSI_Gorgon_Chrome": {
       "ingamename": "Chrome Gorgon",
-      "description": "Chrome and lasers just fit, you know?\r\n\r\nCan only be applied to the Gorgon",
+      "description": "Chrome and lasers just fit",
       "image": "Vanity_WeaponSkin_P_GorgonChrome",
       "shopImage": "Shop_ChromeGorgon",
       "rarity": "Common",
@@ -5535,7 +5536,7 @@
     },
     "Vanity_AssaultRifle_OSI_Manticore_Marshal": {
       "ingamename": "Marshal Manticore",
-      "description": "",
+      "description": "Can be applied to any Manticore you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ManticoreMarshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5546,12 +5547,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Manticore",
-        "WP_G_AR_Needle_02"
+        "Manticore - Mk.II"
       ]
     },
     "Vanity_AssaultRifle_OSI_PhasicLancer_Marshal": {
       "ingamename": "Marshal Phasic Lancer",
-      "description": "",
+      "description": "Can be applied to any Phasic Lancer you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LancerMarshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5566,7 +5567,7 @@
     },
     "Vanity_Launcher_KOR_Komrad_Marshal": {
       "ingamename": "Marshal KOMRAD",
-      "description": "",
+      "description": "Can be applied to any KOMRAD you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_KomradMarshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5592,7 +5593,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "ICA Guarantee",
-        "WP_D_LMG_Energy_02"
+        "ICA Guarantee - Mk.I"
       ]
     },
     "Vanity_Pistol_COT_K28_Chrome": {
@@ -5627,7 +5628,7 @@
     },
     "Vanity_Pistol_KOR_Hammer_Marshal": {
       "ingamename": "Marshal Hammer",
-      "description": "",
+      "description": "Can be applied to any Hammer you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_HammerMarshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5638,12 +5639,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_Pistol_OSI_Scarab_Marshal": {
       "ingamename": "Marshal Scarab",
-      "description": "",
+      "description": "Can be applied to any Scarab you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ScarabMarshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5654,7 +5655,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_Shotgun_COT_Trenchgun_Muerta": {
@@ -5674,7 +5675,7 @@
     },
     "Vanity_Shotgun_ICA_Shattergun_Chrome": {
       "ingamename": "Chrome Shattergun",
-      "description": "A fine polish for a crude weapon.\r\n\r\nCan only be applied to the Shattergun.",
+      "description": "A fine polish for a crude weapon.",
       "image": "Vanity_WeaponSkin_P_ShattergunChrome",
       "shopImage": "",
       "rarity": "Common",
@@ -5689,7 +5690,7 @@
     },
     "Vanity_Shotgun_KOR_Maelstrom_Marshal": {
       "ingamename": "Marshal PKR Maelstrom",
-      "description": "",
+      "description": "Can be applied to any PKR Maelstrom you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_MaelstromMarshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5704,7 +5705,7 @@
     },
     "Vanity_SniperRifle_OSI_Basilisk_Chrome": {
       "ingamename": "Chrome Basilisk",
-      "description": "Blind your enemies from afar.\r\n\r\nCan only be applied to the Basilisk.",
+      "description": "Blind your enemies from afar.",
       "image": "Vanity_WeaponSkin_P_BasiliskChrome",
       "shopImage": "",
       "rarity": "Common",
@@ -5719,7 +5720,7 @@
     },
     "Vanity_SniperRifle_KOR_Karma_Marshal": {
       "ingamename": "Marshal KARMA-1",
-      "description": "",
+      "description": "Can be applied to any KARMA-1 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_KarmaMarshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5730,11 +5731,11 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KARMA-1",
-        "WP_A_Sniper_Gauss_02"
+        "KARMA-XT - Mk.I"
       ]
     },
     "Vanity_SniperRifle_ICA_KineticArbiter_Muerta": {
-      "ingamename": "Shop_Vanity_SniperRifle_ICA_KineticArbiter_Muerta",
+      "ingamename": "Reaper Kinetic Arbiter",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ArbiterMuerta",
       "shopImage": "",
@@ -5749,8 +5750,8 @@
       ]
     },
     "Vanity_SniperRifle_COT_C32_Marshal": {
-      "ingamename": "Marshal C-32",
-      "description": "",
+      "ingamename": "Marshal C-32 Bolt Action",
+      "description": "Can be applied to any C-32 Bolt Action you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_BattleRifleEpsilonMarshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -5761,12 +5762,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "C-32 Bolt Action",
-        "WP_E_Sniper_Bullet_02"
+        "C-32 Bolt Action - Mk.II"
       ]
     },
     "Vanity_SMG_OSI_ASPFlechette_Chrome": {
       "ingamename": "Chrome Asp Flechette Gun",
-      "description": "Chrome needles not included.\r\n\r\nCan only be applied to the Asp Flechette Gun.",
+      "description": "Chrome needles not included.",
       "image": "Vanity_WeaponSkin_P_NeedlerChrome",
       "shopImage": "Shop_ChromeASPFlechette",
       "rarity": "Common",
@@ -5777,7 +5778,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Asp Flechette Gun",
-        "WP_G_SMG_Needle_02"
+        "Asp Flechette Gun - Mk.I"
       ]
     },
     "Vanity_SMG_KOR_Scrapper_Chrome": {
@@ -5808,7 +5809,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_SMG_ICA_VoltaicBrute_Muerta": {
@@ -5828,7 +5829,7 @@
     },
     "Vanity_SMG_COT_PDW_Starterpack01": {
       "ingamename": "Initiate S-576 PDW",
-      "description": "",
+      "description": "Can be applied to any S-576 PDW you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_PDWStarterPack01",
       "shopImage": "Vanity_WeaponSkin_P_PDWStarterPack01",
       "rarity": "Common",
@@ -5839,12 +5840,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_Pistol_OSI_Scarab_Starterpack01": {
       "ingamename": "Professional Scarab",
-      "description": "",
+      "description": "Can be applied to any Scarab you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ScarabStarterPack01",
       "shopImage": "Vanity_WeaponSkin_P_ScarabStarterPack01",
       "rarity": "Common",
@@ -5855,12 +5856,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_SMG_KOR_Scrapper_Starterpack01": {
       "ingamename": "Specialist Scrapper",
-      "description": "",
+      "description": "Can be applied to any KM-9 Scrapper you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ScrapperStarterPack01",
       "shopImage": "Vanity_WeaponSkin_P_ScrapperStarterPack01",
       "rarity": "Common",
@@ -5875,7 +5876,7 @@
     },
     "Vanity_AssaultRifle_OSI_Manticore_Starterpack01": {
       "ingamename": "Elite Manticore",
-      "description": "",
+      "description": "Can be applied to any Manticore you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ManticoreStarterPack01",
       "shopImage": "Vanity_WeaponSkin_P_ManticoreStarterPack01",
       "rarity": "Common",
@@ -5886,12 +5887,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Manticore",
-        "WP_G_AR_Needle_02"
+        "Manticore - Mk.II"
       ]
     },
     "Vanity_AssaultRifle_ICA_Lacerator_Brass": {
       "ingamename": "Brass Lacerator",
-      "description": "",
+      "description": "Can be applied to any Lacerator you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LaceratorBrass",
       "shopImage": "Shop_FrontierSpiritLacerator",
       "rarity": "Uncommon",
@@ -5906,7 +5907,7 @@
     },
     "Vanity_AssaultRifle_KOR_KBRLongshot_Lava": {
       "ingamename": "Magmatic KBR Longshot",
-      "description": "",
+      "description": "Can be applied to any KBR Longshot you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LongshotLava",
       "shopImage": "Shop_MuertaKBRLongshot",
       "rarity": "Rare",
@@ -5917,12 +5918,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KBR Longshot",
-        "WP_A_BR_Bullet_02"
+        "KBR Longshot - Mk.I"
       ]
     },
     "Vanity_Pistol_KOR_Hammer_Lava": {
       "ingamename": "Magmatic Hammer",
-      "description": "",
+      "description": "Blasts anything away!",
       "image": "Vanity_WeaponSkin_P_HammerMarshal",
       "shopImage": "",
       "rarity": "Rare",
@@ -5933,12 +5934,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_SMG_ICA_VoltaicBrute_Lava": {
       "ingamename": "Magmatic Voltaic Brute",
-      "description": "",
+      "description": "As hot as it gets!",
       "image": "Vanity_WeaponSkin_P_BruteMuerta",
       "shopImage": "Shop_MuertaVoltaicBrute",
       "rarity": "Rare",
@@ -5953,7 +5954,7 @@
     },
     "Vanity_AssaultRifle_KOR_Kor47_Lava": {
       "ingamename": "Magmatic KOR-47",
-      "description": "",
+      "description": "The lead comes preheated!",
       "image": "Vanity_WeaponSkin_P_Kor47Marshal",
       "shopImage": "",
       "rarity": "Rare",
@@ -5968,7 +5969,7 @@
     },
     "Vanity_AssaultRifle_COT_AR55_XenoIron": {
       "ingamename": "Vanity_AssaultRifle_COT_AR55_XenoIron",
-      "description": "Vanity_AssaultRifle_COT_AR55_XenoIron",
+      "description": "Might have a little too much Fortuna III in this one...",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "",
       "rarity": "Rare",
@@ -5979,12 +5980,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "AR-55 Autorifle",
-        "WP_E_AR_Energy_02"
+        "AR-55 Autorifle - Mk.II"
       ]
     },
     "Vanity_AssaultRifle_ICA_Advocate_XenoMetal": {
       "ingamename": "Vanity_AssaultRifle_ICA_Advocate_XenoIron",
-      "description": "Vanity_AssaultRifle_ICA_Advocate_XenoIron",
+      "description": "Always use gloves when handling!",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
@@ -5999,7 +6000,7 @@
     },
     "Vanity_SMG_ICA_VoltaicBrute_XenoIron": {
       "ingamename": "Vanity_SMG_ICA_VoltaicBrute_XenoIron",
-      "description": "Vanity_SMG_ICA_VoltaicBrute_XenoIron",
+      "description": "Well this thing was already a monster",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
@@ -6014,7 +6015,7 @@
     },
     "Vanity_Shotgun_ICA_Shattergun_XenoIron": {
       "ingamename": "Vanity_Shotgun_ICA_Shattergun_XenoIron",
-      "description": "Vanity_Shotgun_ICA_Shattergun_XenoIron",
+      "description": "This definitely voids the warranty.",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
@@ -6029,7 +6030,7 @@
     },
     "Vanity_MachineGun_ICA_Guarantee_XenoIron": {
       "ingamename": "Vanity_MachineGun_ICA_Guarantee_XenoIron",
-      "description": "Vanity_MachineGun_ICA_Guarantee_XenoIron",
+      "description": "If you listen closely you can hear it whisper.",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
@@ -6040,12 +6041,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "ICA Guarantee",
-        "WP_D_LMG_Energy_02"
+        "ICA Guarantee - Mk.I"
       ]
     },
     "Vanity_Pistol_ICA_Bulldog_XenoIron": {
       "ingamename": "Vanity_Pistol_ICA_Bulldog_XenoIron",
-      "description": "Vanity_Pistol_ICA_Bulldog_XenoIron",
+      "description": "Don't leave it near an unsecured terminal...",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
@@ -6060,7 +6061,7 @@
     },
     "Vanity_SniperRifle_OSI_Basilisk_Glacier": {
       "ingamename": "Glacial Basilisk",
-      "description": "",
+      "description": "Can be applied to any Basilisk you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_BasiliskGlacier",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -6075,7 +6076,7 @@
     },
     "Vanity_Pistol_OSI_Scarab_Brass": {
       "ingamename": "Brass Scarab",
-      "description": "",
+      "description": "Can be applied to any Scarab you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ScarabStarterPack01",
       "shopImage": "Vanity_WeaponSkin_P_ScarabStarterPack01",
       "rarity": "Common",
@@ -6086,12 +6087,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_AssaultRifle_ICA_Advocate_DoorGod": {
       "ingamename": "Divine Guardian Advocate",
-      "description": "",
+      "description": "Can be applied to any Advocate you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_AdvocateDoorGod",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6106,7 +6107,7 @@
     },
     "Vanity_Pistol_KOR_Hammer_DoorGod": {
       "ingamename": "Divine Guardian Hammer",
-      "description": "",
+      "description": "Can be applied to any Hammer you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_HammerDoorGod",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -6117,12 +6118,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Hammer",
-        "WP_A_Pistol_Bullet_02"
+        "Hammer - Mk.I"
       ]
     },
     "Vanity_Pistol_ICA_Bulldog_VeteranExplorer": {
       "ingamename": "Explorer's Bulldog",
-      "description": "",
+      "description": "Can be applied to any Bulldog you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_BulldogVeteranExplorer",
       "shopImage": "Shop_Placeholder",
       "rarity": "Common",
@@ -6137,7 +6138,7 @@
     },
     "Vanity_SMG_KOR_Scrapper_VeteranExplorer": {
       "ingamename": "Explorer's KM-9 Scrapper",
-      "description": "",
+      "description": "Can be applied to any KM-9 Scrapper you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ScrapperChrome",
       "shopImage": "Shop_Placeholder",
       "rarity": "Common",
@@ -6152,7 +6153,7 @@
     },
     "Vanity_Shotgun_COT_Trenchgun_Cultist": {
       "ingamename": "Cultist Trenchgun",
-      "description": "",
+      "description": "Can be applied to any Trenchgun you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_TrenchgunCultist",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6167,7 +6168,7 @@
     },
     "Vanity_AssaultRifle_OSI_Manticore_Cultist": {
       "ingamename": "Cultist Manticore",
-      "description": "",
+      "description": "Can be applied to any Manticore you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ManticoreCultist",
       "shopImage": "FortunaPass_Manticore_Cultist",
       "rarity": "Uncommon",
@@ -6178,12 +6179,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Manticore",
-        "WP_G_AR_Needle_02"
+        "Manticore - Mk.II"
       ]
     },
     "Vanity_Shotgun_KOR_Maelstrom_Cultist": {
       "ingamename": "Cultist Maelstrom",
-      "description": "",
+      "description": "Can be applied to any PKR Maelstrom you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_MaelstromCultist",
       "shopImage": "FortunaPass_Maelstrom_Cultist",
       "rarity": "Uncommon",
@@ -6209,7 +6210,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_Pistol_OSI_Scarab_Cultist": {
@@ -6225,12 +6226,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_AssaultRifle_OSI_PhasicLancer_Cultist": {
       "ingamename": "Cultist Phasic Lancer",
-      "description": "They see All",
+      "description": "They see All.",
       "image": "Vanity_WeaponSkin_P_LancerCultist",
       "shopImage": "Shop_CultistPhasicLancer",
       "rarity": "Uncommon",
@@ -6260,7 +6261,7 @@
     },
     "Vanity_SMG_COT_PDW_AncientBronze": {
       "ingamename": "Weathered S-576 PDW",
-      "description": "",
+      "description": "Can be applied to any S-576 PDW you own. Owned skins are not lost on the surface.",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Vanity_WeaponSkin_P_PDWStarterPack01",
       "rarity": "Common",
@@ -6271,12 +6272,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_SMG_KOR_Scrapper_AncientBronze": {
       "ingamename": "Weathered KM-9 Scrapper",
-      "description": "",
+      "description": "Can be applied to any KM-9 Scrapper you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ScrapperAncientBronze",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6291,7 +6292,7 @@
     },
     "Vanity_SniperRifle_COT_C32_AncientBronze": {
       "ingamename": "Weathered C-32 Bolt Action",
-      "description": "",
+      "description": "Can be applied to any C-32 Bolt Action you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_BattleRifleEpsilonAncientBronze",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -6302,12 +6303,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "C-32 Bolt Action",
-        "WP_E_Sniper_Bullet_02"
+        "C-32 Bolt Action - Mk.II"
       ]
     },
     "Vanity_SMG_ICA_VoltaicBrute_Prestige": {
       "ingamename": "Luxury Voltaic Brute",
-      "description": "",
+      "description": "Can be applied to any Voltaic Brute you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_BrutePrestige",
       "shopImage": "Shop_LuxuryVoltaicBrute",
       "rarity": "Uncommon",
@@ -6322,7 +6323,7 @@
     },
     "Vanity_SMG_OSI_ASPFlechette_Brass": {
       "ingamename": "Brass Asp Flechette Gun",
-      "description": "",
+      "description": "Can be applied to any Asp Flechette Gun you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_NeedlerBrass",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -6333,7 +6334,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Asp Flechette Gun",
-        "WP_G_SMG_Needle_02"
+        "Asp Flechette Gun - Mk.I"
       ]
     },
     "Vanity_AssaultRifle_ICA_Advocate_Prestige": {
@@ -6364,12 +6365,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "C-32 Bolt Action",
-        "WP_E_Sniper_Bullet_02"
+        "C-32 Bolt Action - Mk.II"
       ]
     },
     "Vanity_SMG_OSI_ASPFlechette_Prestige": {
       "ingamename": "Luxury Asp Flechette Gun",
-      "description": "Even the flechette's are made of gold",
+      "description": "Even the flechette's are made of gold.",
       "image": "Vanity_WeaponSkin_P_NeedlerPrestige",
       "shopImage": "Shop_PrestigeFlachette",
       "rarity": "Uncommon",
@@ -6380,12 +6381,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Asp Flechette Gun",
-        "WP_G_SMG_Needle_02"
+        "Asp Flechette Gun - Mk.I"
       ]
     },
     "Vanity_AssaultRifle_OSI_Manticore_Prestige": {
       "ingamename": "Luxury Manticore",
-      "description": "Your victims should feel honored, really",
+      "description": "Your victims should feel honored",
       "image": "Vanity_WeaponSkin_P_ManticorePrestige",
       "shopImage": "Shop_PrestigeManticore",
       "rarity": "Uncommon",
@@ -6396,7 +6397,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Manticore",
-        "WP_G_AR_Needle_02"
+        "Manticore - Mk.II"
       ]
     },
     "Vanity_Pistol_OSI_Scarab_Prestige": {
@@ -6412,7 +6413,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Scarab",
-        "WP_G_Pistol_Energy_02"
+        "Scarab - Mk.II"
       ]
     },
     "Vanity_SMG_KOR_Scrapper_Prestige": {
@@ -6458,7 +6459,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "KARMA-1",
-        "WP_A_Sniper_Gauss_02"
+        "KARMA-XT - Mk.I"
       ]
     },
     "Vanity_SniperRifle_ICA_KineticArbiter_Prestige": {
@@ -6478,7 +6479,7 @@
     },
     "Vanity_AssaultRifle_ICA_Lacerator_Prestige": {
       "ingamename": "Luxury Lacerator",
-      "description": "The classic with a new look",
+      "description": "The classic with a new look.",
       "image": "Vanity_WeaponSkin_P_LaceratorPrestige",
       "shopImage": "Shop_PrestigeLacerator",
       "rarity": "Uncommon",
@@ -6492,8 +6493,8 @@
       ]
     },
     "Vanity_Shotgun_KOR_Maelstrom_Prestige": {
-      "ingamename": "Luxury Maelstrom",
-      "description": "The real razzle-dazzle",
+      "ingamename": "Shop_Vanity_Shotgun_KOR_Maelstrom_Prestige",
+      "description": "The real razzle-dazzle  Can be applied to any PKR Maelstrom you own.",
       "image": "Vanity_WeaponSkin_P_MaelstromPrestige",
       "shopImage": "Shop_PrestigeMaelstrom",
       "rarity": "Uncommon",
@@ -6523,7 +6524,7 @@
     },
     "Vanity_AssaultRifle_OSI_PhasicLancer_Prestige": {
       "ingamename": "Luxury Phasic Lancer",
-      "description": "The Golden Lancer",
+      "description": "The Golden Lancer.",
       "image": "Vanity_WeaponSkin_P_LancerPrestige",
       "shopImage": "Shop_PrestigePhasicLancer",
       "rarity": "Uncommon",
@@ -6538,7 +6539,7 @@
     },
     "Vanity_SMG_COT_PDW_Prestige": {
       "ingamename": "Luxury S-576 PDW",
-      "description": "You spray, they pray",
+      "description": "You spray",
       "image": "Vanity_WeaponSkin_P_PDWPrestige",
       "shopImage": "Shop_PrestigPDW",
       "rarity": "Uncommon",
@@ -6549,12 +6550,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "S-576 PDW",
-        "WP_E_SMG_Bullet_02"
+        "S-576 PDW - Mk.II"
       ]
     },
     "Vanity_Shotgun_ICA_Shattergun_Prestige": {
       "ingamename": "Luxury Shattergun",
-      "description": "A real beauty",
+      "description": "A real beauty!",
       "image": "Vanity_WeaponSkin_P_ShattergunPrestige",
       "shopImage": "Shop_PrestigShattergun",
       "rarity": "Uncommon",
@@ -6569,7 +6570,7 @@
     },
     "Vanity_MachineGun_OSI_Zeuz_Prestige": {
       "ingamename": "Luxury Zeus",
-      "description": "Does the divine weapon justice",
+      "description": "Does the divine weapon justice.",
       "image": "Vanity_WeaponSkin_P_ZeuzBeamPrestige",
       "shopImage": "Shop_PrestigZeuz",
       "rarity": "Uncommon",
@@ -6580,12 +6581,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Zeus Beam",
-        "WP_G_HVY_Beam_02"
+        "Zeus Beam - Mk.I"
       ]
     },
     "Vanity_AssaultRifle_COT_AR55_VeteranExplorer": {
       "ingamename": "Explorer's AR-55",
-      "description": "",
+      "description": "Can be applied to any AR-55 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_AR55VeteranExplorer",
       "shopImage": "",
       "rarity": "Common",
@@ -6596,12 +6597,12 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "AR-55 Autorifle",
-        "WP_E_AR_Energy_02"
+        "AR-55 Autorifle - Mk.II"
       ]
     },
     "Vanity_AssaultRifle_COT_AR55_Marshal": {
       "ingamename": "Marshal AR-55",
-      "description": "",
+      "description": "Can be applied to any AR-55 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_Ar55Marshal",
       "shopImage": "",
       "rarity": "Uncommon",
@@ -6612,7 +6613,7 @@
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "AR-55 Autorifle",
-        "WP_E_AR_Energy_02"
+        "AR-55 Autorifle - Mk.II"
       ]
     },
     "Vanity_All_Christmas_03": {
@@ -6658,7 +6659,7 @@
     },
     "Vanity_AssaultRifle_ICA_Lacerator_Kintsugi": {
       "ingamename": "Vanity_AssaultRifle_ICA_Lacerator_Kintsugi",
-      "description": "Vanity_AssaultRifle_ICA_Lacerator_Kintsugi",
+      "description": "Born",
       "image": "Vanity_WeaponSkin_P_LaceratorKintsugi",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6672,8 +6673,8 @@
       ]
     },
     "Vanity_SniperRifle_COT_C32_Kintsugi": {
-      "ingamename": "Shop_Vanity_SniperRifle_COT_C32_Kintsugi",
-      "description": "Shop_Vanity_SniperRifle_COT_C32_Kintsugi",
+      "ingamename": "Kintsugi C-32 Bolt Action",
+      "description": "Made whole once more only to break others.",
       "image": "Vanity_WeaponSkin_P_BattleRifleEpsilonKintsugi",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6688,7 +6689,7 @@
     },
     "Vanity_Pistol_KOR_Hammer_Kintsugi": {
       "ingamename": "Vanity_Pistol_KOR_Hammer_Kintsugi",
-      "description": "Vanity_Pistol_KOR_Hammer_Kintsugi",
+      "description": "This beauty deserves a second chance.",
       "image": "Vanity_WeaponSkin_P_HammerKintsugi",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6703,7 +6704,7 @@
     },
     "Vanity_AssaultRifle_OSI_Manticore_Stealthbomber": {
       "ingamename": "Vanity_AssaultRifle_OSI_Manticore_StealthBomber",
-      "description": "Vanity_AssaultRifle_OSI_Manticore_StealthBomber",
+      "description": "The deadliest dartgun.",
       "image": "Vanity_WeaponSkin_P_ManticoreStealthbomber",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6718,7 +6719,7 @@
     },
     "Vanity_AssaultRifle_KOR_KBRLongshot_Stealthbomber": {
       "ingamename": "Vanity_AssaultRifle_KOR_KBRLongshot_StealthBomber",
-      "description": "Vanity_AssaultRifle_KOR_KBRLongshot_StealthBomber",
+      "description": "Korolev guns never looked this good!",
       "image": "Vanity_WeaponSkin_P_LongshotStealthbomber",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6733,7 +6734,7 @@
     },
     "Vanity_Shotgun_KOR_Maelstrom_Stealthbomber": {
       "ingamename": "Vanity_Shotgun_KOR_Maelstrom_StealthBomber",
-      "description": "Vanity_Shotgun_KOR_Maelstrom_StealthBomber",
+      "description": "Some ops require finesse",
       "image": "Vanity_WeaponSkin_P_MaelstromStealthbomber",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6748,7 +6749,7 @@
     },
     "Vanity_Shotgun_COT_Trenchgun_Stealthbomber": {
       "ingamename": "Vanity_Shotgun_COT_Trenchgun_StealthBomber",
-      "description": "Vanity_Shotgun_COT_Trenchgun_StealthBomber",
+      "description": "Perfect for tight corners.",
       "image": "Vanity_WeaponSkin_P_TrenchgunStealthbomber",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6763,7 +6764,7 @@
     },
     "Vanity_SMG_COT_PDW_Sunrise": {
       "ingamename": "Vanity_SMG_COT_PDW_Sunrise",
-      "description": "Vanity_SMG_COT_PDW_Sunrise",
+      "description": "Good morning",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Common",
@@ -6778,7 +6779,7 @@
     },
     "Vanity_AssaultRifle_OSI_PhasicLancer_Sunrise": {
       "ingamename": "Vanity_AssaultRifle_OSI_PhasicLancer_Sunrise",
-      "description": "Vanity_AssaultRifle_OSI_PhasicLancer_Sunrise",
+      "description": "A real ray of sunshine!",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6793,7 +6794,7 @@
     },
     "Vanity_SniperRifle_COT_C32_Sunrise": {
       "ingamename": "Vanity_SniperRifle_COT_C32_Sunrise",
-      "description": "Vanity_SniperRifle_COT_C32_Sunrise",
+      "description": "Spread the sun's warmth.",
       "image": "Vanity_WeaponSkin_P_BattleRifleEpsilonSunrise",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6808,7 +6809,7 @@
     },
     "Vanity_Pistol_ICA_Bulldog_Sunrise": {
       "ingamename": "Vanity_Pistol_ICA_Bulldog_Sunrise",
-      "description": "Vanity_Pistol_ICA_Bulldog_Bulldog",
+      "description": "Sends them straight to heaven!",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6823,7 +6824,7 @@
     },
     "Vanity_AssaultRifle_KOR_Kor47_Sunrise": {
       "ingamename": "Vanity_AssaultRifle_KOR_Kor47_Sunrise",
-      "description": "Vanity_AssaultRifle_KOR_Kor47_Sunrise",
+      "description": "The real red dawn.",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6838,7 +6839,7 @@
     },
     "Vanity_Pistol_OSI_Scarab_Sunrise": {
       "ingamename": "Vanity_Pistol_OSI_Scarab_Sunrise",
-      "description": "Vanity_Pistol_OSI_Scarab_Sunrise",
+      "description": "It's a new dawn",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6853,7 +6854,7 @@
     },
     "Vanity_Pistol_OSI_Scarab_Fighterplane": {
       "ingamename": "Vanity_Pistol_OSI_Scarab_FighterPlane",
-      "description": "Vanity_Pistol_OSI_Scarab_FighterPlane",
+      "description": "A real spitfire!",
       "image": "Vanity_WeaponSkin_P_ScarabFighterplane",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6868,7 +6869,7 @@
     },
     "Vanity_SMG_OSI_ASPFlechette_Fighterplane": {
       "ingamename": "Vanity_SMG_OSI_ASPFlechette_FighterPlane",
-      "description": "Vanity_SMG_OSI_ASPFlechette_FighterPlane",
+      "description": "Pew",
       "image": "Vanity_WeaponSkin_P_NeedlerFighterplane",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -6883,7 +6884,7 @@
     },
     "Vanity_AssaultRifle_COT_AR55_Fighterplane": {
       "ingamename": "Vanity_AssaultRifle_COT_AR55_FighterPlane",
-      "description": "Vanity_AssaultRifle_COT_AR55_FighterPlane",
+      "description": "Always angry",
       "image": "Vanity_WeaponSkin_P_AR55Fighterplane",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -7565,7 +7566,7 @@
       "priceRealMoney": 0
     },
     "Melee_Karambit01": {
-      "ingamename": "Shop_Melee_karambitSynth",
+      "ingamename": "Tempests's Strike,  Shop_Melee_karambitSynth_Description,A karambit forged for the the ultimate prospector.",
       "description": "Shop_Melee_karambitSynth",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
@@ -7577,7 +7578,7 @@
       "priceRealMoney": 0
     },
     "Melee_LaserBlade01": {
-      "ingamename": "Shop_Melee_LaserBlade01",
+      "ingamename": "Phase Cleaver,  Shop_Melee_LaserBlade01_Description,Cauterizes as it cuts, good for avoiding a mess.",
       "description": "Shop_Melee_LaserBlade01",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
@@ -7589,7 +7590,7 @@
       "priceRealMoney": 0
     },
     "Melee_HiveKnife01": {
-      "ingamename": "Shop_Melee_ScytheHive",
+      "ingamename": "Hive's Sickle,  Shop_Melee_ScytheHive_Description,Best handle this one with extreme care...",
       "description": "Shop_Melee_ScytheHive",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
@@ -7601,7 +7602,7 @@
       "priceRealMoney": 0
     },
     "Melee_RustedTool": {
-      "ingamename": "Shop_Melee_RustedSonicBlade",
+      "ingamename": "Rusted Sonicblade,  Shop_Melee_RustedSonicBlade_Description,Free lockjaw with every cut!",
       "description": "Shop_Melee_RustedSonicBlade",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
@@ -7614,7 +7615,7 @@
     },
     "Melee_RustedTool_Primitive": {
       "ingamename": "Shop_Melee_PrimitiveSonicBlade",
-      "description": "Shop_Melee_PrimitiveSonicBlade",
+      "description": "Built by a forgotten colonist in imitation of a real sonicblade. ,   Shop_Melee_OperativeBladePrismatic_Name,Insidious Prism",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -7626,7 +7627,7 @@
     },
     "Melee_PinkScissors": {
       "ingamename": "Shop_Melee_ScissorBlade01",
-      "description": "Shop_Melee_ScissorBlade01",
+      "description": "The real problem is other people running into you. ,   Shop_Melee_PrimitiveSonicBlade_Name,Replica Sonicblade",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -7638,7 +7639,7 @@
     },
     "Melee_StealthBlade": {
       "ingamename": "Shop_Melee_OperativeBlade01",
-      "description": "Shop_Melee_OperativeBlade01",
+      "description": "Feels unnaturally weightless until you swing it. ,   Shop_Melee_PunkBoxCutter_Name,Party Blade",
       "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
@@ -7650,7 +7651,7 @@
     },
     "Melee_StealthBlade_Prismatic": {
       "ingamename": "Shop_Melee_OperativeBladePrismatic",
-      "description": "Shop_Melee_OperativeBladePrismatic",
+      "description": "Designed to distract and disorient its victims... found to have the same effect on most wielders.",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
@@ -7661,7 +7662,7 @@
       "priceRealMoney": 0
     },
     "Melee_CreatureHand": {
-      "ingamename": "Shop_Melee_StriderArm01",
+      "ingamename": "The Backscratcher,  Shop_Melee_StriderArm01_Description,Here on Fortuna III we use every part of the Strider.",
       "description": "Shop_Melee_StriderArm01",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
@@ -7673,7 +7674,7 @@
       "priceRealMoney": 0
     },
     "Melee_VelteciteDagger": {
-      "ingamename": "Shop_Melee_DynamicBlade03",
+      "ingamename": "Veltecite Poker,  Shop_Melee_DynamicBlade03_Description,Best wear gloves while handling this one...",
       "description": "Shop_Melee_DynamicBlade03",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
@@ -7685,7 +7686,7 @@
       "priceRealMoney": 0
     },
     "Melee_Cutter01": {
-      "ingamename": "Shop_Melee_GoldBoxCutter",
+      "ingamename": "The Golden Key,  Shop_Melee_GoldBoxCutter_Description,This little precious opens far more than just boxes.",
       "description": "Shop_Melee_GoldBoxCutter",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
@@ -7698,7 +7699,7 @@
     },
     "Melee_Cutter_Honeycomb": {
       "ingamename": "Shop_Melee_HoneycombBoxCutter",
-      "description": "Shop_Melee_HoneycombBoxCutter",
+      "description": "Cuts at just the right depth... ,   Shop_Melee_ScissorBlade01_Name,Safety Last",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -7710,7 +7711,7 @@
     },
     "Melee_Cutter_CutePink": {
       "ingamename": "Shop_Melee_PunkBoxCutter",
-      "description": "Shop_Melee_PunkBoxCutter",
+      "description": "Never leave home without it!,   Shop_Melee_HoneycombBoxCutter_Name,Honey Thief",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
@@ -7721,7 +7722,7 @@
       "priceRealMoney": 0
     },
     "Melee_AuthorityOperativeKnife": {
-      "ingamename": "Shop_Melee_OperativeKnife01",
+      "ingamename": "Operative's Scalpel,  Shop_Melee_OperativeKnife01_Description,A true assassin's blade.",
       "description": "Shop_Melee_OperativeKnife01",
       "image": "Vanity_Melee_AuthorityOperativeKnife",
       "shopImage": "Shop_Placeholder",
@@ -7757,7 +7758,7 @@
       "priceRealMoney": 0
     },
     "Melee_HandTool": {
-      "ingamename": "Shop_Melee_HandToolBlade01",
+      "ingamename": "Hand Cleaver,  Shop_Melee_HandToolBlade01_Description,Practical and very, very lethal.",
       "description": "Shop_Melee_HandToolBlade01",
       "image": "Items_Icon_Missing_256",
       "shopImage": "Shop_Placeholder",
@@ -8574,18 +8575,6 @@
       "priceHardCurrency": 425,
       "priceRealMoney": 0
     },
-    "Season03_Banner_08_PressF": {
-      "ingamename": "Press F, o7",
-      "description": "",
-      "image": "Vanity_Banner_PressF",
-      "shopImage": "",
-      "rarity": "Common",
-      "tags": [
-        "Vanity.Type.Banner"
-      ],
-      "priceHardCurrency": 300,
-      "priceRealMoney": 0
-    },
     "Season03_Banner_09_ProspectStation": {
       "ingamename": "Home Sweet Home",
       "description": "ORBITING THE DEADLY PLANET",
@@ -8596,18 +8585,6 @@
         "Vanity.Type.Banner"
       ],
       "priceHardCurrency": 300,
-      "priceRealMoney": 0
-    },
-    "Season03_Banner_10_ThrowDownTheGauntletAnim": {
-      "ingamename": "A duel, sir, a duel!",
-      "description": "",
-      "image": "Vanity_Banner_ThrowDownTheGauntlet",
-      "shopImage": "",
-      "rarity": "Common",
-      "tags": [
-        "Vanity.Type.Banner"
-      ],
-      "priceHardCurrency": 0,
       "priceRealMoney": 0
     },
     "Season03_Banner_11_WhiteFlag": {
@@ -9091,7 +9068,7 @@
       "priceRealMoney": 0
     },
     "Banner_PartnerFortunasFavored": {
-      "ingamename": "Shop_Banner_PartnerFortunasFavored",
+      "ingamename": "Fortuna's Favored",
       "description": "",
       "image": "Vanity_Banner_PartnerFortunasFavored",
       "shopImage": "",
@@ -9103,7 +9080,7 @@
       "priceRealMoney": 0
     },
     "Banner_PartnerBadumsFinest": {
-      "ingamename": "Shop_Banner_PartnerBadumsFinest",
+      "ingamename": "Badum's Finest",
       "description": "",
       "image": "Vanity_Banner_PartnerBadumsFinest",
       "shopImage": "",
