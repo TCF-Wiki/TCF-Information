@@ -6065,7 +6065,7 @@
     "uses": {
       "printing": {
         "Map03_KeyCard_04_AlienCorridor": {
-          "inGameName": "Bar Storage Key",
+          "inGameName": "Progenitor Corridor Key",
           "amount": 20
         }
       },
@@ -6436,7 +6436,7 @@
           "amount": 8
         },
         "Map03_KeyCard_04_AlienCorridor": {
-          "inGameName": "Bar Storage Key",
+          "inGameName": "Progenitor Corridor Key",
           "amount": 10
         }
       },
@@ -9388,27 +9388,6 @@
       "forge": {}
     }
   },
-  "KeyCard_DUMMY": {
-    "inGameName": "???",
-    "description": "Unknown Keycard",
-    "type": "material",
-    "rarity": "Exotic",
-    "weight": 1,
-    "cost": [],
-    "sellValue": 2278,
-    "factionRep": 2,
-    "tags": [
-      "Loot.Category.Key"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
   "Map01_KeyCard_01": {
     "inGameName": "Server Access Key",
     "description": "Labeled only as 'Servers - Bright Sands', with the Com-Base logo.",
@@ -9746,8 +9725,8 @@
     }
   },
   "Map02_KeyCard_08": {
-    "inGameName": "Bar Storage Key",
-    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "inGameName": "Community Room Key",
+    "description": "A key to what was once a more public space",
     "type": "material",
     "rarity": "Epic",
     "weight": 0.1,
@@ -9767,8 +9746,8 @@
     }
   },
   "Map02_KeyCard_09": {
-    "inGameName": "Bar Storage Key",
-    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "inGameName": "Overgrown Keycard",
+    "description": "A round green logo is barely visible under the muck that's grown over this keycard.",
     "type": "material",
     "rarity": "Epic",
     "weight": 0.1,
@@ -9788,8 +9767,8 @@
     }
   },
   "Map03_KeyCard_01": {
-    "inGameName": "Bar Storage Key",
-    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "inGameName": "Research Center Office Key",
+    "description": "A key to the Osiris Office. Its owner sure won't be missing it...",
     "type": "material",
     "rarity": "Epic",
     "weight": 0.1,
@@ -9815,8 +9794,8 @@
     }
   },
   "Map03_KeyCard_02": {
-    "inGameName": "Bar Storage Key",
-    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "inGameName": "Korolev Quarry Building Key",
+    "description": "A Key to the Korolev Quarry's Boss Office. Usually something good stashed away in such places.",
     "type": "material",
     "rarity": "Epic",
     "weight": 0.1,
@@ -9836,8 +9815,8 @@
     }
   },
   "Map03_KeyCard_03": {
-    "inGameName": "Bar Storage Key",
-    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "inGameName": "Korolev Medical Building Key",
+    "description": "A Key to the Korolev Surgery Room. There must have been a lot of injuries on the island for Korolev to set one up.",
     "type": "material",
     "rarity": "Epic",
     "weight": 0.1,
@@ -9863,8 +9842,8 @@
     }
   },
   "Map03_KeyCard_04_AlienCorridor": {
-    "inGameName": "Bar Storage Key",
-    "description": "A key to The Tipsy Drone attached to a miniature trinket of the namesakes affable drone mascot.",
+    "inGameName": "Progenitor Corridor Key",
+    "description": "Osiris discovered the schematics for this strange key amongst the Cultist Ritual Items and figured out how to use alien materials to craft it. Not meant for any human locks.",
     "type": "material",
     "rarity": "Epic",
     "weight": 0.1,
