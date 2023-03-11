@@ -151,7 +151,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_MaxStamina_01"
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 10
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -188,7 +199,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_MaxStamina_02"
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 15
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -216,7 +238,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_MaxStamina_03"
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 20
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -244,7 +277,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_HealthRegenerationRate_01"
+      {
+        "inGameName": "Health restoration per second",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HealthRegenerationRate",
+            "modifierType": "Additive",
+            "modiferValue": 0.1
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -272,7 +316,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_HealthRegenerationRate_02"
+      {
+        "inGameName": "Health restoration per second",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HealthRegenerationRate",
+            "modifierType": "Additive",
+            "modiferValue": 0.2
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -300,7 +355,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_HelmetNV_01"
+      {
+        "inGameName": "Enhanced Night Vision (can be toggled on/off)",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HelmetNV",
+            "modifierType": "Override",
+            "modiferValue": 1
+          }
+        ]
+      }
     ],
     "cost": [
       {
