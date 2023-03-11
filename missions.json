@@ -11,7 +11,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Nickel"
+        "itemToOwn": "Nickel",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -64,7 +65,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -104,12 +106,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "CompoundSheets"
+        "itemToOwn": "CompoundSheets",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "HydraulicPiston"
+        "itemToOwn": "HydraulicPiston",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -154,7 +158,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Water Facility"
+        ]
       },
       {
         "type": "Kills",
@@ -166,7 +173,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Water Facility"
+        ]
       }
     ],
     "rewards": [
@@ -212,12 +222,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "CommonVeltecite"
+        "itemToOwn": "CommonVeltecite",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "CircuitBoard"
+        "itemToOwn": "CircuitBoard",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -263,12 +275,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "PureNickel"
+        "itemToOwn": "PureNickel",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 7,
-        "itemToOwn": "UncommonVelticite"
+        "itemToOwn": "UncommonVelticite",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -316,12 +330,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "CompoundSheets"
+        "itemToOwn": "CompoundSheets",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "BallBearings"
+        "itemToOwn": "BallBearings",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -441,7 +457,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -484,13 +501,15 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Alloys"
+        "deadDropItem": "Alloys",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "HydraulicPiston"
+        "deadDropItem": "HydraulicPiston",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -538,17 +557,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "TitanOre"
+        "itemToOwn": "TitanOre",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Cables"
+        "itemToOwn": "Cables",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Adhesive"
+        "itemToOwn": "Adhesive",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -603,7 +625,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Dig Site"
+        ]
       },
       {
         "type": "Kills",
@@ -615,7 +640,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Dig Site"
+        ]
       }
     ],
     "rewards": [
@@ -657,16 +685,21 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "UncommonVelticite"
+        "itemToOwn": "UncommonVelticite",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "OpticGlass"
+        "itemToOwn": "OpticGlass",
+        "locationConditions": []
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Dig Site Power Up Room"
+        ]
       }
     ],
     "rewards": [
@@ -714,12 +747,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 7,
-        "itemToOwn": "BrittleTitanOre"
+        "itemToOwn": "BrittleTitanOre",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "EpicVeltecite"
+        "itemToOwn": "EpicVeltecite",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -839,7 +874,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -887,12 +923,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "ShardSlicer"
+        "itemToOwn": "ShardSlicer",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "CombatCPU_Blue"
+        "itemToOwn": "CombatCPU_Blue",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -933,7 +971,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Jungle"
+        ]
       },
       {
         "type": "Kills",
@@ -945,7 +986,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Jungle"
+        ]
       }
     ],
     "rewards": [
@@ -993,12 +1037,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "MeteorFragment"
+        "itemToOwn": "MeteorFragment",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "FocusCrystal"
+        "itemToOwn": "FocusCrystal",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1047,12 +1093,14 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "HardenedBoneAlloy"
+        "itemToOwn": "HardenedBoneAlloy",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1100,17 +1148,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "RareVeltecite"
+        "itemToOwn": "RareVeltecite",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Cables"
+        "itemToOwn": "Cables",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "CircuitBoard"
+        "itemToOwn": "CircuitBoard",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1165,12 +1216,14 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "RadioSpareParts"
+        "itemToOwn": "RadioSpareParts",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1212,7 +1265,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "TitanOre"
+        "itemToOwn": "TitanOre",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1260,7 +1314,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "PureFocusCrystal"
+        "itemToOwn": "PureFocusCrystal",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1307,15 +1362,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Geothermal Plant"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Skeleton Observation Site"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Hay Fields"
+        ]
       }
     ],
     "rewards": [
@@ -1372,7 +1436,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -1392,7 +1457,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1447,7 +1513,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Starport"
+        ]
       },
       {
         "type": "Kills",
@@ -1459,12 +1528,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Favela"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "GenericCreatureDrop"
+        "itemToOwn": "GenericCreatureDrop",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1507,13 +1580,15 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_EastEvac_UndergroundElevator",
-        "deadDropItem": "SamplingDevice"
+        "deadDropItem": "SamplingDevice",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map01_EastEvac_UndergroundElevator",
-        "deadDropItem": "SampleContainer"
+        "deadDropItem": "SampleContainer",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1567,7 +1642,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "HardDrive_epic"
+        "itemToOwn": "HardDrive_epic",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1622,7 +1698,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Greens Prospect"
+        ]
       },
       {
         "type": "Kills",
@@ -1634,7 +1713,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Pinnacle Labs"
+        ]
       }
     ],
     "rewards": [
@@ -1689,7 +1771,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Jungle"
+        ]
       },
       {
         "type": "Kills",
@@ -1701,7 +1786,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Jungle"
+        ]
       }
     ],
     "rewards": [
@@ -1743,7 +1831,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Jewellery"
+        "itemToOwn": "Jewellery",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1800,7 +1889,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1843,13 +1933,15 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CenterBase_GateC",
-        "deadDropItem": "Shield_Restoration_01"
+        "deadDropItem": "Shield_Restoration_01",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CenterBase_GateC",
-        "deadDropItem": "Bag_02"
+        "deadDropItem": "Bag_02",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1903,17 +1995,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "OpticGlass"
+        "itemToOwn": "OpticGlass",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "AI_RattlerSkin"
+        "itemToOwn": "AI_RattlerSkin",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "PortableLabEquipmentBox"
+        "itemToOwn": "PortableLabEquipmentBox",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -1954,7 +2049,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Dig Site"
+        ]
       },
       {
         "type": "Kills",
@@ -1966,12 +2064,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Dig Site"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "GenericCreatureDrop"
+        "itemToOwn": "GenericCreatureDrop",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2026,19 +2128,22 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "RadioSpareParts"
+        "deadDropItem": "RadioSpareParts",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CenterBase_Office",
-        "deadDropItem": "RadioSpareParts"
+        "deadDropItem": "RadioSpareParts",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "RadioSpareParts"
+        "deadDropItem": "RadioSpareParts",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2079,19 +2184,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Greens Prospect"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 6,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
-        "deadDropItem": "RareVeltecite"
+        "deadDropItem": "RareVeltecite",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
-        "deadDropItem": "EpicVeltecite"
+        "deadDropItem": "EpicVeltecite",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2217,7 +2327,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2259,12 +2370,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "HardenedBoneAlloy"
+        "itemToOwn": "HardenedBoneAlloy",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "NeuroToxicGlands"
+        "itemToOwn": "NeuroToxicGlands",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2306,17 +2419,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AI_WeremoleMeat"
+        "itemToOwn": "AI_WeremoleMeat",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "AI_RattlerEyes"
+        "itemToOwn": "AI_RattlerEyes",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "AI_StriderMeat"
+        "itemToOwn": "AI_StriderMeat",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2363,16 +2479,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Starport Landing Pad"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Skeleton Observation Site"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "HardDrive_legendary"
+        "itemToOwn": "HardDrive_legendary",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2420,12 +2543,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Adhesive"
+        "itemToOwn": "Adhesive",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "PrintResin"
+        "itemToOwn": "PrintResin",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2467,17 +2592,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "AI_RattlerSkin"
+        "itemToOwn": "AI_RattlerSkin",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Fabrics"
+        "itemToOwn": "Fabrics",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Insulation"
+        "itemToOwn": "Insulation",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2525,17 +2653,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "CompoundSheets"
+        "itemToOwn": "CompoundSheets",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "Alloys"
+        "itemToOwn": "Alloys",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "SmartMesh"
+        "itemToOwn": "SmartMesh",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2586,7 +2717,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -2600,7 +2732,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2648,17 +2781,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "MagneticFieldStabilizer"
+        "itemToOwn": "MagneticFieldStabilizer",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "CircuitBoard"
+        "itemToOwn": "CircuitBoard",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MultiTool"
+        "itemToOwn": "MultiTool",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2701,13 +2837,15 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "PureFocusCrystal"
+        "deadDropItem": "PureFocusCrystal",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "EpicVeltecite"
+        "deadDropItem": "EpicVeltecite",
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -2719,7 +2857,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Pinnacle Labs"
+        ]
       }
     ],
     "rewards": [
@@ -2767,17 +2908,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Gyroscope"
+        "itemToOwn": "Gyroscope",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MiniatureReactor"
+        "itemToOwn": "MiniatureReactor",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "CopperWire"
+        "itemToOwn": "CopperWire",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2819,17 +2963,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "OsirisScrip"
+        "itemToOwn": "OsirisScrip",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "VelteciteHeart"
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8000,
-        "itemToOwn": "OldCurrency"
+        "itemToOwn": "OldCurrency",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2878,7 +3025,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2926,7 +3074,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "MeteorCore"
+        "itemToOwn": "MeteorCore",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -2981,7 +3130,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3028,12 +3178,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Contracts_LetiumLocations"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "Letium"
+        "itemToOwn": "Letium",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3087,7 +3241,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "CompoundSheets"
+        "itemToOwn": "CompoundSheets",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3133,12 +3288,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "SpareCasing"
+        "itemToOwn": "SpareCasing",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "GenericCreatureDrop"
+        "itemToOwn": "GenericCreatureDrop",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3177,7 +3334,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Lagoon"
+        ]
       },
       {
         "type": "Kills",
@@ -3189,7 +3349,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Lagoon"
+        ]
       }
     ],
     "rewards": [
@@ -3235,12 +3398,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Alloys"
+        "itemToOwn": "Alloys",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "CircuitBoard"
+        "itemToOwn": "CircuitBoard",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3285,7 +3450,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Woodcutter Camp"
+        ]
       },
       {
         "type": "Kills",
@@ -3297,12 +3465,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Woodcutter Camp"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "BlueWood"
+        "itemToOwn": "BlueWood",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3355,7 +3527,8 @@
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "ShockGrenade_02"
+        "deadDropItem": "ShockGrenade_02",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3397,12 +3570,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "CopperWire"
+        "itemToOwn": "CopperWire",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "BallBearings"
+        "itemToOwn": "BallBearings",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3445,19 +3620,22 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "RadioSpareParts"
+        "deadDropItem": "RadioSpareParts",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Cables"
+        "deadDropItem": "Cables",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "Battery"
+        "deadDropItem": "Battery",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3505,17 +3683,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "CombatCPU_Blue"
+        "itemToOwn": "CombatCPU_Blue",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Battery"
+        "itemToOwn": "Battery",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "Alloys"
+        "itemToOwn": "Alloys",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3568,12 +3749,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "South East Uplink"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "HardDrive_uncommon"
+        "itemToOwn": "HardDrive_uncommon",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3614,19 +3799,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Comms Tower"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map01_CommsBase_Satellite",
-        "deadDropItem": "RadioSpareParts"
+        "deadDropItem": "RadioSpareParts",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CommsBase_Satellite",
-        "deadDropItem": "CircuitBoard"
+        "deadDropItem": "CircuitBoard",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3673,7 +3863,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Power Plant"
+        ]
       },
       {
         "type": "Kills",
@@ -3685,12 +3878,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Power Plant"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Battery"
+        "itemToOwn": "Battery",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3743,19 +3940,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Dig Site Power Up Room"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CenterBase_Office",
-        "deadDropItem": "MiniatureReactor"
+        "deadDropItem": "MiniatureReactor",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CenterBase_Office",
-        "deadDropItem": "HardDrive_epic"
+        "deadDropItem": "HardDrive_epic",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3804,13 +4006,15 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "HardDrive_rare"
+        "deadDropItem": "HardDrive_rare",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map01_CommsBase_Tower",
-        "deadDropItem": "Consumable_SmokeGrenade_01"
+        "deadDropItem": "Consumable_SmokeGrenade_01",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3852,17 +4056,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "NeuroToxicGlands"
+        "itemToOwn": "NeuroToxicGlands",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Alloys"
+        "itemToOwn": "Alloys",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 7,
-        "itemToOwn": "HydraulicPiston"
+        "itemToOwn": "HydraulicPiston",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3910,12 +4117,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "MeteorFragment"
+        "itemToOwn": "MeteorFragment",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "MagneticFieldStabilizer"
+        "itemToOwn": "MagneticFieldStabilizer",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -3962,16 +4171,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Osiris Wildlife Preserve"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Skeleton Observation Site"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "MultiTool"
+        "itemToOwn": "MultiTool",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4019,7 +4235,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "MeteorCore"
+        "itemToOwn": "MeteorCore",
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -4033,7 +4250,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4082,7 +4300,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Lake"
+        ]
       },
       {
         "type": "Kills",
@@ -4094,7 +4315,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Starport"
+        ]
       }
     ],
     "rewards": [
@@ -4143,19 +4367,22 @@
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
-        "deadDropItem": "MiniatureReactor"
+        "deadDropItem": "MiniatureReactor",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
-        "deadDropItem": "CircuitBoard"
+        "deadDropItem": "CircuitBoard",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map02_GreensProspect_Stockpile",
-        "deadDropItem": "CopperWire"
+        "deadDropItem": "CopperWire",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4204,19 +4431,22 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "IvyPlant"
+        "deadDropItem": "IvyPlant",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "Jewellery"
+        "deadDropItem": "Jewellery",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 5000,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "OldCurrency"
+        "deadDropItem": "OldCurrency",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4263,7 +4493,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Greens Prospect"
+        ]
       },
       {
         "type": "Kills",
@@ -4277,7 +4510,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Greens Prospect"
+        ]
       }
     ],
     "rewards": [
@@ -4319,17 +4555,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "SmartMesh"
+        "itemToOwn": "SmartMesh",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "AlienFruit"
+        "itemToOwn": "AlienFruit",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "LiquidFertilizer"
+        "itemToOwn": "LiquidFertilizer",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4376,7 +4615,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Pumpkin Fields"
+        ]
       },
       {
         "type": "Kills",
@@ -4388,7 +4630,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Pumpkin Fields"
+        ]
       }
     ],
     "rewards": [
@@ -4429,12 +4674,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Geothermal Plant"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "SampleContainer"
+        "itemToOwn": "SampleContainer",
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -4503,7 +4752,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4558,17 +4808,22 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Skeleton Observation Site"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "AI_RattlerSkin"
+        "itemToOwn": "AI_RattlerSkin",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "SamplingDevice"
+        "itemToOwn": "SamplingDevice",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4625,7 +4880,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4674,7 +4930,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Base Camp"
+        ]
       },
       {
         "type": "Kills",
@@ -4686,7 +4945,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Power Plant"
+        ]
       },
       {
         "type": "Kills",
@@ -4698,7 +4960,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Water Facility"
+        ]
       }
     ],
     "rewards": [
@@ -4740,12 +5005,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "HardenedBoneAlloy"
+        "itemToOwn": "HardenedBoneAlloy",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "StormyCreatureDrop"
+        "itemToOwn": "StormyCreatureDrop",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4794,19 +5061,22 @@
         "type": "DeadDrop",
         "maxProgress": 6,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "PolymetallicPrefabricate"
+        "deadDropItem": "PolymetallicPrefabricate",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "Adhesive"
+        "deadDropItem": "Adhesive",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "MagneticFieldStabilizer"
+        "deadDropItem": "MagneticFieldStabilizer",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4847,12 +5117,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Starport Landing Pad"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "HardDrive_legendary"
+        "itemToOwn": "HardDrive_legendary",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4900,17 +5174,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "Alloys"
+        "itemToOwn": "Alloys",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "HydraulicPiston"
+        "itemToOwn": "HydraulicPiston",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "ShockAbsorber"
+        "itemToOwn": "ShockAbsorber",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -4959,12 +5236,14 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "HardenedBoneAlloy"
+        "itemToOwn": "HardenedBoneAlloy",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5012,17 +5291,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "CircuitBoard"
+        "itemToOwn": "CircuitBoard",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "ShardSlicer"
+        "itemToOwn": "ShardSlicer",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "CombatCPU_red"
+        "itemToOwn": "CombatCPU_red",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5140,7 +5422,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5182,17 +5465,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MiniatureReactor"
+        "itemToOwn": "MiniatureReactor",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "SmartMesh"
+        "itemToOwn": "SmartMesh",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "Gyroscope"
+        "itemToOwn": "Gyroscope",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5240,17 +5526,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "RadioSpareParts"
+        "itemToOwn": "RadioSpareParts",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 9,
-        "itemToOwn": "CopperWire"
+        "itemToOwn": "CopperWire",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "EpicVeltecite"
+        "itemToOwn": "EpicVeltecite",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5292,17 +5581,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "CircuitBoard"
+        "itemToOwn": "CircuitBoard",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MiniatureReactor"
+        "itemToOwn": "MiniatureReactor",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Datapad"
+        "itemToOwn": "Datapad",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5351,7 +5643,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5399,7 +5692,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "OilTank"
+        "itemToOwn": "OilTank",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5460,7 +5754,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
           "m_mapName": "MP_Map01_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5506,7 +5801,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "WaterPlant"
+        "itemToOwn": "WaterPlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5545,7 +5841,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Swamp"
+        ]
       },
       {
         "type": "Kills",
@@ -5557,12 +5856,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Swamp"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "GenericCreatureDrop"
+        "itemToOwn": "GenericCreatureDrop",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5615,12 +5918,14 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "BrightcapMushroom"
+        "itemToOwn": "BrightcapMushroom",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5666,12 +5971,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "AI_RattlerSkin"
+        "itemToOwn": "AI_RattlerSkin",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AI_StriderMeat"
+        "itemToOwn": "AI_StriderMeat",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5716,7 +6023,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Science Campus"
+        ]
       },
       {
         "type": "Kills",
@@ -5728,12 +6038,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Science Campus"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "OpticGlass"
+        "itemToOwn": "OpticGlass",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5780,7 +6094,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Lake"
+        ]
       },
       {
         "type": "Kills",
@@ -5792,7 +6109,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Lake"
+        ]
       },
       {
         "type": "Kills",
@@ -5804,7 +6124,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Lake"
+        ]
       }
     ],
     "rewards": [
@@ -5845,7 +6168,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "East Collection Point Power Up Room"
+        ]
       },
       {
         "type": "Kills",
@@ -5907,7 +6233,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -5956,13 +6283,15 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map01_SwampCamp",
-        "deadDropItem": "SamplingDevice"
+        "deadDropItem": "SamplingDevice",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Consumable_Health_03"
+        "deadDropItem": "Consumable_Health_03",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6009,7 +6338,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Vaccine Labs"
+        ]
       },
       {
         "type": "Kills",
@@ -6021,12 +6353,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Vaccine Labs"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "IvyPlant"
+        "itemToOwn": "IvyPlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6083,7 +6419,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6136,7 +6473,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Jungle"
+        ]
       },
       {
         "type": "Kills",
@@ -6148,12 +6488,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Jungle"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AI_RattlerEyes"
+        "itemToOwn": "AI_RattlerEyes",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6194,17 +6538,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Greens Prospect"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_GreensProspect_Office",
-        "deadDropItem": "Adhesive"
+        "deadDropItem": "Adhesive",
+        "locationConditions": []
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Base Camp Power Up Room"
+        ]
       }
     ],
     "rewards": [
@@ -6251,16 +6602,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Waterfall Lab"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Vaccine Labs"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 4,
-        "itemToOwn": "AnaestheticsContainers"
+        "itemToOwn": "AnaestheticsContainers",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6302,17 +6660,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "BlueRunnerEgg"
+        "itemToOwn": "BlueRunnerEgg",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "NeuroToxicGlands"
+        "itemToOwn": "NeuroToxicGlands",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Antibiotics"
+        "itemToOwn": "Antibiotics",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6359,17 +6720,22 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Nutrion Farms Processing"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "AI_RattlerSkin"
+        "itemToOwn": "AI_RattlerSkin",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "WaterPlant"
+        "itemToOwn": "WaterPlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6416,7 +6782,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Favela"
+        ]
       },
       {
         "type": "Kills",
@@ -6478,7 +6847,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6525,7 +6895,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Forest Crystal Seal"
+        ]
       },
       {
         "type": "Kills",
@@ -6537,12 +6910,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Forest Crystal Seal"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "RareVeltecite"
+        "itemToOwn": "RareVeltecite",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6584,7 +6961,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "DerelictExplosives"
+        "itemToOwn": "DerelictExplosives",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6626,17 +7004,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "Battery"
+        "itemToOwn": "Battery",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "Alloys"
+        "itemToOwn": "Alloys",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "CircuitBoard"
+        "itemToOwn": "CircuitBoard",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6678,17 +7059,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "OpticGlass"
+        "itemToOwn": "OpticGlass",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "RadioSpareParts"
+        "itemToOwn": "RadioSpareParts",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Gyroscope"
+        "itemToOwn": "Gyroscope",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6736,7 +7120,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "RadioactiveBrightcapMushroom"
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6785,7 +7170,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Starport"
+        ]
       }
     ],
     "rewards": [
@@ -6828,7 +7216,8 @@
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map02_NutronFarms_Office",
-        "deadDropItem": "StormyCreatureDrop"
+        "deadDropItem": "StormyCreatureDrop",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6876,17 +7265,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 25,
-        "itemToOwn": "BrightcapMushroom"
+        "itemToOwn": "BrightcapMushroom",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "BlueWood"
+        "itemToOwn": "BlueWood",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "LiquidFertilizer"
+        "itemToOwn": "LiquidFertilizer",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6928,12 +7320,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 25,
-        "itemToOwn": "WaterPlant"
+        "itemToOwn": "WaterPlant",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 12,
-        "itemToOwn": "AI_StriderMeat"
+        "itemToOwn": "AI_StriderMeat",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -6982,12 +7376,14 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "HardenedBoneAlloy"
+        "itemToOwn": "HardenedBoneAlloy",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7029,7 +7425,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "DesertPlant"
+        "itemToOwn": "DesertPlant",
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -7041,7 +7438,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7089,12 +7487,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "EpicVeltecite"
+        "itemToOwn": "EpicVeltecite",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "RareVeltecite"
+        "itemToOwn": "RareVeltecite",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7136,17 +7536,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "PortableLabEquipmentBox"
+        "itemToOwn": "PortableLabEquipmentBox",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "FocusCrystal"
+        "itemToOwn": "FocusCrystal",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "SampleContainer"
+        "itemToOwn": "SampleContainer",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7187,13 +7590,17 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Pinnacle Labs"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 2,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "PureFocusCrystal"
+        "deadDropItem": "PureFocusCrystal",
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -7205,7 +7612,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Pinnacle Labs"
+        ]
       }
     ],
     "rewards": [
@@ -7259,17 +7669,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AI_WeremoleMeat"
+        "itemToOwn": "AI_WeremoleMeat",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AnaestheticsContainers"
+        "itemToOwn": "AnaestheticsContainers",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 15,
-        "itemToOwn": "WaterPlant"
+        "itemToOwn": "WaterPlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7311,12 +7724,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "IvyPlant"
+        "itemToOwn": "IvyPlant",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "RadioactiveBrightcapMushroom"
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7359,7 +7774,8 @@
         "type": "DeadDrop",
         "maxProgress": 5,
         "deadDropLocation": "Map01_WaterfallLab",
-        "deadDropItem": "Antibiotics"
+        "deadDropItem": "Antibiotics",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7407,17 +7823,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "DesertPlant"
+        "itemToOwn": "DesertPlant",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "RadioactiveBrightcapMushroom"
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "LiquidFertilizer"
+        "itemToOwn": "LiquidFertilizer",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7465,12 +7884,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "VelteciteHeart"
+        "itemToOwn": "VelteciteHeart",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "StormyCreatureDrop"
+        "itemToOwn": "StormyCreatureDrop",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7517,16 +7938,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "South East Uplink"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "North Uplink"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "HardDrive_epic"
+        "itemToOwn": "HardDrive_epic",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7567,16 +7995,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Starport Landing Pad"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Skeleton Observation Site"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 2,
-        "itemToOwn": "HardDrive_legendary"
+        "itemToOwn": "HardDrive_legendary",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7619,19 +8054,22 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-        "deadDropItem": "RadioSpareParts"
+        "deadDropItem": "RadioSpareParts",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-        "deadDropItem": "CircuitBoard"
+        "deadDropItem": "CircuitBoard",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-        "deadDropItem": "MagneticFieldStabilizer"
+        "deadDropItem": "MagneticFieldStabilizer",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7686,12 +8124,14 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "AI_CrusherMeat"
+        "itemToOwn": "AI_CrusherMeat",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7733,17 +8173,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "PortableLabEquipmentBox"
+        "itemToOwn": "PortableLabEquipmentBox",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "RadioactiveBrightcapMushroom"
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "AnaestheticsContainers"
+        "itemToOwn": "AnaestheticsContainers",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7785,7 +8228,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "DesertPlant"
+        "itemToOwn": "DesertPlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7834,7 +8278,8 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "Gyroscope"
+        "deadDropItem": "Gyroscope",
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -7846,7 +8291,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Pinnacle Labs"
+        ]
       }
     ],
     "rewards": [
@@ -7945,7 +8393,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -7993,17 +8442,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "HardenedBoneAlloy"
+        "itemToOwn": "HardenedBoneAlloy",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "SmartMesh"
+        "itemToOwn": "SmartMesh",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 20,
-        "itemToOwn": "Insulation"
+        "itemToOwn": "Insulation",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8045,7 +8497,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AI_CrusherSkin"
+        "itemToOwn": "AI_CrusherSkin",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8092,7 +8545,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Crystal Cave"
+        ]
       },
       {
         "type": "Kills",
@@ -8104,12 +8560,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Crystal Cave"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "AlphaWardenHeart"
+        "itemToOwn": "AlphaWardenHeart",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8163,17 +8623,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "Fabrics"
+        "itemToOwn": "Fabrics",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "ShardSlicer"
+        "itemToOwn": "ShardSlicer",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "MiniatureReactor"
+        "itemToOwn": "MiniatureReactor",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8222,7 +8685,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Woodcutter Camp"
+        ]
       },
       {
         "type": "Kills",
@@ -8234,7 +8700,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Water Facility"
+        ]
       },
       {
         "type": "Kills",
@@ -8246,7 +8715,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Power Plant"
+        ]
       }
     ],
     "rewards": [
@@ -8288,12 +8760,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 10,
-        "itemToOwn": "AI_RattlerSkin"
+        "itemToOwn": "AI_RattlerSkin",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "HardenedBoneAlloy"
+        "itemToOwn": "HardenedBoneAlloy",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8341,17 +8815,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_MinerItem1"
+        "itemToOwn": "MissionItem_MinerItem1",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_MinerItem2"
+        "itemToOwn": "MissionItem_MinerItem2",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_MinerItem3"
+        "itemToOwn": "MissionItem_MinerItem3",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8390,7 +8867,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_MissingEngineerBody"
+        ]
       },
       {
         "type": "Kills",
@@ -8402,12 +8882,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "UniqueMissionLocation_AroundMissingEngineerBody"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_EngineerItem"
+        "itemToOwn": "MissionItem_EngineerItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8446,12 +8930,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Waterfall Lab"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MissionItem_CreatureSample"
+        "itemToOwn": "MissionItem_CreatureSample",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8490,16 +8978,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Crashed Drill"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_OldDrillHead"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_LaserDrillPart"
+        "itemToOwn": "MissionItem_LaserDrillPart",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8538,7 +9033,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_SosSign"
+        ]
       }
     ],
     "rewards": [
@@ -8579,12 +9077,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Water Facility Power Up Room"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_ICAPersonalItem"
+        "itemToOwn": "MissionItem_ICAPersonalItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8631,12 +9133,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_HouseOnStiltsAtNorthUplink"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "HardDrive_rare"
+        "itemToOwn": "HardDrive_rare",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8677,12 +9183,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_PowerPlantOfficeMap1"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_PowerPlantItem1"
+        "itemToOwn": "MissionItem_PowerPlantItem1",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8723,12 +9233,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_PowerPlantOfficeMap2"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_PowerPlantItem2"
+        "itemToOwn": "MissionItem_PowerPlantItem2",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8775,7 +9289,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_AbandonedOilField"
+        ]
       },
       {
         "type": "Kills",
@@ -8787,12 +9304,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "UniqueMissionLocation_AbandonedOilField"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MissionItem_OilPumpPart"
+        "itemToOwn": "MissionItem_OilPumpPart",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8833,12 +9354,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_FossilAreaEastCaverns"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "MissionItem_OldBones"
+        "itemToOwn": "MissionItem_OldBones",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8877,12 +9402,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_ExtinctCreaturesLab"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_AlphaSkull"
+        "itemToOwn": "MissionItem_AlphaSkull",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8929,16 +9458,23 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Crashed Ship"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_InsideCrashedShip"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_FlightRecorder"
+        "itemToOwn": "MissionItem_FlightRecorder",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -8977,12 +9513,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_LostScientist"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_Notebook"
+        "itemToOwn": "MissionItem_Notebook",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9027,7 +9567,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_FrozenEngineer"
+        ]
       }
     ],
     "rewards": [
@@ -9080,7 +9623,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9121,12 +9665,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Korolev Island HQ"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_KorChiefEngineerDiary"
+        "itemToOwn": "MissionItem_KorChiefEngineerDiary",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9175,7 +9723,8 @@
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map03_KorolevMain",
-        "deadDropItem": "TentaclePlant"
+        "deadDropItem": "TentaclePlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9295,7 +9844,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9336,16 +9886,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Atrium"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Geologist"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 8,
-        "itemToOwn": "MissionItem_ForgeIronSample"
+        "itemToOwn": "MissionItem_ForgeIronSample",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9386,15 +9943,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Visit4Wheeler1"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Visit4Wheeler2"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Visit4Wheeler3"
+        ]
       }
     ],
     "rewards": [
@@ -9436,12 +10002,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "ForgeIron"
+        "itemToOwn": "ForgeIron",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard"
+        "itemToOwn": "GlowingCrystalCoreShard",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9482,7 +10050,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Sparkling Pool"
+        ]
       },
       {
         "type": "Kills",
@@ -9494,12 +10065,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Sparkling Pool"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_PureForgeIronNugget"
+        "itemToOwn": "MissionItem_PureForgeIronNugget",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9541,12 +10116,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "PureForgeIron"
+        "itemToOwn": "PureForgeIron",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard"
+        "itemToOwn": "GlowingCrystalCoreShard",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9595,7 +10172,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Korolev Docks"
+        ]
       },
       {
         "type": "Kills",
@@ -9607,7 +10187,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "The Descent"
+        ]
       },
       {
         "type": "Kills",
@@ -9619,7 +10202,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Storm Pillar"
+        ]
       }
     ],
     "rewards": [
@@ -9658,12 +10244,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Cultist Camp"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_MiningPartyMedicalFiles"
+        "itemToOwn": "MissionItem_MiningPartyMedicalFiles",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9704,13 +10294,15 @@
         "type": "DeadDrop",
         "maxProgress": 8,
         "deadDropLocation": "Map01_EastEvac_UndergroundElevator",
-        "deadDropItem": "Letium"
+        "deadDropItem": "Letium",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 8,
         "deadDropLocation": "Map01_CenterBase_GateC",
-        "deadDropItem": "Letium"
+        "deadDropItem": "Letium",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9749,17 +10341,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Storm Pillar"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_VadimPreItem"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map03_KorolevOutpost1",
-        "deadDropItem": "MissionItem_VadimPredecessorItem"
+        "deadDropItem": "MissionItem_VadimPredecessorItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9804,15 +10403,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_WorkerGroup2"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_WorkerGroup3"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_WorkerGroup1"
+        ]
       }
     ],
     "rewards": [
@@ -9853,7 +10461,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Atrium"
+        ]
       },
       {
         "type": "Kills",
@@ -9865,12 +10476,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Atrium"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_ColonistItem"
+        "itemToOwn": "MissionItem_ColonistItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9911,17 +10526,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Osiris Research Center"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_OsirisHoloMap"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map02_PinnacleLab",
-        "deadDropItem": "MissionItem_StolenOsiHoloMap"
+        "deadDropItem": "MissionItem_StolenOsiHoloMap",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -9970,7 +10592,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": true
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -9982,7 +10605,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_Map02_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -9994,7 +10618,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_Map01_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10034,17 +10659,20 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard"
+        "itemToOwn": "GlowingCrystalCoreShard",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "ForgeIron"
+        "itemToOwn": "ForgeIron",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "SamplingDevice"
+        "itemToOwn": "SamplingDevice",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10085,12 +10713,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Korolev Core Outpost"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_KorCivilianItem"
+        "itemToOwn": "MissionItem_KorCivilianItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10139,7 +10771,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -10151,7 +10784,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10192,16 +10826,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Osiris Research Center"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_AlienDoorFragment"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_AlienDoorFragment"
+        "itemToOwn": "MissionItem_AlienDoorFragment",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10244,7 +10885,8 @@
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map03_KorolevOutpost1",
-        "deadDropItem": "ForgeIron"
+        "deadDropItem": "ForgeIron",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10285,16 +10927,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Pinnacle Labs"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_AnalysisTool"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_AnalysisTool"
+        "itemToOwn": "MissionItem_AnalysisTool",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10345,7 +10994,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10386,19 +11036,22 @@
         "type": "DeadDrop",
         "maxProgress": 4,
         "deadDropLocation": "Map03_OsirisMain",
-        "deadDropItem": "DerelictExplosives"
+        "deadDropItem": "DerelictExplosives",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 8,
         "deadDropLocation": "Map03_OsirisMain",
-        "deadDropItem": "OilTank"
+        "deadDropItem": "OilTank",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 5,
         "deadDropLocation": "Map03_KorolevMain",
-        "deadDropItem": "DerelictExplosives"
+        "deadDropItem": "DerelictExplosives",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10437,12 +11090,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_ChiefEngineer"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_OsiChiefEngineerItem"
+        "itemToOwn": "MissionItem_OsiChiefEngineerItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10546,12 +11203,14 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "ChargedForgeIronIngot"
+        "itemToOwn": "ChargedForgeIronIngot",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10591,12 +11250,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 18,
-        "itemToOwn": "OilTank"
+        "itemToOwn": "OilTank",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 30000,
-        "itemToOwn": "OldCurrency"
+        "itemToOwn": "OldCurrency",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10635,12 +11296,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_OsiHeadScientist"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_OsiHeadScientistItem"
+        "itemToOwn": "MissionItem_OsiHeadScientistItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10685,11 +11350,17 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Osiris Offices"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_SlaughteredResearcher"
+        ]
       }
     ],
     "rewards": [
@@ -10738,12 +11409,14 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "TentaclePlant"
+        "itemToOwn": "TentaclePlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10782,17 +11455,22 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Korolev Island HQ"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_StolenKorData1"
+        "itemToOwn": "MissionItem_StolenKorData1",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_StolenKorData2"
+        "itemToOwn": "MissionItem_StolenKorData2",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10833,15 +11511,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_OsirisResearchBall1"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_OsirisResearchBall2"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_OsirisResearchBall3"
+        ]
       }
     ],
     "rewards": [
@@ -10890,13 +11577,17 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "UniqueMissionLocation_Crusher"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 1,
         "deadDropLocation": "Map03_OsirisOutpost1",
-        "deadDropItem": "AI_CrusherSkin"
+        "deadDropItem": "AI_CrusherSkin",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10939,7 +11630,8 @@
         "type": "DeadDrop",
         "maxProgress": 6,
         "deadDropLocation": "Map02_GreensProspect_Fullfilment",
-        "deadDropItem": "TentaclePlant"
+        "deadDropItem": "TentaclePlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -10978,7 +11670,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Cave of Stars"
+        ]
       },
       {
         "type": "Kills",
@@ -10990,12 +11685,16 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Cave of Stars"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_CultistGlowCrystalItem"
+        "itemToOwn": "MissionItem_CultistGlowCrystalItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11037,7 +11736,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "GlowingCrystalCoreShard"
+        "itemToOwn": "GlowingCrystalCoreShard",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11078,15 +11778,24 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Marking1"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Marking2"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Marking3"
+        ]
       }
     ],
     "rewards": [
@@ -11127,17 +11836,22 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "The Pit"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "ForgeIron"
+        "itemToOwn": "ForgeIron",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "PureForgeIron"
+        "itemToOwn": "PureForgeIron",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11186,17 +11900,20 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": true
-        }
+        },
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "StormyCreatureDrop"
+        "itemToOwn": "StormyCreatureDrop",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "RadioactiveBrightcapMushroom"
+        "itemToOwn": "RadioactiveBrightcapMushroom",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11237,12 +11954,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Cultist Camp"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 5,
-        "itemToOwn": "MissionItem_CultistRitualItem"
+        "itemToOwn": "MissionItem_CultistRitualItem",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11287,11 +12008,17 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "The Forge"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_ForgeConsole"
+        ]
       }
     ],
     "rewards": [
@@ -11331,7 +12058,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "ForgeIronIngot"
+        "itemToOwn": "ForgeIronIngot",
+        "locationConditions": []
       },
       {
         "type": "Kills",
@@ -11343,7 +12071,8 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11382,16 +12111,23 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "The Forge"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_ShieldRecipe"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "MissionItem_AlienShieldRecipe"
+        "itemToOwn": "MissionItem_AlienShieldRecipe",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11438,19 +12174,24 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": true
-        }
+        },
+        "locationConditions": [
+          "Crystal Cave"
+        ]
       },
       {
         "type": "DeadDrop",
         "maxProgress": 3,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-        "deadDropItem": "AI_WeremoleMeat_02"
+        "deadDropItem": "AI_WeremoleMeat_02",
+        "locationConditions": []
       },
       {
         "type": "DeadDrop",
         "maxProgress": 5,
         "deadDropLocation": "Map02_StarportAdmin_ServerRoom",
-        "deadDropItem": "AI_RattlerEyes_02"
+        "deadDropItem": "AI_RattlerEyes_02",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11490,12 +12231,14 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "Bag_Altered_01"
+        "itemToOwn": "Bag_Altered_01",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 1,
-        "itemToOwn": "ChargedForgeIronIngot"
+        "itemToOwn": "ChargedForgeIronIngot",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11540,7 +12283,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Hay Fields"
+        ]
       },
       {
         "type": "Kills",
@@ -11552,7 +12298,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Hay Fields"
+        ]
       }
     ],
     "rewards": [
@@ -11593,12 +12342,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Greens Prospect"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "AluminumParts"
+        "itemToOwn": "AluminumParts",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11639,17 +12392,22 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Nutrion Farms Warehouse"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "BrittleTitanOre"
+        "itemToOwn": "BrittleTitanOre",
+        "locationConditions": []
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 6,
-        "itemToOwn": "Insulation"
+        "itemToOwn": "Insulation",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11691,7 +12449,8 @@
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "ProteinBar"
+        "itemToOwn": "ProteinBar",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11744,11 +12503,17 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Starport Landing Pad"
+        ]
       },
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Pumpkin Fields"
+        ]
       }
     ],
     "rewards": [
@@ -11789,12 +12554,16 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Fallen Tree"
+        ]
       },
       {
         "type": "OwnNumOfItem",
         "maxProgress": 3,
-        "itemToOwn": "IvyPlant"
+        "itemToOwn": "IvyPlant",
+        "locationConditions": []
       }
     ],
     "rewards": [
@@ -11835,7 +12604,10 @@
     "objectives": [
       {
         "type": "VisitArea",
-        "maxProgress": 1
+        "maxProgress": 1,
+        "locationConditions": [
+          "Skeleton"
+        ]
       },
       {
         "type": "Kills",
@@ -11847,7 +12619,10 @@
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
           "m_mapName": "",
           "m_onlyDuringStorm": false
-        }
+        },
+        "locationConditions": [
+          "Skeleton"
+        ]
       }
     ],
     "rewards": [
