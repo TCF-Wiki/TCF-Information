@@ -1,4 +1,1652 @@
 {
+  "Main-KOR-Stormdivers-1": {
+    "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+    "description": "You've noticed, of course, some of the strange storms over the planet now? It has made operations on Crescent Falls and Tharis Island... difficult. But no worries! Korolev is taking the lead, as always, and providing care packages with special gear for all the brave prospectors like you that drop during these conditions.\r\n\r\nOf course... we need supplies for those. Search through Industrial Crates, you should find materials we can use in those.",
+    "faction": "Korolev",
+    "factionReputation": 400,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_kor-stormdivers-1_job_bg",
+    "objectives": [
+      {
+        "type": "LootContainer",
+        "maxProgress": 15,
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 400
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-KOR-GainTrust-4"
+    ],
+    "isMainChain": true,
+    "chainName": "STORM DIVERS: Forged in the Storm",
+    "chainDescription": "Freak storms have appeared over Fortuna III, with two shrouding Crescent Falls and Tharis Island. Higher storm frequency, more aggressive lightning strikes... There's great risk here, but also great opportunity and rewards!\r\n\r\nBe a Stormdiver for Korolev, drop directly into an active storm, prove you can handle Fortuna III's worst by completing missions and handing in Storm Diver Commissions.\r\n\r\nKorolev has fabricated additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-KOR-Stormdivers-2": {
+    "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+    "description": "The storms haven't fazed you, eh? Good, good. Some of the others we sent down have had... issues. Many with Mature Rattlers, nasty monsters. Maybe you can lower their numbers a bit, make things easier for the rest?",
+    "faction": "Korolev",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_kor-stormdivers-2_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Rattler_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 16,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 600
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-KOR-Stormdivers-1"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Forged in the Storm",
+    "chainDescription": "Freak storms have appeared over Fortuna III, with two shrouding Crescent Falls and Tharis Island. Higher storm frequency, more aggressive lightning strikes... There's great risk here, but also great opportunity and rewards!\r\n\r\nBe a Stormdiver for Korolev, drop directly into an active storm, prove you can handle Fortuna III's worst by completing missions and handing in Storm Diver Commissions.\r\n\r\nKorolev has fabricated additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-KOR-Stormdivers-3": {
+    "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+    "description": "Ah, Prospector! During storms on Tharis Island and Crescent Falls, you've seen the meteors, right? I've been told they're different when they fall there, changed by the storm maybe? You must get us some samples; they might be valuable!",
+    "faction": "Korolev",
+    "factionReputation": 760,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_kor-stormdivers-3_job_bg",
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 15,
+        "itemToOwn": "Event_MeteorFragment",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 20,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 760
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-KOR-Stormdivers-2"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Forged in the Storm",
+    "chainDescription": "Freak storms have appeared over Fortuna III, with two shrouding Crescent Falls and Tharis Island. Higher storm frequency, more aggressive lightning strikes... There's great risk here, but also great opportunity and rewards!\r\n\r\nBe a Stormdiver for Korolev, drop directly into an active storm, prove you can handle Fortuna III's worst by completing missions and handing in Storm Diver Commissions.\r\n\r\nKorolev has fabricated additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-KOR-Stormdivers-4": {
+    "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+    "description": "Those fragments you brought back are very interesting indeed! Korolev needs more people down there, but too many that we send come back foamed... The station needs better supplies, and you can help! Search through Military Crates, always something good in those! Oh, and shoot any Heavy Striders you see, OK?",
+    "faction": "Korolev",
+    "factionReputation": 800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_kor-stormdivers-4_job_bg",
+    "objectives": [
+      {
+        "type": "LootContainer",
+        "maxProgress": 5,
+        "locationConditions": []
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Strider_3"
+          },
+          "m_mapName": "MP_Map02_P",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 40,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 24,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 800
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-KOR-Stormdivers-3"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Forged in the Storm",
+    "chainDescription": "Freak storms have appeared over Fortuna III, with two shrouding Crescent Falls and Tharis Island. Higher storm frequency, more aggressive lightning strikes... There's great risk here, but also great opportunity and rewards!\r\n\r\nBe a Stormdiver for Korolev, drop directly into an active storm, prove you can handle Fortuna III's worst by completing missions and handing in Storm Diver Commissions.\r\n\r\nKorolev has fabricated additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-KOR-Stormdivers-5": {
+    "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+    "description": "Just who I needed! There have been reports that our latest batch of weapons have been faulty, all lies of course! I need you to set the record straight, take out some rivals using one of our superior guns!\r\n\r\nOh, and stash some Shock Absorbers at Greens Prospect on Crescent Falls, we need parts to repair a factory machine... You can do this quietly for us, right?",
+    "faction": "Korolev",
+    "factionReputation": 960,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_kor-stormdivers-5_job_bg",
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 3,
+        "deadDropLocation": "Stockpile",
+        "deadDropItem": "ShockAbsorber",
+        "locationConditions": []
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SGun_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_HVY_Shell_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_SMG_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 40,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 28,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 28000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 960
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-KOR-Stormdivers-4"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Forged in the Storm",
+    "chainDescription": "Freak storms have appeared over Fortuna III, with two shrouding Crescent Falls and Tharis Island. Higher storm frequency, more aggressive lightning strikes... There's great risk here, but also great opportunity and rewards!\r\n\r\nBe a Stormdiver for Korolev, drop directly into an active storm, prove you can handle Fortuna III's worst by completing missions and handing in Storm Diver Commissions.\r\n\r\nKorolev has fabricated additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-KOR-Stormdivers-6": {
+    "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+    "description": "Another prospector brought back a full Altered Meteor Core to the ICA, and they immediately became very bullish in negotiating energy fees, it can't be a coincidence! You need to bring us some of those cores, we can't lose the upper hand here! If you can't find any cores yourself, get enough Altered Meteor Fragments to combine, then bring them as soon as you can, Prospector.",
+    "faction": "Korolev",
+    "factionReputation": 1180,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_kor-stormdivers-6_job_bg",
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Event_MeteorCore",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 40,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1180
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-KOR-Stormdivers-5"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Forged in the Storm",
+    "chainDescription": "Freak storms have appeared over Fortuna III, with two shrouding Crescent Falls and Tharis Island. Higher storm frequency, more aggressive lightning strikes... There's great risk here, but also great opportunity and rewards!\r\n\r\nBe a Stormdiver for Korolev, drop directly into an active storm, prove you can handle Fortuna III's worst by completing missions and handing in Storm Diver Commissions.\r\n\r\nKorolev has fabricated additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-KOR-Stormdivers-7": {
+    "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+    "description": "Too many beasts down there! Almost every other prospector I send down comes back encased in foam now! Get a KOMRAD and thin the heard, OK? Maybe take down some Marauders during a storm, show the other prospectors how it's done!",
+    "faction": "Korolev",
+    "factionReputation": 1300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_kor-stormdivers-7_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 12,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Weremole"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": true
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 20,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Launch_MSL_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 100,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Vanity_AssaultRifle_KOR_Kor47_StormDivers",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Korolev Scrip",
+        "amount": 44,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 38000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1300
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-KOR-Stormdivers-6"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Forged in the Storm",
+    "chainDescription": "Freak storms have appeared over Fortuna III, with two shrouding Crescent Falls and Tharis Island. Higher storm frequency, more aggressive lightning strikes... There's great risk here, but also great opportunity and rewards!\r\n\r\nBe a Stormdiver for Korolev, drop directly into an active storm, prove you can handle Fortuna III's worst by completing missions and handing in Storm Diver Commissions.\r\n\r\nKorolev has fabricated additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-ICA-Stormdivers-1": {
+    "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+    "description": "Ah, hello again! The freak storms over Crescent Falls have become a problem, so much so that there's been a population boom among the more hostile fauna. Can you brave the storm and even things out for us, Prospector? And don't forget to check the care packages the ICA set near drop pod locations, they'll make your job much easier, I'm sure!",
+    "faction": "ICA",
+    "factionReputation": 400,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_ica-stormdivers-1_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 20,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "MP_Map02_P",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 400
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-ICA-GainTrust-4"
+    ],
+    "isMainChain": true,
+    "chainName": "STORM DIVERS: Storm Breaker",
+    "chainDescription": "Crescent Falls and Tharis Island are affected by a new kind of storm, with more frequent surges and deadlier lightning strikes. The supply of raw and salvaged materials has been crippled, and it's up to you to keep the station from falling apart!\r\n\r\nBe a Stormdiver for the ICA, drop directly into active storms, complete missions, and hand in Storm Diver Commissions. The station needs its best!\r\n\r\nThe ICA has prepared and deployed additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-ICA-Stormdivers-2": {
+    "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+    "description": "One of our salvage crews noticed a strange organic construction, some sort of nest, maybe? Can you head down and check it out for us? Maybe the beasts on the surface are reacting to the storm by building nests? Just, bring us a sample, so we can be sure.",
+    "faction": "ICA",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_ica-stormdivers-2_job_bg",
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Stormdivers_HowlerLocation1"
+        ]
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Stormdivers_HowlerLocation2"
+        ]
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 16,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 600
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-ICA-Stormdivers-1"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Storm Breaker",
+    "chainDescription": "Crescent Falls and Tharis Island are affected by a new kind of storm, with more frequent surges and deadlier lightning strikes. The supply of raw and salvaged materials has been crippled, and it's up to you to keep the station from falling apart!\r\n\r\nBe a Stormdiver for the ICA, drop directly into active storms, complete missions, and hand in Storm Diver Commissions. The station needs its best!\r\n\r\nThe ICA has prepared and deployed additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-ICA-Stormdivers-3": {
+    "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+    "description": "This is something of a delicate matter, so some discretion is needed... Someone working for us 'misplaced' some valuables they'd be entrusted with to stash on the planet, instead spreading it around wherever they could to retrieve later. We need them back, urgently. Or at least enough similar in value; search any Safes you find and stash any Jewelry you can get your hands on at the Greens Prospect Fulfilment Center.",
+    "faction": "ICA",
+    "factionReputation": 760,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_ica-stormdivers-3_job_bg",
+    "objectives": [
+      {
+        "type": "LootContainer",
+        "maxProgress": 10,
+        "locationConditions": []
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 8,
+        "deadDropLocation": "Fulfilment Center",
+        "deadDropItem": "Jewellery",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 20,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 760
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-ICA-Stormdivers-2"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Storm Breaker",
+    "chainDescription": "Crescent Falls and Tharis Island are affected by a new kind of storm, with more frequent surges and deadlier lightning strikes. The supply of raw and salvaged materials has been crippled, and it's up to you to keep the station from falling apart!\r\n\r\nBe a Stormdiver for the ICA, drop directly into active storms, complete missions, and hand in Storm Diver Commissions. The station needs its best!\r\n\r\nThe ICA has prepared and deployed additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-ICA-Stormdivers-4": {
+    "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+    "description": "Osiris has made a big show about how well their gear handles during these stormy conditions. Show them up, Prospector, let everyone know that ICA makes the best guns for Fortuna III.",
+    "faction": "ICA",
+    "factionReputation": 800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_ica-stormdivers-4_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 20,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 2,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Pistol_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_AR_Bullet_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_SGun_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_BR_Shard_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_Sniper_Gauss_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_HVY_Exotic_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 40,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 24,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 800
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-ICA-Stormdivers-3"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Storm Breaker",
+    "chainDescription": "Crescent Falls and Tharis Island are affected by a new kind of storm, with more frequent surges and deadlier lightning strikes. The supply of raw and salvaged materials has been crippled, and it's up to you to keep the station from falling apart!\r\n\r\nBe a Stormdiver for the ICA, drop directly into active storms, complete missions, and hand in Storm Diver Commissions. The station needs its best!\r\n\r\nThe ICA has prepared and deployed additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-ICA-Stormdivers-5": {
+    "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+    "description": "One of our scientists has been playing around with fragments from the meteors that fall over Crescent Falls and Tharis Island, saying there might be potential to use as an energy source. We'll need more Altered Meteor Fragments to confirm... and access to a locked room in the Geothermal Plant for safe testing off-station.",
+    "faction": "ICA",
+    "factionReputation": 960,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_ica-stormdivers-5_job_bg",
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": [
+          "Geothermal Plant Power Up Room"
+        ]
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "Event_MeteorFragment",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 40,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 28,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 28000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 960
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-ICA-Stormdivers-4"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Storm Breaker",
+    "chainDescription": "Crescent Falls and Tharis Island are affected by a new kind of storm, with more frequent surges and deadlier lightning strikes. The supply of raw and salvaged materials has been crippled, and it's up to you to keep the station from falling apart!\r\n\r\nBe a Stormdiver for the ICA, drop directly into active storms, complete missions, and hand in Storm Diver Commissions. The station needs its best!\r\n\r\nThe ICA has prepared and deployed additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-ICA-Stormdivers-6": {
+    "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+    "description": "Savage Marauders have been making short work of even seasoned prospectors ever since these storms started, and now some are preferring to stay in their quarters and wait it all out! Set an example, show your comrades how a real prospector handles adversity!",
+    "faction": "ICA",
+    "factionReputation": 1180,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_ica-stormdivers-6_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 7,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Weremole_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 4,
+        "itemToOwn": "AI_WeremoleMeat_02",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 40,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1180
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-ICA-Stormdivers-5"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Storm Breaker",
+    "chainDescription": "Crescent Falls and Tharis Island are affected by a new kind of storm, with more frequent surges and deadlier lightning strikes. The supply of raw and salvaged materials has been crippled, and it's up to you to keep the station from falling apart!\r\n\r\nBe a Stormdiver for the ICA, drop directly into active storms, complete missions, and hand in Storm Diver Commissions. The station needs its best!\r\n\r\nThe ICA has prepared and deployed additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-ICA-Stormdivers-7": {
+    "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+    "description": "Our people have had an eureka moment with the Altered Meteor Fragments you delivered! If we can get our hands on enough full cores, we might be able to rid ourselves of the yoke Korolev has over the station! But we'll also need a lot of equipment for our tests... Search any container you can find; the ICA will gladly buy whatever you bring back. And don't forget the cores! They can be rebuilt if you have enough Altered Meteor Fragments, if you can't get to any whole ones.",
+    "faction": "ICA",
+    "factionReputation": 1300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_ica-stormdivers-7_job_bg",
+    "objectives": [
+      {
+        "type": "LootContainer",
+        "maxProgress": 100,
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 2,
+        "itemToOwn": "Event_MeteorCore",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 100,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Vanity_SMG_ICA_VoltaicBrute_StormDivers",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "ICA Scrip",
+        "amount": 44,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 38000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1300
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-ICA-Stormdivers-6"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Storm Breaker",
+    "chainDescription": "Crescent Falls and Tharis Island are affected by a new kind of storm, with more frequent surges and deadlier lightning strikes. The supply of raw and salvaged materials has been crippled, and it's up to you to keep the station from falling apart!\r\n\r\nBe a Stormdiver for the ICA, drop directly into active storms, complete missions, and hand in Storm Diver Commissions. The station needs its best!\r\n\r\nThe ICA has prepared and deployed additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-Osiris-Stormdivers-1": {
+    "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+    "description": "Excellent, you're here. No doubt you've noticed the wild storms over Crescent Falls and Tharis Island? An unexpected inconvenience, of course, but they present an unmissable opportunity for research! Let's start with how the new storms affect the local fauna; hunt down some Heavy Striders and bring back useful samples.\r\n\r\nOh, right; I had my people design a few trinkets to help you prospectors survive the storms. You should find them waiting around your drop pod in storm afflicted areas.",
+    "faction": "Osiris",
+    "factionReputation": 400,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_osiris-stormdivers-1_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Strider_3"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 6,
+        "itemToOwn": "AI_StriderMeat_03",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 10,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 400
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-Osiris-GainTrust-4"
+    ],
+    "isMainChain": true,
+    "chainName": "STORM DIVERS: Lightning in a bottle",
+    "chainDescription": "A new and unexplained meteorological event is covering much of the surface; while Bright Sands is unaffected, Crescent Falls and Tharis Island have been covered by frequent, and lethal, storms.\r\n\r\nBe a Stormdiver for Osiris, drop directly into an active storm, hand in Storm Diver Commissions while completing essential tasks. Osiris will ensure you're well compensated for your efforts.\r\n\r\nOsiris has developed some unique gear for Storm Divers to use, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-Osiris-Stormdivers-2": {
+    "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+    "description": "Some concerns came to my attention regarding the reliability of our armament under these new storm conditions. Reassure the station that our gear's only weakness is its operator: use Osiris weapons and cut down some creatures. And some of your upstart rivals too, to drive the message home.",
+    "faction": "Osiris",
+    "factionReputation": 600,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_osiris-stormdivers-2_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 25,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Beam_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Sniper_Energy_01"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 16,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 14000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 600
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-Osiris-Stormdivers-1"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Lightning in a bottle",
+    "chainDescription": "A new and unexplained meteorological event is covering much of the surface; while Bright Sands is unaffected, Crescent Falls and Tharis Island have been covered by frequent, and lethal, storms.\r\n\r\nBe a Stormdiver for Osiris, drop directly into an active storm, hand in Storm Diver Commissions while completing essential tasks. Osiris will ensure you're well compensated for your efforts.\r\n\r\nOsiris has developed some unique gear for Storm Divers to use, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-Osiris-Stormdivers-3": {
+    "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+    "description": "I sent a man to Crescent Falls to perform research on-site, and he needs some equipment, so I need you to stash Biological Samplers the Greens Prospect Warehouse for them. You might have luck finding some in Medical Containers.",
+    "faction": "Osiris",
+    "factionReputation": 760,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_osiris-stormdivers-3_job_bg",
+    "objectives": [
+      {
+        "type": "LootContainer",
+        "maxProgress": 10,
+        "locationConditions": []
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 4,
+        "deadDropLocation": "Stockpile",
+        "deadDropItem": "SamplingDevice",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 20,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 20,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 15600,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 760
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-Osiris-Stormdivers-2"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Lightning in a bottle",
+    "chainDescription": "A new and unexplained meteorological event is covering much of the surface; while Bright Sands is unaffected, Crescent Falls and Tharis Island have been covered by frequent, and lethal, storms.\r\n\r\nBe a Stormdiver for Osiris, drop directly into an active storm, hand in Storm Diver Commissions while completing essential tasks. Osiris will ensure you're well compensated for your efforts.\r\n\r\nOsiris has developed some unique gear for Storm Divers to use, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-Osiris-Stormdivers-4": {
+    "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+    "description": "We've received reports of a new organic structure located in Crescent Falls, described as some sort of nest. These storms may have brought out a new species to the surface; I need you locate it and bring back samples for testing.",
+    "faction": "Osiris",
+    "factionReputation": 800,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_osiris-stormdivers-4_job_bg",
+    "objectives": [
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Stormdivers_HowlerLocation3"
+        ]
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": [
+          "UniqueMissionLocation_Stormdivers_HowlerLocationWithSpike"
+        ]
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 1,
+        "itemToOwn": "MissionItem_StormdiversHowlerSpike",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 24,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 20000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 800
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-Osiris-Stormdivers-3"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Lightning in a bottle",
+    "chainDescription": "A new and unexplained meteorological event is covering much of the surface; while Bright Sands is unaffected, Crescent Falls and Tharis Island have been covered by frequent, and lethal, storms.\r\n\r\nBe a Stormdiver for Osiris, drop directly into an active storm, hand in Storm Diver Commissions while completing essential tasks. Osiris will ensure you're well compensated for your efforts.\r\n\r\nOsiris has developed some unique gear for Storm Divers to use, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-Osiris-Stormdivers-5": {
+    "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+    "description": "Our weapons team has been running some simulations for new flechette ammunition and need real world data, specifically under storm conditions. Take a Manticore to test against Mature Rattlers, and an ASP for Heavy Striders. And don't forget, perform the tests during a storm!",
+    "faction": "Osiris",
+    "factionReputation": 960,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_osiris-stormdivers-5_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 10,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Rattler_2"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": true
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 20,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": {
+              "ObjectName": "DataTable Ai_Tuning_DT",
+              "ObjectPath": "Prospect/Content/AI/Datatables/Ai_Tuning_DT.0"
+            },
+            "RowName": "Strider_3"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": true
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 40,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 28,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 28000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 960
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-Osiris-Stormdivers-4"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Lightning in a bottle",
+    "chainDescription": "A new and unexplained meteorological event is covering much of the surface; while Bright Sands is unaffected, Crescent Falls and Tharis Island have been covered by frequent, and lethal, storms.\r\n\r\nBe a Stormdiver for Osiris, drop directly into an active storm, hand in Storm Diver Commissions while completing essential tasks. Osiris will ensure you're well compensated for your efforts.\r\n\r\nOsiris has developed some unique gear for Storm Divers to use, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-Osiris-Stormdivers-6": {
+    "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+    "description": "I take it you've seen how the meteors falling through storms are altered by it, right? Fascinating on its own, of course, but there's a similarity between the how these meteor fragments and Fortuna III's hostile fauna react to the storm that we must research further. Bring me Altered Meteor Fragments so we can begin preparations in our lab, and build up a stash of Charged Spinal Bases at the Cresecent Falls Starport Warehouse for future tests.",
+    "faction": "Osiris",
+    "factionReputation": 1180,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_osiris-stormdivers-6_job_bg",
+    "objectives": [
+      {
+        "type": "DeadDrop",
+        "maxProgress": 20,
+        "deadDropLocation": "Cafeteria",
+        "deadDropItem": "StormyCreatureDrop",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 8,
+        "itemToOwn": "Event_MeteorFragment",
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 40,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 40,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 32000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1180
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-Osiris-Stormdivers-5"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Lightning in a bottle",
+    "chainDescription": "A new and unexplained meteorological event is covering much of the surface; while Bright Sands is unaffected, Crescent Falls and Tharis Island have been covered by frequent, and lethal, storms.\r\n\r\nBe a Stormdiver for Osiris, drop directly into an active storm, hand in Storm Diver Commissions while completing essential tasks. Osiris will ensure you're well compensated for your efforts.\r\n\r\nOsiris has developed some unique gear for Storm Divers to use, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
+  "Main-Osiris-Stormdivers-7": {
+    "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+    "description": "Oh, I believe you'll like this mission, Prospector. Some cretins have been spreading rumours that our energy weapons can suffer from a catastrophic feedback event because of these new storms. Lies, of course, almost definitely spread by our competitors. Put any worrywarts' minds at ease, grab a Zeus, and show how well it performs against creatures and rival prospectors alike.\r\n\r\nAh, and remember, the Gear Printer currently accepts Altered Meteor Cores for our top tier items, so keep an eye on the sky while you're on the surface.",
+    "faction": "Osiris",
+    "factionReputation": 1300,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_osiris-stormdivers-7_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 22,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Players",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_HVY_Beam_01"
+            }
+          ],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 100,
+        "itemToOwn": "Event_StormDiversFlyer",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Vanity_SniperRifle_OSI_Basilisk_StormDivers",
+        "amount": 1,
+        "isEndOfChainReward": true,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Osiris Scrip",
+        "amount": 44,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 38000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 1300
+      }
+    ],
+    "unlockLevel": 1,
+    "unlockContracts": [
+      "Main-Osiris-Stormdivers-6"
+    ],
+    "isMainChain": false,
+    "chainName": "STORM DIVERS: Lightning in a bottle",
+    "chainDescription": "A new and unexplained meteorological event is covering much of the surface; while Bright Sands is unaffected, Crescent Falls and Tharis Island have been covered by frequent, and lethal, storms.\r\n\r\nBe a Stormdiver for Osiris, drop directly into an active storm, hand in Storm Diver Commissions while completing essential tasks. Osiris will ensure you're well compensated for your efforts.\r\n\r\nOsiris has developed some unique gear for Storm Divers to use, available in crates around drop pod locations in Crescent Falls and Tharis lsland."
+  },
   "Main-KOR-FTUE-1": {
     "inGameName": "Welcome to the Workforce",
     "description": "Ah, a new Prospector! Korolev Heavy Industries will always have work for you... but maybe for now we start small. Find us some Nickel Prospector!",
@@ -63,6 +1711,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -171,6 +1823,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -455,6 +2111,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -623,6 +2283,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -638,6 +2302,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -872,6 +2540,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -984,6 +2656,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1091,6 +2767,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1214,6 +2894,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1434,6 +3118,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1455,6 +3143,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1511,6 +3203,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1526,6 +3222,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1696,6 +3396,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1711,6 +3415,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1769,6 +3477,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1784,6 +3496,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -1887,6 +3603,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -2062,6 +3782,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -2325,6 +4049,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -2715,6 +4443,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -2730,6 +4462,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -2855,6 +4591,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -3023,6 +4763,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -3128,6 +4872,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -3347,6 +5095,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -3463,6 +5215,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -3876,6 +5632,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4248,6 +6008,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4298,6 +6062,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4313,6 +6081,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4479,7 +6251,7 @@
     ],
     "isMainChain": false,
     "chainName": "Working for the Community",
-    "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too.",
+    "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the ICA happy, and they pay well enough, too.",
     "chainPart": 1
   },
   "Main-ICA-CommunityWork-2": {
@@ -4508,6 +6280,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4540,7 +6316,7 @@
     ],
     "isMainChain": false,
     "chainName": "Working for the Community",
-    "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too.",
+    "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the ICA happy, and they pay well enough, too.",
     "chainPart": 2
   },
   "Main-ICA-CommunityWork-3": {
@@ -4601,7 +6377,7 @@
     ],
     "isMainChain": false,
     "chainName": "Working for the Community",
-    "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too.",
+    "chainDescription": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the ICA happy, and they pay well enough, too.",
     "chainPart": 3
   },
   "Main-ICA-OilSearch-1": {
@@ -4628,6 +6404,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4750,6 +6530,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4806,6 +6590,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4878,6 +6666,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4928,6 +6720,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4943,6 +6739,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -4958,6 +6758,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -5234,6 +7038,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -5420,6 +7228,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -5641,6 +7453,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -5752,6 +7568,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_Map01_P",
           "m_onlyDuringStorm": false
         },
@@ -5854,6 +7674,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -5916,6 +7740,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::GlowBeetle_Blast",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6036,6 +7864,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6107,6 +7939,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Strider",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6122,6 +7958,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6231,6 +8071,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6351,6 +8195,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6417,6 +8265,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6486,6 +8338,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6845,6 +8701,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -6908,6 +8768,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -7168,6 +9032,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -7374,6 +9242,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -7436,6 +9308,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -7610,6 +9486,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8122,6 +10002,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8289,6 +10173,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8391,6 +10279,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8558,6 +10450,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8683,6 +10579,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8698,6 +10598,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8713,6 +10617,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Rattler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8880,6 +10788,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -8969,7 +10881,7 @@
   },
   "Main-KOR-Unique-4": {
     "inGameName": "Salvage Ops",
-    "description": "There's not point in reinventing the wheel! Head out to the crashed Laser Drill on Bright Sands, there should still be some tech we can salvage to use for our prototype drill, it would save us a lot of time... and money.",
+    "description": "There's no point in reinventing the wheel! Head out to the crashed Laser Drill on Bright Sands, there should still be some tech we can salvage to use for our prototype drill, it would save us a lot of time... and money.",
     "faction": "Korolev",
     "factionReputation": 2300,
     "difficulty": "Invalid",
@@ -9302,6 +11214,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -9456,6 +11372,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -9621,6 +11541,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         },
@@ -9651,7 +11575,7 @@
     ],
     "isMainChain": true,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 1
   },
   "Main-KOR-Caverns-2": {
@@ -9707,7 +11631,7 @@
     ],
     "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 2
   },
   "Main-KOR-Caverns-3": {
@@ -9751,7 +11675,7 @@
     ],
     "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 3
   },
   "Main-KOR-Caverns-4": {
@@ -9842,6 +11766,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         },
@@ -9872,7 +11800,7 @@
     ],
     "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 4
   },
   "Main-KOR-Caverns-5": {
@@ -9929,7 +11857,7 @@
     ],
     "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 5
   },
   "Main-KOR-Caverns-6": {
@@ -9987,7 +11915,7 @@
     ],
     "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 6
   },
   "Main-KOR-Caverns-7": {
@@ -10036,7 +11964,7 @@
     ],
     "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 7
   },
   "Main-KOR-Caverns-8": {
@@ -10063,6 +11991,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -10101,7 +12033,7 @@
     ],
     "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 8
   },
   "Main-KOR-Caverns-9": {
@@ -10150,7 +12082,7 @@
     ],
     "isMainChain": false,
     "chainName": "In a Deep Dark Hole",
-    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
     "chainPart": 9
   },
   "Main-KOR-Caverns-10": {
@@ -10170,6 +12102,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -10185,6 +12121,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -10200,6 +12140,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -10474,6 +12418,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -10590,6 +12538,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Weremole",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": true
         },
@@ -10603,6 +12555,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_Map02_P",
           "m_onlyDuringStorm": false
         },
@@ -10616,6 +12572,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_Map01_P",
           "m_onlyDuringStorm": false
         },
@@ -10769,6 +12729,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         },
@@ -10782,6 +12746,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         },
@@ -10992,6 +12960,10 @@
           ],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         },
@@ -11201,6 +13173,10 @@
             }
           ],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         },
@@ -11407,6 +13383,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         },
@@ -11575,6 +13555,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::Crusher",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -11683,6 +13667,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -11898,6 +13886,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": true
         },
@@ -12069,6 +14061,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "MP_AlienCaverns_P",
           "m_onlyDuringStorm": false
         },
@@ -12172,6 +14168,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": true
         },
@@ -12296,6 +14296,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
@@ -12617,6 +14621,10 @@
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [],
           "m_specificAIEnemyTypeToKill": "EYEnemyType::None",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
           "m_mapName": "",
           "m_onlyDuringStorm": false
         },
