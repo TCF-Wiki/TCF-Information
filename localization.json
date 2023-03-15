@@ -160,11 +160,11 @@
     },
     "Consumable_Health_06": {
       "name": "Combat Medkit",
-      "description": "Offering an immediate 100 health boost."
+      "description": "Slow application. Provides a full health boost."
     },
     "Consumable_Health_04": {
       "name": "Combat Stim",
-      "description": "Offering an immediate 30 health boost."
+      "description": "Fast application. Provides a moderate health boost."
     },
     "Abilities_KineticShield_Shell": {
       "description": "Deploys a kinetic shell that provides a short lived shield around the user, preventing them from taking or dealing damage for several seconds.",
@@ -184,6 +184,14 @@
       "description": "Every prospector loves running into surprise presents from strangers!\r\n\r\nA small device that will tether its lucky finder to its anchored location for a short duration while administring joyful electric charges.",
       "name": "Holiday Snare Trap",
       "lore": "NOTE: This item will only be available during the holidays!"
+    },
+    "Consumable_Health_01": {
+      "description": "Fast application. Provides a slight health boost.",
+      "name": "Weak Stim"
+    },
+    "Consumable_Health_02": {
+      "description": "Fast application. Provides a small health boost.",
+      "name": "Strong Stim"
     },
     "Abilities_BounceGrenade": {
       "description": "Heavy grenade that explodes after several seconds.",
@@ -213,20 +221,12 @@
       "name": "NoAbility"
     },
     "Consumable_Health_03": {
-      "description": "Offering an immediate 100 health boost.",
+      "description": "Slow application. Provides a great health boost.",
       "name": "Weak Medkit"
     },
     "Consumable_Health_05": {
-      "description": "Offering an immediate 100 health boost.",
+      "description": "Slow application. Provides a massive health boost.",
       "name": "Strong Medkit"
-    },
-    "Consumable_Health_01": {
-      "description": "Offering an immediate 15 health boost.",
-      "name": "Weak Stim"
-    },
-    "Consumable_Health_02": {
-      "description": "Offering an immediate 25 health boost.",
-      "name": "Strong Stim"
     }
   },
   "Contracts": {
@@ -393,7 +393,7 @@
     "NEW-Medium-KOR-Gather-2": {
       "shortDescription": "",
       "name": "Mining Bot",
-      "description": "Our engineers have designed an autonomous mining bot. Bring us a Zero Systems CPU and some Ball Bearings for the prototype."
+      "description": "Our engineers have designed an autonomous mining bot. Bring us Zero Systems CPUs and some Ball Bearings for the prototype."
     },
     "NEW-Medium-KOR-Gather-4": {
       "shortDescription": "",
@@ -613,7 +613,7 @@
     "NEW-Easy-KOR-Mine-3": {
       "name": "Altered Nickel Supplies",
       "description": "Prospector. You have proven more useful than expected. Now go get us some Altered Nickel for our foundries.",
-      "shortDescription": "You can use a Mineral Scanner to help you find Nickel Veins"
+      "shortDescription": "You can use a Scanner to help you find Nickel Veins"
     },
     "NEW-Medium-ICA-Gather-and-PvE-1": {
       "name": "Alternative Energies",
@@ -816,7 +816,7 @@
       "name": "Proprietary Information"
     },
     "Contract_Hard-Osiris-Minerals-1": {
-      "description": "Buy and equip a mineral scanner\r\nScan for minerals on rocky areas or dig sites\r\nUse your pickaxe to mine minerals for a chance to find Cloudy Veltecite",
+      "description": "Buy and equip a scanner\r\nScan for minerals on rocky areas or dig sites\r\nUse your pickaxe to mine minerals for a chance to find Cloudy Veltecite",
       "name": "Mineral Samples"
     },
     "NEW-Easy-ICA-Flora-1": {
@@ -903,15 +903,15 @@
     },
     "Contract_Easy-KOR-Minerals-2": {
       "name": "Crystal Frenzy I",
-      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Cloudy Veltecite\r\nUsing a Mineral Scanner will help in finding mineral deposits in rocky areas or dig sites"
+      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Cloudy Veltecite\r\nUsing a Scanner will help in finding mineral deposits in rocky areas or dig sites"
     },
     "Contract_Medium-KOR-Minerals-2": {
       "name": "Crystal Frenzy II",
-      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Clear Veltecite\r\nUsing a Mineral Scanner will help in finding mineral deposits in rocky areas or dig sites"
+      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Clear Veltecite\r\nUsing a Scanner will help in finding mineral deposits in rocky areas or dig sites"
     },
     "Contract_Hard-KOR-Minerals-2": {
       "name": "Crystal Frenzy III",
-      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Pure Veltecite\r\nUsing a Mineral Scanner will help in finding mineral deposits in rocky areas or dig sites"
+      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Pure Veltecite\r\nUsing a Scanner will help in finding mineral deposits in rocky areas or dig sites"
     },
     "NEW-Medium-KOR-Mine-and-PvE-2": {
       "shortDescription": "Crystal Veins can often be found in the Jungle",
@@ -985,7 +985,7 @@
     "Contract_Easy-KOR_FTUE-Minerals-1": {
       "description": "Drop down to Fortuna, mine Nickel Veins using your Pickaxe and bring us back some Nickel.",
       "name": "Nickel Run",
-      "shortDescription": "You can equip a Mineral Scanner via your Tool Wheel to help you find Nickel Veins"
+      "shortDescription": "You can equip a Scanner via your Tool Wheel to help you find Nickel Veins"
     },
     "Evac_GlobalInfo_EvacEnabled": {
       "name": "EVAC IS NOW AVAILABLE AGAIN"
@@ -1558,7 +1558,7 @@
       "name": "STORM INCOMING! EVAC WILL GO OFFLINE IN 1 MIN"
     },
     "Evac_GlobalInfo_StormWarning5min": {
-      "name": "STORM INCOMING! EVAC WILL GO OFFLINE IN 5 MIN"
+      "name": "STORM INCOMING! EVAC WILL GO OFFLINE IN 3 MIN"
     },
     "NEW-Medium-KOR-Mine-4": {
       "description": "Scouts have found Titan Ore deposits on Fortuna III! Go see if the rumours are true and bring us samples. And some Altered Nickel, while you're at it.",
@@ -1625,15 +1625,15 @@
       "name": "UPLINK STATUS:"
     },
     "Contract_Easy-KOR-Minerals-1": {
-      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Flawed Veltecite\r\nUsing a Mineral Scanner will help in finding mineral deposits in rocky areas or dig sites",
+      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Flawed Veltecite\r\nUsing a Scanner will help in finding mineral deposits in rocky areas or dig sites",
       "name": "Veltecite Run I"
     },
     "Contract_Hard-KOR-Minerals-1": {
-      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Flawed Veltecite\r\nUsing a Mineral Scanner will help in finding mineral deposits in rocky areas or dig sites",
+      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Flawed Veltecite\r\nUsing a Scanner will help in finding mineral deposits in rocky areas or dig sites",
       "name": "Veltecite Run III"
     },
     "Contract_Medium-KOR-Minerals-1": {
-      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Flawed Veltecite\r\nUsing a Mineral Scanner will help in finding mineral deposits in rocky areas or dig sites",
+      "description": "Use your Pickaxe or a Mining Tool to mine minerals for Flawed Veltecite\r\nUsing a Scanner will help in finding mineral deposits in rocky areas or dig sites",
       "name": "Veltecite Run II"
     },
     "NEW-Medium-Osiris-Hunt-5": {
@@ -1651,7 +1651,7 @@
       "name": "You do not have the required item: Korolev Laser Drill Beacon"
     },
     "CrusherCavern_Interact_NotPossible": {
-      "name": "You do not have the required item: Osiris Orbital Laser Beacon"
+      "name": "You do not have the required item: Osiris Orbital Cannon Beacon"
     },
     "Contract_Toast_ClaimFailStashFull_SecondLine": {
       "name": "Your stash is full! Free up some space before claiming"
@@ -1954,6 +1954,41 @@
       "shortDescription": "",
       "description": "Another location mentioned is around the Skeleton Research area; head there and clear it out. Hrmm, the wrong people might start getting curious about what we're up to... bring back some Rattler Skins and salvaged equipment; you know, normal prospector work."
     },
+    "Main-ICA-Stormdivers-1": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Ah, hello again! The freak storms over Crescent Falls have become a problem, so much so that there's been a population boom among the more hostile fauna. Can you brave the storm and even things out for us, Prospector? And don't forget to check the care packages the ICA set near drop pod locations, they'll make your job much easier, I'm sure!"
+    },
+    "Main-ICA-Stormdivers-2": {
+      "name": "",
+      "shortDescription": "",
+      "description": "One of our salvage crews noticed a strange organic construction, some sort of nest, maybe? Can you head down and check it out for us? Maybe the beasts on the surface are reacting to the storm by building nests? Just, bring us a sample, so we can be sure."
+    },
+    "Main-ICA-Stormdivers-3": {
+      "name": "",
+      "shortDescription": "",
+      "description": "This is something of a delicate matter, so some discretion is needed... Someone working for us 'misplaced' some valuables they'd be entrusted with to stash on the planet, instead spreading it around wherever they could to retrieve later. We need them back, urgently. Or at least enough similar in value; search any Safes you find and stash any Jewelry you can get your hands on at the Greens Prospect Fulfilment Center."
+    },
+    "Main-ICA-Stormdivers-4": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Osiris has made a big show about how well their gear handles during these stormy conditions. Show them up, Prospector, let everyone know that ICA makes the best guns for Fortuna III."
+    },
+    "Main-ICA-Stormdivers-5": {
+      "name": "",
+      "shortDescription": "",
+      "description": "One of our scientists has been playing around with fragments from the meteors that fall over Crescent Falls and Tharis Island, saying there might be potential to use as an energy source. We'll need more Altered Meteor Fragments to confirm... and access to a locked room in the Geothermal Plant for safe testing off-station."
+    },
+    "Main-ICA-Stormdivers-6": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Savage Marauders have been making short work of even seasoned prospectors ever since these storms started, and now some are preferring to stay in their quarters and wait it all out! Set an example, show your comrades how a real prospector handles adversity!"
+    },
+    "Main-ICA-Stormdivers-7": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Our people have had an eureka moment with the Altered Meteor Fragments you delivered! If we can get our hands on enough full cores, we might be able to rid ourselves of the yoke Korolev has over the station! But we'll also need a lot of equipment for our tests... Search any container you can find; the ICA will gladly buy whatever you bring back. And don't forget the cores! They can be rebuilt if you have enough Altered Meteor Fragments, if you can't get to any whole ones."
+    },
     "Main-ICA-TestRun-1": {
       "name": "",
       "shortDescription": "",
@@ -2238,6 +2273,41 @@
       "shortDescription": "",
       "description": "Good news bad news situation. Our prototype works, but it needs much stronger materials. Get us these, Prospector.",
       "name": "Final Touches"
+    },
+    "Main-KOR-Stormdivers-1": {
+      "name": "",
+      "shortDescription": "",
+      "description": "You've noticed, of course, some of the strange storms over the planet now? It has made operations on Crescent Falls and Tharis Island... difficult. But no worries! Korolev is taking the lead, as always, and providing care packages with special gear for all the brave prospectors like you that drop during these conditions.\r\n\r\nOf course... we need supplies for those. Search through Industrial Crates, you should find materials we can use in those."
+    },
+    "Main-KOR-Stormdivers-2": {
+      "name": "",
+      "shortDescription": "",
+      "description": "The storms haven't fazed you, eh? Good, good. Some of the others we sent down have had... issues. Many with Mature Rattlers, nasty monsters. Maybe you can lower their numbers a bit, make things easier for the rest?"
+    },
+    "Main-KOR-Stormdivers-3": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Ah, Prospector! During storms on Tharis Island and Crescent Falls, you've seen the meteors, right? I've been told they're different when they fall there, changed by the storm maybe? You must get us some samples; they might be valuable!"
+    },
+    "Main-KOR-Stormdivers-4": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Those fragments you brought back are very interesting indeed! Korolev needs more people down there, but too many that we send come back foamed... The station needs better supplies, and you can help! Search through Military Crates, always something good in those! Oh, and shoot any Heavy Striders you see, OK?"
+    },
+    "Main-KOR-Stormdivers-5": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Just who I needed! There have been reports that our latest batch of weapons have been faulty, all lies of course! I need you to set the record straight, take out some rivals using one of our superior guns!\r\n\r\nOh, and stash some Shock Absorbers at Greens Prospect on Crescent Falls, we need parts to repair a factory machine... You can do this quietly for us, right?"
+    },
+    "Main-KOR-Stormdivers-6": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Another prospector brought back a full Altered Meteor Core to the ICA, and they immediately became very bullish in negotiating energy fees, it can't be a coincidence! You need to bring us some of those cores, we can't lose the upper hand here! If you can't find any cores yourself, get enough Altered Meteor Fragments to combine, then bring them as soon as you can, Prospector."
+    },
+    "Main-KOR-Stormdivers-7": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Too many beasts down there! Almost every other prospector I send down comes back encased in foam now! Get a KOMRAD and thin the heard, OK? Maybe take down some Marauders during a storm, show the other prospectors how it's done!"
     },
     "Main-KOR-TitanOre-1": {
       "shortDescription": "",
@@ -2539,6 +2609,41 @@
       "description": "We're interested in running more tests on Storm-affected samples, this time while as close to the planet as possible. Meaning on it. I need you to stash some Charged Spinal Bases on the surface for one of our more 'adventurous' researchers to work with.",
       "shortDescription": "Search for the Dead Drop in the Office at Nutrion Farms on Crescent Falls"
     },
+    "Main-Osiris-Stormdivers-1": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Excellent, you're here. No doubt you've noticed the wild storms over Crescent Falls and Tharis Island? An unexpected inconvenience, of course, but they present an unmissable opportunity for research! Let's start with how the new storms affect the local fauna; hunt down some Heavy Striders and bring back useful samples.\r\n\r\nOh, right; I had my people design a few trinkets to help you prospectors survive the storms. You should find them waiting around your drop pod in storm afflicted areas."
+    },
+    "Main-Osiris-Stormdivers-2": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Some concerns came to my attention regarding the reliability of our armament under these new storm conditions. Reassure the station that our gear's only weakness is its operator: use Osiris weapons and cut down some creatures. And some of your upstart rivals too, to drive the message home."
+    },
+    "Main-Osiris-Stormdivers-3": {
+      "name": "",
+      "shortDescription": "",
+      "description": "I sent a man to Crescent Falls to perform research on-site, and he needs some equipment, so I need you to stash Biological Samplers the Greens Prospect Warehouse for them. You might have luck finding some in Medical Containers."
+    },
+    "Main-Osiris-Stormdivers-4": {
+      "name": "",
+      "description": "We've received reports of a new organic structure located in Crescent Falls, described as some sort of nest. These storms may have brought out a new species to the surface; I need you locate it and bring back samples for testing.",
+      "shortDescription": "The Creature has reportedly been nesting in a Tree south of Jungle Thermal Ponds as well as on top of Nutrion Farms Processing."
+    },
+    "Main-Osiris-Stormdivers-5": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Our weapons team has been running some simulations for new flechette ammunition and need real world data, specifically under storm conditions. Take a Manticore to test against Mature Rattlers, and an ASP for Heavy Striders. And don't forget, perform the tests during a storm!"
+    },
+    "Main-Osiris-Stormdivers-6": {
+      "name": "",
+      "shortDescription": "",
+      "description": "I take it you've seen how the meteors falling through storms are altered by it, right? Fascinating on its own, of course, but there's a similarity between the how these meteor fragments and Fortuna III's hostile fauna react to the storm that we must research further. Bring me Altered Meteor Fragments so we can begin preparations in our lab, and build up a stash of Charged Spinal Bases at the Cresecent Falls Starport Warehouse for future tests."
+    },
+    "Main-Osiris-Stormdivers-7": {
+      "name": "",
+      "shortDescription": "",
+      "description": "Oh, I believe you'll like this mission, Prospector. Some cretins have been spreading rumours that our energy weapons can suffer from a catastrophic feedback event because of these new storms. Lies, of course, almost definitely spread by our competitors. Put any worrywarts' minds at ease, grab a Zeus, and show how well it performs against creatures and rival prospectors alike.\r\n\r\nAh, and remember, the Gear Printer currently accepts Altered Meteor Cores for our top tier items, so keep an eye on the sky while you're on the surface."
+    },
     "Main-Osiris-StrongMedkits-1": {
       "name": "",
       "shortDescription": "",
@@ -2586,7 +2691,7 @@
     },
     "Main-KOR-FTUE-1": {
       "description": "Ah, a new Prospector! Korolev Heavy Industries will always have work for you... but maybe for now we start small. Find us some Nickel Prospector!",
-      "shortDescription": "Drop down to the Bright Sands Map and search for mineable Nickel veins around Rock Walls and Cliffs. You can also use a Mineral Scanner to help you find them.",
+      "shortDescription": "Drop down to the Bright Sands Map and search for mineable Nickel veins around Rock Walls and Cliffs. You can also use a Scanner to help you find them.",
       "name": "Welcome to the Workforce"
     },
     "Main-KOR-Unique-1": {
@@ -2685,7 +2790,7 @@
       "shortDescription": "Search the Bright Sands Power Plant for the Office"
     },
     "Main-KOR-Unique-4": {
-      "description": "There's not point in reinventing the wheel! Head out to the crashed Laser Drill on Bright Sands, there should still be some tech we can salvage to use for our prototype drill, it would save us a lot of time... and money.",
+      "description": "There's no point in reinventing the wheel! Head out to the crashed Laser Drill on Bright Sands, there should still be some tech we can salvage to use for our prototype drill, it would save us a lot of time... and money.",
       "name": "Salvage Ops",
       "shortDescription": "Search for the Old Drill Head at the Crashed Drill West of East Collection Point on Bright Sands and deliver the Laser Drill Control Unit"
     },
@@ -2736,6 +2841,10 @@
       "description": "A lot of questions remain about how to stabilize Letium for safe and easy exploitation; with what's already been recovered and studied, Letium could be used not just to refine Veltecite, but trigger all sorts of other reactions in more common materials.\r\n\r\nHelp Korolev with what they need and their discoveries might even surpass the brains at Osiris!",
       "name": "Research Costs"
     },
+    "Main-Osiris-Questline-Stormdivers": {
+      "description": "A new and unexplained meteorological event is covering much of the surface; while Bright Sands is unaffected, Crescent Falls and Tharis Island have been covered by frequent, and lethal, storms.\r\n\r\nBe a Stormdiver for Osiris, drop directly into an active storm, hand in Storm Diver Commissions while completing essential tasks. Osiris will ensure you're well compensated for your efforts.\r\n\r\nOsiris has developed some unique gear for Storm Divers to use, available in crates around drop pod locations in Crescent Falls and Tharis lsland.",
+      "name": "STORM DIVERS: Lightning in a bottle"
+    },
     "Main-Osiris-Questline-Caverns": {
       "description": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.\r\n\r\nWhile it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.\r\n\r\nSullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
       "name": "The Progenitor Device"
@@ -2743,6 +2852,9 @@
     "Main-KOR-Questline-TitanOre": {
       "description": "All those ships and stations Korolev is known for? Titan Ore. It's as strong as it is precious, and also notoriously hard to find. \r\n\r\nHelp Korolev out to gain access to a new Scanner Attachement for it!",
       "name": "Titan Hunter"
+    },
+    "Acquire-AlienCore_Hint": {
+      "name": "Altered Meteor Cores can be found in Meteors during the Storm Divers Event or crafted using Altered Meteor Fragments"
     },
     "Main-ICA-Questline-OilScanModule": {
       "name": "An Eye for Oil",
@@ -2772,6 +2884,10 @@
       "name": "Crafting Better Bags",
       "description": "Few tools are more important to a prospector than a good backpack, and the prize for helping Korolev with a few extra tasks might even be described as 'Epic'."
     },
+    "Main-ICA-Questline-Stormdivers": {
+      "description": "Crescent Falls and Tharis Island are affected by a new kind of storm, with more frequent surges and deadlier lightning strikes. The supply of raw and salvaged materials has been crippled, and it's up to you to keep the station from falling apart!\r\n\r\nBe a Stormdiver for the ICA, drop directly into active storms, complete missions, and hand in Storm Diver Commissions. The station needs its best!\r\n\r\nThe ICA has prepared and deployed additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland.",
+      "name": "STORM DIVERS: Storm Breaker"
+    },
     "Main-KOR-Questline-KillCrusher": {
       "name": "Crush Hazard",
       "description": "Crushers aren't known for their curiosity, or really anything other than very efficiently crushing things, which on the off chance they pay a visit to a Laser Drill, it's best we all know you're up to the task of taking one down.\r\n\r\nGood hunting, Prospector!"
@@ -2779,6 +2895,18 @@
     "Main-Osiris-Questline-Trust": {
       "name": "Dangerous Science",
       "description": "Osiris came to Fortuna III to investigate the alien ruins, largely thought to be terraformers by an ancient civilization known as Progenitors.\r\n\r\nHelping them may unlock the secrets of the planet's deadly storms and its exotic radiation. Or at least, it'll unlock access to more advanced Osiris gear and medical items."
+    },
+    "Acquire-AlienCore": {
+      "name": "Deliver Altered Meteor Cores"
+    },
+    "Acquire-AlienFragment": {
+      "name": "Deliver Altered Meteor Fragments"
+    },
+    "Acquire-EliteStriderFlesh": {
+      "name": "Deliver Heavy Strider Flesh"
+    },
+    "Acquire-EliteMarauderFlesh": {
+      "name": "Deliver Savage Marauder Flesh"
     },
     "Main-ICA-Questline-Gruntwork": {
       "name": "Doing the Work",
@@ -2799,6 +2927,9 @@
     },
     "Kill-Players-Map3-KorolevWeapon": {
       "name": "Eliminate Prospectors on Tharis Island using a Korolev Weapon"
+    },
+    "Kill-Player-ZeusBeam": {
+      "name": "Eliminate Prospectors using the Zeus Beam"
     },
     "Main-Osiris-Questline-CrystalSamples": {
       "name": "Everything is Crystals",
@@ -2832,8 +2963,12 @@
       "name": "Storm Rider"
     },
     "Main-KOR-Questline-Caverns": {
-      "description": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+      "description": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.\r\n\r\nVadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
       "name": "In a Deep Dark Hole"
+    },
+    "Main-KOR-Questline-Stormdivers": {
+      "description": "Freak storms have appeared over Fortuna III, with two shrouding Crescent Falls and Tharis Island. Higher storm frequency, more aggressive lightning strikes... There's great risk here, but also great opportunity and rewards!\r\n\r\nBe a Stormdiver for Korolev, drop directly into an active storm, prove you can handle Fortuna III's worst by completing missions and handing in Storm Diver Commissions.\r\n\r\nKorolev has fabricated additional gear just for Storm Divers, available in crates around drop pod locations in Crescent Falls and Tharis lsland.",
+      "name": "STORM DIVERS: Forged in the Storm"
     },
     "Main-Osiris-Questline-SideWork1": {
       "description": "Getting Dr. Fedotov out of cryo may have been more trouble than its worth. After a (justified) tirade against Dr. Sullivan for not rescuing him sooner, he's refusing to speak to anyone in person until a series of curious demands are met.\r\n\r\nIt'll be best to keep him content, if only for his new assistant's sake.",
@@ -2914,6 +3049,33 @@
     "Kill-Creatures-Map3": {
       "name": "Hunt Creatures on Tharis Island"
     },
+    "Kill-Creatures-Komrad": {
+      "name": "Hunt Creatures using the KOMRAD Missile Launcher"
+    },
+    "Kill-Creatures-ZeusBeam": {
+      "name": "Hunt Creatures using the Zeus Beam"
+    },
+    "Kill-EliteSriders": {
+      "name": "Hunt Heavy Striders"
+    },
+    "Kill-EliteStriders-Storm-Flechette": {
+      "name": "Hunt Heavy Striders during an active Storm using the ASP Flechette Gun"
+    },
+    "Kill-EliteStriders-Map2": {
+      "name": "Hunt Heavy Striders on Crescent Falls"
+    },
+    "Kill-Marauder-Storm": {
+      "name": "Hunt Marauders during an active Storm"
+    },
+    "Kill-EliteRattlers": {
+      "name": "Hunt Mature Rattlers"
+    },
+    "Kill-EliteRattlers-Storm-Manticore": {
+      "name": "Hunt Mature Rattlers during an active Storm using the Manticore Assault Rifle"
+    },
+    "Kill-EliteMarauder": {
+      "name": "Hunt Savage Marauders"
+    },
     "Main-ICA-Questline-TestRun": {
       "description": "It's finally time to put everything together and drill for oil! If the ICA can get enough concentrated NiC back onto Prospect Station, they'll be able to keep everything powered on their own, free from the exploitative prices Korolev charges.\r\n\r\nA lot is riding on this, Prospector.",
       "name": "Put to the Test"
@@ -2929,6 +3091,9 @@
     "Main-Osiris-Questline-CaveRumors": {
       "name": "Lost Knowledge",
       "description": "Now Dr. Sullivan's interest is piqued after you helped uncover forgotten research into the planet's extinct creatures and their unnatural anatomy. \r\n\r\nIt seems he's realizing that the planet's mysteries won't unravel themselves without some hands-on research from prospectors like you."
+    },
+    "Acquire-Stormdivers-HowlerSpike_Hint": {
+      "name": "NEEDS A PROPER HINT ONCE THE ITEM IS PLACED"
     },
     "Main-ICA-Questline-OilSearch": {
       "name": "Never Give Up",
@@ -2958,6 +3123,105 @@
       "name": "Race to the Bottom",
       "description": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.\r\n\r\nNot much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations. \r\n\r\nAnd while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place..."
     },
+    "Reach-KorolevLvl": {
+      "name": "Reach the specified Reputation Level with Korolev"
+    },
+    "Reach-OsirisLvl": {
+      "name": "Reach the specified Reputation Level with Osiris"
+    },
+    "Reach-ICALvl": {
+      "name": "Reach the specified Reputation Level with the ICA"
+    },
+    "Search-AmmoBox": {
+      "name": "Search Ammo Boxes"
+    },
+    "Search-AlienVent": {
+      "name": "Search Ancient Vents"
+    },
+    "Search-GenericJacket": {
+      "name": "Search Black Jackets"
+    },
+    "Search-Briefcase": {
+      "name": "Search Briefcases"
+    },
+    "Search-Cabinet": {
+      "name": "Search Cabinets"
+    },
+    "Search-ConsumableBox": {
+      "name": "Search Consumable Boxes"
+    },
+    "Search-ConsumableBoxes": {
+      "name": "Search Consumable Boxes"
+    },
+    "Search-Cooler": {
+      "name": "Search Coolers"
+    },
+    "Search-Cooler_WoodcutterCamp": {
+      "name": "Search Coolers at the Woodcutter Camp on Bright Sands"
+    },
+    "Search-Dumpster": {
+      "name": "Search Dumpsters"
+    },
+    "Search-HiddenStash": {
+      "name": "Search Hidden Stashes"
+    },
+    "Search-IndustrialCrate": {
+      "name": "Search Industrial Crates"
+    },
+    "Search-IndustrialCrate-Map1": {
+      "name": "Search Industrial Crates on the Bright Sands Map"
+    },
+    "Search-KorolevJacket": {
+      "name": "Search Korolev Jackets"
+    },
+    "Search-Luggage": {
+      "name": "Search Luggage"
+    },
+    "Search-MedCase": {
+      "name": "Search Medical Cases"
+    },
+    "Search-MedCase_Waterfall Lab": {
+      "name": "Search Medical Cases at Waterfall Lab on Bright Sands"
+    },
+    "Search-MedCase_Map2": {
+      "name": "Search Medical Cases on Crescent Falls"
+    },
+    "Search-WeaponCrate": {
+      "name": "Search Military Boxes"
+    },
+    "Search-WeaponCrate-Map2": {
+      "name": "Search Military Boxes on Crescent Falls"
+    },
+    "Search-OsirisJacket": {
+      "name": "Search Osiris Jackets"
+    },
+    "Search-Safe": {
+      "name": "Search Safes"
+    },
+    "Search-GenericContainer": {
+      "name": "Search Storage Boxes"
+    },
+    "Search-AnyContainers": {
+      "name": "Search any Loot Containers"
+    },
+    "Search-AnyContainer_VaccineLabs": {
+      "name": "Search any Loot Containers at Vaccine Labs on Bright Sands"
+    },
+    "Search-AnyContainer_WaterfallLab": {
+      "name": "Search any Loot Containers at Waterfall Lab on Bright Sands"
+    },
+    "Search-AnyContainers-Map1": {
+      "name": "Search any Loot Containers on Bright Sands"
+    },
+    "Search-AnyContainers-Map2": {
+      "name": "Search any Loot Containers on Crescent Falls"
+    },
+    "Search-AnyContainers-Map3": {
+      "name": "Search any Loot Containers on Tharis Island"
+    },
+    "Search-CrusherDungeon_RewardCrate": {
+      "name": "Search the Container at the end of the Cave"
+    },
     "Main-Osiris-Caverns-2_Alternative3": {
       "name": "Search the Rooms of the Korolev Island HQ on Tharis Island for Recordings of what happened."
     },
@@ -2966,6 +3230,21 @@
     },
     "Key": {
       "name": "SourceString"
+    },
+    "Stash-BioSamplers-Warehouse": {
+      "name": "Stash Biological Samplers at the Greens Prospect Stockpile"
+    },
+    "Stash-ChargedSpinalBase-StarportWarehouse": {
+      "name": "Stash Charged Spinal Bases at Starport Warehouse on Crescent Falls"
+    },
+    "Stash-Jewelry_FulfilmentCenter": {
+      "name": "Stash Jewelry at the Greens Prospect Fulfilment Center on Crescent Falls"
+    },
+    "Stash-ShockAbsorber_Stockpile": {
+      "name": "Stash Shock Absorbers at Greens Prospect Stockpile on Crescent Falls"
+    },
+    "Acquire-Stormdivers-EventFlyers_Hint": {
+      "name": "Storm Divers Commissions can be found in any human Loot Container on Crescent Falls and Tharis Island during the Storm Divers Event."
     },
     "Main-ICA-Questline-Sidework3": {
       "name": "The Community Needs You",
@@ -2976,7 +3255,7 @@
       "name": "Toxic Love"
     },
     "Main-ICA-Questline-CommunityWork": {
-      "description": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the the ICA happy, and they pay well enough, too.",
+      "description": "The ICA often receives job commissions and requests for prospectors to carry out, acting as a sort of middleman to access the planet.\r\n\r\nHandling these jobs keeps the ICA happy, and they pay well enough, too.",
       "name": "Working for the Community"
     },
     "Main-ICA-Questline-Trust": {
@@ -3302,6 +3581,10 @@
     "Main-ICA-OilSearch-1": "",
     "Main-ICA-OilSearch-2": "",
     "Main-ICA-OilSearch-3": "",
+    "Main-ICA-Stormdivers-3": "",
+    "Main-ICA-Stormdivers-4": "",
+    "Main-ICA-Stormdivers-5": "",
+    "Main-ICA-Stormdivers-6": "",
     "Main-ICA-TestRun-1": "",
     "Main-ICA-TestRun-2": "",
     "Main-KOR-BuildLaserDrill-1": "",
@@ -3349,6 +3632,10 @@
     "Main-KOR-MiningTool-2": "",
     "Main-KOR-MiningTool-3": "",
     "Main-KOR-MiningTool-5": "",
+    "Main-KOR-Stormdivers-3": "",
+    "Main-KOR-Stormdivers-4": "",
+    "Main-KOR-Stormdivers-5": "",
+    "Main-KOR-Stormdivers-6": "",
     "Main-KOR-TestRun-1": "",
     "Main-KOR-TitanOre-1": "",
     "Main-KOR-TitanOre-2": "",
@@ -3391,6 +3678,9 @@
     "Main-Osiris-SideWork1-4": "",
     "Main-Osiris-StormSamples-1": "",
     "Main-Osiris-StormSamples-2": "",
+    "Main-Osiris-Stormdivers-3": "",
+    "Main-Osiris-Stormdivers-5": "",
+    "Main-Osiris-Stormdivers-6": "",
     "Main-Osiris-StrongMedkits-1": "",
     "Main-Osiris-StrongMedkits-2": "",
     "Main-Osiris-StrongStims-1": "",
@@ -3398,6 +3688,14 @@
     "Main-Osiris-TestRun-1": "",
     "Main-Osiris-UplinkHack-1": "",
     "Main-Osiris-UplinkHack-2": "",
+    "Main-ICA-Stormdivers-1": "",
+    "Main-ICA-Stormdivers-7": "",
+    "Main-KOR-Stormdivers-1": "",
+    "Main-KOR-Stormdivers-2": "",
+    "Main-KOR-Stormdivers-7": "",
+    "Main-Osiris-Stormdivers-1": "",
+    "Main-Osiris-Stormdivers-2": "",
+    "Main-Osiris-Stormdivers-7": "",
     "Main-ICA-Caverns-142": "Bring back their Research Notes",
     "Main-ICA-Caverns-122": "Bring back what you find",
     "Main-Osiris-Caverns-12": "Bring the resulting Item back to Osiris",
@@ -3436,6 +3734,7 @@
     "Acquire-OsirisScrip": "Deliver Osiris Scrip",
     "Acquire-PortableLab": "Deliver Portable Lab",
     "Main-Osiris-Caverns-5": "Deliver Proof of the Compounds existence",
+    "Main-Osiris-Stormdivers-43": "Deliver Proof of what happened",
     "Main-ICA-Caverns-2": "Deliver Proof of what happened to the Colonists",
     "Acquire-PureForgeIron": "Deliver Pure Tharis Iron",
     "Acquire-RadioEquipment": "Deliver Radio Equipment",
@@ -3448,6 +3747,7 @@
     "Main-ICA-Unique-22": "Deliver Sign of Life from Stranded Prospector",
     "Acquire-SmartMesh": "Deliver Smart Mesh",
     "Acquire-BonePlant": "Deliver Spine Briars",
+    "Acquire-Stormdivers-EventFlyers": "Deliver Storm Diver Commissions",
     "Acquire-StriderMeat": "Deliver Strider Flesh",
     "Acquire-StriderHead": "Deliver Strider Heads",
     "Acquire-GlowCrystal": "Deliver Teratomorphic Crystal Cores",
@@ -3467,6 +3767,7 @@
     "Main-KOR-Caverns-11": "Deliver the Medical Files of the Mining Party",
     "Main-ICA-Caverns-72": "Deliver the Osiris Door Fragment",
     "Main-Osiris-Unique-22": "Deliver the Warden Tooth",
+    "Acquire-Stormdivers-HowlerSpike": "Deliver what the strange new Creature left behind",
     "Kill-PlayersOrCreatures-KorolevWeapon": "Eliminate Creatures or Players using Korolev Weapons",
     "Kill-Players-SMG": "Eliminate Players using an SMG",
     "Main-ICA-Caverns-10": "Eliminate Prospectors on Tharis Island using a Shotgun",
@@ -3511,12 +3812,16 @@
     "Main-KOR-Unique-21": "Find the Missing Engineer",
     "Main-KOR-Unique-42": "Find the Old Drill Head",
     "Main-ICA-Caverns-32": "Find the Osiris Holo Map",
+    "Main-Osiris-Stormdivers-42": "Find the Researcher killed by the Creature on top of Nutrion Farms Processing on Crescent Falls",
     "Main-ICA-Unique-1": "Find the SOS Sign",
     "Main-KOR-Caverns-131": "Find the Tharis Files",
     "Main-ICA-Caverns-141": "Find the assassinated Osiris Head Scientist",
     "Main-KOR-Caverns-61": "Find the first Mining Machine",
     "Main-ICA-Caverns-71": "Find the mysterious Door",
     "Main-KOR-Caverns-62": "Find the second Mining Machine",
+    "Main-ICA-Stormdivers-22": "Find the strange Creature Nest at the Dig Site on Bright Sands",
+    "Main-ICA-Stormdivers-21": "Find the strange Creature Nest at the Science Campus on Bright Sands",
+    "Main-Osiris-Stormdivers-41": "Find the strange Creature Nest south of Jungle Thermal Ponds on Crescent Falls",
     "Main-KOR-Caverns-63": "Find the third Mining Machine",
     "Main-Osiris-Unique-32": "Hunt Creatures around the Freighter",
     "Main-KOR-Unique-22": "Hunt Creatures around the Missing Engineer Corpse",
@@ -3544,6 +3849,8 @@
     "Main-Osiris-Caverns-13.11": "Hunt Creatures inside the Mysterious Cave during an active Storm",
     "Main-Osiris-Caverns-9": "Hunt Creatures on Tharis Island during an active Storm",
     "Kill-Creatures-KorolevWeapon": "Hunt Creatures using a Korolev Weapon",
+    "Kill-Creatures-ICAWeapon": "Hunt Creatures using an ICA Weapon",
+    "Kill-Creatures-OsirisWeapon": "Hunt Creatures using an Osiris Weapon",
     "Kill-Creatures-PKRMaelstrom": "Hunt Creatures using the PKR Maelstrom",
     "Main-Osiris-Caverns-41": "Hunt Crushers at Jungle Thermal Ponds on Crescent Falls",
     "Kill-Weremoles-Jungle": "Hunt Marauders in the Jungle on Bright Sands",
@@ -3916,8 +4223,14 @@
     "Codex_Aurum": {
       "description": "<BH2>Aurum</> is The Cycle: Frontier's premium currency, and is mostly used for purchasing cosmetics, access to <BH2>Premium Fortuna Pass</> rewards, and <BH2>Gear Salvage Insurance</>.\r\n\r\nWhile <BH2>Aurum</> can be purchased in the <BH2>Shop</> for real currency, you can also gain a steady stream of <BH2>Aurum</> by upgrading your Quarter's <BH2>Aurum Generator</>, and by unlocking free rewards in the <BH2>Fortuna Pass</>.\r\n\r\n<BH2>Aurum will be retained on your account during Season Wipes.</>"
     },
+    "Codex_S02EventCoresFragments": {
+      "description": "<BH2>Meteor Showers</> on Crescent falls bring down strange <BH2>Altered Meteor Cores</> and <BH2>Altered Meteor Fragments</>, instead of regular ones.\r\n\r\nThese unique event items will let prospectors <BH2>progress in event related faction missions</>, and, importantly, they allow for <BH2>printing powerful weapons and gear</>!\r\n\r\nAnd, with the help of the station's <BH2>Gear Printer</>, it's possible to <BH2>convert Fragments into Cores</>, too!\r\n\r\nHowever, meteor showers are not the only source of those valuable materials! Almost any <BH2>creature</> or <BH2>mineral vein</> on Crescent Falls and Tharis Island may produce one or more Fragments. <BH2>Creatures killed during the Storm</> will yield even more!\r\n\r\nAdditionally, the <BH2>Laser Drill</> activity and crates in the <BH2>Crystal Caverns</> will yield extra Fragments and Cores… if you’re up to the challenge.\r\n\r\n<BH2>Bright Sands remains unchanged</>; Meteor Showers still produce only regular cores and fragments. Creatures and mineral veins are also unaffected. You'll have to become the real Storm Diver on Crescent Falls and Tharis Island to enjoy these rewards!"
+    },
     "Codex_Prospecting_Consumables": {
       "description": "<BH2>Stims</> and <BH2>Medkits</> will keep you alive on the planet; use Stims for a quick health boost, and reserve the Medkits for when you've got enough time to use them.\r\n\r\n<BH2>Grenades</> don't just come in the big boom variety; an <BH2>Audio Decoy</> or <BH2>Smoke Grenade</> might hide your escape or aid in an ambush, while a <BH2>Gas Grenade</> will turn any area into a serious safety hazard."
+    },
+    "Codex_S02EventStormMeteors": {
+      "description": "<BH2>Storms</> on Crescent Falls and Tharis Island have <BH2>tripled in frequency</>.\r\n\r\nWhile storms normally occurred every 40 minutes, on event maps <BH2>they will now happen every 13 minutes</>.\r\n\r\nThe duration of the Storm phase itself is not changed, but they're just as deadly!\r\n\r\n<BH2>Meteor Showers</> on <BH2>Crescent Falls</> now also happen much more often: the next Meteor Shower can happen 5 to 10 minutes after the previous one."
     },
     "Codex_Seasons": {
       "description": "<BH2>The Cycle: Frontier</> plays out during months longs seasons, during which prospectors drop to the surface of <BH2>Fortuna III</> to complete tasks for various <BH2>Factions</>, fight each other for resources, and achieve fame on the hostile planet.\r\n\r\nOnce a season is over, every prospector's <BH2>Stash, K-Marks balance, Insurance Tokens, Quarter Upgrades</>, and Faction progress are <BH2>reset</> to start fresh in the next season. <BH2>Aurum and all owned Vanity are kept</>, and any <BH2>purchased Bundles are regranted</> and available in the <BH2>Delivery Station</>.\r\n\r\nThe time remaining in a season, counting down to the wipe, can be seen while in the Station and in the Fortuna Pass menu."
@@ -3927,6 +4240,12 @@
     },
     "Codex_VanityShop_Archetypes": {
       "description": "A <BH2>Prospector</> is a character archetype that allows customizing various unique looks at once, on per <BH2>Prospector</>. Each one has a unique head, and many also have unique body types and suits. Choose the one you think looks best and customize them further as you wish!"
+    },
+    "Codex_S02EventCoresFragments_Title": {
+      "name": "Altered Meteor Cores & Fragments"
+    },
+    "Codex_S02EventFlyers": {
+      "description": "As proof of having operated on Crescent Falls or Tharis Island, the factions will request you turn in Storm Divers Commissions.\r\n\r\nThese will can usually be found can be found in any human made container on the two event maps.\r\n\r\nTo get to the final reward from each faction you'll have to loot and turn back in a lot of these!"
     },
     "Codex_Aurum_Title": {
       "name": "Aurum"
@@ -3939,6 +4258,9 @@
     },
     "Codex_Fortuna_Map1_Title": {
       "name": "Bright Sands"
+    },
+    "Codex_S02EventCarePackage_Title": {
+      "name": "Care Packages"
     },
     "Codex_Prospecting_Consumables_Title": {
       "name": "Consumables"
@@ -3955,11 +4277,23 @@
     "Codex_Quarters_Deliveries_Title": {
       "name": "Delivery Station"
     },
+    "Codex_S02EventSkins": {
+      "description": "Each faction will ask you for assistance in investigation of what's going on. Completeing the event missions will culminate in awarding you with a unique vanity item, one per faction. You can only get these during the Storm Divers event!"
+    },
     "Codex_Factions_MissionsJobs": {
       "description": "Each faction, will offer you a series of <BH2>Missions</> that further their goals on Fortuna III; completing these won't just reward you with K-Marks and a reputation boost, but often useful kit, and more.\r\n\r\n<BH2>Jobs</> are often more simpler tasks, the bread and butter for prospectors, getting each faction what it needs to keep itself in operation. Access to these is gated by your reputation with the faction, with the higher tier Jobs also increasing in difficulty... and rewards."
     },
     "Codex_FortunaPass": {
       "description": "Each season a new <BH2>Fortuna Pass</> will become available, offering the chance to unlock free rewards for completing a number of gameplay actions, from killing hostile creatures, evaccing off the surface, or completing <BH2>Jobs</> for the <BH2>Factions</>.\r\n\r\nYou'll also be able to purchase access to Premium rewards, offering unique seasonal cosmetic items, by purchasing the <BH2>Premium Pass</> with <BH2>Aurum</>.\r\n\r\nAnd if you're in a rush, you can put in some <BH2>Aurum</> to skip a level and immediately unlock a reward!"
+    },
+    "Codex_S02EventDuration_Title": {
+      "name": "Event Duration"
+    },
+    "Codex_S02EventMaps_Title": {
+      "name": "Event Maps"
+    },
+    "Codex_S02EventSkins_Title": {
+      "name": "Event Unique Weapon Skins"
     },
     "Codex_Prospecting_Tools": {
       "description": "Every prospector needs some basic tools to get the job done.\r\n\r\nYour <BH2>Scanner</> will highlight valuable minerals in the area. You'll want to upgrade it with mods to find more valuable stuff.\r\n\r\nThe <BH2>Pickaxe</> is what you'll use to pry those minerals out. Tired of swinging it around? Then get yourself a <BH2>Mining Tool</> for faster extraction.\r\n\r\nVisibility might be an issue on the surface. You've got a standard <BH2>Flashlight</> for when it's dark, and a pair of basic <BH2>Binoculars</> to survey an area from afar."
@@ -3978,6 +4312,9 @@
     },
     "Codex_FortunaPass_Title": {
       "name": "Fortuna Pass"
+    },
+    "Codex_S02EventStormMeteors_Title": {
+      "name": "Frequent Storms and Meteor Showers"
     },
     "Codex_Station_CraftingRepairing_Title": {
       "name": "Gear Printer"
@@ -4036,6 +4373,12 @@
     "Codex_VanityShop_Other_Title": {
       "name": "Other Cosmetics"
     },
+    "Codex_S02EventPodsEvacs_Title": {
+      "name": "Pod Drops and Evacs"
+    },
+    "Codex_S02EventFreeGear_Title": {
+      "name": "Printing Powerful Gear"
+    },
     "Codex_Station_Title": {
       "name": "Prospect Station"
     },
@@ -4069,6 +4412,21 @@
     "Codex_Prospecting_Armor_Title": {
       "name": "Shields"
     },
+    "Codex_S02EventFlyers_Title": {
+      "name": "Storm Divers Commissions"
+    },
+    "Codex_S02EventMain_Title": {
+      "name": "Storm Divers Event"
+    },
+    "Codex_S02EventDuration": {
+      "description": "Storm Divers Event <BH2>concludes</> Season 2.\r\n\r\nThe event will last until the end of the season and the <BH2>LAST WIPE</> of The Cycle: Frontier, with the subsequent start of Season 3."
+    },
+    "Codex_S02EventNests_Title": {
+      "name": "Strange Organic Structures"
+    },
+    "Codex_S02EventMain": {
+      "description": "Strange things are afoot on Fortuna III.\r\n\r\nThe <BH2>frequency of Storms</> on <BH2>Crescent Falls</> and <BH2>Tharis Island</> has tripled! The factions scratching their heads in perplexity, they must figure out what is happening down there, and how to profit off it...\r\n\r\nThe increased frequency of the storms is making it even more dangerous and difficult to send prospectors down to the surface. In a desperate move, the factions have coordinated to pool together their resources and provide <BH2>free care-packages</>, thrown down to the surface of Fortuna III alongside volunteer prospector's pods. These crates contain <BH2>makeshift storm-survival gear</> (mostly based on hastily deconstructed Progenitor tech), along with some helpful mods and consumables.\r\n\r\nAs a reward for helping out the factions in this difficult time, they're willing to give out <BH2>unique Weapon Skins</> (one per faction). This is your chance to get fancy permanent rewards and show off your participation in the event!\r\n\r\nAnd that is not all! During the Event, with the help of strange <BH2>Altered Meteor Cores</> and <BH2>Fragments</> found on event maps only, prospectors will be able to craft <BH2>Epic, Exotic, and Legendary gear and weapons</> at the Gear Printer."
+    },
     "Codex_Fortuna_Map3_Title": {
       "name": "Tharis Island"
     },
@@ -4077,6 +4435,12 @@
     },
     "Codex_Quarters_Deliveries": {
       "description": "The Delivery Station doesn't just house your <BH2>Generators</>, of course. Had an 'accident' on the surface? Well if you took out <BH2>Insurance</>, here's where you'll find your payout. Have a special delivery from a Bundle purchased a previous season? It'll be waiting for you here. Look around, and don't forget to empty your Generators before they get too full!"
+    },
+    "Codex_S02EventForge_Title": {
+      "name": "The Forge in Overdrive Mode"
+    },
+    "Codex_S02EventForge": {
+      "description": "The Forge on Tharis Island, powered by the storms, is now in overdrive mode: all forging times are reduced!\r\n\r\nTo forge any type of gear in the Forge, you'll only need x1 ingot now instead of x3 as before.\r\n\r\nRemember that with the storms now so frequent on Tharis Island, you won't have to wait as long for the next crafting window!"
     },
     "Codex_Quarters_Generators": {
       "description": "The Generators will earn you a steady stream of <BH2>K-Marks</> and <BH2>Aurum</>, as well as a crate of useful stuff delivered straight to your quarters every day. Just remember to <BH2>check them regularly</> and invest in <BH2>upgrades</> to improve them!"
@@ -4087,14 +4451,29 @@
     "Codex_Fortuna_Cycle": {
       "description": "The Teratomorphic Energy Field, more commonly known as <BH2>The Cycle</>, is a hazardous radiation effect that encompasses the entire planet of Fortuna III, though there exist 'windows' that allow for humans, and their technology, to operate without suffering the worst effects.\r\n\r\nInitially only causing delicate equipment to malfunction, each wave, found to be following a predictable cadence, increased in intensity until basic machinery failed entirely and colonists left unconscious for the duration. Less than a month after <BH2>the colonies were evacuated</> the energy field settled over the entire world, with its ebb and flow causing <BH2>terrible storms</> over the areas not fully covered by The Cycle."
     },
+    "Codex_S02EventMaps": {
+      "description": "The increased storms happen on event maps only: <BH2>Crescent Falls</> and <BH2>Tharis Island</>.\r\n\r\n<BH2>Bright Sands remains unaffected</>. All players who do not wish to participate in the event, or just want to take a break from it, can deploy to Bright Sands normally.\r\n\r\nThe First time user experience (FTUE) is also unaffected.\r\n\r\nEvent Maps will remain locked behind faction mission progress, so all players who want to participate in the event will need to have progressed far enough to have gained access to Crescent Falls.\r\n\r\nUnlocking Tharis Island as well is encouraged, though not a must as all event tasks can be completed on Crescent Falls."
+    },
     "Codex_Prospecting_Insurance": {
-      "description": "The surface is a dangerous place to be, and many prospectors don't make it back on their own two feet. Your suit's stasis foam will protect you and your safe pockets, but your gear, bag, and anything in it won't be coming back to the station with you.\r\n\r\nThat's where insuring your items can help. <BH2>Standard Insurance</> won't get you your items back, but buying it will insure you get some <BH2>K-Marks</> to offset the pain.\r\n\r\n<BH2>Gear Salvage</> will cost you <BH2>Aurum</>, or an <BH2>Insurance Token</>, but a bot wil be sent down to hunt for your missing gear. So long as nobody's looted it and evacced off the planet, you'll get it back in some time. And if someone did, you'll still get a <BH2>K-Mark</> compensation payout.\r\n\r\nRemember to check your <BH2>Delivery Station</> in your <BH2>Quarters</> for payout; there's a limit to how many can be held for you."
+      "description": "The surface is a dangerous place to be, and many prospectors don't make it back on their own two feet. Your suit's stasis foam will protect you and your safe pockets, but your gear, bag, and anything in it won't be coming back to the station with you.\r\n\r\nThat's where insuring your items can help. <BH2>Standard Insurance</> won't get you your items back, but buying it will insure you get some <BH2>K-Marks</> to offset the pain.\r\n\r\n<BH2>Gear Salvage</> will cost you <BH2>Aurum</>, or an <BH2>Insurance Token</>, but a bot wil be sent down to hunt for your missing gear. So long as nobody's looted it and evacced off the planet, you'll get it back in some time. And if someone did, you'll still get a <BH2>K-Mark</> compensation payout.\r\n\r\nWhichever kind of insurance you pick, it'll stick with the item; pay once, stay insured for ever. Or until you get foamed, at least.\r\n\r\nRemember to check your <BH2>Delivery Station</> in your <BH2>Quarters</> for payout; there's a limit to how many can be held for you."
+    },
+    "Codex_S02EventNests": {
+      "description": "There have been reports of some very strange looking organic structures appearing on Bright Sands and Crescent Falls. This might forebode something sinister for the future of Fortuna III...\r\n\r\nThe factions, as part of their event missions, may ask daredevil prospectors to go and investigate what's actually going on."
     },
     "Codex_Station_CraftingRepairing": {
       "description": "Want <BH2>better gear</>? Then check out the printing station! If you've got the right materials and enough K-Marks, the Gear Printer can handle the hard parts.\r\n\r\nThe Gear Printer is also where you'll want to go to <BH2>repair</> any damaged gear; better to reuse what you've got than buy new each time, right?"
     },
     "Codex_VanityShop_Weapon_Title": {
       "name": "Weapon Cosmetics"
+    },
+    "Codex_S02EventFreeGear": {
+      "description": "Weapons of Epic, Exotic, and Legendary quality can now be produced at the Gear Printer using Altered Meteor Cores and Fragments.\r\n\r\nOther Epic and Exotic gear is now printable in the same way, too, including powerful <BH2>Attachments</> and the <BH2>Oil Pump, Laser Drill, and Orbital Cannon</> beacons."
+    },
+    "Codex_S02EventPodsEvacs": {
+      "description": "When dropping to event maps you may sometimes make it to the surface during the Dusk, or worse, during a Storm itself!\r\n\r\n<BH2>Evacs behave the same way as before</>, available at all times except during an active storm.\r\n\r\nHowever, given the greatly increased frequency of the storms, prospectors will find it difficult or impossible to avoid a Storm while moving from a drop location to a viable evac."
+    },
+    "Codex_S02EventCarePackage": {
+      "description": "When dropping to event maps, look around on exiting your drop pod!\r\n\r\nThere will be a care package lying nearby. Check it out for some <BH2>free storm protection gear, mods and consumables</> courtesy of Prospect Station's factions.\r\n\r\nIt's all yours to keep, if you can evac with it!\r\n\r\nBut keep in mind that the gear (though very handy to have in the Storm!) was hastily designed and put together, and suffers greatly reduced durability and a poor sales price."
     },
     "Codex_Factions": {
       "description": "While at its peak Fortuna III was home to dozens of massive corporations, only two remain with an active interest in the surface itself, <BH2>Korolev</> and <BH2>Osiris</>. The <BH2>ICA</>, for its part, is the civilian organization that's tasked itself with keeping Prospect Station safely in orbit and all its people alive.\r\n\r\nIf you want to get anywhere as a prospector, you'll have to <BH2>work for them</>; it's not just money they'll reward you with, but access to better and better gear, and that really makes the difference on the surface."
@@ -6038,6 +6417,57 @@
     "Equipment_Crafting_Button_CraftingFinished": {
       "name": "MODIFY"
     },
+    "Helmet_Stormdiver_Prot_NV": {
+      "description": "Makeshift NV helmet assembled with Progenitor materials and discarded tech; is able to better absorb damage from lightning strikes.",
+      "name": "Storm Diver NV Helmet - Grounded"
+    },
+    "Bag_Stormdiver_StormProtection": {
+      "description": "Makeshift backpack built with Progenitor materials; can absorb some energy from lightning strikes.",
+      "name": "Storm Diver Backpack - Grounded"
+    },
+    "Bag_Stormdiver_StaminaRegenDescription": {
+      "name": "Makeshift backpack built with Progenitor materials; carrying it during a Storm gives the user a second wind."
+    },
+    "Bag_Stormdiver": {
+      "description": "Makeshift backpack built with some bits and pieces of reassembled Progenitor tech.",
+      "name": "Storm Diver Backpack"
+    },
+    "Helmet_Stormdiver_Prot_HP": {
+      "description": "Makeshift helmet assembled with Progenitor materials and salvaged tech; improves the wearer's vitality while in use, and is able to better absorb damage from lightning strikes.",
+      "name": "Storm Diver Helmet - Booster"
+    },
+    "Helmet_Stormdiver_Prot": {
+      "description": "Makeshift helmet assembled with Progenitor materials; is able to better absorb damage from lightning strikes.",
+      "name": "Storm Diver Helmet - Grounded"
+    },
+    "Helmet_Stormdiver_NV": {
+      "description": "Makeshift helmet built with discarded Progenitor tech",
+      "name": "Storm Diver NV Helmet"
+    },
+    "Helmet_Stormdiver": {
+      "description": "Makeshift helmet built with some bits and pieces of reassembled Progenitor tech.",
+      "name": "Storm Diver Helmet"
+    },
+    "Shield_Stormdiver_Prot": {
+      "description": "Makeshift shield built with salvaged Progenitor tech; can better absorb damage from lightning strikes.",
+      "name": "Storm Diver Shield - Grounded"
+    },
+    "Shield_Stormdiver_Prot_AI": {
+      "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms, and absorb more damage from Fortuna III's hostile fauna.",
+      "name": "Storm Diver Shield - Enhanced"
+    },
+    "Shield_Stormdiver_Prot_Regen": {
+      "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms, as well as improved resistance to lightning strikes.",
+      "name": "Storm Diver Restoration Shield - Grounded"
+    },
+    "Shield_Stormdiver_Regen": {
+      "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms.",
+      "name": "Storm Diver Restoration Shield"
+    },
+    "Shield_Stormdiver": {
+      "description": "Makeshift shield built with some bits and pieces of reassembled Progenitor tech.",
+      "name": "Storm Diver Shield"
+    },
     "Helmet_NV_01": {
       "description": "Military grade helmet that includes vision enhancement tech.",
       "name": "NV Helmet"
@@ -6131,6 +6561,9 @@
     "Equip_Keys_Map01_Key05": {
       "name": "Skeleton Key",
       "description": "The original label is too worn out to read, but someone scratched skeleton onto it with a knife. Hopefully still works."
+    },
+    "Bag_Stormdiver_StaminaRegen": {
+      "name": "Storm Diver Backpack - Vigor"
     },
     "Equipment_Equip_Button_Unequip": {
       "name": "UNEQUIP"
@@ -10675,7 +11108,7 @@
       "name": "{progress}/{total} CENTRAL STATION TERMINALS"
     },
     "Generic_Intro_Copyright": {
-      "name": "© 2022 Yager Development GMBH. All Rights Reserved.\r\nUnreal® Engine, Copyright 1998 - 2022, Epic Games, Inc. All Rights Reserved. Unreal®, Unreal® Engine\r\nThe Circle-U and the powered by Unreal® Engine Logo are trademarks or Registered trademarks of Epic Games, Inc. In the United States of America and elsewhere.\r\n\r\nThis software product includes BattlEye™ anti-cheat technology, © 2022 BattlEye Innovations e.K.. All rights reserved.\r\nPortions of this program © 2020 Microsoft Azure PlayFab\r\nThe Cycle uses the Steam® Audio SDK. Steam® is a trademark or registered trademark of Valve Corporation in the United States of America and elsewhere. © 2017 – 2022, Valve Corp. All rights reserved."
+      "name": "© 2023 Yager Development GMBH. All Rights Reserved.\r\nUnreal® Engine, Copyright 1998 - 2023, Epic Games, Inc. All Rights Reserved. Unreal®, Unreal® Engine\r\nThe Circle-U and the powered by Unreal® Engine Logo are trademarks or Registered trademarks of Epic Games, Inc. In the United States of America and elsewhere.\r\n\r\nThis software product includes BattlEye™ anti-cheat technology, © 2023 BattlEye Innovations e.K.. All rights reserved.\r\nPortions of this program © 2020 Microsoft Azure PlayFab\r\nThe Cycle uses the Steam® Audio SDK. Steam® is a trademark or registered trademark of Valve Corporation in the United States of America and elsewhere. © 2017 – 2023, Valve Corp. All rights reserved."
     }
   },
   "Inbox": {
@@ -12940,9 +13373,21 @@
       "description": "A powerful locator that can be used to call down an ICA NiC pump and refiner on an oil deposit.",
       "name": "Oil Pump Beacon"
     },
+    "Event_StormdiversHowlerSpike": {
+      "description": "A very dangerous-looking Spike, left behind by a strange new Creature that seems to have appeared on Fortuna. Be on your guard.",
+      "name": "Spike from an Unknown Creature"
+    },
     "QuestItem_AlphaWardenBait": {
       "name": "Alpha Crusher Bait",
       "description": "Printed using Mutated Biomass, this bait can be used to summon an Alpha Crusher at one of its Feeding Grounds."
+    },
+    "Event_MeteorCore": {
+      "name": "Altered Meteor Core",
+      "description": "Core of a meteor from Fortuna III's cracked moon. Its path through the strange storms over the planet have altered it somehow.\r\n\r\nCan be used for printing high-tier gear."
+    },
+    "Event_MeteorFragment": {
+      "name": "Altered Meteor Fragment",
+      "description": "Fragment of a meteor from Fortuna III's cracked moon. Its path through the strange storms over the planet have altered it somehow.\r\n\r\nCan be used at the gear printer. Multiple Fragments can be used to create an Altered Meteor Core."
     },
     "WeremoleMeat_2_Location": {
       "name": "Can be obtained from Savage Marauders."
@@ -13082,6 +13527,12 @@
     "GlowyBrightcap_Location": {
       "name": "Can be harvested only during the storm around the swamps and jungles of Fortuna."
     },
+    "Event_MeteorFragment_Location": {
+      "name": "Can be mined from meteors that fall onto Crescent Falls, and occasionally dropped by creatures on Crescent Falls and Tharis Island."
+    },
+    "Event_MeteorCore_Location": {
+      "name": "Can be mined from meteors that fall onto Crescent Falls. Can be constructed at the Gear Printer using multiple Altered Meteor Fragments."
+    },
     "MeteorCore_Location": {
       "name": "Can be mined from meteors that fall to the surface."
     },
@@ -13104,10 +13555,10 @@
       "name": "Commonly found on a dead Crusher."
     },
     "FocusCrystal_Location": {
-      "name": "Crystal Veins can often be found in the Jungles of Fortuna. A Mineral Scanner can be modded to help find them."
+      "name": "Crystal Veins can often be found in the Jungles of Fortuna. A Scanner can be modded to help find them."
     },
     "PureFocusCrystal_Location": {
-      "name": "Crystal Veins can often be found in the Jungles of Fortuna. A Mineral Scanner can be modded to help find them."
+      "name": "Crystal Veins can often be found in the Jungles of Fortuna. A Scanner can be modded to help find them."
     },
     "EpicModKit": {
       "name": "Epic Mod Kit",
@@ -13115,6 +13566,9 @@
     },
     "DesertPlant_Location": {
       "name": "Flourishes in open, arid areas of Fortuna."
+    },
+    "Event_StormDiversFlyer_Location": {
+      "name": "Found in Storm Diver crates prospectors have access to outside their drop pods as well as any other containers on Crescent Falls and Tharis during the Storm Divers Event."
     },
     "StriderMeat_3_Location": {
       "name": "Found on dead Heavy Striders."
@@ -13145,7 +13599,7 @@
       "name": "Likes to grow on walls and cliffs in overgrown areas."
     },
     "MagneticOre_Location": {
-      "name": "Magnetite Veins can often be found in Caves and Mines. A Mineral Scanner can be modded to help find them."
+      "name": "Magnetite Veins can often be found in Caves and Mines. A Scanner can be modded to help find them."
     },
     "Item_Tooltip": {
       "name": "Material"
@@ -13154,10 +13608,10 @@
       "name": "Mature Rattlers tend to have these."
     },
     "Nickel_Location": {
-      "name": "Nickel Veins be found in most areas on Fortuna. You can use a Mineral Scanner to help you find them."
+      "name": "Nickel Veins be found in most areas on Fortuna. You can use a Scanner to help you find them."
     },
     "PureNickel_Location": {
-      "name": "Nickel Veins can be found in most areas on Fortuna. A Mineral Scanner can help find them."
+      "name": "Nickel Veins can be found in most areas on Fortuna. A Scanner can help find them."
     },
     "ChargedForgeIronIngot_Location": {
       "name": "No human machine could have forged something like this."
@@ -13197,6 +13651,10 @@
     },
     "CreatureClaw_Location": {
       "name": "Obtained from killing hostile Fortuna III creatures."
+    },
+    "Event_StormDiversFlyer": {
+      "description": "Official document issued to prospectors that drop onto Crescent Falls or Tharis Island as a Storm Diver. Required to hand in to the factions for certain missions as proof of participation.\r\n\r\nWarning: Storms on Crescent Falls and Tharis Island have a dramatically increased frequency and intensity. Use extreme caution when dropping to these areas, and don't hesitate to make use of the gear granted by the factions in crates placed around your drop pod.",
+      "name": "Storm Divers Commission"
     },
     "RattlerHead_Location": {
       "name": "Often found in the vicinity of a Rattler."
@@ -13246,29 +13704,29 @@
       "name": "The creatures that lay these eggs often leave tracks behind. Follow them!"
     },
     "BrittleTitanOre_Location": {
-      "name": "Titan Ore Veins can often be found in Caves and Mines. A Mineral Scanner can be modded to help find them."
+      "name": "Titan Ore Veins can often be found in Caves and Mines. A Scanner can be modded to help find them."
     },
     "TitanOre_Location": {
-      "name": "Titan Ore Veins can often be found in Caves and Mines. A Mineral Scanner can be modded to help find them."
+      "name": "Titan Ore Veins can often be found in Caves and Mines. A Scanner can be modded to help find them."
     },
     "UncommonModKit": {
       "name": "Uncommon Mod Kit",
       "description": "Uncommon mod kit description FILL IN."
     },
     "ArdorShard_Location": {
-      "name": "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them."
+      "name": "Veltecite Veins can often be found around Waterfalls. A Scanner can be modded to help find them."
     },
     "CommonVeltecite_Location": {
-      "name": "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them."
+      "name": "Veltecite Veins can often be found around Waterfalls. A Scanner can be modded to help find them."
     },
     "EpicVeltecite_Location": {
-      "name": "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them."
+      "name": "Veltecite Veins can often be found around Waterfalls. A Scanner can be modded to help find them."
     },
     "LegendaryVeltecite_Location": {
-      "name": "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them."
+      "name": "Veltecite Veins can often be found around Waterfalls. A Scanner can be modded to help find them."
     },
     "RareVeltecite_Location": {
-      "name": "Veltecite Veins can often be found around Waterfalls. A Mineral Scanner can be modded to help find them."
+      "name": "Veltecite Veins can often be found around Waterfalls. A Scanner can be modded to help find them."
     }
   },
   "MissionLines": {
@@ -13315,7 +13773,7 @@
       "name": "Complete a Mission"
     },
     "MS_Onboarding_Intro_FirstMatch_04": {
-      "name": "Complete a Mission! You might need to use a mineral scanner. Check your Map (<inputAction light=true name=ToggleMap/>) and Mission Info (<inputAction light=true name=ShowContractsInHud/>) for details."
+      "name": "Complete a Mission! You might need to use a scanner. Check your Map (<inputAction light=true name=ToggleMap/>) and Mission Info (<inputAction light=true name=ShowContractsInHud/>) for details."
     },
     "MS_Onboarding_Intro_PlayerQuarters_06": {
       "name": "Construct the first Supply Crate Upgrade"
@@ -13324,7 +13782,7 @@
       "name": "Crescent Falls"
     },
     "MS_Onboarding_Intro_OpenStash_08": {
-      "name": "Drag a Basic Mineral Scanner into your backpack"
+      "name": "Drag a Basic Scanner into your backpack"
     },
     "MS_Onboarding_Intro_OpenStash_02": {
       "name": "Drag a backpack into the backpack slot"
@@ -13531,7 +13989,7 @@
       "name": "Talk to Badum at The Lucky Leafman Bar"
     },
     "MS_Onboarding_FeatureBlocked_Techtree_Header": {
-      "name": "Techtree"
+      "name": "Tech Tree"
     },
     "MS_TutorialQuest_01_Title": {
       "name": "Tutorial Mission"
@@ -13571,7 +14029,7 @@
     },
     "MS_Onboarding_Intro_PlayerQuarters_09": {
       "name": "Your Delivery Station",
-      "description": "Your Delivery Station will also contain any Twitch Drops your entitled to, Welcome Packs purchased in past seasons, and other unique deliveries meant for you."
+      "description": "Your Delivery Station will also contain any Twitch Drops you're entitled to, Welcome Packs purchased in past seasons, and other unique deliveries meant for you."
     }
   },
   "Attachments": {
@@ -14529,6 +14987,9 @@
     "Obj_Interaction_Interaction_Blocked": {
       "name": "INTERACTION BLOCKED"
     },
+    "Obj_Interaction_EventCrate": {
+      "name": "Press {ButtonName0} to interact with crate"
+    },
     "Obj_Interaction_Default": {
       "name": "HOLD [{ButtonName0}] INTERACT"
     },
@@ -14991,7 +15452,7 @@
       "name": "Korolev Worker Crate #3"
     },
     "Seasons_FPRewards_s01_lvl_2": {
-      "description": "A gift from Korolev, to keep you efficient on the field.\r\n\r\n2 Shields\r\n2 Helmets\r\n2 Mineral Scanners\r\n2 Heavy Mining Tools",
+      "description": "A gift from Korolev, to keep you efficient on the field.\r\n\r\n2 Shields\r\n2 Helmets\r\n2 Scanners\r\n2 Heavy Mining Tools",
       "name": "Korolev Worker Crate #1"
     },
     "Seasons_FPRewards_s01_lvl_26": {
@@ -16759,6 +17220,10 @@
     "Shop_Vanity_Pistol_COT_K28_Chrome_OfferDescription": {
       "name": "A classic finish for a classic weapon.\r\n\r\nCan only be applied to the K-28."
     },
+    "Shop_Vanity_All_Greek01": {
+      "description": "A classic pattern",
+      "name": "Intricate Ivory"
+    },
     "Shop_Season03_Emote_02": {
       "description": "A classic sign of respect",
       "name": "Hat Tip"
@@ -16789,6 +17254,9 @@
     },
     "Shop_Aurum_2800_OfferLore": {
       "name": "A decent amount of Aurum"
+    },
+    "Shop_Season02_Coating_Vanity_All_Anubis_02_OfferDescription": {
+      "name": "A distinguished color"
     },
     "Shop_Season03_Banner_10_ThrowDownTheGauntlet": {
       "name": "A duel, sir, a duel!"
@@ -16821,6 +17289,10 @@
     },
     "Shop_Hunter06_Boots_OfferDescription": {
       "name": "A good set of working Boots."
+    },
+    "Shop_Vanity_All_Season02_Runaway02": {
+      "description": "A great way to stand out!",
+      "name": "Violet & Pearl"
     },
     "Shop_Vanity_Shotgun_COT_Trenchgun_Muerta_OfferDescription": {
       "name": "A grim way to end things.\r\n\r\nCan only be applied to the Trenchgun."
@@ -16871,6 +17343,10 @@
     },
     "Shop_Trailblazer01_Boots_OfferDescription": {
       "name": "A pair of sturdy Boots."
+    },
+    "Shop_Season03-5_Coating_Shatter_05": {
+      "description": "A pricey finish",
+      "name": "Jaded"
     },
     "Shop_BikerQueen01_Gloves_OfferDescription": {
       "name": "A proper pair of mitts."
@@ -16951,6 +17427,14 @@
     },
     "Shop_Melee_Machete_01_OfferDescription": {
       "name": "A totally legitimate tool for a prospector to carry."
+    },
+    "Shop_Vanity_All_Aurum01": {
+      "description": "A touch of class",
+      "name": "Opulence"
+    },
+    "Shop_Vanity_All_Circuit03": {
+      "description": "A verdant pattern to fit in the jungle",
+      "name": "Technical Green"
     },
     "Shop_Hunter04_Chest_OfferDescription": {
       "name": "A well-worn flak jacket"
@@ -17159,6 +17643,9 @@
       "description": "An unprepared Prospector won't last long on Fortuna III, so give yourself some love with this Welcome Pack, netting you two unique outfits, unique weapon skins, a fair amount of Aurum, and a good bit of extra kit! What's not to like?",
       "name": "Professional Pack"
     },
+    "Shop_Season02_Coating_Vanity_All_Runaway_06_OfferDescription": {
+      "name": "Ancient and threatning"
+    },
     "Shop_Charm_Gamescom2019Shirt_OfferDescription": {
       "name": "And all I got was this free t-shirt"
     },
@@ -17290,7 +17777,8 @@
       "name": "Luxury Advocate"
     },
     "Shop_Vanity_All_Season02_Paladin02": {
-      "name": "Army Standard"
+      "name": "Army Standard",
+      "description": "Ready for action!"
     },
     "Shop_Season03_Droppod_ArtDeco": {
       "name": "Art Deco"
@@ -17372,9 +17860,6 @@
     "Shop_Season02_Coating_Vanity_All_Anubis_02": {
       "name": "Azure"
     },
-    "Shop_Season02_Coating_Vanity_All_Anubis_02_OfferDescription": {
-      "name": "Azure"
-    },
     "Shop_TechTree_Back": {
       "name": "BACK"
     },
@@ -17393,6 +17878,10 @@
     },
     "Shop_Season02_Emote_06_OfferDescription": {
       "name": "Backup dance"
+    },
+    "Shop_Banner_PartnerBadumsFinest": {
+      "description": "Badum's Finest",
+      "name": "Badum's Finest"
     },
     "Shop_Caucasian02F_Head2": {
       "name": "Bandana - Head"
@@ -17457,6 +17946,14 @@
     "Shop_Season02_Paladin_Chest_02_OfferDescription": {
       "name": "Be one with the trees."
     },
+    "Shop_Vanity_All_Striped01": {
+      "description": "Be the danger",
+      "name": "Caution"
+    },
+    "Shop_Vanity_Season2Event_DropPod": {
+      "description": "Be the storm!",
+      "name": "Lightning Strike"
+    },
     "Shop_Vanity_HeavyBeam_Gamma01_Rainbow_OfferDescription": {
       "name": "Beam some high-frequency good vibes with your Zeus.\r\n\r\nCan only be applied to the Zeus."
     },
@@ -17490,7 +17987,8 @@
       "name": "Cultist Ritual Blade"
     },
     "Shop_Vanity_All_Intel01": {
-      "name": "Big Blue"
+      "name": "Big Blue",
+      "description": "Truly Advanced"
     },
     "Shop_Coating_Easter_2": {
       "name": "Biofusion Cyan"
@@ -17674,8 +18172,12 @@
     "Shop_Vanity_MissileLauncherSmall_Alpha01_Warden": {
       "name": "Brutebuster KOMRAD"
     },
+    "Shop_Vanity_All_Christmas_02": {
+      "description": "Bullets for everyone!",
+      "name": "Perfect Gift"
+    },
     "Shop_BK_Promotion_Coating_OfferDescription": {
-      "name": "Bullets with a side of fries."
+      "name": "Bullets with a side of fries"
     },
     "Shop_VHV_Korolev02_OfferDescription": {
       "name": "Bump!"
@@ -17685,6 +18187,10 @@
     },
     "Shop_Tab_Starter_Headline": {
       "name": "Bundles"
+    },
+    "Shop_Vanity_All_Gradient04": {
+      "description": "Burn them to ashes!",
+      "name": "Cinder"
     },
     "Shop_Melee_CultistKnife_Molten": {
       "name": "Burning Blade"
@@ -17861,9 +18367,6 @@
     "Shop_Banner_Manticore_OfferDescription": {
       "name": "Careful, it stings!"
     },
-    "Shop_Vanity_All_Striped01": {
-      "name": "Caution"
-    },
     "Shop_Season03_Melee_Streamer_02": {
       "name": "Caution Bat",
       "description": "Oh, of the warnings unheeded..."
@@ -17921,7 +18424,8 @@
       "name": "Center-Stage - Gloves"
     },
     "Shop_Vanity_All_Season02_Paladin03": {
-      "name": "Ceremonial Finish"
+      "name": "Ceremonial Finish",
+      "description": "Show off your best"
     },
     "Shop_Melee_Runaway_04": {
       "name": "Ceremonial Sonicblade"
@@ -17971,6 +18475,10 @@
     },
     "Shop_Season03_Shop_WeaponSkin_Syndicate_Maelstrom_OfferDescription": {
       "name": "Chaos never looked so classy.\r\n\r\nCan only be applied to the Maelstrom."
+    },
+    "Shop_Vanity_All_Season02_DotsPurple": {
+      "description": "Chaotic like you!",
+      "name": "Party Dots"
     },
     "Shop_CharacterVanity": {
       "description": "Character cosmetic items are not lost on the surface or removed during season wipes."
@@ -18065,10 +18573,8 @@
       "name": "Chrome Lacerator"
     },
     "Shop_Season03-5_Coating_Gradient_06": {
-      "name": "Chrome Shift"
-    },
-    "Shop_Vanity_All_Gradient04": {
-      "name": "Cinder"
+      "name": "Chrome Shift",
+      "description": "Gray all the way down"
     },
     "Generator_ClaimFailed": {
       "name": "Claiming failed"
@@ -18108,11 +18614,13 @@
     "Shop_GoldRushOptimist04_Gloves": {
       "name": "Cobalt Thrill-seeker - Gloves"
     },
-    "Shop_Vanity_All_Striped02": {
-      "name": "Cold Heat"
-    },
     "Shop_Vanity_All_Season02_Paladin04": {
-      "name": "Cold Iron"
+      "name": "Cold Iron",
+      "description": "Simple and effective"
+    },
+    "Shop_Season03_Coating_Vanity_All_06": {
+      "description": "Cold as ice",
+      "name": "Cool Blue"
     },
     "Shop_Season03-5_SyndicateEnforcer05_Boots": {
       "name": "Colonial Sentinel - Boots"
@@ -18196,7 +18704,8 @@
       "name": "Construct failed"
     },
     "Shop_Vanity_All_Circuit04": {
-      "name": "Control Pattern"
+      "name": "Control Pattern",
+      "description": "Dark powers guide your aim"
     },
     "Shop_Vanity_All_MAG": {
       "name": "Convention"
@@ -18204,11 +18713,9 @@
     "Shop_Season03-5_Exobiologist_Headstyle_Blue": {
       "name": "Cool Blast - Head"
     },
-    "Shop_Season03_Coating_Vanity_All_06": {
-      "name": "Cool Blue"
-    },
     "Shop_Vanity_All_Gradient03": {
-      "name": "Cool Breeze"
+      "name": "Cool Breeze",
+      "description": "Minty Fresh!"
     },
     "Shop_Creator_Charm_CorvusClan": {
       "name": "Corvus Blade"
@@ -18245,6 +18752,10 @@
     },
     "Shop_Coating_Vanity_All_TriMagenta": {
       "name": "Crimson Tessellation"
+    },
+    "Shop_Vanity_All_Christmas_01": {
+      "name": "Crimson Wrapping",
+      "description": "Not originally red..."
     },
     "Shop_Banner_SkullCrown01": {
       "name": "Crowned Dirtbeast"
@@ -18349,6 +18860,10 @@
     "Shop_MaskedStranger01M_Head03": {
       "name": "Dark Mask - Head"
     },
+    "Shop_Season03-5_Coating_Gradient_07": {
+      "name": "Dark Neon",
+      "description": "Deepest Blue"
+    },
     "Shop_GoldRushOptimist01F_BaseSuit2": {
       "name": "Dark Thrill-seeker - Basesuit"
     },
@@ -18381,7 +18896,8 @@
       "name": "Deal out death in style.\r\n\r\nCan only be applied to the S-576 PDW."
     },
     "Shop_Vanity_All_Aurum02": {
-      "name": "Decadent Gold"
+      "name": "Decadent Gold",
+      "description": "It's OK to show off"
     },
     "Shop_Season02_Tracker_Head_02": {
       "name": "Deco - Head"
@@ -18389,9 +18905,6 @@
     "Shop_Emote_Gladiator_ThumbsUp_01": {
       "description": "Deemed worthy.",
       "name": "Thumbs Up"
-    },
-    "Shop_Vanity_All_Gradient02": {
-      "name": "Deep Blue"
     },
     "Shop_Default_Vanity": {
       "name": "Default Design"
@@ -18424,9 +18937,6 @@
       "name": "Deltes Scout - Gloves"
     },
     "Shop_Season02_Coating_Vanity_All_Runaway_01": {
-      "name": "Demia Merc"
-    },
-    "Shop_Season02_Coating_Vanity_All_Runaway_01_OfferDescription": {
       "name": "Demia Merc"
     },
     "Shop_Hunter04_BaseSuit": {
@@ -18500,6 +19010,10 @@
     },
     "Shop_Vanity_All_CircuitGreen_OfferDescription": {
       "name": "Do you still see the code?"
+    },
+    "Shop_Vanity_All_Striped04": {
+      "description": "Does NOT taste like bubblegum",
+      "name": "Pink Pattern"
     },
     "Shop_Vanity_MachineGun_OSI_Zeuz_Prestige": {
       "description": "Does the divine weapon justice",
@@ -18751,7 +19265,8 @@
       "name": "Luxury Asp Flechette Gun"
     },
     "Shop_Vanity_All_Gradient05": {
-      "name": "Evergreen"
+      "name": "Evergreen",
+      "description": "Not as tranquil as it looks"
     },
     "Shop_Season03_Droppod_Graffiti_OfferDescription": {
       "name": "Every squad needs an artist!"
@@ -19032,6 +19547,9 @@
       "description": "For the distinguished gentle-prospectors",
       "name": "Teabag"
     },
+    "Shop_Season02_Coating_Vanity_All_Anubis_03_OfferDescription": {
+      "name": "For the elites"
+    },
     "Shop_Emote_Slefie": {
       "description": "For the gang back home",
       "name": "The Selfie"
@@ -19045,6 +19563,10 @@
     },
     "Shop_Spray_ICA_Gamescom2019_OfferDescription": {
       "name": "For the people! Honest!"
+    },
+    "Shop_Vanity_All_Striped03": {
+      "description": "For the thinking prospector",
+      "name": "Researcher Green"
     },
     "Shop_Gambler02_Chest_OfferDescription": {
       "name": "For the true high stakes players."
@@ -19112,7 +19634,8 @@
       "name": "Forest Paladin - Gloves"
     },
     "Shop_Vanity_All_Season02_29": {
-      "name": "Forester"
+      "name": "Forester",
+      "description": "Nature's finest"
     },
     "Shop_Charm_FortunaMarble": {
       "name": "Fortuna Marble",
@@ -19129,6 +19652,10 @@
     },
     "Shop_Vanity_SMG_Epsilon01_GoldRush": {
       "name": "Fortuna Rush S-576 PDW"
+    },
+    "Shop_Banner_PartnerFortunasFavored": {
+      "description": "Fortuna's Favored",
+      "name": "Fortuna's Favored"
     },
     "Shop_Season03_spray_crown": {
       "name": "Fortune's Crown"
@@ -19276,6 +19803,9 @@
     "Shop_Character_Head_E03_G02": {
       "name": "Gemini - Head"
     },
+    "Shop_Season02_Coating_Vanity_All_Runaway_03_OfferDescription": {
+      "name": "Geometric Perfection"
+    },
     "Shop_Season01_Pass_OfferEarnBack": {
       "name": "Get 1000 Aurum back!"
     },
@@ -19362,9 +19892,6 @@
     "Shop_Season02_Coating_Vanity_All_Runaway_05": {
       "name": "Golden Dragon"
     },
-    "Shop_Season02_Coating_Vanity_All_Runaway_05_OfferDescription": {
-      "name": "Golden Dragon"
-    },
     "Shop_Creator_Charm_GoldenLeafman": {
       "name": "Golden Leafman"
     },
@@ -19394,9 +19921,6 @@
     },
     "Shop_Season02_Vehicle_BikerGang_01_OfferDescription": {
       "name": "Gravity Cruiser"
-    },
-    "Shop_Vanity_All_Striped03": {
-      "name": "Green Grass"
     },
     "Shop_BountyHunter04_Archetype": {
       "name": "Grim Hunter",
@@ -19536,6 +20060,9 @@
     "Shop_Categories_Head_variation": {
       "name": "Head Variation"
     },
+    "Shop_Season02_Coating_Vanity_All_Americana_03_OfferDescription": {
+      "name": "Heavy and hard"
+    },
     "Shop_Season03_Streamer_Head_Screen_05_DemonSpitter": {
       "name": "Hell Creature - Head"
     },
@@ -19550,9 +20077,6 @@
       "name": "Mini Trooper"
     },
     "Shop_Season02_Coating_Vanity_All_Runaway_03": {
-      "name": "Hex-Net"
-    },
-    "Shop_Season02_Coating_Vanity_All_Runaway_03_OfferDescription": {
       "name": "Hex-Net"
     },
     "Shop_MaskedStranger01M_Head06_OfferDescription": {
@@ -19746,7 +20270,8 @@
       "name": "Intel Bolter - Gloves"
     },
     "Shop_Season03_Coating_Vanity_All_03": {
-      "name": "Interstellar Orange"
+      "name": "Interstellar Orange",
+      "description": "Let them know you're a hazard"
     },
     "Shop_Vanity_All_Maze02": {
       "name": "Interwoven - Blue"
@@ -19755,16 +20280,16 @@
       "name": "Interwoven - Red"
     },
     "Shop_Vanity_All_Greek04": {
-      "name": "Intricate Cobalt"
+      "name": "Intricate Cobalt",
+      "description": "One of the classics"
     },
     "Shop_Vanity_All_Greek02": {
-      "name": "Intricate Gold"
-    },
-    "Shop_Vanity_All_Greek01": {
-      "name": "Intricate Ivory"
+      "name": "Intricate Gold",
+      "description": "The Deadly Touch"
     },
     "Shop_Vanity_All_Greek03": {
-      "name": "Intricate Jade"
+      "name": "Intricate Jade",
+      "description": "The ancients approve!"
     },
     "Shop_Emote_Move_20": {
       "name": "Invisible Lasso"
@@ -19831,6 +20356,9 @@
     "Shop_Banner_AllGood_OfferDescription": {
       "name": "It's just a flesh wound"
     },
+    "Shop_Season02_Coating_Vanity_All_Runaway_04_OfferDescription": {
+      "name": "It's latest style"
+    },
     "Shop_MaskedStranger01M_Head02_OfferDescription": {
       "name": "It's not a friendly smile..."
     },
@@ -19855,9 +20383,6 @@
     },
     "Shop_Banner_PumpkinHead": {
       "name": "Jack-o'-Lantern - Head"
-    },
-    "Shop_Season03-5_Coating_Shatter_05": {
-      "name": "Jaded"
     },
     "Shop_Season03_Ronin_Head_03": {
       "name": "Jingasa - Head"
@@ -19965,7 +20490,8 @@
       "name": "King of the dancefloor!"
     },
     "Shop_Vanity_All_Striped06": {
-      "name": "Kingsnake Stripes"
+      "name": "Kingsnake Stripes",
+      "description": "The real danger pattern"
     },
     "Shop_Vanity_Pistol_Gamma01_Founders": {
       "name": "Koi Scarab"
@@ -20120,6 +20646,10 @@
     "Shop_GoldRushOptimist03_Gloves": {
       "name": "Leather Thrill-seeker - Gloves"
     },
+    "Shop_Season03_Coating_Vanity_All_05": {
+      "description": "Leave a mark on 'em!",
+      "name": "Toxic Warrior"
+    },
     "Shop_Melee_GlowingBladeKnife": {
       "description": "Leaves scary scars",
       "name": "Searing Edge"
@@ -20128,7 +20658,15 @@
       "description": "Legacy - Badum's Finest",
       "name": "Legacy - Badum's Finest"
     },
+    "Shop_Banner_PartnerBadumsFinestLegacy": {
+      "description": "Legacy - Badum's Finest",
+      "name": "Legacy - Badum's Finest"
+    },
     "Banner_PartnerFortunasFavoredLegacy": {
+      "description": "Legacy - Fortuna's Favored",
+      "name": "Legacy - Fortuna's Favored"
+    },
+    "Shop_Banner_PartnerFortunasFavoredLegacy": {
       "description": "Legacy - Fortuna's Favored",
       "name": "Legacy - Fortuna's Favored"
     },
@@ -20140,6 +20678,10 @@
     },
     "Shop_Season02_Emote_05_OfferDescription": {
       "name": "Let it flow through you!"
+    },
+    "Shop_Vanity_All_Striped02": {
+      "description": "Let nothing leave your sights",
+      "name": "Scanner Lines"
     },
     "Shop_Season03_Shop_Emote_Dance_1_OfferDescription": {
       "name": "Let the rythm take you"
@@ -20161,7 +20703,8 @@
       "name": "Let's set up a camp!"
     },
     "Shop_Season03-5_Coating_Striped_05": {
-      "name": "Lethal Red"
+      "name": "Lethal Red",
+      "description": "To the limit"
     },
     "Shop_Vanity_LightBeam_Gamma01_Letium": {
       "name": "Letium-Lover Gorgon"
@@ -20190,6 +20733,10 @@
     "Shop_Season03-5_Banner_LikeThis": {
       "name": "Like This",
       "description": "This, this is good"
+    },
+    "Shop_Vanity_All_Season02_DotsGrey": {
+      "description": "Like a clear river",
+      "name": "Speckled"
     },
     "Shop_Hunter05_Gloves_OfferDescription": {
       "name": "Like new."
@@ -20244,9 +20791,6 @@
     },
     "Shop_Vanity_All_Lootboy01": {
       "name": "LootBoy"
-    },
-    "Shop_Vanity_All_Lootboy01_OfferDescription": {
-      "name": "LootBoy."
     },
     "Shop_Vanity_LightBeam_Gamma01_LostProspector": {
       "name": "Lost Gorgon"
@@ -20339,6 +20883,10 @@
     "Shop_Trailblazer01_Gloves_OfferDescription": {
       "name": "Made with only the best fake leather."
     },
+    "Shop_Vanity_All_Gradient02": {
+      "description": "Made with powdered veltecite",
+      "name": "Neon Blast"
+    },
     "Shop_Vanity_Pistol_KOR_Hammer_Lava": {
       "name": "Magmatic Hammer"
     },
@@ -20401,6 +20949,10 @@
     },
     "Shop_Vanity_All_Season01_07_OfferDescription": {
       "name": "Makes your fingers tingle. Best wear Gloves..."
+    },
+    "Shop_Season03_Coating_Vanity_All_01": {
+      "description": "Making a statement",
+      "name": "Pink Bands"
     },
     "Shop_MaskedStranger01M_Head07_OfferDescription": {
       "name": "Making friends for life."
@@ -20639,12 +21191,6 @@
     "Shop_Season02_Coating_Vanity_All_Runaway_04": {
       "name": "Neon Mesh"
     },
-    "Shop_Season02_Coating_Vanity_All_Runaway_04_OfferDescription": {
-      "name": "Neon Mesh"
-    },
-    "Shop_Season03-5_Coating_Gradient_07": {
-      "name": "Neon Wave"
-    },
     "Shop_Coating_Vanity_All_CircuitBrown": {
       "name": "Net Connector"
     },
@@ -20735,6 +21281,10 @@
     "Shop_Season03-5_Prospector_Headstyle_Purple": {
       "name": "Novo Violet - Head"
     },
+    "Shop_Vanity_Season2Event_KOR_KOR47": {
+      "description": "Now with extra power!\r\n\r\nCan only be applied to the KOR-47.",
+      "name": "Storm Diver KOR-47"
+    },
     "Shop_Melee_Runaway03": {
       "description": "Now you can make someone's demise a more colorful experience!",
       "name": "Prism Sonicblade"
@@ -20790,9 +21340,6 @@
     },
     "Shop_TechSoldier01M_Head1": {
       "name": "Optical Scanner - Head"
-    },
-    "Shop_Vanity_All_Aurum01": {
-      "name": "Opulence"
     },
     "Shop_GoldRushOptimist01_Gloves_OfferDescription": {
       "name": "Original Osiris researcher - Gloves"
@@ -21003,7 +21550,8 @@
       "name": "Paladin Prospector"
     },
     "Shop_Vanity_All_Season02_Paladin01": {
-      "name": "Paladin Standard"
+      "name": "Paladin Standard",
+      "description": "Rugged but dependable"
     },
     "Shop_VHV_BikerGang_04": {
       "name": "Pale Horse"
@@ -21019,9 +21567,6 @@
     },
     "Shop_Banner_Spring_Participation_OfferDescription": {
       "name": "Participated in the Spring Event"
-    },
-    "Shop_Vanity_All_Season02_DotsPurple": {
-      "name": "Party Dots"
     },
     "Shop_Season03_Streamer_Head_04": {
       "name": "Party Time - Head"
@@ -21087,12 +21632,6 @@
     "Shop_Vanity_All_Gradient01": {
       "name": "Pink"
     },
-    "Shop_Season03_Coating_Vanity_All_01": {
-      "name": "Pink Bands"
-    },
-    "Shop_Vanity_All_Striped04": {
-      "name": "Pink Pattern"
-    },
     "Shop_Vanity_BattleRifle_Epsilon01_GoldRush": {
       "name": "Pioneer C-32 Bolt Action"
     },
@@ -21130,9 +21669,6 @@
       "name": "Poacher - Gloves"
     },
     "Shop_Season02_Coating_Vanity_All_Americana_03": {
-      "name": "Polished Bronze"
-    },
-    "Shop_Season02_Coating_Vanity_All_Americana_03_OfferDescription": {
       "name": "Polished Bronze"
     },
     "Shop_Vanity_All_BlueOrange01_OfferDescription": {
@@ -21363,6 +21899,10 @@
       "description": "Ready to start some trouble",
       "name": "The Squat"
     },
+    "Shop_Season03-5_Coating_Shatter_06": {
+      "description": "Really catches the eye...",
+      "name": "Sapphire Warrior"
+    },
     "Shop_Vanity_AssaultRifle_ICA_Advocate_Muerta": {
       "name": "Reaper Advocate"
     },
@@ -21415,6 +21955,9 @@
     "Shop_Vanity_All_Maze02_OfferDescription": {
       "name": "Relaxing..."
     },
+    "Shop_Season02_Coating_Vanity_All_Runaway_01_OfferDescription": {
+      "name": "Remnant of a past war"
+    },
     "Shop_Hunter04_BaseSuit_OfferDescription": {
       "name": "Repurposed from darker times."
     },
@@ -21443,9 +21986,6 @@
       "name": "Riding the night."
     },
     "Shop_Season02_Coating_Vanity_All_Runaway_06": {
-      "name": "River Wyrm"
-    },
-    "Shop_Season02_Coating_Vanity_All_Runaway_06_OfferDescription": {
       "name": "River Wyrm"
     },
     "Shop_Emote_Dance_19": {
@@ -21533,7 +22073,8 @@
       "name": "SKIP TIMER"
     },
     "Shop_Vanity_All_Season02_28": {
-      "name": "Safari"
+      "name": "Safari",
+      "description": "We're hunting big game here!"
     },
     "Shop_Tag_Sale": {
       "name": "Sale"
@@ -21548,9 +22089,6 @@
       "name": "Salty?",
       "description": "Want some wine with that?"
     },
-    "Shop_Season03-5_Coating_Shatter_06": {
-      "name": "Sapphire Warrior"
-    },
     "Shop_Vanity_All_Season01_02": {
       "name": "Scaledigger Dark"
     },
@@ -21558,7 +22096,8 @@
       "name": "Scaledigger Light"
     },
     "Shop_Season03_Coating_Vanity_All_04": {
-      "name": "Scanner Lines"
+      "name": "Scanner Lines",
+      "description": "Target Spotted!"
     },
     "Shop_Season03_Streamer_Head_Screen_13_Pulse": {
       "name": "Scanning - Head"
@@ -21800,6 +22339,9 @@
     "Shop_Season03_Shop_Death_Emote_FallOver_OfferDescription": {
       "name": "Some prospectors a bit top heavy"
     },
+    "Shop_Vanity_All_Lootboy01_OfferDescription": {
+      "name": "Something for everyone!"
+    },
     "Shop_FactionShop_PurchaseErrorsUnkownError": {
       "name": "Something went wrong"
     },
@@ -21896,9 +22438,6 @@
     "Shop_Melee_Axe_02": {
       "name": "Specialist's Hatchet"
     },
-    "Shop_Vanity_All_Season02_DotsGrey": {
-      "name": "Speckled"
-    },
     "Shop_Season03_spray_surgecrystal": {
       "name": "Spike Ahead!"
     },
@@ -21992,6 +22531,14 @@
     },
     "Shop_Season03_Shop_Charm_PoacherTrap": {
       "name": "Steel Jaws"
+    },
+    "Shop_Vanity_Season2Event_Osiris_Baslisk": {
+      "name": "Storm Diver Basilisk",
+      "description": "Truly electrifying!\r\n\r\nCan only be applied to the Basilisk."
+    },
+    "Shop_Vanity_Season2Event_ICA_Brute": {
+      "name": "Storm Diver Voltaic Brute",
+      "description": "Thematically appropriate for this beast of a weapon.\r\n\r\nCan only be applied to the Voltaic Brute."
     },
     "Shop_StormRunner01_Boots": {
       "name": "Storm Runner - Boots"
@@ -22160,9 +22707,6 @@
     },
     "Shop_Season03_Charm_03": {
       "name": "Teaspoon"
-    },
-    "Shop_Vanity_All_Circuit03": {
-      "name": "Technical Green"
     },
     "Shop_Vanity_Shotgun_Alpha01_Pop01_OfferDescription": {
       "name": "Tell a story with this PKR Maelstrom skin.\r\n\r\nCan only be applied to the PKR Maelstrom."
@@ -22437,6 +22981,9 @@
     "Shop_Season03_Melee_Streamer_03_OfferDescription": {
       "name": "These spikes get caught on everything: bushes, clothes, people..."
     },
+    "Shop_Season02_Coating_Vanity_All_Runaway_05_OfferDescription": {
+      "name": "They give good luck, honest"
+    },
     "Shop_Emote_Threaten": {
       "description": "They know what's coming",
       "name": "Threat"
@@ -22534,6 +23081,10 @@
     "Shop_Banner_Teatime": {
       "name": "Time for tea"
     },
+    "Shop_Season03_Coating_Vanity_All_02": {
+      "description": "Time to clean up the planet!",
+      "name": "Ultraviolet"
+    },
     "Shop_Season03_Droppod_ArtDeco_OfferDescription": {
       "name": "Time to introduce this classic style to Fortuna III!"
     },
@@ -22557,9 +23108,6 @@
     },
     "Shop_Vanity_SMG_Delta01_PosionLightning01": {
       "name": "Toxic Voltaic Brute"
-    },
-    "Shop_Season03_Coating_Vanity_All_05": {
-      "name": "Toxic Warrior"
     },
     "Shop_Character_Archetype_03": {
       "name": "Tracker"
@@ -22776,12 +23324,6 @@
     "Shop_Season02_Coating_Vanity_All_Anubis_03": {
       "name": "Ultramarine Division"
     },
-    "Shop_Season02_Coating_Vanity_All_Anubis_03_OfferDescription": {
-      "name": "Ultramarine Division"
-    },
-    "Shop_Season03_Coating_Vanity_All_02": {
-      "name": "Ultraviolet"
-    },
     "Shop_ExoBiologist02_Chest_OfferDescription": {
       "name": "Unfortunately, the definition of Hazard doesn't cover bullets."
     },
@@ -22865,9 +23407,6 @@
     },
     "Shop_Vanity_SMG_AssaultRifle_Gamma02_CombatKnife01": {
       "name": "Vicious Manticore"
-    },
-    "Shop_Vanity_All_Season02_Runaway02": {
-      "name": "Violet & Pearl"
     },
     "Shop_Vanity_Pistol_Epsilon01_Founders": {
       "name": "Viper K-28"
@@ -24199,6 +24738,9 @@
     "Station_CareerStatsScreen_GamemodeDuo": {
       "name": "Duo"
     },
+    "Station_StormDivers_MapInfoDescription": {
+      "name": "During EOS, more storms than usual will appear. Wear special gear to survive this madness!"
+    },
     "Station_DevBuildDisclaimer_EarlyAcess": {
       "name": "EARLY ACCESS"
     },
@@ -24516,7 +25058,7 @@
       "name": "Insure your items before deploying and come back in the case of an untimely foaming."
     },
     "Station_Insurance_Purchase_Tooltip": {
-      "name": "Insured items can either be salvaged or return a percentage of their base purchase value in the case you fail to evac.\r\n\r\nInsured items that are dropped prior to death or picked up by squadmates are not compensated. If an item is marked to be salvaged but is looted by another player, you will receive a compensation in K-Marks.\r\n\r\nGear Salvage will compensate item attachments, but only if they remained on the insured item before being retrieved.\r\n\r\nQuitting a match early will result in insurance being voided and no compensation given."
+      "name": "Insured items can either be salvaged or return a percentage of their base purchase value in the case you fail to evac. The insurance status persists after returning to station and into future matches.\r\n\r\nInsured items that are dropped prior to death or picked up by squadmates are not compensated. If an item is marked to be salvaged but is looted by another player, you will receive a compensation in K-Marks.\r\n\r\nGear Salvage will compensate item attachments, but only if they remained on the insured item before being retrieved.\r\n\r\nQuitting a match early will result in insurance being voided and no compensation given."
     },
     "Station_Insurance_ClaimsVary_Tooltip": {
       "name": "Insured items that are dropped prior to death or stolen by squadmates are not compensated. If an item is marked to be salvaged but is stolen by another player, you will receive a compensation in K-Marks."
@@ -24869,6 +25411,9 @@
     "Station_Match_Difficulty_Normal": {
       "name": "Normal"
     },
+    "Station_Crafting_Error_MissingResources": {
+      "name": "Not enough resources"
+    },
     "Station_TechTree_NotEnoughResources": {
       "name": "Not enough resources"
     },
@@ -24966,7 +25511,7 @@
       "name": "Passes completed"
     },
     "Station_Insurance_Setup_DescStandard": {
-      "name": "Pay a fraction of an item's cost to receive a fair sum back in the case of an untimely death. Insurance payouts are delivered to your Quarters."
+      "name": "Pay a fraction of an item's cost to receive a fair sum back in the case of an untimely death. Insurance for an item is paid once and persists through drops. Payouts will be delivered to your Quarters."
     },
     "Station_SellTip": {
       "name": "Place items for sale in this window"
@@ -25014,6 +25559,9 @@
     },
     "Station_Crafting_Btn": {
       "name": "Print"
+    },
+    "Station_Crafting_Error_StartFailed": {
+      "name": "Print start failed"
     },
     "Station_VeteranPacks_Accomplishments_Matches_3A": {
       "description": "Private seat on every evac ship"
@@ -25301,6 +25849,9 @@
     "Station_TechTree_increase_stash_Node": {
       "name": "Stash Size"
     },
+    "Station_Crafting_Error_StashFull": {
+      "name": "Stash is full"
+    },
     "Station_CareerStatsScreen_Statistics": {
       "name": "Statistics"
     },
@@ -25309,6 +25860,9 @@
     },
     "Station_Filter_ModStock": {
       "name": "Stock"
+    },
+    "Station_StormDivers_MapEventTitle": {
+      "name": "Storm Divers"
     },
     "StatsScreen_Headline_SuccessfulEvacs": {
       "name": "Successful evacs"
@@ -25513,6 +26067,9 @@
     },
     "Station_Match_Difficulty_Unknown": {
       "name": "Unknown"
+    },
+    "Station_Crafting_Error_Unknown": {
+      "name": "Unknown Error"
     },
     "Station_TechTree_Generators": {
       "description": "Unlock and improve daily generation of K-Marks, Aurum, and Supply Crates."
@@ -26013,6 +26570,9 @@
     "KorolevStationIdleC_03": {
       "name": "Ah, another accident in Viktor's crew, and another week-long sick leave. Like clockwork."
     },
+    "BFCS02Event_01": {
+      "name": "Ah, another Storm Diver! Pick up those supplies ahead, you're gonna need them."
+    },
     "BFCStationFTUEFirstMatch02b": {
       "name": "Ah, back in the day the planet was a paradise, with the factions all vying for its natural wealth and resources... Now it's down to prospectors like you to grab what's left behind."
     },
@@ -26426,6 +26986,9 @@
     },
     "Male01Player1HoldFire_03": {
       "name": "Don't fire!"
+    },
+    "BFCS02Event_05": {
+      "name": "Don't forget to pick up those storm supplies, Prospector; should be next to your pod..."
     },
     "OsirisBye_04": {
       "name": "Don't let me keep you."
@@ -27282,6 +27845,9 @@
     "BFCTutorialHealthStim01": {
       "name": "Looks like you're wounded. Try using a Stim to heal up."
     },
+    "BFCS02Event_04": {
+      "name": "Made it down in one piece? Good! Now grab those supplies, you're gonna need them."
+    },
     "BFCGameIntro_10": {
       "name": "Many drop as a crew, sharing the loot, never leaving anyone behind."
     },
@@ -27708,6 +28274,9 @@
     "Male01Player1AttackPlayers_01": {
       "name": "Shoot on sight"
     },
+    "BFCS02Event_02": {
+      "name": "Should be some supplies outside your pod; you're gonna need them."
+    },
     "KorolevStationIdleC_01": {
       "name": "Six years, six years. Just six more years 'till retirement"
     },
@@ -27875,6 +28444,9 @@
     },
     "ICAContractClaimed_03": {
       "name": "The ICA thank you, Prospector!"
+    },
+    "BFCS02Event_03": {
+      "name": "The factions prepared some supplies for you; check near your pod."
     },
     "OsirisContractAccepted_04": {
       "name": "The rewards for that should be worth your while."
@@ -28299,8 +28871,8 @@
   "Weapons": {
     "TOOL_AdvancedMineralScanner": {
       "lore": "",
-      "description": "A more advanced version of Korolev's mineral scanning device that is able to detect any form of valuable minerals.",
-      "name": "Advanced Mineral Scanner"
+      "description": "A more advanced Korolev version of the common scanning device that is able to detect any form of valuable minerals.",
+      "name": "Advanced Scanner"
     },
     "TOOL_Binocular_Basic_01": {
       "lore": "",
@@ -28314,8 +28886,8 @@
     },
     "TOOL_MineralScanner_01": {
       "lore": "",
-      "description": "A highly versatile scanning device that is only able to detect Nickel by default, but can be modded to detect any Minerals on Fortuna.",
-      "name": "Mineral Scanner"
+      "description": "A versatile scanning device connected to the user's HUD that renders the outline of nearby obstacles and solid objects, even in low visibility situations (such as darkness, fog, or smoke). \r\n\r\nBy default, it's also able to accurately detect Nickel deposits, but can be modified with special attachments to detect various other valuable mineral types found on the surface.",
+      "name": "Scanner"
     },
     "TOOL_Mining_01": {
       "lore": "",

@@ -146,28 +146,6 @@
       "name": "Tharis Island",
       "phases": [
         {
-          "name": "Day",
-          "duration": 760,
-          "gameplay": {
-            "storm": false,
-            "playerSpawning": true,
-            "evac": true,
-            "creatureLoot": "Normal",
-            "creatureSpawns": "Normal"
-          }
-        },
-        {
-          "name": "Dusk",
-          "duration": 500,
-          "gameplay": {
-            "storm": false,
-            "playerSpawning": false,
-            "evac": true,
-            "creatureLoot": "Normal",
-            "creatureSpawns": "Normal"
-          }
-        },
-        {
           "name": "Storm",
           "duration": 180,
           "gameplay": {
@@ -180,7 +158,7 @@
         },
         {
           "name": "Peak",
-          "duration": 100,
+          "duration": 60,
           "gameplay": {
             "storm": true,
             "playerSpawning": false,
@@ -191,10 +169,32 @@
         },
         {
           "name": "Dawn",
-          "duration": 240,
+          "duration": 120,
           "gameplay": {
             "storm": false,
             "playerSpawning": true,
+            "evac": true,
+            "creatureLoot": "Normal",
+            "creatureSpawns": "Normal"
+          }
+        },
+        {
+          "name": "Day",
+          "duration": 180,
+          "gameplay": {
+            "storm": false,
+            "playerSpawning": true,
+            "evac": true,
+            "creatureLoot": "Normal",
+            "creatureSpawns": "Normal"
+          }
+        },
+        {
+          "name": "Dusk",
+          "duration": 240,
+          "gameplay": {
+            "storm": false,
+            "playerSpawning": false,
             "evac": true,
             "creatureLoot": "Normal",
             "creatureSpawns": "Normal"
@@ -204,14 +204,14 @@
       "warnings": [
         {
           "name": "5 Min Storm Warning",
-          "time": 960
+          "time": -300
         },
         {
           "name": "1 Min Storm Warning",
-          "time": 1200
+          "time": -60
         }
       ],
-      "totalTime": 1780
+      "totalTime": 780
     }
   },
   "specialTimings": {}

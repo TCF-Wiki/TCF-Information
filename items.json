@@ -125,50 +125,6 @@
         "EpicVeltecite": {
           "inGameName": "Pure Veltecite",
           "amount": 5
-        },
-        "Mod_Magazine_Light_03": {
-          "inGameName": "Light Extended",
-          "amount": 1
-        },
-        "Mod_Magazine_Medium_03": {
-          "inGameName": "Medium Extended",
-          "amount": 1
-        },
-        "Mod_Magazine_Heavy_03": {
-          "inGameName": "Heavy Extended",
-          "amount": 1
-        },
-        "Mod_Magazine_Shotgun_03": {
-          "inGameName": "Shotgun Extended",
-          "amount": 1
-        },
-        "Mod_Magazine_Light_ReloadSpeed_04": {
-          "inGameName": "Light Quickdraw",
-          "amount": 1
-        },
-        "Mod_Magazine_Medium_Reloadspeed_04": {
-          "inGameName": "Medium Quickdraw",
-          "amount": 1
-        },
-        "Mod_Magazine_Heavy_ReloadSpeed_04": {
-          "inGameName": "Heavy Quickdraw",
-          "amount": 1
-        },
-        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-          "inGameName": "Shotgun Quickdraw",
-          "amount": 1
-        },
-        "Mod_Magazine_Light_EXTReload_02": {
-          "inGameName": "Light Extended Quickdraw",
-          "amount": 1
-        },
-        "Mod_Magazine_Medium_EXTReload_02": {
-          "inGameName": "Medium Extended Quickdraw",
-          "amount": 1
-        },
-        "Mod_ForeGrip_ADS_03": {
-          "inGameName": "Tactical Foregrip",
-          "amount": 1
         }
       },
       "missions": {
@@ -244,12 +200,7 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Helmet_NV_01": {
-          "inGameName": "Legendary NV Helmet",
-          "amount": 3
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-KOR-GruntWork-3": {
           "inGameName": "A Pinch of Pure Power",
@@ -564,10 +515,6 @@
         "Bag_02": {
           "inGameName": "Medium Backpack",
           "amount": 2
-        },
-        "Bag_03": {
-          "inGameName": "Large Backpack",
-          "amount": 3
         }
       },
       "missions": {
@@ -705,22 +652,6 @@
         "Shield_04": {
           "inGameName": "Epic Shield",
           "amount": 1
-        },
-        "Mod_Converter_Light_03": {
-          "inGameName": "Light Converter",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_03": {
-          "inGameName": "Medium Converter",
-          "amount": 1
-        },
-        "Mod_Converter_Light_AIDMG_03": {
-          "inGameName": "Light Creature Dmg",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_AIDMG_03": {
-          "inGameName": "Medium Creature Dmg",
-          "amount": 1
         }
       },
       "missions": {
@@ -848,24 +779,7 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {
-        "WP_A_Sniper_Gauss_01": {
-          "inGameName": "KARMA-1",
-          "amount": 10
-        },
-        "WP_A_Launch_MSL_01": {
-          "inGameName": "KOMRAD",
-          "amount": 10
-        },
-        "WP_G_HVY_Beam_01": {
-          "inGameName": "Zeus Beam",
-          "amount": 10
-        },
-        "Helmet_NV_01": {
-          "inGameName": "Legendary NV Helmet",
-          "amount": 4
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-KOR-BuildLaserDrill-8": {
           "inGameName": "Unlimited Power",
@@ -1235,18 +1149,6 @@
         "Mod_Optic_1x_02": {
           "inGameName": "Holographic Sight",
           "amount": 1
-        },
-        "Mod_Optic_Variable_01": {
-          "inGameName": "2 - 4x Variable Optic",
-          "amount": 3
-        },
-        "Mod_Optic_8x_01": {
-          "inGameName": "8x Optic",
-          "amount": 3
-        },
-        "Mod_Optic_6x_01": {
-          "inGameName": "6x Optic",
-          "amount": 3
         }
       },
       "missions": {
@@ -1316,20 +1218,7 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "QuestItem_OrbitalCanonTargetBeacon": {
-          "inGameName": "Orbital Cannon Beacon",
-          "amount": 3
-        },
-        "WP_A_Launch_MSL_01": {
-          "inGameName": "KOMRAD",
-          "amount": 20
-        },
-        "Mod_Converter_Shotgun_03": {
-          "inGameName": "Shotgun Converter",
-          "amount": 1
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-Osiris-ExplosivesTry-1": {
           "inGameName": "Explosive Delivery Part 1",
@@ -1522,84 +1411,12 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "QuestItem_OilPumpBeacon": {
-          "inGameName": "Oil Pump Beacon",
-          "amount": 12
-        },
-        "Mod_Magazine_Light_03": {
-          "inGameName": "Light Extended",
-          "amount": 5
-        },
         "Mod_Muzzle_Small_Supressor_01": {
           "inGameName": "Small Suppressor",
           "amount": 5
         },
         "Mod_Muzzle_Standard_Supressor_01": {
           "inGameName": "Medium Suppressor",
-          "amount": 5
-        },
-        "Mod_Magazine_Medium_03": {
-          "inGameName": "Medium Extended",
-          "amount": 5
-        },
-        "Mod_Magazine_Heavy_03": {
-          "inGameName": "Heavy Extended",
-          "amount": 5
-        },
-        "Mod_Magazine_Shotgun_03": {
-          "inGameName": "Shotgun Extended",
-          "amount": 5
-        },
-        "Mod_Magazine_Light_ReloadSpeed_04": {
-          "inGameName": "Light Quickdraw",
-          "amount": 5
-        },
-        "Mod_Magazine_Medium_Reloadspeed_04": {
-          "inGameName": "Medium Quickdraw",
-          "amount": 5
-        },
-        "Mod_Magazine_Heavy_ReloadSpeed_04": {
-          "inGameName": "Heavy Quickdraw",
-          "amount": 5
-        },
-        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-          "inGameName": "Shotgun Quickdraw",
-          "amount": 5
-        },
-        "Mod_Magazine_Light_EXTReload_02": {
-          "inGameName": "Light Extended Quickdraw",
-          "amount": 5
-        },
-        "Mod_Magazine_Medium_EXTReload_02": {
-          "inGameName": "Medium Extended Quickdraw",
-          "amount": 5
-        },
-        "Mod_Converter_Light_03": {
-          "inGameName": "Light Converter",
-          "amount": 5
-        },
-        "Mod_Converter_Medium_03": {
-          "inGameName": "Medium Converter",
-          "amount": 5
-        },
-        "Mod_Converter_Heavy_03": {
-          "inGameName": "Heavy Converter",
-          "amount": 5
-        },
-        "Mod_Converter_Shotgun_03": {
-          "inGameName": "Shotgun Converter",
-          "amount": 5
-        },
-        "Mod_Converter_Light_AIDMG_03": {
-          "inGameName": "Light Creature Dmg",
-          "amount": 5
-        },
-        "Mod_Converter_Medium_AIDMG_03": {
-          "inGameName": "Medium Creature Dmg",
-          "amount": 5
-        },
-        "Mod_ForeGrip_ADS_03": {
-          "inGameName": "Tactical Foregrip",
           "amount": 5
         }
       },
@@ -1663,10 +1480,6 @@
     "stackSize": 10,
     "uses": {
       "printing": {
-        "WP_G_HVY_Beam_01": {
-          "inGameName": "Zeus Beam",
-          "amount": 3
-        },
         "Helmet_05": {
           "inGameName": "Exotic Helmet",
           "amount": 1
@@ -1800,18 +1613,6 @@
         "Mod_Optic_4x_01": {
           "inGameName": "4x Optic",
           "amount": 1
-        },
-        "Mod_Optic_Variable_01": {
-          "inGameName": "2 - 4x Variable Optic",
-          "amount": 2
-        },
-        "Mod_Optic_8x_01": {
-          "inGameName": "8x Optic",
-          "amount": 2
-        },
-        "Mod_Optic_6x_01": {
-          "inGameName": "6x Optic",
-          "amount": 2
         }
       },
       "missions": {
@@ -1867,54 +1668,6 @@
       "printing": {
         "CombatCPU_red": {
           "inGameName": "Master Unit CPU",
-          "amount": 2
-        },
-        "Mod_Magazine_Light_03": {
-          "inGameName": "Light Extended",
-          "amount": 2
-        },
-        "Mod_Magazine_Medium_03": {
-          "inGameName": "Medium Extended",
-          "amount": 2
-        },
-        "Mod_Magazine_Heavy_03": {
-          "inGameName": "Heavy Extended",
-          "amount": 2
-        },
-        "Mod_Magazine_Shotgun_03": {
-          "inGameName": "Shotgun Extended",
-          "amount": 2
-        },
-        "Mod_Magazine_Light_ReloadSpeed_04": {
-          "inGameName": "Light Quickdraw",
-          "amount": 2
-        },
-        "Mod_Magazine_Medium_Reloadspeed_04": {
-          "inGameName": "Medium Quickdraw",
-          "amount": 2
-        },
-        "Mod_Magazine_Heavy_ReloadSpeed_04": {
-          "inGameName": "Heavy Quickdraw",
-          "amount": 2
-        },
-        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
-          "inGameName": "Shotgun Quickdraw",
-          "amount": 2
-        },
-        "Mod_Magazine_Light_EXTReload_02": {
-          "inGameName": "Light Extended Quickdraw",
-          "amount": 2
-        },
-        "Mod_Magazine_Medium_EXTReload_02": {
-          "inGameName": "Medium Extended Quickdraw",
-          "amount": 2
-        },
-        "Mod_Stock_Marksman_ADSEquip_02": {
-          "inGameName": "MKM Ultralight Stock",
-          "amount": 2
-        },
-        "Mod_ForeGrip_ADS_03": {
-          "inGameName": "Tactical Foregrip",
           "amount": 2
         }
       },
@@ -2180,10 +1933,6 @@
         "CombatCPU_red": {
           "inGameName": "Master Unit CPU",
           "amount": 1
-        },
-        "Mod_Stock_Standard_ADSEquip_02": {
-          "inGameName": "Ultralight Stock",
-          "amount": 1
         }
       },
       "missions": {
@@ -2270,14 +2019,6 @@
         "AutoLoader": {
           "inGameName": "Autoloader",
           "amount": 1
-        },
-        "Mod_Stock_Standard_ADSEquip_02": {
-          "inGameName": "Ultralight Stock",
-          "amount": 1
-        },
-        "Mod_Stock_Marksman_ADSEquip_02": {
-          "inGameName": "MKM Ultralight Stock",
-          "amount": 1
         }
       },
       "missions": {
@@ -2335,32 +2076,7 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Mod_Converter_Light_03": {
-          "inGameName": "Light Converter",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_03": {
-          "inGameName": "Medium Converter",
-          "amount": 1
-        },
-        "Mod_Converter_Heavy_03": {
-          "inGameName": "Heavy Converter",
-          "amount": 1
-        },
-        "Mod_Converter_Shotgun_03": {
-          "inGameName": "Shotgun Converter",
-          "amount": 1
-        },
-        "Mod_Converter_Light_AIDMG_03": {
-          "inGameName": "Light Creature Dmg",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_AIDMG_03": {
-          "inGameName": "Medium Creature Dmg",
-          "amount": 1
-        }
-      },
+      "printing": {},
       "missions": {},
       "jobs": {
         "NEW-Medium-ICA-Gather-3": {
@@ -2402,10 +2118,6 @@
         "Consumable_Grenade_03": {
           "inGameName": "Standard Grenade",
           "amount": 2
-        },
-        "Mod_Converter_Heavy_03": {
-          "inGameName": "Heavy Converter",
-          "amount": 5
         }
       },
       "missions": {
@@ -2467,14 +2179,6 @@
         "PortableLabEquipmentBox": {
           "inGameName": "Portable Lab",
           "amount": 2
-        },
-        "QuestItem_OrbitalCanonTargetBeacon": {
-          "inGameName": "Orbital Cannon Beacon",
-          "amount": 4
-        },
-        "WP_A_Sniper_Gauss_01": {
-          "inGameName": "KARMA-1",
-          "amount": 25
         },
         "Helmet_05": {
           "inGameName": "Exotic Helmet",
@@ -2887,10 +2591,6 @@
           "inGameName": "Combat Medkit",
           "amount": 1
         },
-        "Bag_03": {
-          "inGameName": "Large Backpack",
-          "amount": 1
-        },
         "Shield_Tactical_03": {
           "inGameName": "Rare Tactical Shield",
           "amount": 2
@@ -3005,12 +2705,7 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Bag_03": {
-          "inGameName": "Large Backpack",
-          "amount": 2
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-KOR-CraftingBackpack-2": {
           "inGameName": "Exotic Leathers",
@@ -3058,10 +2753,6 @@
         "DerelictExplosives": {
           "inGameName": "Derelict Explosives",
           "amount": 4
-        },
-        "QuestItem_LaserDrillBeacon": {
-          "inGameName": "Laser Drill Beacon",
-          "amount": 18
         },
         "Consumable_AudioDecoy_01": {
           "inGameName": "Audio Decoy",
@@ -3243,10 +2934,6 @@
         "PrintResin": {
           "inGameName": "Print Resin",
           "amount": 1
-        },
-        "QuestItem_LaserDrillBeacon": {
-          "inGameName": "Laser Drill Beacon",
-          "amount": 2
         },
         "Bag_04": {
           "inGameName": "Heavy Duty Backpack",
@@ -3888,10 +3575,6 @@
           "inGameName": "Autoloader",
           "amount": 5
         },
-        "QuestItem_OilPumpBeacon": {
-          "inGameName": "Oil Pump Beacon",
-          "amount": 12
-        },
         "Consumable_Grenade_03": {
           "inGameName": "Standard Grenade",
           "amount": 1
@@ -4440,12 +4123,7 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_A_Launch_MSL_01": {
-          "inGameName": "KOMRAD",
-          "amount": 8
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-Osiris-CombatStims-1": {
           "inGameName": "Combat Ready Part 1",
@@ -4704,20 +4382,7 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {
-        "WP_A_Sniper_Gauss_01": {
-          "inGameName": "KARMA-1",
-          "amount": 3
-        },
-        "WP_G_HVY_Beam_01": {
-          "inGameName": "Zeus Beam",
-          "amount": 3
-        },
-        "Helmet_NV_01": {
-          "inGameName": "Legendary NV Helmet",
-          "amount": 1
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-Osiris-TestRun-1": {
           "inGameName": "Breaking and Entering Part 1",
@@ -4825,7 +4490,11 @@
       "printing": {
         "QuestItem_LaserDrillBeacon": {
           "inGameName": "Laser Drill Beacon",
-          "amount": 80
+          "amount": 40
+        },
+        "Helmet_NV_01": {
+          "inGameName": "Legendary NV Helmet",
+          "amount": 30
         }
       },
       "missions": {},
@@ -5008,7 +4677,7 @@
       "printing": {
         "QuestItem_OrbitalCanonTargetBeacon": {
           "inGameName": "Orbital Cannon Beacon",
-          "amount": 80
+          "amount": 40
         }
       },
       "missions": {
@@ -5200,7 +4869,7 @@
       "printing": {
         "QuestItem_OilPumpBeacon": {
           "inGameName": "Oil Pump Beacon",
-          "amount": 80
+          "amount": 40
         }
       },
       "missions": {},
@@ -5380,12 +5049,7 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_A_Sniper_Gauss_01": {
-          "inGameName": "KARMA-1",
-          "amount": 75
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-KOR-TestRun-1": {
           "inGameName": "The Test Run",
@@ -5430,12 +5094,7 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_A_Launch_MSL_01": {
-          "inGameName": "KOMRAD",
-          "amount": 30
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-ICA-TestRun-2": {
           "inGameName": "Put to the Test Part 2",
@@ -5480,7 +5139,12 @@
     "stackSize": 10,
     "uses": {
       "printing": {},
-      "missions": {},
+      "missions": {
+        "Main-Osiris-Stormdivers-1": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 6
+        }
+      },
       "jobs": {},
       "quarters": {
         "playerquarter_5": {
@@ -5548,13 +5212,13 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_G_HVY_Beam_01": {
-          "inGameName": "Zeus Beam",
-          "amount": 10
+      "printing": {},
+      "missions": {
+        "Main-ICA-Stormdivers-6": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 4
         }
       },
-      "missions": {},
       "jobs": {},
       "quarters": {
         "playerquarter_7": {
@@ -5660,8 +5324,8 @@
     "rarity": "Rare",
     "weight": 3,
     "cost": [],
-    "sellValue": 1025,
-    "factionRep": 10,
+    "sellValue": 1282,
+    "factionRep": 13,
     "tags": [
       "Loot.Category.Resource"
     ],
@@ -5704,8 +5368,8 @@
     "rarity": "Epic",
     "weight": 3,
     "cost": [],
-    "sellValue": 2307,
-    "factionRep": 23,
+    "sellValue": 2884,
+    "factionRep": 29,
     "tags": [
       "Loot.Category.Resource"
     ],
@@ -6070,6 +5734,352 @@
       }
     }
   },
+  "Event_MeteorCore": {
+    "inGameName": "Altered Meteor Core",
+    "description": "Core of a meteor from Fortuna III's cracked moon. Its path through the strange storms over the planet have altered it somehow.\r\n\r\nCan be used for printing high-tier gear.",
+    "type": "material",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 38000,
+        "Event_MeteorFragment": 20
+      }
+    ],
+    "sellValue": 19222,
+    "factionRep": 192,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 5,
+    "uses": {
+      "printing": {
+        "WP_A_AR_Bullet_01": {
+          "inGameName": "KOR-47",
+          "amount": 1
+        },
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 5
+        },
+        "WP_D_SMG_Energy_01": {
+          "inGameName": "Voltaic Brute",
+          "amount": 1
+        },
+        "WP_D_Sniper_Gauss_01": {
+          "inGameName": "Kinetic Arbiter",
+          "amount": 3
+        },
+        "WP_G_Sniper_Energy_01": {
+          "inGameName": "Basilisk",
+          "amount": 3
+        },
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 5
+        },
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 5
+        },
+        "Helmet_NV_01": {
+          "inGameName": "Legendary NV Helmet",
+          "amount": 4
+        }
+      },
+      "missions": {
+        "Main-KOR-Stormdivers-6": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 3
+        },
+        "Main-ICA-Stormdivers-7": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 2
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Event_MeteorFragment": {
+    "inGameName": "Altered Meteor Fragment",
+    "description": "Fragment of a meteor from Fortuna III's cracked moon. Its path through the strange storms over the planet have altered it somehow.\r\n\r\nCan be used at the gear printer. Multiple Fragments can be used to create an Altered Meteor Core.",
+    "type": "material",
+    "rarity": "Epic",
+    "weight": 4,
+    "cost": [],
+    "sellValue": 1909,
+    "factionRep": 19,
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "stackSize": 20,
+    "uses": {
+      "printing": {
+        "Event_MeteorCore": {
+          "inGameName": "Altered Meteor Core",
+          "amount": 20
+        },
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 15
+        },
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 15
+        },
+        "QuestItem_OilPumpBeacon": {
+          "inGameName": "Oil Pump Beacon",
+          "amount": 15
+        },
+        "WP_A_Pistol_Bullet_01": {
+          "inGameName": "Hammer",
+          "amount": 50
+        },
+        "WP_A_AR_Bullet_01": {
+          "inGameName": "KOR-47",
+          "amount": 40
+        },
+        "WP_A_BR_Bullet_01": {
+          "inGameName": "KBR Longshot",
+          "amount": 25
+        },
+        "WP_D_SGun_Shard_01": {
+          "inGameName": "Shattergun",
+          "amount": 25
+        },
+        "WP_D_SMG_Energy_01": {
+          "inGameName": "Voltaic Brute",
+          "amount": 40
+        },
+        "WP_D_AR_Bullet_01": {
+          "inGameName": "Advocate",
+          "amount": 25
+        },
+        "WP_G_SMG_Needle_01": {
+          "inGameName": "Asp Flechette Gun",
+          "amount": 25
+        },
+        "WP_G_AR_Beam_01": {
+          "inGameName": "Gorgon",
+          "amount": 25
+        },
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 6
+        },
+        "Mod_Magazine_Light_03": {
+          "inGameName": "Light Extended",
+          "amount": 4
+        },
+        "Mod_Magazine_Medium_03": {
+          "inGameName": "Medium Extended",
+          "amount": 4
+        },
+        "Mod_Magazine_Heavy_03": {
+          "inGameName": "Heavy Extended",
+          "amount": 4
+        },
+        "Mod_Magazine_Shotgun_03": {
+          "inGameName": "Shotgun Extended",
+          "amount": 4
+        },
+        "Mod_Magazine_Light_ReloadSpeed_04": {
+          "inGameName": "Light Quickdraw",
+          "amount": 4
+        },
+        "Mod_Magazine_Medium_Reloadspeed_04": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 4
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_04": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 4
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 4
+        },
+        "Mod_Magazine_Light_EXTReload_02": {
+          "inGameName": "Light Extended Quickdraw",
+          "amount": 4
+        },
+        "Mod_Magazine_Medium_EXTReload_02": {
+          "inGameName": "Medium Extended Quickdraw",
+          "amount": 4
+        },
+        "Mod_Stock_Standard_ADSEquip_02": {
+          "inGameName": "Ultralight Stock",
+          "amount": 4
+        },
+        "Mod_Stock_Marksman_ADSEquip_02": {
+          "inGameName": "MKM Ultralight Stock",
+          "amount": 4
+        },
+        "Mod_Converter_Light_03": {
+          "inGameName": "Light Converter",
+          "amount": 8
+        },
+        "Mod_Converter_Medium_03": {
+          "inGameName": "Medium Converter",
+          "amount": 8
+        },
+        "Mod_Converter_Heavy_03": {
+          "inGameName": "Heavy Converter",
+          "amount": 8
+        },
+        "Mod_Converter_Shotgun_03": {
+          "inGameName": "Shotgun Converter",
+          "amount": 8
+        },
+        "Mod_Converter_Light_AIDMG_03": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 4
+        },
+        "Mod_Converter_Medium_AIDMG_03": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 4
+        },
+        "Mod_ForeGrip_ADS_03": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 4
+        },
+        "Mod_Optic_Variable_01": {
+          "inGameName": "2 - 4x Variable Optic",
+          "amount": 4
+        },
+        "Mod_Optic_8x_01": {
+          "inGameName": "8x Optic",
+          "amount": 4
+        },
+        "Mod_Optic_6x_01": {
+          "inGameName": "6x Optic",
+          "amount": 4
+        }
+      },
+      "missions": {
+        "Main-KOR-Stormdivers-3": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 15
+        },
+        "Main-ICA-Stormdivers-5": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 10
+        },
+        "Main-Osiris-Stormdivers-6": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 8
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Event_StormDiversFlyer": {
+    "inGameName": "Storm Divers Commission",
+    "description": "Official document issued to prospectors that drop onto Crescent Falls or Tharis Island as a Storm Diver. Required to hand in to the factions for certain missions as proof of participation.\r\n\r\nWarning: Storms on Crescent Falls and Tharis Island have a dramatically increased frequency and intensity. Use extreme caution when dropping to these areas, and don't hesitate to make use of the gear granted by the factions in crates placed around your drop pod.",
+    "type": "material",
+    "rarity": "Uncommon",
+    "weight": 0.1,
+    "cost": [],
+    "sellValue": 608,
+    "factionRep": 6,
+    "tags": [
+      "Loot.Category.Valuable"
+    ],
+    "stackSize": 1000,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-KOR-Stormdivers-1": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 20
+        },
+        "Main-KOR-Stormdivers-2": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 20
+        },
+        "Main-KOR-Stormdivers-3": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 20
+        },
+        "Main-KOR-Stormdivers-4": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 40
+        },
+        "Main-KOR-Stormdivers-5": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 40
+        },
+        "Main-KOR-Stormdivers-6": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 40
+        },
+        "Main-KOR-Stormdivers-7": {
+          "inGameName": "STORM DIVERS: Forged in the Storm Part undefined",
+          "amount": 100
+        },
+        "Main-ICA-Stormdivers-1": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 20
+        },
+        "Main-ICA-Stormdivers-2": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 20
+        },
+        "Main-ICA-Stormdivers-3": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 20
+        },
+        "Main-ICA-Stormdivers-4": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 40
+        },
+        "Main-ICA-Stormdivers-5": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 40
+        },
+        "Main-ICA-Stormdivers-6": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 40
+        },
+        "Main-ICA-Stormdivers-7": {
+          "inGameName": "STORM DIVERS: Storm Breaker Part undefined",
+          "amount": 100
+        },
+        "Main-Osiris-Stormdivers-1": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 20
+        },
+        "Main-Osiris-Stormdivers-2": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 20
+        },
+        "Main-Osiris-Stormdivers-3": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 20
+        },
+        "Main-Osiris-Stormdivers-5": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 40
+        },
+        "Main-Osiris-Stormdivers-6": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 40
+        },
+        "Main-Osiris-Stormdivers-7": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 100
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
   "QuestItem_LaserDrillBeacon": {
     "inGameName": "Laser Drill Beacon",
     "description": "A powerful locator that can be used to call down a Korolev Laser Drill Platform on Extreme Letium Veins.",
@@ -6080,9 +6090,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 49000,
-        "SmartMesh": 2,
-        "Cables": 18,
-        "KorolevScrip": 80
+        "Event_MeteorFragment": 15,
+        "KorolevScrip": 40
       }
     ],
     "sellValue": 4936,
@@ -6258,12 +6267,7 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {
-        "QuestItem_OrbitalCanonTargetBeacon": {
-          "inGameName": "Orbital Cannon Beacon",
-          "amount": 1
-        }
-      },
+      "printing": {},
       "missions": {
         "Main-KOR-LetiumResearch-8": {
           "inGameName": "Trek for Data",
@@ -6323,10 +6327,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 49000,
-        "DerelictExplosives": 3,
-        "Datapad": 4,
-        "HardDrive_legendary": 1,
-        "OsirisScrip": 80
+        "Event_MeteorFragment": 15,
+        "OsirisScrip": 40
       }
     ],
     "sellValue": 4936,
@@ -6353,13 +6355,12 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 49000,
-        "HydraulicPiston": 12,
-        "AluminumParts": 12,
-        "ICAScrip": 80
+        "Event_MeteorFragment": 15,
+        "ICAScrip": 40
       }
     ],
-    "sellValue": 4936,
-    "factionRep": 5,
+    "sellValue": 987,
+    "factionRep": 1,
     "tags": [
       "Loot.Category.Utility"
     ],
@@ -6431,7 +6432,7 @@
     "rarity": "Common",
     "weight": 5,
     "cost": [],
-    "sellValue": 0,
+    "sellValue": 2,
     "factionRep": 0,
     "tags": [
       "Loot.Category.MissionItem"
@@ -7168,6 +7169,32 @@
       "forge": {}
     }
   },
+  "MissionItem_StormdiversHowlerSpike": {
+    "inGameName": "Spike from an Unknown Creature",
+    "description": "A very dangerous-looking Spike, left behind by a strange new Creature that seems to have appeared on Fortuna. Be on your guard.",
+    "type": "questItem",
+    "rarity": "Common",
+    "weight": 5,
+    "cost": [],
+    "sellValue": 2,
+    "factionRep": 0,
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {
+        "Main-Osiris-Stormdivers-4": {
+          "inGameName": "STORM DIVERS: Lightning in a bottle Part undefined",
+          "amount": 1
+        }
+      },
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
   "WP_A_Pistol_Bullet_01": {
     "inGameName": "Hammer",
     "description": "Pistol, inflicts devastating damage on its targets, at the cost of any kind of subtlety.",
@@ -7178,6 +7205,11 @@
       {
         "shop": "Korolev",
         "SoftCurrency": 56000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 14000,
+        "Event_MeteorFragment": 50
       }
     ],
     "sellValue": 16805,
@@ -7256,6 +7288,12 @@
       {
         "shop": "Korolev",
         "SoftCurrency": 161000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 40250,
+        "Event_MeteorCore": 1,
+        "Event_MeteorFragment": 40
       }
     ],
     "sellValue": 48261,
@@ -7282,6 +7320,11 @@
       {
         "shop": "Korolev",
         "SoftCurrency": 76000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 19000,
+        "Event_MeteorFragment": 25
       }
     ],
     "sellValue": 22781,
@@ -7307,11 +7350,8 @@
     "cost": [
       {
         "shop": "CraftingStation",
-        "SoftCurrency": 1085000,
-        "Letium": 75,
-        "MeteorCore": 10,
-        "Datapad": 25,
-        "AlphaWardenHeart": 3
+        "SoftCurrency": 271250,
+        "Event_MeteorCore": 5
       }
     ],
     "sellValue": 325513,
@@ -7364,6 +7404,11 @@
       {
         "shop": "ICA",
         "SoftCurrency": 41000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 10250,
+        "Event_MeteorFragment": 25
       }
     ],
     "sellValue": 12341,
@@ -7390,6 +7435,12 @@
       {
         "shop": "ICA",
         "SoftCurrency": 114000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 28500,
+        "Event_MeteorCore": 1,
+        "Event_MeteorFragment": 40
       }
     ],
     "sellValue": 34172,
@@ -7442,6 +7493,11 @@
       {
         "shop": "ICA",
         "SoftCurrency": 58000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 14500,
+        "Event_MeteorFragment": 25
       }
     ],
     "sellValue": 17429,
@@ -7494,6 +7550,11 @@
       {
         "shop": "ICA",
         "SoftCurrency": 315000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 78750,
+        "Event_MeteorCore": 3
       }
     ],
     "sellValue": 94459,
@@ -7739,6 +7800,11 @@
       {
         "shop": "Osiris",
         "SoftCurrency": 41000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 10250,
+        "Event_MeteorFragment": 25
       }
     ],
     "sellValue": 12341,
@@ -7791,6 +7857,11 @@
       {
         "shop": "Osiris",
         "SoftCurrency": 58000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 14500,
+        "Event_MeteorFragment": 25
       }
     ],
     "sellValue": 17429,
@@ -7843,6 +7914,11 @@
       {
         "shop": "Osiris",
         "SoftCurrency": 210000
+      },
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 52500,
+        "Event_MeteorCore": 3
       }
     ],
     "sellValue": 63080,
@@ -7889,11 +7965,8 @@
     "cost": [
       {
         "shop": "CraftingStation",
-        "SoftCurrency": 993000,
-        "OilTank": 30,
-        "MeteorCore": 10,
-        "DerelictExplosives": 20,
-        "AI_CrusherMeat": 8
+        "SoftCurrency": 248250,
+        "Event_MeteorCore": 5
       }
     ],
     "sellValue": 297815,
@@ -7961,11 +8034,8 @@
     "cost": [
       {
         "shop": "CraftingStation",
-        "SoftCurrency": 902000,
-        "AlphaWardenHeart": 3,
-        "MeteorCore": 10,
-        "Gyroscope": 3,
-        "AI_WeremoleMeat_02": 10
+        "SoftCurrency": 225500,
+        "Event_MeteorCore": 5
       }
     ],
     "sellValue": 270540,
@@ -8005,7 +8075,7 @@
   },
   "Consumable_Health_01": {
     "inGameName": "Weak Stim",
-    "description": "Offering an immediate 15 health boost.",
+    "description": "Fast application. Provides a slight health boost.",
     "type": "consumable",
     "rarity": "Common",
     "weight": 3,
@@ -8043,7 +8113,7 @@
   },
   "Consumable_Health_02": {
     "inGameName": "Strong Stim",
-    "description": "Offering an immediate 25 health boost.",
+    "description": "Fast application. Provides a small health boost.",
     "type": "consumable",
     "rarity": "Uncommon",
     "weight": 3,
@@ -8076,7 +8146,7 @@
   },
   "Consumable_Health_03": {
     "inGameName": "Weak Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a great health boost.",
     "type": "consumable",
     "rarity": "Common",
     "weight": 15,
@@ -8114,7 +8184,7 @@
   },
   "Consumable_Health_04": {
     "inGameName": "Combat Stim",
-    "description": "Offering an immediate 30 health boost.",
+    "description": "Fast application. Provides a moderate health boost.",
     "type": "consumable",
     "rarity": "Rare",
     "weight": 3,
@@ -8147,7 +8217,7 @@
   },
   "Consumable_Health_05": {
     "inGameName": "Strong Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a massive health boost.",
     "type": "consumable",
     "rarity": "Uncommon",
     "weight": 15,
@@ -8179,7 +8249,7 @@
   },
   "Consumable_Health_06": {
     "inGameName": "Combat Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a full health boost.",
     "type": "consumable",
     "rarity": "Rare",
     "weight": 15,
@@ -8471,9 +8541,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 6100,
-        "Fabrics": 2,
-        "IvyPlant": 1,
-        "PureNickel": 3
+        "Event_MeteorFragment": 6
       }
     ],
     "sellValue": 1823,
@@ -8540,12 +8608,7 @@
     "type": "backpack",
     "rarity": "Epic",
     "weight": 50,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 18000
-      }
-    ],
+    "cost": [],
     "sellValue": 5468,
     "factionRep": 55,
     "tags": [],
@@ -8569,12 +8632,7 @@
     "type": "backpack",
     "rarity": "Exotic",
     "weight": 60,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 32000
-      }
-    ],
+    "cost": [],
     "sellValue": 9568,
     "factionRep": 96,
     "tags": [],
@@ -8593,14 +8651,46 @@
     "type": "backpack",
     "rarity": "Legendary",
     "weight": 70,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 48000
-      }
-    ],
+    "cost": [],
     "sellValue": 14352,
     "factionRep": 144,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Bag_02_Event_StaminaRegenDelay": {
+    "inGameName": "Storm Diver Backpack - Vigor",
+    "type": "backpack",
+    "rarity": "Uncommon",
+    "weight": 30,
+    "cost": [],
+    "sellValue": 405,
+    "factionRep": 4,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Bag_02_Event_StormProt": {
+    "inGameName": "Storm Diver Backpack - Grounded",
+    "description": "Makeshift backpack built with Progenitor materials; can absorb some energy from lightning strikes.",
+    "type": "backpack",
+    "rarity": "Uncommon",
+    "weight": 30,
+    "cost": [],
+    "sellValue": 405,
+    "factionRep": 4,
     "tags": [],
     "stackSize": 1,
     "uses": {
@@ -8923,12 +9013,7 @@
     "type": "shield",
     "rarity": "Epic",
     "weight": 40,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 43000
-      }
-    ],
+    "cost": [],
     "sellValue": 12985,
     "factionRep": 130,
     "tags": [],
@@ -8947,12 +9032,7 @@
     "type": "shield",
     "rarity": "Exotic",
     "weight": 40,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 75000
-      }
-    ],
+    "cost": [],
     "sellValue": 22553,
     "factionRep": 226,
     "tags": [],
@@ -8971,14 +9051,85 @@
     "type": "shield",
     "rarity": "Legendary",
     "weight": 40,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 128000
-      }
-    ],
+    "cost": [],
     "sellValue": 38444,
     "factionRep": 384,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Shield_02_Event_HealthRegen": {
+    "inGameName": "Uncommon Storm Diver Restoration Shield",
+    "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms.",
+    "type": "shield",
+    "rarity": "Uncommon",
+    "weight": 40,
+    "cost": [],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Shield_02_Event_StormProtection": {
+    "inGameName": "Uncommon Storm Diver Shield - Grounded",
+    "description": "Makeshift shield built with salvaged Progenitor tech; can better absorb damage from lightning strikes.",
+    "type": "shield",
+    "rarity": "Uncommon",
+    "weight": 40,
+    "cost": [],
+    "sellValue": 304,
+    "factionRep": 3,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Shield_03_Event_HealthRegen_StormProt": {
+    "inGameName": "Rare Storm Diver Restoration Shield - Grounded",
+    "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms, as well as improved resistance to lightning strikes.",
+    "type": "shield",
+    "rarity": "Rare",
+    "weight": 40,
+    "cost": [],
+    "sellValue": 2278,
+    "factionRep": 23,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Shield_03_Event_AIProt_StormProt": {
+    "inGameName": "Rare Storm Diver Shield - Enhanced",
+    "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms, and absorb more damage from Fortuna III's hostile fauna.",
+    "type": "shield",
+    "rarity": "Rare",
+    "weight": 40,
+    "cost": [],
+    "sellValue": 2278,
+    "factionRep": 23,
     "tags": [],
     "stackSize": 1,
     "uses": {
@@ -9283,10 +9434,9 @@
     "cost": [
       {
         "shop": "CraftingStation",
-        "SoftCurrency": 77000,
-        "MeteorCore": 4,
-        "EpicVeltecite": 3,
-        "AlphaWardenHeart": 1
+        "SoftCurrency": 38500,
+        "Event_MeteorCore": 4,
+        "KorolevScrip": 30
       }
     ],
     "sellValue": 23066,
@@ -9307,12 +9457,7 @@
     "type": "helmet",
     "rarity": "Epic",
     "weight": 20,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 21000
-      }
-    ],
+    "cost": [],
     "sellValue": 6265,
     "factionRep": 63,
     "tags": [],
@@ -9331,12 +9476,7 @@
     "type": "helmet",
     "rarity": "Exotic",
     "weight": 20,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 43000
-      }
-    ],
+    "cost": [],
     "sellValue": 12815,
     "factionRep": 128,
     "tags": [],
@@ -9355,14 +9495,85 @@
     "type": "helmet",
     "rarity": "Legendary",
     "weight": 20,
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 85000
-      }
-    ],
+    "cost": [],
     "sellValue": 25629,
     "factionRep": 256,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Helmet_02_Event_NightVision": {
+    "inGameName": "Uncommon Storm Diver NV Helmet",
+    "description": "Makeshift helmet built with discarded Progenitor tech",
+    "type": "helmet",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 253,
+    "factionRep": 2,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Helmet_02_Event_StormProt": {
+    "inGameName": "Uncommon Storm Diver Helmet - Grounded",
+    "description": "Makeshift helmet assembled with Progenitor materials; is able to better absorb damage from lightning strikes.",
+    "type": "helmet",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 253,
+    "factionRep": 2,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Helmet_03_Event_MaxHealth_StormProt": {
+    "inGameName": "Rare Storm Diver Helmet - Booster",
+    "description": "Makeshift helmet assembled with Progenitor materials and salvaged tech; improves the wearer's vitality while in use, and is able to better absorb damage from lightning strikes.",
+    "type": "helmet",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 1139,
+    "factionRep": 11,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "Helmet_03_Event_NV_StormProt": {
+    "inGameName": "Rare Storm Diver NV Helmet - Grounded",
+    "description": "Makeshift NV helmet assembled with Progenitor materials and discarded tech; is able to better absorb damage from lightning strikes.",
+    "type": "helmet",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [],
+    "sellValue": 1139,
+    "factionRep": 11,
     "tags": [],
     "stackSize": 1,
     "uses": {
@@ -9641,9 +9852,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10128,9 +10337,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10178,9 +10385,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10228,9 +10433,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10337,9 +10540,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10446,9 +10647,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10555,9 +10754,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10664,9 +10861,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10714,9 +10909,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10764,9 +10957,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -10936,8 +11127,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "ShockAbsorber": 1,
-        "MiniatureReactor": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -11107,8 +11297,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "ShockAbsorber": 1,
-        "MultiTool": 2
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -11316,9 +11505,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "AutoLoader": 1,
-        "TitanOre": 1
+        "Event_MeteorFragment": 8
       }
     ],
     "sellValue": 2405,
@@ -11366,9 +11553,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "AutoLoader": 1,
-        "TitanOre": 1
+        "Event_MeteorFragment": 8
       }
     ],
     "sellValue": 2405,
@@ -11416,9 +11601,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "AutoLoader": 1,
-        "MagneticFieldStabilizer": 5
+        "Event_MeteorFragment": 8
       }
     ],
     "sellValue": 2405,
@@ -11466,9 +11649,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "AutoLoader": 1,
-        "DerelictExplosives": 1
+        "Event_MeteorFragment": 8
       }
     ],
     "sellValue": 2405,
@@ -11537,9 +11718,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "AutoLoader": 1,
-        "TitanOre": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -11608,9 +11787,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "AutoLoader": 1,
-        "TitanOre": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -11780,9 +11957,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "HydraulicPiston": 5,
-        "MultiTool": 2,
-        "RareVeltecite": 1
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -11955,8 +12130,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "PrintResin": 2,
-        "OpticGlass": 3
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -11983,8 +12157,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "PrintResin": 2,
-        "OpticGlass": 3
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,
@@ -12011,8 +12184,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "PrintResin": 2,
-        "OpticGlass": 3
+        "Event_MeteorFragment": 4
       }
     ],
     "sellValue": 2405,

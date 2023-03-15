@@ -371,10 +371,9 @@
     "cost": [
       {
         "shop": "CraftingStation",
-        "SoftCurrency": 77000,
-        "MeteorCore": 4,
-        "EpicVeltecite": 3,
-        "AlphaWardenHeart": 1
+        "SoftCurrency": 38500,
+        "Event_MeteorCore": 4,
+        "KorolevScrip": 30
       }
     ]
   },
@@ -394,12 +393,7 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 21000
-      }
-    ]
+    "cost": []
   },
   "Helmet_Altered_02": {
     "inGameName": "Exotic Forged Helmet",
@@ -417,12 +411,7 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "None",
-        "SoftCurrency": 43000
-      }
-    ]
+    "cost": []
   },
   "Helmet_Altered_03": {
     "inGameName": "Legendary Forged Helmet",
@@ -440,11 +429,154 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
+    "cost": []
+  },
+  "Helmet_02_Event_NightVision": {
+    "inGameName": "Uncommon Storm Diver NV Helmet",
+    "description": "Makeshift helmet built with discarded Progenitor tech",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "armorAmount": 15,
+    "durability": 300,
+    "sellValue": 253,
+    "factionRep": 2,
+    "repair": {
+      "baseCost": 153,
+      "costModifierBroken": 384,
+      "maxPrice": 765,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
       {
-        "shop": "None",
-        "SoftCurrency": 85000
+        "inGameName": "Enhanced Night Vision (can be toggled on/off)",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HelmetNV",
+            "modifierType": "Override",
+            "modiferValue": 1
+          }
+        ]
       }
-    ]
+    ],
+    "cost": []
+  },
+  "Helmet_02_Event_StormProt": {
+    "inGameName": "Uncommon Storm Diver Helmet - Grounded",
+    "description": "Makeshift helmet assembled with Progenitor materials; is able to better absorb damage from lightning strikes.",
+    "rarity": "Uncommon",
+    "weight": 20,
+    "armorAmount": 15,
+    "durability": 300,
+    "sellValue": 253,
+    "factionRep": 2,
+    "repair": {
+      "baseCost": 153,
+      "costModifierBroken": 384,
+      "maxPrice": 765,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Less damage from Storm strikes",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "DamageScalingReceivedFromStorm",
+            "modifierType": "Multiplicitive_PreAdd",
+            "modiferValue": 0.8
+          }
+        ]
+      }
+    ],
+    "cost": []
+  },
+  "Helmet_03_Event_MaxHealth_StormProt": {
+    "inGameName": "Rare Storm Diver Helmet - Booster",
+    "description": "Makeshift helmet assembled with Progenitor materials and salvaged tech; improves the wearer's vitality while in use, and is able to better absorb damage from lightning strikes.",
+    "rarity": "Rare",
+    "weight": 20,
+    "armorAmount": 20,
+    "durability": 400,
+    "sellValue": 1139,
+    "factionRep": 11,
+    "repair": {
+      "baseCost": 608,
+      "costModifierBroken": 1521,
+      "maxPrice": 3040,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Maximum health",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxHealth",
+            "modifierType": "Additive",
+            "modiferValue": 10
+          }
+        ]
+      },
+      {
+        "inGameName": "Less damage from Storm strikes",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "DamageScalingReceivedFromStorm",
+            "modifierType": "Multiplicitive_PreAdd",
+            "modiferValue": 0.8
+          }
+        ]
+      }
+    ],
+    "cost": []
+  },
+  "Helmet_03_Event_NV_StormProt": {
+    "inGameName": "Rare Storm Diver NV Helmet - Grounded",
+    "description": "Makeshift NV helmet assembled with Progenitor materials and discarded tech; is able to better absorb damage from lightning strikes.",
+    "rarity": "Rare",
+    "weight": 20,
+    "armorAmount": 20,
+    "durability": 400,
+    "sellValue": 1139,
+    "factionRep": 11,
+    "repair": {
+      "baseCost": 608,
+      "costModifierBroken": 1521,
+      "maxPrice": 3040,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Enhanced Night Vision (can be toggled on/off)",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HelmetNV",
+            "modifierType": "Override",
+            "modiferValue": 1
+          }
+        ]
+      },
+      {
+        "inGameName": "Less damage from Storm strikes",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "DamageScalingReceivedFromStorm",
+            "modifierType": "Multiplicitive_PreAdd",
+            "modiferValue": 0.8
+          }
+        ]
+      }
+    ],
+    "cost": []
   }
 }

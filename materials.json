@@ -1313,8 +1313,8 @@
     ],
     "weight": 3,
     "stackSize": 10,
-    "sellValue": 1025,
-    "factionRep": 10,
+    "sellValue": 1282,
+    "factionRep": 13,
     "questItem": false,
     "cost": []
   },
@@ -1327,8 +1327,8 @@
     ],
     "weight": 3,
     "stackSize": 10,
-    "sellValue": 2307,
-    "factionRep": 23,
+    "sellValue": 2884,
+    "factionRep": 29,
     "questItem": false,
     "cost": []
   },
@@ -1444,6 +1444,54 @@
     "questItem": false,
     "cost": []
   },
+  "Event_MeteorCore": {
+    "inGameName": "Altered Meteor Core",
+    "description": "Core of a meteor from Fortuna III's cracked moon. Its path through the strange storms over the planet have altered it somehow.\r\n\r\nCan be used for printing high-tier gear.",
+    "rarity": "Exotic",
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "weight": 20,
+    "stackSize": 5,
+    "sellValue": 19222,
+    "factionRep": 192,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 38000,
+        "Event_MeteorFragment": 20
+      }
+    ]
+  },
+  "Event_MeteorFragment": {
+    "inGameName": "Altered Meteor Fragment",
+    "description": "Fragment of a meteor from Fortuna III's cracked moon. Its path through the strange storms over the planet have altered it somehow.\r\n\r\nCan be used at the gear printer. Multiple Fragments can be used to create an Altered Meteor Core.",
+    "rarity": "Epic",
+    "tags": [
+      "Loot.Category.Resource"
+    ],
+    "weight": 4,
+    "stackSize": 20,
+    "sellValue": 1909,
+    "factionRep": 19,
+    "questItem": false,
+    "cost": []
+  },
+  "Event_StormDiversFlyer": {
+    "inGameName": "Storm Divers Commission",
+    "description": "Official document issued to prospectors that drop onto Crescent Falls or Tharis Island as a Storm Diver. Required to hand in to the factions for certain missions as proof of participation.\r\n\r\nWarning: Storms on Crescent Falls and Tharis Island have a dramatically increased frequency and intensity. Use extreme caution when dropping to these areas, and don't hesitate to make use of the gear granted by the factions in crates placed around your drop pod.",
+    "rarity": "Uncommon",
+    "tags": [
+      "Loot.Category.Valuable"
+    ],
+    "weight": 0.1,
+    "stackSize": 1000,
+    "sellValue": 608,
+    "factionRep": 6,
+    "questItem": false,
+    "cost": []
+  },
   "QuestItem_LaserDrillBeacon": {
     "inGameName": "Laser Drill Beacon",
     "description": "A powerful locator that can be used to call down a Korolev Laser Drill Platform on Extreme Letium Veins.",
@@ -1460,9 +1508,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 49000,
-        "SmartMesh": 2,
-        "Cables": 18,
-        "KorolevScrip": 80
+        "Event_MeteorFragment": 15,
+        "KorolevScrip": 40
       }
     ]
   },
@@ -1571,10 +1618,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 49000,
-        "DerelictExplosives": 3,
-        "Datapad": 4,
-        "HardDrive_legendary": 1,
-        "OsirisScrip": 80
+        "Event_MeteorFragment": 15,
+        "OsirisScrip": 40
       }
     ]
   },
@@ -1587,16 +1632,15 @@
     ],
     "weight": 6,
     "stackSize": 3,
-    "sellValue": 4936,
-    "factionRep": 5,
+    "sellValue": 987,
+    "factionRep": 1,
     "questItem": true,
     "cost": [
       {
         "shop": "CraftingStation",
         "SoftCurrency": 49000,
-        "HydraulicPiston": 12,
-        "AluminumParts": 12,
-        "ICAScrip": 80
+        "Event_MeteorFragment": 15,
+        "ICAScrip": 40
       }
     ]
   },
@@ -1637,7 +1681,7 @@
     ],
     "weight": 5,
     "stackSize": 1,
-    "sellValue": 0,
+    "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
     "cost": []
@@ -2028,6 +2072,20 @@
       "Loot.Category.MissionItem"
     ],
     "weight": 8,
+    "stackSize": 1,
+    "sellValue": 2,
+    "factionRep": 0,
+    "questItem": true,
+    "cost": []
+  },
+  "MissionItem_StormdiversHowlerSpike": {
+    "inGameName": "Spike from an Unknown Creature",
+    "description": "A very dangerous-looking Spike, left behind by a strange new Creature that seems to have appeared on Fortuna. Be on your guard.",
+    "rarity": "Common",
+    "tags": [
+      "Loot.Category.MissionItem"
+    ],
+    "weight": 5,
     "stackSize": 1,
     "sellValue": 2,
     "factionRep": 0,

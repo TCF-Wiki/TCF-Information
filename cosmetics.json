@@ -3975,7 +3975,7 @@
       "exclusiveWeapon": []
     },
     "Vanity_All_Striped02": {
-      "ingamename": "Cold Heat",
+      "ingamename": "Scanner Lines",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
       "shopImage": "",
@@ -3988,7 +3988,7 @@
       "exclusiveWeapon": []
     },
     "Vanity_All_Striped03": {
-      "ingamename": "Green Grass",
+      "ingamename": "Researcher Green",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
       "shopImage": "",
@@ -4014,7 +4014,7 @@
       "exclusiveWeapon": []
     },
     "Vanity_All_Gradient02": {
-      "ingamename": "Deep Blue",
+      "ingamename": "Neon Blast",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
       "shopImage": "",
@@ -4489,7 +4489,7 @@
       "exclusiveWeapon": []
     },
     "Vanity_All_Gradient07": {
-      "ingamename": "Neon Wave",
+      "ingamename": "Dark Neon",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Gradient07",
       "shopImage": "",
@@ -5639,6 +5639,66 @@
       "priceHardCurrency": 500,
       "priceRealMoney": 0,
       "exclusiveWeapon": []
+    },
+    "Vanity_SniperRifle_COT_C32_HexCage": {
+      "ingamename": "",
+      "description": "A shame your targets won't appreciate this beauty...",
+      "image": "PlaceHolderAsset_Texture_M",
+      "shopImage": "Shop_PrestigeC32",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponSkin"
+      ],
+      "priceHardCurrency": 775,
+      "priceRealMoney": 0,
+      "exclusiveWeapon": [
+        "C-32 Bolt Action"
+      ]
+    },
+    "Vanity_SMG_ICA_VoltaicBrute_StormDivers": {
+      "ingamename": "Storm Diver Voltaic Brute",
+      "description": "Thematically appropriate for this beast of a weapon.\r\n\r\nCan only be applied to the Voltaic Brute.",
+      "image": "Vanity_WeaponSkin_P_BruteStormDivers",
+      "shopImage": "Shop_MuertaVoltaicBrute",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.WeaponSkin"
+      ],
+      "priceHardCurrency": 1125,
+      "priceRealMoney": 0,
+      "exclusiveWeapon": [
+        "Voltaic Brute"
+      ]
+    },
+    "Vanity_SniperRifle_OSI_Basilisk_StormDivers": {
+      "ingamename": "Storm Diver Basilisk",
+      "description": "Truly electrifying!\r\n\r\nCan only be applied to the Basilisk.",
+      "image": "Vanity_WeaponSkin_P_BasiliskStormDiver",
+      "shopImage": "",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.WeaponSkin"
+      ],
+      "priceHardCurrency": 1125,
+      "priceRealMoney": 0,
+      "exclusiveWeapon": [
+        "Basilisk"
+      ]
+    },
+    "Vanity_AssaultRifle_KOR_Kor47_StormDivers": {
+      "ingamename": "Storm Diver KOR-47",
+      "description": "Now with extra power!\r\n\r\nCan only be applied to the KOR-47.",
+      "image": "Vanity_WeaponSkin_P_Kor47StormDivers",
+      "shopImage": "Shop_PrestigeKor47",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.WeaponSkin"
+      ],
+      "priceHardCurrency": 1125,
+      "priceRealMoney": 0,
+      "exclusiveWeapon": [
+        "KOR-47"
+      ]
     }
   },
   "Melees": {
@@ -7325,7 +7385,7 @@
       "priceRealMoney": 0
     },
     "Banner_PartnerBadumsFinest": {
-      "ingamename": "Shop_Banner_PartnerBadumsFinest",
+      "ingamename": "Badum's Finest",
       "description": "",
       "image": "Vanity_Banner_PartnerBadumsFinest",
       "shopImage": "",
@@ -7361,7 +7421,7 @@
       "priceRealMoney": 0
     },
     "Banner_PartnerFortunasFavoredLegacy": {
-      "ingamename": "Shop_Banner_PartnerFortunasFavoredLegacy",
+      "ingamename": "Legacy - Fortuna's Favored",
       "description": "",
       "image": "Vanity_Banner_PartnerFortunasFavoredLegacy",
       "shopImage": "",
@@ -7373,7 +7433,7 @@
       "priceRealMoney": 0
     },
     "Banner_PartnerBadumsFinestLegacy": {
-      "ingamename": "Shop_Banner_PartnerBadumsFinestLegacy",
+      "ingamename": "Legacy - Badum's Finest",
       "description": "",
       "image": "Vanity_Banner_PartnerBadumsFinestLegacy",
       "shopImage": "",
