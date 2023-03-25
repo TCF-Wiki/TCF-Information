@@ -171,7 +171,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_MaxStamina_03"
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 20
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -208,7 +219,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_MaxStamina_04"
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 25
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -236,7 +258,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_MaxStamina_05"
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 30
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -264,7 +297,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_HealthRegenerationRate_02"
+      {
+        "inGameName": "Health restoration per second",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HealthRegenerationRate",
+            "modifierType": "Additive",
+            "modiferValue": 0.2
+          }
+        ]
+      }
     ],
     "cost": [
       {
@@ -292,7 +336,18 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
-      "Perk_HealthRegenerationRate_03"
+      {
+        "inGameName": "Health restoration per second",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HealthRegenerationRate",
+            "modifierType": "Additive",
+            "modiferValue": 0.3
+          }
+        ]
+      }
     ],
     "cost": [
       {
