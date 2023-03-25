@@ -2249,5 +2249,369 @@
     "factionRep": 0,
     "questItem": true,
     "cost": []
+  },
+  "Ammo_Light": {
+    "inGameName": "Light ammo",
+    "description": "Cheap ammo for pistols and submachine guns. Compatible weapons: K-28, S-576 PDW, Scarab, KM-9 'Scrapper'.",
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.06,
+    "stackSize": 250,
+    "sellValue": 11,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 230
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 230
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 230
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 230
+      }
+    ]
+  },
+  "Ammo_Medium": {
+    "inGameName": "Medium ammo",
+    "description": "Standard issue assault rifle ammo. Compatible weapons: AR-55 Autorifle, Manticore.",
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.08,
+    "stackSize": 250,
+    "sellValue": 11,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 390
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 390
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 390
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 390
+      }
+    ]
+  },
+  "Ammo_Heavy": {
+    "inGameName": "Heavy ammo",
+    "description": "Standard issue sniper rifle ammo. Compatible weapons: C-32 Bolt Action.",
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.5,
+    "stackSize": 50,
+    "sellValue": 51,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 1000
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 1000
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 1000
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 1000
+      }
+    ]
+  },
+  "Ammo_Shotgun": {
+    "inGameName": "Shotgun ammo",
+    "description": "Standard issue shotgun ammo. Compatible weapons: B9 Trenchgun, Bulldog.",
+    "rarity": "Uncommon",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.4,
+    "stackSize": 50,
+    "sellValue": 25,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 510
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 510
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 510
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 510
+      }
+    ]
+  },
+  "Ammo_Special": {
+    "inGameName": "Derelict ammo",
+    "description": "Rusty old times ammo cartridge. It is safe to sell it or throw it away.",
+    "rarity": "Common",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.3,
+    "stackSize": 50,
+    "sellValue": 38,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": []
+  },
+  "Ammo_Medium_03": {
+    "inGameName": "Shard medium ammo",
+    "description": "Advanced ammo for assault rifles and light machine guns. Compatible weapons: ICA Guarantee, Phasic Lancer.",
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.1,
+    "stackSize": 250,
+    "sellValue": 11,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 1900
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 1900
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 1900
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 1900
+      }
+    ]
+  },
+  "Ammo_Heavy_03": {
+    "inGameName": "Shard heavy ammo",
+    "description": "Advanced ammo for sniper and designated marksman rifles. Compatible weapons: Lacerator, KBR-Longshot.",
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.6,
+    "stackSize": 50,
+    "sellValue": 51,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 3500
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3500
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 3500
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 3500
+      }
+    ]
+  },
+  "Ammo_Shotgun_03": {
+    "inGameName": "Shard shotgun ammo",
+    "description": "Advanced shotgun ammo. Compatible weapons: PKR Maelstrom, Shattergun.",
+    "rarity": "Rare",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.5,
+    "stackSize": 50,
+    "sellValue": 25,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 2200
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 2200
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 2200
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 2200
+      }
+    ]
+  },
+  "Ammo_Light_04": {
+    "inGameName": "Impact light ammo",
+    "description": "Ultimate ammo for pistols and submachine guns. Compatible weapons: Asp Flechette Gun, Hammer, Voltaic Brute.",
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.1,
+    "stackSize": 250,
+    "sellValue": 11,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 3900
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 3900
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 3900
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 3900
+      }
+    ]
+  },
+  "Ammo_Medium_04": {
+    "inGameName": "Impact medium ammo",
+    "description": "Ultimate assault rifle ammo. Compatible weapons: Advocate, Gorgon, KOR-47.",
+    "rarity": "Epic",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.12,
+    "stackSize": 250,
+    "sellValue": 11,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 4500
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 4500
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 4500
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 4500
+      }
+    ]
+  },
+  "Ammo_Heavy_05": {
+    "inGameName": "Trace heavy ammo",
+    "description": "Ultimate ammo for sniper and designated marksman rifles. Compatible weapons: Basilisk, Kinetic Arbiter, KARMA-1.",
+    "rarity": "Exotic",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.8,
+    "stackSize": 50,
+    "sellValue": 51,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 9000
+      },
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 9000
+      },
+      {
+        "shop": "ICA",
+        "SoftCurrency": 9000
+      },
+      {
+        "shop": "QuickShop",
+        "SoftCurrency": 9000
+      }
+    ]
+  },
+  "Ammo_Special_06_1": {
+    "inGameName": "KOMRAD cartridge",
+    "description": "Specialist ammo for KOMRAD grenade launcher.",
+    "rarity": "Legendary",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 1,
+    "stackSize": 18,
+    "sellValue": 38,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 3000,
+        "KorolevScrip": 2
+      }
+    ]
+  },
+  "Ammo_Special_06_2": {
+    "inGameName": "ZEUS cartridge",
+    "description": "Specialist ammo for ZEUS beam LMG.",
+    "rarity": "Legendary",
+    "tags": [
+      "Weapon.Ammo"
+    ],
+    "weight": 0.15,
+    "stackSize": 200,
+    "sellValue": 38,
+    "factionRep": 0,
+    "questItem": false,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 2000,
+        "OsirisScrip": 1
+      }
+    ]
   }
 }
