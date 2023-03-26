@@ -114,6 +114,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 3,
+        "m_mapName": "MP_Map01_P",
+        "m_anyLootContainer": false,
+        "container": "Korolev_Container",
         "locationConditions": []
       },
       {
@@ -1543,6 +1546,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 12,
+        "m_mapName": "MP_Map02_P",
+        "m_anyLootContainer": true,
+        "container": "",
         "locationConditions": []
       }
     ],
@@ -3434,6 +3440,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 1,
+        "m_mapName": "MP_Map01_P",
+        "m_anyLootContainer": true,
+        "container": "",
         "locationConditions": []
       }
     ],
@@ -3670,6 +3679,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 3,
+        "m_mapName": "",
+        "m_anyLootContainer": false,
+        "container": "OrganicsBox",
         "locationConditions": [
           "Woodcutter Camp"
         ]
@@ -6269,6 +6281,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 1,
+        "m_mapName": "",
+        "m_anyLootContainer": false,
+        "container": "AbilityBox",
         "locationConditions": []
       }
     ],
@@ -6525,6 +6540,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 4,
+        "m_mapName": "",
+        "m_anyLootContainer": true,
+        "container": "",
         "locationConditions": [
           "Science Campus"
         ]
@@ -6817,6 +6835,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 3,
+        "m_mapName": "",
+        "m_anyLootContainer": false,
+        "container": "MedCase",
         "locationConditions": [
           "Waterfall Lab"
         ]
@@ -7235,6 +7256,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 5,
+        "m_mapName": "",
+        "m_anyLootContainer": true,
+        "container": "",
         "locationConditions": [
           "Waterfall Lab"
         ]
@@ -7242,6 +7266,9 @@
       {
         "type": "LootContainer",
         "maxProgress": 5,
+        "m_mapName": "",
+        "m_anyLootContainer": true,
+        "container": "",
         "locationConditions": [
           "Vaccine Labs"
         ]
@@ -13684,6 +13711,7 @@
       {
         "type": "FactionLevel",
         "maxProgress": 10,
+        "faction": "Osiris",
         "locationConditions": []
       }
     ],
@@ -14008,16 +14036,19 @@
       {
         "type": "FactionLevel",
         "maxProgress": 12,
+        "faction": "Korolev",
         "locationConditions": []
       },
       {
         "type": "FactionLevel",
         "maxProgress": 12,
+        "faction": "ICA",
         "locationConditions": []
       },
       {
         "type": "FactionLevel",
         "maxProgress": 12,
+        "faction": "Osiris",
         "locationConditions": []
       }
     ],
@@ -14145,11 +14176,17 @@
       {
         "type": "LootContainer",
         "maxProgress": 3000,
+        "m_mapName": "",
+        "m_anyLootContainer": true,
+        "container": "",
         "locationConditions": []
       },
       {
         "type": "LootContainer",
         "maxProgress": 35,
+        "m_mapName": "",
+        "m_anyLootContainer": false,
+        "container": "PowerupContainer",
         "locationConditions": []
       },
       {
