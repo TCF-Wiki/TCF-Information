@@ -9235,6 +9235,34 @@
       "forge": {}
     }
   },
+  "WP_D_LMG_Energy_02": {
+    "inGameName": "ICA Guarantee - Prototype",
+    "description": "A less powerful version of the Guarantee, originally intended for when more conventional methods of pest control were not enough. Audible range: 400m",
+    "type": "weapon",
+    "rarity": "Uncommon",
+    "weight": 50,
+    "cost": [
+      {
+        "shop": "ICA",
+        "SoftCurrency": 9000,
+        "ICAScrip": 2
+      }
+    ],
+    "sellValue": 2709,
+    "factionRep": 27,
+    "tags": [
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Medium"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
   "WP_G_Pistol_Energy_02": {
     "inGameName": "Scarab - Mk.II",
     "description": "An improved version of the standard Scarab Adaptive Phase Pistol, custom built for the Osiris Harbinger Expeditionary Corps. A rare find, worth keeping hold of. Audible range: 300m",
@@ -9291,6 +9319,128 @@
     "tags": [
       "Weapon.Category.AR",
       "Weapon.Ammo.Medium"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_BR_Bullet_02": {
+    "inGameName": "KBR Longshot - Prototype",
+    "description": "An older version of the KBR given to Korolev's on-site security forces, who weren't expected to fire on any targets with proper shields.  Audible range: 450m",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 50,
+    "cost": [],
+    "sellValue": 6536,
+    "factionRep": 65,
+    "tags": [
+      "Weapon.Category.DMR",
+      "Weapon.Ammo.Heavy_03"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_SMG_Needle_02": {
+    "inGameName": "Asp Flechette Gun - Prototype",
+    "description": "A version of the Asp intitially intended for civilian security forces. Not as powerful as the eventual market version, but it's still a competent SMG.  Audible range: 350m",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 30,
+    "cost": [
+      {
+        "shop": "Osiris",
+        "SoftCurrency": 17000,
+        "OsirisScrip": 4
+      }
+    ],
+    "sellValue": 5058,
+    "factionRep": 51,
+    "tags": [
+      "Weapon.Category.SMG",
+      "Weapon.Ammo.Light_03"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_Pistol_Bullet_02": {
+    "inGameName": "Hammer - Prototype",
+    "description": "An older version of the Hammer, still built by several difficult (read: expensive) to upgrade machines. Packs less of a punch, but still a beast. Audible range: 400m",
+    "type": "weapon",
+    "rarity": "Rare",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "Korolev",
+        "SoftCurrency": 15000,
+        "KorolevScrip": 5
+      }
+    ],
+    "sellValue": 4353,
+    "factionRep": 44,
+    "tags": [
+      "Weapon.Category.Pistol",
+      "Weapon.Ammo.Light_03"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_A_Sniper_Gauss_02": {
+    "inGameName": "KARMA-1 - Prototype",
+    "description": "More accurately called the KARMA-XT, prototypes like this were built on Fortuna III and tested extensively in the field, mostly against harmless wildlife. Features a less powerful battery than the KARMA-1 release version. Audible range: 500m",
+    "type": "weapon",
+    "rarity": "Epic",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 27291,
+    "factionRep": 273,
+    "tags": [
+      "Weapon.Category.Sniper",
+      "Weapon.Ammo.Heavy_05"
+    ],
+    "stackSize": 1,
+    "uses": {
+      "printing": {},
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "forge": {}
+    }
+  },
+  "WP_G_HVY_Beam_02": {
+    "inGameName": "Zeus Beam - Prototype",
+    "description": "An older prototype version of the mighty Zeus. Still capable of fulminating most targets. Audible range: 350m",
+    "type": "weapon",
+    "rarity": "Epic",
+    "weight": 60,
+    "cost": [],
+    "sellValue": 28858,
+    "factionRep": 289,
+    "tags": [
+      "Weapon.Category.LMG",
+      "Weapon.Ammo.Special_06_2"
     ],
     "stackSize": 1,
     "uses": {
