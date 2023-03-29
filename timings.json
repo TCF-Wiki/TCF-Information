@@ -33,7 +33,7 @@
             "playerSpawning": false,
             "evac": false,
             "creatureLoot": "Storm",
-            "creatureSpawns": "Storm"
+            "creatureSpawns": "Normal"
           }
         },
         {
@@ -44,7 +44,7 @@
             "playerSpawning": false,
             "evac": false,
             "creatureLoot": "Storm",
-            "creatureSpawns": "Storm"
+            "creatureSpawns": "Normal"
           }
         },
         {
@@ -104,7 +104,7 @@
             "playerSpawning": false,
             "evac": false,
             "creatureLoot": "Storm",
-            "creatureSpawns": "Storm"
+            "creatureSpawns": "Normal"
           }
         },
         {
@@ -115,7 +115,7 @@
             "playerSpawning": false,
             "evac": false,
             "creatureLoot": "Storm",
-            "creatureSpawns": "Storm"
+            "creatureSpawns": "Normal"
           }
         },
         {
@@ -146,41 +146,8 @@
       "name": "Tharis Island",
       "phases": [
         {
-          "name": "Storm",
-          "duration": 180,
-          "gameplay": {
-            "storm": true,
-            "playerSpawning": false,
-            "evac": false,
-            "creatureLoot": "Storm",
-            "creatureSpawns": "Storm"
-          }
-        },
-        {
-          "name": "Peak",
-          "duration": 60,
-          "gameplay": {
-            "storm": true,
-            "playerSpawning": false,
-            "evac": false,
-            "creatureLoot": "Storm",
-            "creatureSpawns": "Storm"
-          }
-        },
-        {
-          "name": "Dawn",
-          "duration": 120,
-          "gameplay": {
-            "storm": false,
-            "playerSpawning": true,
-            "evac": true,
-            "creatureLoot": "Normal",
-            "creatureSpawns": "Normal"
-          }
-        },
-        {
-          "name": "Day",
-          "duration": 180,
+          "name": "Day_Map03",
+          "duration": 760,
           "gameplay": {
             "storm": false,
             "playerSpawning": true,
@@ -191,10 +158,43 @@
         },
         {
           "name": "Dusk",
-          "duration": 240,
+          "duration": 500,
           "gameplay": {
             "storm": false,
             "playerSpawning": false,
+            "evac": true,
+            "creatureLoot": "Normal",
+            "creatureSpawns": "Normal"
+          }
+        },
+        {
+          "name": "Storm",
+          "duration": 180,
+          "gameplay": {
+            "storm": true,
+            "playerSpawning": false,
+            "evac": false,
+            "creatureLoot": "Storm",
+            "creatureSpawns": "Normal"
+          }
+        },
+        {
+          "name": "Peak",
+          "duration": 100,
+          "gameplay": {
+            "storm": true,
+            "playerSpawning": false,
+            "evac": false,
+            "creatureLoot": "Storm",
+            "creatureSpawns": "Normal"
+          }
+        },
+        {
+          "name": "Dawn",
+          "duration": 240,
+          "gameplay": {
+            "storm": false,
+            "playerSpawning": true,
             "evac": true,
             "creatureLoot": "Normal",
             "creatureSpawns": "Normal"
@@ -204,14 +204,14 @@
       "warnings": [
         {
           "name": "5 Min Storm Warning",
-          "time": -300
+          "time": 960
         },
         {
           "name": "1 Min Storm Warning",
-          "time": -60
+          "time": 1200
         }
       ],
-      "totalTime": 780
+      "totalTime": 1780
     }
   },
   "specialTimings": {}

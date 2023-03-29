@@ -817,7 +817,7 @@
   },
   "NEW-Easy-Osiris-Gather-2": {
     "inGameName": "Lab equipment",
-    "description": "Improvements to our lab equipment are long overdue. Go get us Optic Glass for better microscopes!",
+    "description": "Improvements to our lab equipment are long overdue. Go get us Optic Glass for better microscopes!'",
     "faction": "Osiris",
     "factionReputation": 13,
     "difficulty": "Easy",
@@ -1611,7 +1611,7 @@
   },
   "NEW-Hard-KOR-Mine-6": {
     "inGameName": "Unlimited Power",
-    "description": "Fine. I guess you need to know. We are trying to charge Veltecite with power, the same way the Storm does. Bring us more Veltecite Samples.",
+    "description": "Fine. I guess you need to know. We are trying to charge Veltecite with power, the same way the Storm does. Bring us more Veltecite samples.",
     "faction": "Korolev",
     "factionReputation": 480,
     "difficulty": "Hard",
@@ -1890,7 +1890,7 @@
   },
   "NEW-Medium-KOR-Hunt-3": {
     "inGameName": "Eliminate the Threat",
-    "description": "One of our excavators was just ripped to shreds by ferocious creatures, the kind known as Marauders. I don't care how you do it, but hunt them down!",
+    "description": "One of our excavators was just ripped to shreds by ferocious creatures, the kind known as 'Marauders'. I don't care how you do it, but hunt them down!",
     "faction": "Korolev",
     "factionReputation": 130,
     "difficulty": "Medium",
@@ -2300,7 +2300,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 8,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2513,7 +2513,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 10,
+        "maxProgress": 8,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -2532,7 +2532,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 15,
+        "maxProgress": 8,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -3146,6 +3146,27 @@
                 "ObjectName": "DataTable PRO_Weapons",
                 "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
+              "RowName": "WP_A_Sniper_Gauss_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
               "RowName": "WP_A_Pistol_Bullet_01"
             },
             {
@@ -3415,6 +3436,13 @@
                 "ObjectName": "DataTable PRO_Weapons",
                 "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
+              "RowName": "WP_D_LMG_Energy_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
               "RowName": "WP_D_Pistol_Bullet_01"
             },
             {
@@ -3549,7 +3577,7 @@
   },
   "NEW-Medium-ICA-PvP-3": {
     "inGameName": "Tour Guide",
-    "description": "Fortuna III's seen a spike in fake Prospectors, here just to take in the scenery. Go down there and set the tone: take some out with an Assault Rifle.",
+    "description": "Fortuna III's seen a spike in 'fake' Prospectors, here just to take in the scenery. Go down there and set the tone: take some out with an Assault Rifle.",
     "faction": "ICA",
     "factionReputation": 90,
     "difficulty": "Medium",
@@ -3755,7 +3783,7 @@
   },
   "NEW-Hard-ICA-PvP-2": {
     "inGameName": "Restoring the Balance",
-    "description": "Some believe Osiris and Korolev weapons outclass ours. Use ICA weapons to educate rival Prospectors as to who really makes the best guns.",
+    "description": "Some believe Osiris and Korolev weapons outclass ours. Use ICA weapons to 'educate' rival Prospectors as to who really makes the best guns.",
     "faction": "ICA",
     "factionReputation": 480,
     "difficulty": "Hard",
@@ -3769,6 +3797,13 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_D_LMG_Energy_02"
+            },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
@@ -3948,6 +3983,34 @@
                 "ObjectName": "DataTable PRO_Weapons",
                 "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
               },
+              "RowName": "WP_G_HVY_Beam_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_SMG_Needle_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_Pistol_Energy_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_G_AR_Needle_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
               "RowName": "WP_G_Pistol_Energy_01"
             },
             {
@@ -4027,7 +4090,7 @@
   },
   "NEW-Hard-Osiris-PvP-1": {
     "inGameName": "Lab Rats",
-    "description": "An opportunity has presented itself that requires some special testing. Head to the Waterfall and Vaccine Labs and prepare some volunteers for us to pick up.",
+    "description": "An opportunity has presented itself that requires some 'special' testing. Head to the Waterfall and Vaccine Labs and prepare some 'volunteers' for us to pick up.",
     "faction": "Osiris",
     "factionReputation": 440,
     "difficulty": "Hard",
@@ -4096,7 +4159,7 @@
   },
   "NEW-Hard-Osiris-PvP-2": {
     "inGameName": "Internal Combustion",
-    "description": "The IFA filed a report that the Basilisk is an unnecessarily cruel weapon; take out some Prospectors with one and prove its efficacy outweighs all drawbacks.",
+    "description": "The IFA filed a report that the Basilisk is 'an unnecessarily cruel weapon'; take out some Prospectors with one and prove its efficacy outweighs all drawbacks.",
     "faction": "Osiris",
     "factionReputation": 500,
     "difficulty": "Hard",
@@ -4248,7 +4311,7 @@
     "factionReputation": 420,
     "difficulty": "Hard",
     "failConditions": [],
-    "image": "UI_glowy_brightcap_6_blastbeetles_job_bg",
+    "image": "UI_glowy_brightcap_6_blastbeetles_new_job_bg",
     "objectives": [
       {
         "type": "OwnNumOfItem",
@@ -4938,7 +5001,7 @@
   },
   "NEW-Easy-KOR-Stash-1": {
     "inGameName": "Excavation Gear",
-    "description": "For excavations, we need you to stash a Heavy Mining Tool in one of Badums Dead Drop Containers underground at East Collection Point. You'll find it.",
+    "description": "For future excavations, we need you to stash a Heavy Mining Tool in one of Badum's Dead Drop Containers underground at East Collection Point. You'll find it.",
     "faction": "Korolev",
     "factionReputation": 18,
     "difficulty": "Easy",
@@ -5104,7 +5167,7 @@
   },
   "NEW-Hard-KOR-Stash-1": {
     "inGameName": "Stashing Safety",
-    "description": "One of our Miners has been injured and is hiding near Base Camp. Go stash a Rare Shield for them there and clear the area of creatures.",
+    "description": "One of our Miners has been injured and is hiding near Base Camp. Go stash a Reinforced Shield for them there and clear the area of creatures.",
     "faction": "Korolev",
     "factionReputation": 430,
     "difficulty": "Hard",
@@ -5398,7 +5461,7 @@
     "objectives": [
       {
         "type": "DeadDrop",
-        "maxProgress": 20,
+        "maxProgress": 10,
         "deadDropLocation": "Stockpile",
         "deadDropItem": "PolymetallicPrefabricate",
         "locationConditions": []
@@ -6006,6 +6069,27 @@
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
           "m_allowedSpecificWeapons": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Sniper_Gauss_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_Pistol_Bullet_02"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "DataTable PRO_Weapons",
+                "ObjectPath": "Prospect/Content/DataTables/Items/PRO_Weapons.0"
+              },
+              "RowName": "WP_A_BR_Bullet_02"
+            },
             {
               "DataTable": {
                 "ObjectName": "DataTable PRO_Weapons",
@@ -6831,7 +6915,7 @@
   },
   "NEW-Hard-KOR-Gather-8": {
     "inGameName": "Wastage Replacement",
-    "description": "Prospector. We are still having some difficulties really making Tharis Iron work with our Manufacturing Processes. Get us some more of it as a basis for further Experiments.",
+    "description": "Prospector. We are still having some difficulties really making Tharis Iron work with our manufacturing processes. Get us some more of it as a basis for further experiments.",
     "faction": "Korolev",
     "factionReputation": 500,
     "difficulty": "Hard",
@@ -6929,6 +7013,164 @@
       }
     ],
     "unlockLevel": 20,
+    "unlockContracts": []
+  },
+  "NEW-Hard-Osiris-Howler-1": {
+    "inGameName": "Between dark clouds",
+    "description": "Hmm. This Howler creature seems to react to the Storm in some strange way, but we still don't understand the connection yet. Go hunt one during a Storm.",
+    "faction": "Osiris",
+    "factionReputation": 470,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_8_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Howler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "MP_Map02_P",
+          "m_onlyDuringStorm": true
+        },
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 23000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 470
+      }
+    ],
+    "unlockLevel": 19,
+    "unlockContracts": []
+  },
+  "NEW-Hard-ICA-Howler-1": {
+    "inGameName": "Biomimicry",
+    "description": "Ah, there you are. We need to get our hands on one of those Howler Darts, they might have a potential for military applications. And who better to take care of that than our finest Prospector? You'll need to stash it somewhere safe for our research team.",
+    "faction": "ICA",
+    "factionReputation": 440,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_questline_image_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 1,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Howler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      },
+      {
+        "type": "VisitArea",
+        "maxProgress": 1,
+        "locationConditions": [
+          "Starport Admin"
+        ]
+      },
+      {
+        "type": "DeadDrop",
+        "maxProgress": 1,
+        "deadDropLocation": "Cafeteria",
+        "deadDropItem": "AI_HowlerDart",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 35,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 22000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 440
+      }
+    ],
+    "unlockLevel": 16,
+    "unlockContracts": []
+  },
+  "NEW-Hard-KOR-Howler-1": {
+    "inGameName": "Winged Pests",
+    "description": "Prospector, we need your help. These damned Howlers that just... uh, randomly appeared during our mining operations, they are becoming a real problem for our personnel! Clear the skies for us a little, OK?",
+    "faction": "Korolev",
+    "factionReputation": 470,
+    "difficulty": "Hard",
+    "failConditions": [],
+    "image": "T_UI_Mission_OSIRIS-howler_6_job_bg",
+    "objectives": [
+      {
+        "type": "Kills",
+        "maxProgress": 3,
+        "killConditions": {
+          "m_killTarget": "EYKillTypeAction::Creatures",
+          "m_allowedWeaponCategories": [],
+          "m_allowedSpecificWeapons": [],
+          "m_specificAIEnemyTypeToKill": "EYEnemyType::Howler",
+          "m_specificVariationToKill": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "m_mapName": "",
+          "m_onlyDuringStorm": false
+        },
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 37,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 23000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 470
+      }
+    ],
+    "unlockLevel": 18,
     "unlockContracts": []
   }
 }

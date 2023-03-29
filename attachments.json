@@ -237,7 +237,8 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.SMG",
+      "Weapon.Category.Pistol"
     ],
     "rarity": "Epic",
     "tags": [
@@ -258,7 +259,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -267,7 +270,8 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.SMG",
+      "Weapon.Category.Pistol"
     ],
     "rarity": "Rare",
     "tags": [
@@ -291,7 +295,8 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -308,14 +313,22 @@
         "value": 1.15
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "CompoundSheets": 2,
+        "Insulation": 2
+      }
+    ]
   },
   "Mod_Magazine_Medium_01": {
     "inGameName": "Medium Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.LMG",
+      "Weapon.Category.AR"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -332,14 +345,22 @@
         "value": 1.15
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "CompoundSheets": 2,
+        "Insulation": 2
+      }
+    ]
   },
   "Mod_Magazine_Heavy_01": {
     "inGameName": "Heavy Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.Sniper",
+      "Weapon.Category.DMR"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -356,14 +377,21 @@
         "value": 1.15
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "CompoundSheets": 3,
+        "SpareCasing": 1
+      }
+    ]
   },
   "Mod_Magazine_Shotgun_01": {
     "inGameName": "Shotgun Extended",
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -380,11 +408,18 @@
         "value": 1.25
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "CompoundSheets": 3,
+        "SpareCasing": 1
+      }
+    ]
   },
   "Mod_Muzzle_Small_Supressor_01": {
     "inGameName": "Small Suppressor",
-    "description": "Suppresses the produced sound when firing.",
+    "description": "Suppresses the sound produced when firing and reduces audible range by 150m.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Pistol",
@@ -417,7 +452,7 @@
   },
   "Mod_Muzzle_Standard_Supressor_01": {
     "inGameName": "Medium Suppressor",
-    "description": "Suppresses the produced sound when firing.",
+    "description": "Suppresses the sound produced when firing and reduces audible range by 150m.",
     "type": "Muzzle",
     "compatible": [
       "Weapon.Category.Shotgun",
@@ -454,7 +489,8 @@
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.SMG",
+      "Weapon.Category.Pistol"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -471,14 +507,22 @@
         "value": 1
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BrittleTitanOre": 2,
+        "PureNickel": 2
+      }
+    ]
   },
   "Mod_Converter_Medium_01": {
     "inGameName": "Medium Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.LMG",
+      "Weapon.Category.AR"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -495,14 +539,22 @@
         "value": 1
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BrittleTitanOre": 2,
+        "PureNickel": 2
+      }
+    ]
   },
   "Mod_Converter_Heavy_01": {
     "inGameName": "Heavy Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -519,14 +571,21 @@
         "value": 1
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BrittleTitanOre": 2,
+        "BallBearings": 2
+      }
+    ]
   },
   "Mod_Converter_Shotgun_01": {
     "inGameName": "Shotgun Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -543,7 +602,14 @@
         "value": 1
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BrittleTitanOre": 2,
+        "BallBearings": 2
+      }
+    ]
   },
   "Mod_ForeGrip_Angled_01": {
     "inGameName": "Angled Foregrip",
@@ -747,7 +813,8 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.LMG",
+      "Weapon.Category.AR"
     ],
     "rarity": "Rare",
     "tags": [
@@ -771,7 +838,8 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.LMG",
+      "Weapon.Category.AR"
     ],
     "rarity": "Epic",
     "tags": [
@@ -792,7 +860,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -801,7 +871,8 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Rare",
     "tags": [
@@ -825,7 +896,8 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Epic",
     "tags": [
@@ -846,7 +918,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -855,7 +929,7 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Rare",
     "tags": [
@@ -879,7 +953,7 @@
     "description": "Increases the capacity of the magazine.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Epic",
     "tags": [
@@ -900,7 +974,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -909,7 +985,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Common",
     "tags": [
@@ -950,7 +1027,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -974,7 +1052,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Rare",
     "tags": [
@@ -991,14 +1070,23 @@
         "value": 0.85
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "CompoundSheets": 3,
+        "CombatCPU_Blue": 1,
+        "PrintResin": 1
+      }
+    ]
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
     "inGameName": "Light Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Epic",
     "tags": [
@@ -1019,7 +1107,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -1028,7 +1118,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Common",
     "tags": [
@@ -1069,7 +1160,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -1093,7 +1185,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Rare",
     "tags": [
@@ -1110,14 +1203,23 @@
         "value": 0.85
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "CompoundSheets": 3,
+        "CombatCPU_Blue": 1,
+        "PrintResin": 1
+      }
+    ]
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
     "inGameName": "Medium Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Epic",
     "tags": [
@@ -1138,7 +1240,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -1147,7 +1251,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Common",
     "tags": [
@@ -1188,7 +1293,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -1212,7 +1318,8 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Rare",
     "tags": [
@@ -1229,14 +1336,23 @@
         "value": 0.85
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "CompoundSheets": 4,
+        "CircuitBoard": 3,
+        "BrittleTitanOre": 2
+      }
+    ]
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
     "inGameName": "Heavy Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Epic",
     "tags": [
@@ -1257,7 +1373,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -1266,7 +1384,7 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Common",
     "tags": [
@@ -1307,7 +1425,7 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -1331,7 +1449,7 @@
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Rare",
     "tags": [
@@ -1348,14 +1466,22 @@
         "value": 0.85
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "CompoundSheets": 4,
+        "CircuitBoard": 3,
+        "BrittleTitanOre": 2
+      }
+    ]
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
     "inGameName": "Shotgun Quickdraw",
     "description": "Reduces the time to reload.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Epic",
     "tags": [
@@ -1376,7 +1502,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -1385,7 +1513,8 @@
     "description": "Capacity and reload speed increase.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Rare",
     "tags": [
@@ -1414,7 +1543,8 @@
     "description": "Capacity and reload speed increase.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Epic",
     "tags": [
@@ -1440,7 +1570,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -1449,7 +1581,8 @@
     "description": "Capacity and reload speed increase.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Rare",
     "tags": [
@@ -1478,7 +1611,8 @@
     "description": "Capacity and reload speed increase.",
     "type": "Magazine",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Epic",
     "tags": [
@@ -1504,7 +1638,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -1533,7 +1669,14 @@
         "value": 0.9
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BlueWood": 2,
+        "Alloys": 2
+      }
+    ]
   },
   "Mod_Stock_Standard_Equip_01": {
     "inGameName": "Quickdraw Stock",
@@ -1631,7 +1774,14 @@
         "value": 0.9
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BlueWood": 2,
+        "Alloys": 2
+      }
+    ]
   },
   "Mod_Stock_Standard_ADS_02": {
     "inGameName": "Tactical Stock",
@@ -1726,7 +1876,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "ShockAbsorber": 1,
+        "MiniatureReactor": 1
       }
     ]
   },
@@ -1753,7 +1904,14 @@
         "value": 0.9
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BlueWood": 3,
+        "BrittleTitanOre": 2
+      }
+    ]
   },
   "Mod_Stock_Marksman_Equip_01": {
     "inGameName": "MKM Quickdraw Stock",
@@ -1845,7 +2003,14 @@
         "value": 0.9
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "BlueWood": 3,
+        "BrittleTitanOre": 2
+      }
+    ]
   },
   "Mod_Stock_Marksman_ADS_02": {
     "inGameName": "MKM Tactical Stock",
@@ -1934,7 +2099,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "ShockAbsorber": 1,
+        "MultiTool": 2
       }
     ]
   },
@@ -2028,7 +2194,15 @@
         "value": 0.85
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "MagneticFieldStabilizer": 3,
+        "PureNickel": 2,
+        "UncommonVelticite": 2
+      }
+    ]
   },
   "Mod_Muzzle_Standard_Recoil_01": {
     "inGameName": "Medium Muzzle Brake",
@@ -2123,14 +2297,23 @@
         "value": 0.85
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "MagneticFieldStabilizer": 3,
+        "PureNickel": 2,
+        "UncommonVelticite": 2
+      }
+    ]
   },
   "Mod_Converter_Light_02": {
     "inGameName": "Light Converter",
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Rare",
     "tags": [
@@ -2154,7 +2337,8 @@
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Epic",
     "tags": [
@@ -2175,7 +2359,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 8
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
       }
     ]
   },
@@ -2184,7 +2370,8 @@
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Rare",
     "tags": [
@@ -2208,7 +2395,8 @@
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Epic",
     "tags": [
@@ -2229,7 +2417,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 8
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
       }
     ]
   },
@@ -2238,7 +2428,8 @@
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Rare",
     "tags": [
@@ -2262,7 +2453,8 @@
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Heavy"
+      "Weapon.Category.DMR",
+      "Weapon.Category.Sniper"
     ],
     "rarity": "Epic",
     "tags": [
@@ -2283,7 +2475,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 8
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "MagneticFieldStabilizer": 5
       }
     ]
   },
@@ -2292,7 +2486,7 @@
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Rare",
     "tags": [
@@ -2316,7 +2510,7 @@
     "description": "Projectile penetration increase.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Epic",
     "tags": [
@@ -2337,7 +2531,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 8
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "DerelictExplosives": 1
       }
     ]
   },
@@ -2346,7 +2542,8 @@
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -2363,14 +2560,22 @@
         "value": 1.25
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "UncommonVelticite": 2,
+        "GenericCreatureDrop": 3
+      }
+    ]
   },
   "Mod_Converter_Light_AIDMG_02": {
     "inGameName": "Light Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Rare",
     "tags": [
@@ -2387,14 +2592,23 @@
         "value": 1.5
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "MeteorFragment": 1,
+        "TitanOre": 1,
+        "NeuroToxicGlands": 1
+      }
+    ]
   },
   "Mod_Converter_Light_AIDMG_03": {
     "inGameName": "Light Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Light"
+      "Weapon.Category.Pistol",
+      "Weapon.Category.SMG"
     ],
     "rarity": "Epic",
     "tags": [
@@ -2415,7 +2629,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
       }
     ]
   },
@@ -2424,7 +2640,8 @@
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -2441,14 +2658,22 @@
         "value": 1.25
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "UncommonVelticite": 2,
+        "GenericCreatureDrop": 3
+      }
+    ]
   },
   "Mod_Converter_Medium_AIDMG_02": {
     "inGameName": "Medium Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Rare",
     "tags": [
@@ -2465,14 +2690,23 @@
         "value": 1.5
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "MeteorFragment": 1,
+        "TitanOre": 1,
+        "NeuroToxicGlands": 1
+      }
+    ]
   },
   "Mod_Converter_Medium_AIDMG_03": {
     "inGameName": "Medium Creature Dmg",
     "description": "Increased damage towards creatures.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Medium"
+      "Weapon.Category.AR",
+      "Weapon.Category.LMG"
     ],
     "rarity": "Epic",
     "tags": [
@@ -2493,7 +2727,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "AutoLoader": 1,
+        "TitanOre": 1
       }
     ]
   },
@@ -2502,7 +2738,7 @@
     "description": "Fires a single projectile improving the effective range.",
     "type": "AmmoConverter",
     "compatible": [
-      "Weapon.Ammo.Shotgun"
+      "Weapon.Category.Shotgun"
     ],
     "rarity": "Uncommon",
     "tags": [
@@ -2514,24 +2750,24 @@
     "factionRep": 4,
     "effects": [
       {
-        "attribute": "WeaponDamageRange",
-        "modifierType": "Additive",
-        "value": 2000
-      },
-      {
         "attribute": "WeaponAmountOfShots",
         "modifierType": "Override",
         "value": 1
       },
       {
-        "attribute": "WeaponTargetingSpreadMultiplier",
-        "modifierType": "Override",
-        "value": 0
-      },
-      {
         "attribute": "WeaponDamageDirect",
         "modifierType": "Multiplicitive_PreAdd",
         "value": 5
+      },
+      {
+        "attribute": "WeaponDamageRange",
+        "modifierType": "Additive",
+        "value": 2000
+      },
+      {
+        "attribute": "WeaponTargetingSpreadMultiplier",
+        "modifierType": "Override",
+        "value": 0
       }
     ],
     "cost": []
@@ -2661,7 +2897,15 @@
         "value": 0.85
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 3300,
+        "RareVeltecite": 1,
+        "PrintResin": 1,
+        "AI_RattlerSkin": 2
+      }
+    ]
   },
   "Mod_ForeGrip_ADS_03": {
     "inGameName": "Tactical Foregrip",
@@ -2687,7 +2931,9 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "HydraulicPiston": 5,
+        "MultiTool": 2,
+        "RareVeltecite": 1
       }
     ]
   },
@@ -2772,7 +3018,14 @@
         "value": 0.85
       }
     ],
-    "cost": []
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 1200,
+        "Alloys": 2,
+        "AI_RattlerSkin": 2
+      }
+    ]
   },
   "Mod_Optic_1x_01": {
     "inGameName": "Red Dot Sight",
@@ -2854,7 +3107,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "PrintResin": 2,
+        "OpticGlass": 3
       }
     ]
   },
@@ -2885,7 +3139,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "PrintResin": 2,
+        "OpticGlass": 3
       }
     ]
   },
@@ -2916,7 +3171,8 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 8000,
-        "Event_MeteorFragment": 4
+        "PrintResin": 2,
+        "OpticGlass": 3
       }
     ]
   },

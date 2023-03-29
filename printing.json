@@ -12,7 +12,7 @@
     "RareVeltecite": 5
   },
   "PureFocusCrystal": {
-    "SoftCurrency": 5800,
+    "SoftCurrency": 4600,
     "FocusCrystal": 9
   },
   "PureNickel": {
@@ -53,78 +53,45 @@
     "Datapad": 2,
     "SamplingDevice": 2
   },
-  "Event_MeteorCore": {
-    "SoftCurrency": 38000,
-    "Event_MeteorFragment": 20
-  },
   "QuestItem_LaserDrillBeacon": {
     "SoftCurrency": 49000,
-    "Event_MeteorFragment": 15,
-    "KorolevScrip": 40
+    "SmartMesh": 2,
+    "Cables": 18,
+    "KorolevScrip": 80
   },
   "QuestItem_OrbitalCanonTargetBeacon": {
     "SoftCurrency": 49000,
-    "Event_MeteorFragment": 15,
-    "OsirisScrip": 40
+    "DerelictExplosives": 3,
+    "Datapad": 4,
+    "HardDrive_legendary": 1,
+    "OsirisScrip": 80
   },
   "QuestItem_OilPumpBeacon": {
     "SoftCurrency": 49000,
-    "Event_MeteorFragment": 15,
-    "ICAScrip": 40
-  },
-  "WP_A_Pistol_Bullet_01": {
-    "SoftCurrency": 14000,
-    "Event_MeteorFragment": 50
-  },
-  "WP_A_AR_Bullet_01": {
-    "SoftCurrency": 40250,
-    "Event_MeteorCore": 1,
-    "Event_MeteorFragment": 40
-  },
-  "WP_A_BR_Bullet_01": {
-    "SoftCurrency": 19000,
-    "Event_MeteorFragment": 25
+    "HydraulicPiston": 12,
+    "AluminumParts": 12,
+    "ICAScrip": 80
   },
   "WP_A_Sniper_Gauss_01": {
-    "SoftCurrency": 271250,
-    "Event_MeteorCore": 5
-  },
-  "WP_D_SGun_Shard_01": {
-    "SoftCurrency": 10250,
-    "Event_MeteorFragment": 25
-  },
-  "WP_D_SMG_Energy_01": {
-    "SoftCurrency": 28500,
-    "Event_MeteorCore": 1,
-    "Event_MeteorFragment": 40
-  },
-  "WP_D_AR_Bullet_01": {
-    "SoftCurrency": 14500,
-    "Event_MeteorFragment": 25
-  },
-  "WP_D_Sniper_Gauss_01": {
-    "SoftCurrency": 78750,
-    "Event_MeteorCore": 3
-  },
-  "WP_G_SMG_Needle_01": {
-    "SoftCurrency": 10250,
-    "Event_MeteorFragment": 25
-  },
-  "WP_G_AR_Beam_01": {
-    "SoftCurrency": 14500,
-    "Event_MeteorFragment": 25
-  },
-  "WP_G_Sniper_Energy_01": {
-    "SoftCurrency": 52500,
-    "Event_MeteorCore": 3
+    "SoftCurrency": 597000,
+    "Letium": 75,
+    "MeteorCore": 10,
+    "Datapad": 25,
+    "AlphaWardenHeart": 3
   },
   "WP_A_Launch_MSL_01": {
-    "SoftCurrency": 248250,
-    "Event_MeteorCore": 5
+    "SoftCurrency": 695000,
+    "OilTank": 30,
+    "MeteorCore": 10,
+    "DerelictExplosives": 20,
+    "AI_CrusherMeat": 8
   },
   "WP_G_HVY_Beam_01": {
-    "SoftCurrency": 225500,
-    "Event_MeteorCore": 5
+    "SoftCurrency": 631000,
+    "AlphaWardenHeart": 3,
+    "MeteorCore": 10,
+    "Gyroscope": 3,
+    "AI_WeremoleMeat_02": 10
   },
   "Consumable_Health_02": {
     "SoftCurrency": 300,
@@ -134,6 +101,7 @@
   },
   "Consumable_Health_04": {
     "SoftCurrency": 460,
+    "AI_HowlerPellet": 1,
     "Antibiotics": 2,
     "WaterPlant": 2,
     "IvyPlant": 1
@@ -145,6 +113,7 @@
   },
   "Consumable_Health_06": {
     "SoftCurrency": 460,
+    "AI_HowlerPellet": 1,
     "AnaestheticsContainers": 2,
     "WaterPlant": 3,
     "IvyPlant": 1
@@ -172,7 +141,17 @@
   "Consumable_Grenade_05": {
     "SoftCurrency": 6800,
     "ChargedForgeIronIngot": 4,
-    "Alien_Scrap": 8
+    "Alien_Scrap": 8,
+    "AI_HowlerDart": 1
+  },
+  "HowlerGrenade_01": {
+    "SoftCurrency": 10000,
+    "AI_HowlerDart": 2
+  },
+  "Map03_KeyCard_04_AlienCorridor": {
+    "SoftCurrency": 17000,
+    "Alien_Scrap": 20,
+    "ForgeIron": 10
   },
   "Bag_02": {
     "SoftCurrency": 2700,
@@ -181,7 +160,9 @@
   },
   "Bag_03": {
     "SoftCurrency": 6100,
-    "Event_MeteorFragment": 6
+    "Fabrics": 2,
+    "IvyPlant": 1,
+    "PureNickel": 3
   },
   "Bag_04": {
     "SoftCurrency": 12000,
@@ -209,8 +190,8 @@
   "Shield_05": {
     "SoftCurrency": 79000,
     "PrintResin": 6,
-    "PureFocusCrystal": 1,
-    "AI_CrusherSkin": 2
+    "AI_CrusherSkin": 3,
+    "AI_HowlerDart": 2
   },
   "Shield_Tactical_02": {
     "SoftCurrency": 2000,
@@ -253,7 +234,7 @@
   },
   "Helmet_05": {
     "SoftCurrency": 34000,
-    "Datapad": 1,
+    "AI_HowlerDart": 1,
     "Gyroscope": 1,
     "AI_CrusherSkin": 1
   },
@@ -282,9 +263,10 @@
     "AI_RattlerSkin": 2
   },
   "Helmet_NV_01": {
-    "SoftCurrency": 38500,
-    "Event_MeteorCore": 4,
-    "KorolevScrip": 30
+    "SoftCurrency": 77000,
+    "MeteorCore": 4,
+    "EpicVeltecite": 3,
+    "AlphaWardenHeart": 1
   },
   "Mod_Optic_4x_01": {
     "SoftCurrency": 4300,
@@ -293,7 +275,29 @@
   },
   "Mod_Magazine_Light_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
+  },
+  "Mod_Magazine_Light_01": {
+    "SoftCurrency": 1200,
+    "CompoundSheets": 2,
+    "Insulation": 2
+  },
+  "Mod_Magazine_Medium_01": {
+    "SoftCurrency": 1200,
+    "CompoundSheets": 2,
+    "Insulation": 2
+  },
+  "Mod_Magazine_Heavy_01": {
+    "SoftCurrency": 1200,
+    "CompoundSheets": 3,
+    "SpareCasing": 1
+  },
+  "Mod_Magazine_Shotgun_01": {
+    "SoftCurrency": 1200,
+    "CompoundSheets": 3,
+    "SpareCasing": 1
   },
   "Mod_Muzzle_Small_Supressor_01": {
     "SoftCurrency": 4900,
@@ -307,77 +311,220 @@
     "SmartMesh": 1,
     "AluminumParts": 3
   },
+  "Mod_Converter_Light_01": {
+    "SoftCurrency": 1200,
+    "BrittleTitanOre": 2,
+    "PureNickel": 2
+  },
+  "Mod_Converter_Medium_01": {
+    "SoftCurrency": 1200,
+    "BrittleTitanOre": 2,
+    "PureNickel": 2
+  },
+  "Mod_Converter_Heavy_01": {
+    "SoftCurrency": 1200,
+    "BrittleTitanOre": 2,
+    "BallBearings": 2
+  },
+  "Mod_Converter_Shotgun_01": {
+    "SoftCurrency": 1200,
+    "BrittleTitanOre": 2,
+    "BallBearings": 2
+  },
   "Mod_Magazine_Medium_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
   },
   "Mod_Magazine_Heavy_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
   },
   "Mod_Magazine_Shotgun_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
+  },
+  "Mod_Magazine_Light_ReloadSpeed_03": {
+    "SoftCurrency": 3300,
+    "CompoundSheets": 3,
+    "CombatCPU_Blue": 1,
+    "PrintResin": 1
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
+  },
+  "Mod_Magazine_Medium_Reloadspeed_03": {
+    "SoftCurrency": 3300,
+    "CompoundSheets": 3,
+    "CombatCPU_Blue": 1,
+    "PrintResin": 1
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
+  },
+  "Mod_Magazine_Heavy_ReloadSpeed_03": {
+    "SoftCurrency": 3300,
+    "CompoundSheets": 4,
+    "CircuitBoard": 3,
+    "BrittleTitanOre": 2
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
+  },
+  "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+    "SoftCurrency": 3300,
+    "CompoundSheets": 4,
+    "CircuitBoard": 3,
+    "BrittleTitanOre": 2
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
   },
   "Mod_Magazine_Light_EXTReload_02": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
   },
   "Mod_Magazine_Medium_EXTReload_02": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
+  },
+  "Mod_Stock_Standard_02": {
+    "SoftCurrency": 1200,
+    "BlueWood": 2,
+    "Alloys": 2
+  },
+  "Mod_Stock_Standard_ADS_01": {
+    "SoftCurrency": 1200,
+    "BlueWood": 2,
+    "Alloys": 2
   },
   "Mod_Stock_Standard_ADSEquip_02": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "ShockAbsorber": 1,
+    "MiniatureReactor": 1
+  },
+  "Mod_Stock_Marksman_02": {
+    "SoftCurrency": 1200,
+    "BlueWood": 3,
+    "BrittleTitanOre": 2
+  },
+  "Mod_Stock_Marksman_ADS_01": {
+    "SoftCurrency": 1200,
+    "BlueWood": 3,
+    "BrittleTitanOre": 2
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "ShockAbsorber": 1,
+    "MultiTool": 2
+  },
+  "Mod_Muzzle_Small_Recoil_03": {
+    "SoftCurrency": 3300,
+    "MagneticFieldStabilizer": 3,
+    "PureNickel": 2,
+    "UncommonVelticite": 2
+  },
+  "Mod_Muzzle_Standard_Recoil_03": {
+    "SoftCurrency": 3300,
+    "MagneticFieldStabilizer": 3,
+    "PureNickel": 2,
+    "UncommonVelticite": 2
   },
   "Mod_Converter_Light_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 8
+    "HydraulicPiston": 5,
+    "AutoLoader": 1,
+    "TitanOre": 1
   },
   "Mod_Converter_Medium_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 8
+    "HydraulicPiston": 5,
+    "AutoLoader": 1,
+    "TitanOre": 1
   },
   "Mod_Converter_Heavy_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 8
+    "HydraulicPiston": 5,
+    "AutoLoader": 1,
+    "MagneticFieldStabilizer": 5
   },
   "Mod_Converter_Shotgun_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 8
+    "HydraulicPiston": 5,
+    "AutoLoader": 1,
+    "DerelictExplosives": 1
+  },
+  "Mod_Converter_Light_AIDMG_01": {
+    "SoftCurrency": 1200,
+    "UncommonVelticite": 2,
+    "GenericCreatureDrop": 3
+  },
+  "Mod_Converter_Light_AIDMG_02": {
+    "SoftCurrency": 3300,
+    "MeteorFragment": 1,
+    "TitanOre": 1,
+    "NeuroToxicGlands": 1
   },
   "Mod_Converter_Light_AIDMG_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "AutoLoader": 1,
+    "TitanOre": 1
+  },
+  "Mod_Converter_Medium_AIDMG_01": {
+    "SoftCurrency": 1200,
+    "UncommonVelticite": 2,
+    "GenericCreatureDrop": 3
+  },
+  "Mod_Converter_Medium_AIDMG_02": {
+    "SoftCurrency": 3300,
+    "MeteorFragment": 1,
+    "TitanOre": 1,
+    "NeuroToxicGlands": 1
   },
   "Mod_Converter_Medium_AIDMG_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "AutoLoader": 1,
+    "TitanOre": 1
+  },
+  "Mod_ForeGrip_ADS_02": {
+    "SoftCurrency": 3300,
+    "RareVeltecite": 1,
+    "PrintResin": 1,
+    "AI_RattlerSkin": 2
   },
   "Mod_ForeGrip_ADS_03": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "HydraulicPiston": 5,
+    "MultiTool": 2,
+    "RareVeltecite": 1
+  },
+  "Mod_RearGrip_ADS_02": {
+    "SoftCurrency": 1200,
+    "Alloys": 2,
+    "AI_RattlerSkin": 2
   },
   "Mod_Optic_1x_02": {
     "SoftCurrency": 1200,
@@ -386,14 +533,17 @@
   },
   "Mod_Optic_Variable_01": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "PrintResin": 2,
+    "OpticGlass": 3
   },
   "Mod_Optic_8x_01": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "PrintResin": 2,
+    "OpticGlass": 3
   },
   "Mod_Optic_6x_01": {
     "SoftCurrency": 8000,
-    "Event_MeteorFragment": 4
+    "PrintResin": 2,
+    "OpticGlass": 3
   }
 }

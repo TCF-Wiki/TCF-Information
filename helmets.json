@@ -1,17 +1,17 @@
 {
   "Helmet_01": {
-    "inGameName": "Common Helmet",
+    "inGameName": "Basic Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Common",
     "weight": 20,
     "armorAmount": 10,
-    "durability": 500,
+    "durability": 150,
     "sellValue": 113,
     "factionRep": 1,
     "repair": {
-      "baseCost": 38,
-      "costModifierBroken": 96,
-      "maxPrice": 190,
+      "baseCost": 30,
+      "costModifierBroken": 46,
+      "maxPrice": 182,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -35,18 +35,18 @@
     ]
   },
   "Helmet_02": {
-    "inGameName": "Uncommon Helmet",
+    "inGameName": "Standard Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Uncommon",
     "weight": 20,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 250,
     "sellValue": 506,
     "factionRep": 5,
     "repair": {
-      "baseCost": 153,
-      "costModifierBroken": 384,
-      "maxPrice": 765,
+      "baseCost": 119,
+      "costModifierBroken": 180,
+      "maxPrice": 714,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -60,18 +60,18 @@
     ]
   },
   "Helmet_03": {
-    "inGameName": "Rare Helmet",
+    "inGameName": "Reinforced Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Rare",
     "weight": 20,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 350,
     "sellValue": 2278,
     "factionRep": 23,
     "repair": {
-      "baseCost": 608,
-      "costModifierBroken": 1521,
-      "maxPrice": 3040,
+      "baseCost": 380,
+      "costModifierBroken": 571,
+      "maxPrice": 2280,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -85,18 +85,18 @@
     ]
   },
   "Helmet_04": {
-    "inGameName": "Epic Helmet",
+    "inGameName": "Combat Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Epic",
     "weight": 20,
     "armorAmount": 25,
-    "durability": 800,
+    "durability": 400,
     "sellValue": 5126,
     "factionRep": 51,
     "repair": {
-      "baseCost": 680,
-      "costModifierBroken": 1695,
-      "maxPrice": 3400,
+      "baseCost": 595,
+      "costModifierBroken": 888,
+      "maxPrice": 3570,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -110,18 +110,18 @@
     ]
   },
   "Helmet_05": {
-    "inGameName": "Exotic Helmet",
+    "inGameName": "Enhanced Helmet",
     "description": "Protects the head of its wearer.",
     "rarity": "Exotic",
     "weight": 20,
     "armorAmount": 30,
-    "durability": 900,
+    "durability": 450,
     "sellValue": 10252,
     "factionRep": 103,
     "repair": {
-      "baseCost": 850,
-      "costModifierBroken": 2119,
-      "maxPrice": 4250,
+      "baseCost": 1020,
+      "costModifierBroken": 1522,
+      "maxPrice": 6120,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -129,25 +129,25 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 34000,
-        "Datapad": 1,
+        "AI_HowlerDart": 1,
         "Gyroscope": 1,
         "AI_CrusherSkin": 1
       }
     ]
   },
   "Helmet_Tactical_01": {
-    "inGameName": "Common Tactical Helmet",
+    "inGameName": "Basic Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Common",
     "weight": 20,
     "armorAmount": 10,
-    "durability": 500,
+    "durability": 150,
     "sellValue": 169,
     "factionRep": 2,
     "repair": {
-      "baseCost": 56,
-      "costModifierBroken": 140,
-      "maxPrice": 280,
+      "baseCost": 45,
+      "costModifierBroken": 67,
+      "maxPrice": 269,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -184,18 +184,18 @@
     ]
   },
   "Helmet_Tactical_02": {
-    "inGameName": "Uncommon Tactical Helmet",
+    "inGameName": "Standard Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Uncommon",
     "weight": 20,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 250,
     "sellValue": 506,
     "factionRep": 5,
     "repair": {
-      "baseCost": 153,
-      "costModifierBroken": 384,
-      "maxPrice": 765,
+      "baseCost": 119,
+      "costModifierBroken": 180,
+      "maxPrice": 714,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -223,18 +223,18 @@
     ]
   },
   "Helmet_Tactical_03": {
-    "inGameName": "Rare Tactical Helmet",
+    "inGameName": "Reinforced Tactical Helmet",
     "description": "Protects the wearer's head, and increases their stamina.",
     "rarity": "Rare",
     "weight": 20,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 350,
     "sellValue": 2278,
     "factionRep": 23,
     "repair": {
-      "baseCost": 608,
-      "costModifierBroken": 1521,
-      "maxPrice": 3040,
+      "baseCost": 380,
+      "costModifierBroken": 571,
+      "maxPrice": 2280,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -262,18 +262,18 @@
     ]
   },
   "Helmet_Restoration_01": {
-    "inGameName": "Uncommon Restoration Helmet",
+    "inGameName": "Standard Restorative Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Uncommon",
     "weight": 20,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 250,
     "sellValue": 506,
     "factionRep": 5,
     "repair": {
-      "baseCost": 153,
-      "costModifierBroken": 384,
-      "maxPrice": 765,
+      "baseCost": 119,
+      "costModifierBroken": 180,
+      "maxPrice": 714,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -301,18 +301,18 @@
     ]
   },
   "Helmet_Restoration_02": {
-    "inGameName": "Rare Restoration Helmet",
+    "inGameName": "Reinforced Restorative Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Rare",
     "weight": 20,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 350,
     "sellValue": 2278,
     "factionRep": 23,
     "repair": {
-      "baseCost": 608,
-      "costModifierBroken": 1521,
-      "maxPrice": 3040,
+      "baseCost": 380,
+      "costModifierBroken": 571,
+      "maxPrice": 2280,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -340,18 +340,18 @@
     ]
   },
   "Helmet_NV_01": {
-    "inGameName": "Legendary NV Helmet",
+    "inGameName": "NV Helmet",
     "description": "Military grade helmet that includes vision enhancement tech.",
     "rarity": "Legendary",
     "weight": 20,
     "armorAmount": 33,
-    "durability": 1000,
+    "durability": 500,
     "sellValue": 23066,
     "factionRep": 231,
     "repair": {
-      "baseCost": 1540,
-      "costModifierBroken": 3853,
-      "maxPrice": 7700,
+      "baseCost": 2310,
+      "costModifierBroken": 3470,
+      "maxPrice": 13860,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -371,212 +371,65 @@
     "cost": [
       {
         "shop": "CraftingStation",
-        "SoftCurrency": 38500,
-        "Event_MeteorCore": 4,
-        "KorolevScrip": 30
+        "SoftCurrency": 77000,
+        "MeteorCore": 4,
+        "EpicVeltecite": 3,
+        "AlphaWardenHeart": 1
       }
     ]
   },
   "Helmet_Altered_01": {
-    "inGameName": "Epic Forged Helmet",
+    "inGameName": "Combat Forged Helmet",
     "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Epic",
     "weight": 20,
     "armorAmount": 25,
-    "durability": 800,
+    "durability": 450,
     "sellValue": 6265,
     "factionRep": 63,
     "repair": {
-      "baseCost": 840,
-      "costModifierBroken": 2107,
-      "maxPrice": 4200,
+      "baseCost": 735,
+      "costModifierBroken": 1109,
+      "maxPrice": 4410,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
     "cost": []
   },
   "Helmet_Altered_02": {
-    "inGameName": "Exotic Forged Helmet",
+    "inGameName": "Enhanced Forged Helmet",
     "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Exotic",
     "weight": 20,
     "armorAmount": 30,
-    "durability": 900,
+    "durability": 500,
     "sellValue": 12815,
     "factionRep": 128,
     "repair": {
-      "baseCost": 1075,
-      "costModifierBroken": 2698,
-      "maxPrice": 5375,
+      "baseCost": 1290,
+      "costModifierBroken": 1948,
+      "maxPrice": 7740,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
     "cost": []
   },
   "Helmet_Altered_03": {
-    "inGameName": "Legendary Forged Helmet",
+    "inGameName": "Titan Forged Helmet",
     "description": "Protects the head of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Legendary",
     "weight": 20,
     "armorAmount": 33,
-    "durability": 1000,
+    "durability": 550,
     "sellValue": 25629,
     "factionRep": 256,
     "repair": {
-      "baseCost": 1700,
-      "costModifierBroken": 4237,
-      "maxPrice": 8500,
+      "baseCost": 2550,
+      "costModifierBroken": 3806,
+      "maxPrice": 15300,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": []
-  },
-  "Helmet_02_Event_NightVision": {
-    "inGameName": "Uncommon Storm Diver NV Helmet",
-    "description": "Makeshift helmet built with discarded Progenitor tech",
-    "rarity": "Uncommon",
-    "weight": 20,
-    "armorAmount": 15,
-    "durability": 300,
-    "sellValue": 253,
-    "factionRep": 2,
-    "repair": {
-      "baseCost": 153,
-      "costModifierBroken": 384,
-      "maxPrice": 765,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      {
-        "inGameName": "Enhanced Night Vision (can be toggled on/off)",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "HelmetNV",
-            "modifierType": "Override",
-            "modiferValue": 1
-          }
-        ]
-      }
-    ],
-    "cost": []
-  },
-  "Helmet_02_Event_StormProt": {
-    "inGameName": "Uncommon Storm Diver Helmet - Grounded",
-    "description": "Makeshift helmet assembled with Progenitor materials; is able to better absorb damage from lightning strikes.",
-    "rarity": "Uncommon",
-    "weight": 20,
-    "armorAmount": 15,
-    "durability": 300,
-    "sellValue": 253,
-    "factionRep": 2,
-    "repair": {
-      "baseCost": 153,
-      "costModifierBroken": 384,
-      "maxPrice": 765,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      {
-        "inGameName": "Less damage from Storm strikes",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "DamageScalingReceivedFromStorm",
-            "modifierType": "Multiplicitive_PreAdd",
-            "modiferValue": 0.8
-          }
-        ]
-      }
-    ],
-    "cost": []
-  },
-  "Helmet_03_Event_MaxHealth_StormProt": {
-    "inGameName": "Rare Storm Diver Helmet - Booster",
-    "description": "Makeshift helmet assembled with Progenitor materials and salvaged tech; improves the wearer's vitality while in use, and is able to better absorb damage from lightning strikes.",
-    "rarity": "Rare",
-    "weight": 20,
-    "armorAmount": 20,
-    "durability": 400,
-    "sellValue": 1139,
-    "factionRep": 11,
-    "repair": {
-      "baseCost": 608,
-      "costModifierBroken": 1521,
-      "maxPrice": 3040,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      {
-        "inGameName": "Maximum health",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "MaxHealth",
-            "modifierType": "Additive",
-            "modiferValue": 10
-          }
-        ]
-      },
-      {
-        "inGameName": "Less damage from Storm strikes",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "DamageScalingReceivedFromStorm",
-            "modifierType": "Multiplicitive_PreAdd",
-            "modiferValue": 0.8
-          }
-        ]
-      }
-    ],
-    "cost": []
-  },
-  "Helmet_03_Event_NV_StormProt": {
-    "inGameName": "Rare Storm Diver NV Helmet - Grounded",
-    "description": "Makeshift NV helmet assembled with Progenitor materials and discarded tech; is able to better absorb damage from lightning strikes.",
-    "rarity": "Rare",
-    "weight": 20,
-    "armorAmount": 20,
-    "durability": 400,
-    "sellValue": 1139,
-    "factionRep": 11,
-    "repair": {
-      "baseCost": 608,
-      "costModifierBroken": 1521,
-      "maxPrice": 3040,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      {
-        "inGameName": "Enhanced Night Vision (can be toggled on/off)",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "HelmetNV",
-            "modifierType": "Override",
-            "modiferValue": 1
-          }
-        ]
-      },
-      {
-        "inGameName": "Less damage from Storm strikes",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "DamageScalingReceivedFromStorm",
-            "modifierType": "Multiplicitive_PreAdd",
-            "modiferValue": 0.8
-          }
-        ]
-      }
-    ],
     "cost": []
   }
 }

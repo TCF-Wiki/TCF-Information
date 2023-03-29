@@ -18,18 +18,18 @@
     "cost": []
   },
   "Shield_01": {
-    "inGameName": "Common Shield",
+    "inGameName": "Basic Shields",
     "description": "Protects the body of its wearer.",
     "rarity": "Common",
     "weight": 40,
     "armorAmount": 10,
-    "durability": 500,
+    "durability": 200,
     "sellValue": 135,
     "factionRep": 1,
     "repair": {
-      "baseCost": 45,
-      "costModifierBroken": 113,
-      "maxPrice": 225,
+      "baseCost": 36,
+      "costModifierBroken": 54,
+      "maxPrice": 216,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -53,18 +53,18 @@
     ]
   },
   "Shield_02": {
-    "inGameName": "Uncommon Shield",
+    "inGameName": "Standard Shields",
     "description": "Protects the body of its wearer.",
     "rarity": "Uncommon",
     "weight": 40,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 300,
     "sellValue": 608,
     "factionRep": 6,
     "repair": {
-      "baseCost": 180,
-      "costModifierBroken": 446,
-      "maxPrice": 900,
+      "baseCost": 140,
+      "costModifierBroken": 207,
+      "maxPrice": 840,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -78,18 +78,18 @@
     ]
   },
   "Shield_03": {
-    "inGameName": "Rare Shield",
+    "inGameName": "Reinforced Shields",
     "description": "Protects the body of its wearer.",
     "rarity": "Rare",
     "weight": 40,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 400,
     "sellValue": 4556,
     "factionRep": 46,
     "repair": {
-      "baseCost": 1200,
-      "costModifierBroken": 2978,
-      "maxPrice": 6000,
+      "baseCost": 750,
+      "costModifierBroken": 1111,
+      "maxPrice": 4500,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -104,18 +104,18 @@
     ]
   },
   "Shield_04": {
-    "inGameName": "Epic Shield",
+    "inGameName": "Combat Shields",
     "description": "Protects the body of its wearer.",
     "rarity": "Epic",
     "weight": 40,
     "armorAmount": 25,
-    "durability": 800,
+    "durability": 450,
     "sellValue": 11618,
     "factionRep": 116,
     "repair": {
-      "baseCost": 1560,
-      "costModifierBroken": 3916,
-      "maxPrice": 7800,
+      "baseCost": 1365,
+      "costModifierBroken": 2062,
+      "maxPrice": 8190,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -130,18 +130,18 @@
     ]
   },
   "Shield_05": {
-    "inGameName": "Exotic Shield",
+    "inGameName": "Enhanced Shields",
     "description": "Protects the body of its wearer.",
     "rarity": "Exotic",
     "weight": 40,
     "armorAmount": 30,
-    "durability": 900,
+    "durability": 500,
     "sellValue": 23579,
     "factionRep": 236,
     "repair": {
-      "baseCost": 1975,
-      "costModifierBroken": 4953,
-      "maxPrice": 9875,
+      "baseCost": 2370,
+      "costModifierBroken": 3573,
+      "maxPrice": 14220,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
@@ -150,24 +150,24 @@
         "shop": "CraftingStation",
         "SoftCurrency": 79000,
         "PrintResin": 6,
-        "PureFocusCrystal": 1,
-        "AI_CrusherSkin": 2
+        "AI_CrusherSkin": 3,
+        "AI_HowlerDart": 2
       }
     ]
   },
   "Shield_Tactical_01": {
-    "inGameName": "Common Tactical Shield",
+    "inGameName": "Basic Tactical Shields",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Common",
     "weight": 40,
     "armorAmount": 10,
-    "durability": 500,
+    "durability": 200,
     "sellValue": 203,
     "factionRep": 2,
     "repair": {
-      "baseCost": 68,
-      "costModifierBroken": 171,
-      "maxPrice": 340,
+      "baseCost": 54,
+      "costModifierBroken": 82,
+      "maxPrice": 326,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -204,18 +204,18 @@
     ]
   },
   "Shield_Tactical_02": {
-    "inGameName": "Uncommon Tactical Shield",
+    "inGameName": "Standard Tactical Shields",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Uncommon",
     "weight": 40,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 300,
     "sellValue": 608,
     "factionRep": 6,
     "repair": {
-      "baseCost": 180,
-      "costModifierBroken": 446,
-      "maxPrice": 900,
+      "baseCost": 140,
+      "costModifierBroken": 207,
+      "maxPrice": 840,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -243,18 +243,18 @@
     ]
   },
   "Shield_Tactical_03": {
-    "inGameName": "Rare Tactical Shield",
+    "inGameName": "Reinforced Tactical Shields",
     "description": "Protects the body of its wearer, and increases their stamina.",
     "rarity": "Rare",
     "weight": 40,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 400,
     "sellValue": 4556,
     "factionRep": 46,
     "repair": {
-      "baseCost": 1200,
-      "costModifierBroken": 2978,
-      "maxPrice": 6000,
+      "baseCost": 750,
+      "costModifierBroken": 1111,
+      "maxPrice": 4500,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -282,18 +282,18 @@
     ]
   },
   "Shield_Restoration_01": {
-    "inGameName": "Uncommon Restoration Shield",
+    "inGameName": "Standard Restorative Shields",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Uncommon",
     "weight": 40,
     "armorAmount": 15,
-    "durability": 600,
+    "durability": 300,
     "sellValue": 608,
     "factionRep": 6,
     "repair": {
-      "baseCost": 180,
-      "costModifierBroken": 446,
-      "maxPrice": 900,
+      "baseCost": 140,
+      "costModifierBroken": 207,
+      "maxPrice": 840,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -321,18 +321,18 @@
     ]
   },
   "Shield_Restoration_02": {
-    "inGameName": "Rare Restoration Shield",
+    "inGameName": "Reinforced Restorative Shields",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
     "rarity": "Rare",
     "weight": 40,
     "armorAmount": 20,
-    "durability": 700,
+    "durability": 400,
     "sellValue": 4556,
     "factionRep": 46,
     "repair": {
-      "baseCost": 1200,
-      "costModifierBroken": 2978,
-      "maxPrice": 6000,
+      "baseCost": 750,
+      "costModifierBroken": 1111,
+      "maxPrice": 4500,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [
@@ -360,205 +360,57 @@
     ]
   },
   "Shield_Altered_01": {
-    "inGameName": "Epic Forged Shield",
+    "inGameName": "Combat Forged Shields",
     "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Epic",
     "weight": 40,
     "armorAmount": 25,
-    "durability": 800,
+    "durability": 500,
     "sellValue": 12985,
     "factionRep": 130,
     "repair": {
-      "baseCost": 1720,
-      "costModifierBroken": 4283,
-      "maxPrice": 8600,
+      "baseCost": 1505,
+      "costModifierBroken": 2243,
+      "maxPrice": 9030,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
     "cost": []
   },
   "Shield_Altered_02": {
-    "inGameName": "Exotic Forged Shield",
+    "inGameName": "Enhanced Forged Shields",
     "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Exotic",
     "weight": 40,
     "armorAmount": 30,
-    "durability": 900,
-    "sellValue": 22553,
-    "factionRep": 226,
+    "durability": 550,
+    "sellValue": 24604,
+    "factionRep": 246,
     "repair": {
-      "baseCost": 1875,
-      "costModifierBroken": 4681,
-      "maxPrice": 9375,
+      "baseCost": 2460,
+      "costModifierBroken": 3689,
+      "maxPrice": 14760,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
     "cost": []
   },
   "Shield_Altered_03": {
-    "inGameName": "Legendary Forged Shield",
+    "inGameName": "Titan Forged Shields",
     "description": "Protects the body of its wearer. This particular piece of gear was somehow altered with Progenitor tech.",
     "rarity": "Legendary",
     "weight": 40,
     "armorAmount": 33,
-    "durability": 1000,
+    "durability": 600,
     "sellValue": 38444,
     "factionRep": 384,
     "repair": {
-      "baseCost": 2560,
-      "costModifierBroken": 6396,
-      "maxPrice": 12800,
+      "baseCost": 3840,
+      "costModifierBroken": 5753,
+      "maxPrice": 23040,
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": []
-  },
-  "Shield_02_Event_HealthRegen": {
-    "inGameName": "Uncommon Storm Diver Restoration Shield",
-    "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms.",
-    "rarity": "Uncommon",
-    "weight": 40,
-    "armorAmount": 15,
-    "durability": 300,
-    "sellValue": 304,
-    "factionRep": 3,
-    "repair": {
-      "baseCost": 180,
-      "costModifierBroken": 446,
-      "maxPrice": 900,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      {
-        "inGameName": "Health restoration per second during a Storm",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "HealthRegenerationRate",
-            "modifierType": "Additive",
-            "modiferValue": 1
-          }
-        ]
-      }
-    ],
-    "cost": []
-  },
-  "Shield_02_Event_StormProtection": {
-    "inGameName": "Uncommon Storm Diver Shield - Grounded",
-    "description": "Makeshift shield built with salvaged Progenitor tech; can better absorb damage from lightning strikes.",
-    "rarity": "Uncommon",
-    "weight": 40,
-    "armorAmount": 15,
-    "durability": 300,
-    "sellValue": 304,
-    "factionRep": 3,
-    "repair": {
-      "baseCost": 180,
-      "costModifierBroken": 446,
-      "maxPrice": 900,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      {
-        "inGameName": "Less damage from Storm strikes",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "DamageScalingReceivedFromStorm",
-            "modifierType": "Multiplicitive_PreAdd",
-            "modiferValue": 0.8
-          }
-        ]
-      }
-    ],
-    "cost": []
-  },
-  "Shield_03_Event_HealthRegen_StormProt": {
-    "inGameName": "Rare Storm Diver Restoration Shield - Grounded",
-    "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms, as well as improved resistance to lightning strikes.",
-    "rarity": "Rare",
-    "weight": 40,
-    "armorAmount": 20,
-    "durability": 400,
-    "sellValue": 2278,
-    "factionRep": 23,
-    "repair": {
-      "baseCost": 1200,
-      "costModifierBroken": 2978,
-      "maxPrice": 6000,
-      "durabilityBrokenPriceModifier": 0.5
-    },
-    "perks": [
-      {
-        "inGameName": "Health restoration per second during a Storm",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "HealthRegenerationRate",
-            "modifierType": "Additive",
-            "modiferValue": 1
-          }
-        ]
-      },
-      {
-        "inGameName": "Less damage from Storm strikes",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "DamageScalingReceivedFromStorm",
-            "modifierType": "Multiplicitive_PreAdd",
-            "modiferValue": 0.8
-          }
-        ]
-      }
-    ],
-    "cost": []
-  },
-  "Shield_03_Event_AIProt_StormProt": {
-    "inGameName": "Rare Storm Diver Shield - Enhanced",
-    "description": "Makeshift shield built with salvaged Progenitor tech; is able to regenerate damaged tissue during active Storms, and absorb more damage from Fortuna III's hostile fauna.",
-    "rarity": "Rare",
-    "weight": 40,
-    "armorAmount": 20,
-    "durability": 400,
-    "sellValue": 2278,
-    "factionRep": 23,
-    "repair": {
-      "baseCost": 1200,
-      "costModifierBroken": 2978,
-      "maxPrice": 6000,
-      "durabilityBrokenPriceModifier": 0.509524
-    },
-    "perks": [
-      {
-        "inGameName": "Less damage from hostile fauna attacks",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "DamageScalingReceivedFromAI",
-            "modifierType": "Multiplicitive_PreAdd",
-            "modiferValue": 0.8
-          }
-        ]
-      },
-      {
-        "inGameName": "Less damage from Storm strikes",
-        "duration": 0,
-        "elite": false,
-        "attributes": [
-          {
-            "attribute": "DamageScalingReceivedFromStorm",
-            "modifierType": "Multiplicitive_PreAdd",
-            "modiferValue": 0.8
-          }
-        ]
-      }
-    ],
     "cost": []
   }
 }

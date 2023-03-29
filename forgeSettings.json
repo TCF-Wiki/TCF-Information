@@ -1,5 +1,5 @@
 {
-  "catalystAmount": 1,
+  "catalystAmount": 3,
   "maxInputItems": 5,
   "rarityAmount": {
     "Common": 3,
@@ -10,16 +10,16 @@
     "Legendary": 1
   },
   "timer_Default": 30,
-  "timer_Ingots": 20,
+  "timer_Ingots": 30,
   "timer_BaseItemCatalyst": {
     "Epic": 45,
     "Exotic": 60,
     "Legendary": 90
   },
   "timer_Lottery": {
-    "Epic": 23,
-    "Exotic": 30,
-    "Legendary": 45
+    "Epic": 45,
+    "Exotic": 60,
+    "Legendary": 90
   },
   "probability_Lottery": {
     "Epic": 0,
@@ -27,7 +27,7 @@
     "Exotic": 95
   },
   "sideProducts": {
-    "AF_Slag": 7,
-    "AF_Token": 10
+    "AF_Slag": 10,
+    "AF_Token": 15
   }
 }

@@ -10,7 +10,7 @@
       "level": 2,
       "upgradesRequired": 11,
       "costs": {
-        "SoftCurrency": 1000,
+        "SoftCurrency": 2000,
         "SpareCasing": 5,
         "CompoundSheets": 5,
         "AI_RattlerSkin": 3
@@ -21,7 +21,7 @@
       "level": 3,
       "upgradesRequired": 13,
       "costs": {
-        "SoftCurrency": 2000,
+        "SoftCurrency": 9000,
         "Insulation": 6,
         "Cables": 9,
         "AI_RattlerEyes": 4
@@ -32,7 +32,7 @@
       "level": 4,
       "upgradesRequired": 18,
       "costs": {
-        "SoftCurrency": 4000,
+        "SoftCurrency": 16700,
         "BlueWood": 12,
         "CircuitBoard": 12,
         "HardenedBoneAlloy": 3
@@ -43,7 +43,7 @@
       "level": 5,
       "upgradesRequired": 24,
       "costs": {
-        "SoftCurrency": 8000,
+        "SoftCurrency": 27400,
         "Adhesive": 10,
         "RadioSpareParts": 15,
         "AI_StriderMeat_03": 5
@@ -54,9 +54,9 @@
       "level": 6,
       "upgradesRequired": 32,
       "costs": {
-        "SoftCurrency": 16000,
-        "AluminumParts": 18,
+        "SoftCurrency": 43700,
         "MultiTool": 9,
+        "Battery": 14,
         "AI_WeremoleMeat": 6
       },
       "upgradeTime": 72000
@@ -65,8 +65,8 @@
       "level": 7,
       "upgradesRequired": 34,
       "costs": {
-        "SoftCurrency": 32000,
-        "PrintResin": 9,
+        "SoftCurrency": 69200,
+        "AI_HowlerPellet": 10,
         "Datapad": 7,
         "AI_WeremoleMeat_02": 1
       },
@@ -76,10 +76,10 @@
       "level": 8,
       "upgradesRequired": 44,
       "costs": {
-        "SoftCurrency": 64000,
-        "SmartMesh": 12,
-        "Alien_Scrap": 32,
-        "AI_CrusherSkin": 5
+        "SoftCurrency": 109000,
+        "TentaclePlant": 20,
+        "Alien_Scrap": 40,
+        "GlowingCrystalCoreShard": 15
       },
       "upgradeTime": 145440
     },
@@ -87,9 +87,9 @@
       "level": 9,
       "upgradesRequired": 50,
       "costs": {
-        "SoftCurrency": 128000,
+        "SoftCurrency": 172000,
         "Letium": 50,
-        "TentaclePlant": 10,
+        "OilTank": 50,
         "AI_CrusherMeat": 3
       },
       "upgradeTime": 189360
@@ -98,10 +98,10 @@
       "level": 10,
       "upgradesRequired": 60,
       "costs": {
-        "SoftCurrency": 256000,
+        "SoftCurrency": 271000,
         "AF_Token": 1,
-        "OilTank": 50,
-        "AlphaWardenHeart": 2
+        "AI_HowlerSyrinx_01": 1,
+        "AlphaWardenHeart": 1
       },
       "upgradeTime": 239040
     }
@@ -189,8 +189,8 @@
           "upgradeTime": 7920,
           "costs": {
             "SoftCurrency": 13568,
-            "TitanOre": 1,
-            "MultiTool": 4,
+            "TitanOre": 16,
+            "MeteorFragment": 9,
             "KorolevScrip": 11
           }
         },
@@ -199,8 +199,8 @@
           "upgradeTime": 9360,
           "costs": {
             "SoftCurrency": 21437,
-            "HydraulicPiston": 12,
-            "IvyPlant": 3,
+            "HydraulicPiston": 6,
+            "IvyPlant": 6,
             "KorolevScrip": 17
           }
         },
@@ -226,7 +226,7 @@
           "upgradeTime": 59520,
           "costs": {
             "SoftCurrency": 53515,
-            "MeteorFragment": 9,
+            "AI_HowlerPellet": 6,
             "ShockAbsorber": 2,
             "KorolevScrip": 38
           }
@@ -246,8 +246,8 @@
           "upgradeTime": 67320,
           "costs": {
             "SoftCurrency": 133595,
-            "AnaestheticsContainers": 23,
-            "EpicVeltecite": 2,
+            "AnaestheticsContainers": 10,
+            "EpicVeltecite": 10,
             "KorolevScrip": 86
           }
         }
@@ -264,7 +264,7 @@
           "costs": {
             "SoftCurrency": 211080,
             "MeteorCore": 4,
-            "DesertPlant": 2,
+            "Alien_Scrap": 20,
             "KorolevScrip": 130
           }
         },
@@ -273,8 +273,8 @@
           "upgradeTime": 135360,
           "costs": {
             "SoftCurrency": 333507,
-            "Alien_Scrap": 4,
-            "CombatCPU_red": 1,
+            "DesertPlant": 10,
+            "CombatCPU_red": 2,
             "KorolevScrip": 195
           }
         },
@@ -283,7 +283,7 @@
           "upgradeTime": 141120,
           "costs": {
             "SoftCurrency": 526941,
-            "ForgeIronIngot": 5,
+            "ChargedForgeIronIngot": 10,
             "VelteciteHeart": 1,
             "KorolevScrip": 292
           }
@@ -296,11 +296,11 @@
       "tier": 1,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
           "upgradeTime": 120,
           "costs": {
-            "SoftCurrency": 872,
-            "Fabrics": 2,
+            "SoftCurrency": 350,
+            "GenericCreatureDrop": 3,
             "KorolevScrip": 1
           }
         }
@@ -308,11 +308,27 @@
     },
     "increase_bag_2": {
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
-      "PQLevelRequired": 3,
+      "PQLevelRequired": 2,
       "tier": 2,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
+          "upgradeTime": 120,
+          "costs": {
+            "SoftCurrency": 872,
+            "Fabrics": 2,
+            "KorolevScrip": 2
+          }
+        }
+      ]
+    },
+    "increase_bag_3": {
+      "type": "EYTechTreeNodePerkType::IncreaseBagSize",
+      "PQLevelRequired": 3,
+      "tier": 3,
+      "levels": [
+        {
+          "upgradeAmount": 1,
           "upgradeTime": 2520,
           "costs": {
             "SoftCurrency": 13566,
@@ -323,10 +339,10 @@
         }
       ]
     },
-    "increase_bag_3": {
+    "increase_bag_4": {
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 5,
-      "tier": 3,
+      "tier": 4,
       "levels": [
         {
           "upgradeAmount": 1,
@@ -340,13 +356,13 @@
         }
       ]
     },
-    "increase_bag_4": {
+    "increase_bag_5": {
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 7,
-      "tier": 4,
+      "tier": 5,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
           "upgradeTime": 59520,
           "costs": {
             "SoftCurrency": 211058,
@@ -357,17 +373,18 @@
         }
       ]
     },
-    "increase_bag_5": {
+    "increase_bag_6": {
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 10,
-      "tier": 5,
+      "tier": 6,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
           "upgradeTime": 103320,
           "costs": {
             "SoftCurrency": 526885,
-            "AF_Slag": 4,
+            "AI_HowlerSyrinx_01": 1,
+            "AF_Slag": 3,
             "KorolevScrip": 292
           }
         }
@@ -392,7 +409,7 @@
           "upgradeTime": 360,
           "costs": {
             "SoftCurrency": 1570,
-            "Alloys": 3,
+            "Alloys": 5,
             "ICAScrip": 2
           }
         },
@@ -492,7 +509,7 @@
           "upgradeTime": 103320,
           "costs": {
             "SoftCurrency": 172988,
-            "TitanOre": 2,
+            "TitanOre": 18,
             "GlowingCrystalCoreShard": 18,
             "ICAScrip": 130
           }
@@ -525,7 +542,7 @@
       "tier": 1,
       "levels": [
         {
-          "upgradeAmount": 0.42,
+          "upgradeAmount": 0.28,
           "upgradeTime": 120,
           "costs": {
             "SoftCurrency": 872,
@@ -534,7 +551,7 @@
           }
         },
         {
-          "upgradeAmount": 0.46,
+          "upgradeAmount": 0.3,
           "upgradeTime": 360,
           "costs": {
             "SoftCurrency": 1221,
@@ -543,7 +560,7 @@
           }
         },
         {
-          "upgradeAmount": 0.5,
+          "upgradeAmount": 0.32,
           "upgradeTime": 720,
           "costs": {
             "SoftCurrency": 1709,
@@ -553,7 +570,7 @@
           }
         },
         {
-          "upgradeAmount": 0.54,
+          "upgradeAmount": 0.34,
           "upgradeTime": 1200,
           "costs": {
             "SoftCurrency": 2393,
@@ -563,7 +580,7 @@
           }
         },
         {
-          "upgradeAmount": 0.58,
+          "upgradeAmount": 0.36,
           "upgradeTime": 1800,
           "costs": {
             "SoftCurrency": 3350,
@@ -580,7 +597,7 @@
       "tier": 2,
       "levels": [
         {
-          "upgradeAmount": 0.05,
+          "upgradeAmount": 0.02,
           "upgradeTime": 16320,
           "costs": {
             "SoftCurrency": 4690,
@@ -590,7 +607,7 @@
           }
         },
         {
-          "upgradeAmount": 0.09,
+          "upgradeAmount": 0.04,
           "upgradeTime": 18360,
           "costs": {
             "SoftCurrency": 6566,
@@ -600,7 +617,7 @@
           }
         },
         {
-          "upgradeAmount": 0.13,
+          "upgradeAmount": 0.06,
           "upgradeTime": 20520,
           "costs": {
             "SoftCurrency": 9193,
@@ -610,7 +627,7 @@
           }
         },
         {
-          "upgradeAmount": 0.17,
+          "upgradeAmount": 0.08,
           "upgradeTime": 22800,
           "costs": {
             "SoftCurrency": 12870,
@@ -620,7 +637,7 @@
           }
         },
         {
-          "upgradeAmount": 0.21,
+          "upgradeAmount": 0.1,
           "upgradeTime": 25200,
           "costs": {
             "SoftCurrency": 18018,
@@ -637,7 +654,7 @@
       "tier": 3,
       "levels": [
         {
-          "upgradeAmount": 0.05,
+          "upgradeAmount": 0.02,
           "upgradeTime": 59520,
           "costs": {
             "SoftCurrency": 25226,
@@ -647,7 +664,7 @@
           }
         },
         {
-          "upgradeAmount": 0.09,
+          "upgradeAmount": 0.04,
           "upgradeTime": 63360,
           "costs": {
             "SoftCurrency": 35316,
@@ -657,7 +674,7 @@
           }
         },
         {
-          "upgradeAmount": 0.13,
+          "upgradeAmount": 0.06,
           "upgradeTime": 67320,
           "costs": {
             "SoftCurrency": 49442,
@@ -667,7 +684,7 @@
           }
         },
         {
-          "upgradeAmount": 0.17,
+          "upgradeAmount": 0.08,
           "upgradeTime": 71400,
           "costs": {
             "SoftCurrency": 69219,
@@ -677,7 +694,7 @@
           }
         },
         {
-          "upgradeAmount": 0.21,
+          "upgradeAmount": 0.1,
           "upgradeTime": 75600,
           "costs": {
             "SoftCurrency": 96907,
@@ -694,7 +711,7 @@
       "tier": 4,
       "levels": [
         {
-          "upgradeAmount": 0.05,
+          "upgradeAmount": 0.02,
           "upgradeTime": 129720,
           "costs": {
             "SoftCurrency": 135670,
@@ -703,7 +720,7 @@
           }
         },
         {
-          "upgradeAmount": 0.1,
+          "upgradeAmount": 0.04,
           "upgradeTime": 135360,
           "costs": {
             "SoftCurrency": 189938,
@@ -713,7 +730,7 @@
           }
         },
         {
-          "upgradeAmount": 0.15,
+          "upgradeAmount": 0.06,
           "upgradeTime": 141120,
           "costs": {
             "SoftCurrency": 265913,
@@ -723,7 +740,7 @@
           }
         },
         {
-          "upgradeAmount": 0.2,
+          "upgradeAmount": 0.08,
           "upgradeTime": 147000,
           "costs": {
             "SoftCurrency": 372278,
@@ -733,11 +750,12 @@
           }
         },
         {
-          "upgradeAmount": 0.25,
+          "upgradeAmount": 0.1,
           "upgradeTime": 153000,
           "costs": {
             "SoftCurrency": 521189,
             "AF_Token": 1,
+            "AI_HowlerPellet": 5,
             "OsirisScrip": 292
           }
         }
@@ -942,7 +960,7 @@
           "costs": {
             "SoftCurrency": 49437,
             "TentaclePlant": 2,
-            "PureFocusCrystal": 2,
+            "AI_HowlerPellet": 5,
             "OsirisScrip": 130
           }
         },
@@ -976,9 +994,7 @@
           "upgradeAmount": 1,
           "upgradeTime": 5,
           "costs": {
-            "SoftCurrency": 872,
-            "BlueWood": 2,
-            "ICAScrip": 1
+            "SoftCurrency": 500
           }
         },
         {
@@ -1242,7 +1258,7 @@
           "upgradeTime": 98400,
           "costs": {
             "EpicVeltecite": 2,
-            "AI_StriderMeat_03": 12,
+            "AI_HowlerDart": 1,
             "SoftCurrency": 25223,
             "KorolevScrip": 58
           }
@@ -1294,7 +1310,7 @@
       "tier": 1,
       "levels": [
         {
-          "upgradeAmount": 2,
+          "upgradeAmount": 1,
           "upgradeTime": 120,
           "costs": {
             "SoftCurrency": 872,
@@ -1303,7 +1319,7 @@
           }
         },
         {
-          "upgradeAmount": 4,
+          "upgradeAmount": 2,
           "upgradeTime": 600,
           "costs": {
             "SoftCurrency": 1400,
@@ -1312,7 +1328,7 @@
           }
         },
         {
-          "upgradeAmount": 6,
+          "upgradeAmount": 3,
           "upgradeTime": 1200,
           "costs": {
             "SoftCurrency": 2200,
@@ -1322,7 +1338,7 @@
           }
         },
         {
-          "upgradeAmount": 8,
+          "upgradeAmount": 4,
           "upgradeTime": 1800,
           "costs": {
             "SoftCurrency": 3400,
@@ -1339,7 +1355,7 @@
       "tier": 2,
       "levels": [
         {
-          "upgradeAmount": 3,
+          "upgradeAmount": 2,
           "upgradeTime": 16320,
           "costs": {
             "PureNickel": 4,
@@ -1349,7 +1365,7 @@
           }
         },
         {
-          "upgradeAmount": 5,
+          "upgradeAmount": 3,
           "upgradeTime": 18360,
           "costs": {
             "BlueWood": 8,
@@ -1359,7 +1375,7 @@
           }
         },
         {
-          "upgradeAmount": 7,
+          "upgradeAmount": 4,
           "upgradeTime": 20520,
           "costs": {
             "Fabrics": 11,
@@ -1369,7 +1385,7 @@
           }
         },
         {
-          "upgradeAmount": 9,
+          "upgradeAmount": 5,
           "upgradeTime": 22800,
           "costs": {
             "MeteorFragment": 6,
@@ -1379,7 +1395,7 @@
           }
         },
         {
-          "upgradeAmount": 11,
+          "upgradeAmount": 6,
           "upgradeTime": 25200,
           "costs": {
             "CircuitBoard": 15,
@@ -1396,7 +1412,7 @@
       "tier": 3,
       "levels": [
         {
-          "upgradeAmount": 3,
+          "upgradeAmount": 2,
           "upgradeTime": 59520,
           "costs": {
             "MiniatureReactor": 4,
@@ -1406,7 +1422,7 @@
           }
         },
         {
-          "upgradeAmount": 5,
+          "upgradeAmount": 3,
           "upgradeTime": 63360,
           "costs": {
             "MultiTool": 8,
@@ -1416,7 +1432,7 @@
           }
         },
         {
-          "upgradeAmount": 7,
+          "upgradeAmount": 4,
           "upgradeTime": 67320,
           "costs": {
             "MeteorCore": 3,
@@ -1426,7 +1442,7 @@
           }
         },
         {
-          "upgradeAmount": 9,
+          "upgradeAmount": 5,
           "upgradeTime": 71400,
           "costs": {
             "AI_CrusherSkin": 6,
@@ -1436,7 +1452,7 @@
           }
         },
         {
-          "upgradeAmount": 11,
+          "upgradeAmount": 6,
           "upgradeTime": 75600,
           "costs": {
             "RareVeltecite": 5,
@@ -1453,17 +1469,17 @@
       "tier": 4,
       "levels": [
         {
-          "upgradeAmount": 3,
+          "upgradeAmount": 2,
           "upgradeTime": 129720,
           "costs": {
-            "HardDrive_epic": 1,
+            "AI_HowlerDart": 2,
             "EpicVeltecite": 3,
             "SoftCurrency": 265000,
             "ICAScrip": 58
           }
         },
         {
-          "upgradeAmount": 5,
+          "upgradeAmount": 3,
           "upgradeTime": 135360,
           "costs": {
             "Letium": 135,
@@ -1473,7 +1489,7 @@
           }
         },
         {
-          "upgradeAmount": 7,
+          "upgradeAmount": 4,
           "upgradeTime": 141120,
           "costs": {
             "OilTank": 53,
@@ -1483,7 +1499,7 @@
           }
         },
         {
-          "upgradeAmount": 9,
+          "upgradeAmount": 5,
           "upgradeTime": 147000,
           "costs": {
             "AlphaWardenHeart": 2,
@@ -1493,7 +1509,7 @@
           }
         },
         {
-          "upgradeAmount": 12,
+          "upgradeAmount": 6,
           "upgradeTime": 153000,
           "costs": {
             "VelteciteHeart": 1,
