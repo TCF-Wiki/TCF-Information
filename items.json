@@ -9066,27 +9066,6 @@
       "forge": {}
     }
   },
-  "WP_A_HVY_Shell_01": {
-    "inGameName": "KARLA",
-    "description": "While able to neutralize heavily armored targets, the KARLA howitzer is unwieldy and suffers from a low rate of fire.",
-    "type": "weapon",
-    "rarity": "Legendary",
-    "weight": 60,
-    "cost": [],
-    "sellValue": 117760,
-    "factionRep": 1178,
-    "tags": [
-      "Weapon.Category.Launcher"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
   "WP_A_Launch_MSL_01": {
     "inGameName": "KOMRAD",
     "description": "This fearsome weapon is fires salvos of fast-moving missiles capable of making short work of near any hostile element. Audible range: 500m",
@@ -9108,48 +9087,6 @@
     "tags": [
       "Weapon.Category.Launcher",
       "Weapon.Ammo.Special_06_1"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "WP_E_Launch_Nade_01": {
-    "inGameName": "FF4 Detonator",
-    "description": "A standard grenade launcher with a high damage output; it requires skilled use to operate efficiently.",
-    "type": "weapon",
-    "rarity": "Legendary",
-    "weight": 60,
-    "cost": [],
-    "sellValue": 51258,
-    "factionRep": 513,
-    "tags": [
-      "Weapon.Category.Launcher"
-    ],
-    "stackSize": 1,
-    "uses": {
-      "printing": {},
-      "missions": {},
-      "jobs": {},
-      "quarters": {},
-      "forge": {}
-    }
-  },
-  "WP_D_HVY_Exotic_01": {
-    "inGameName": "HAZE",
-    "description": "A slow firing launcher, projectiles create a harming energy field on impact. Further discharges of the launcher into an active field feed into it, until reaching a critical point resulting in a devastating release of energy.",
-    "type": "weapon",
-    "rarity": "Legendary",
-    "weight": 60,
-    "cost": [],
-    "sellValue": 51258,
-    "factionRep": 513,
-    "tags": [
-      "Weapon.Category.Launcher"
     ],
     "stackSize": 1,
     "uses": {
