@@ -13,12 +13,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "UncommonVelticite": {
-          "inGameName": "Cloudy Veltecite",
-          "amount": 5
-        }
-      },
       "missions": {},
       "jobs": {},
       "quarters": {
@@ -32,6 +26,12 @@
         },
         "aurum_passive_cap_1.2": {
           "inGameName": "Aurum passive cap 1.3",
+          "amount": 5
+        }
+      },
+      "printing": {
+        "UncommonVelticite": {
+          "inGameName": "Cloudy Veltecite",
           "amount": 5
         }
       },
@@ -58,6 +58,27 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {
+        "Main-KOR-GruntWork-2": {
+          "inGameName": "Good, Honest Work Part 2",
+          "amount": 3
+        }
+      },
+      "jobs": {},
+      "quarters": {
+        "generate_aurum_2.0": {
+          "inGameName": "Generate aurum 4.1",
+          "amount": 1
+        },
+        "kmarks_passive_cap_2.2": {
+          "inGameName": "Kmarks passive cap 2.3",
+          "amount": 3
+        },
+        "aurum_passive_cap_2.3": {
+          "inGameName": "Aurum passive cap 4.4",
+          "amount": 4
+        }
+      },
       "printing": {
         "RareVeltecite": {
           "inGameName": "Clear Veltecite",
@@ -84,27 +105,6 @@
           "amount": 2
         }
       },
-      "missions": {
-        "Main-KOR-GruntWork-2": {
-          "inGameName": "Good, Honest Work Part 2",
-          "amount": 3
-        }
-      },
-      "jobs": {},
-      "quarters": {
-        "generate_aurum_2.0": {
-          "inGameName": "Generate aurum 4.1",
-          "amount": 1
-        },
-        "kmarks_passive_cap_2.2": {
-          "inGameName": "Kmarks passive cap 2.3",
-          "amount": 3
-        },
-        "aurum_passive_cap_2.3": {
-          "inGameName": "Aurum passive cap 4.4",
-          "amount": 4
-        }
-      },
       "forge": {}
     }
   },
@@ -128,6 +128,56 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {
+        "Main-KOR-Veltecite-1": {
+          "inGameName": "Veltecite for the Masses Part 1",
+          "amount": 1
+        },
+        "Main-Osiris-CaveRumors-3": {
+          "inGameName": "Lost Knowledge Part 5",
+          "amount": 8
+        },
+        "Main-Osiris-CrystalSamples-1": {
+          "inGameName": "Everything is Crystals Part 1",
+          "amount": 8
+        }
+      },
+      "jobs": {
+        "NEW-Medium-KOR-Mine-1": {
+          "inGameName": "Clear Veltecite",
+          "amount": 2
+        },
+        "NEW-Medium-KOR-Mine-5": {
+          "inGameName": "Crystal Frenzy",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Mine-5": {
+          "inGameName": "Classified II",
+          "amount": 8
+        },
+        "NEW-Hard-KOR-Mine-6": {
+          "inGameName": "Unlimited Power",
+          "amount": 6
+        },
+        "NEW-Hard-ICA-Mine-2": {
+          "inGameName": "Energy Crisis",
+          "amount": 8
+        }
+      },
+      "quarters": {
+        "generate_kmarks_3.1": {
+          "inGameName": "Generate kmarks 5.2",
+          "amount": 2
+        },
+        "kmarks_passive_cap_3.4": {
+          "inGameName": "Kmarks passive cap 5.5",
+          "amount": 4
+        },
+        "aurum_passive_cap_3.4": {
+          "inGameName": "Aurum passive cap 7.5",
+          "amount": 5
+        }
+      },
       "printing": {
         "EpicVeltecite": {
           "inGameName": "Pure Veltecite",
@@ -182,56 +232,6 @@
           "amount": 1
         }
       },
-      "missions": {
-        "Main-KOR-Veltecite-1": {
-          "inGameName": "Veltecite for the Masses Part 1",
-          "amount": 1
-        },
-        "Main-Osiris-CaveRumors-3": {
-          "inGameName": "Lost Knowledge Part 5",
-          "amount": 8
-        },
-        "Main-Osiris-CrystalSamples-1": {
-          "inGameName": "Everything is Crystals Part 1",
-          "amount": 8
-        }
-      },
-      "jobs": {
-        "NEW-Medium-KOR-Mine-1": {
-          "inGameName": "Clear Veltecite",
-          "amount": 2
-        },
-        "NEW-Medium-KOR-Mine-5": {
-          "inGameName": "Crystal Frenzy",
-          "amount": 2
-        },
-        "NEW-Hard-KOR-Mine-5": {
-          "inGameName": "Classified II",
-          "amount": 8
-        },
-        "NEW-Hard-KOR-Mine-6": {
-          "inGameName": "Unlimited Power",
-          "amount": 6
-        },
-        "NEW-Hard-ICA-Mine-2": {
-          "inGameName": "Energy Crisis",
-          "amount": 8
-        }
-      },
-      "quarters": {
-        "generate_kmarks_3.1": {
-          "inGameName": "Generate kmarks 5.2",
-          "amount": 2
-        },
-        "kmarks_passive_cap_3.4": {
-          "inGameName": "Kmarks passive cap 5.5",
-          "amount": 4
-        },
-        "aurum_passive_cap_3.4": {
-          "inGameName": "Aurum passive cap 7.5",
-          "amount": 5
-        }
-      },
       "forge": {}
     }
   },
@@ -255,12 +255,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Helmet_NV_01": {
-          "inGameName": "NV Helmet",
-          "amount": 3
-        }
-      },
       "missions": {
         "Main-ICA-OilScanModule-1": {
           "inGameName": "An Eye for Oil Part 1",
@@ -299,6 +293,12 @@
           "amount": 3
         }
       },
+      "printing": {
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -316,7 +316,6 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-BuildLaserDrill-6": {
           "inGameName": "Heavy Construction Part 7",
@@ -355,6 +354,7 @@
           "amount": 1
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -372,12 +372,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "PureFocusCrystal": {
-          "inGameName": "Pure Focus Crystal",
-          "amount": 9
-        }
-      },
       "missions": {
         "Main-KOR-GruntWork-7": {
           "inGameName": "Good, Honest Work Part 8",
@@ -406,6 +400,12 @@
         "generate_aurum_4.1": {
           "inGameName": "Generate aurum 10.2",
           "amount": 19
+        }
+      },
+      "printing": {
+        "PureFocusCrystal": {
+          "inGameName": "Pure Focus Crystal",
+          "amount": 9
         }
       },
       "forge": {
@@ -444,7 +444,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-FocusCrystals-1": {
           "inGameName": "Focused on Crystals Part 1",
@@ -479,6 +478,7 @@
           "amount": 2
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -496,12 +496,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "PureNickel": {
-          "inGameName": "Altered Nickel",
-          "amount": 5
-        }
-      },
       "missions": {
         "Main-KOR-FTUE-1": {
           "inGameName": "Time to Punch In Part 1",
@@ -535,6 +529,12 @@
           "amount": 8
         }
       },
+      "printing": {
+        "PureNickel": {
+          "inGameName": "Altered Nickel",
+          "amount": 5
+        }
+      },
       "forge": {}
     }
   },
@@ -558,6 +558,31 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {},
+      "jobs": {
+        "NEW-Medium-KOR-Mine-4": {
+          "inGameName": "Titans of Industry",
+          "amount": 6
+        }
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_2.1": {
+          "inGameName": "Reduce pq upgrading time 4.2",
+          "amount": 10
+        },
+        "generate_kmarks_2.1": {
+          "inGameName": "Generate kmarks 2.2",
+          "amount": 10
+        },
+        "kmarks_passive_cap_1.3": {
+          "inGameName": "Kmarks passive cap 1.4",
+          "amount": 4
+        },
+        "aurum_passive_cap_2.0": {
+          "inGameName": "Aurum passive cap 4.1",
+          "amount": 4
+        }
+      },
       "printing": {
         "Bag_02": {
           "inGameName": "Medium Backpack",
@@ -584,31 +609,6 @@
           "amount": 2
         }
       },
-      "missions": {},
-      "jobs": {
-        "NEW-Medium-KOR-Mine-4": {
-          "inGameName": "Titans of Industry",
-          "amount": 6
-        }
-      },
-      "quarters": {
-        "reduce_pq_upgrading_time_2.1": {
-          "inGameName": "Reduce pq upgrading time 4.2",
-          "amount": 10
-        },
-        "generate_kmarks_2.1": {
-          "inGameName": "Generate kmarks 2.2",
-          "amount": 10
-        },
-        "kmarks_passive_cap_1.3": {
-          "inGameName": "Kmarks passive cap 1.4",
-          "amount": 4
-        },
-        "aurum_passive_cap_2.0": {
-          "inGameName": "Aurum passive cap 4.1",
-          "amount": 4
-        }
-      },
       "forge": {}
     }
   },
@@ -626,10 +626,10 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -647,6 +647,32 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {
+        "Main-KOR-EarlyMap2-3": {
+          "inGameName": "Uncharted Territory Part 3",
+          "amount": 6
+        }
+      },
+      "jobs": {
+        "NEW-Hard-KOR-Gather-6": {
+          "inGameName": "Stocking Up",
+          "amount": 16
+        }
+      },
+      "quarters": {
+        "reduce_pq_upgrading_time_3.2": {
+          "inGameName": "Reduce pq upgrading time 6.3",
+          "amount": 16
+        },
+        "generate_kmarks_3.1": {
+          "inGameName": "Generate kmarks 5.2",
+          "amount": 10
+        },
+        "kmarks_passive_cap_3.1": {
+          "inGameName": "Kmarks passive cap 5.2",
+          "amount": 10
+        }
+      },
       "printing": {
         "TitanOre": {
           "inGameName": "Titan Ore",
@@ -685,32 +711,6 @@
           "amount": 2
         }
       },
-      "missions": {
-        "Main-KOR-EarlyMap2-3": {
-          "inGameName": "Uncharted Territory Part 3",
-          "amount": 6
-        }
-      },
-      "jobs": {
-        "NEW-Hard-KOR-Gather-6": {
-          "inGameName": "Stocking Up",
-          "amount": 16
-        }
-      },
-      "quarters": {
-        "reduce_pq_upgrading_time_3.2": {
-          "inGameName": "Reduce pq upgrading time 6.3",
-          "amount": 16
-        },
-        "generate_kmarks_3.1": {
-          "inGameName": "Generate kmarks 5.2",
-          "amount": 10
-        },
-        "kmarks_passive_cap_3.1": {
-          "inGameName": "Kmarks passive cap 5.2",
-          "amount": 10
-        }
-      },
       "forge": {}
     }
   },
@@ -734,40 +734,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Bag_04": {
-          "inGameName": "Heavy Duty Backpack",
-          "amount": 1
-        },
-        "Shield_04": {
-          "inGameName": "Combat Shields",
-          "amount": 1
-        },
-        "Mod_Converter_Light_03": {
-          "inGameName": "Light Converter",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_03": {
-          "inGameName": "Medium Converter",
-          "amount": 1
-        },
-        "Mod_Converter_Light_AIDMG_02": {
-          "inGameName": "Light Creature Dmg",
-          "amount": 1
-        },
-        "Mod_Converter_Light_AIDMG_03": {
-          "inGameName": "Light Creature Dmg",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_AIDMG_02": {
-          "inGameName": "Medium Creature Dmg",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_AIDMG_03": {
-          "inGameName": "Medium Creature Dmg",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-MiningTool-5": {
           "inGameName": "What a Tool! Part 4",
@@ -802,6 +768,40 @@
           "amount": 2
         }
       },
+      "printing": {
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        },
+        "Shield_04": {
+          "inGameName": "Combat Shields",
+          "amount": 1
+        },
+        "Mod_Converter_Light_03": {
+          "inGameName": "Light Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_03": {
+          "inGameName": "Medium Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_03": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_03": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_AIProtection": {
           "inGameName": "Less damage from hostile fauna attacks",
@@ -828,24 +828,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_Health_02": {
-          "inGameName": "Strong Stim",
-          "amount": 1
-        },
-        "Consumable_Health_05": {
-          "inGameName": "Strong Medkit",
-          "amount": 2
-        },
-        "Shield_Restoration_01": {
-          "inGameName": "Standard Restorative Shields",
-          "amount": 2
-        },
-        "Helmet_Restoration_01": {
-          "inGameName": "Standard Restorative Helmet",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-Osiris-GainTrust-3": {
           "inGameName": "Dangerous Science Part 4",
@@ -867,6 +849,24 @@
         }
       },
       "quarters": {},
+      "printing": {
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_05": {
+          "inGameName": "Strong Medkit",
+          "amount": 2
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Standard Restorative Shields",
+          "amount": 2
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Standard Restorative Helmet",
+          "amount": 2
+        }
+      },
       "forge": {
         "Perk_HealthRegen": {
           "inGameName": "Health restoration per second",
@@ -893,24 +893,6 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {
-        "WP_A_Sniper_Gauss_01": {
-          "inGameName": "KARMA-1",
-          "amount": 10
-        },
-        "WP_A_Launch_MSL_01": {
-          "inGameName": "KOMRAD",
-          "amount": 10
-        },
-        "WP_G_HVY_Beam_01": {
-          "inGameName": "Zeus Beam",
-          "amount": 10
-        },
-        "Helmet_NV_01": {
-          "inGameName": "NV Helmet",
-          "amount": 4
-        }
-      },
       "missions": {
         "Main-KOR-BuildLaserDrill-8": {
           "inGameName": "Heavy Construction Part 9",
@@ -961,6 +943,24 @@
           "amount": 3
         }
       },
+      "printing": {
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 10
+        },
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 10
+        },
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 10
+        },
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 4
+        }
+      },
       "forge": {
         "Perk_MaxCapacity": {
           "inGameName": "Extra backpack capacity",
@@ -987,20 +987,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "DerelictExplosives": {
-          "inGameName": "Derelict Explosives",
-          "amount": 1
-        },
-        "Mod_Converter_Light_AIDMG_02": {
-          "inGameName": "Light Creature Dmg",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_AIDMG_02": {
-          "inGameName": "Medium Creature Dmg",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-GruntWork-7": {
           "inGameName": "Good, Honest Work Part 8",
@@ -1047,6 +1033,20 @@
           "amount": 6
         }
       },
+      "printing": {
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_StormProtection": {
           "inGameName": "Less damage from Storm strikes",
@@ -1073,7 +1073,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-StrongStims-2": {
           "inGameName": "Stimulating Developments Part 3",
@@ -1092,6 +1091,7 @@
           "amount": 9
         }
       },
+      "printing": {},
       "forge": {
         "Perk_FallingDamage": {
           "inGameName": "Less damage from falling",
@@ -1119,20 +1119,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Mod_Stock_Standard_02": {
-          "inGameName": "Standard Stock",
-          "amount": 2
-        },
-        "Mod_Stock_Standard_ADS_01": {
-          "inGameName": "Tactical Stock",
-          "amount": 2
-        },
-        "Mod_RearGrip_ADS_02": {
-          "inGameName": "Tactical Rear Grip",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-KOR-BuildLaserDrill-1": {
           "inGameName": "Heavy Construction Part 1",
@@ -1183,6 +1169,20 @@
           "amount": 5
         }
       },
+      "printing": {
+        "Mod_Stock_Standard_02": {
+          "inGameName": "Standard Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Standard_ADS_01": {
+          "inGameName": "Tactical Stock",
+          "amount": 2
+        },
+        "Mod_RearGrip_ADS_02": {
+          "inGameName": "Tactical Rear Grip",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1200,44 +1200,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_GasGrenade_01": {
-          "inGameName": "Gas Grenade",
-          "amount": 2
-        },
-        "Consumable_AudioDecoy_01": {
-          "inGameName": "Audio Decoy",
-          "amount": 2
-        },
-        "Consumable_Grenade_02": {
-          "inGameName": "Light Grenade",
-          "amount": 2
-        },
-        "Helmet_02": {
-          "inGameName": "Standard Helmet",
-          "amount": 2
-        },
-        "Helmet_Tactical_02": {
-          "inGameName": "Standard Tactical Helmet",
-          "amount": 2
-        },
-        "Helmet_Restoration_01": {
-          "inGameName": "Standard Restorative Helmet",
-          "amount": 2
-        },
-        "Mod_Magazine_Heavy_01": {
-          "inGameName": "Heavy Extended",
-          "amount": 1
-        },
-        "Mod_Magazine_Shotgun_01": {
-          "inGameName": "Shotgun Extended",
-          "amount": 1
-        },
-        "Mod_Optic_1x_02": {
-          "inGameName": "Holographic Sight",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-ICA-GainTrust-1": {
           "inGameName": "Your Civic Duty Part 2",
@@ -1284,6 +1246,44 @@
           "amount": 3
         }
       },
+      "printing": {
+        "Consumable_GasGrenade_01": {
+          "inGameName": "Gas Grenade",
+          "amount": 2
+        },
+        "Consumable_AudioDecoy_01": {
+          "inGameName": "Audio Decoy",
+          "amount": 2
+        },
+        "Consumable_Grenade_02": {
+          "inGameName": "Light Grenade",
+          "amount": 2
+        },
+        "Helmet_02": {
+          "inGameName": "Standard Helmet",
+          "amount": 2
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Standard Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Standard Restorative Helmet",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_01": {
+          "inGameName": "Heavy Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Shotgun_01": {
+          "inGameName": "Shotgun Extended",
+          "amount": 1
+        },
+        "Mod_Optic_1x_02": {
+          "inGameName": "Holographic Sight",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1301,28 +1301,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Mod_Optic_4x_01": {
-          "inGameName": "4x Optic",
-          "amount": 2
-        },
-        "Mod_Optic_1x_02": {
-          "inGameName": "Holographic Sight",
-          "amount": 1
-        },
-        "Mod_Optic_Variable_01": {
-          "inGameName": "2 - 4x Variable Optic",
-          "amount": 3
-        },
-        "Mod_Optic_8x_01": {
-          "inGameName": "8x Optic",
-          "amount": 3
-        },
-        "Mod_Optic_6x_01": {
-          "inGameName": "6x Optic",
-          "amount": 3
-        }
-      },
       "missions": {
         "Main-KOR-GruntWork-2": {
           "inGameName": "Good, Honest Work Part 2",
@@ -1361,6 +1339,28 @@
           "amount": 11
         }
       },
+      "printing": {
+        "Mod_Optic_4x_01": {
+          "inGameName": "4x Optic",
+          "amount": 2
+        },
+        "Mod_Optic_1x_02": {
+          "inGameName": "Holographic Sight",
+          "amount": 1
+        },
+        "Mod_Optic_Variable_01": {
+          "inGameName": "2 - 4x Variable Optic",
+          "amount": 3
+        },
+        "Mod_Optic_8x_01": {
+          "inGameName": "8x Optic",
+          "amount": 3
+        },
+        "Mod_Optic_6x_01": {
+          "inGameName": "6x Optic",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -1386,20 +1386,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "QuestItem_OrbitalCanonTargetBeacon": {
-          "inGameName": "Orbital Cannon Beacon",
-          "amount": 3
-        },
-        "WP_A_Launch_MSL_01": {
-          "inGameName": "KOMRAD",
-          "amount": 20
-        },
-        "Mod_Converter_Shotgun_03": {
-          "inGameName": "Shotgun Converter",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-Osiris-ExplosivesTry-1": {
           "inGameName": "Explosive Delivery Part 1",
@@ -1430,6 +1416,20 @@
           "amount": 18
         }
       },
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 3
+        },
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 20
+        },
+        "Mod_Converter_Shotgun_03": {
+          "inGameName": "Shotgun Converter",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -1447,28 +1447,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "PortableLabEquipmentBox": {
-          "inGameName": "Portable Lab",
-          "amount": 8
-        },
-        "Bag_02": {
-          "inGameName": "Medium Backpack",
-          "amount": 2
-        },
-        "Shield_02": {
-          "inGameName": "Standard Shields",
-          "amount": 2
-        },
-        "Shield_Tactical_02": {
-          "inGameName": "Standard Tactical Shields",
-          "amount": 2
-        },
-        "Shield_Restoration_01": {
-          "inGameName": "Standard Restorative Shields",
-          "amount": 2
-        }
-      },
       "missions": {},
       "jobs": {
         "NEW-Easy-ICA-Gather-5": {
@@ -1502,6 +1480,28 @@
           "amount": 5
         }
       },
+      "printing": {
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 8
+        },
+        "Bag_02": {
+          "inGameName": "Medium Backpack",
+          "amount": 2
+        },
+        "Shield_02": {
+          "inGameName": "Standard Shields",
+          "amount": 2
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Standard Tactical Shields",
+          "amount": 2
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Standard Restorative Shields",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1519,40 +1519,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Mod_Magazine_Light_01": {
-          "inGameName": "Light Extended",
-          "amount": 2
-        },
-        "Mod_Magazine_Medium_01": {
-          "inGameName": "Medium Extended",
-          "amount": 2
-        },
-        "Mod_Magazine_Heavy_01": {
-          "inGameName": "Heavy Extended",
-          "amount": 3
-        },
-        "Mod_Magazine_Shotgun_01": {
-          "inGameName": "Shotgun Extended",
-          "amount": 3
-        },
-        "Mod_Magazine_Light_ReloadSpeed_03": {
-          "inGameName": "Light Quickdraw",
-          "amount": 3
-        },
-        "Mod_Magazine_Medium_Reloadspeed_03": {
-          "inGameName": "Medium Quickdraw",
-          "amount": 3
-        },
-        "Mod_Magazine_Heavy_ReloadSpeed_03": {
-          "inGameName": "Heavy Quickdraw",
-          "amount": 4
-        },
-        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-          "inGameName": "Shotgun Quickdraw",
-          "amount": 4
-        }
-      },
       "missions": {
         "Main-KOR-MiningTool-2": {
           "inGameName": "What a Tool! Part 2",
@@ -1599,6 +1565,40 @@
           "amount": 5
         }
       },
+      "printing": {
+        "Mod_Magazine_Light_01": {
+          "inGameName": "Light Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_01": {
+          "inGameName": "Medium Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_01": {
+          "inGameName": "Heavy Extended",
+          "amount": 3
+        },
+        "Mod_Magazine_Shotgun_01": {
+          "inGameName": "Shotgun Extended",
+          "amount": 3
+        },
+        "Mod_Magazine_Light_ReloadSpeed_03": {
+          "inGameName": "Light Quickdraw",
+          "amount": 3
+        },
+        "Mod_Magazine_Medium_Reloadspeed_03": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 3
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_03": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 4
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 4
+        }
+      },
       "forge": {}
     }
   },
@@ -1616,6 +1616,48 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {
+        "Main-KOR-GainTrust-2": {
+          "inGameName": "Time to Punch In Part 3",
+          "amount": 1
+        },
+        "Main-ICA-GasGrenades-2": {
+          "inGameName": "Toxic Love Part 2",
+          "amount": 7
+        },
+        "Main-ICA-OilPump-3": {
+          "inGameName": "Back to Basics Part 4",
+          "amount": 12
+        }
+      },
+      "jobs": {
+        "NEW-Easy-KOR-Gather-4": {
+          "inGameName": "New Mining Tools",
+          "amount": 2
+        },
+        "NEW-Hard-KOR-Gather-1": {
+          "inGameName": "Excavator Improvements",
+          "amount": 3
+        }
+      },
+      "quarters": {
+        "increase_stash_3.1": {
+          "inGameName": "Increase stash 3.2",
+          "amount": 6
+        },
+        "reduce_pq_upgrading_time_2.2": {
+          "inGameName": "Reduce pq upgrading time 4.3",
+          "amount": 12
+        },
+        "daily_crate_2.1": {
+          "inGameName": "Daily crate 3.2",
+          "amount": 8
+        },
+        "kmarks_passive_cap_2.0": {
+          "inGameName": "Kmarks passive cap 2.1",
+          "amount": 3
+        }
+      },
       "printing": {
         "QuestItem_OilPumpBeacon": {
           "inGameName": "Oil Pump Beacon",
@@ -1698,48 +1740,6 @@
           "amount": 5
         }
       },
-      "missions": {
-        "Main-KOR-GainTrust-2": {
-          "inGameName": "Time to Punch In Part 3",
-          "amount": 1
-        },
-        "Main-ICA-GasGrenades-2": {
-          "inGameName": "Toxic Love Part 2",
-          "amount": 7
-        },
-        "Main-ICA-OilPump-3": {
-          "inGameName": "Back to Basics Part 4",
-          "amount": 12
-        }
-      },
-      "jobs": {
-        "NEW-Easy-KOR-Gather-4": {
-          "inGameName": "New Mining Tools",
-          "amount": 2
-        },
-        "NEW-Hard-KOR-Gather-1": {
-          "inGameName": "Excavator Improvements",
-          "amount": 3
-        }
-      },
-      "quarters": {
-        "increase_stash_3.1": {
-          "inGameName": "Increase stash 3.2",
-          "amount": 6
-        },
-        "reduce_pq_upgrading_time_2.2": {
-          "inGameName": "Reduce pq upgrading time 4.3",
-          "amount": 12
-        },
-        "daily_crate_2.1": {
-          "inGameName": "Daily crate 3.2",
-          "amount": 8
-        },
-        "kmarks_passive_cap_2.0": {
-          "inGameName": "Kmarks passive cap 2.1",
-          "amount": 3
-        }
-      },
       "forge": {}
     }
   },
@@ -1757,16 +1757,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_G_HVY_Beam_01": {
-          "inGameName": "Zeus Beam",
-          "amount": 3
-        },
-        "Helmet_05": {
-          "inGameName": "Enhanced Helmet",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-BuildLaserDrill-5": {
           "inGameName": "Heavy Construction Part 6",
@@ -1805,6 +1795,16 @@
           "amount": 1
         }
       },
+      "printing": {
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 3
+        },
+        "Helmet_05": {
+          "inGameName": "Enhanced Helmet",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -1823,20 +1823,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "AutoLoader": {
-          "inGameName": "Autoloader",
-          "amount": 5
-        },
-        "Mod_Converter_Heavy_01": {
-          "inGameName": "Heavy Converter",
-          "amount": 2
-        },
-        "Mod_Converter_Shotgun_01": {
-          "inGameName": "Shotgun Converter",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-KOR-MiningTool-2": {
           "inGameName": "What a Tool! Part 2",
@@ -1871,6 +1857,20 @@
           "amount": 12
         }
       },
+      "printing": {
+        "AutoLoader": {
+          "inGameName": "Autoloader",
+          "amount": 5
+        },
+        "Mod_Converter_Heavy_01": {
+          "inGameName": "Heavy Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Shotgun_01": {
+          "inGameName": "Shotgun Converter",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1895,6 +1895,35 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {
+        "Main-KOR-CraftingBackpack-1": {
+          "inGameName": "Crafting Better Bags Part 1",
+          "amount": 2
+        }
+      },
+      "jobs": {},
+      "quarters": {
+        "increase_stash_4.1": {
+          "inGameName": "Increase stash 6.2",
+          "amount": 8
+        },
+        "reduce_pq_upgrading_time_2.0": {
+          "inGameName": "Reduce pq upgrading time 4.1",
+          "amount": 1
+        },
+        "generate_aurum_2.4": {
+          "inGameName": "Generate aurum 4.5",
+          "amount": 6
+        },
+        "generate_kmarks_3.4": {
+          "inGameName": "Generate kmarks 5.5",
+          "amount": 12
+        },
+        "kmarks_passive_cap_2.1": {
+          "inGameName": "Kmarks passive cap 2.2",
+          "amount": 1
+        }
+      },
       "printing": {
         "Shield_05": {
           "inGameName": "Enhanced Shields",
@@ -1929,35 +1958,6 @@
           "amount": 2
         }
       },
-      "missions": {
-        "Main-KOR-CraftingBackpack-1": {
-          "inGameName": "Crafting Better Bags Part 1",
-          "amount": 2
-        }
-      },
-      "jobs": {},
-      "quarters": {
-        "increase_stash_4.1": {
-          "inGameName": "Increase stash 6.2",
-          "amount": 8
-        },
-        "reduce_pq_upgrading_time_2.0": {
-          "inGameName": "Reduce pq upgrading time 4.1",
-          "amount": 1
-        },
-        "generate_aurum_2.4": {
-          "inGameName": "Generate aurum 4.5",
-          "amount": 6
-        },
-        "generate_kmarks_3.4": {
-          "inGameName": "Generate kmarks 5.5",
-          "amount": 12
-        },
-        "kmarks_passive_cap_2.1": {
-          "inGameName": "Kmarks passive cap 2.2",
-          "amount": 1
-        }
-      },
       "forge": {}
     }
   },
@@ -1975,6 +1975,44 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {
+        "Main-KOR-BuildLaserDrill-3": {
+          "inGameName": "Heavy Construction Part 4",
+          "amount": 5
+        },
+        "Main-ICA-MeteorReactor-2": {
+          "inGameName": "Project Fireball Part 2",
+          "amount": 3
+        }
+      },
+      "jobs": {
+        "NEW-Hard-KOR-Gather-1": {
+          "inGameName": "Excavator Improvements",
+          "amount": 2
+        }
+      },
+      "quarters": {
+        "playerquarter_6": {
+          "inGameName": "Player Quarters Level 6",
+          "amount": 9
+        },
+        "reduce_pq_upgrading_time_3.1": {
+          "inGameName": "Reduce pq upgrading time 6.2",
+          "amount": 7
+        },
+        "generate_kmarks_3.3": {
+          "inGameName": "Generate kmarks 5.4",
+          "amount": 9
+        },
+        "kmarks_passive_cap_3.0": {
+          "inGameName": "Kmarks passive cap 5.1",
+          "amount": 6
+        },
+        "aurum_passive_cap_3.1": {
+          "inGameName": "Aurum passive cap 7.2",
+          "amount": 8
+        }
+      },
       "printing": {
         "CombatCPU_red": {
           "inGameName": "Master Unit CPU",
@@ -2029,44 +2067,6 @@
           "amount": 2
         }
       },
-      "missions": {
-        "Main-KOR-BuildLaserDrill-3": {
-          "inGameName": "Heavy Construction Part 4",
-          "amount": 5
-        },
-        "Main-ICA-MeteorReactor-2": {
-          "inGameName": "Project Fireball Part 2",
-          "amount": 3
-        }
-      },
-      "jobs": {
-        "NEW-Hard-KOR-Gather-1": {
-          "inGameName": "Excavator Improvements",
-          "amount": 2
-        }
-      },
-      "quarters": {
-        "playerquarter_6": {
-          "inGameName": "Player Quarters Level 6",
-          "amount": 9
-        },
-        "reduce_pq_upgrading_time_3.1": {
-          "inGameName": "Reduce pq upgrading time 6.2",
-          "amount": 7
-        },
-        "generate_kmarks_3.3": {
-          "inGameName": "Generate kmarks 5.4",
-          "amount": 9
-        },
-        "kmarks_passive_cap_3.0": {
-          "inGameName": "Kmarks passive cap 5.1",
-          "amount": 6
-        },
-        "aurum_passive_cap_3.1": {
-          "inGameName": "Aurum passive cap 7.2",
-          "amount": 8
-        }
-      },
       "forge": {}
     }
   },
@@ -2085,7 +2085,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-GruntWork-5": {
           "inGameName": "Good, Honest Work Part 6",
@@ -2124,6 +2123,7 @@
           "amount": 11
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -2142,32 +2142,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "CombatCPU_red": {
-          "inGameName": "Master Unit CPU",
-          "amount": 3
-        },
-        "Shield_03": {
-          "inGameName": "Reinforced Shields",
-          "amount": 2
-        },
-        "Shield_Tactical_03": {
-          "inGameName": "Reinforced Tactical Shields",
-          "amount": 2
-        },
-        "Shield_Restoration_02": {
-          "inGameName": "Reinforced Restorative Shields",
-          "amount": 2
-        },
-        "Mod_Magazine_Light_ReloadSpeed_03": {
-          "inGameName": "Light Quickdraw",
-          "amount": 1
-        },
-        "Mod_Magazine_Medium_Reloadspeed_03": {
-          "inGameName": "Medium Quickdraw",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-GruntWork-5": {
           "inGameName": "Good, Honest Work Part 6",
@@ -2214,6 +2188,32 @@
           "amount": 12
         }
       },
+      "printing": {
+        "CombatCPU_red": {
+          "inGameName": "Master Unit CPU",
+          "amount": 3
+        },
+        "Shield_03": {
+          "inGameName": "Reinforced Shields",
+          "amount": 2
+        },
+        "Shield_Tactical_03": {
+          "inGameName": "Reinforced Tactical Shields",
+          "amount": 2
+        },
+        "Shield_Restoration_02": {
+          "inGameName": "Reinforced Restorative Shields",
+          "amount": 2
+        },
+        "Mod_Magazine_Light_ReloadSpeed_03": {
+          "inGameName": "Light Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_Reloadspeed_03": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -2239,7 +2239,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-OilPump-6": {
           "inGameName": "Back to Basics Part 6",
@@ -2274,6 +2273,7 @@
           "amount": 1
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -2291,16 +2291,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "CombatCPU_red": {
-          "inGameName": "Master Unit CPU",
-          "amount": 1
-        },
-        "Mod_Stock_Standard_ADSEquip_02": {
-          "inGameName": "Ultralight Stock",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-BuildLaserDrill-5": {
           "inGameName": "Heavy Construction Part 6",
@@ -2355,6 +2345,16 @@
           "amount": 4
         }
       },
+      "printing": {
+        "CombatCPU_red": {
+          "inGameName": "Master Unit CPU",
+          "amount": 1
+        },
+        "Mod_Stock_Standard_ADSEquip_02": {
+          "inGameName": "Ultralight Stock",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_StaminaRegenDelay_Storm": {
           "inGameName": "Stamina regenerates without delay during a Storm",
@@ -2381,20 +2381,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "AutoLoader": {
-          "inGameName": "Autoloader",
-          "amount": 1
-        },
-        "Mod_Stock_Standard_ADSEquip_02": {
-          "inGameName": "Ultralight Stock",
-          "amount": 1
-        },
-        "Mod_Stock_Marksman_ADSEquip_02": {
-          "inGameName": "MKM Ultralight Stock",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-ICA-OilPump-3": {
           "inGameName": "Back to Basics Part 4",
@@ -2425,6 +2411,20 @@
           "amount": 1
         }
       },
+      "printing": {
+        "AutoLoader": {
+          "inGameName": "Autoloader",
+          "amount": 1
+        },
+        "Mod_Stock_Standard_ADSEquip_02": {
+          "inGameName": "Ultralight Stock",
+          "amount": 1
+        },
+        "Mod_Stock_Marksman_ADSEquip_02": {
+          "inGameName": "MKM Ultralight Stock",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -2450,6 +2450,22 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {},
+      "jobs": {
+        "NEW-Medium-ICA-Gather-3": {
+          "inGameName": "Station Defense",
+          "amount": 1
+        },
+        "NEW-Hard-ICA-Gather-5": {
+          "inGameName": "New 3D Printer",
+          "amount": 2
+        },
+        "NEW-Hard-Osiris-Gather-6": {
+          "inGameName": "Safety Measures",
+          "amount": 3
+        }
+      },
+      "quarters": {},
       "printing": {
         "Mod_Converter_Light_03": {
           "inGameName": "Light Converter",
@@ -2476,22 +2492,6 @@
           "amount": 1
         }
       },
-      "missions": {},
-      "jobs": {
-        "NEW-Medium-ICA-Gather-3": {
-          "inGameName": "Station Defense",
-          "amount": 1
-        },
-        "NEW-Hard-ICA-Gather-5": {
-          "inGameName": "New 3D Printer",
-          "amount": 2
-        },
-        "NEW-Hard-Osiris-Gather-6": {
-          "inGameName": "Safety Measures",
-          "amount": 3
-        }
-      },
-      "quarters": {},
       "forge": {}
     }
   },
@@ -2509,28 +2509,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "PortableLabEquipmentBox": {
-          "inGameName": "Portable Lab",
-          "amount": 5
-        },
-        "Consumable_Grenade_03": {
-          "inGameName": "Standard Grenade",
-          "amount": 2
-        },
-        "Mod_Muzzle_Small_Recoil_03": {
-          "inGameName": "Small Muzzle Brake",
-          "amount": 3
-        },
-        "Mod_Muzzle_Standard_Recoil_03": {
-          "inGameName": "Medium Muzzle Brake",
-          "amount": 3
-        },
-        "Mod_Converter_Heavy_03": {
-          "inGameName": "Heavy Converter",
-          "amount": 5
-        }
-      },
       "missions": {
         "Main-KOR-BuildLaserDrill-3": {
           "inGameName": "Heavy Construction Part 4",
@@ -2573,6 +2551,28 @@
           "amount": 10
         }
       },
+      "printing": {
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 5
+        },
+        "Consumable_Grenade_03": {
+          "inGameName": "Standard Grenade",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Recoil_03": {
+          "inGameName": "Small Muzzle Brake",
+          "amount": 3
+        },
+        "Mod_Muzzle_Standard_Recoil_03": {
+          "inGameName": "Medium Muzzle Brake",
+          "amount": 3
+        },
+        "Mod_Converter_Heavy_03": {
+          "inGameName": "Heavy Converter",
+          "amount": 5
+        }
+      },
       "forge": {}
     }
   },
@@ -2590,24 +2590,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "PortableLabEquipmentBox": {
-          "inGameName": "Portable Lab",
-          "amount": 2
-        },
-        "QuestItem_OrbitalCanonTargetBeacon": {
-          "inGameName": "Orbital Cannon Beacon",
-          "amount": 4
-        },
-        "WP_A_Sniper_Gauss_01": {
-          "inGameName": "KARMA-1",
-          "amount": 25
-        },
-        "Helmet_Tactical_03": {
-          "inGameName": "Reinforced Tactical Helmet",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-ICA-OilScanModule-2": {
           "inGameName": "An Eye for Oil Part 2",
@@ -2646,6 +2628,24 @@
           "amount": 9
         }
       },
+      "printing": {
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 2
+        },
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 4
+        },
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 25
+        },
+        "Helmet_Tactical_03": {
+          "inGameName": "Reinforced Tactical Helmet",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -2663,7 +2663,6 @@
     ],
     "stackSize": 10000,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-BuildLaserDrill-6": {
           "inGameName": "Heavy Construction Part 7",
@@ -2702,6 +2701,7 @@
           "amount": 5625
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -2719,16 +2719,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Shield_Restoration_02": {
-          "inGameName": "Reinforced Restorative Shields",
-          "amount": 2
-        },
-        "Helmet_Restoration_02": {
-          "inGameName": "Reinforced Restorative Helmet",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-Osiris-StormSamples-1": {
           "inGameName": "Storm Rider Part 1",
@@ -2766,6 +2756,16 @@
         }
       },
       "quarters": {},
+      "printing": {
+        "Shield_Restoration_02": {
+          "inGameName": "Reinforced Restorative Shields",
+          "amount": 2
+        },
+        "Helmet_Restoration_02": {
+          "inGameName": "Reinforced Restorative Helmet",
+          "amount": 2
+        }
+      },
       "forge": {
         "Perk_HealingSpeed": {
           "inGameName": "Faster Stim and Medkit use",
@@ -2793,24 +2793,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Mod_Stock_Standard_02": {
-          "inGameName": "Standard Stock",
-          "amount": 2
-        },
-        "Mod_Stock_Standard_ADS_01": {
-          "inGameName": "Tactical Stock",
-          "amount": 2
-        },
-        "Mod_Stock_Marksman_02": {
-          "inGameName": "Marksman Stock",
-          "amount": 3
-        },
-        "Mod_Stock_Marksman_ADS_01": {
-          "inGameName": "MKM Tactical Stock",
-          "amount": 3
-        }
-      },
       "missions": {
         "Main-ICA-GainTrust-4": {
           "inGameName": "Your Civic Duty Part 5",
@@ -2845,6 +2827,24 @@
           "amount": 8
         }
       },
+      "printing": {
+        "Mod_Stock_Standard_02": {
+          "inGameName": "Standard Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Standard_ADS_01": {
+          "inGameName": "Tactical Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_02": {
+          "inGameName": "Marksman Stock",
+          "amount": 3
+        },
+        "Mod_Stock_Marksman_ADS_01": {
+          "inGameName": "MKM Tactical Stock",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -2862,24 +2862,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_Health_02": {
-          "inGameName": "Strong Stim",
-          "amount": 1
-        },
-        "Consumable_Health_04": {
-          "inGameName": "Combat Stim",
-          "amount": 2
-        },
-        "Consumable_Health_06": {
-          "inGameName": "Combat Medkit",
-          "amount": 3
-        },
-        "Shield_Tactical_02": {
-          "inGameName": "Standard Tactical Shields",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-Osiris-CaveRumors-1": {
           "inGameName": "Lost Knowledge Part 2",
@@ -2918,6 +2900,24 @@
           "amount": 3
         }
       },
+      "printing": {
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 2
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 3
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Standard Tactical Shields",
+          "amount": 2
+        }
+      },
       "forge": {
         "Perk_MaxStamina": {
           "inGameName": "Maximum stamina",
@@ -2944,12 +2944,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Bag_04": {
-          "inGameName": "Heavy Duty Backpack",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-Osiris-SideWork1-4": {
           "inGameName": "The Needs of the One Part 4",
@@ -2984,6 +2978,12 @@
           "amount": 4
         }
       },
+      "printing": {
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_MaxCapacity": {
           "inGameName": "Extra backpack capacity",
@@ -3010,28 +3010,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "PrintResin": {
-          "inGameName": "Print Resin",
-          "amount": 3
-        },
-        "Consumable_Health_04": {
-          "inGameName": "Combat Stim",
-          "amount": 1
-        },
-        "Consumable_Health_06": {
-          "inGameName": "Combat Medkit",
-          "amount": 1
-        },
-        "Bag_03": {
-          "inGameName": "Large Backpack",
-          "amount": 1
-        },
-        "Shield_Tactical_03": {
-          "inGameName": "Reinforced Tactical Shields",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-Osiris-StrongMedkits-2": {
           "inGameName": "Path to Strong Medkits Part 2",
@@ -3056,6 +3034,28 @@
         "increase_stash_3.1": {
           "inGameName": "Increase stash 3.2",
           "amount": 6
+        }
+      },
+      "printing": {
+        "PrintResin": {
+          "inGameName": "Print Resin",
+          "amount": 3
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 1
+        },
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 1
+        },
+        "Shield_Tactical_03": {
+          "inGameName": "Reinforced Tactical Shields",
+          "amount": 2
         }
       },
       "forge": {
@@ -3088,7 +3088,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-CommunityWork-3": {
           "inGameName": "Working for the Community Part 3",
@@ -3107,6 +3106,7 @@
           "amount": 12
         }
       },
+      "printing": {},
       "forge": {
         "Perk_HealthRegen": {
           "inGameName": "Health restoration per second",
@@ -3137,12 +3137,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Bag_03": {
-          "inGameName": "Large Backpack",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-KOR-CraftingBackpack-2": {
           "inGameName": "Crafting Better Bags Part 2",
@@ -3168,6 +3162,12 @@
           "amount": 11
         }
       },
+      "printing": {
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3186,24 +3186,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "DerelictExplosives": {
-          "inGameName": "Derelict Explosives",
-          "amount": 4
-        },
-        "QuestItem_LaserDrillBeacon": {
-          "inGameName": "Laser Drill Beacon",
-          "amount": 18
-        },
-        "Consumable_AudioDecoy_01": {
-          "inGameName": "Audio Decoy",
-          "amount": 2
-        },
-        "Helmet_Tactical_02": {
-          "inGameName": "Standard Tactical Helmet",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-KOR-MiningTool-5": {
           "inGameName": "What a Tool! Part 4",
@@ -3241,6 +3223,24 @@
           "amount": 15
         }
       },
+      "printing": {
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 4
+        },
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 18
+        },
+        "Consumable_AudioDecoy_01": {
+          "inGameName": "Audio Decoy",
+          "amount": 2
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Standard Tactical Helmet",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3258,16 +3258,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Mod_Magazine_Light_01": {
-          "inGameName": "Light Extended",
-          "amount": 2
-        },
-        "Mod_Magazine_Medium_01": {
-          "inGameName": "Medium Extended",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-KOR-CraftingBackpack-2": {
           "inGameName": "Crafting Better Bags Part 2",
@@ -3301,6 +3291,16 @@
           "amount": 21
         }
       },
+      "printing": {
+        "Mod_Magazine_Light_01": {
+          "inGameName": "Light Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_01": {
+          "inGameName": "Medium Extended",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3318,12 +3318,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_Grenade_02": {
-          "inGameName": "Light Grenade",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-KOR-BuildLaserDrill-5": {
           "inGameName": "Heavy Construction Part 6",
@@ -3362,6 +3356,12 @@
           "amount": 5
         }
       },
+      "printing": {
+        "Consumable_Grenade_02": {
+          "inGameName": "Light Grenade",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3380,32 +3380,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "PrintResin": {
-          "inGameName": "Print Resin",
-          "amount": 1
-        },
-        "QuestItem_LaserDrillBeacon": {
-          "inGameName": "Laser Drill Beacon",
-          "amount": 2
-        },
-        "Bag_04": {
-          "inGameName": "Heavy Duty Backpack",
-          "amount": 1
-        },
-        "Shield_04": {
-          "inGameName": "Combat Shields",
-          "amount": 2
-        },
-        "Mod_Muzzle_Small_Supressor_01": {
-          "inGameName": "Small Suppressor",
-          "amount": 1
-        },
-        "Mod_Muzzle_Standard_Supressor_01": {
-          "inGameName": "Medium Suppressor",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-BuildLaserDrill-1": {
           "inGameName": "Heavy Construction Part 1",
@@ -3443,6 +3417,32 @@
           "amount": 2
         }
       },
+      "printing": {
+        "PrintResin": {
+          "inGameName": "Print Resin",
+          "amount": 1
+        },
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 2
+        },
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        },
+        "Shield_04": {
+          "inGameName": "Combat Shields",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Supressor_01": {
+          "inGameName": "Small Suppressor",
+          "amount": 1
+        },
+        "Mod_Muzzle_Standard_Supressor_01": {
+          "inGameName": "Medium Suppressor",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -3460,16 +3460,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Mod_Magazine_Heavy_ReloadSpeed_03": {
-          "inGameName": "Heavy Quickdraw",
-          "amount": 3
-        },
-        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
-          "inGameName": "Shotgun Quickdraw",
-          "amount": 3
-        }
-      },
       "missions": {
         "Main-KOR-Veltecite-1": {
           "inGameName": "Veltecite for the Masses Part 1",
@@ -3527,6 +3517,16 @@
           "amount": 15
         }
       },
+      "printing": {
+        "Mod_Magazine_Heavy_ReloadSpeed_03": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 3
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -3544,16 +3544,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "DerelictExplosives": {
-          "inGameName": "Derelict Explosives",
-          "amount": 3
-        },
-        "Helmet_04": {
-          "inGameName": "Combat Helmet",
-          "amount": 4
-        }
-      },
       "missions": {
         "Main-KOR-TitanOre-1": {
           "inGameName": "Titan Hunter Part 1",
@@ -3583,6 +3573,16 @@
           "amount": 15
         }
       },
+      "printing": {
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 3
+        },
+        "Helmet_04": {
+          "inGameName": "Combat Helmet",
+          "amount": 4
+        }
+      },
       "forge": {}
     }
   },
@@ -3600,16 +3600,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_Health_02": {
-          "inGameName": "Strong Stim",
-          "amount": 1
-        },
-        "Consumable_Health_04": {
-          "inGameName": "Combat Stim",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-Osiris-StrongStims-2": {
           "inGameName": "Stimulating Developments Part 3",
@@ -3623,6 +3613,16 @@
         }
       },
       "quarters": {},
+      "printing": {
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3650,7 +3650,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-LetiumResearch-1": {
           "inGameName": "Research Costs Part 1",
@@ -3680,6 +3679,7 @@
           "amount": 2
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -3697,7 +3697,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-GruntWork-3": {
           "inGameName": "Doing the Work Part 3",
@@ -3727,6 +3726,7 @@
           "amount": 8
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -3744,7 +3744,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-CommunityWork-3": {
           "inGameName": "Working for the Community Part 3",
@@ -3775,6 +3774,7 @@
           "amount": 5
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -3792,12 +3792,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "PortableLabEquipmentBox": {
-          "inGameName": "Portable Lab",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-ICA-OilSearch-3": {
           "inGameName": "Never Give Up Part 3",
@@ -3824,6 +3818,12 @@
           "amount": 6
         }
       },
+      "printing": {
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3841,16 +3841,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_Health_05": {
-          "inGameName": "Strong Medkit",
-          "amount": 1
-        },
-        "Consumable_Health_06": {
-          "inGameName": "Combat Medkit",
-          "amount": 2
-        }
-      },
       "missions": {
         "Main-Osiris-StrongStims-1": {
           "inGameName": "Stimulating Developments Part 2",
@@ -3876,6 +3866,16 @@
           "amount": 20
         }
       },
+      "printing": {
+        "Consumable_Health_05": {
+          "inGameName": "Strong Medkit",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3893,7 +3893,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-EarlyMap2-4": {
           "inGameName": "Uncharted Territory Part 4",
@@ -3916,6 +3915,7 @@
           "amount": 2
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -3933,7 +3933,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-FirstExtraWork-2": {
           "inGameName": "Time for More Work Part 2",
@@ -3956,6 +3955,7 @@
           "amount": 4
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -3974,7 +3974,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-OilSearch-2": {
           "inGameName": "Never Give Up Part 2",
@@ -4008,6 +4007,7 @@
           "amount": 10
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -4025,6 +4025,31 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {
+        "Main-KOR-EarlyMap2-2": {
+          "inGameName": "Uncharted Territory Part 2",
+          "amount": 3
+        },
+        "Main-Osiris-Caverns-0.2-Unlock": {
+          "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
+          "amount": 2
+        }
+      },
+      "jobs": {},
+      "quarters": {
+        "increase_bag_3.0": {
+          "inGameName": "Increase bag 3.1",
+          "amount": 4
+        },
+        "reduce_pq_upgrading_time_2.0": {
+          "inGameName": "Reduce pq upgrading time 4.1",
+          "amount": 2
+        },
+        "daily_crate_2.0": {
+          "inGameName": "Daily crate 3.1",
+          "amount": 4
+        }
+      },
       "printing": {
         "AutoLoader": {
           "inGameName": "Autoloader",
@@ -4059,31 +4084,6 @@
           "amount": 3
         }
       },
-      "missions": {
-        "Main-KOR-EarlyMap2-2": {
-          "inGameName": "Uncharted Territory Part 2",
-          "amount": 3
-        },
-        "Main-Osiris-Caverns-0.2-Unlock": {
-          "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
-          "amount": 2
-        }
-      },
-      "jobs": {},
-      "quarters": {
-        "increase_bag_3.0": {
-          "inGameName": "Increase bag 3.1",
-          "amount": 4
-        },
-        "reduce_pq_upgrading_time_2.0": {
-          "inGameName": "Reduce pq upgrading time 4.1",
-          "amount": 2
-        },
-        "daily_crate_2.0": {
-          "inGameName": "Daily crate 3.1",
-          "amount": 4
-        }
-      },
       "forge": {}
     }
   },
@@ -4101,40 +4101,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Shield_02": {
-          "inGameName": "Standard Shields",
-          "amount": 5
-        },
-        "Shield_Tactical_02": {
-          "inGameName": "Standard Tactical Shields",
-          "amount": 5
-        },
-        "Shield_Restoration_01": {
-          "inGameName": "Standard Restorative Shields",
-          "amount": 5
-        },
-        "Helmet_02": {
-          "inGameName": "Standard Helmet",
-          "amount": 5
-        },
-        "Helmet_Tactical_02": {
-          "inGameName": "Standard Tactical Helmet",
-          "amount": 4
-        },
-        "Helmet_Restoration_01": {
-          "inGameName": "Standard Restorative Helmet",
-          "amount": 4
-        },
-        "Mod_Converter_Light_AIDMG_01": {
-          "inGameName": "Light Creature Dmg",
-          "amount": 3
-        },
-        "Mod_Converter_Medium_AIDMG_01": {
-          "inGameName": "Medium Creature Dmg",
-          "amount": 3
-        }
-      },
       "missions": {
         "Main-KOR-LetiumResearch-2": {
           "inGameName": "Research Costs Part 2",
@@ -4173,6 +4139,40 @@
           "amount": 6
         }
       },
+      "printing": {
+        "Shield_02": {
+          "inGameName": "Standard Shields",
+          "amount": 5
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Standard Tactical Shields",
+          "amount": 5
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Standard Restorative Shields",
+          "amount": 5
+        },
+        "Helmet_02": {
+          "inGameName": "Standard Helmet",
+          "amount": 5
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Standard Tactical Helmet",
+          "amount": 4
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Standard Restorative Helmet",
+          "amount": 4
+        },
+        "Mod_Converter_Light_AIDMG_01": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 3
+        },
+        "Mod_Converter_Medium_AIDMG_01": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -4190,7 +4190,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-ExtraWork-3": {
           "inGameName": "Private Business Part 3",
@@ -4224,6 +4223,7 @@
         }
       },
       "quarters": {},
+      "printing": {},
       "forge": {
         "Perk_HealthRegen_Storm": {
           "inGameName": "Health restoration per second during a Storm",
@@ -4254,20 +4254,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_GasGrenade_01": {
-          "inGameName": "Gas Grenade",
-          "amount": 1
-        },
-        "Mod_Converter_Light_AIDMG_02": {
-          "inGameName": "Light Creature Dmg",
-          "amount": 1
-        },
-        "Mod_Converter_Medium_AIDMG_02": {
-          "inGameName": "Medium Creature Dmg",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-LetiumResearch-6": {
           "inGameName": "Research Costs Part 7",
@@ -4293,6 +4279,20 @@
         }
       },
       "quarters": {},
+      "printing": {
+        "Consumable_GasGrenade_01": {
+          "inGameName": "Gas Grenade",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_FallingDamage": {
           "inGameName": "Less damage from falling",
@@ -4323,10 +4323,10 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -4344,10 +4344,10 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {
         "Perk_AIProtection": {
           "inGameName": "Less damage from hostile fauna attacks",
@@ -4378,10 +4378,10 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {
         "Perk_MaxHealth": {
           "inGameName": "Maximum health",
@@ -4408,10 +4408,10 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -4430,10 +4430,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -4451,7 +4451,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-LetiumResearch-7": {
           "inGameName": "Research Costs Part 8",
@@ -4468,6 +4467,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {
         "Perk_MaxStamina": {
           "inGameName": "Maximum stamina",
@@ -4494,7 +4494,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-LetiumResearch-7": {
           "inGameName": "Research Costs Part 8",
@@ -4512,6 +4511,7 @@
           "amount": 6
         }
       },
+      "printing": {},
       "forge": {
         "Perk_MaxStamina": {
           "inGameName": "Maximum stamina",
@@ -4542,7 +4542,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-LetiumResearch-7": {
           "inGameName": "Research Costs Part 8",
@@ -4568,6 +4567,7 @@
           "amount": 7
         }
       },
+      "printing": {},
       "forge": {
         "Perk_MaxStamina": {
           "inGameName": "Maximum stamina",
@@ -4598,12 +4598,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_A_Launch_MSL_01": {
-          "inGameName": "KOMRAD",
-          "amount": 8
-        }
-      },
       "missions": {
         "Main-Osiris-CombatStims-1": {
           "inGameName": "Combat Ready Part 1",
@@ -4615,6 +4609,12 @@
         "playerquarter_9": {
           "inGameName": "Player Quarters Level 9",
           "amount": 3
+        }
+      },
+      "printing": {
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 8
         }
       },
       "forge": {}
@@ -4634,6 +4634,39 @@
     ],
     "stackSize": 10,
     "uses": {
+      "missions": {
+        "Main-KOR-LetiumResearch-1": {
+          "inGameName": "Research Costs Part 1",
+          "amount": 5
+        },
+        "Main-KOR-CraftingBackpack-2": {
+          "inGameName": "Crafting Better Bags Part 2",
+          "amount": 5
+        },
+        "Main-ICA-OilSearch-3": {
+          "inGameName": "Never Give Up Part 3",
+          "amount": 8
+        },
+        "Main-Osiris-GainTrust-4": {
+          "inGameName": "Dangerous Science Part 5",
+          "amount": 1
+        },
+        "Main-Osiris-CaveRumors-1": {
+          "inGameName": "Lost Knowledge Part 2",
+          "amount": 6
+        },
+        "Main-ICA-ExtraWork2-3": {
+          "inGameName": "The Community Needs You Part 3",
+          "amount": 10
+        }
+      },
+      "jobs": {},
+      "quarters": {
+        "playerquarter_2": {
+          "inGameName": "Player Quarters Level 2",
+          "amount": 3
+        }
+      },
       "printing": {
         "Shield_03": {
           "inGameName": "Reinforced Shields",
@@ -4668,39 +4701,6 @@
           "amount": 2
         }
       },
-      "missions": {
-        "Main-KOR-LetiumResearch-1": {
-          "inGameName": "Research Costs Part 1",
-          "amount": 5
-        },
-        "Main-KOR-CraftingBackpack-2": {
-          "inGameName": "Crafting Better Bags Part 2",
-          "amount": 5
-        },
-        "Main-ICA-OilSearch-3": {
-          "inGameName": "Never Give Up Part 3",
-          "amount": 8
-        },
-        "Main-Osiris-GainTrust-4": {
-          "inGameName": "Dangerous Science Part 5",
-          "amount": 1
-        },
-        "Main-Osiris-CaveRumors-1": {
-          "inGameName": "Lost Knowledge Part 2",
-          "amount": 6
-        },
-        "Main-ICA-ExtraWork2-3": {
-          "inGameName": "The Community Needs You Part 3",
-          "amount": 10
-        }
-      },
-      "jobs": {},
-      "quarters": {
-        "playerquarter_2": {
-          "inGameName": "Player Quarters Level 2",
-          "amount": 3
-        }
-      },
       "forge": {}
     }
   },
@@ -4718,16 +4718,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Shield_04": {
-          "inGameName": "Combat Shields",
-          "amount": 2
-        },
-        "Helmet_04": {
-          "inGameName": "Combat Helmet",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-GruntWork-8": {
           "inGameName": "Good, Honest Work Part 9",
@@ -4778,6 +4768,16 @@
           "amount": 5
         }
       },
+      "printing": {
+        "Shield_04": {
+          "inGameName": "Combat Shields",
+          "amount": 2
+        },
+        "Helmet_04": {
+          "inGameName": "Combat Helmet",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_MaxStamina": {
           "inGameName": "Maximum stamina",
@@ -4808,16 +4808,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Shield_05": {
-          "inGameName": "Enhanced Shields",
-          "amount": 3
-        },
-        "Helmet_05": {
-          "inGameName": "Enhanced Helmet",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-Osiris-SatelliteRepairs-4": {
           "inGameName": "Orbital Repairs Part 4",
@@ -4834,6 +4824,16 @@
         "aurum_passive_cap_3.3": {
           "inGameName": "Aurum passive cap 7.4",
           "amount": 6
+        }
+      },
+      "printing": {
+        "Shield_05": {
+          "inGameName": "Enhanced Shields",
+          "amount": 3
+        },
+        "Helmet_05": {
+          "inGameName": "Enhanced Helmet",
+          "amount": 1
         }
       },
       "forge": {
@@ -4866,20 +4866,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {
-        "WP_A_Sniper_Gauss_01": {
-          "inGameName": "KARMA-1",
-          "amount": 3
-        },
-        "WP_G_HVY_Beam_01": {
-          "inGameName": "Zeus Beam",
-          "amount": 3
-        },
-        "Helmet_NV_01": {
-          "inGameName": "NV Helmet",
-          "amount": 1
-        }
-      },
       "missions": {},
       "jobs": {
         "NEW-Hard-Osiris-EliteCrusher-1": {
@@ -4905,6 +4891,20 @@
           "amount": 2
         }
       },
+      "printing": {
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 3
+        },
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 3
+        },
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -4923,7 +4923,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-MiningTool-5": {
           "inGameName": "What a Tool! Part 4",
@@ -4962,6 +4961,7 @@
           "amount": 9
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -4979,12 +4979,6 @@
     ],
     "stackSize": 10000,
     "uses": {
-      "printing": {
-        "QuestItem_LaserDrillBeacon": {
-          "inGameName": "Laser Drill Beacon",
-          "amount": 80
-        }
-      },
       "missions": {
         "Main-Badum-FinalQuestline1-7": {
           "inGameName": "Fortuna's Favored Part 7",
@@ -5154,6 +5148,12 @@
           "amount": 292
         }
       },
+      "printing": {
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 80
+        }
+      },
       "forge": {}
     }
   },
@@ -5171,12 +5171,6 @@
     ],
     "stackSize": 10000,
     "uses": {
-      "printing": {
-        "QuestItem_OrbitalCanonTargetBeacon": {
-          "inGameName": "Orbital Cannon Beacon",
-          "amount": 80
-        }
-      },
       "missions": {
         "Main-KOR-BuildLaserDrill-6": {
           "inGameName": "Heavy Construction Part 7",
@@ -5350,6 +5344,12 @@
           "amount": 292
         }
       },
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 80
+        }
+      },
       "forge": {}
     }
   },
@@ -5367,12 +5367,6 @@
     ],
     "stackSize": 10000,
     "uses": {
-      "printing": {
-        "QuestItem_OilPumpBeacon": {
-          "inGameName": "Oil Pump Beacon",
-          "amount": 80
-        }
-      },
       "missions": {
         "Main-Badum-FinalQuestline1-7": {
           "inGameName": "Fortuna's Favored Part 7",
@@ -5534,6 +5528,12 @@
           "amount": 292
         }
       },
+      "printing": {
+        "QuestItem_OilPumpBeacon": {
+          "inGameName": "Oil Pump Beacon",
+          "amount": 80
+        }
+      },
       "forge": {}
     }
   },
@@ -5551,12 +5551,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_A_Sniper_Gauss_01": {
-          "inGameName": "KARMA-1",
-          "amount": 75
-        }
-      },
       "missions": {
         "Main-KOR-TestRun-1": {
           "inGameName": "The Test Run Part 1",
@@ -5583,6 +5577,12 @@
           "amount": 135
         }
       },
+      "printing": {
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 75
+        }
+      },
       "forge": {
         "Recipe02": {
           "inGameName": "Recipe02",
@@ -5605,12 +5605,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_A_Launch_MSL_01": {
-          "inGameName": "KOMRAD",
-          "amount": 30
-        }
-      },
       "missions": {
         "Main-ICA-TestRun-2": {
           "inGameName": "Put to the Test Part 2",
@@ -5641,6 +5635,12 @@
           "amount": 53
         }
       },
+      "printing": {
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 30
+        }
+      },
       "forge": {}
     }
   },
@@ -5658,7 +5658,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-GruntWork-3.1": {
           "inGameName": "Field Research Part 5",
@@ -5676,6 +5675,7 @@
           "amount": 11
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -5693,7 +5693,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-GruntWork-7": {
           "inGameName": "Field Research Part 9",
@@ -5707,6 +5706,7 @@
           "amount": 11
         }
       },
+      "printing": {},
       "forge": {
         "Perk_AIProtection": {
           "inGameName": "Less damage from hostile fauna attacks",
@@ -5733,12 +5733,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "WP_G_HVY_Beam_01": {
-          "inGameName": "Zeus Beam",
-          "amount": 10
-        }
-      },
       "missions": {
         "Main-KOR-LetiumRumors-3": {
           "inGameName": "A Powerful Discovery Part 4",
@@ -5762,6 +5756,12 @@
         "aurum_passive_cap_3.4": {
           "inGameName": "Aurum passive cap 7.5",
           "amount": 4
+        }
+      },
+      "printing": {
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 10
         }
       },
       "forge": {
@@ -5794,10 +5794,10 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -5815,10 +5815,10 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -5836,10 +5836,10 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -5857,24 +5857,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_Grenade_05": {
-          "inGameName": "Assault Grenade",
-          "amount": 1
-        },
-        "HowlerGrenade_01": {
-          "inGameName": "Howler Grenade",
-          "amount": 2
-        },
-        "Shield_05": {
-          "inGameName": "Enhanced Shields",
-          "amount": 2
-        },
-        "Helmet_05": {
-          "inGameName": "Enhanced Helmet",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-Osiris-CaveRumors-0.1": {
           "inGameName": "Lost Knowledge Part 1",
@@ -5896,6 +5878,24 @@
           "amount": 2
         }
       },
+      "printing": {
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
+          "amount": 1
+        },
+        "HowlerGrenade_01": {
+          "inGameName": "Howler Grenade",
+          "amount": 2
+        },
+        "Shield_05": {
+          "inGameName": "Enhanced Shields",
+          "amount": 2
+        },
+        "Helmet_05": {
+          "inGameName": "Enhanced Helmet",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -5913,10 +5913,10 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -5934,10 +5934,10 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -5955,7 +5955,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {
@@ -5968,6 +5967,7 @@
           "amount": 1
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -5985,10 +5985,10 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6006,16 +6006,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_Health_04": {
-          "inGameName": "Combat Stim",
-          "amount": 1
-        },
-        "Consumable_Health_06": {
-          "inGameName": "Combat Medkit",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-Osiris-Howler-7": {
           "inGameName": "Howling Skies Part 7",
@@ -6041,6 +6031,16 @@
           "amount": 5
         }
       },
+      "printing": {
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -6058,12 +6058,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Map03_KeyCard_04_AlienCorridor": {
-          "inGameName": "Progenitor Corridor Key",
-          "amount": 10
-        }
-      },
       "missions": {
         "Main-KOR-Caverns-7": {
           "inGameName": "Main-KOR-Caverns-7",
@@ -6085,6 +6079,12 @@
         }
       },
       "quarters": {},
+      "printing": {
+        "Map03_KeyCard_04_AlienCorridor": {
+          "inGameName": "Progenitor Corridor Key",
+          "amount": 10
+        }
+      },
       "forge": {
         "Recipe01": {
           "inGameName": "Recipe01",
@@ -6107,7 +6107,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Caverns-9": {
           "inGameName": "Main-KOR-Caverns-9",
@@ -6120,6 +6119,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {
         "Recipe02": {
           "inGameName": "Recipe02",
@@ -6142,7 +6142,6 @@
     ],
     "stackSize": 6,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-12": {
           "inGameName": "Main-Osiris-Caverns-12",
@@ -6156,6 +6155,7 @@
           "amount": 5
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -6173,12 +6173,6 @@
     ],
     "stackSize": 6,
     "uses": {
-      "printing": {
-        "Consumable_Grenade_05": {
-          "inGameName": "Assault Grenade",
-          "amount": 4
-        }
-      },
       "missions": {
         "Main-ICA-Caverns-13": {
           "inGameName": "Main-ICA-Caverns-13",
@@ -6209,6 +6203,12 @@
           "amount": 2
         }
       },
+      "printing": {
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
+          "amount": 4
+        }
+      },
       "forge": {}
     }
   },
@@ -6226,10 +6226,10 @@
     ],
     "stackSize": 6,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6247,7 +6247,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Caverns-7": {
           "inGameName": "Main-KOR-Caverns-7",
@@ -6281,6 +6280,7 @@
           "amount": 18
         }
       },
+      "printing": {},
       "forge": {
         "Recipe01": {
           "inGameName": "Recipe01",
@@ -6307,7 +6307,6 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Badum-FinalQuestline1-6": {
           "inGameName": "Fortuna's Favored Part 6",
@@ -6325,6 +6324,7 @@
           "amount": 6
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -6342,7 +6342,6 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {
@@ -6355,6 +6354,7 @@
           "amount": 1
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -6372,7 +6372,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-1.1": {
           "inGameName": "Main-Osiris-Caverns-1.1",
@@ -6399,6 +6398,7 @@
           "amount": 5
         }
       },
+      "printing": {},
       "forge": {
         "Perk_HealingAmount": {
           "inGameName": "Bonus to Stim and Medkit healing",
@@ -6429,16 +6429,6 @@
     ],
     "stackSize": 10,
     "uses": {
-      "printing": {
-        "Consumable_Grenade_05": {
-          "inGameName": "Assault Grenade",
-          "amount": 8
-        },
-        "Map03_KeyCard_04_AlienCorridor": {
-          "inGameName": "Progenitor Corridor Key",
-          "amount": 20
-        }
-      },
       "missions": {},
       "jobs": {},
       "quarters": {
@@ -6461,6 +6451,16 @@
         "aurum_passive_cap_4.1": {
           "inGameName": "Aurum passive cap 10.2",
           "amount": 5
+        }
+      },
+      "printing": {
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
+          "amount": 8
+        },
+        "Map03_KeyCard_04_AlienCorridor": {
+          "inGameName": "Progenitor Corridor Key",
+          "amount": 20
         }
       },
       "forge": {
@@ -6501,10 +6501,10 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6527,10 +6527,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6548,7 +6548,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-GruntWork-4": {
           "inGameName": "Doing the Work Part 5",
@@ -6562,6 +6561,7 @@
           "amount": 1
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -6579,7 +6579,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Unique-3": {
           "inGameName": "Doing the Work Part 7",
@@ -6606,6 +6605,7 @@
           "amount": 1
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -6623,7 +6623,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-LetiumRumors-5": {
           "inGameName": "A Powerful Discovery Part 6",
@@ -6646,6 +6645,7 @@
           "amount": 1
         }
       },
+      "printing": {},
       "forge": {}
     }
   },
@@ -6663,12 +6663,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {
-        "QuestItem_OrbitalCanonTargetBeacon": {
-          "inGameName": "Orbital Cannon Beacon",
-          "amount": 1
-        }
-      },
       "missions": {
         "Main-KOR-LetiumResearch-8": {
           "inGameName": "Research Costs Part 9",
@@ -6694,6 +6688,12 @@
         }
       },
       "quarters": {},
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -6711,10 +6711,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6741,10 +6741,10 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6770,10 +6770,10 @@
     ],
     "stackSize": 3,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6791,7 +6791,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Unique-1": {
           "inGameName": "Good, Honest Work Part 5",
@@ -6800,6 +6799,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6817,7 +6817,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Unique-1": {
           "inGameName": "Good, Honest Work Part 5",
@@ -6826,6 +6825,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6843,7 +6843,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Unique-1": {
           "inGameName": "Good, Honest Work Part 5",
@@ -6852,6 +6851,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6869,7 +6869,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Unique-2": {
           "inGameName": "A Powerful Discovery Part 3",
@@ -6878,6 +6877,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6895,7 +6895,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Unique-3": {
           "inGameName": "Research Costs Part 5",
@@ -6904,6 +6903,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6921,7 +6921,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Unique-4": {
           "inGameName": "Heavy Construction Part 2",
@@ -6930,6 +6929,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6947,7 +6947,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Unique-2": {
           "inGameName": "Doing the Work Part 2",
@@ -6956,6 +6955,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6973,7 +6973,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Unique-4": {
           "inGameName": "Project Fireball Part 3",
@@ -6982,6 +6981,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -6999,7 +6999,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Unique-5": {
           "inGameName": "Project Fireball Part 5",
@@ -7008,6 +7007,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7025,7 +7025,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Unique-6": {
           "inGameName": "Back to Basics Part 3",
@@ -7034,6 +7033,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7051,7 +7051,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Unique-1": {
           "inGameName": "Field Research Part 3",
@@ -7060,6 +7059,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7077,7 +7077,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Unique-2": {
           "inGameName": "Field Research Part 10",
@@ -7086,6 +7085,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7103,7 +7103,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Unique-3": {
           "inGameName": "Lost Knowledge Part 3",
@@ -7112,6 +7111,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7129,7 +7129,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Unique-4": {
           "inGameName": "Lost Knowledge Part 6",
@@ -7138,6 +7137,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7155,7 +7155,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Caverns-2": {
           "inGameName": "Main-KOR-Caverns-2",
@@ -7164,6 +7163,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7181,7 +7181,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Caverns-5": {
           "inGameName": "Main-KOR-Caverns-5",
@@ -7190,6 +7189,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7207,7 +7207,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Caverns-8": {
           "inGameName": "Main-KOR-Caverns-8",
@@ -7216,6 +7215,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7233,7 +7233,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-Caverns-11": {
           "inGameName": "Main-KOR-Caverns-11",
@@ -7242,6 +7241,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7259,10 +7259,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7280,7 +7280,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-2": {
           "inGameName": "Main-Osiris-Caverns-2",
@@ -7289,6 +7288,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7306,7 +7306,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-2": {
           "inGameName": "Main-Osiris-Caverns-2",
@@ -7315,6 +7314,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7332,7 +7332,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-5": {
           "inGameName": "Main-Osiris-Caverns-5",
@@ -7341,6 +7340,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7358,7 +7358,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-10": {
           "inGameName": "Main-Osiris-Caverns-10",
@@ -7367,6 +7366,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7384,7 +7384,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-13": {
           "inGameName": "Main-Osiris-Caverns-13",
@@ -7393,6 +7392,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7410,7 +7410,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Caverns-2": {
           "inGameName": "Main-ICA-Caverns-2",
@@ -7419,6 +7418,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7436,10 +7436,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7457,7 +7457,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Caverns-5": {
           "inGameName": "Main-ICA-Caverns-5",
@@ -7466,6 +7465,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7483,7 +7483,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Caverns-7": {
           "inGameName": "Main-ICA-Caverns-7",
@@ -7492,6 +7491,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7509,7 +7509,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Caverns-9": {
           "inGameName": "Main-ICA-Caverns-9",
@@ -7518,6 +7517,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7535,7 +7535,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Caverns-12": {
           "inGameName": "Main-ICA-Caverns-12",
@@ -7544,6 +7543,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7561,7 +7561,6 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-Caverns-14": {
           "inGameName": "Main-ICA-Caverns-14",
@@ -7570,6 +7569,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7585,7 +7585,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-GainTrust-2": {
           "inGameName": "Your Civic Duty Part 3",
@@ -7594,6 +7593,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7609,7 +7609,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-GruntWork-3.1": {
           "inGameName": "Doing the Work Part 4",
@@ -7618,6 +7617,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7633,7 +7633,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-GruntWork-7": {
           "inGameName": "Doing the Work Part 8",
@@ -7642,6 +7641,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7657,7 +7657,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-GruntWork-3": {
           "inGameName": "Good, Honest Work Part 3",
@@ -7666,6 +7665,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7681,7 +7681,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-KOR-GruntWork-6": {
           "inGameName": "Good, Honest Work Part 7",
@@ -7690,6 +7689,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7705,7 +7705,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Howler-1": {
           "inGameName": "Howling Skies Part 1",
@@ -7714,6 +7713,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7729,7 +7729,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Howler-3": {
           "inGameName": "Howling Skies Part 3",
@@ -7738,6 +7737,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7753,7 +7753,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-ICA-AudioDecoys-1": {
           "inGameName": "Audiophiles Beware Part 1",
@@ -7762,6 +7761,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7777,7 +7777,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-StrongStims-0.1": {
           "inGameName": "Stimulating Developments Part 1",
@@ -7786,6 +7785,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7801,7 +7801,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-GruntWork-5": {
           "inGameName": "Field Research Part 7",
@@ -7810,6 +7809,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7825,7 +7825,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-CaveRumors-2": {
           "inGameName": "Lost Knowledge Part 4",
@@ -7834,6 +7833,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7868,10 +7868,10 @@
     ],
     "stackSize": 400,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7906,10 +7906,10 @@
     ],
     "stackSize": 400,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7944,10 +7944,10 @@
     ],
     "stackSize": 70,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -7982,10 +7982,10 @@
     ],
     "stackSize": 70,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8003,10 +8003,10 @@
     ],
     "stackSize": 50,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8041,10 +8041,10 @@
     ],
     "stackSize": 400,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8079,10 +8079,10 @@
     ],
     "stackSize": 400,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8117,10 +8117,10 @@
     ],
     "stackSize": 70,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8155,10 +8155,10 @@
     ],
     "stackSize": 70,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8193,10 +8193,10 @@
     ],
     "stackSize": 400,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8231,10 +8231,10 @@
     ],
     "stackSize": 400,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8269,10 +8269,10 @@
     ],
     "stackSize": 70,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8296,10 +8296,10 @@
     ],
     "stackSize": 50,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8323,10 +8323,10 @@
     ],
     "stackSize": 400,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8351,10 +8351,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8379,10 +8379,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8407,10 +8407,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8435,10 +8435,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8463,10 +8463,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8494,10 +8494,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8522,10 +8522,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8550,10 +8550,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8578,10 +8578,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8606,10 +8606,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8634,10 +8634,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8662,10 +8662,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8690,10 +8690,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8717,10 +8717,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8744,10 +8744,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8771,10 +8771,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8798,10 +8798,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8825,10 +8825,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8847,10 +8847,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8869,10 +8869,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8891,10 +8891,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8919,10 +8919,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8947,10 +8947,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -8975,10 +8975,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9003,10 +9003,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9031,10 +9031,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9059,10 +9059,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9090,10 +9090,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9121,10 +9121,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9143,10 +9143,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9165,10 +9165,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9193,10 +9193,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9215,10 +9215,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9237,10 +9237,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9259,10 +9259,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9281,10 +9281,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9309,10 +9309,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9337,10 +9337,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9359,10 +9359,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9381,10 +9381,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9403,10 +9403,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9441,10 +9441,10 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9474,10 +9474,10 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9512,10 +9512,10 @@
     ],
     "stackSize": 2,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9546,10 +9546,10 @@
     ],
     "stackSize": 5,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9578,10 +9578,10 @@
     ],
     "stackSize": 2,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9612,10 +9612,10 @@
     ],
     "stackSize": 2,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9638,10 +9638,10 @@
     ],
     "stackSize": 4,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9666,10 +9666,10 @@
     ],
     "stackSize": 4,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9698,10 +9698,10 @@
     ],
     "stackSize": 4,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9726,10 +9726,10 @@
     ],
     "stackSize": 4,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9754,10 +9754,10 @@
     ],
     "stackSize": 4,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9783,10 +9783,10 @@
     ],
     "stackSize": 4,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9810,10 +9810,10 @@
     ],
     "stackSize": 4,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9831,10 +9831,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9858,10 +9858,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9879,10 +9879,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9906,10 +9906,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9927,10 +9927,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9948,10 +9948,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9969,10 +9969,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -9990,10 +9990,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10011,10 +10011,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10038,10 +10038,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10065,10 +10065,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10086,10 +10086,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10107,10 +10107,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10128,10 +10128,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10149,10 +10149,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10170,10 +10170,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10197,10 +10197,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10218,10 +10218,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10245,10 +10245,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10274,10 +10274,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10293,10 +10293,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10329,10 +10329,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10355,10 +10355,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10382,10 +10382,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10409,10 +10409,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10428,10 +10428,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10447,7 +10447,6 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {
         "Main-Osiris-Caverns-14": {
           "inGameName": "Main-Osiris-Caverns-14",
@@ -10456,6 +10455,7 @@
       },
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10471,10 +10471,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10490,10 +10490,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10526,10 +10526,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10552,10 +10552,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10579,10 +10579,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10606,10 +10606,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10633,10 +10633,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10669,10 +10669,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10696,10 +10696,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10723,10 +10723,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10750,10 +10750,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10777,10 +10777,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10796,10 +10796,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10815,10 +10815,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10834,10 +10834,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10870,10 +10870,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10896,10 +10896,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10922,10 +10922,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10948,10 +10948,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -10975,10 +10975,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11011,10 +11011,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11038,10 +11038,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11065,10 +11065,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11092,10 +11092,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11119,10 +11119,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11146,10 +11146,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11165,10 +11165,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11184,10 +11184,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11203,10 +11203,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11222,10 +11222,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11241,10 +11241,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11260,10 +11260,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11279,10 +11279,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11298,10 +11298,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11317,10 +11317,10 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11343,10 +11343,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11369,10 +11369,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11395,10 +11395,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11433,10 +11433,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11461,10 +11461,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11490,10 +11490,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11511,10 +11511,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11539,10 +11539,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11567,10 +11567,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11595,10 +11595,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11623,10 +11623,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11652,10 +11652,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11681,10 +11681,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11709,10 +11709,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11737,10 +11737,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11765,10 +11765,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11793,10 +11793,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11831,10 +11831,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11869,10 +11869,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11907,10 +11907,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11945,10 +11945,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -11983,10 +11983,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12004,10 +12004,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12033,10 +12033,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12054,10 +12054,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12083,10 +12083,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12104,10 +12104,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12133,10 +12133,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12171,10 +12171,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12192,10 +12192,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12221,10 +12221,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12250,10 +12250,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12288,10 +12288,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12309,10 +12309,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12338,10 +12338,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12367,10 +12367,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12405,10 +12405,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12426,10 +12426,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12455,10 +12455,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12484,10 +12484,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12522,10 +12522,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12543,10 +12543,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12572,10 +12572,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12601,10 +12601,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12622,10 +12622,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12651,10 +12651,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12672,10 +12672,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12701,10 +12701,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12729,10 +12729,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12767,10 +12767,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12788,10 +12788,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12816,10 +12816,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12837,10 +12837,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12858,10 +12858,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12886,10 +12886,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12914,10 +12914,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12952,10 +12952,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -12973,10 +12973,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13001,10 +13001,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13022,10 +13022,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13043,10 +13043,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13071,10 +13071,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13109,10 +13109,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13130,10 +13130,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13159,10 +13159,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13197,10 +13197,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13218,10 +13218,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13247,10 +13247,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13268,10 +13268,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13297,10 +13297,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13318,10 +13318,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13347,10 +13347,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13368,10 +13368,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13397,10 +13397,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13418,10 +13418,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13447,10 +13447,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13475,10 +13475,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13504,10 +13504,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13533,10 +13533,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13561,10 +13561,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13590,10 +13590,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13619,10 +13619,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13640,10 +13640,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13661,10 +13661,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13699,10 +13699,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13720,10 +13720,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13741,10 +13741,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13770,10 +13770,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13799,10 +13799,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13820,10 +13820,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13858,10 +13858,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13886,10 +13886,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13924,10 +13924,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13952,10 +13952,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -13980,10 +13980,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -14008,10 +14008,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -14036,10 +14036,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   },
@@ -14062,10 +14062,10 @@
     ],
     "stackSize": 1,
     "uses": {
-      "printing": {},
       "missions": {},
       "jobs": {},
       "quarters": {},
+      "printing": {},
       "forge": {}
     }
   }
