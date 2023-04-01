@@ -133,6 +133,10 @@
           "inGameName": "Veltecite for the Masses Part 1",
           "amount": 1
         },
+        "Main-KOR-LetiumResearch-4": {
+          "inGameName": "Research Costs Part 4",
+          "amount": 3
+        },
         "Main-Osiris-CaveRumors-3": {
           "inGameName": "Lost Knowledge Part 5",
           "amount": 8
@@ -256,6 +260,14 @@
     "stackSize": 10,
     "uses": {
       "missions": {
+        "Main-KOR-LetiumResearch-4": {
+          "inGameName": "Research Costs Part 4",
+          "amount": 1
+        },
+        "Main-KOR-BuildLaserDrill-4": {
+          "inGameName": "Heavy Construction Part 5",
+          "amount": 1
+        },
         "Main-ICA-OilScanModule-1": {
           "inGameName": "An Eye for Oil Part 1",
           "amount": 2
@@ -448,6 +460,14 @@
         "Main-KOR-FocusCrystals-1": {
           "inGameName": "Focused on Crystals Part 1",
           "amount": 3
+        },
+        "Main-KOR-BuildLaserDrill-4": {
+          "inGameName": "Heavy Construction Part 5",
+          "amount": 1
+        },
+        "Main-Osiris-CrystalSamples-3": {
+          "inGameName": "Everything is Crystals Part 3",
+          "amount": 2
         }
       },
       "jobs": {
@@ -1327,6 +1347,10 @@
         "NEW-Hard-Osiris-Gather-2": {
           "inGameName": "Sensor Array Repairs",
           "amount": 5
+        },
+        "NEW-Medium-Osiris-Stash-1": {
+          "inGameName": "Lense Repairs",
+          "amount": 3
         }
       },
       "quarters": {
@@ -1390,6 +1414,10 @@
         "Main-Osiris-ExplosivesTry-1": {
           "inGameName": "Explosive Delivery Part 1",
           "amount": 6
+        },
+        "Main-ICA-Caverns-11": {
+          "inGameName": "Main-ICA-Caverns-11",
+          "amount": 6
         }
       },
       "jobs": {
@@ -1408,6 +1436,10 @@
         "NEW-Hard-KOR-Mine-5": {
           "inGameName": "Classified II",
           "amount": 10
+        },
+        "NEW-Medium-KOR-Stash-1": {
+          "inGameName": "Jamming the Comms",
+          "amount": 2
         }
       },
       "quarters": {
@@ -1447,7 +1479,12 @@
     ],
     "stackSize": 10,
     "uses": {
-      "missions": {},
+      "missions": {
+        "Main-ICA-OilPump-1": {
+          "inGameName": "Back to Basics Part 1",
+          "amount": 6
+        }
+      },
       "jobs": {
         "NEW-Easy-ICA-Gather-5": {
           "inGameName": "Water Filtration System",
@@ -1460,6 +1497,10 @@
         "NEW-Hard-Osiris-Gather-2": {
           "inGameName": "Sensor Array Repairs",
           "amount": 12
+        },
+        "NEW-Hard-ICA-Stash-2": {
+          "inGameName": "Field Supplies",
+          "amount": 10
         }
       },
       "quarters": {
@@ -1769,6 +1810,10 @@
         "Main-Osiris-PrototypeLaser-2": {
           "inGameName": "Laser Show Part 2",
           "amount": 1
+        },
+        "Main-Osiris-SatelliteRepairs-1": {
+          "inGameName": "Orbital Repairs Part 1",
+          "amount": 1
         }
       },
       "jobs": {
@@ -1849,6 +1894,10 @@
         "NEW-Hard-KOR-Gather-1": {
           "inGameName": "Excavator Improvements",
           "amount": 3
+        },
+        "NEW-Easy-KOR-Stash-2": {
+          "inGameName": "Field Repairs",
+          "amount": 2
         }
       },
       "quarters": {
@@ -2181,6 +2230,10 @@
           "inGameName": "Sabotage",
           "amount": 4
         },
+        "NEW-Hard-ICA-Stash-3": {
+          "inGameName": "Spare Parts",
+          "amount": 4
+        },
         "NEW-Hard-ICA-Gather-6": {
           "inGameName": "Scrapping Station Improvements",
           "amount": 1
@@ -2277,6 +2330,10 @@
         "NEW-Hard-Osiris-Gather-4": {
           "inGameName": "Data Center Upgrades",
           "amount": 2
+        },
+        "NEW-Hard-KOR-Stash-2": {
+          "inGameName": "Upgrades",
+          "amount": 1
         }
       },
       "quarters": {
@@ -2316,6 +2373,14 @@
           "inGameName": "Heavy Construction Part 6",
           "amount": 5
         },
+        "Main-ICA-GruntWork-8": {
+          "inGameName": "Doing the Work Part 9",
+          "amount": 1
+        },
+        "Main-ICA-MeteorReactor-5": {
+          "inGameName": "Project Fireball Part 8",
+          "amount": 2
+        },
         "Main-ICA-OilPump-8": {
           "inGameName": "Back to Basics Part 8",
           "amount": 5
@@ -2345,6 +2410,10 @@
         "NEW-Hard-ICA-Powerup-1": {
           "inGameName": "A Solution",
           "amount": 5
+        },
+        "NEW-Medium-ICA-Stash-4": {
+          "inGameName": "Emergency Power",
+          "amount": 1
         }
       },
       "quarters": {
@@ -2538,6 +2607,14 @@
           "inGameName": "Project Fireball Part 1",
           "amount": 6
         },
+        "Main-ICA-OilPump-1": {
+          "inGameName": "Back to Basics Part 1",
+          "amount": 3
+        },
+        "Main-Osiris-UplinkHack-3": {
+          "inGameName": "Satellite Master Part 3",
+          "amount": 3
+        },
         "Main-Osiris-Caverns-0.2-Unlock": {
           "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
           "amount": 2
@@ -2546,6 +2623,14 @@
       "jobs": {
         "NEW-Medium-Osiris-Gather-1": {
           "inGameName": "Surveillance Center",
+          "amount": 2
+        },
+        "NEW-Medium-KOR-Stash-3": {
+          "inGameName": "Stability is Key",
+          "amount": 1
+        },
+        "NEW-Medium-ICA-Stash-1": {
+          "inGameName": "Storm Interference",
           "amount": 2
         }
       },
@@ -2625,6 +2710,10 @@
           "inGameName": "Sensor Array Repairs",
           "amount": 2
         },
+        "NEW-Medium-Osiris-Stash-2": {
+          "inGameName": "Technical Supplies",
+          "amount": 3
+        },
         "NEW-Hard-Osiris-Gather-7": {
           "inGameName": "Research Drone Repairs",
           "amount": 3
@@ -2696,6 +2785,10 @@
           "inGameName": "Heavy Construction Part 7",
           "amount": 8000
         },
+        "Main-ICA-CommunityWork-1": {
+          "inGameName": "Working for the Community Part 1",
+          "amount": 5000
+        },
         "Main-ICA-Caverns-13.1": {
           "inGameName": "Main-ICA-Caverns-13.1",
           "amount": 30000
@@ -2709,6 +2802,10 @@
         "NEW-Hard-ICA-Gather-2": {
           "inGameName": "Old Currency",
           "amount": 6000
+        },
+        "NEW-Medium-ICA-Stash-2": {
+          "inGameName": "Shady Deal",
+          "amount": 3000
         }
       },
       "quarters": {
@@ -2781,6 +2878,10 @@
         "NEW-Hard-Osiris-Brightcaps-1": {
           "inGameName": "Harvest Day",
           "amount": 8
+        },
+        "NEW-Hard-Osiris-Stash-2": {
+          "inGameName": "Stormy Samples II",
+          "amount": 4
         }
       },
       "quarters": {},
@@ -3055,6 +3156,10 @@
     "stackSize": 10,
     "uses": {
       "missions": {
+        "Main-ICA-CommunityWork-1": {
+          "inGameName": "Working for the Community Part 1",
+          "amount": 3
+        },
         "Main-Osiris-StrongMedkits-2": {
           "inGameName": "Path to Strong Medkits Part 2",
           "amount": 10
@@ -3238,6 +3343,10 @@
         "Main-KOR-Veltecite-1": {
           "inGameName": "Veltecite for the Masses Part 1",
           "amount": 3
+        },
+        "Main-ICA-AudioDecoys-3": {
+          "inGameName": "Audiophiles Beware Part 3",
+          "amount": 2
         }
       },
       "jobs": {},
@@ -3370,6 +3479,10 @@
         "Main-ICA-AudioDecoys-2": {
           "inGameName": "Audiophiles Beware Part 2",
           "amount": 5
+        },
+        "Main-ICA-MeteorReactor-5": {
+          "inGameName": "Project Fireball Part 8",
+          "amount": 4
         },
         "Main-ICA-OilScanModule-1": {
           "inGameName": "An Eye for Oil Part 1",
@@ -3525,6 +3638,14 @@
           "inGameName": "Your Civic Duty Part 4",
           "amount": 1
         },
+        "Main-ICA-GruntWork-5": {
+          "inGameName": "Doing the Work Part 6",
+          "amount": 1
+        },
+        "Main-ICA-MeteorReactor-5": {
+          "inGameName": "Project Fireball Part 8",
+          "amount": 2
+        },
         "Main-ICA-OilPump-6": {
           "inGameName": "Back to Basics Part 6",
           "amount": 11
@@ -3536,6 +3657,10 @@
         "Main-Osiris-PrototypeLaser-1": {
           "inGameName": "Laser Show Part 1",
           "amount": 8
+        },
+        "Main-Osiris-UplinkHack-3": {
+          "inGameName": "Satellite Master Part 3",
+          "amount": 3
         }
       },
       "jobs": {},
@@ -3601,6 +3726,18 @@
           "inGameName": "Titan Hunter Part 1",
           "amount": 5
         },
+        "Main-KOR-LetiumResearch-3": {
+          "inGameName": "Research Costs Part 3",
+          "amount": 1
+        },
+        "Main-ICA-AudioDecoys-3": {
+          "inGameName": "Audiophiles Beware Part 3",
+          "amount": 1
+        },
+        "Main-ICA-GruntWork-5": {
+          "inGameName": "Doing the Work Part 6",
+          "amount": 2
+        },
         "Main-ICA-OilScanModule-1": {
           "inGameName": "An Eye for Oil Part 1",
           "amount": 10
@@ -3608,6 +3745,10 @@
         "Main-Osiris-PrototypeLaser-2": {
           "inGameName": "Laser Show Part 2",
           "amount": 10
+        },
+        "Main-Osiris-UplinkHack-3": {
+          "inGameName": "Satellite Master Part 3",
+          "amount": 3
         }
       },
       "jobs": {},
@@ -3663,6 +3804,10 @@
       "missions": {
         "Main-Osiris-StrongStims-2": {
           "inGameName": "Stimulating Developments Part 3",
+          "amount": 5
+        },
+        "Main-Osiris-StrongMedkits-3": {
+          "inGameName": "Path to Strong Medkits Part 3",
           "amount": 5
         }
       },
@@ -3758,6 +3903,10 @@
     "stackSize": 10,
     "uses": {
       "missions": {
+        "Main-ICA-AudioDecoys-3": {
+          "inGameName": "Audiophiles Beware Part 3",
+          "amount": 2
+        },
         "Main-ICA-GruntWork-3": {
           "inGameName": "Doing the Work Part 3",
           "amount": 3
@@ -3853,9 +4002,17 @@
     "stackSize": 10,
     "uses": {
       "missions": {
+        "Main-KOR-LetiumRumors-4": {
+          "inGameName": "A Powerful Discovery Part 5",
+          "amount": 1
+        },
         "Main-ICA-OilSearch-3": {
           "inGameName": "Never Give Up Part 3",
           "amount": 5
+        },
+        "Main-Osiris-GruntWork-4": {
+          "inGameName": "Field Research Part 6",
+          "amount": 1
         },
         "Main-ICA-Caverns-4": {
           "inGameName": "Main-ICA-Caverns-4",
@@ -3997,6 +4154,10 @@
         "Main-KOR-FirstExtraWork-2": {
           "inGameName": "Time for More Work Part 2",
           "amount": 5
+        },
+        "Main-ICA-CommunityWork-1": {
+          "inGameName": "Working for the Community Part 1",
+          "amount": 3
         }
       },
       "jobs": {
@@ -4035,6 +4196,10 @@
     "stackSize": 10,
     "uses": {
       "missions": {
+        "Main-KOR-LetiumRumors-4": {
+          "inGameName": "A Powerful Discovery Part 5",
+          "amount": 2
+        },
         "Main-ICA-OilSearch-2": {
           "inGameName": "Never Give Up Part 2",
           "amount": 5
@@ -4255,6 +4420,10 @@
           "inGameName": "Private Business Part 3",
           "amount": 10
         },
+        "Main-Osiris-StormSamples-3": {
+          "inGameName": "Storm Rider Part 3",
+          "amount": 4
+        },
         "Main-Osiris-CraftFuel-2": {
           "inGameName": "Building a better Death Ray Part 2",
           "amount": 20
@@ -4280,6 +4449,10 @@
         "NEW-Hard-Osiris-Gather-5": {
           "inGameName": "Keep the Experiment running",
           "amount": 16
+        },
+        "NEW-Hard-Osiris-Stash-1": {
+          "inGameName": "Stormy Samples",
+          "amount": 6
         }
       },
       "quarters": {},
@@ -4336,6 +4509,10 @@
         "NEW-Hard-Osiris-Gather-1": {
           "inGameName": "Cretins",
           "amount": 7
+        },
+        "NEW-Medium-Osiris-Stash-4": {
+          "inGameName": "Toxin Testing",
+          "amount": 3
         }
       },
       "quarters": {},
@@ -4888,6 +5065,10 @@
         "Main-Osiris-SatelliteRepairs-4": {
           "inGameName": "Orbital Repairs Part 4",
           "amount": 3
+        },
+        "Main-Osiris-Caverns-4": {
+          "inGameName": "Main-Osiris-Caverns-4",
+          "amount": 1
         }
       },
       "jobs": {
@@ -5023,6 +5204,14 @@
         "Main-KOR-CraftingBackpack-1": {
           "inGameName": "Crafting Better Bags Part 1",
           "amount": 5
+        },
+        "Main-ICA-OilPump-1": {
+          "inGameName": "Back to Basics Part 1",
+          "amount": 3
+        },
+        "Main-Osiris-GruntWork-8": {
+          "inGameName": "Field Research Part 11",
+          "amount": 2
         }
       },
       "jobs": {
@@ -5648,6 +5837,10 @@
           "inGameName": "The Test Run Part 1",
           "amount": 15
         },
+        "Main-KOR-Caverns-12": {
+          "inGameName": "Main-KOR-Caverns-12",
+          "amount": 8
+        },
         "Main-Badum-FinalQuestline1-6": {
           "inGameName": "Fortuna's Favored Part 6",
           "amount": 200
@@ -5701,6 +5894,10 @@
         "Main-ICA-TestRun-2": {
           "inGameName": "Put to the Test Part 2",
           "amount": 15
+        },
+        "Main-ICA-Caverns-11": {
+          "inGameName": "Main-ICA-Caverns-11",
+          "amount": 9
         },
         "Main-ICA-Caverns-13.1": {
           "inGameName": "Main-ICA-Caverns-13.1",
@@ -5789,6 +5986,10 @@
         "Main-Osiris-GruntWork-7": {
           "inGameName": "Field Research Part 9",
           "amount": 3
+        },
+        "Main-Osiris-Caverns-13.1": {
+          "inGameName": "Main-Osiris-Caverns-13.1",
+          "amount": 5
         }
       },
       "jobs": {},
@@ -5828,6 +6029,10 @@
       "missions": {
         "Main-KOR-LetiumRumors-3": {
           "inGameName": "A Powerful Discovery Part 4",
+          "amount": 3
+        },
+        "Main-Osiris-Caverns-13.1": {
+          "inGameName": "Main-Osiris-Caverns-13.1",
           "amount": 3
         }
       },
@@ -5959,7 +6164,12 @@
           "amount": 3
         }
       },
-      "jobs": {},
+      "jobs": {
+        "NEW-Hard-ICA-Howler-1": {
+          "inGameName": "Biomimicry",
+          "amount": 1
+        }
+      },
       "quarters": {
         "kmarks_passive_cap_4.0": {
           "inGameName": "Kmarks passive cap 6.1",
@@ -6178,6 +6388,10 @@
         "Main-ICA-Caverns-4": {
           "inGameName": "Main-ICA-Caverns-4",
           "amount": 5
+        },
+        "Main-ICA-Caverns-8": {
+          "inGameName": "Main-ICA-Caverns-8",
+          "amount": 1
         },
         "Main-Osiris-Caverns-8": {
           "inGameName": "Main-Osiris-Caverns-8",
@@ -6485,9 +6699,17 @@
     "stackSize": 10,
     "uses": {
       "missions": {
+        "Main-KOR-Caverns-3": {
+          "inGameName": "Main-KOR-Caverns-3",
+          "amount": 3
+        },
         "Main-Osiris-Caverns-1.1": {
           "inGameName": "Main-Osiris-Caverns-1.1",
           "amount": 5
+        },
+        "Main-Osiris-Caverns-4.1": {
+          "inGameName": "Main-Osiris-Caverns-4.1",
+          "amount": 6
         }
       },
       "jobs": {
@@ -6692,6 +6914,10 @@
     "stackSize": 1,
     "uses": {
       "missions": {
+        "Main-ICA-GasGrenades-1": {
+          "inGameName": "Toxic Love Part 1",
+          "amount": 1
+        },
         "Main-ICA-Unique-3": {
           "inGameName": "Doing the Work Part 7",
           "amount": 2
@@ -6704,6 +6930,10 @@
         },
         "NEW-Medium-ICA-Uplink-2": {
           "inGameName": "Data Drive III",
+          "amount": 2
+        },
+        "NEW-Hard-ICA-Stash-1": {
+          "inGameName": "Data Drop",
           "amount": 2
         }
       },
@@ -6738,6 +6968,10 @@
       "missions": {
         "Main-KOR-LetiumRumors-5": {
           "inGameName": "A Powerful Discovery Part 6",
+          "amount": 1
+        },
+        "Main-ICA-GruntWork-8": {
+          "inGameName": "Doing the Work Part 9",
           "amount": 1
         },
         "Main-Osiris-UplinkHack-1": {
@@ -7371,7 +7605,12 @@
     ],
     "stackSize": 1,
     "uses": {
-      "missions": {},
+      "missions": {
+        "Main-KOR-Caverns-13": {
+          "inGameName": "Main-KOR-Caverns-13",
+          "amount": 1
+        }
+      },
       "jobs": {},
       "quarters": {},
       "printing": {},
@@ -7548,7 +7787,12 @@
     ],
     "stackSize": 1,
     "uses": {
-      "missions": {},
+      "missions": {
+        "Main-ICA-Caverns-3": {
+          "inGameName": "Main-ICA-Caverns-3",
+          "amount": 1
+        }
+      },
       "jobs": {},
       "quarters": {},
       "printing": {},
@@ -8747,7 +8991,12 @@
     "stackSize": 1,
     "uses": {
       "missions": {},
-      "jobs": {},
+      "jobs": {
+        "NEW-Hard-ICA-Stash-4": {
+          "inGameName": "Provide an Advocate",
+          "amount": 1
+        }
+      },
       "quarters": {},
       "printing": {},
       "forge": {}
@@ -9624,7 +9873,12 @@
     ],
     "stackSize": 2,
     "uses": {
-      "missions": {},
+      "missions": {
+        "Main-Osiris-GruntWork-4": {
+          "inGameName": "Field Research Part 6",
+          "amount": 3
+        }
+      },
       "jobs": {},
       "quarters": {},
       "printing": {},
@@ -9750,7 +10004,12 @@
     ],
     "stackSize": 4,
     "uses": {
-      "missions": {},
+      "missions": {
+        "Main-ICA-GasGrenades-1": {
+          "inGameName": "Toxic Love Part 1",
+          "amount": 3
+        }
+      },
       "jobs": {},
       "quarters": {},
       "printing": {},
@@ -10467,7 +10726,12 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "missions": {},
+      "missions": {
+        "Main-KOR-FirstExtraWork-4": {
+          "inGameName": "Time for More Work Part 4",
+          "amount": 1
+        }
+      },
       "jobs": {},
       "quarters": {},
       "printing": {},
@@ -10495,7 +10759,12 @@
     "stackSize": 1,
     "uses": {
       "missions": {},
-      "jobs": {},
+      "jobs": {
+        "NEW-Hard-Osiris-Stash-3": {
+          "inGameName": "Loadout Drop",
+          "amount": 1
+        }
+      },
       "quarters": {},
       "printing": {},
       "forge": {}
@@ -10692,7 +10961,16 @@
     "stackSize": 1,
     "uses": {
       "missions": {},
-      "jobs": {},
+      "jobs": {
+        "NEW-Hard-KOR-Stash-1": {
+          "inGameName": "Stashing Safety",
+          "amount": 1
+        },
+        "NEW-Hard-Osiris-Stash-3": {
+          "inGameName": "Loadout Drop",
+          "amount": 1
+        }
+      },
       "quarters": {},
       "printing": {},
       "forge": {}
@@ -10917,7 +11195,12 @@
     "tags": [],
     "stackSize": 1,
     "uses": {
-      "missions": {},
+      "missions": {
+        "Main-KOR-FirstExtraWork-4": {
+          "inGameName": "Time for More Work Part 4",
+          "amount": 1
+        }
+      },
       "jobs": {},
       "quarters": {},
       "printing": {},
@@ -11145,7 +11428,12 @@
     "stackSize": 1,
     "uses": {
       "missions": {},
-      "jobs": {},
+      "jobs": {
+        "NEW-Hard-Osiris-Stash-3": {
+          "inGameName": "Loadout Drop",
+          "amount": 1
+        }
+      },
       "quarters": {},
       "printing": {},
       "forge": {}
