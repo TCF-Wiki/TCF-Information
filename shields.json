@@ -281,6 +281,85 @@
       }
     ]
   },
+  "Shield_Tactical_04": {
+    "inGameName": "Combat Tactical Shields",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "rarity": "Epic",
+    "weight": 40,
+    "armorAmount": 25,
+    "durability": 450,
+    "sellValue": 11618,
+    "factionRep": 116,
+    "repair": {
+      "baseCost": 1365,
+      "costModifierBroken": 2062,
+      "maxPrice": 8190,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 30
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "DesertPlant": 2,
+        "HardenedBoneAlloy": 3
+      }
+    ]
+  },
+  "Shield_Tactical_05": {
+    "inGameName": "Enhanced Tactical Shields",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "rarity": "Exotic",
+    "weight": 40,
+    "armorAmount": 30,
+    "durability": 500,
+    "sellValue": 23579,
+    "factionRep": 236,
+    "repair": {
+      "baseCost": 2370,
+      "costModifierBroken": 3573,
+      "maxPrice": 14220,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 35
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "AI_CrusherSkin": 3,
+        "AI_HowlerDart": 2,
+        "CombatCPU_Blue": 3
+      }
+    ]
+  },
   "Shield_Restoration_01": {
     "inGameName": "Standard Restorative Shields",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
@@ -356,6 +435,85 @@
         "CombatCPU_Blue": 2,
         "RadioactiveBrightcapMushroom": 2,
         "AI_RattlerSkin": 8
+      }
+    ]
+  },
+  "Shield_Restoration_03": {
+    "inGameName": "Combat Restorative Shields",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "rarity": "Epic",
+    "weight": 40,
+    "armorAmount": 25,
+    "durability": 450,
+    "sellValue": 11618,
+    "factionRep": 116,
+    "repair": {
+      "baseCost": 1365,
+      "costModifierBroken": 2062,
+      "maxPrice": 8190,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Health restoration per second",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HealthRegenerationRate",
+            "modifierType": "Additive",
+            "modiferValue": 0.3
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "RadioactiveBrightcapMushroom": 5,
+        "HardenedBoneAlloy": 3
+      }
+    ]
+  },
+  "Shield_Restoration_04": {
+    "inGameName": "Enhanced Restorative Shields",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "rarity": "Exotic",
+    "weight": 40,
+    "armorAmount": 30,
+    "durability": 500,
+    "sellValue": 23579,
+    "factionRep": 236,
+    "repair": {
+      "baseCost": 2370,
+      "costModifierBroken": 3573,
+      "maxPrice": 14220,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Health restoration per second",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HealthRegenerationRate",
+            "modifierType": "Additive",
+            "modiferValue": 0.4
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "AI_CrusherSkin": 3,
+        "AI_HowlerDart": 2,
+        "AI_HowlerPellet": 3
       }
     ]
   },

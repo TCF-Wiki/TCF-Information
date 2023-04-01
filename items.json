@@ -1803,6 +1803,14 @@
         "Helmet_05": {
           "inGameName": "Enhanced Helmet",
           "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Enhanced Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Enhanced Restorative Helmet",
+          "amount": 2
         }
       },
       "forge": {}
@@ -1927,6 +1935,14 @@
       "printing": {
         "Shield_05": {
           "inGameName": "Enhanced Shields",
+          "amount": 6
+        },
+        "Shield_Tactical_05": {
+          "inGameName": "Enhanced Tactical Shields",
+          "amount": 6
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Enhanced Restorative Shields",
           "amount": 6
         },
         "Mod_Optic_4x_01": {
@@ -2200,6 +2216,10 @@
         "Shield_Tactical_03": {
           "inGameName": "Reinforced Tactical Shields",
           "amount": 2
+        },
+        "Shield_Tactical_05": {
+          "inGameName": "Enhanced Tactical Shields",
+          "amount": 3
         },
         "Shield_Restoration_02": {
           "inGameName": "Reinforced Restorative Shields",
@@ -2644,6 +2664,14 @@
         "Helmet_Tactical_03": {
           "inGameName": "Reinforced Tactical Helmet",
           "amount": 1
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Combat Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Enhanced Tactical Helmet",
+          "amount": 3
         }
       },
       "forge": {}
@@ -2761,9 +2789,21 @@
           "inGameName": "Reinforced Restorative Shields",
           "amount": 2
         },
+        "Shield_Restoration_03": {
+          "inGameName": "Combat Restorative Shields",
+          "amount": 5
+        },
         "Helmet_Restoration_02": {
           "inGameName": "Reinforced Restorative Helmet",
           "amount": 2
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Combat Restorative Helmet",
+          "amount": 3
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Enhanced Restorative Helmet",
+          "amount": 5
         }
       },
       "forge": {
@@ -2982,6 +3022,10 @@
         "Bag_04": {
           "inGameName": "Heavy Duty Backpack",
           "amount": 1
+        },
+        "Shield_Tactical_04": {
+          "inGameName": "Combat Tactical Shields",
+          "amount": 2
         }
       },
       "forge": {
@@ -3434,6 +3478,14 @@
           "inGameName": "Combat Shields",
           "amount": 2
         },
+        "Shield_Tactical_04": {
+          "inGameName": "Combat Tactical Shields",
+          "amount": 2
+        },
+        "Shield_Restoration_03": {
+          "inGameName": "Combat Restorative Shields",
+          "amount": 2
+        },
         "Mod_Muzzle_Small_Supressor_01": {
           "inGameName": "Small Suppressor",
           "amount": 1
@@ -3581,6 +3633,14 @@
         "Helmet_04": {
           "inGameName": "Combat Helmet",
           "amount": 4
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Combat Tactical Helmet",
+          "amount": 5
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Combat Restorative Helmet",
+          "amount": 5
         }
       },
       "forge": {}
@@ -4773,8 +4833,24 @@
           "inGameName": "Combat Shields",
           "amount": 2
         },
+        "Shield_Tactical_04": {
+          "inGameName": "Combat Tactical Shields",
+          "amount": 3
+        },
+        "Shield_Restoration_03": {
+          "inGameName": "Combat Restorative Shields",
+          "amount": 3
+        },
         "Helmet_04": {
           "inGameName": "Combat Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Combat Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Combat Restorative Helmet",
           "amount": 1
         }
       },
@@ -4831,8 +4907,24 @@
           "inGameName": "Enhanced Shields",
           "amount": 3
         },
+        "Shield_Tactical_05": {
+          "inGameName": "Enhanced Tactical Shields",
+          "amount": 3
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Enhanced Restorative Shields",
+          "amount": 3
+        },
         "Helmet_05": {
           "inGameName": "Enhanced Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Enhanced Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Enhanced Restorative Helmet",
           "amount": 1
         }
       },
@@ -5891,8 +5983,24 @@
           "inGameName": "Enhanced Shields",
           "amount": 2
         },
+        "Shield_Tactical_05": {
+          "inGameName": "Enhanced Tactical Shields",
+          "amount": 2
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Enhanced Restorative Shields",
+          "amount": 2
+        },
         "Helmet_05": {
           "inGameName": "Enhanced Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Enhanced Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Enhanced Restorative Helmet",
           "amount": 1
         }
       },
@@ -6039,6 +6147,10 @@
         "Consumable_Health_06": {
           "inGameName": "Combat Medkit",
           "amount": 1
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Enhanced Restorative Shields",
+          "amount": 3
         }
       },
       "forge": {}
@@ -10730,6 +10842,61 @@
       "forge": {}
     }
   },
+  "Shield_Tactical_04": {
+    "inGameName": "Combat Tactical Shields",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
+    "rarity": "Epic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "DesertPlant": 2,
+        "HardenedBoneAlloy": 3
+      }
+    ],
+    "sellValue": 11618,
+    "factionRep": 116,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "printing": {},
+      "forge": {}
+    }
+  },
+  "Shield_Tactical_05": {
+    "inGameName": "Enhanced Tactical Shields",
+    "description": "Protects the body of its wearer, and increases their stamina.",
+    "type": "shield",
+    "rarity": "Exotic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "AI_CrusherSkin": 3,
+        "AI_HowlerDart": 2,
+        "CombatCPU_Blue": 3
+      }
+    ],
+    "sellValue": 23579,
+    "factionRep": 236,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "printing": {},
+      "forge": {}
+    }
+  },
   "Shield_Restoration_01": {
     "inGameName": "Standard Restorative Shields",
     "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
@@ -10774,6 +10941,61 @@
     ],
     "sellValue": 4556,
     "factionRep": 46,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "printing": {},
+      "forge": {}
+    }
+  },
+  "Shield_Restoration_03": {
+    "inGameName": "Combat Restorative Shields",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "shield",
+    "rarity": "Epic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 39000,
+        "SmartMesh": 2,
+        "RadioactiveBrightcapMushroom": 5,
+        "HardenedBoneAlloy": 3
+      }
+    ],
+    "sellValue": 11618,
+    "factionRep": 116,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "printing": {},
+      "forge": {}
+    }
+  },
+  "Shield_Restoration_04": {
+    "inGameName": "Enhanced Restorative Shields",
+    "description": "Advanced protective shield that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "shield",
+    "rarity": "Exotic",
+    "weight": 40,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 79000,
+        "PrintResin": 6,
+        "AI_CrusherSkin": 3,
+        "AI_HowlerDart": 2,
+        "AI_HowlerPellet": 3
+      }
+    ],
+    "sellValue": 23579,
+    "factionRep": 236,
     "tags": [],
     "stackSize": 1,
     "uses": {
@@ -11072,6 +11294,61 @@
       "forge": {}
     }
   },
+  "Helmet_Tactical_04": {
+    "inGameName": "Combat Tactical Helmet",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
+    "rarity": "Epic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "Datapad": 1
+      }
+    ],
+    "sellValue": 5126,
+    "factionRep": 51,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "printing": {},
+      "forge": {}
+    }
+  },
+  "Helmet_Tactical_05": {
+    "inGameName": "Enhanced Tactical Helmet",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "type": "helmet",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "AI_HowlerDart": 1,
+        "Gyroscope": 2,
+        "AI_CrusherSkin": 1,
+        "Datapad": 3
+      }
+    ],
+    "sellValue": 10252,
+    "factionRep": 103,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "printing": {},
+      "forge": {}
+    }
+  },
   "Helmet_Restoration_01": {
     "inGameName": "Standard Restorative Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
@@ -11116,6 +11393,61 @@
     ],
     "sellValue": 2278,
     "factionRep": 23,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "printing": {},
+      "forge": {}
+    }
+  },
+  "Helmet_Restoration_03": {
+    "inGameName": "Combat Restorative Helmet",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "helmet",
+    "rarity": "Epic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "RadioactiveBrightcapMushroom": 3
+      }
+    ],
+    "sellValue": 5126,
+    "factionRep": 51,
+    "tags": [],
+    "stackSize": 1,
+    "uses": {
+      "missions": {},
+      "jobs": {},
+      "quarters": {},
+      "printing": {},
+      "forge": {}
+    }
+  },
+  "Helmet_Restoration_04": {
+    "inGameName": "Enhanced Restorative Helmet",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "type": "helmet",
+    "rarity": "Exotic",
+    "weight": 20,
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "AI_HowlerDart": 1,
+        "Gyroscope": 2,
+        "AI_CrusherSkin": 1,
+        "RadioactiveBrightcapMushroom": 5
+      }
+    ],
+    "sellValue": 10252,
+    "factionRep": 103,
     "tags": [],
     "stackSize": 1,
     "uses": {

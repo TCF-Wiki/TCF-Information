@@ -261,6 +261,85 @@
       }
     ]
   },
+  "Helmet_Tactical_04": {
+    "inGameName": "Combat Tactical Helmet",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "rarity": "Epic",
+    "weight": 20,
+    "armorAmount": 25,
+    "durability": 400,
+    "sellValue": 5126,
+    "factionRep": 51,
+    "repair": {
+      "baseCost": 595,
+      "costModifierBroken": 888,
+      "maxPrice": 3570,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 20
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "Datapad": 1
+      }
+    ]
+  },
+  "Helmet_Tactical_05": {
+    "inGameName": "Enhanced Tactical Helmet",
+    "description": "Protects the wearer's head, and increases their stamina.",
+    "rarity": "Exotic",
+    "weight": 20,
+    "armorAmount": 30,
+    "durability": 450,
+    "sellValue": 10252,
+    "factionRep": 103,
+    "repair": {
+      "baseCost": 1020,
+      "costModifierBroken": 1522,
+      "maxPrice": 6120,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Maximum stamina",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "MaxStamina",
+            "modifierType": "Additive",
+            "modiferValue": 25
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "AI_HowlerDart": 1,
+        "Gyroscope": 2,
+        "AI_CrusherSkin": 1,
+        "Datapad": 3
+      }
+    ]
+  },
   "Helmet_Restoration_01": {
     "inGameName": "Standard Restorative Helmet",
     "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
@@ -336,6 +415,85 @@
         "AluminumParts": 2,
         "RadioactiveBrightcapMushroom": 2,
         "AI_RattlerSkin": 2
+      }
+    ]
+  },
+  "Helmet_Restoration_03": {
+    "inGameName": "Combat Restorative Helmet",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "rarity": "Epic",
+    "weight": 20,
+    "armorAmount": 25,
+    "durability": 400,
+    "sellValue": 5126,
+    "factionRep": 51,
+    "repair": {
+      "baseCost": 595,
+      "costModifierBroken": 888,
+      "maxPrice": 3570,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Health restoration per second",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HealthRegenerationRate",
+            "modifierType": "Additive",
+            "modiferValue": 0.2
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 17000,
+        "RadioSpareParts": 5,
+        "HardenedBoneAlloy": 1,
+        "RadioactiveBrightcapMushroom": 3
+      }
+    ]
+  },
+  "Helmet_Restoration_04": {
+    "inGameName": "Enhanced Restorative Helmet",
+    "description": "Advanced helmet that includes medical tech capable of reconstructing lost tissue over time.",
+    "rarity": "Exotic",
+    "weight": 20,
+    "armorAmount": 30,
+    "durability": 450,
+    "sellValue": 10252,
+    "factionRep": 103,
+    "repair": {
+      "baseCost": 1020,
+      "costModifierBroken": 1522,
+      "maxPrice": 6120,
+      "durabilityBrokenPriceModifier": 0.5
+    },
+    "perks": [
+      {
+        "inGameName": "Health restoration per second",
+        "duration": 0,
+        "elite": false,
+        "attributes": [
+          {
+            "attribute": "HealthRegenerationRate",
+            "modifierType": "Additive",
+            "modiferValue": 0.3
+          }
+        ]
+      }
+    ],
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 34000,
+        "AI_HowlerDart": 1,
+        "Gyroscope": 2,
+        "AI_CrusherSkin": 1,
+        "RadioactiveBrightcapMushroom": 5
       }
     ]
   },
