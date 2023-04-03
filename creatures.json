@@ -605,20 +605,20 @@
     "resetRadius": 9000,
     "damageAreas": {
       "Head": {
-        "m_damageMultiplier": 1,
-        "m_isWeakSpot": false
+        "m_damageMultiplier": 10,
+        "m_isWeakSpot": true
       },
       "Neck2": {
-        "m_damageMultiplier": 1,
-        "m_isWeakSpot": false
+        "m_damageMultiplier": 10,
+        "m_isWeakSpot": true
       },
       "Neck3": {
-        "m_damageMultiplier": 1,
-        "m_isWeakSpot": false
+        "m_damageMultiplier": 10,
+        "m_isWeakSpot": true
       },
       "EggSackC": {
-        "m_damageMultiplier": 1,
-        "m_isWeakSpot": false
+        "m_damageMultiplier": 10,
+        "m_isWeakSpot": true
       }
     },
     "penetration": 17,
@@ -906,20 +906,20 @@
     "resetRadius": 9000,
     "damageAreas": {
       "Head": {
-        "m_damageMultiplier": 1,
-        "m_isWeakSpot": false
+        "m_damageMultiplier": 7.5,
+        "m_isWeakSpot": true
       },
       "Neck2": {
-        "m_damageMultiplier": 1,
-        "m_isWeakSpot": false
+        "m_damageMultiplier": 7.5,
+        "m_isWeakSpot": true
       },
       "Neck3": {
-        "m_damageMultiplier": 1,
-        "m_isWeakSpot": false
+        "m_damageMultiplier": 7.5,
+        "m_isWeakSpot": true
       },
       "EggSackC": {
-        "m_damageMultiplier": 1,
-        "m_isWeakSpot": false
+        "m_damageMultiplier": 7.5,
+        "m_isWeakSpot": true
       }
     },
     "penetration": 26,
