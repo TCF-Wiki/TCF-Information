@@ -1,7 +1,7 @@
 {
   "Consumable_Health_01": {
     "inGameName": "Weak Stim",
-    "description": "Offering an immediate 15 health boost.",
+    "description": "Fast application. Provides a slight health boost.",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -32,7 +32,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 4
     },
@@ -57,7 +57,7 @@
   },
   "Consumable_Health_02": {
     "inGameName": "Strong Stim",
-    "description": "Offering an immediate 25 health boost.",
+    "description": "Fast application. Provides a small health boost.",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -88,7 +88,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 4
     },
@@ -108,7 +108,7 @@
   },
   "Consumable_Health_03": {
     "inGameName": "Weak Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a great health boost.",
     "rarity": "Common",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -139,7 +139,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 9
     },
@@ -164,7 +164,7 @@
   },
   "Consumable_Health_04": {
     "inGameName": "Combat Stim",
-    "description": "Offering an immediate 30 health boost.",
+    "description": "Fast application. Provides a moderate health boost.",
     "rarity": "Rare",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -195,7 +195,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 4
     },
@@ -207,6 +207,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 460,
+        "AI_HowlerPellet": 1,
         "Antibiotics": 2,
         "WaterPlant": 2,
         "IvyPlant": 1
@@ -215,7 +216,7 @@
   },
   "Consumable_Health_05": {
     "inGameName": "Strong Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a massive health boost.",
     "rarity": "Uncommon",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -246,7 +247,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 8
     },
@@ -265,7 +266,7 @@
   },
   "Consumable_Health_06": {
     "inGameName": "Combat Medkit",
-    "description": "Offering an immediate 100 health boost.",
+    "description": "Slow application. Provides a full health boost.",
     "rarity": "Rare",
     "tags": [
       "Equipment.Consumables.Healing"
@@ -296,7 +297,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 7
     },
@@ -308,6 +309,7 @@
       {
         "shop": "CraftingStation",
         "SoftCurrency": 460,
+        "AI_HowlerPellet": 1,
         "AnaestheticsContainers": 2,
         "WaterPlant": 3,
         "IvyPlant": 1
@@ -342,7 +344,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 0
     },
@@ -381,7 +383,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 0
     },
@@ -422,7 +424,7 @@
       "directDamageEnemyMultiplier": 1,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 1,
-      "unequipTime": 0.5,
+      "unequipTime": 0.3,
       "equipTime": 0.4,
       "spinupTime": 0
     },
@@ -467,7 +469,7 @@
       "directDamageEnemyMultiplier": 2,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 2,
-      "unequipTime": 0.6,
+      "unequipTime": 0.3,
       "equipTime": 0.6,
       "spinupTime": 0
     },
@@ -508,7 +510,7 @@
       "directDamageEnemyMultiplier": 2,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 2,
-      "unequipTime": 0.6,
+      "unequipTime": 0.3,
       "equipTime": 0.6,
       "spinupTime": 0
     },
@@ -549,7 +551,7 @@
       "directDamageEnemyMultiplier": 2,
       "radialDamagePlayerMultiplier": 1,
       "radialDamageEnemyMultiplier": 2,
-      "unequipTime": 0.6,
+      "unequipTime": 0.3,
       "equipTime": 0.6,
       "spinupTime": 0
     },
@@ -558,7 +560,48 @@
         "shop": "CraftingStation",
         "SoftCurrency": 6800,
         "ChargedForgeIronIngot": 4,
-        "Alien_Scrap": 8
+        "Alien_Scrap": 8,
+        "AI_HowlerDart": 1
+      }
+    ]
+  },
+  "HowlerGrenade_01": {
+    "inGameName": "Howler Grenade",
+    "description": "A thrown device, developed by Osiris, that detonates after a short delay and disorients and slows targets in a radius.",
+    "rarity": "Rare",
+    "tags": [
+      "Equipment.Consumables"
+    ],
+    "weight": 5,
+    "stackSize": 4,
+    "sellValue": 1025,
+    "factionRep": 10,
+    "action": null,
+    "tuning": {
+      "damageType": "Damage",
+      "penetration": 10,
+      "directDamage": 0,
+      "radialDamage": 0,
+      "cooldownTime": 4,
+      "actionTime": 1,
+      "refireTime": 0.15,
+      "reloadTime": 3,
+      "movementSpeedMultiplier": 1,
+      "weakDamageMultiplier": 1,
+      "weakDamageMultiplierEnemy": 1,
+      "directDamagePlayerMultiplier": 1,
+      "directDamageEnemyMultiplier": 1,
+      "radialDamagePlayerMultiplier": 1,
+      "radialDamageEnemyMultiplier": 1,
+      "unequipTime": 0.3,
+      "equipTime": 0.4,
+      "spinupTime": 0
+    },
+    "cost": [
+      {
+        "shop": "CraftingStation",
+        "SoftCurrency": 10000,
+        "AI_HowlerDart": 2
       }
     ]
   }
