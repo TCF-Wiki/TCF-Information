@@ -7,10 +7,9 @@
       "Equipment.Shield"
     ],
     "items": {
-      "AI_WeremoleMeat_02": 2,
-      "IvyPlant": 2,
-      "BrightcapMushroom": 3,
-      "AlienFruit": 3
+      "RadioactiveBrightcapMushroom": 2,
+      "TentaclePlant": 2,
+      "DesertPlant": 2
     },
     "attributes": [
       {
@@ -39,8 +38,8 @@
       "Equipment.Shield"
     ],
     "items": {
-      "IvyPlant": 2,
-      "TentaclePlant": 2
+      "TentaclePlant": 2,
+      "AI_HowlerPellet": 2
     },
     "attributes": [
       {
@@ -69,9 +68,8 @@
       "Equipment.Helmet"
     ],
     "items": {
-      "AI_WeremoleHead": 1,
       "AI_WeremoleMeat_02": 2,
-      "TentaclePlant": 2
+      "AI_StriderMeat_03": 2
     },
     "attributes": [
       {
@@ -97,12 +95,9 @@
     "description": "Faster Stim and Medkit use",
     "elite": false,
     "equipment": [
-      "Equipment.Helmet",
-      "Equipment.Shield"
+      "Equipment.Helmet"
     ],
     "items": {
-      "RadioactiveBrightcapMushroom": 2,
-      "TentaclePlant": 2,
       "AI_WeremoleMeat_02": 2
     },
     "attributes": [
@@ -119,10 +114,10 @@
       }
     ],
     "attributeOverrides": {
-      "minValue": 0.8,
-      "stepGranularity": 0.04,
+      "minValue": 0.7,
+      "stepGranularity": 0.05,
       "numSteps": 5,
-      "calculatedMaxValue": 0.96000004
+      "calculatedMaxValue": 0.9
     }
   },
   "Perk_HealthRegen_Storm": {
@@ -135,8 +130,7 @@
     "items": {
       "StormyCreatureDrop": 3,
       "RadioactiveBrightcapMushroom": 2,
-      "FocusCrystal": 2,
-      "IvyPlant": 2
+      "TentaclePlant": 2
     },
     "attributes": [
       {
@@ -167,11 +161,8 @@
       "Equipment.Shield"
     ],
     "items": {
-      "WaterPlant": 3,
-      "AI_StriderMeat": 3,
       "AI_WeremoleMeat": 2,
-      "AI_RattlerEyes": 3,
-      "HardenedBoneAlloy": 3
+      "AI_StriderMeat_03": 2
     },
     "attributes": [
       {
@@ -202,9 +193,9 @@
       "Equipment.Shield"
     ],
     "items": {
-      "AI_RattlerEyes": 3,
-      "BrightcapMushroom": 3,
-      "AI_StriderMeat": 3
+      "AI_WeremoleMeat": 2,
+      "NeuroToxicGlands": 3,
+      "AlienFruit": 3
     },
     "attributes": [
       {
@@ -237,7 +228,7 @@
     "items": {
       "MeteorFragment": 2,
       "StormyCreatureDrop": 3,
-      "AI_WeremoleMeat": 2
+      "FocusCrystal": 2
     },
     "attributes": [
       {
@@ -267,10 +258,9 @@
       "Equipment.Shield"
     ],
     "items": {
-      "AI_RattlerHead": 1,
       "HardenedBoneAlloy": 3,
       "TitanOre": 2,
-      "AI_RattlerEyes_02": 2
+      "FocusCrystal": 2
     },
     "attributes": [
       {
@@ -300,10 +290,8 @@
       "Equipment.Back Item"
     ],
     "items": {
-      "HardenedBoneAlloy": 3,
       "BlueRunnerEgg": 2,
-      "Alien_Scrap": 3,
-      "NeuroToxicGlands": 3
+      "AI_RattlerEyes": 3
     },
     "attributes": [
       {
@@ -333,7 +321,7 @@
     ],
     "items": {
       "AI_CrusherSkin": 2,
-      "FocusCrystal": 2
+      "HardenedBoneAlloy": 3
     },
     "attributes": [
       {
@@ -385,47 +373,6 @@
       "calculatedMaxValue": 0.2
     }
   },
-  "Perk_HunterVisionHelm": {
-    "description": "Enhanced Alien Hunter Vision which consumes stamina (can be toggled on/off)",
-    "elite": true,
-    "equipment": [
-      "Equipment.Helmet"
-    ],
-    "items": {
-      "AI_WeremoleHead": 1,
-      "AI_RattlerHead": 1
-    },
-    "attributes": [
-      {
-        "attribute": "EYGameplayAttribute::HelmetThermal",
-        "type": "EYGPAModifierType::Override",
-        "value": 1,
-        "minValue": -1,
-        "duration": 0,
-        "lerpTime": -1,
-        "lerpStartValue": 0,
-        "lerpEndValue": 0,
-        "runtimeValue": 1
-      },
-      {
-        "attribute": "EYGameplayAttribute::HelmetThermalStaminaConsumptionPerSecond",
-        "type": "EYGPAModifierType::Additive",
-        "value": -1,
-        "minValue": -1,
-        "duration": 0,
-        "lerpTime": -1,
-        "lerpStartValue": 0,
-        "lerpEndValue": 0,
-        "runtimeValue": 1
-      }
-    ],
-    "attributeOverrides": {
-      "minValue": 8,
-      "stepGranularity": 1,
-      "numSteps": 1,
-      "calculatedMaxValue": 8
-    }
-  },
   "Perk_AIDetection": {
     "description": "Hostile fauna is less aggressive towards the wearer",
     "elite": true,
@@ -433,10 +380,9 @@
       "Equipment.Shield"
     ],
     "items": {
-      "AI_WeremoleMeat": 2,
       "NeuroToxicGlands": 3,
       "AI_RattlerEyes": 3,
-      "AI_RattlerHead": 1
+      "AI_HowlerPellet": 2
     },
     "attributes": [
       {
@@ -479,7 +425,7 @@
     ],
     "items": {
       "AlienFruit": 3,
-      "WaterPlant": 3,
+      "DesertPlant": 2,
       "MeteorFragment": 2
     },
     "attributes": [
@@ -509,7 +455,6 @@
       "Equipment.Back Item"
     ],
     "items": {
-      "DesertPlant": 2,
       "MeteorCore": 2
     },
     "attributes": [
@@ -600,8 +545,9 @@
       "Equipment.Back Item"
     ],
     "items": {
-      "AlienFruit": 3,
-      "DesertPlant": 2
+      "AI_RattlerEyes": 3,
+      "DesertPlant": 2,
+      "FocusCrystal": 2
     },
     "attributes": [
       {
@@ -716,6 +662,17 @@
         "lerpStartValue": 0,
         "lerpEndValue": 0,
         "runtimeValue": 1
+      },
+      {
+        "attribute": "EYGameplayAttribute::CarriedWeightReductionBag",
+        "type": "EYGPAModifierType::Multiplicitive_PreAdd",
+        "value": 0,
+        "minValue": -1,
+        "duration": 0,
+        "lerpTime": -1,
+        "lerpStartValue": 0,
+        "lerpEndValue": 0,
+        "runtimeValue": 1
       }
     ],
     "attributeOverrides": {
@@ -735,7 +692,7 @@
     "items": {
       "BlueRunnerEgg": 2,
       "NeuroToxicGlands": 3,
-      "AI_RattlerEyes_02": 2
+      "AI_StriderMeat_03": 2
     },
     "attributes": [
       {
@@ -765,7 +722,7 @@
     ],
     "items": {
       "AI_CrusherSkin": 2,
-      "FocusCrystal": 2
+      "HardenedBoneAlloy": 3
     },
     "attributes": [
       {
