@@ -2884,7 +2884,7 @@
     "Main-Osiris-Caverns-14": {
       "name": "",
       "description": "'I think it's time to move forward with our work on the Abyss Forge. Use the 'recipe' you found earlier, and whatever that device prints out, deliver it back to me. If we can put this Progenitor technology to work for us... well, you can imagine the implications. '",
-      "shortDescription": "Use a Large Backpack and some Tharis Iron Ingots to create a Huge Forged Backpack at the Abyss Forge on Tharis Island and bring it back to Osiris for Analysis. They suspect that Shields and Helmets can also be forged, and maybe even enhanced with strange properties by adding more items to the recipe."
+      "shortDescription": "Use a Heavy Duty Backpack, three Tharis Iron Ingots and three Progenitor Composites to enhance the Backpack at the Abyss Forge on Tharis Island and bring it back to Osiris for Analysis. They suspect that Shields and Helmets can also be enhanced with strange properties by experimenting around with recipes."
     },
     "Main-Osiris-Howler-1": {
       "description": "'Troubling, some of our equipment on the surface appears to have reported catastrophic failure. Sabotage, I suspect. Head down there and figure out who's to blame, Prospector. '"
@@ -8445,6 +8445,9 @@
     "GameplayTag_Loot_Category_Altered_DisplayText": {
       "name": "Altered"
     },
+    "GameplayTag_Loot_NotDroppable": {
+      "name": "Not Droppable"
+    },
     "GameplayTag_Vanity_WeaponSkin": {
       "name": "Weapon Skin"
     },
@@ -11140,10 +11143,10 @@
       "name": "Missions"
     },
     "Generic_NoDrop_Title": {
-      "name": "Non-Drop"
+      "name": "Not droppable"
     },
     "Generic_NoDrop": {
-      "description": "This item cannot be dropped or placed in containers"
+      "description": "Cannot be dropped and will be deleted from dropped backpacks!"
     },
     "Generic_NoDrop_Alt": {
       "description": "This item cannot be removed from your Loadout while on the surface"
@@ -23952,7 +23955,16 @@
       "name": "then too."
     },
     "Includes 1000 Aurum. ": {
-      "name": "Shop_Bundle_Howler_Name"
+      "name": "Spray_SpudHunter_Decal04_Name"
+    },
+    "Includes all outfit pieces for The Judge and Grim Hunter prospectors. ": {
+      "name": "Shop_Season03_Bundle06_Name"
+    },
+    "Includes all outfit pieces for The Marshall and Chaser prospectors. ": {
+      "name": "Shop_Season03_Archetype_BountyHunter0102_Name"
+    },
+    "Includes all outfit pieces for the Bounty Hunter and High-End Hunter prospectors. ": {
+      "name": "Shop_Artillery01F_Head2_Name"
     }
   },
   "Shop_FounderPacks": {
@@ -25776,6 +25788,12 @@
     "Station_BackButton_ToQuickmenu": {
       "name": "Back to Quickmenu"
     },
+    "Station_Button_ToVIP_Granted": {
+      "name": "Enter VIP area"
+    },
+    "Station_Button_ToVIP_Denied": {
+      "name": "Finish Badum's final mission to enter"
+    },
     "Station_Menu_Tabs_Mods": {
       "name": "Mods"
     },
@@ -26756,7 +26774,7 @@
       "name": "Presets"
     },
     "Station_LoadoutPresets_InfoBoxBody": {
-      "name": "Save a full Loadout as a Preset. Presets allow you to quickly equip a full loadout. Go to your Stash and press 'Save as Preset' to save your current Loadout, then click on Activate on any Preset screen to equip it.  Items will first be pulled from your Stash if you own them, then purchased from the Markets if you have access to them. Some items may be unavailable to equip. Any items in your current Loadout will be moved to your Stash on applying a Preset.  Note that Attachments will not be removed from existing configurations when applying a preset."
+      "name": "Save a full Loadout as a Preset. Presets allow you to quickly equip a full loadout. Go to your Stash and press 'Save as Preset' to save your current Loadout, then click on Activate on any Preset screen to equip it.  Items will first be pulled from your Stash if you own them, then purchased from the Markets if you have access to them. Some items may be unavailable to equip. Any items in your current Loadout will be moved to your Stash on applying a Preset. Presets cannot be equipped if your Stash is in an overflow state.  Note that Attachments will not be removed from existing configurations when applying a preset. Altered gear perk configurations are not saved to presets."
     },
     "Station_LoadoutPresets_PresetName": {
       "name": "Preset"
@@ -26853,6 +26871,12 @@
     },
     "Station_LoadoutPresets_FreeLoadoutName": {
       "name": "Free Loadout"
+    },
+    "Station_LoadoutPresets_StashOverflowError_Title": {
+      "name": "Error - Stash is beyond capacity"
+    },
+    "Station_LoadoutPresets_StashOverflowError_Body": {
+      "name": "Please free up slots in your stash to equip a Preset"
     }
   },
   "Team": {

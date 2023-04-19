@@ -1961,9 +1961,33 @@
       "priceRealMoney": 0
     },
     "Spray_SpudHunter_Decal04": {
-      "ingamename": "51C794424BD26C186FD70D8F9EFD1F8D",
-      "description": "06FA7862428C1D7AF12F309B379C2E25",
+      "ingamename": "Spray_SpudHunter_Decal04",
+      "description": "Spray_SpudHunter_Decal04",
       "image": "Vanity_Sprays_SpudHunter_Decal04",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.Spray"
+      ],
+      "priceHardCurrency": 250,
+      "priceRealMoney": 0
+    },
+    "Spray_Sacriel_Decal07": {
+      "ingamename": "Purchase {OfferName}",
+      "description": "",
+      "image": "Vanity_Spray_Sacriel_Decal07",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.Spray"
+      ],
+      "priceHardCurrency": 250,
+      "priceRealMoney": 0
+    },
+    "Spray_Decal08": {
+      "ingamename": "Purchase {OfferName}",
+      "description": "",
+      "image": "Vanity_Sprays_Decal08",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
       "tags": [
@@ -2103,7 +2127,7 @@
       "tags": [
         "Vanity.Type.NormalEmote"
       ],
-      "priceHardCurrency": 0,
+      "priceHardCurrency": 500,
       "priceRealMoney": 0
     },
     "Emote_Move_13": {
@@ -7201,7 +7225,7 @@
     "Vanity_AssaultRifle_OSI_Manticore_Kawaii": {
       "ingamename": "Vanity_AssaultRifle_OSI_Manticore_Kawaii",
       "description": "Vanity_AssaultRifle_OSI_Manticore_Kawaii",
-      "image": "PlaceHolderAsset_Texture_M",
+      "image": "Vanity_WeaponSkin_P_AssaultNeedlerKawaii",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
       "tags": [
@@ -7217,7 +7241,7 @@
     "Vanity_AssaultRifle_COT_AR55_Kawaii": {
       "ingamename": "Vanity_AssaultRifle_COT_AR55_Kawaii",
       "description": "Vanity_AssaultRifle_COT_AR55_Kawaii",
-      "image": "PlaceHolderAsset_Texture_M",
+      "image": "Vanity_WeaponSkin_P_AR55Kawaii",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
       "tags": [
@@ -7233,7 +7257,7 @@
     "Vanity_Pistol_OSI_Scarab_Kawaii": {
       "ingamename": "Vanity_Pistol_OSI_Scarab_Kawaii",
       "description": "Vanity_Pistol_OSI_Scarab_Kawaii",
-      "image": "PlaceHolderAsset_Texture_M",
+      "image": "Vanity_WeaponSkin_P_ScarabKawaii",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
       "tags": [
@@ -7740,6 +7764,37 @@
       "exclusiveWeapon": [
         "Asp Flechette Gun",
         "Asp Flechette Gun - Prototype"
+      ]
+    },
+    "Vanity_AssaultRifle_ICA_Advocate_HoneyFarmer": {
+      "ingamename": "5D430709467F752750796FB36C2B7CA0",
+      "description": "221A14D040AC18A6B20D40BE450876BA",
+      "image": "Vanity_WeaponSkin_P_AdvocateHoneyFarmer",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.WeaponSkin"
+      ],
+      "priceHardCurrency": 1125,
+      "priceRealMoney": 0,
+      "exclusiveWeapon": [
+        "Advocate"
+      ]
+    },
+    "Vanity_MachineGun_ICA_Guarantee_HoneyFarmer": {
+      "ingamename": "Purchase {OfferName}",
+      "description": "",
+      "image": "Vanity_WeaponSkin_P_MachinegunHoneyFarmer",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.WeaponSkin"
+      ],
+      "priceHardCurrency": 1125,
+      "priceRealMoney": 0,
+      "exclusiveWeapon": [
+        "ICA Guarantee",
+        "ICA Guarantee - Prototype"
       ]
     }
   },
@@ -8383,7 +8438,7 @@
     "Melee_Karambit01": {
       "ingamename": "Shop_Melee_karambitSynth",
       "description": "Shop_Melee_karambitSynth",
-      "image": "Items_Icon_Missing_256",
+      "image": "Vanity_Melee_Karambit01",
       "shopImage": "Shop_Placeholder",
       "rarity": "Exotic",
       "tags": [
@@ -8491,7 +8546,7 @@
     "Melee_VelteciteDagger": {
       "ingamename": "Shop_Melee_DynamicBlade03",
       "description": "Shop_Melee_DynamicBlade03",
-      "image": "Items_Icon_Missing_256",
+      "image": "Vanity_Melee_VelteciteDagger01",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
       "tags": [
@@ -8515,7 +8570,7 @@
     "Melee_Cutter_Honeycomb": {
       "ingamename": "Shop_Melee_HoneycombBoxCutter",
       "description": "Shop_Charm_HoneyComb",
-      "image": "Items_Icon_Missing_256",
+      "image": "Vanity_Melee_Cutter03",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
       "tags": [
@@ -8527,7 +8582,7 @@
     "Melee_Cutter_CutePink": {
       "ingamename": "Shop_Melee_PunkBoxCutter",
       "description": "Shop_Melee_PunkBoxCutter",
-      "image": "Items_Icon_Missing_256",
+      "image": "Vanity_Melee_Cutter02",
       "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
       "tags": [
@@ -8601,6 +8656,78 @@
       "description": "Shop_Melee_DynamicBlade02",
       "image": "Vanity_Melee_Knife02_Wave",
       "shopImage": "Shop_Wave",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.MeleeWeapon"
+      ],
+      "priceHardCurrency": 1375,
+      "priceRealMoney": 0
+    },
+    "Melee_ChineseDagger_Steel": {
+      "ingamename": "Purchase {OfferName}",
+      "description": "",
+      "image": "PlaceholderTexture_Banner_M",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.MeleeWeapon"
+      ],
+      "priceHardCurrency": 1375,
+      "priceRealMoney": 0
+    },
+    "Melee_ChineseDagger_Jade": {
+      "ingamename": "Purchase {OfferName}",
+      "description": "",
+      "image": "PlaceholderTexture_Banner_M",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.MeleeWeapon"
+      ],
+      "priceHardCurrency": 1375,
+      "priceRealMoney": 0
+    },
+    "Melee_ChineseDagger_AncientBronze": {
+      "ingamename": "Purchase {OfferName}",
+      "description": "",
+      "image": "PlaceholderTexture_Banner_M",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.MeleeWeapon"
+      ],
+      "priceHardCurrency": 1375,
+      "priceRealMoney": 0
+    },
+    "Melee_ChineseDagger_Porcelain": {
+      "ingamename": "Purchase {OfferName}",
+      "description": "",
+      "image": "PlaceholderTexture_Banner_M",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.MeleeWeapon"
+      ],
+      "priceHardCurrency": 1375,
+      "priceRealMoney": 0
+    },
+    "Melee_Katana_Stickers": {
+      "ingamename": "Shop_Melee_LivingKatana01",
+      "description": "Shop_Melee_LivingKatana01",
+      "image": "Vanity_Melee_Katana_Stickers",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.MeleeWeapon"
+      ],
+      "priceHardCurrency": 1375,
+      "priceRealMoney": 0
+    },
+    "Melee_Plasmacutter01": {
+      "ingamename": "Purchase {OfferName}",
+      "description": "",
+      "image": "PlaceholderTexture_Banner_M",
+      "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"

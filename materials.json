@@ -1155,7 +1155,8 @@
     "description": "Rewarded by Korolev, required for upgrades to your Quarters' Stash and Safe Pockets.",
     "rarity": "Uncommon",
     "tags": [
-      "Loot.Category.Valuable"
+      "Loot.Category.Valuable",
+      "Loot.NotDroppable"
     ],
     "weight": 0.1,
     "stackSize": 10000,
@@ -1169,7 +1170,8 @@
     "description": "Rewarded by Osiris, required for upgrades to your Quarters' K-Mark and Aurum generators.",
     "rarity": "Uncommon",
     "tags": [
-      "Loot.Category.Valuable"
+      "Loot.Category.Valuable",
+      "Loot.NotDroppable"
     ],
     "weight": 0.1,
     "stackSize": 10000,
@@ -1183,7 +1185,8 @@
     "description": "Rewarded by the ICA, required for upgrades to your Quarters' Supply Crate Generator and Gear Printer.",
     "rarity": "Uncommon",
     "tags": [
-      "Loot.Category.Valuable"
+      "Loot.Category.Valuable",
+      "Loot.NotDroppable"
     ],
     "weight": 0.1,
     "stackSize": 10000,
@@ -1200,7 +1203,7 @@
       "Loot.Category.Resource"
     ],
     "weight": 3,
-    "stackSize": 10,
+    "stackSize": 20,
     "sellValue": 11533,
     "factionRep": 115,
     "questItem": false,
@@ -1656,7 +1659,7 @@
         "shop": "CraftingStation",
         "SoftCurrency": 49000,
         "DerelictExplosives": 3,
-        "Datapad": 4,
+        "DataPad": 4,
         "HardDrive_legendary": 1,
         "OsirisScrip": 80
       }

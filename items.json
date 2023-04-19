@@ -421,16 +421,16 @@
         }
       },
       "forge": {
-        "Perk_HealthRegen_Storm": {
-          "inGameName": "Health restoration per second during a Storm",
+        "Perk_StormProtection": {
+          "inGameName": "Less damage from Storm strikes",
           "amount": 2
         },
-        "Perk_Armor_Helmet": {
-          "inGameName": "Extra armor",
+        "Perk_AIProtection": {
+          "inGameName": "Less damage from hostile fauna attacks",
           "amount": 2
         },
-        "Perk_Armor_Shield": {
-          "inGameName": "Extra armor",
+        "Perk_WeightFaunaResources": {
+          "inGameName": "Reduced weight of minerals and creature parts carried in backpack",
           "amount": 2
         }
       }
@@ -887,16 +887,7 @@
           "amount": 2
         }
       },
-      "forge": {
-        "Perk_HealthRegen": {
-          "inGameName": "Health restoration per second",
-          "amount": 3
-        },
-        "Perk_StaminaConsumption": {
-          "inGameName": "Less stamina consumption",
-          "amount": 3
-        }
-      }
+      "forge": {}
     }
   },
   "MeteorCore": {
@@ -1416,7 +1407,7 @@
           "amount": 6
         },
         "Main-ICA-Caverns-11": {
-          "inGameName": "Main-ICA-Caverns-11",
+          "inGameName": "Race to the Bottom Part 14",
           "amount": 6
         }
       },
@@ -2616,7 +2607,7 @@
           "amount": 3
         },
         "Main-Osiris-Caverns-0.2-Unlock": {
-          "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
+          "inGameName": "The Progenitor Device Part 2",
           "amount": 2
         }
       },
@@ -2742,10 +2733,6 @@
           "inGameName": "Portable Lab",
           "amount": 2
         },
-        "QuestItem_OrbitalCanonTargetBeacon": {
-          "inGameName": "Orbital Cannon Beacon",
-          "amount": 4
-        },
         "WP_A_Sniper_Gauss_01": {
           "inGameName": "KARMA-1",
           "amount": 25
@@ -2790,7 +2777,7 @@
           "amount": 5000
         },
         "Main-ICA-Caverns-13.1": {
-          "inGameName": "Main-ICA-Caverns-13.1",
+          "inGameName": "Race to the Bottom Part 17",
           "amount": 30000
         },
         "Main-Badum-FinalQuestline1-3": {
@@ -2862,7 +2849,7 @@
           "amount": 10
         },
         "Main-Osiris-Caverns-9": {
-          "inGameName": "Main-Osiris-Caverns-9",
+          "inGameName": "The Progenitor Device Part 13",
           "amount": 5
         }
       },
@@ -2908,8 +2895,8 @@
         }
       },
       "forge": {
-        "Perk_HealingSpeed": {
-          "inGameName": "Faster Stim and Medkit use",
+        "Perk_HealthRegen": {
+          "inGameName": "Health restoration per second",
           "amount": 2
         },
         "Perk_HealthRegen_Storm": {
@@ -3059,16 +3046,7 @@
           "amount": 2
         }
       },
-      "forge": {
-        "Perk_MaxStamina": {
-          "inGameName": "Maximum stamina",
-          "amount": 3
-        },
-        "Perk_ItemWeightReduction": {
-          "inGameName": "Reduced weight of this piece of gear",
-          "amount": 3
-        }
-      }
+      "forge": {}
     }
   },
   "DesertPlant": {
@@ -3130,8 +3108,12 @@
         }
       },
       "forge": {
-        "Perk_MaxCapacity": {
-          "inGameName": "Extra backpack capacity",
+        "Perk_HealthRegen": {
+          "inGameName": "Health restoration per second",
+          "amount": 2
+        },
+        "Perk_ItemWeightReduction": {
+          "inGameName": "Reduced weight of this piece of gear",
           "amount": 2
         },
         "Perk_WeightFaunaResources": {
@@ -3207,20 +3189,7 @@
           "amount": 2
         }
       },
-      "forge": {
-        "Perk_HealthRegen": {
-          "inGameName": "Health restoration per second",
-          "amount": 2
-        },
-        "Perk_HealingAmount": {
-          "inGameName": "Bonus to Stim and Medkit healing",
-          "amount": 2
-        },
-        "Perk_HealthRegen_Storm": {
-          "inGameName": "Health restoration per second during a Storm",
-          "amount": 2
-        }
-      }
+      "forge": {}
     }
   },
   "AlienFruit": {
@@ -3257,16 +3226,12 @@
       },
       "printing": {},
       "forge": {
-        "Perk_HealthRegen": {
-          "inGameName": "Health restoration per second",
+        "Perk_StaminaConsumption": {
+          "inGameName": "Less stamina consumption",
           "amount": 3
         },
         "Perk_ItemWeightReduction": {
           "inGameName": "Reduced weight of this piece of gear",
-          "amount": 3
-        },
-        "Perk_WeightFaunaResources": {
-          "inGameName": "Reduced weight of minerals and creature parts carried in backpack",
           "amount": 3
         }
       }
@@ -4015,7 +3980,7 @@
           "amount": 1
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "Main-ICA-Caverns-4",
+          "inGameName": "Race to the Bottom Part 7",
           "amount": 5
         }
       },
@@ -4158,6 +4123,10 @@
         "Main-ICA-CommunityWork-1": {
           "inGameName": "Working for the Community Part 1",
           "amount": 3
+        },
+        "Main-ICA-Caverns-0.2-Unlock": {
+          "inGameName": "Race to the Bottom Part 2",
+          "amount": 3
         }
       },
       "jobs": {
@@ -4256,7 +4225,7 @@
           "amount": 3
         },
         "Main-Osiris-Caverns-0.2-Unlock": {
-          "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
+          "inGameName": "The Progenitor Device Part 2",
           "amount": 2
         }
       },
@@ -4429,12 +4398,12 @@
           "amount": 20
         },
         "Main-Osiris-Caverns-9": {
-          "inGameName": "Main-Osiris-Caverns-9",
+          "inGameName": "The Progenitor Device Part 13",
           "amount": 5
         },
         "Main-Badum-FinalQuestline1-4": {
           "inGameName": "Fortuna's Favored Part 4",
-          "amount": 400
+          "amount": 100
         }
       },
       "jobs": {
@@ -4531,8 +4500,8 @@
         }
       },
       "forge": {
-        "Perk_FallingDamage": {
-          "inGameName": "Less damage from falling",
+        "Perk_StaminaConsumption": {
+          "inGameName": "Less stamina consumption",
           "amount": 3
         },
         "Perk_AIDetection": {
@@ -4585,20 +4554,7 @@
       "jobs": {},
       "quarters": {},
       "printing": {},
-      "forge": {
-        "Perk_AIProtection": {
-          "inGameName": "Less damage from hostile fauna attacks",
-          "amount": 1
-        },
-        "Perk_HunterVisionHelm": {
-          "inGameName": "Enhanced Alien Hunter Vision which consumes stamina (can be toggled on/off)",
-          "amount": 1
-        },
-        "Perk_AIDetection": {
-          "inGameName": "Hostile fauna is less aggressive towards the wearer",
-          "amount": 1
-        }
-      }
+      "forge": {}
     }
   },
   "AI_WeremoleHead": {
@@ -4619,16 +4575,7 @@
       "jobs": {},
       "quarters": {},
       "printing": {},
-      "forge": {
-        "Perk_MaxHealth": {
-          "inGameName": "Maximum health",
-          "amount": 1
-        },
-        "Perk_HunterVisionHelm": {
-          "inGameName": "Enhanced Alien Hunter Vision which consumes stamina (can be toggled on/off)",
-          "amount": 1
-        }
-      }
+      "forge": {}
     }
   },
   "AI_CrusherHead": {
@@ -4705,16 +4652,7 @@
       "jobs": {},
       "quarters": {},
       "printing": {},
-      "forge": {
-        "Perk_MaxStamina": {
-          "inGameName": "Maximum stamina",
-          "amount": 3
-        },
-        "Perk_StaminaConsumption": {
-          "inGameName": "Less stamina consumption",
-          "amount": 3
-        }
-      }
+      "forge": {}
     }
   },
   "AI_RattlerEyes": {
@@ -4750,16 +4688,16 @@
       },
       "printing": {},
       "forge": {
-        "Perk_MaxStamina": {
-          "inGameName": "Maximum stamina",
-          "amount": 3
-        },
-        "Perk_StaminaConsumption": {
-          "inGameName": "Less stamina consumption",
+        "Perk_FallingDamage": {
+          "inGameName": "Less damage from falling",
           "amount": 3
         },
         "Perk_AIDetection": {
           "inGameName": "Hostile fauna is less aggressive towards the wearer",
+          "amount": 3
+        },
+        "Perk_WeightFaunaResources": {
+          "inGameName": "Reduced weight of minerals and creature parts carried in backpack",
           "amount": 3
         }
       }
@@ -4810,12 +4748,8 @@
           "inGameName": "Maximum stamina",
           "amount": 2
         },
-        "Perk_StormProtection": {
-          "inGameName": "Less damage from Storm strikes",
-          "amount": 2
-        },
-        "Perk_AIDetection": {
-          "inGameName": "Hostile fauna is less aggressive towards the wearer",
+        "Perk_StaminaConsumption": {
+          "inGameName": "Less stamina consumption",
           "amount": 2
         }
       }
@@ -5032,16 +4966,16 @@
         }
       },
       "forge": {
-        "Perk_MaxStamina": {
-          "inGameName": "Maximum stamina",
-          "amount": 3
-        },
         "Perk_AIProtection": {
           "inGameName": "Less damage from hostile fauna attacks",
           "amount": 3
         },
-        "Perk_FallingDamage": {
-          "inGameName": "Less damage from falling",
+        "Perk_Armor_Helmet": {
+          "inGameName": "Extra armor",
+          "amount": 3
+        },
+        "Perk_Armor_Shield": {
+          "inGameName": "Extra armor",
           "amount": 3
         }
       }
@@ -5067,7 +5001,7 @@
           "amount": 3
         },
         "Main-Osiris-Caverns-4": {
-          "inGameName": "Main-Osiris-Caverns-4",
+          "inGameName": "The Progenitor Device Part 7",
           "amount": 1
         }
       },
@@ -5256,14 +5190,19 @@
     "sellValue": 10,
     "factionRep": 0,
     "tags": [
-      "Loot.Category.Valuable"
+      "Loot.Category.Valuable",
+      "Loot.NotDroppable"
     ],
     "stackSize": 10000,
     "uses": {
       "missions": {
         "Main-Badum-FinalQuestline1-7": {
-          "inGameName": "Fortuna's Favored Part 7",
+          "inGameName": "Fortuna's Favored Part 6",
           "amount": 800
+        },
+        "Main-KOR-Caverns-0.2-Unlock": {
+          "inGameName": "In a Deep Dark Hole Part 2",
+          "amount": 10
         }
       },
       "jobs": {},
@@ -5448,7 +5387,8 @@
     "sellValue": 10,
     "factionRep": 0,
     "tags": [
-      "Loot.Category.Valuable"
+      "Loot.Category.Valuable",
+      "Loot.NotDroppable"
     ],
     "stackSize": 10000,
     "uses": {
@@ -5458,7 +5398,7 @@
           "amount": 20
         },
         "Main-Badum-FinalQuestline1-7": {
-          "inGameName": "Fortuna's Favored Part 7",
+          "inGameName": "Fortuna's Favored Part 6",
           "amount": 800
         }
       },
@@ -5644,13 +5584,14 @@
     "sellValue": 10,
     "factionRep": 0,
     "tags": [
-      "Loot.Category.Valuable"
+      "Loot.Category.Valuable",
+      "Loot.NotDroppable"
     ],
     "stackSize": 10000,
     "uses": {
       "missions": {
         "Main-Badum-FinalQuestline1-7": {
-          "inGameName": "Fortuna's Favored Part 7",
+          "inGameName": "Fortuna's Favored Part 6",
           "amount": 800
         }
       },
@@ -5830,7 +5771,7 @@
     "tags": [
       "Loot.Category.Resource"
     ],
-    "stackSize": 10,
+    "stackSize": 20,
     "uses": {
       "missions": {
         "Main-KOR-TestRun-1": {
@@ -5838,12 +5779,12 @@
           "amount": 15
         },
         "Main-KOR-Caverns-12": {
-          "inGameName": "Main-KOR-Caverns-12",
+          "inGameName": "In a Deep Dark Hole Part 14",
           "amount": 8
         },
         "Main-Badum-FinalQuestline1-6": {
-          "inGameName": "Fortuna's Favored Part 6",
-          "amount": 200
+          "inGameName": "Fortuna's Favored Part 5",
+          "amount": 300
         }
       },
       "jobs": {
@@ -5896,15 +5837,15 @@
           "amount": 15
         },
         "Main-ICA-Caverns-11": {
-          "inGameName": "Main-ICA-Caverns-11",
+          "inGameName": "Race to the Bottom Part 14",
           "amount": 9
         },
         "Main-ICA-Caverns-13.1": {
-          "inGameName": "Main-ICA-Caverns-13.1",
+          "inGameName": "Race to the Bottom Part 17",
           "amount": 18
         },
         "Main-Badum-FinalQuestline1-6": {
-          "inGameName": "Fortuna's Favored Part 6",
+          "inGameName": "Fortuna's Favored Part 5",
           "amount": 120
         }
       },
@@ -5965,7 +5906,20 @@
         }
       },
       "printing": {},
-      "forge": {}
+      "forge": {
+        "Perk_MaxHealth": {
+          "inGameName": "Maximum health",
+          "amount": 2
+        },
+        "Perk_MaxStamina": {
+          "inGameName": "Maximum stamina",
+          "amount": 2
+        },
+        "Perk_WalkSpeed": {
+          "inGameName": "Increased walk speed",
+          "amount": 2
+        }
+      }
     }
   },
   "AI_RattlerEyes_02": {
@@ -5988,7 +5942,7 @@
           "amount": 3
         },
         "Main-Osiris-Caverns-13.1": {
-          "inGameName": "Main-Osiris-Caverns-13.1",
+          "inGameName": "The Progenitor Device Part 18",
           "amount": 5
         }
       },
@@ -6000,16 +5954,7 @@
         }
       },
       "printing": {},
-      "forge": {
-        "Perk_AIProtection": {
-          "inGameName": "Less damage from hostile fauna attacks",
-          "amount": 2
-        },
-        "Perk_WalkSpeed": {
-          "inGameName": "Increased walk speed",
-          "amount": 2
-        }
-      }
+      "forge": {}
     }
   },
   "AI_WeremoleMeat_02": {
@@ -6032,7 +5977,7 @@
           "amount": 3
         },
         "Main-Osiris-Caverns-13.1": {
-          "inGameName": "Main-Osiris-Caverns-13.1",
+          "inGameName": "The Progenitor Device Part 18",
           "amount": 3
         }
       },
@@ -6062,10 +6007,6 @@
         }
       },
       "forge": {
-        "Perk_HealthRegen": {
-          "inGameName": "Health restoration per second",
-          "amount": 2
-        },
         "Perk_MaxHealth": {
           "inGameName": "Maximum health",
           "amount": 2
@@ -6363,7 +6304,16 @@
           "amount": 3
         }
       },
-      "forge": {}
+      "forge": {
+        "Perk_HealingAmount": {
+          "inGameName": "Bonus to Stim and Medkit healing",
+          "amount": 2
+        },
+        "Perk_AIDetection": {
+          "inGameName": "Hostile fauna is less aggressive towards the wearer",
+          "amount": 2
+        }
+      }
     }
   },
   "ForgeIron": {
@@ -6382,19 +6332,19 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-7": {
-          "inGameName": "Main-KOR-Caverns-7",
+          "inGameName": "In a Deep Dark Hole Part 9",
           "amount": 5
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "Main-ICA-Caverns-4",
+          "inGameName": "Race to the Bottom Part 7",
           "amount": 5
         },
         "Main-ICA-Caverns-8": {
-          "inGameName": "Main-ICA-Caverns-8",
+          "inGameName": "Race to the Bottom Part 11",
           "amount": 1
         },
         "Main-Osiris-Caverns-8": {
-          "inGameName": "Main-Osiris-Caverns-8",
+          "inGameName": "The Progenitor Device Part 12",
           "amount": 5
         }
       },
@@ -6435,11 +6385,11 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-9": {
-          "inGameName": "Main-KOR-Caverns-9",
+          "inGameName": "In a Deep Dark Hole Part 11",
           "amount": 5
         },
         "Main-Osiris-Caverns-8": {
-          "inGameName": "Main-Osiris-Caverns-8",
+          "inGameName": "The Progenitor Device Part 12",
           "amount": 1
         }
       },
@@ -6470,7 +6420,7 @@
     "uses": {
       "missions": {
         "Main-Osiris-Caverns-12": {
-          "inGameName": "Main-Osiris-Caverns-12",
+          "inGameName": "The Progenitor Device Part 16",
           "amount": 1
         }
       },
@@ -6501,11 +6451,11 @@
     "uses": {
       "missions": {
         "Main-ICA-Caverns-13": {
-          "inGameName": "Main-ICA-Caverns-13",
+          "inGameName": "Race to the Bottom Part 16",
           "amount": 5
         },
         "Main-Osiris-Caverns-14": {
-          "inGameName": "Main-Osiris-Caverns-14",
+          "inGameName": "The Progenitor Device Part 19",
           "amount": 1
         }
       },
@@ -6575,19 +6525,19 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-7": {
-          "inGameName": "Main-KOR-Caverns-7",
+          "inGameName": "In a Deep Dark Hole Part 9",
           "amount": 5
         },
         "Main-KOR-Caverns-9": {
-          "inGameName": "Main-KOR-Caverns-9",
+          "inGameName": "In a Deep Dark Hole Part 11",
           "amount": 5
         },
         "Main-ICA-Caverns-4": {
-          "inGameName": "Main-ICA-Caverns-4",
+          "inGameName": "Race to the Bottom Part 7",
           "amount": 5
         },
         "Main-Osiris-Caverns-6": {
-          "inGameName": "Main-Osiris-Caverns-6",
+          "inGameName": "The Progenitor Device Part 10",
           "amount": 5
         }
       },
@@ -6635,7 +6585,7 @@
     "uses": {
       "missions": {
         "Main-Badum-FinalQuestline1-6": {
-          "inGameName": "Fortuna's Favored Part 6",
+          "inGameName": "Fortuna's Favored Part 5",
           "amount": 10
         }
       },
@@ -6700,15 +6650,15 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-3": {
-          "inGameName": "Main-KOR-Caverns-3",
+          "inGameName": "In a Deep Dark Hole Part 5",
           "amount": 3
         },
         "Main-Osiris-Caverns-1.1": {
-          "inGameName": "Main-Osiris-Caverns-1.1",
+          "inGameName": "The Progenitor Device Part 4",
           "amount": 5
         },
         "Main-Osiris-Caverns-4.1": {
-          "inGameName": "Main-Osiris-Caverns-4.1",
+          "inGameName": "The Progenitor Device Part 8",
           "amount": 6
         }
       },
@@ -6734,16 +6684,16 @@
       },
       "printing": {},
       "forge": {
+        "Perk_HealthRegen": {
+          "inGameName": "Health restoration per second",
+          "amount": 2
+        },
         "Perk_HealingAmount": {
           "inGameName": "Bonus to Stim and Medkit healing",
           "amount": 2
         },
-        "Perk_MaxHealth": {
-          "inGameName": "Maximum health",
-          "amount": 2
-        },
-        "Perk_HealingSpeed": {
-          "inGameName": "Faster Stim and Medkit use",
+        "Perk_HealthRegen_Storm": {
+          "inGameName": "Health restoration per second during a Storm",
           "amount": 2
         }
       }
@@ -6798,10 +6748,6 @@
         }
       },
       "forge": {
-        "Perk_FallingDamage": {
-          "inGameName": "Less damage from falling",
-          "amount": 3
-        },
         "Perk_WeightConsumablesAmmo": {
           "inGameName": "Reduced weight of ammo and consumables carried in backpack",
           "amount": 3
@@ -7075,7 +7021,7 @@
         "shop": "CraftingStation",
         "SoftCurrency": 49000,
         "DerelictExplosives": 3,
-        "Datapad": 4,
+        "DataPad": 4,
         "HardDrive_legendary": 1,
         "OsirisScrip": 80
       }
@@ -7503,7 +7449,7 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-2": {
-          "inGameName": "Main-KOR-Caverns-2",
+          "inGameName": "In a Deep Dark Hole Part 4",
           "amount": 1
         }
       },
@@ -7529,7 +7475,7 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-5": {
-          "inGameName": "Main-KOR-Caverns-5",
+          "inGameName": "In a Deep Dark Hole Part 7",
           "amount": 8
         }
       },
@@ -7555,7 +7501,7 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-8": {
-          "inGameName": "Main-KOR-Caverns-8",
+          "inGameName": "In a Deep Dark Hole Part 10",
           "amount": 1
         }
       },
@@ -7581,7 +7527,7 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-11": {
-          "inGameName": "Main-KOR-Caverns-11",
+          "inGameName": "In a Deep Dark Hole Part 13",
           "amount": 1
         }
       },
@@ -7607,7 +7553,7 @@
     "uses": {
       "missions": {
         "Main-KOR-Caverns-13": {
-          "inGameName": "Main-KOR-Caverns-13",
+          "inGameName": "In a Deep Dark Hole Part 15",
           "amount": 1
         }
       },
@@ -7633,7 +7579,7 @@
     "uses": {
       "missions": {
         "Main-Osiris-Caverns-2": {
-          "inGameName": "Main-Osiris-Caverns-2",
+          "inGameName": "The Progenitor Device Part 5",
           "amount": 1
         }
       },
@@ -7659,7 +7605,7 @@
     "uses": {
       "missions": {
         "Main-Osiris-Caverns-2": {
-          "inGameName": "Main-Osiris-Caverns-2",
+          "inGameName": "The Progenitor Device Part 5",
           "amount": 1
         }
       },
@@ -7685,7 +7631,7 @@
     "uses": {
       "missions": {
         "Main-Osiris-Caverns-5": {
-          "inGameName": "Main-Osiris-Caverns-5",
+          "inGameName": "The Progenitor Device Part 9",
           "amount": 1
         }
       },
@@ -7711,7 +7657,7 @@
     "uses": {
       "missions": {
         "Main-Osiris-Caverns-10": {
-          "inGameName": "Main-Osiris-Caverns-10",
+          "inGameName": "The Progenitor Device Part 14",
           "amount": 5
         }
       },
@@ -7737,7 +7683,7 @@
     "uses": {
       "missions": {
         "Main-Osiris-Caverns-13": {
-          "inGameName": "Main-Osiris-Caverns-13",
+          "inGameName": "The Progenitor Device Part 17",
           "amount": 1
         }
       },
@@ -7763,7 +7709,7 @@
     "uses": {
       "missions": {
         "Main-ICA-Caverns-2": {
-          "inGameName": "Main-ICA-Caverns-2",
+          "inGameName": "Race to the Bottom Part 4",
           "amount": 1
         }
       },
@@ -7789,7 +7735,7 @@
     "uses": {
       "missions": {
         "Main-ICA-Caverns-3": {
-          "inGameName": "Main-ICA-Caverns-3",
+          "inGameName": "Race to the Bottom Part 5",
           "amount": 1
         }
       },
@@ -7815,7 +7761,7 @@
     "uses": {
       "missions": {
         "Main-ICA-Caverns-5": {
-          "inGameName": "Main-ICA-Caverns-5",
+          "inGameName": "Race to the Bottom Part 8",
           "amount": 1
         }
       },
@@ -7841,7 +7787,7 @@
     "uses": {
       "missions": {
         "Main-ICA-Caverns-7": {
-          "inGameName": "Main-ICA-Caverns-7",
+          "inGameName": "Race to the Bottom Part 10",
           "amount": 1
         }
       },
@@ -7867,7 +7813,7 @@
     "uses": {
       "missions": {
         "Main-ICA-Caverns-9": {
-          "inGameName": "Main-ICA-Caverns-9",
+          "inGameName": "Race to the Bottom Part 12",
           "amount": 1
         }
       },
@@ -7893,7 +7839,7 @@
     "uses": {
       "missions": {
         "Main-ICA-Caverns-12": {
-          "inGameName": "Main-ICA-Caverns-12",
+          "inGameName": "Race to the Bottom Part 15",
           "amount": 1
         }
       },
@@ -7919,7 +7865,7 @@
     "uses": {
       "missions": {
         "Main-ICA-Caverns-14": {
-          "inGameName": "Main-ICA-Caverns-14",
+          "inGameName": "Race to the Bottom Part 18",
           "amount": 1
         }
       },
@@ -10179,7 +10125,7 @@
     "tags": [
       "Equipment.Consumables"
     ],
-    "stackSize": 4,
+    "stackSize": 5,
     "uses": {
       "missions": {},
       "jobs": {},
@@ -10830,7 +10776,7 @@
     "uses": {
       "missions": {
         "Main-Osiris-Caverns-14": {
-          "inGameName": "Main-Osiris-Caverns-14",
+          "inGameName": "The Progenitor Device Part 19",
           "amount": 1
         }
       },

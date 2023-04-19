@@ -4671,7 +4671,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 12,
+        "maxProgress": 6,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -10455,7 +10455,7 @@
     "chainPart": 2
   },
   "Main-KOR-Caverns-1": {
-    "inGameName": "Main-KOR-Caverns-1",
+    "inGameName": "In a Deep Dark Hole Part 3",
     "description": "'Your raids of old Osiris data unearthed something I had forgotten about, Tharis Island. We had a small base on it excavating something rare, very very valuable. Our charts say the radiation has almost become safe there now... maybe you can have a look, take care of some of the creatures there for us. '",
     "faction": "Korolev",
     "factionReputation": 750,
@@ -10503,10 +10503,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-0.2-Unlock"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 3
   },
   "Main-KOR-Caverns-2": {
-    "inGameName": "Main-KOR-Caverns-2",
+    "inGameName": "In a Deep Dark Hole Part 4",
     "description": "'Aha, so the situation is not as bad as feared. Our installation on the island had... issues, even before the storms. What information Gregor... my predecessor, left, it does not clear up what happened. Prospector, I need you to search for the remains of site's Chief Engineer, he would have kept a detailed logbook of everything going on there. '",
     "faction": "Korolev",
     "factionReputation": 750,
@@ -10556,10 +10560,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-1"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 4
   },
   "Main-KOR-Caverns-3": {
-    "inGameName": "Main-KOR-Caverns-3",
+    "inGameName": "In a Deep Dark Hole Part 5",
     "description": "'There is a lot to go through here: accounts of illnesses, accidents, some kind of forbidden area... But the site was still made to operate, harvesting something called 'Spine Briars'. They must have been very valuable, to keep the men working under these conditions; acquire some, and stash them at our old outpost. '",
     "faction": "Korolev",
     "factionReputation": 930,
@@ -10597,10 +10605,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-2"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 5
   },
   "Main-KOR-Caverns-4": {
-    "inGameName": "Main-KOR-Caverns-4",
+    "inGameName": "In a Deep Dark Hole Part 6",
     "description": "'Evidently the word has spread quickly that Tharis Island is again safe to step on, and already there are looters hired out to pilfer our property. Take one of our weapons and make an example of them, Prospector. '",
     "faction": "Korolev",
     "factionReputation": 930,
@@ -10740,10 +10752,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-3"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 6
   },
   "Main-KOR-Caverns-5": {
-    "inGameName": "Main-KOR-Caverns-5",
+    "inGameName": "In a Deep Dark Hole Part 7",
     "description": "'Another lead has come up from the logbook you recovered; one of the team's geologists was collecting a 'strange ore'. I can't tell what that means, but I do have her last known location before her transponder went dark. Go investigate, see what you can bring back for us. '",
     "faction": "Korolev",
     "factionReputation": 1200,
@@ -10794,10 +10810,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-4"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 7
   },
   "Main-KOR-Caverns-6": {
-    "inGameName": "Main-KOR-Caverns-6",
+    "inGameName": "In a Deep Dark Hole Part 8",
     "description": "'What you brought back, it's definitely not natural. 'Tharis Iron', is what they called it, and I can see why it became a priority for Gregor to recover more. I need you to find the site's old mining machines, so we can know if proper exploitation had started, if there may have been more brought out before the operation ended. '",
     "faction": "Korolev",
     "factionReputation": 1200,
@@ -10849,10 +10869,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-5"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 8
   },
   "Main-KOR-Caverns-7": {
-    "inGameName": "Main-KOR-Caverns-7",
+    "inGameName": "In a Deep Dark Hole Part 9",
     "description": "'Our researchers want more of these exotic samples, they believe they might interact with each other under the right conditions. Bring back enough Teratomorphic Crystals and Tharis Iron for the scientists to play their games. '",
     "faction": "Korolev",
     "factionReputation": 1500,
@@ -10895,10 +10919,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-6"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 9
   },
   "Main-KOR-Caverns-8": {
-    "inGameName": "Main-KOR-Caverns-8",
+    "inGameName": "In a Deep Dark Hole Part 10",
     "description": "'To nobody's surprise, least of all mine, those experiments did not lead to anything useful. Ah well, I can always rely on you to get us more samples... Speaking of which, a prospector I had hired to collect more Tharis Iron reported finding what they called a 'pure sample', before some creatures scared him off. Maybe you can retrieve it for us?'",
     "faction": "Korolev",
     "factionReputation": 1500,
@@ -10961,10 +10989,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-7"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 10
   },
   "Main-KOR-Caverns-9": {
-    "inGameName": "Main-KOR-Caverns-9",
+    "inGameName": "In a Deep Dark Hole Part 11",
     "description": "'Ah, this Refined Tharis Iron is definitely something... we just don't know what, yet, or how to convert the 'normal' alien ore into it. I already know what the next requisition order will list, so just get me more of this refined ore, and more Teratomorphic Crystals to replenish our stock. '",
     "faction": "Korolev",
     "factionReputation": 1800,
@@ -11007,10 +11039,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-8"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 11
   },
   "Main-KOR-Caverns-10": {
-    "inGameName": "Main-KOR-Caverns-10",
+    "inGameName": "In a Deep Dark Hole Part 12",
     "description": "'Nothing is working out! Nothing you brought back is natural, but it's useless! Why would Gregor expend so many resources on these alien trinkets? Why oversee the operation himself, off the books? This alien business, it's for other people to care about... HQ would have never approved the expenditure without results, so what did he know?  Prospector, I need you to head to the areas they marked off as 'forbidden', clear out any creatures there; I need a Korolev team down there to finally figure all this out!'",
     "faction": "Korolev",
     "factionReputation": 1800,
@@ -11098,10 +11134,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-9"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 12
   },
   "Main-KOR-Caverns-11": {
-    "inGameName": "Main-KOR-Caverns-11",
+    "inGameName": "In a Deep Dark Hole Part 13",
     "description": "'I had thought the reports of sickness were fake, lazy workers or a way to get more funding, but it appears prospectors like you have built up some sort of immunity to whatever ails those hellish caverns; within minutes half my team experienced extreme migraines, and the other half were outright delirious! The Chief Engineer's logbook mentions a medical report, but there's nothing official logged or approved by my predecessor. Head down again and recover it for me, Prospector, I need to know what happened there. '",
     "faction": "Korolev",
     "factionReputation": 2300,
@@ -11145,10 +11185,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-10"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 13
   },
   "Main-KOR-Caverns-12": {
-    "inGameName": "Main-KOR-Caverns-12",
+    "inGameName": "In a Deep Dark Hole Part 14",
     "description": "'We've mapped out the areas my men can access safely, and what machinery may still be in operational condition. It will be some time before I can send anyone back into those caverns, not with last team still out of commission, but we'll need fuel for the machines ready for when I do. Stash some Letium Clots at these locations; it will help us kickstart the operation, again. '",
     "faction": "Korolev",
     "factionReputation": 2300,
@@ -11193,10 +11237,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-11"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 14
   },
   "Main-KOR-Caverns-13": {
-    "inGameName": "Main-KOR-Caverns-13",
+    "inGameName": "In a Deep Dark Hole Part 15",
     "description": "'The records you brought back... they paint a bad picture. One of Gregor's trusted men went missing down there carrying the only true records of the operation, and evidence that he just kept sending more and more men down to die. Head to the abyss, Prospector, find out what this is all about, and store it in one of our safe stashes. '",
     "faction": "Korolev",
     "factionReputation": 2800,
@@ -11254,10 +11302,14 @@
     "unlockContracts": [
       "Main-KOR-Caverns-12"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 15
   },
   "Main-ICA-Caverns-1": {
-    "inGameName": "Main-ICA-Caverns-1",
+    "inGameName": "Race to the Bottom Part 3",
     "description": "'There is a special task I would like you to carry out for us, Prospector. Some time ago we detected a new window in the TEF, the radiation field around the planet, over a small island; we kept that information to ourselves for as long as we could to run our own recon, but the information is public now. The window barely covers a Korolev mining site, but it was the last stop of a civilian evac ship; logs show it never made it off the island, with over a dozen of our people on board. Will you help us find out what happened to them?'",
     "faction": "ICA",
     "factionReputation": 750,
@@ -11309,10 +11361,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-0.2-Unlock"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 3
   },
   "Main-ICA-Caverns-2": {
-    "inGameName": "Main-ICA-Caverns-2",
+    "inGameName": "Race to the Bottom Part 4",
     "description": "'Killed... with guns and blades. By other people. I don't know how to convey this to the families, the ones that were still... just waiting. Old records don't say much about the island just mentions of a large cavern near the surface, an Atrium. Check there for, well, anything. There must be an explanation for what happened. A reason. '",
     "faction": "ICA",
     "factionReputation": 750,
@@ -11375,10 +11431,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-1"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 4
   },
   "Main-ICA-Caverns-3": {
-    "inGameName": "Main-ICA-Caverns-3",
+    "inGameName": "Race to the Bottom Part 5",
     "description": "'The diary you brought back to us only leaves me with more questions. Whoever attacked the site went after Osiris' first, all their researchers and the lab itself. Then Korolev, but they were prepared... When the evac ship arrived, it was overrun and the survivors scattered, with some making it to the Korolev encampent. I don't have any more data on the cavern systems the corps were so interested in... hell, there's barely any records on the island at all! Osiris' people have always been fastidious about logging everything; search through their lab for a logbook or a map, anything that can help us understand the area. '",
     "faction": "ICA",
     "factionReputation": 930,
@@ -11430,10 +11490,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-2"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 5
   },
   "Main-ICA-Caverns-3.1": {
-    "inGameName": "Main-ICA-Caverns-3.1",
+    "inGameName": "Race to the Bottom Part 6",
     "description": "'There are rumors spreading around about this island, that the creatures there are tougher and the storms wilder. I need you to put that talk to rest: take out some Marauders during the height of a storm, prove that it's safe to travel to. Well, as safe as it can be, for you prospectors. '",
     "faction": "ICA",
     "factionReputation": 930,
@@ -11515,10 +11579,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-3"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 6
   },
   "Main-ICA-Caverns-4": {
-    "inGameName": "Main-ICA-Caverns-4",
+    "inGameName": "Race to the Bottom Part 7",
     "description": "'I've done some digging around old files, and some prodding of old corp drones with a dim view of their former employers. The attacks weren't a surprise, they'd been happening for weeks before the final evac. And neither corporation ever made them public, never mind thought to pull out. Whatever they were looking for, it was worth sacrificing their own people for. Please, bring back whatever samples from those caverns you can find. '",
     "faction": "ICA",
     "factionReputation": 1200,
@@ -11567,10 +11635,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-3.1"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 7
   },
   "Main-ICA-Caverns-5": {
-    "inGameName": "Main-ICA-Caverns-5",
+    "inGameName": "Race to the Bottom Part 8",
     "description": "'What you delivered was definitely unique, but it doesn't seem more special than Veltecite, or any number of the other rare materials found on the surface. Though I should leave our scientists to decide that, I suppose. Maybe you'll find something at the Korolev camp? The workers wouldn't have been allowed to record anything, but maybe one of the colonists that took shelter with them did?'",
     "faction": "ICA",
     "factionReputation": 1200,
@@ -11614,10 +11686,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-4"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 8
   },
   "Main-ICA-Caverns-6": {
-    "inGameName": "Main-ICA-Caverns-6",
+    "inGameName": "Race to the Bottom Part 9",
     "description": "'We only managed to recover a few fragments of the videolog you recovered, but what I've seen was enough. The corps held back on evacs until it was too late, despite the encroaching storms and increasing attacks from some savage 'cultists'. They were still down there working as the rest of the planet was being abandoned, still hoping to find something in those caverns. And now they're back at it, sending prospectors down to continue their work. Send a message for us, the corps need to know when to quit. '",
     "faction": "ICA",
     "factionReputation": 1500,
@@ -11682,10 +11758,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-5"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 9
   },
   "Main-ICA-Caverns-7": {
-    "inGameName": "Main-ICA-Caverns-7",
+    "inGameName": "Race to the Bottom Part 10",
     "description": "'I've been reviewing more of the recordings you brought back to us, and something stood out, from one of the Osiris facilities. Recent images I've seen of the area from other Prospectors show a new door where there wasn't one in the footage; somehow, Osiris managed to not only get a team down there while the TEF radiation was at its highest, but even do some renovation work! I had someone go take a closer look at it, but they were chased away and dropped the sample they managed to pry off; can you retrieve it for us?'",
     "faction": "ICA",
     "factionReputation": 1500,
@@ -11736,10 +11816,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-6"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 10
   },
   "Main-ICA-Caverns-8": {
-    "inGameName": "Main-ICA-Caverns-8",
+    "inGameName": "Race to the Bottom Part 11",
     "description": "'That door? It's not made of any alloy we've seen used before. There are mentions of some sort of new metal Osiris was studying, 'Tharis Iron'; could that be what they used here? What the corps were so desperate for? But why use it just to build a vault door and nothing else? We need a better sample of this material, maybe then we'll get some answers. '",
     "faction": "ICA",
     "factionReputation": 1800,
@@ -11777,10 +11861,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-7"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 11
   },
   "Main-ICA-Caverns-9": {
-    "inGameName": "Main-ICA-Caverns-9",
+    "inGameName": "Race to the Bottom Part 12",
     "description": "'Whatever this stuff you got us is, we don't have the tools to study it properly. The corps have a stranglehold on all the good scientific equipment on the station... but not on the surface. Head to Osiris' Pinnacle Labs on Crescent Falls, I know that place still has top tier gear, even if Sullivan's abandoned it all as 'obsolete junk'. '",
     "faction": "ICA",
     "factionReputation": 1800,
@@ -11831,10 +11919,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-8"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 12
   },
   "Main-ICA-Caverns-10": {
-    "inGameName": "Main-ICA-Caverns-10",
+    "inGameName": "Race to the Bottom Part 13",
     "description": "'We've determined only that we don't know what this stuff is. High concentration of iron, some chromium and nickel, and some elements the machine refuses to identify; otherwise this just seems like a substandard steel alloy with weird patterns. So, is it just because it's rare? Because it's 'alien'? People died, for this? And now Korolev and Osiris are investing in the area, again! You need to go down there, make a mess, make them rethink how 'safe' those damned caverns are!'",
     "faction": "ICA",
     "factionReputation": 2300,
@@ -11884,10 +11976,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-9"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 13
   },
   "Main-ICA-Caverns-11": {
-    "inGameName": "Main-ICA-Caverns-11",
+    "inGameName": "Race to the Bottom Part 14",
     "description": "'I think it's time we send a clearer message; the corps might not care if the cannon fodder they send down come back encased in foam each time, but I know they'll listen if their precious machines and sacred caves get turned to rubble. Find Derelict Explosives and some NiC Oil Canisters and stash them near each corp's compound, our people will handle the rest. '",
     "faction": "ICA",
     "factionReputation": 2300,
@@ -11939,10 +12035,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-10"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 14
   },
   "Main-ICA-Caverns-12": {
-    "inGameName": "Main-ICA-Caverns-12",
+    "inGameName": "Race to the Bottom Part 15",
     "description": "'The Council expressed 'strong concerns' over my proposed plan, so for now the corps get to keep their toys and playground. But we won't just sit around and do nothing. I've checked location data on all the old Osiris researchers when they first went dark; hopefully their remains are still around, along with data on whatever they were doing down there. '",
     "faction": "ICA",
     "factionReputation": 2800,
@@ -11986,10 +12086,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-11"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 15
   },
   "Main-ICA-Caverns-13": {
-    "inGameName": "Main-ICA-Caverns-13",
+    "inGameName": "Race to the Bottom Part 16",
     "description": "'We're looking into all this... both Korolev and Osiris found these rare materials in the caverns, but only the eggheads in white really cared about what it was. Korolev's apparent interest seemed to be just raw exploitation, as usual, but there are mentions of missing Korolev mining parties and a constant flow of new workers. The only thing I'm sure of so far is neither corp has gotten what they want out of the place, not yet. Let's see if we can keep it that way; go down there and cause some chaos. '",
     "faction": "ICA",
     "factionReputation": 2800,
@@ -12100,10 +12204,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-12"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 16
   },
   "Main-ICA-Caverns-13.1": {
-    "inGameName": "Main-ICA-Caverns-13.1",
+    "inGameName": "Race to the Bottom Part 17",
     "description": "'If you find some more NiC Oil Canisters or Old Currency, bring it to me, and I'll grease some palms to get some Korolev machinery sabotaged. It might not put a permanent stop to their operations on the planet, but it'll be more acceptable to the Council... supposing they actually find out about it. '",
     "faction": "ICA",
     "factionReputation": 3600,
@@ -12146,10 +12254,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-13"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 17
   },
   "Main-ICA-Caverns-14": {
-    "inGameName": "Main-ICA-Caverns-14",
+    "inGameName": "Race to the Bottom Part 18",
     "description": "'Things are getting out of control, now there are parties interested in all this alien metal we didn't know even had a presence on the station. If what the Osiris' people believed is true, that this is some sort of programmable smart metal centuries ahead of our own tech, then we can't let the wrong people get their hands on it! I have the location of another scientist; retrieve whatever data they had, and leave purging any existing research data on the matter to us. Thank you, Prospector. '",
     "faction": "ICA",
     "factionReputation": 3600,
@@ -12199,10 +12311,14 @@
     "unlockContracts": [
       "Main-ICA-Caverns-13.1"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 18
   },
   "Main-Osiris-Caverns-1": {
-    "inGameName": "Main-Osiris-Caverns-1",
+    "inGameName": "The Progenitor Device Part 3",
     "description": "'You're ready. I have some recon work for you, Prospector. Recent survey data shows a dip in TEF radiation on a 'Tharis Island', the spot of one our old field labs. The installation was just being set up when the evac order came through, and with all the chaos, the records don't show any researchers making it out, nor why they were there in the first place. Head down there, check the outpost, and report back to me. '",
     "faction": "Osiris",
     "factionReputation": 750,
@@ -12247,10 +12363,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-0.2-Unlock"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 3
   },
   "Main-Osiris-Caverns-1.1": {
-    "inGameName": "Main-Osiris-Caverns-1.1",
+    "inGameName": "The Progenitor Device Part 4",
     "description": "'All killed. Not surprising, of course, but definitely not all were killed by surface beasts. The obvious suspects would be Korolev's goons; our people may have found something important those meatheads wanted for themselves, or maybe it was something more basic, like commandeering the site's vessels to evac. I need to think... this happened decades ago, but it would still be an unacceptable transgression. For now, just go back to those caverns and do some field work; apparently the caverns had some unique flora. '",
     "faction": "Osiris",
     "factionReputation": 750,
@@ -12304,10 +12424,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-1"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 4
   },
   "Main-Osiris-Caverns-2": {
-    "inGameName": "Main-Osiris-Caverns-2",
+    "inGameName": "The Progenitor Device Part 5",
     "description": "'I need more information before I act; get into the Korolev Island HQ and retrieve whatever information that might shed some light on what happened. If Korolev truly is responsible for what happened, there will be hell to pay. '",
     "faction": "Osiris",
     "factionReputation": 930,
@@ -12357,10 +12481,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-1.1"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 5
   },
   "Main-Osiris-Caverns-3": {
-    "inGameName": "Main-Osiris-Caverns-3",
+    "inGameName": "The Progenitor Device Part 6",
     "description": "'Unexpected. Both our people and Korolev's were attacked by a third party, what a Korolev foreman referred as 'cultists'. From the description, this group behaved similar to those afflicted by prolonged exposure to the TEF's radiation, but the first recorded encounter predates the first storms by a matter of months. Prospector, I need you to search for the Surveyor Pods deployed in the caverns, they would have recorded evidence of any exotic radiation, even before they knew what it was. '",
     "faction": "Osiris",
     "factionReputation": 930,
@@ -12412,10 +12540,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-2"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 6
   },
   "Main-Osiris-Caverns-4": {
-    "inGameName": "Main-Osiris-Caverns-4",
+    "inGameName": "The Progenitor Device Part 7",
     "description": "'Just as I suspected, those caverns had been leaking TEF radiation for years before anyone ever set foot in them. That entire area can give us a preview of what sites on the surface may look like decades from now, if the field continues to affect the planet. But first things first: hunt down some Crushers from one of the affected areas and stash samples of their remains at one of our outpost so we can analyze the radiation. '",
     "faction": "Osiris",
     "factionReputation": 1200,
@@ -12472,10 +12604,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-3"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 7
   },
   "Main-Osiris-Caverns-4.1": {
-    "inGameName": "Main-Osiris-Caverns-4.1",
+    "inGameName": "The Progenitor Device Part 8",
     "description": "'One of my researchers working in the Crescent Falls area has some theories on those Spine Briar plants, and why they're unique to the Tharis caverns. I need you to take some new samples to a stash in the area; hopefully he does something more useful than just replanting them. '",
     "faction": "Osiris",
     "factionReputation": 1200,
@@ -12513,10 +12649,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-4"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 8
   },
   "Main-Osiris-Caverns-5": {
-    "inGameName": "Main-Osiris-Caverns-5",
+    "inGameName": "The Progenitor Device Part 9",
     "description": "'The results came back on the Crushers irradiated by Tharis: inconclusive; none of the creatures you dispatched seemed to be over a decade old, which may hint at the limits of their natural lifespan, or at how efficient your fellow prospectors have been at thinning their numbers. One thing did stand out, though; a foreign bioluminescent compound. I've found mentions of a 'Cave of Stars', the likely source. Search the area, and bring back anything that may be of interest. '",
     "faction": "Osiris",
     "factionReputation": 1500,
@@ -12579,10 +12719,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-4.1"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 9
   },
   "Main-Osiris-Caverns-6": {
-    "inGameName": "Main-Osiris-Caverns-6",
+    "inGameName": "The Progenitor Device Part 10",
     "description": "'These 'cultists' weren't merely men gone feral, they had kept some level of organization, and built a devotion to the Tharis caverns. They seemed obsessed with clusters of a glowing crystaline compound unique to the island; bring me some samples, this merits study. '",
     "faction": "Osiris",
     "factionReputation": 1500,
@@ -12619,10 +12763,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-5"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 10
   },
   "Main-Osiris-Caverns-7": {
-    "inGameName": "Main-Osiris-Caverns-7",
+    "inGameName": "The Progenitor Device Part 11",
     "description": "'These 'Teratomorphic Crystals' are proving to be an interesting puzzle. There's nothing organic or 'living' about them, but they don't resemble any natural formation I've ever seen. And they appear to absorb TEF energy like a battery. Perhaps the cultists knew more about them. The records you recovered mention of wall markings scattered throughout the caverns, perhaps they hold some cyphered information. Find them, Prospector. '",
     "faction": "Osiris",
     "factionReputation": 1800,
@@ -12674,10 +12822,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-6"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 11
   },
   "Main-Osiris-Caverns-8": {
-    "inGameName": "Main-Osiris-Caverns-8",
+    "inGameName": "The Progenitor Device Part 12",
     "description": "'It appears the cultists were fixated on the same rare ore that kept Korolev and our own Osiris people, 'Tharis Ore' as they called it. Bring me samples, normal and the 'refined' type. If the Teratomorphic Crystals interacted with TEF radiation, it's reasonable to believe this material might too. '",
     "faction": "Osiris",
     "factionReputation": 1800,
@@ -12727,10 +12879,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-7"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 12
   },
   "Main-Osiris-Caverns-9": {
-    "inGameName": "Main-Osiris-Caverns-9",
+    "inGameName": "The Progenitor Device Part 13",
     "description": "'Our experiments with Tharis Iron proved very productive; concentrated blasts of TEF radiation caused the samples to react by warping into different shapes. Some, almost organic, and very reminiscent of patterns seen in Fortuna III's newer flora and fauna. Bring me samples of creatures killed at the peak of a storm. And some Charged Brightcaps, too. '",
     "faction": "Osiris",
     "factionReputation": 2300,
@@ -12790,10 +12946,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-8"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 13
   },
   "Main-Osiris-Caverns-10": {
-    "inGameName": "Main-Osiris-Caverns-10",
+    "inGameName": "The Progenitor Device Part 14",
     "description": "'It's clear that the importance of these caverns can't be overstated; Korolev stumbled upon a Progenitor terraforming artifact and they simply decided to mine around it, for rocks! I need you to go deeper, recover anything else the cultists deemed valuable; they may have been insane, but they knew something. '",
     "faction": "Osiris",
     "factionReputation": 2300,
@@ -12843,10 +13003,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-9"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 14
   },
   "Main-Osiris-Caverns-11": {
-    "inGameName": "Main-Osiris-Caverns-11",
+    "inGameName": "The Progenitor Device Part 15",
     "description": "'Korolev had people block off the deepest caverns, fearing the unknown and wanting to bury the 'dangerous' mysteries beneath. Everything points to there being something important down there, something connected to Tharis Iron, something the cultists killed to protect. They even found a way through those strange alien doors, just to get there. Thanks to these Ritual Items you brought back, we now know how they did it.  Down the Abyss, Prospector, discovery awaits!'",
     "faction": "Osiris",
     "factionReputation": 2800,
@@ -12891,10 +13055,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-10"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 15
   },
   "Main-Osiris-Caverns-12": {
-    "inGameName": "Main-Osiris-Caverns-12",
+    "inGameName": "The Progenitor Device Part 16",
     "description": "'Fascinating... The installation on Tharis Island may not have been part of the Progenitor terraformer network, but perhaps a small outpost of some sort? It makes sense that they would place self-sufficient outposts on the planets they terraformed. You must remain my proxy on this venture, the island is still far too dangerous for a team to investigate directly; head back to the Forge, feed it Tharis Iron, and bring back the results. And get rid of any onlookers. '",
     "faction": "Osiris",
     "factionReputation": 2800,
@@ -12948,10 +13116,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-11"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 16
   },
   "Main-Osiris-Caverns-13": {
-    "inGameName": "Main-Osiris-Caverns-13",
+    "inGameName": "The Progenitor Device Part 17",
     "description": "'Excellent work down there, Prospector. It's doubtful, though, that this lone machine's purpose would be solely to transform Tharis Iron into Forge Alloy, not without additional support or transport systems to put it to use. No, this must be an intermediate product... Return to the machine, there must be something we've missed. '",
     "faction": "Osiris",
     "factionReputation": 3600,
@@ -13002,10 +13174,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-12"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 17
   },
   "Main-Osiris-Caverns-13.1": {
-    "inGameName": "Main-Osiris-Caverns-13.1",
+    "inGameName": "The Progenitor Device Part 18",
     "description": "'Fascinating, it appears you found what's essentially an instruction manual... But something urgent has come up, on Crescent Falls. Scans found a cavern near the south of the Fallen Tree, with curious energy readings during a recent storm event. I want you to explore it; make short work of any creatures you find inside, and stash their remains for my people on the surface to collect. '",
     "faction": "Osiris",
     "factionReputation": 3600,
@@ -13069,10 +13245,14 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-13"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 18
   },
   "Main-Osiris-Caverns-14": {
-    "inGameName": "Main-Osiris-Caverns-14",
+    "inGameName": "The Progenitor Device Part 19",
     "description": "'I think it's time to move forward with our work on the Abyss Forge. Use the 'recipe' you found earlier, and whatever that device prints out, deliver it back to me. If we can put this Progenitor technology to work for us... well, you can imagine the implications. '",
     "faction": "Osiris",
     "factionReputation": 3600,
@@ -13121,7 +13301,11 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-13.1"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 19
   },
   "Main-KOR-EarlyMap2-1": {
     "inGameName": "Uncharted Territory Part 1",
@@ -14054,7 +14238,7 @@
     ],
     "rewards": [
       {
-        "item": "UnboundSynth02_Boots",
+        "item": "Banner_SynthFace_Anim",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -14198,7 +14382,7 @@
     ],
     "rewards": [
       {
-        "item": "UnboundSynth02_Gloves",
+        "item": "SyndicateEnforcer02_Gloves",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -14229,7 +14413,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 3,
+        "maxProgress": 5,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -14246,7 +14430,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 5,
+        "maxProgress": 3,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -14263,7 +14447,7 @@
       },
       {
         "type": "OwnNumOfItem",
-        "maxProgress": 400,
+        "maxProgress": 100,
         "itemToOwn": "StormyCreatureDrop",
         "locationConditions": []
       }
@@ -14290,37 +14474,37 @@
     "chainImage": "Main-Badum-FinalQuestline_main_image_p",
     "chainPart": 4
   },
-  "Main-Badum-FinalQuestline1-5": {
+  "Main-Badum-FinalQuestline1-6": {
     "inGameName": "Fortuna's Favored Part 5",
-    "description": "'Been talking with some of the faction guys, see what wheels need greased, keeping tabs on their moves; pays to keep an ear to the ground, you know? Seems all three have got some big deal secret project in the works, some ace up their sleave that'll put them over the others. Can't have any more kings on this hill, so make all three projects happen. Keep them all on a level playing field. '",
+    "description": "'I've got my eyes on some of that new stuff that's been showing up on the station lately. The factions are being really tight fisted about it, big on their 'no sharing' policy. Kinda gets in the way of my import-export business, really. Listen, you bring me what you can, and I'll make it worth your while. '",
     "faction": "Badum",
     "factionReputation": 0,
     "difficulty": "Invalid",
     "failConditions": [],
-    "image": "Main-Badum-FinalQuestline1-5_job_bg",
+    "image": "Main-Badum-FinalQuestline1-6_job_bg",
     "objectives": [
       {
-        "type": "CompletedMission",
-        "maxProgress": 1,
-        "missionToComplete": "Main-KOR-TestRun-1",
+        "type": "OwnNumOfItem",
+        "maxProgress": 300,
+        "itemToOwn": "Letium",
         "locationConditions": []
       },
       {
-        "type": "CompletedMission",
-        "maxProgress": 1,
-        "missionToComplete": "Main-ICA-TestRun-2",
+        "type": "OwnNumOfItem",
+        "maxProgress": 120,
+        "itemToOwn": "OilTank",
         "locationConditions": []
       },
       {
-        "type": "CompletedMission",
-        "maxProgress": 1,
-        "missionToComplete": "Main-Osiris-TestRun-1",
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "AF_Slag",
         "locationConditions": []
       }
     ],
     "rewards": [
       {
-        "item": "UnboundSynth02_Chest",
+        "item": "Charm_BountyHunterEye01",
         "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
@@ -14340,58 +14524,8 @@
     "chainImage": "Main-Badum-FinalQuestline_main_image_p",
     "chainPart": 5
   },
-  "Main-Badum-FinalQuestline1-6": {
-    "inGameName": "Fortuna's Favored Part 6",
-    "description": "'I've got my eyes on some of that new stuff that's been showing up on the station lately. The factions are being really tight fisted about it, big on their 'no sharing' policy. Kinda gets in the way of my import-export business, really. Listen, you bring me what you can, and I'll make it worth your while. '",
-    "faction": "Badum",
-    "factionReputation": 0,
-    "difficulty": "Invalid",
-    "failConditions": [],
-    "image": "Main-Badum-FinalQuestline1-6_job_bg",
-    "objectives": [
-      {
-        "type": "OwnNumOfItem",
-        "maxProgress": 200,
-        "itemToOwn": "Letium",
-        "locationConditions": []
-      },
-      {
-        "type": "OwnNumOfItem",
-        "maxProgress": 120,
-        "itemToOwn": "OilTank",
-        "locationConditions": []
-      },
-      {
-        "type": "OwnNumOfItem",
-        "maxProgress": 10,
-        "itemToOwn": "AF_Slag",
-        "locationConditions": []
-      }
-    ],
-    "rewards": [
-      {
-        "item": "Aurum",
-        "amount": 200,
-        "isEndOfChainReward": false,
-        "isUnlockReward": false
-      },
-      {
-        "item": "Faction Reputation",
-        "amount": 0
-      }
-    ],
-    "unlockLevel": 0,
-    "unlockContracts": [
-      "Main-Badum-FinalQuestline1-5"
-    ],
-    "isMainChain": true,
-    "chainName": "Fortuna's Favored",
-    "chainDescription": "Badum's got some tough work lined up for you, but first he wants you to earn the factions' favor to be sure you're capable. He's not just some guy running a bar, after all, he keeps the peace between factions, and between prospectors.  Plus he also runs the biggest smuggling operation on Prospect Station. It's smart to have a guy like him in your corner.",
-    "chainImage": "Main-Badum-FinalQuestline_main_image_p",
-    "chainPart": 6
-  },
   "Main-Badum-FinalQuestline1-7": {
-    "inGameName": "Fortuna's Favored Part 7",
+    "inGameName": "Fortuna's Favored Part 6",
     "description": "'K-Marks are good and all, but faction scrip is where it’s at. Big demand for it in the freighter adjuncts, too, if you know who to deal with. So, how about it? Get me some scrip from each faction, oughta be easy for a savvy prospector like you!'",
     "faction": "Badum",
     "factionReputation": 0,
@@ -14420,8 +14554,8 @@
     ],
     "rewards": [
       {
-        "item": "DarkUnboundSynth",
-        "amount": 1,
+        "item": "Aurum",
+        "amount": 200,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -14438,10 +14572,10 @@
     "chainName": "Fortuna's Favored",
     "chainDescription": "Badum's got some tough work lined up for you, but first he wants you to earn the factions' favor to be sure you're capable. He's not just some guy running a bar, after all, he keeps the peace between factions, and between prospectors.  Plus he also runs the biggest smuggling operation on Prospect Station. It's smart to have a guy like him in your corner.",
     "chainImage": "Main-Badum-FinalQuestline_main_image_p",
-    "chainPart": 7
+    "chainPart": 6
   },
   "Main-Badum-FinalQuestline1-8": {
-    "inGameName": "Fortuna's Favored Part 8",
+    "inGameName": "Fortuna's Favored Part 7",
     "description": "'There's a betting pool going, lotta money involved. Big pissing match over which faction has the best weapons, which can do the 'impossible' and give the finishing blows to three whole Alpha Crushers. How about you go for gold, do it three for three?'",
     "faction": "Badum",
     "factionReputation": 0,
@@ -14746,8 +14880,8 @@
     ],
     "rewards": [
       {
-        "item": "Aurum",
-        "amount": 200,
+        "item": "DarkUnboundSynth",
+        "amount": 1,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -14764,10 +14898,10 @@
     "chainName": "Fortuna's Favored",
     "chainDescription": "Badum's got some tough work lined up for you, but first he wants you to earn the factions' favor to be sure you're capable. He's not just some guy running a bar, after all, he keeps the peace between factions, and between prospectors.  Plus he also runs the biggest smuggling operation on Prospect Station. It's smart to have a guy like him in your corner.",
     "chainImage": "Main-Badum-FinalQuestline_main_image_p",
-    "chainPart": 8
+    "chainPart": 7
   },
   "Main-Badum-FinalQuestline1-9": {
-    "inGameName": "Fortuna's Favored Part 9",
+    "inGameName": "Fortuna's Favored Part 8",
     "description": "'You wanna be a legend, huh? Well, can't say you're not on your way there... Let's see if you can handle Legendary weapons, put them to good, grim use. Then come back to me, I have something special saved just for you. '",
     "faction": "Badum",
     "factionReputation": 0,
@@ -14777,7 +14911,7 @@
     "objectives": [
       {
         "type": "Kills",
-        "maxProgress": 300,
+        "maxProgress": 800,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Creatures",
           "m_allowedWeaponCategories": [],
@@ -14816,7 +14950,7 @@
       },
       {
         "type": "Kills",
-        "maxProgress": 25,
+        "maxProgress": 40,
         "killConditions": {
           "m_killTarget": "EYKillTypeAction::Players",
           "m_allowedWeaponCategories": [],
@@ -14862,8 +14996,8 @@
         "isUnlockReward": false
       },
       {
-        "item": "Melee_Karambit01",
-        "amount": 1,
+        "item": "Aurum",
+        "amount": 200,
         "isEndOfChainReward": false,
         "isUnlockReward": false
       },
@@ -14880,10 +15014,230 @@
     "chainName": "Fortuna's Favored",
     "chainDescription": "Badum's got some tough work lined up for you, but first he wants you to earn the factions' favor to be sure you're capable. He's not just some guy running a bar, after all, he keeps the peace between factions, and between prospectors.  Plus he also runs the biggest smuggling operation on Prospect Station. It's smart to have a guy like him in your corner.",
     "chainImage": "Main-Badum-FinalQuestline_main_image_p",
-    "chainPart": 9
+    "chainPart": 8
+  },
+  "Main-KOR-Caverns-0.1-Unlock": {
+    "inGameName": "In a Deep Dark Hole Part 1",
+    "description": "Prospector. We need help in exploring an area of Fortuna that you've never been to before, but before we discuss anything more with you, we need to know you're ready. Show us that you are.",
+    "faction": "Korolev",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-KOR-Caverns-0_1-Unlock_job_bg",
+    "objectives": [
+      {
+        "type": "FactionLevel",
+        "maxProgress": 10,
+        "faction": "Korolev",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 750
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-KOR-GainTrust-4"
+    ],
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 1
+  },
+  "Main-KOR-Caverns-0.2-Unlock": {
+    "inGameName": "In a Deep Dark Hole Part 2",
+    "description": "Well done. You've become a real asset to Korolev. Hand in some of the Scrip you earned so we can send you to the new Area we have discovered.",
+    "faction": "Korolev",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-KOR-Caverns-0_2-Unlock_job_bg",
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 10,
+        "itemToOwn": "KorolevScrip",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Korolev Scrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 750
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-KOR-Caverns-0.1-Unlock"
+    ],
+    "isMainChain": true,
+    "chainName": "In a Deep Dark Hole",
+    "chainDescription": "Fortuna III's surface was riddled with active mining and research sites before the storms hit, but the planet's new exotic radiation field leaves only a scarce few accessible today. One of particular interest, Tharis Island, has recently been deemed safe to explore. Well, safe from the radiation and the worst of the storms, at least.  Vadim wants you to explore the old Korolev mining operation there; for some reason his predecessor became obsessed with the twisting caverns that make up the island's central feature, but the records are scarce and full of holes. Perhaps he found something precious, a secret treasure to deliver a clear edge over the competition?",
+    "chainImage": "T_UI_Mission_Main-KOR-Questline-Caverns_p",
+    "chainPart": 2
+  },
+  "Main-ICA-Caverns-0.1-Unlock": {
+    "inGameName": "Race to the Bottom Part 1",
+    "description": "You're not ready yet to help us with this next task. Come back once you've shown us what you're made of.",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-ICA-Caverns-0_1-Unlock_job_bg",
+    "objectives": [
+      {
+        "type": "FactionLevel",
+        "maxProgress": 10,
+        "faction": "ICA",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 750
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-ICA-GainTrust-4"
+    ],
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 1
+  },
+  "Main-ICA-Caverns-0.2-Unlock": {
+    "inGameName": "Race to the Bottom Part 2",
+    "description": "Hmm. I think you've got what it takes for Tharis. Get us some valuables we can use to bribe your way past Korolev Security, we will take care of the rest.",
+    "faction": "ICA",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-ICA-Caverns-0_2-Unlock_job_bg",
+    "objectives": [
+      {
+        "type": "OwnNumOfItem",
+        "maxProgress": 3,
+        "itemToOwn": "Jewellery",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "ICA Scrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 750
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-ICA-Caverns-0.1-Unlock"
+    ],
+    "isMainChain": true,
+    "chainName": "Race to the Bottom",
+    "chainDescription": "The ICA has been monitoring a decrease in radiation levels over a small island for some time now, and now they want you to go down there and figure what happened to a group of missing colonists.  Not much is known about the island or why the corps set up shop there, but Marie hopes you'll find clues as to what happened to the colonists at the Korolev and Osiris installations.   And while you're there, maybe you could look into why the corps were so interested in the island's caverns in the first place...",
+    "chainImage": "T_UI_Mission_Main-ICA-Questlines_Caverns_p",
+    "chainPart": 2
+  },
+  "Main-Osiris-Caverns-0.1-Unlock": {
+    "inGameName": "The Progenitor Device Part 1",
+    "description": "We have received some intel on one of our old research sites potentially being ready to be reclaimed. The area was completely inaccessible due to radiation and terrifying creatures, but now the radiation seems to have faded.. at least a little. For the creatures, however, you are not ready yet. Keep being a valuable asset to us and we may grant you access to this area.",
+    "faction": "Osiris",
+    "factionReputation": 750,
+    "difficulty": "Invalid",
+    "failConditions": [],
+    "image": "T_UI_Mission_Main-OSIRIS-Caverns-0_1-Unlock_job_bg",
+    "objectives": [
+      {
+        "type": "FactionLevel",
+        "maxProgress": 10,
+        "faction": "Osiris",
+        "locationConditions": []
+      }
+    ],
+    "rewards": [
+      {
+        "item": "Osiris Scrip",
+        "amount": 26,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "SoftCurrency",
+        "amount": 10000,
+        "isEndOfChainReward": false,
+        "isUnlockReward": false
+      },
+      {
+        "item": "Faction Reputation",
+        "amount": 750
+      }
+    ],
+    "unlockLevel": 0,
+    "unlockContracts": [
+      "Main-Osiris-GainTrust-4"
+    ],
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 1
   },
   "Main-Osiris-Caverns-0.2-Unlock": {
-    "inGameName": "Main-Osiris-Caverns-0.2-Unlock",
+    "inGameName": "The Progenitor Device Part 2",
     "description": "Ah, our most efficient Prospector. Good. I think you should be able to handle exploring Tharis now. Bring us the parts we need to improve your drop pod so you don't go up in flames as you drop to the Island.",
     "faction": "Osiris",
     "factionReputation": 750,
@@ -14926,6 +15280,10 @@
     "unlockContracts": [
       "Main-Osiris-Caverns-0.1-Unlock"
     ],
-    "isMainChain": false
+    "isMainChain": true,
+    "chainName": "The Progenitor Device",
+    "chainDescription": "After decades of storm and hazardous radiation from the Teratomorphic Energy Field enveloping most of the planet, an abandoned Osiris field lab on a remote island has suddenly become accessible.  While it was common for Osiris researchers to be the last ones off the planet when the final evac order finally came, there are no recorded survivors from the installation at Tharis Island.  Sullivan wants you to investigate the area, find out what happened to the researchers. And more importantly, to their research.",
+    "chainImage": "T_UI_Mission_Main-OSIRIS-Questline-Caverns_p",
+    "chainPart": 2
   }
 }
