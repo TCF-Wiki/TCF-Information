@@ -53,7 +53,12 @@
         "shop": "QuickShop",
         "SoftCurrency": 90
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_Health_02": {
     "inGameName": "Strong Stim",
@@ -104,7 +109,12 @@
         "BrightcapMushroom": 1,
         "WaterPlant": 1
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "Main-Osiris-StrongStims-2",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_Health_03": {
     "inGameName": "Weak Medkit",
@@ -160,7 +170,12 @@
         "shop": "QuickShop",
         "SoftCurrency": 450
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_Health_04": {
     "inGameName": "Combat Stim",
@@ -212,7 +227,12 @@
         "WaterPlant": 2,
         "IvyPlant": 1
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "Main-Osiris-CombatStims-3",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_Health_05": {
     "inGameName": "Strong Medkit",
@@ -262,7 +282,12 @@
         "AnaestheticsContainers": 1,
         "BrightcapMushroom": 2
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "Main-Osiris-StrongMedkits-3",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_Health_06": {
     "inGameName": "Combat Medkit",
@@ -314,7 +339,12 @@
         "WaterPlant": 3,
         "IvyPlant": 1
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "Main-Osiris-TestRun-1",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_SmokeGrenade_01": {
     "inGameName": "Smoke Grenade",
@@ -353,7 +383,12 @@
         "shop": "QuickShop",
         "SoftCurrency": 450
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_GasGrenade_01": {
     "inGameName": "Gas Grenade",
@@ -394,7 +429,12 @@
         "NeuroToxicGlands": 1,
         "SpareCasing": 2
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "Main-ICA-GasGrenades-2"
+    }
   },
   "Consumable_AudioDecoy_01": {
     "inGameName": "Audio Decoy",
@@ -439,7 +479,12 @@
         "Cables": 2,
         "SpareCasing": 2
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "Main-ICA-AudioDecoys-3",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_Grenade_02": {
     "inGameName": "Light Grenade",
@@ -480,7 +525,12 @@
         "CopperWire": 2,
         "SpareCasing": 2
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_Grenade_03": {
     "inGameName": "Standard Grenade",
@@ -521,7 +571,12 @@
         "AluminumParts": 1,
         "MagneticFieldStabilizer": 2
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Consumable_Grenade_05": {
     "inGameName": "Assault Grenade",
@@ -563,7 +618,12 @@
         "Alien_Scrap": 8,
         "AI_HowlerDart": 1
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "HowlerGrenade_01": {
     "inGameName": "Howler Grenade",
@@ -603,6 +663,11 @@
         "SoftCurrency": 10000,
         "AI_HowlerDart": 2
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "Main-Osiris-Howler-8"
+    }
   }
 }
