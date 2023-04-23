@@ -11,7 +11,12 @@
     "sellValue": 1013,
     "factionRep": 1,
     "durability": 2,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map01_KeyCard_02": {
     "inGameName": "Mine Access Key",
@@ -31,7 +36,17 @@
         "SoftCurrency": 3400,
         "KorolevScrip": 3
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [
+        {
+          "faction": "Korolev",
+          "level": 3
+        }
+      ],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map01_KeyCard_03": {
     "inGameName": "Tall House Key",
@@ -45,7 +60,12 @@
     "sellValue": 450,
     "factionRep": 0,
     "durability": 3,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map01_KeyCard_04": {
     "inGameName": "Clean Room Key",
@@ -65,7 +85,17 @@
         "SoftCurrency": 3400,
         "OsirisScrip": 3
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [
+        {
+          "faction": "Osiris",
+          "level": 3
+        }
+      ],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map01_KeyCard_05": {
     "inGameName": "Archaeologist's Office Key",
@@ -79,7 +109,12 @@
     "sellValue": 450,
     "factionRep": 0,
     "durability": 3,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map01_KeyCard_06": {
     "inGameName": "Jungle Storage Room Key",
@@ -93,7 +128,12 @@
     "sellValue": 1519,
     "factionRep": 2,
     "durability": 2,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map01_KeyCard_07": {
     "inGameName": "Base Camp Armory Key",
@@ -107,7 +147,12 @@
     "sellValue": 1519,
     "factionRep": 2,
     "durability": 1,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_01": {
     "inGameName": "Boss' Office Key",
@@ -121,7 +166,12 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_02": {
     "inGameName": "Janitor's Key",
@@ -135,7 +185,17 @@
     "sellValue": 1013,
     "factionRep": 1,
     "durability": 6,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [
+        {
+          "faction": "ICA",
+          "level": 8
+        }
+      ],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_03": {
     "inGameName": "Garage Office Key",
@@ -155,7 +215,17 @@
         "SoftCurrency": 10000,
         "KorolevScrip": 6
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [
+        {
+          "faction": "Korolev",
+          "level": 9
+        }
+      ],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_04": {
     "inGameName": "Overseer's Office Key",
@@ -175,7 +245,17 @@
         "SoftCurrency": 10000,
         "ICAScrip": 6
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [
+        {
+          "faction": "ICA",
+          "level": 10
+        }
+      ],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_05": {
     "inGameName": "Loose House Key",
@@ -189,7 +269,12 @@
     "sellValue": 1013,
     "factionRep": 1,
     "durability": 3,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_06": {
     "inGameName": "Lab Keycard",
@@ -203,7 +288,12 @@
     "sellValue": 10252,
     "factionRep": 10,
     "durability": 1,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_07": {
     "inGameName": "Bar Storage Key",
@@ -217,7 +307,12 @@
     "sellValue": 1519,
     "factionRep": 2,
     "durability": 2,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_08": {
     "inGameName": "Community Room Key",
@@ -231,7 +326,12 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map02_KeyCard_09": {
     "inGameName": "Overgrown Keycard",
@@ -245,7 +345,12 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map03_KeyCard_01": {
     "inGameName": "Research Center Office Key",
@@ -265,7 +370,12 @@
         "SoftCurrency": 15000,
         "OsirisScrip": 9
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "Main-Osiris-Caverns-10",
+      "contractToCraft": "None"
+    }
   },
   "Map03_KeyCard_02": {
     "inGameName": "Korolev Quarry Building Key",
@@ -279,7 +389,12 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": []
+    "cost": [],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "None"
+    }
   },
   "Map03_KeyCard_03": {
     "inGameName": "Korolev Medical Building Key",
@@ -299,7 +414,12 @@
         "SoftCurrency": 15000,
         "KorolevScrip": 9
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "Main-KOR-Caverns-2",
+      "contractToCraft": "None"
+    }
   },
   "Map03_KeyCard_04_AlienCorridor": {
     "inGameName": "Progenitor Corridor Key",
@@ -321,6 +441,11 @@
         "Alien_Scrap": 20,
         "ForgeIron": 10
       }
-    ]
+    ],
+    "unlock": {
+      "factions": [],
+      "contractToPurchase": "None",
+      "contractToCraft": "Main-Osiris-Caverns-13"
+    }
   }
 }
