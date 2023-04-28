@@ -1,12 +1,14 @@
 {
   "levels": {
     "playerquarter_1": {
+      "inGameName": "Personal Quarters Level 1",
       "level": 1,
       "upgradesRequired": 0,
       "costs": {},
       "upgradeTime": 0
     },
     "playerquarter_2": {
+      "inGameName": "Personal Quarters Level 2",
       "level": 2,
       "upgradesRequired": 11,
       "costs": {
@@ -18,6 +20,7 @@
       "upgradeTime": 2880
     },
     "playerquarter_3": {
+      "inGameName": "Personal Quarters Level 3",
       "level": 3,
       "upgradesRequired": 13,
       "costs": {
@@ -29,6 +32,7 @@
       "upgradeTime": 11520
     },
     "playerquarter_4": {
+      "inGameName": "Personal Quarters Level 4",
       "level": 4,
       "upgradesRequired": 18,
       "costs": {
@@ -40,6 +44,7 @@
       "upgradeTime": 25920
     },
     "playerquarter_5": {
+      "inGameName": "Personal Quarters Level 5",
       "level": 5,
       "upgradesRequired": 24,
       "costs": {
@@ -51,6 +56,7 @@
       "upgradeTime": 46080
     },
     "playerquarter_6": {
+      "inGameName": "Personal Quarters Level 6",
       "level": 6,
       "upgradesRequired": 32,
       "costs": {
@@ -62,6 +68,7 @@
       "upgradeTime": 72000
     },
     "playerquarter_7": {
+      "inGameName": "Personal Quarters Level 7",
       "level": 7,
       "upgradesRequired": 34,
       "costs": {
@@ -73,6 +80,7 @@
       "upgradeTime": 107280
     },
     "playerquarter_8": {
+      "inGameName": "Personal Quarters Level 8",
       "level": 8,
       "upgradesRequired": 44,
       "costs": {
@@ -84,6 +92,7 @@
       "upgradeTime": 145440
     },
     "playerquarter_9": {
+      "inGameName": "Personal Quarters Level 9",
       "level": 9,
       "upgradesRequired": 50,
       "costs": {
@@ -95,6 +104,7 @@
       "upgradeTime": 189360
     },
     "playerquarter_10": {
+      "inGameName": "Personal Quarters Level 10",
       "level": 10,
       "upgradesRequired": 60,
       "costs": {
@@ -108,11 +118,13 @@
   },
   "nodes": {
     "increase_stash_1": {
+      "inGameName": "Increase Stash Size 1",
       "type": "EYTechTreeNodePerkType::IncreaseStashSize",
       "PQLevelRequired": 1,
       "tier": 1,
       "levels": [
         {
+          "inGameName": "Increase Stash Size 1.1",
           "upgradeAmount": 10,
           "upgradeTime": 120,
           "costs": {
@@ -122,6 +134,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 1.2",
           "upgradeAmount": 20,
           "upgradeTime": 360,
           "costs": {
@@ -131,6 +144,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 1.3",
           "upgradeAmount": 30,
           "upgradeTime": 720,
           "costs": {
@@ -143,11 +157,13 @@
       ]
     },
     "increase_stash_2": {
+      "inGameName": "Increase Stash Size 2",
       "type": "EYTechTreeNodePerkType::IncreaseStashSize",
       "PQLevelRequired": 2,
       "tier": 2,
       "levels": [
         {
+          "inGameName": "Increase Stash Size 2.1",
           "upgradeAmount": 10,
           "upgradeTime": 2520,
           "costs": {
@@ -158,6 +174,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 2.2",
           "upgradeAmount": 20,
           "upgradeTime": 3360,
           "costs": {
@@ -168,6 +185,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 2.3",
           "upgradeAmount": 30,
           "upgradeTime": 4320,
           "costs": {
@@ -180,11 +198,13 @@
       ]
     },
     "increase_stash_3": {
+      "inGameName": "Increase Stash Size 3",
       "type": "EYTechTreeNodePerkType::IncreaseStashSize",
       "PQLevelRequired": 3,
       "tier": 3,
       "levels": [
         {
+          "inGameName": "Increase Stash Size 3.1",
           "upgradeAmount": 10,
           "upgradeTime": 7920,
           "costs": {
@@ -195,6 +215,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 3.2",
           "upgradeAmount": 20,
           "upgradeTime": 9360,
           "costs": {
@@ -205,6 +226,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 3.3",
           "upgradeAmount": 30,
           "upgradeTime": 10920,
           "costs": {
@@ -217,11 +239,13 @@
       ]
     },
     "increase_stash_4": {
+      "inGameName": "Increase Stash Size 6",
       "type": "EYTechTreeNodePerkType::IncreaseStashSize",
       "PQLevelRequired": 6,
       "tier": 4,
       "levels": [
         {
+          "inGameName": "Increase Stash Size 6.1",
           "upgradeAmount": 15,
           "upgradeTime": 59520,
           "costs": {
@@ -232,6 +256,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 6.2",
           "upgradeAmount": 30,
           "upgradeTime": 63360,
           "costs": {
@@ -242,6 +267,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 6.3",
           "upgradeAmount": 45,
           "upgradeTime": 67320,
           "costs": {
@@ -254,11 +280,13 @@
       ]
     },
     "increase_stash_5": {
+      "inGameName": "Increase Stash Size 9",
       "type": "EYTechTreeNodePerkType::IncreaseStashSize",
       "PQLevelRequired": 9,
       "tier": 5,
       "levels": [
         {
+          "inGameName": "Increase Stash Size 9.1",
           "upgradeAmount": 20,
           "upgradeTime": 129720,
           "costs": {
@@ -269,6 +297,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 9.2",
           "upgradeAmount": 40,
           "upgradeTime": 135360,
           "costs": {
@@ -279,6 +308,7 @@
           }
         },
         {
+          "inGameName": "Increase Stash Size 9.3",
           "upgradeAmount": 60,
           "upgradeTime": 141120,
           "costs": {
@@ -291,11 +321,13 @@
       ]
     },
     "increase_bag_1": {
+      "inGameName": "Increase Safe Pocket Size 1",
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 1,
       "tier": 1,
       "levels": [
         {
+          "inGameName": "Increase Safe Pocket Size 1.1",
           "upgradeAmount": 1,
           "upgradeTime": 120,
           "costs": {
@@ -307,11 +339,13 @@
       ]
     },
     "increase_bag_2": {
+      "inGameName": "Increase Safe Pocket Size 2",
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 2,
       "tier": 2,
       "levels": [
         {
+          "inGameName": "Increase Safe Pocket Size 2.1",
           "upgradeAmount": 1,
           "upgradeTime": 120,
           "costs": {
@@ -323,11 +357,13 @@
       ]
     },
     "increase_bag_3": {
+      "inGameName": "Increase Safe Pocket Size 3",
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 3,
       "tier": 3,
       "levels": [
         {
+          "inGameName": "Increase Safe Pocket Size 3.1",
           "upgradeAmount": 1,
           "upgradeTime": 2520,
           "costs": {
@@ -340,11 +376,13 @@
       ]
     },
     "increase_bag_4": {
+      "inGameName": "Increase Safe Pocket Size 5",
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 5,
       "tier": 4,
       "levels": [
         {
+          "inGameName": "Increase Safe Pocket Size 5.1",
           "upgradeAmount": 1,
           "upgradeTime": 7920,
           "costs": {
@@ -357,11 +395,13 @@
       ]
     },
     "increase_bag_5": {
+      "inGameName": "Increase Safe Pocket Size 7",
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 7,
       "tier": 5,
       "levels": [
         {
+          "inGameName": "Increase Safe Pocket Size 7.1",
           "upgradeAmount": 1,
           "upgradeTime": 59520,
           "costs": {
@@ -374,11 +414,13 @@
       ]
     },
     "increase_bag_6": {
+      "inGameName": "Increase Safe Pocket Size 10",
       "type": "EYTechTreeNodePerkType::IncreaseBagSize",
       "PQLevelRequired": 10,
       "tier": 6,
       "levels": [
         {
+          "inGameName": "Increase Safe Pocket Size 10.1",
           "upgradeAmount": 1,
           "upgradeTime": 103320,
           "costs": {
@@ -391,11 +433,13 @@
       ]
     },
     "reduce_pq_upgrading_time_1": {
+      "inGameName": "Reduce PQ Upgrade Time 1",
       "type": "EYTechTreeNodePerkType::ReduceUpgradingTimePerc",
       "PQLevelRequired": 1,
       "tier": 1,
       "levels": [
         {
+          "inGameName": "Reduce PQ Upgrade Time 1.1",
           "upgradeAmount": 3,
           "upgradeTime": 120,
           "costs": {
@@ -405,6 +449,7 @@
           }
         },
         {
+          "inGameName": "Reduce PQ Upgrade Time 1.2",
           "upgradeAmount": 6,
           "upgradeTime": 360,
           "costs": {
@@ -414,6 +459,7 @@
           }
         },
         {
+          "inGameName": "Reduce PQ Upgrade Time 1.3",
           "upgradeAmount": 9,
           "upgradeTime": 720,
           "costs": {
@@ -426,11 +472,13 @@
       ]
     },
     "reduce_pq_upgrading_time_2": {
+      "inGameName": "Reduce PQ Upgrade Time 4",
       "type": "EYTechTreeNodePerkType::ReduceUpgradingTimePerc",
       "PQLevelRequired": 4,
       "tier": 2,
       "levels": [
         {
+          "inGameName": "Reduce PQ Upgrade Time 4.1",
           "upgradeAmount": 3,
           "upgradeTime": 16320,
           "costs": {
@@ -441,6 +489,7 @@
           }
         },
         {
+          "inGameName": "Reduce PQ Upgrade Time 4.2",
           "upgradeAmount": 6,
           "upgradeTime": 18360,
           "costs": {
@@ -451,6 +500,7 @@
           }
         },
         {
+          "inGameName": "Reduce PQ Upgrade Time 4.3",
           "upgradeAmount": 9,
           "upgradeTime": 20520,
           "costs": {
@@ -463,11 +513,13 @@
       ]
     },
     "reduce_pq_upgrading_time_3": {
+      "inGameName": "Reduce PQ Upgrade Time 6",
       "type": "EYTechTreeNodePerkType::ReduceUpgradingTimePerc",
       "PQLevelRequired": 6,
       "tier": 3,
       "levels": [
         {
+          "inGameName": "Reduce PQ Upgrade Time 6.1",
           "upgradeAmount": 3,
           "upgradeTime": 42120,
           "costs": {
@@ -478,6 +530,7 @@
           }
         },
         {
+          "inGameName": "Reduce PQ Upgrade Time 6.2",
           "upgradeAmount": 6,
           "upgradeTime": 45360,
           "costs": {
@@ -488,6 +541,7 @@
           }
         },
         {
+          "inGameName": "Reduce PQ Upgrade Time 6.3",
           "upgradeAmount": 9,
           "upgradeTime": 48720,
           "costs": {
@@ -500,11 +554,13 @@
       ]
     },
     "reduce_pq_upgrading_time_4": {
+      "inGameName": "Reduce PQ Upgrade Time 9",
       "type": "EYTechTreeNodePerkType::ReduceUpgradingTimePerc",
       "PQLevelRequired": 9,
       "tier": 4,
       "levels": [
         {
+          "inGameName": "Reduce PQ Upgrade Time 9.1",
           "upgradeAmount": 3,
           "upgradeTime": 103320,
           "costs": {
@@ -515,6 +571,7 @@
           }
         },
         {
+          "inGameName": "Reduce PQ Upgrade Time 9.2",
           "upgradeAmount": 6,
           "upgradeTime": 108360,
           "costs": {
@@ -525,6 +582,7 @@
           }
         },
         {
+          "inGameName": "Reduce PQ Upgrade Time 9.3",
           "upgradeAmount": 9,
           "upgradeTime": 113520,
           "costs": {
@@ -537,11 +595,13 @@
       ]
     },
     "generate_aurum_1": {
+      "inGameName": "Aurum Generator Rate 1",
       "type": "EYTechTreeNodePerkType::PassiveAurumGenDay",
       "PQLevelRequired": 1,
       "tier": 1,
       "levels": [
         {
+          "inGameName": "Aurum Generator Rate 1.1",
           "upgradeAmount": 0.28,
           "upgradeTime": 120,
           "costs": {
@@ -551,6 +611,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 1.2",
           "upgradeAmount": 0.3,
           "upgradeTime": 360,
           "costs": {
@@ -560,6 +621,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 1.3",
           "upgradeAmount": 0.32,
           "upgradeTime": 720,
           "costs": {
@@ -570,6 +632,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 1.4",
           "upgradeAmount": 0.34,
           "upgradeTime": 1200,
           "costs": {
@@ -580,6 +643,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 1.5",
           "upgradeAmount": 0.36,
           "upgradeTime": 1800,
           "costs": {
@@ -592,11 +656,13 @@
       ]
     },
     "generate_aurum_2": {
+      "inGameName": "Aurum Generator Rate 4",
       "type": "EYTechTreeNodePerkType::PassiveAurumGenDay",
       "PQLevelRequired": 4,
       "tier": 2,
       "levels": [
         {
+          "inGameName": "Aurum Generator Rate 4.1",
           "upgradeAmount": 0.02,
           "upgradeTime": 16320,
           "costs": {
@@ -607,6 +673,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 4.2",
           "upgradeAmount": 0.04,
           "upgradeTime": 18360,
           "costs": {
@@ -617,6 +684,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 4.3",
           "upgradeAmount": 0.06,
           "upgradeTime": 20520,
           "costs": {
@@ -627,6 +695,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 4.4",
           "upgradeAmount": 0.08,
           "upgradeTime": 22800,
           "costs": {
@@ -637,6 +706,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 4.5",
           "upgradeAmount": 0.1,
           "upgradeTime": 25200,
           "costs": {
@@ -649,11 +719,13 @@
       ]
     },
     "generate_aurum_3": {
+      "inGameName": "Aurum Generator Rate 7",
       "type": "EYTechTreeNodePerkType::PassiveAurumGenDay",
       "PQLevelRequired": 7,
       "tier": 3,
       "levels": [
         {
+          "inGameName": "Aurum Generator Rate 7.1",
           "upgradeAmount": 0.02,
           "upgradeTime": 59520,
           "costs": {
@@ -664,6 +736,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 7.2",
           "upgradeAmount": 0.04,
           "upgradeTime": 63360,
           "costs": {
@@ -674,6 +747,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 7.3",
           "upgradeAmount": 0.06,
           "upgradeTime": 67320,
           "costs": {
@@ -684,6 +758,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 7.4",
           "upgradeAmount": 0.08,
           "upgradeTime": 71400,
           "costs": {
@@ -694,6 +769,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 7.5",
           "upgradeAmount": 0.1,
           "upgradeTime": 75600,
           "costs": {
@@ -706,11 +782,13 @@
       ]
     },
     "generate_aurum_4": {
+      "inGameName": "Aurum Generator Rate 10",
       "type": "EYTechTreeNodePerkType::PassiveAurumGenDay",
       "PQLevelRequired": 10,
       "tier": 4,
       "levels": [
         {
+          "inGameName": "Aurum Generator Rate 10.1",
           "upgradeAmount": 0.02,
           "upgradeTime": 129720,
           "costs": {
@@ -720,6 +798,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 10.2",
           "upgradeAmount": 0.04,
           "upgradeTime": 135360,
           "costs": {
@@ -730,6 +809,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 10.3",
           "upgradeAmount": 0.06,
           "upgradeTime": 141120,
           "costs": {
@@ -740,6 +820,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 10.4",
           "upgradeAmount": 0.08,
           "upgradeTime": 147000,
           "costs": {
@@ -750,6 +831,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Rate 10.5",
           "upgradeAmount": 0.1,
           "upgradeTime": 153000,
           "costs": {
@@ -762,11 +844,13 @@
       ]
     },
     "generate_kmarks_1": {
+      "inGameName": "Generate K-Marks 1",
       "type": "EYTechTreeNodePerkType::PassiveKMarkGenHour",
       "PQLevelRequired": 1,
       "tier": 1,
       "levels": [
         {
+          "inGameName": "Generate K-Marks 1.1",
           "upgradeAmount": 100,
           "upgradeTime": 120,
           "costs": {
@@ -776,6 +860,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 1.2",
           "upgradeAmount": 150,
           "upgradeTime": 360,
           "costs": {
@@ -785,6 +870,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 1.3",
           "upgradeAmount": 200,
           "upgradeTime": 720,
           "costs": {
@@ -795,6 +881,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 1.4",
           "upgradeAmount": 250,
           "upgradeTime": 1200,
           "costs": {
@@ -805,6 +892,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 1.5",
           "upgradeAmount": 300,
           "upgradeTime": 1800,
           "costs": {
@@ -817,11 +905,13 @@
       ]
     },
     "generate_kmarks_2": {
+      "inGameName": "Generate K-Marks 2",
       "type": "EYTechTreeNodePerkType::PassiveKMarkGenHour",
       "PQLevelRequired": 2,
       "tier": 2,
       "levels": [
         {
+          "inGameName": "Generate K-Marks 2.1",
           "upgradeAmount": 100,
           "upgradeTime": 2520,
           "costs": {
@@ -832,6 +922,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 2.2",
           "upgradeAmount": 200,
           "upgradeTime": 3360,
           "costs": {
@@ -842,6 +933,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 2.3",
           "upgradeAmount": 300,
           "upgradeTime": 4320,
           "costs": {
@@ -851,6 +943,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 2.4",
           "upgradeAmount": 400,
           "upgradeTime": 5400,
           "costs": {
@@ -861,6 +954,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 2.5",
           "upgradeAmount": 500,
           "upgradeTime": 6600,
           "costs": {
@@ -873,11 +967,13 @@
       ]
     },
     "generate_kmarks_3": {
+      "inGameName": "Generate K-Marks 5",
       "type": "EYTechTreeNodePerkType::PassiveKMarkGenHour",
       "PQLevelRequired": 5,
       "tier": 3,
       "levels": [
         {
+          "inGameName": "Generate K-Marks 5.1",
           "upgradeAmount": 200,
           "upgradeTime": 27720,
           "costs": {
@@ -888,6 +984,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 5.2",
           "upgradeAmount": 400,
           "upgradeTime": 30360,
           "costs": {
@@ -898,6 +995,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 5.3",
           "upgradeAmount": 600,
           "upgradeTime": 33120,
           "costs": {
@@ -908,6 +1006,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 5.4",
           "upgradeAmount": 800,
           "upgradeTime": 36000,
           "costs": {
@@ -918,6 +1017,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 5.5",
           "upgradeAmount": 1000,
           "upgradeTime": 39000,
           "costs": {
@@ -930,11 +1030,13 @@
       ]
     },
     "generate_kmarks_4": {
+      "inGameName": "Generate K-Marks 8",
       "type": "EYTechTreeNodePerkType::PassiveKMarkGenHour",
       "PQLevelRequired": 8,
       "tier": 4,
       "levels": [
         {
+          "inGameName": "Generate K-Marks 8.1",
           "upgradeAmount": 500,
           "upgradeTime": 98400,
           "costs": {
@@ -945,6 +1047,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 8.2",
           "upgradeAmount": 1000,
           "upgradeTime": 103320,
           "costs": {
@@ -955,6 +1058,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 8.3",
           "upgradeAmount": 1500,
           "upgradeTime": 108360,
           "costs": {
@@ -965,6 +1069,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 8.4",
           "upgradeAmount": 2000,
           "upgradeTime": 113520,
           "costs": {
@@ -975,6 +1080,7 @@
           }
         },
         {
+          "inGameName": "Generate K-Marks 8.5",
           "upgradeAmount": 2500,
           "upgradeTime": 118800,
           "costs": {
@@ -986,11 +1092,13 @@
       ]
     },
     "daily_crate_1": {
+      "inGameName": "Supply Crate Level 1",
       "type": "EYTechTreeNodePerkType::DailyCrate",
       "PQLevelRequired": 1,
       "tier": 1,
       "levels": [
         {
+          "inGameName": "Supply Crate Level 1.1",
           "upgradeAmount": 1,
           "upgradeTime": 5,
           "costs": {
@@ -998,6 +1106,7 @@
           }
         },
         {
+          "inGameName": "Supply Crate Level 1.2",
           "upgradeAmount": 2,
           "upgradeTime": 360,
           "costs": {
@@ -1009,11 +1118,13 @@
       ]
     },
     "daily_crate_2": {
+      "inGameName": "Supply Crate Level 3",
       "type": "EYTechTreeNodePerkType::DailyCrate",
       "PQLevelRequired": 3,
       "tier": 2,
       "levels": [
         {
+          "inGameName": "Supply Crate Level 3.1",
           "upgradeAmount": 1,
           "upgradeTime": 7920,
           "costs": {
@@ -1024,6 +1135,7 @@
           }
         },
         {
+          "inGameName": "Supply Crate Level 3.2",
           "upgradeAmount": 2,
           "upgradeTime": 9360,
           "costs": {
@@ -1036,11 +1148,13 @@
       ]
     },
     "daily_crate_3": {
+      "inGameName": "Supply Crate Level 5",
       "type": "EYTechTreeNodePerkType::DailyCrate",
       "PQLevelRequired": 5,
       "tier": 3,
       "levels": [
         {
+          "inGameName": "Supply Crate Level 5.1",
           "upgradeAmount": 1,
           "upgradeTime": 27720,
           "costs": {
@@ -1051,6 +1165,7 @@
           }
         },
         {
+          "inGameName": "Supply Crate Level 5.2",
           "upgradeAmount": 2,
           "upgradeTime": 30360,
           "costs": {
@@ -1063,11 +1178,13 @@
       ]
     },
     "daily_crate_4": {
+      "inGameName": "Supply Crate Level 7",
       "type": "EYTechTreeNodePerkType::DailyCrate",
       "PQLevelRequired": 7,
       "tier": 4,
       "levels": [
         {
+          "inGameName": "Supply Crate Level 7.1",
           "upgradeAmount": 1,
           "upgradeTime": 59520,
           "costs": {
@@ -1078,6 +1195,7 @@
           }
         },
         {
+          "inGameName": "Supply Crate Level 7.2",
           "upgradeAmount": 2,
           "upgradeTime": 63360,
           "costs": {
@@ -1090,11 +1208,13 @@
       ]
     },
     "kmarks_passive_cap_1": {
+      "inGameName": "K-Marks Generator Cap 1",
       "type": "EYTechTreeNodePerkType::IncreasePassiveKMarkGenCap",
       "PQLevelRequired": 1,
       "tier": 1,
       "levels": [
         {
+          "inGameName": "K-Marks Generator Cap 1.1",
           "upgradeAmount": 2500,
           "upgradeTime": 120,
           "costs": {
@@ -1104,6 +1224,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 1.2",
           "upgradeAmount": 5000,
           "upgradeTime": 600,
           "costs": {
@@ -1113,6 +1234,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 1.3",
           "upgradeAmount": 7500,
           "upgradeTime": 1200,
           "costs": {
@@ -1123,6 +1245,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 1.4",
           "upgradeAmount": 10000,
           "upgradeTime": 1800,
           "costs": {
@@ -1135,11 +1258,13 @@
       ]
     },
     "kmarks_passive_cap_2": {
+      "inGameName": "K-Marks Generator Cap 2",
       "type": "EYTechTreeNodePerkType::IncreasePassiveKMarkGenCap",
       "PQLevelRequired": 2,
       "tier": 2,
       "levels": [
         {
+          "inGameName": "K-Marks Generator Cap 2.1",
           "upgradeAmount": 5000,
           "upgradeTime": 2520,
           "costs": {
@@ -1150,6 +1275,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 2.2",
           "upgradeAmount": 10000,
           "upgradeTime": 3360,
           "costs": {
@@ -1160,6 +1286,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 2.3",
           "upgradeAmount": 15000,
           "upgradeTime": 4320,
           "costs": {
@@ -1170,6 +1297,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 2.4",
           "upgradeAmount": 20000,
           "upgradeTime": 5400,
           "costs": {
@@ -1180,6 +1308,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 2.5",
           "upgradeAmount": 25000,
           "upgradeTime": 6600,
           "costs": {
@@ -1192,11 +1321,13 @@
       ]
     },
     "kmarks_passive_cap_3": {
+      "inGameName": "K-Marks Generator Cap 5",
       "type": "EYTechTreeNodePerkType::IncreasePassiveKMarkGenCap",
       "PQLevelRequired": 5,
       "tier": 3,
       "levels": [
         {
+          "inGameName": "K-Marks Generator Cap 5.1",
           "upgradeAmount": 10000,
           "upgradeTime": 27720,
           "costs": {
@@ -1207,6 +1338,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 5.2",
           "upgradeAmount": 20000,
           "upgradeTime": 30360,
           "costs": {
@@ -1217,6 +1349,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 5.3",
           "upgradeAmount": 30000,
           "upgradeTime": 33120,
           "costs": {
@@ -1227,6 +1360,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 5.4",
           "upgradeAmount": 40000,
           "upgradeTime": 36000,
           "costs": {
@@ -1237,6 +1371,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 5.5",
           "upgradeAmount": 50000,
           "upgradeTime": 39000,
           "costs": {
@@ -1249,11 +1384,13 @@
       ]
     },
     "kmarks_passive_cap_4": {
+      "inGameName": "K-Marks Generator Cap 6",
       "type": "EYTechTreeNodePerkType::IncreasePassiveKMarkGenCap",
       "PQLevelRequired": 6,
       "tier": 4,
       "levels": [
         {
+          "inGameName": "K-Marks Generator Cap 6.1",
           "upgradeAmount": 20000,
           "upgradeTime": 98400,
           "costs": {
@@ -1264,6 +1401,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 6.2",
           "upgradeAmount": 40000,
           "upgradeTime": 103320,
           "costs": {
@@ -1274,6 +1412,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 6.3",
           "upgradeAmount": 60000,
           "upgradeTime": 108360,
           "costs": {
@@ -1284,6 +1423,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 6.4",
           "upgradeAmount": 80000,
           "upgradeTime": 113520,
           "costs": {
@@ -1294,6 +1434,7 @@
           }
         },
         {
+          "inGameName": "K-Marks Generator Cap 6.5",
           "upgradeAmount": 100000,
           "upgradeTime": 118800,
           "costs": {
@@ -1305,11 +1446,13 @@
       ]
     },
     "aurum_passive_cap_1": {
+      "inGameName": "Aurum Generator Cap 1",
       "type": "EYTechTreeNodePerkType::IncreasePassiveAurumGenCap",
       "PQLevelRequired": 1,
       "tier": 1,
       "levels": [
         {
+          "inGameName": "Aurum Generator Cap 1.1",
           "upgradeAmount": 1,
           "upgradeTime": 120,
           "costs": {
@@ -1319,6 +1462,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 1.2",
           "upgradeAmount": 2,
           "upgradeTime": 600,
           "costs": {
@@ -1328,6 +1472,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 1.3",
           "upgradeAmount": 3,
           "upgradeTime": 1200,
           "costs": {
@@ -1338,6 +1483,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 1.4",
           "upgradeAmount": 4,
           "upgradeTime": 1800,
           "costs": {
@@ -1350,11 +1496,13 @@
       ]
     },
     "aurum_passive_cap_2": {
+      "inGameName": "Aurum Generator Cap 4",
       "type": "EYTechTreeNodePerkType::IncreasePassiveAurumGenCap",
       "PQLevelRequired": 4,
       "tier": 2,
       "levels": [
         {
+          "inGameName": "Aurum Generator Cap 4.1",
           "upgradeAmount": 2,
           "upgradeTime": 16320,
           "costs": {
@@ -1365,6 +1513,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 4.2",
           "upgradeAmount": 3,
           "upgradeTime": 18360,
           "costs": {
@@ -1375,6 +1524,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 4.3",
           "upgradeAmount": 4,
           "upgradeTime": 20520,
           "costs": {
@@ -1385,6 +1535,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 4.4",
           "upgradeAmount": 5,
           "upgradeTime": 22800,
           "costs": {
@@ -1395,6 +1546,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 4.5",
           "upgradeAmount": 6,
           "upgradeTime": 25200,
           "costs": {
@@ -1407,11 +1559,13 @@
       ]
     },
     "aurum_passive_cap_3": {
+      "inGameName": "Aurum Generator Cap 7",
       "type": "EYTechTreeNodePerkType::IncreasePassiveAurumGenCap",
       "PQLevelRequired": 7,
       "tier": 3,
       "levels": [
         {
+          "inGameName": "Aurum Generator Cap 7.1",
           "upgradeAmount": 2,
           "upgradeTime": 59520,
           "costs": {
@@ -1422,6 +1576,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 7.2",
           "upgradeAmount": 3,
           "upgradeTime": 63360,
           "costs": {
@@ -1432,6 +1587,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 7.3",
           "upgradeAmount": 4,
           "upgradeTime": 67320,
           "costs": {
@@ -1442,6 +1598,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 7.4",
           "upgradeAmount": 5,
           "upgradeTime": 71400,
           "costs": {
@@ -1452,6 +1609,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 7.5",
           "upgradeAmount": 6,
           "upgradeTime": 75600,
           "costs": {
@@ -1464,11 +1622,13 @@
       ]
     },
     "aurum_passive_cap_4": {
+      "inGameName": "Aurum Generator Cap 10",
       "type": "EYTechTreeNodePerkType::IncreasePassiveAurumGenCap",
       "PQLevelRequired": 10,
       "tier": 4,
       "levels": [
         {
+          "inGameName": "Aurum Generator Cap 10.1",
           "upgradeAmount": 2,
           "upgradeTime": 129720,
           "costs": {
@@ -1479,6 +1639,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 10.2",
           "upgradeAmount": 3,
           "upgradeTime": 135360,
           "costs": {
@@ -1489,6 +1650,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 10.3",
           "upgradeAmount": 4,
           "upgradeTime": 141120,
           "costs": {
@@ -1499,6 +1661,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 10.4",
           "upgradeAmount": 5,
           "upgradeTime": 147000,
           "costs": {
@@ -1509,6 +1672,7 @@
           }
         },
         {
+          "inGameName": "Aurum Generator Cap 10.5",
           "upgradeAmount": 6,
           "upgradeTime": 153000,
           "costs": {
