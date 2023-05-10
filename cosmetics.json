@@ -215,6 +215,30 @@
       ],
       "priceHardCurrency": 850,
       "priceRealMoney": 0
+    },
+    "VDP_Cupcake": {
+      "ingamename": "Shop_Droppod_Operative",
+      "description": "Shop_Droppod_Operative",
+      "image": "Vanity_Droppod_Cupcake",
+      "shopImage": "Shop_Cupcake",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.DropPod"
+      ],
+      "priceHardCurrency": 850,
+      "priceRealMoney": 0
+    },
+    "VDP_Porcelain": {
+      "ingamename": "Shop_Droppod_Operative",
+      "description": "Shop_Droppod_Operative",
+      "image": "Vanity_Droppod_Porcelain",
+      "shopImage": "Shop_Porcelain",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.DropPod"
+      ],
+      "priceHardCurrency": 850,
+      "priceRealMoney": 0
     }
   },
   "Charms": {
@@ -3320,7 +3344,7 @@
       "ingamename": "Rebel Hammer",
       "description": "",
       "image": "Vanity_WeaponSkin_P_HammerGraffiti",
-      "shopImage": "",
+      "shopImage": "Shop_Hammer_Graffiti",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3336,7 +3360,7 @@
       "ingamename": "Fortuna Rush K-28",
       "description": "",
       "image": "Vanity_WeaponSkin_P_PistolEpsilonGoldrush",
-      "shopImage": "",
+      "shopImage": "Shop_K28_GoldRush",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3460,7 +3484,7 @@
       "ingamename": "Pioneer C-32 Bolt Action",
       "description": "",
       "image": "Vanity_WeaponSkin_P_BattleRifleEpsilonGoldrush",
-      "shopImage": "",
+      "shopImage": "Shop_C32BoltAction_GoldRush",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3476,7 +3500,7 @@
       "ingamename": "Prism-Blast Gorgon",
       "description": "",
       "image": "Vanity_WeaponSkin_P_GorgonVeltecite",
-      "shopImage": "",
+      "shopImage": "Shop_Gorgon_GoldRush",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3506,7 +3530,7 @@
       "ingamename": "Lost Gorgon",
       "description": "",
       "image": "Vanity_WeaponSkin_P_GorgonLost",
-      "shopImage": "",
+      "shopImage": "Shop_Gorgon_LostProspector",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3551,7 +3575,7 @@
       "ingamename": "Worn KOR-47",
       "description": "",
       "image": "Vanity_WeaponSkin_P_Kor47Rust",
-      "shopImage": "",
+      "shopImage": "Shop_KOR47_Rusty",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3566,7 +3590,7 @@
       "ingamename": "Hunter Advocate",
       "description": "",
       "image": "Vanity_WeaponSkin_P_AssaultRifleDelta01Bones",
-      "shopImage": "",
+      "shopImage": "Shop_Advocate_Bones",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3581,7 +3605,7 @@
       "ingamename": "Station Security Advocate",
       "description": "",
       "image": "Vanity_WeaponSkin_P_AdvocateWorn",
-      "shopImage": "",
+      "shopImage": "Shop_Advocate_Orange",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3596,7 +3620,7 @@
       "ingamename": "Hunter Lacerator",
       "description": "",
       "image": "Vanity_WeaponSkin_P_AssaultRifleDelta02Bones",
-      "shopImage": "",
+      "shopImage": "Shop_Lacerator_Bones",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3673,7 +3697,7 @@
       "ingamename": "Peace & Love Zeus",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ZeuzRainbow",
-      "shopImage": "",
+      "shopImage": "Shop_ZeusBeam_Rainbow",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3720,7 +3744,7 @@
       "ingamename": "Fortuna Rush S-576 PDW",
       "description": "",
       "image": "Vanity_WeaponSkin_P_SMGEpsilonGoldrush",
-      "shopImage": "",
+      "shopImage": "Shop_PDW_GoldRush",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3751,7 +3775,7 @@
       "ingamename": "Shardmaster KM-9 Scrapper",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ScrapperCrystal",
-      "shopImage": "",
+      "shopImage": "Shop_Scrapper_Crystal",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3766,7 +3790,7 @@
       "ingamename": "Zealhunter Asp Flechette Gun",
       "description": "",
       "image": "Vanity_WeaponSkin_P_SMGNeedlerZeal",
-      "shopImage": "",
+      "shopImage": "Shop_ASPFlechette_Zeal",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3798,7 +3822,7 @@
       "ingamename": "Executioner Voltaic Brute",
       "description": "",
       "image": "Vanity_WeaponSkin_P_BruteCarbon",
-      "shopImage": "",
+      "shopImage": "Shop_VoltaicBrute_BlackCarbon",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3828,7 +3852,7 @@
       "ingamename": "BLITZ KARMA-1",
       "description": "",
       "image": "Vanity_WeaponSkin_P_KarmaBlitz",
-      "shopImage": "",
+      "shopImage": "Shop_Karma_Blitz",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -3874,7 +3898,7 @@
       "ingamename": "Chilled Shattergun",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ShattergunFrozen",
-      "shopImage": "",
+      "shopImage": "Shop_Shattergun_Icy01",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4337,7 +4361,7 @@
       "ingamename": "Anubis Division Scarab",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ScarabAnubis",
-      "shopImage": "",
+      "shopImage": "Shop_Scarab_Anubis",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4353,7 +4377,7 @@
       "ingamename": "Anubis Division Gorgon",
       "description": "",
       "image": "Vanity_WeaponSkin_P_GorgonAnubis",
-      "shopImage": "",
+      "shopImage": "Shop_Gorgon_Anubis",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4368,7 +4392,7 @@
       "ingamename": "Anubis Division Phasic Lancer",
       "description": "",
       "image": "Vanity_WeaponSkin_P_LancerAnubis",
-      "shopImage": "",
+      "shopImage": "Shop_PhasicLancer_Anubis",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4399,7 +4423,7 @@
       "ingamename": "Anubis Division Zeus",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ZeuzAnubis",
-      "shopImage": "",
+      "shopImage": "Shop_ZeusBeam_Anubis",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4431,7 +4455,7 @@
       "ingamename": "Anubis Division Basilisk",
       "description": "",
       "image": "Vanity_WeaponSkin_P_BasiliskAnubis",
-      "shopImage": "",
+      "shopImage": "Shop_Basilisk_Anubis",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4472,7 +4496,7 @@
       "ingamename": "Frontier Spirit Bulldog",
       "description": "",
       "image": "Vanity_WeaponSkin_P_BulldogAmericana",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Bulldog_Americana",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4487,7 +4511,7 @@
       "ingamename": "Frontier Spirit Advocate",
       "description": "",
       "image": "Vanity_WeaponSkin_P_AssaultRifleDelta01Americana",
-      "shopImage": "",
+      "shopImage": "Shop_Advocate_Americana",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4548,7 +4572,7 @@
       "ingamename": "Frontier Spirit Kinetic Arbiter",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ArbiterAmericana",
-      "shopImage": "",
+      "shopImage": "Shop_KineticArbiter_Americana",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4563,7 +4587,7 @@
       "ingamename": "Frontier Spirit Shattergun",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ShattergunAmericana",
-      "shopImage": "",
+      "shopImage": "Shop_Shattergun_Americana",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4655,7 +4679,7 @@
       "ingamename": "Paladin Hammer",
       "description": "",
       "image": "Vanity_WeaponSkin_P_HammerPaladin",
-      "shopImage": "",
+      "shopImage": "Shop_Hammer_Paladin",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4671,7 +4695,7 @@
       "ingamename": "Paladin KBR Longshot",
       "description": "",
       "image": "Vanity_WeaponSkin_P_LongshotPaladin",
-      "shopImage": "",
+      "shopImage": "Shop_KBRLongshot_Paladin",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4702,7 +4726,7 @@
       "ingamename": "Paladin KOR-47",
       "description": "",
       "image": "Vanity_WeaponSkin_P_AssaultRifleAlpha01Paladin",
-      "shopImage": "",
+      "shopImage": "Shop_KOR47_Paladin",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4717,7 +4741,7 @@
       "ingamename": "Paladin KOMRAD",
       "description": "",
       "image": "Vanity_WeaponSkin_P_KomradPaladin",
-      "shopImage": "",
+      "shopImage": "Shop_Komrad_Paladin",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -4732,7 +4756,7 @@
       "ingamename": "Paladin KM-9 Scrapper",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ScrapperPaladin",
-      "shopImage": "",
+      "shopImage": "Shop_Scrapper_Paladin",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5040,7 +5064,7 @@
       "ingamename": "Korolev Officer KM-9 Scrapper",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ScrapperSeason02Reward",
-      "shopImage": "",
+      "shopImage": "Shop_Scrapper_VeteranExplorer",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5246,7 +5270,7 @@
       "ingamename": "Wildstyle KBR Longshot",
       "description": "Can be applied to any KBR Longshot you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LongshotGraffiti",
-      "shopImage": "",
+      "shopImage": "Shop_KBRLongshot_Grafitti",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5308,7 +5332,7 @@
       "ingamename": "Art Deco KOR-47",
       "description": "Can be applied to any KOR-47 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_AssaultRifleAlpha01ArtDeco",
-      "shopImage": "",
+      "shopImage": "Shop_KOR47_ArtDeco",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5417,7 +5441,7 @@
       "ingamename": "Art Deco Phasic Lancer",
       "description": "Can be applied to any Phasic Lancer you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LancerArtDeco",
-      "shopImage": "",
+      "shopImage": "Shop_PhasicLancer_ArtDeco",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5493,7 +5517,7 @@
       "ingamename": "Art Deco Lacerator",
       "description": "Can be applied to any Lacerator you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_LaceratorArtDeco",
-      "shopImage": "",
+      "shopImage": "Shop_Lacerator_ArtDeco",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5769,7 +5793,7 @@
       "ingamename": "Expedition Master Zeus",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ZeuzVeteran",
-      "shopImage": "",
+      "shopImage": "Shop_ZeusBeam_Veteran",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -6196,7 +6220,7 @@
       "ingamename": "Chrome Shattergun",
       "description": "A fine polish for a crude weapon.  Can be applied to any Shattergun you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_ShattergunChrome",
-      "shopImage": "",
+      "shopImage": "Shop_Shattergun_Chrome",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -6241,7 +6265,7 @@
       "ingamename": "Marshal KARMA-1",
       "description": "Can be applied to any KARMA-1 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_KarmaMarshal",
-      "shopImage": "",
+      "shopImage": "Shop_Karma_Marshal",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -6257,7 +6281,7 @@
       "ingamename": "Reaper Kinetic Arbiter",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ArbiterMuerta",
-      "shopImage": "",
+      "shopImage": "Shop_KineticArbiter_Muerta",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7226,7 +7250,7 @@
       "ingamename": "Vanity_AssaultRifle_OSI_Manticore_Kawaii",
       "description": "Vanity_AssaultRifle_OSI_Manticore_Kawaii",
       "image": "Vanity_WeaponSkin_P_AssaultNeedlerKawaii",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Manticore_Kawaii",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7242,7 +7266,7 @@
       "ingamename": "Vanity_AssaultRifle_COT_AR55_Kawaii",
       "description": "Vanity_AssaultRifle_COT_AR55_Kawaii",
       "image": "Vanity_WeaponSkin_P_AR55Kawaii",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_AR55_Kawaii",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7258,7 +7282,7 @@
       "ingamename": "Vanity_Pistol_OSI_Scarab_Kawaii",
       "description": "Vanity_Pistol_OSI_Scarab_Kawaii",
       "image": "Vanity_WeaponSkin_P_ScarabKawaii",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Scarab_Kawaii",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7597,7 +7621,7 @@
       "ingamename": "Vanity_Pistol_OSI_Scarab_Sunrise",
       "description": "Vanity_Pistol_OSI_Scarab_Sunrise",
       "image": "PlaceHolderAsset_Texture_M",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Scarab_Sunrise",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7767,10 +7791,10 @@
       ]
     },
     "Vanity_AssaultRifle_ICA_Advocate_HoneyFarmer": {
-      "ingamename": "5D430709467F752750796FB36C2B7CA0",
-      "description": "221A14D040AC18A6B20D40BE450876BA",
+      "ingamename": "Vanity_AssaultRifle_ICA_Advocate_HoneyFarmer",
+      "description": "Vanity_AssaultRifle_ICA_Advocate_HoneyFarmer",
       "image": "Vanity_WeaponSkin_P_AdvocateHoneyFarmer",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Advocate_HoneyFarmer",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7782,10 +7806,10 @@
       ]
     },
     "Vanity_MachineGun_ICA_Guarantee_HoneyFarmer": {
-      "ingamename": "Purchase {OfferName}",
-      "description": "",
+      "ingamename": "Vanity_MachineGun_ICA_Guarantee_HoneyFarmer",
+      "description": "Vanity_MachineGun_ICA_Guarantee_HoneyFarmer",
       "image": "Vanity_WeaponSkin_P_MachinegunHoneyFarmer",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_PhasicLancer_ArtDeco",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7795,6 +7819,21 @@
       "exclusiveWeapon": [
         "ICA Guarantee",
         "ICA Guarantee - Prototype"
+      ]
+    },
+    "Vanity_SniperRifle_ICA_KineticArbiter_HoneyFarmer": {
+      "ingamename": "Luxury Kinetic Arbiter",
+      "description": "A flash of gold, the last thing they'll ever see.  Can be applied to any Kinetic Arbiter you own. Owned skins are not lost on the surface.",
+      "image": "Vanity_WeaponSkin_P_ArbiterPrestige",
+      "shopImage": "Shop_PrestigKineticArbiter",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponSkin"
+      ],
+      "priceHardCurrency": 775,
+      "priceRealMoney": 0,
+      "exclusiveWeapon": [
+        "Kinetic Arbiter"
       ]
     }
   },
@@ -8451,7 +8490,7 @@
       "ingamename": "Shop_Melee_LaserBlade01",
       "description": "Shop_Melee_LaserBlade01",
       "image": "Items_Icon_Missing_256",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_LaserBlade",
       "rarity": "Epic",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8547,7 +8586,7 @@
       "ingamename": "Shop_Melee_DynamicBlade03",
       "description": "Shop_Melee_DynamicBlade03",
       "image": "Vanity_Melee_VelteciteDagger01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_VelteciteDagger",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8571,7 +8610,7 @@
       "ingamename": "Shop_Melee_HoneycombBoxCutter",
       "description": "Shop_Charm_HoneyComb",
       "image": "Vanity_Melee_Cutter03",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_CutterHoneycomb",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8583,7 +8622,7 @@
       "ingamename": "Shop_Melee_PunkBoxCutter",
       "description": "Shop_Melee_PunkBoxCutter",
       "image": "Vanity_Melee_Cutter02",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_CutterCutePink",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8643,7 +8682,7 @@
       "ingamename": "Shop_Melee_DynamicBlade01",
       "description": "Shop_Melee_DynamicBlade01",
       "image": "Vanity_Melee_Knife02_Plasma",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Plasmacutter",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8724,9 +8763,21 @@
       "priceRealMoney": 0
     },
     "Melee_Plasmacutter01": {
-      "ingamename": "Purchase {OfferName}",
-      "description": "",
+      "ingamename": "Shop_Melee_HoloBlade01",
+      "description": "Shop_Melee_HoloBlade01",
       "image": "PlaceholderTexture_Banner_M",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Rare",
+      "tags": [
+        "Vanity.Type.MeleeWeapon"
+      ],
+      "priceHardCurrency": 1375,
+      "priceRealMoney": 0
+    },
+    "Melee_StealthBlade_Laser": {
+      "ingamename": "Shop_Melee_LaserBlade02",
+      "description": "Shop_Melee_LaserBlade02",
+      "image": "PlaceHolderAsset_Texture_M",
       "shopImage": "Shop_Placeholder",
       "rarity": "Rare",
       "tags": [

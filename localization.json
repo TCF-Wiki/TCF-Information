@@ -7124,6 +7124,12 @@
     },
     "Settings_Device": {
       "name": "Selected Rendering Device"
+    },
+    "Settings_Restart_Header": {
+      "name": "Game restart needed"
+    },
+    "Settings_Restart_Message": {
+      "name": "Some changes will not be applied until you restart the game"
     }
   },
   "EULA": {
@@ -12992,7 +12998,7 @@
       "description": "A component used for certain weapons with heavy recoil."
     },
     "Material_ShockAbsorber_Location": {
-      "name": "Can be found in Dumpsters."
+      "name": "Can be found in Dumpsters. More common on harder Maps."
     },
     "Material_MiniReactor": {
       "name": "Miniature Reactor",
@@ -13020,7 +13026,7 @@
       "description": "A delicate yet powerful machine used for printing certain items."
     },
     "Material_ShardSlicer_Location": {
-      "name": "Can be found in Civilian Lockers within high danger areas."
+      "name": "Can be found in Civilian Lockers within high danger areas. More common on harder Maps."
     },
     "Material_MultiTool": {
       "name": "Salvaged CoTEC MultiTool",
@@ -13224,7 +13230,7 @@
       "description": "Multi purpose tool, handy for sticking things together or providing flexible insulation.  The warning label says to not use if you need a warning label."
     },
     "Material_Adhesive_Location": {
-      "name": "Can be found in Coolers and Civilian Lockers."
+      "name": "Can be found in Coolers and Civilian Lockers. More common on harder Maps."
     },
     "Material_RadioSpareParts": {
       "name": "Radio Equipment",
@@ -13294,7 +13300,7 @@
       "description": "A sealed self-powered container for exotic alien samples.  Scientists are always putting little things in jars and hoping for the best."
     },
     "Material_SampleContainer_Location": {
-      "name": "Can be found in Coolers and Civilian Lockers."
+      "name": "Can be found in Coolers and Civilian Lockers. More common on harder Maps."
     },
     "Material_AluminumParts": {
       "name": "Aluminum Scrap",
@@ -13343,7 +13349,7 @@
       "description": "The torn off head of a dead Strider.  Careful, it can still bite!"
     },
     "Material_StriderHead_Location": {
-      "name": "Generally found on Striders."
+      "name": "Generally found on Striders. More common during active Storms."
     },
     "Material_StriderHead_03": {
       "name": "Heavy Strider Head",
@@ -13357,35 +13363,35 @@
       "description": "The torn off head of a dead Rattler.  Corrosive drool everywhere, handle with gloves."
     },
     "Material_RattlerHead_Location": {
-      "name": "Often found in the vicinity of a Rattler."
+      "name": "Often found in the vicinity of a Rattler. More common during active Storms."
     },
     "Material_RattlerHead_02": {
       "name": "Mature Rattler Head",
       "description": "The torn off head of a dead Mature Rattler.  These things do NOT age gracefully..."
     },
     "Material_RattlerHead_02_Location": {
-      "name": "Mature Rattlers tend to have these."
+      "name": "Mature Rattlers tend to have these. More common during active Storms."
     },
     "Material_WeremoleHead": {
       "name": "Marauder Head",
       "description": "The torn off head of a dead Marauder.  The eyes still follow you around. Creepy."
     },
     "Material_WeremoleHead_Location": {
-      "name": "Often located on a Marauder."
+      "name": "Often located on a Marauder. More common during active Storms."
     },
     "Material_WeremoleHead_02": {
       "name": "Savage Marauder Head",
       "description": "The torn off head of a dead Savage Marauder.  It's still blinking. Menacingly."
     },
     "Material_WeremoleHead_02_Location": {
-      "name": "Savage Marauders sometimes lose these."
+      "name": "Savage Marauders sometimes lose these. More common during active Storms."
     },
     "Material_CrusherHead": {
       "name": "Crusher Head",
       "description": "The torn off head of a dead Crusher.  It's even uglier up close... Still, a fine trophy!"
     },
     "Material_CrusherHead_Location": {
-      "name": "Can generally be found by first locating a Crusher."
+      "name": "Can generally be found by first locating a Crusher.  More common during active Storms."
     },
     "Material_StriderMeat": {
       "name": "Strider Flesh",
@@ -13653,7 +13659,7 @@
       "description": "One of the deadly projectiles Howlers use to skewer prey from a distance. This one was still not fully formed and can be harvested for useful materials. Worth some coin to the right people."
     },
     "Material_AI_HowlerDart_Location": {
-      "name": "Occasionally dropped by dead Howlers."
+      "name": "Occasionally dropped by dead Howlers. More common during active Storms."
     },
     "Material_AI_HowlerGland_01": {
       "name": "Howler Ichor Gland",
@@ -13674,7 +13680,7 @@
       "description": "Effectively the 'vocal cords' that Howlers use to emit their iconic screams. Reaches a high price on the station."
     },
     "Material_AI_HowlerSyrinx_01_Location": {
-      "name": "Rarely dropped by dead Howlers."
+      "name": "Rarely dropped by dead Howlers. More common during active Storms."
     },
     "Material_AI_HowlerSyrinx_02": {
       "name": "Intact Howler Syrinx",
