@@ -14,7 +14,7 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -36,24 +36,44 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 600
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 600
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 600
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 600
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 600
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 600
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 600
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 600
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -75,14 +95,25 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 2700,
-        "PolymetallicPrefabricate": 2,
-        "PureNickel": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2700
+          },
+          "PolymetallicPrefabricate": {
+            "inGameName": "Polymetallic Prefabricate",
+            "amount": 2
+          },
+          "PureNickel": {
+            "inGameName": "Altered Nickel",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -104,15 +135,29 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 6100,
-        "Fabrics": 2,
-        "IvyPlant": 1,
-        "PureNickel": 3
+    "cost": {
+      "CraftingStation": {
+        "time": 5400,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 6100
+          },
+          "Fabrics": {
+            "inGameName": "Textiles",
+            "amount": 2
+          },
+          "IvyPlant": {
+            "inGameName": "Pale Ivy Blossom",
+            "amount": 1
+          },
+          "PureNickel": {
+            "inGameName": "Altered Nickel",
+            "amount": 3
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -134,15 +179,29 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 12000,
-        "SmartMesh": 1,
-        "DesertPlant": 1,
-        "TitanOre": 1
+    "cost": {
+      "CraftingStation": {
+        "time": 9000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 12000
+          },
+          "SmartMesh": {
+            "inGameName": "Smart Mesh",
+            "amount": 1
+          },
+          "DesertPlant": {
+            "inGameName": "Dustbloom",
+            "amount": 1
+          },
+          "TitanOre": {
+            "inGameName": "Titan Ore",
+            "amount": 1
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -164,7 +223,7 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -186,7 +245,7 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -208,7 +267,7 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -230,7 +289,7 @@
       "maxPrice": 100,
       "durabilityBrokenPriceModifier": 1
     },
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",

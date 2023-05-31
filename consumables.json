@@ -36,24 +36,44 @@
       "equipTime": 0.4,
       "spinupTime": 4
     },
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 90
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 90
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 90
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 90
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 90
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 90
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 90
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 90
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -97,19 +117,38 @@
       "equipTime": 0.4,
       "spinupTime": 4
     },
-    "cost": [
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 3000
+    "cost": {
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3000
+          }
+        }
       },
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 300,
-        "Antibiotics": 1,
-        "BrightcapMushroom": 1,
-        "WaterPlant": 1
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 300
+          },
+          "Antibiotics": {
+            "inGameName": "Old Medicine",
+            "amount": 1
+          },
+          "BrightcapMushroom": {
+            "inGameName": "Brightcap Mushroom",
+            "amount": 1
+          },
+          "WaterPlant": {
+            "inGameName": "Waterweed Filament",
+            "amount": 1
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "Main-Osiris-StrongStims-2",
@@ -153,24 +192,44 @@
       "equipTime": 0.4,
       "spinupTime": 9
     },
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 450
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 450
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 450
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 450
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -214,20 +273,42 @@
       "equipTime": 0.4,
       "spinupTime": 4
     },
-    "cost": [
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 4600
+    "cost": {
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 4600
+          }
+        }
       },
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 460,
-        "AI_HowlerPellet": 1,
-        "Antibiotics": 2,
-        "WaterPlant": 2,
-        "IvyPlant": 1
+      "CraftingStation": {
+        "time": 1080,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 460
+          },
+          "AI_HowlerPellet": {
+            "inGameName": "Howler Ichor Bulb",
+            "amount": 1
+          },
+          "Antibiotics": {
+            "inGameName": "Old Medicine",
+            "amount": 2
+          },
+          "WaterPlant": {
+            "inGameName": "Waterweed Filament",
+            "amount": 2
+          },
+          "IvyPlant": {
+            "inGameName": "Pale Ivy Blossom",
+            "amount": 1
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "Main-Osiris-CombatStims-3",
@@ -271,18 +352,34 @@
       "equipTime": 0.4,
       "spinupTime": 8
     },
-    "cost": [
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 3000
+    "cost": {
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3000
+          }
+        }
       },
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 300,
-        "AnaestheticsContainers": 1,
-        "BrightcapMushroom": 2
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 300
+          },
+          "AnaestheticsContainers": {
+            "inGameName": "Medical Supplies",
+            "amount": 1
+          },
+          "BrightcapMushroom": {
+            "inGameName": "Brightcap Mushroom",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "Main-Osiris-StrongMedkits-3",
@@ -326,20 +423,42 @@
       "equipTime": 0.4,
       "spinupTime": 7
     },
-    "cost": [
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 4600
+    "cost": {
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 4600
+          }
+        }
       },
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 460,
-        "AI_HowlerPellet": 1,
-        "AnaestheticsContainers": 2,
-        "WaterPlant": 3,
-        "IvyPlant": 1
+      "CraftingStation": {
+        "time": 1080,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 460
+          },
+          "AI_HowlerPellet": {
+            "inGameName": "Howler Ichor Bulb",
+            "amount": 1
+          },
+          "AnaestheticsContainers": {
+            "inGameName": "Medical Supplies",
+            "amount": 2
+          },
+          "WaterPlant": {
+            "inGameName": "Waterweed Filament",
+            "amount": 3
+          },
+          "IvyPlant": {
+            "inGameName": "Pale Ivy Blossom",
+            "amount": 1
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "Main-Osiris-TestRun-1",
@@ -378,12 +497,17 @@
       "equipTime": 0.4,
       "spinupTime": 0
     },
-    "cost": [
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 450
+    "cost": {
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -422,14 +546,25 @@
       "equipTime": 0.4,
       "spinupTime": 0
     },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 1000,
-        "NeuroToxicGlands": 1,
-        "SpareCasing": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1000
+          },
+          "NeuroToxicGlands": {
+            "inGameName": "Toxic Glands",
+            "amount": 1
+          },
+          "SpareCasing": {
+            "inGameName": "Hardened Metals",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -468,18 +603,34 @@
       "equipTime": 0.4,
       "spinupTime": 0
     },
-    "cost": [
-      {
-        "shop": "ICA",
-        "SoftCurrency": 2000
+    "cost": {
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2000
+          }
+        }
       },
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 200,
-        "Cables": 2,
-        "SpareCasing": 2
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 200
+          },
+          "Cables": {
+            "inGameName": "Electronic Cables",
+            "amount": 2
+          },
+          "SpareCasing": {
+            "inGameName": "Hardened Metals",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "Main-ICA-AudioDecoys-3",
@@ -518,14 +669,25 @@
       "equipTime": 0.6,
       "spinupTime": 0
     },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 1000,
-        "CopperWire": 2,
-        "SpareCasing": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1000
+          },
+          "CopperWire": {
+            "inGameName": "Copper Wire",
+            "amount": 2
+          },
+          "SpareCasing": {
+            "inGameName": "Hardened Metals",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -564,14 +726,25 @@
       "equipTime": 0.6,
       "spinupTime": 0
     },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 3000,
-        "AluminumParts": 1,
-        "MagneticFieldStabilizer": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 1080,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3000
+          },
+          "AluminumParts": {
+            "inGameName": "Aluminum Scrap",
+            "amount": 1
+          },
+          "MagneticFieldStabilizer": {
+            "inGameName": "Magnetic Field Stabilizer",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -610,15 +783,29 @@
       "equipTime": 0.6,
       "spinupTime": 0
     },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 6800,
-        "ChargedForgeIronIngot": 4,
-        "Alien_Scrap": 8,
-        "AI_HowlerDart": 1
+    "cost": {
+      "CraftingStation": {
+        "time": 3600,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 6800
+          },
+          "ChargedForgeIronIngot": {
+            "inGameName": "Charged Tharis Iron Ingot",
+            "amount": 4
+          },
+          "Alien_Scrap": {
+            "inGameName": "Progenitor Composite",
+            "amount": 8
+          },
+          "AI_HowlerDart": {
+            "inGameName": "Howler Dart",
+            "amount": 1
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -657,13 +844,21 @@
       "equipTime": 0.4,
       "spinupTime": 0
     },
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 10000,
-        "AI_HowlerDart": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 3600,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 10000
+          },
+          "AI_HowlerDart": {
+            "inGameName": "Howler Dart",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",

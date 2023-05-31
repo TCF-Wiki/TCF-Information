@@ -11,7 +11,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -30,13 +30,21 @@
     "sellValue": 570,
     "factionRep": 6,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 1100,
-        "CommonVeltecite": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1100
+          },
+          "CommonVeltecite": {
+            "inGameName": "Flawed Veltecite",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -55,13 +63,21 @@
     "sellValue": 855,
     "factionRep": 9,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 1700,
-        "UncommonVelticite": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 1080,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1700
+          },
+          "UncommonVelticite": {
+            "inGameName": "Cloudy Veltecite",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -80,13 +96,21 @@
     "sellValue": 1922,
     "factionRep": 19,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 3800,
-        "RareVeltecite": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3800
+          },
+          "RareVeltecite": {
+            "inGameName": "Clear Veltecite",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -105,7 +129,7 @@
     "sellValue": 6488,
     "factionRep": 65,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -124,7 +148,7 @@
     "sellValue": 769,
     "factionRep": 8,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -143,13 +167,21 @@
     "sellValue": 2307,
     "factionRep": 23,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 4600,
-        "FocusCrystal": 9
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 4600
+          },
+          "FocusCrystal": {
+            "inGameName": "Focus Crystal",
+            "amount": 9
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -168,7 +200,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -187,13 +219,21 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 680,
-        "Nickel": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 680
+          },
+          "Nickel": {
+            "inGameName": "Nickel",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -212,7 +252,7 @@
     "sellValue": 38924,
     "factionRep": 389,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -231,7 +271,7 @@
     "sellValue": 570,
     "factionRep": 6,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -250,13 +290,21 @@
     "sellValue": 855,
     "factionRep": 9,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 1700,
-        "BrittleTitanOre": 6
+    "cost": {
+      "CraftingStation": {
+        "time": 1080,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1700
+          },
+          "BrittleTitanOre": {
+            "inGameName": "Brittle Titan Ore",
+            "amount": 6
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -275,7 +323,7 @@
     "sellValue": 169,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -294,7 +342,7 @@
     "sellValue": 7594,
     "factionRep": 76,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -313,7 +361,7 @@
     "sellValue": 1013,
     "factionRep": 10,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -332,7 +380,7 @@
     "sellValue": 2532,
     "factionRep": 25,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -352,7 +400,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -371,7 +419,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -390,7 +438,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -409,15 +457,29 @@
     "sellValue": 1709,
     "factionRep": 17,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 3400,
-        "Cables": 4,
-        "MeteorFragment": 1,
-        "RadioSpareParts": 3
+    "cost": {
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3400
+          },
+          "Cables": {
+            "inGameName": "Electronic Cables",
+            "amount": 4
+          },
+          "MeteorFragment": {
+            "inGameName": "Meteor Fragment",
+            "amount": 1
+          },
+          "RadioSpareParts": {
+            "inGameName": "Radio Equipment",
+            "amount": 3
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -436,7 +498,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -455,7 +517,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -474,7 +536,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -493,7 +555,7 @@
     "sellValue": 2563,
     "factionRep": 26,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -513,7 +575,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -532,14 +594,25 @@
     "sellValue": 1709,
     "factionRep": 17,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 3400,
-        "IvyPlant": 3,
-        "SmartMesh": 1
+    "cost": {
+      "CraftingStation": {
+        "time": 360,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3400
+          },
+          "IvyPlant": {
+            "inGameName": "Pale Ivy Blossom",
+            "amount": 3
+          },
+          "SmartMesh": {
+            "inGameName": "Smart Mesh",
+            "amount": 1
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -558,7 +631,7 @@
     "sellValue": 1139,
     "factionRep": 11,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -578,7 +651,7 @@
     "sellValue": 1709,
     "factionRep": 17,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -598,7 +671,7 @@
     "sellValue": 507,
     "factionRep": 5,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -617,15 +690,29 @@
     "sellValue": 3845,
     "factionRep": 38,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 7700,
-        "CombatCPU_Blue": 3,
-        "MiniatureReactor": 1,
-        "MultiTool": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 7700
+          },
+          "CombatCPU_Blue": {
+            "inGameName": "Zero Systems CPU",
+            "amount": 3
+          },
+          "MiniatureReactor": {
+            "inGameName": "Miniature Reactor",
+            "amount": 1
+          },
+          "MultiTool": {
+            "inGameName": "Salvaged CoTEC MultiTool",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -644,7 +731,7 @@
     "sellValue": 2025,
     "factionRep": 20,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -663,7 +750,7 @@
     "sellValue": 760,
     "factionRep": 8,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -682,15 +769,29 @@
     "sellValue": 3845,
     "factionRep": 38,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 7700,
-        "AluminumParts": 5,
-        "ShockAbsorber": 1,
-        "BallBearings": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 7700
+          },
+          "AluminumParts": {
+            "inGameName": "Aluminum Scrap",
+            "amount": 5
+          },
+          "ShockAbsorber": {
+            "inGameName": "Shock Absorber",
+            "amount": 1
+          },
+          "BallBearings": {
+            "inGameName": "Ball Bearings",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -709,7 +810,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -728,7 +829,7 @@
     "sellValue": 1709,
     "factionRep": 17,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -747,7 +848,7 @@
     "sellValue": 1,
     "factionRep": 0,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -766,7 +867,7 @@
     "sellValue": 507,
     "factionRep": 5,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -786,7 +887,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -805,7 +906,7 @@
     "sellValue": 228,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -824,7 +925,7 @@
     "sellValue": 769,
     "factionRep": 8,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -843,7 +944,7 @@
     "sellValue": 427,
     "factionRep": 4,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -862,7 +963,7 @@
     "sellValue": 760,
     "factionRep": 8,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -881,7 +982,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -901,7 +1002,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -920,7 +1021,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -939,7 +1040,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -959,7 +1060,7 @@
     "sellValue": 1709,
     "factionRep": 17,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -978,7 +1079,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -997,7 +1098,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1016,7 +1117,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1036,16 +1137,33 @@
     "sellValue": 3845,
     "factionRep": 38,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 7700,
-        "PolymetallicPrefabricate": 8,
-        "MagneticFieldStabilizer": 5,
-        "Datapad": 2,
-        "SamplingDevice": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 7700
+          },
+          "PolymetallicPrefabricate": {
+            "inGameName": "Polymetallic Prefabricate",
+            "amount": 8
+          },
+          "MagneticFieldStabilizer": {
+            "inGameName": "Magnetic Field Stabilizer",
+            "amount": 5
+          },
+          "Datapad": {
+            "inGameName": "Interactive Screen",
+            "amount": 2
+          },
+          "SamplingDevice": {
+            "inGameName": "Biological Sampler",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1064,7 +1182,7 @@
     "sellValue": 150,
     "factionRep": 2,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1083,7 +1201,7 @@
     "sellValue": 338,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1102,7 +1220,7 @@
     "sellValue": 1139,
     "factionRep": 11,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1121,7 +1239,7 @@
     "sellValue": 760,
     "factionRep": 8,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1140,7 +1258,7 @@
     "sellValue": 507,
     "factionRep": 5,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1159,7 +1277,7 @@
     "sellValue": 1013,
     "factionRep": 10,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1179,7 +1297,7 @@
     "sellValue": 507,
     "factionRep": 5,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1198,7 +1316,7 @@
     "sellValue": 507,
     "factionRep": 5,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1217,7 +1335,7 @@
     "sellValue": 300,
     "factionRep": 3,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1236,7 +1354,7 @@
     "sellValue": 450,
     "factionRep": 5,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1255,7 +1373,7 @@
     "sellValue": 900,
     "factionRep": 9,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1274,7 +1392,7 @@
     "sellValue": 6812,
     "factionRep": 68,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1293,7 +1411,7 @@
     "sellValue": 15570,
     "factionRep": 156,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1312,7 +1430,7 @@
     "sellValue": 38924,
     "factionRep": 389,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1331,7 +1449,7 @@
     "sellValue": 97310,
     "factionRep": 973,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1351,7 +1469,7 @@
     "sellValue": 518986,
     "factionRep": 5190,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1370,7 +1488,7 @@
     "sellValue": 675,
     "factionRep": 7,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1389,7 +1507,7 @@
     "sellValue": 1519,
     "factionRep": 15,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1408,7 +1526,7 @@
     "sellValue": 5126,
     "factionRep": 51,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1427,7 +1545,7 @@
     "sellValue": 17300,
     "factionRep": 173,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1446,7 +1564,7 @@
     "sellValue": 675,
     "factionRep": 7,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1465,7 +1583,7 @@
     "sellValue": 3417,
     "factionRep": 34,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1484,7 +1602,7 @@
     "sellValue": 11533,
     "factionRep": 115,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1503,7 +1621,7 @@
     "sellValue": 129747,
     "factionRep": 1297,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1523,7 +1641,7 @@
     "sellValue": 760,
     "factionRep": 8,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1543,7 +1661,7 @@
     "sellValue": 10,
     "factionRep": 0,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1563,7 +1681,7 @@
     "sellValue": 10,
     "factionRep": 0,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1583,7 +1701,7 @@
     "sellValue": 10,
     "factionRep": 0,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1602,7 +1720,7 @@
     "sellValue": 11533,
     "factionRep": 115,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1621,7 +1739,7 @@
     "sellValue": 20183,
     "factionRep": 202,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1640,7 +1758,7 @@
     "sellValue": 5126,
     "factionRep": 51,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1659,7 +1777,7 @@
     "sellValue": 5126,
     "factionRep": 51,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1678,7 +1796,7 @@
     "sellValue": 11533,
     "factionRep": 115,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1697,7 +1815,7 @@
     "sellValue": 52548,
     "factionRep": 525,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1716,7 +1834,7 @@
     "sellValue": 52548,
     "factionRep": 525,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1735,7 +1853,7 @@
     "sellValue": 116772,
     "factionRep": 1168,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1754,7 +1872,7 @@
     "sellValue": 7689,
     "factionRep": 77,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1773,7 +1891,7 @@
     "sellValue": 46132,
     "factionRep": 461,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1792,7 +1910,7 @@
     "sellValue": 77848,
     "factionRep": 778,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1811,7 +1929,7 @@
     "sellValue": 103797,
     "factionRep": 1038,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1830,7 +1948,7 @@
     "sellValue": 129747,
     "factionRep": 1297,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1849,7 +1967,7 @@
     "sellValue": 1538,
     "factionRep": 15,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1868,7 +1986,7 @@
     "sellValue": 1025,
     "factionRep": 10,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1887,7 +2005,7 @@
     "sellValue": 2307,
     "factionRep": 23,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1906,7 +2024,7 @@
     "sellValue": 3845,
     "factionRep": 38,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1925,7 +2043,7 @@
     "sellValue": 8650,
     "factionRep": 87,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1944,7 +2062,7 @@
     "sellValue": 12975,
     "factionRep": 130,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1963,7 +2081,7 @@
     "sellValue": 1709,
     "factionRep": 17,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -1982,7 +2100,7 @@
     "sellValue": 51899,
     "factionRep": 519,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2001,7 +2119,7 @@
     "sellValue": 12975,
     "factionRep": 130,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2020,7 +2138,7 @@
     "sellValue": 2563,
     "factionRep": 26,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2039,7 +2157,7 @@
     "sellValue": 760,
     "factionRep": 8,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2058,15 +2176,29 @@
     "sellValue": 4936,
     "factionRep": 5,
     "questItem": true,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 49000,
-        "SmartMesh": 2,
-        "Cables": 18,
-        "KorolevScrip": 80
+    "cost": {
+      "CraftingStation": {
+        "time": 18000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 49000
+          },
+          "SmartMesh": {
+            "inGameName": "Smart Mesh",
+            "amount": 2
+          },
+          "Cables": {
+            "inGameName": "Electronic Cables",
+            "amount": 18
+          },
+          "KorolevScrip": {
+            "inGameName": "Korolev Scrip",
+            "amount": 80
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [
         {
@@ -2090,12 +2222,17 @@
     "sellValue": 30,
     "factionRep": 0,
     "questItem": true,
-    "cost": [
-      {
-        "shop": "ICA",
-        "SoftCurrency": 300
+    "cost": {
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 300
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2114,7 +2251,7 @@
     "sellValue": 1013,
     "factionRep": 1,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2133,7 +2270,7 @@
     "sellValue": 2531,
     "factionRep": 3,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2152,7 +2289,7 @@
     "sellValue": 6075,
     "factionRep": 6,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2171,7 +2308,7 @@
     "sellValue": 10252,
     "factionRep": 10,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2190,7 +2327,7 @@
     "sellValue": 34,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2209,16 +2346,33 @@
     "sellValue": 4936,
     "factionRep": 5,
     "questItem": true,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 49000,
-        "DerelictExplosives": 3,
-        "Datapad": 4,
-        "HardDrive_legendary": 1,
-        "OsirisScrip": 80
+    "cost": {
+      "CraftingStation": {
+        "time": 18000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 49000
+          },
+          "DerelictExplosives": {
+            "inGameName": "Derelict Explosives",
+            "amount": 3
+          },
+          "Datapad": {
+            "inGameName": "Interactive Screen",
+            "amount": 4
+          },
+          "HardDrive_legendary": {
+            "inGameName": "Data Drive Tier 5",
+            "amount": 1
+          },
+          "OsirisScrip": {
+            "inGameName": "Osiris Scrip",
+            "amount": 80
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2237,15 +2391,29 @@
     "sellValue": 987,
     "factionRep": 1,
     "questItem": true,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 49000,
-        "HydraulicPiston": 12,
-        "AluminumParts": 12,
-        "ICAScrip": 80
+    "cost": {
+      "CraftingStation": {
+        "time": 18000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 49000
+          },
+          "HydraulicPiston": {
+            "inGameName": "Hydraulic Piston",
+            "amount": 12
+          },
+          "AluminumParts": {
+            "inGameName": "Aluminum Scrap",
+            "amount": 12
+          },
+          "ICAScrip": {
+            "inGameName": "ICA Scrip",
+            "amount": 80
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2264,7 +2432,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2283,7 +2451,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2302,7 +2470,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2321,7 +2489,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2340,7 +2508,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2359,7 +2527,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2378,7 +2546,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2397,7 +2565,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2416,7 +2584,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2435,7 +2603,7 @@
     "sellValue": 15,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2454,7 +2622,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2473,7 +2641,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2492,7 +2660,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2511,7 +2679,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2530,7 +2698,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2549,7 +2717,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2568,7 +2736,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2587,7 +2755,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2606,7 +2774,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2625,7 +2793,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2644,7 +2812,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2663,7 +2831,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2682,7 +2850,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2701,7 +2869,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2720,7 +2888,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2739,7 +2907,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2758,7 +2926,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2777,7 +2945,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2796,7 +2964,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2815,7 +2983,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2834,7 +3002,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2851,7 +3019,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2868,7 +3036,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2885,7 +3053,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2902,7 +3070,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2919,7 +3087,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2936,7 +3104,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2953,7 +3121,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2970,7 +3138,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -2987,7 +3155,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3004,7 +3172,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3021,7 +3189,7 @@
     "sellValue": 2,
     "factionRep": 0,
     "questItem": true,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3040,24 +3208,44 @@
     "sellValue": 76,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 350
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 350
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 350
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 350
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 350
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 350
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 350
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 350
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3076,24 +3264,44 @@
     "sellValue": 87,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 390
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 390
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 390
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 390
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 390
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 390
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 390
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 390
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3112,24 +3320,44 @@
     "sellValue": 186,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 840
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 840
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 840
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 840
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 840
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 840
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 840
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 840
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3148,24 +3376,44 @@
     "sellValue": 124,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 560
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 560
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 560
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 560
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 560
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 560
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 560
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 560
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3184,7 +3432,7 @@
     "sellValue": 83,
     "factionRep": 0,
     "questItem": false,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3203,24 +3451,44 @@
     "sellValue": 362,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 1600
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1600
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 1600
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1600
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 1600
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1600
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 1600
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1600
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3239,24 +3507,44 @@
     "sellValue": 390,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 1800
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1800
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 1800
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1800
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 1800
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1800
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 1800
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 1800
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3275,24 +3563,44 @@
     "sellValue": 696,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 3200
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3200
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 3200
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3200
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 3200
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3200
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 3200
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3200
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3311,24 +3619,44 @@
     "sellValue": 432,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 2000
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2000
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 2000
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2000
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 2000
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2000
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 2000
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2000
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3347,24 +3675,44 @@
     "sellValue": 835,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 3800
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3800
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 3800
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3800
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 3800
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3800
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 3800
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3800
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3383,24 +3731,44 @@
     "sellValue": 961,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 4400
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 4400
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 4400
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 4400
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 4400
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 4400
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 4400
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 4400
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3419,24 +3787,44 @@
     "sellValue": 1879,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 8500
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 8500
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 8500
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 8500
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 8500
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 8500
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 8500
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 8500
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3455,13 +3843,21 @@
     "sellValue": 1645,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 7500,
-        "KorolevScrip": 1
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 7500
+          },
+          "KorolevScrip": {
+            "inGameName": "Korolev Scrip",
+            "amount": 1
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -3480,13 +3876,21 @@
     "sellValue": 1109,
     "factionRep": 0,
     "questItem": false,
-    "cost": [
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 5000,
-        "OsirisScrip": 1
+    "cost": {
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 5000
+          },
+          "OsirisScrip": {
+            "inGameName": "Osiris Scrip",
+            "amount": 1
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",

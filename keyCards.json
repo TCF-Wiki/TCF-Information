@@ -11,7 +11,7 @@
     "sellValue": 1013,
     "factionRep": 1,
     "durability": 2,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -30,13 +30,21 @@
     "sellValue": 1013,
     "factionRep": 1,
     "durability": 2,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 3400,
-        "KorolevScrip": 3
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3400
+          },
+          "KorolevScrip": {
+            "inGameName": "Korolev Scrip",
+            "amount": 3
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [
         {
@@ -60,7 +68,7 @@
     "sellValue": 450,
     "factionRep": 0,
     "durability": 3,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -79,13 +87,21 @@
     "sellValue": 1013,
     "factionRep": 1,
     "durability": 2,
-    "cost": [
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 3400,
-        "OsirisScrip": 3
+    "cost": {
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 3400
+          },
+          "OsirisScrip": {
+            "inGameName": "Osiris Scrip",
+            "amount": 3
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [
         {
@@ -109,7 +125,7 @@
     "sellValue": 450,
     "factionRep": 0,
     "durability": 3,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -128,7 +144,7 @@
     "sellValue": 1519,
     "factionRep": 2,
     "durability": 2,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -147,7 +163,7 @@
     "sellValue": 1519,
     "factionRep": 2,
     "durability": 1,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -166,7 +182,7 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -185,7 +201,7 @@
     "sellValue": 1013,
     "factionRep": 1,
     "durability": 6,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [
         {
@@ -209,13 +225,21 @@
     "sellValue": 3038,
     "factionRep": 3,
     "durability": 1,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 10000,
-        "KorolevScrip": 6
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 10000
+          },
+          "KorolevScrip": {
+            "inGameName": "Korolev Scrip",
+            "amount": 6
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [
         {
@@ -239,13 +263,21 @@
     "sellValue": 3038,
     "factionRep": 3,
     "durability": 1,
-    "cost": [
-      {
-        "shop": "ICA",
-        "SoftCurrency": 10000,
-        "ICAScrip": 6
+    "cost": {
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 10000
+          },
+          "ICAScrip": {
+            "inGameName": "ICA Scrip",
+            "amount": 6
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [
         {
@@ -269,7 +301,7 @@
     "sellValue": 1013,
     "factionRep": 1,
     "durability": 3,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -288,7 +320,7 @@
     "sellValue": 10252,
     "factionRep": 10,
     "durability": 1,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -307,7 +339,7 @@
     "sellValue": 1519,
     "factionRep": 2,
     "durability": 2,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -326,7 +358,7 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -345,7 +377,7 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -364,13 +396,21 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": [
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 15000,
-        "OsirisScrip": 9
+    "cost": {
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 15000
+          },
+          "OsirisScrip": {
+            "inGameName": "Osiris Scrip",
+            "amount": 9
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "Main-Osiris-Caverns-10",
@@ -389,7 +429,7 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -408,13 +448,21 @@
     "sellValue": 4556,
     "factionRep": 5,
     "durability": 1,
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 15000,
-        "KorolevScrip": 9
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 15000
+          },
+          "KorolevScrip": {
+            "inGameName": "Korolev Scrip",
+            "amount": 9
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "Main-KOR-Caverns-2",
@@ -434,14 +482,25 @@
     "sellValue": 5126,
     "factionRep": 5,
     "durability": 3,
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 17000,
-        "Alien_Scrap": 20,
-        "ForgeIron": 10
+    "cost": {
+      "CraftingStation": {
+        "time": 10800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 17000
+          },
+          "Alien_Scrap": {
+            "inGameName": "Progenitor Composite",
+            "amount": 20
+          },
+          "ForgeIron": {
+            "inGameName": "Tharis Iron",
+            "amount": 10
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",

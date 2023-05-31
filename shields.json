@@ -15,7 +15,7 @@
       "durabilityBrokenPriceModifier": 1
     },
     "perks": [],
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -38,24 +38,44 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 450
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 450
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 450
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 450
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 450
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -78,14 +98,25 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 2000,
-        "PolymetallicPrefabricate": 2,
-        "GenericCreatureDrop": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2000
+          },
+          "PolymetallicPrefabricate": {
+            "inGameName": "Polymetallic Prefabricate",
+            "amount": 2
+          },
+          "GenericCreatureDrop": {
+            "inGameName": "Spinal Base",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -108,15 +139,29 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 15000,
-        "CombatCPU_Blue": 2,
-        "UncommonVelticite": 2,
-        "AI_RattlerSkin": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 5400,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 15000
+          },
+          "CombatCPU_Blue": {
+            "inGameName": "Zero Systems CPU",
+            "amount": 2
+          },
+          "UncommonVelticite": {
+            "inGameName": "Cloudy Veltecite",
+            "amount": 2
+          },
+          "AI_RattlerSkin": {
+            "inGameName": "Rattler Skin",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -139,15 +184,29 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "TitanOre": 1,
-        "HardenedBoneAlloy": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 9000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 39000
+          },
+          "SmartMesh": {
+            "inGameName": "Smart Mesh",
+            "amount": 2
+          },
+          "TitanOre": {
+            "inGameName": "Titan Ore",
+            "amount": 1
+          },
+          "HardenedBoneAlloy": {
+            "inGameName": "Hardened Bone Plates",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -170,15 +229,29 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "AI_CrusherSkin": 3,
-        "AI_HowlerDart": 2
+    "cost": {
+      "CraftingStation": {
+        "time": 18000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 79000
+          },
+          "PrintResin": {
+            "inGameName": "Print Resin",
+            "amount": 6
+          },
+          "AI_CrusherSkin": {
+            "inGameName": "Crusher Hide",
+            "amount": 3
+          },
+          "AI_HowlerDart": {
+            "inGameName": "Howler Dart",
+            "amount": 2
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -214,24 +287,44 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "Korolev",
-        "SoftCurrency": 680
+    "cost": {
+      "Korolev": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 680
+          }
+        }
       },
-      {
-        "shop": "Osiris",
-        "SoftCurrency": 680
+      "Osiris": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 680
+          }
+        }
       },
-      {
-        "shop": "ICA",
-        "SoftCurrency": 680
+      "ICA": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 680
+          }
+        }
       },
-      {
-        "shop": "QuickShop",
-        "SoftCurrency": 680
+      "QuickShop": {
+        "time": 0,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 680
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -267,15 +360,29 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 2000,
-        "PolymetallicPrefabricate": 2,
-        "WaterPlant": 2,
-        "GenericCreatureDrop": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2000
+          },
+          "PolymetallicPrefabricate": {
+            "inGameName": "Polymetallic Prefabricate",
+            "amount": 2
+          },
+          "WaterPlant": {
+            "inGameName": "Waterweed Filament",
+            "amount": 2
+          },
+          "GenericCreatureDrop": {
+            "inGameName": "Spinal Base",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -311,15 +418,29 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 15000,
-        "CombatCPU_Blue": 2,
-        "IvyPlant": 2,
-        "AI_RattlerSkin": 8
+    "cost": {
+      "CraftingStation": {
+        "time": 5400,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 15000
+          },
+          "CombatCPU_Blue": {
+            "inGameName": "Zero Systems CPU",
+            "amount": 2
+          },
+          "IvyPlant": {
+            "inGameName": "Pale Ivy Blossom",
+            "amount": 2
+          },
+          "AI_RattlerSkin": {
+            "inGameName": "Rattler Skin",
+            "amount": 8
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -355,15 +476,29 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "DesertPlant": 2,
-        "HardenedBoneAlloy": 3
+    "cost": {
+      "CraftingStation": {
+        "time": 9000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 39000
+          },
+          "SmartMesh": {
+            "inGameName": "Smart Mesh",
+            "amount": 2
+          },
+          "DesertPlant": {
+            "inGameName": "Dustbloom",
+            "amount": 2
+          },
+          "HardenedBoneAlloy": {
+            "inGameName": "Hardened Bone Plates",
+            "amount": 3
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -399,16 +534,33 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "AI_CrusherSkin": 3,
-        "AI_HowlerDart": 2,
-        "CombatCPU_Blue": 3
+    "cost": {
+      "CraftingStation": {
+        "time": 18000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 79000
+          },
+          "PrintResin": {
+            "inGameName": "Print Resin",
+            "amount": 6
+          },
+          "AI_CrusherSkin": {
+            "inGameName": "Crusher Hide",
+            "amount": 3
+          },
+          "AI_HowlerDart": {
+            "inGameName": "Howler Dart",
+            "amount": 2
+          },
+          "CombatCPU_Blue": {
+            "inGameName": "Zero Systems CPU",
+            "amount": 3
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -444,15 +596,29 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 2000,
-        "PolymetallicPrefabricate": 2,
-        "BrightcapMushroom": 2,
-        "GenericCreatureDrop": 5
+    "cost": {
+      "CraftingStation": {
+        "time": 1800,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 2000
+          },
+          "PolymetallicPrefabricate": {
+            "inGameName": "Polymetallic Prefabricate",
+            "amount": 2
+          },
+          "BrightcapMushroom": {
+            "inGameName": "Brightcap Mushroom",
+            "amount": 2
+          },
+          "GenericCreatureDrop": {
+            "inGameName": "Spinal Base",
+            "amount": 5
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -488,15 +654,29 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 15000,
-        "CombatCPU_Blue": 2,
-        "RadioactiveBrightcapMushroom": 2,
-        "AI_RattlerSkin": 8
+    "cost": {
+      "CraftingStation": {
+        "time": 5400,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 15000
+          },
+          "CombatCPU_Blue": {
+            "inGameName": "Zero Systems CPU",
+            "amount": 2
+          },
+          "RadioactiveBrightcapMushroom": {
+            "inGameName": "Glowy Brightcap Mushroom",
+            "amount": 2
+          },
+          "AI_RattlerSkin": {
+            "inGameName": "Rattler Skin",
+            "amount": 8
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -532,15 +712,29 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 39000,
-        "SmartMesh": 2,
-        "RadioactiveBrightcapMushroom": 5,
-        "HardenedBoneAlloy": 3
+    "cost": {
+      "CraftingStation": {
+        "time": 9000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 39000
+          },
+          "SmartMesh": {
+            "inGameName": "Smart Mesh",
+            "amount": 2
+          },
+          "RadioactiveBrightcapMushroom": {
+            "inGameName": "Glowy Brightcap Mushroom",
+            "amount": 5
+          },
+          "HardenedBoneAlloy": {
+            "inGameName": "Hardened Bone Plates",
+            "amount": 3
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -576,16 +770,33 @@
         ]
       }
     ],
-    "cost": [
-      {
-        "shop": "CraftingStation",
-        "SoftCurrency": 79000,
-        "PrintResin": 6,
-        "AI_CrusherSkin": 3,
-        "AI_HowlerDart": 2,
-        "AI_HowlerPellet": 3
+    "cost": {
+      "CraftingStation": {
+        "time": 18000,
+        "items": {
+          "SoftCurrency": {
+            "inGameName": "K-Marks",
+            "amount": 79000
+          },
+          "PrintResin": {
+            "inGameName": "Print Resin",
+            "amount": 6
+          },
+          "AI_CrusherSkin": {
+            "inGameName": "Crusher Hide",
+            "amount": 3
+          },
+          "AI_HowlerDart": {
+            "inGameName": "Howler Dart",
+            "amount": 2
+          },
+          "AI_HowlerPellet": {
+            "inGameName": "Howler Ichor Bulb",
+            "amount": 3
+          }
+        }
       }
-    ],
+    },
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -608,7 +819,7 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -631,7 +842,7 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
@@ -654,7 +865,7 @@
       "durabilityBrokenPriceModifier": 0.5
     },
     "perks": [],
-    "cost": [],
+    "cost": {},
     "unlock": {
       "factions": [],
       "contractToPurchase": "None",
