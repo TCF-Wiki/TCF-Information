@@ -34,7 +34,12 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "UncommonVelticite": {
+          "inGameName": "Cloudy Veltecite",
+          "amount": 5
+        }
+      },
       "forge": {}
     }
   },
@@ -92,7 +97,32 @@
           "amount": 4
         }
       },
-      "printing": {},
+      "printing": {
+        "RareVeltecite": {
+          "inGameName": "Clear Veltecite",
+          "amount": 5
+        },
+        "Shield_03": {
+          "inGameName": "Reinforced Shields",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Recoil_03": {
+          "inGameName": "Small Muzzle Brake",
+          "amount": 2
+        },
+        "Mod_Muzzle_Standard_Recoil_03": {
+          "inGameName": "Medium Muzzle Brake",
+          "amount": 2
+        },
+        "Mod_Converter_Light_AIDMG_01": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 2
+        },
+        "Mod_Converter_Medium_AIDMG_01": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -183,7 +213,60 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "EpicVeltecite": {
+          "inGameName": "Pure Veltecite",
+          "amount": 5
+        },
+        "Mod_Magazine_Light_03": {
+          "inGameName": "Light Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_03": {
+          "inGameName": "Medium Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Heavy_03": {
+          "inGameName": "Heavy Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Shotgun_03": {
+          "inGameName": "Shotgun Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Light_ReloadSpeed_04": {
+          "inGameName": "Light Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_Reloadspeed_04": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_04": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Light_EXTReload_02": {
+          "inGameName": "Light Extended Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_EXTReload_02": {
+          "inGameName": "Medium Extended Quickdraw",
+          "amount": 1
+        },
+        "Mod_ForeGrip_ADS_02": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 1
+        },
+        "Mod_ForeGrip_ADS_03": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -266,7 +349,12 @@
           "amount": 3
         }
       },
-      "printing": {},
+      "printing": {
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -380,7 +468,12 @@
           "amount": 19
         }
       },
-      "printing": {},
+      "printing": {
+        "PureFocusCrystal": {
+          "inGameName": "Pure Focus Crystal",
+          "amount": 9
+        }
+      },
       "forge": {
         "Perk_StormProtection": {
           "inGameName": "Less damage from Storm strikes",
@@ -528,7 +621,12 @@
           "amount": 8
         }
       },
-      "printing": {},
+      "printing": {
+        "PureNickel": {
+          "inGameName": "Altered Nickel",
+          "amount": 5
+        }
+      },
       "forge": {}
     }
   },
@@ -590,7 +688,32 @@
           "amount": 4
         }
       },
-      "printing": {},
+      "printing": {
+        "Bag_02": {
+          "inGameName": "Medium Backpack",
+          "amount": 2
+        },
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 3
+        },
+        "Mod_Converter_Light_01": {
+          "inGameName": "Light Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Medium_01": {
+          "inGameName": "Medium Converter",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Recoil_03": {
+          "inGameName": "Small Muzzle Brake",
+          "amount": 2
+        },
+        "Mod_Muzzle_Standard_Recoil_03": {
+          "inGameName": "Medium Muzzle Brake",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -665,7 +788,44 @@
           "amount": 10
         }
       },
-      "printing": {},
+      "printing": {
+        "TitanOre": {
+          "inGameName": "Titan Ore",
+          "amount": 6
+        },
+        "Mod_Converter_Light_01": {
+          "inGameName": "Light Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Medium_01": {
+          "inGameName": "Medium Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Heavy_01": {
+          "inGameName": "Heavy Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Shotgun_01": {
+          "inGameName": "Shotgun Converter",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_03": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_02": {
+          "inGameName": "Marksman Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_ADS_01": {
+          "inGameName": "MKM Tactical Stock",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -736,7 +896,40 @@
           "amount": 2
         }
       },
-      "printing": {},
+      "printing": {
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        },
+        "Shield_04": {
+          "inGameName": "Combat Shields",
+          "amount": 1
+        },
+        "Mod_Converter_Light_03": {
+          "inGameName": "Light Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_03": {
+          "inGameName": "Medium Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_03": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_03": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_AIProtection": {
           "inGameName": "Less damage from hostile fauna attacks",
@@ -789,7 +982,24 @@
         }
       },
       "quarters": {},
-      "printing": {},
+      "printing": {
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_05": {
+          "inGameName": "Strong Medkit",
+          "amount": 2
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Standard Restorative Shields",
+          "amount": 2
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Standard Restorative Helmet",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -862,7 +1072,24 @@
           "amount": 3
         }
       },
-      "printing": {},
+      "printing": {
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 10
+        },
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 10
+        },
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 10
+        },
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 4
+        }
+      },
       "forge": {
         "Perk_MaxCapacity": {
           "inGameName": "Extra backpack capacity",
@@ -940,7 +1167,20 @@
           "amount": 6
         }
       },
-      "printing": {},
+      "printing": {
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_StormProtection": {
           "inGameName": "Less damage from Storm strikes",
@@ -1073,7 +1313,20 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "Mod_Stock_Standard_02": {
+          "inGameName": "Standard Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Standard_ADS_01": {
+          "inGameName": "Tactical Stock",
+          "amount": 2
+        },
+        "Mod_RearGrip_ADS_02": {
+          "inGameName": "Tactical Rear Grip",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1142,7 +1395,44 @@
           "amount": 3
         }
       },
-      "printing": {},
+      "printing": {
+        "Consumable_GasGrenade_01": {
+          "inGameName": "Gas Grenade",
+          "amount": 2
+        },
+        "Consumable_AudioDecoy_01": {
+          "inGameName": "Audio Decoy",
+          "amount": 2
+        },
+        "Consumable_Grenade_02": {
+          "inGameName": "Light Grenade",
+          "amount": 2
+        },
+        "Helmet_02": {
+          "inGameName": "Standard Helmet",
+          "amount": 2
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Standard Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Standard Restorative Helmet",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_01": {
+          "inGameName": "Heavy Extended",
+          "amount": 1
+        },
+        "Mod_Magazine_Shotgun_01": {
+          "inGameName": "Shotgun Extended",
+          "amount": 1
+        },
+        "Mod_Optic_1x_02": {
+          "inGameName": "Holographic Sight",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1207,7 +1497,28 @@
           "amount": 11
         }
       },
-      "printing": {},
+      "printing": {
+        "Mod_Optic_4x_01": {
+          "inGameName": "4x Optic",
+          "amount": 2
+        },
+        "Mod_Optic_1x_02": {
+          "inGameName": "Holographic Sight",
+          "amount": 1
+        },
+        "Mod_Optic_Variable_01": {
+          "inGameName": "2 - 4x Variable Optic",
+          "amount": 3
+        },
+        "Mod_Optic_8x_01": {
+          "inGameName": "8x Optic",
+          "amount": 3
+        },
+        "Mod_Optic_6x_01": {
+          "inGameName": "6x Optic",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -1290,7 +1601,20 @@
           "amount": 18
         }
       },
-      "printing": {},
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 3
+        },
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 20
+        },
+        "Mod_Converter_Shotgun_03": {
+          "inGameName": "Shotgun Converter",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -1355,7 +1679,28 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 8
+        },
+        "Bag_02": {
+          "inGameName": "Medium Backpack",
+          "amount": 2
+        },
+        "Shield_02": {
+          "inGameName": "Standard Shields",
+          "amount": 2
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Standard Tactical Shields",
+          "amount": 2
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Standard Restorative Shields",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1424,7 +1769,40 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "Mod_Magazine_Light_01": {
+          "inGameName": "Light Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_01": {
+          "inGameName": "Medium Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_01": {
+          "inGameName": "Heavy Extended",
+          "amount": 3
+        },
+        "Mod_Magazine_Shotgun_01": {
+          "inGameName": "Shotgun Extended",
+          "amount": 3
+        },
+        "Mod_Magazine_Light_ReloadSpeed_03": {
+          "inGameName": "Light Quickdraw",
+          "amount": 3
+        },
+        "Mod_Magazine_Medium_Reloadspeed_03": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 3
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_03": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 4
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 4
+        }
+      },
       "forge": {}
     }
   },
@@ -1489,7 +1867,88 @@
           "amount": 3
         }
       },
-      "printing": {},
+      "printing": {
+        "QuestItem_OilPumpBeacon": {
+          "inGameName": "Oil Pump Beacon",
+          "amount": 12
+        },
+        "Mod_Magazine_Light_03": {
+          "inGameName": "Light Extended",
+          "amount": 5
+        },
+        "Mod_Muzzle_Small_Supressor_01": {
+          "inGameName": "Small Suppressor",
+          "amount": 5
+        },
+        "Mod_Muzzle_Standard_Supressor_01": {
+          "inGameName": "Medium Suppressor",
+          "amount": 5
+        },
+        "Mod_Magazine_Medium_03": {
+          "inGameName": "Medium Extended",
+          "amount": 5
+        },
+        "Mod_Magazine_Heavy_03": {
+          "inGameName": "Heavy Extended",
+          "amount": 5
+        },
+        "Mod_Magazine_Shotgun_03": {
+          "inGameName": "Shotgun Extended",
+          "amount": 5
+        },
+        "Mod_Magazine_Light_ReloadSpeed_04": {
+          "inGameName": "Light Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Medium_Reloadspeed_04": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_04": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Light_EXTReload_02": {
+          "inGameName": "Light Extended Quickdraw",
+          "amount": 5
+        },
+        "Mod_Magazine_Medium_EXTReload_02": {
+          "inGameName": "Medium Extended Quickdraw",
+          "amount": 5
+        },
+        "Mod_Converter_Light_03": {
+          "inGameName": "Light Converter",
+          "amount": 5
+        },
+        "Mod_Converter_Medium_03": {
+          "inGameName": "Medium Converter",
+          "amount": 5
+        },
+        "Mod_Converter_Heavy_03": {
+          "inGameName": "Heavy Converter",
+          "amount": 5
+        },
+        "Mod_Converter_Shotgun_03": {
+          "inGameName": "Shotgun Converter",
+          "amount": 5
+        },
+        "Mod_Converter_Light_AIDMG_03": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 5
+        },
+        "Mod_Converter_Medium_AIDMG_03": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 5
+        },
+        "Mod_ForeGrip_ADS_03": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 5
+        }
+      },
       "forge": {}
     }
   },
@@ -1554,7 +2013,24 @@
           "amount": 1
         }
       },
-      "printing": {},
+      "printing": {
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 3
+        },
+        "Helmet_05": {
+          "inGameName": "Enhanced Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Enhanced Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Enhanced Restorative Helmet",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1616,7 +2092,20 @@
           "amount": 12
         }
       },
-      "printing": {},
+      "printing": {
+        "AutoLoader": {
+          "inGameName": "Autoloader",
+          "amount": 5
+        },
+        "Mod_Converter_Heavy_01": {
+          "inGameName": "Heavy Converter",
+          "amount": 2
+        },
+        "Mod_Converter_Shotgun_01": {
+          "inGameName": "Shotgun Converter",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1686,7 +2175,48 @@
           "amount": 1
         }
       },
-      "printing": {},
+      "printing": {
+        "Shield_05": {
+          "inGameName": "Enhanced Shields",
+          "amount": 6
+        },
+        "Shield_Tactical_05": {
+          "inGameName": "Enhanced Tactical Shields",
+          "amount": 6
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Enhanced Restorative Shields",
+          "amount": 6
+        },
+        "Mod_Optic_4x_01": {
+          "inGameName": "4x Optic",
+          "amount": 1
+        },
+        "Mod_Magazine_Light_ReloadSpeed_03": {
+          "inGameName": "Light Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_Reloadspeed_03": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 1
+        },
+        "Mod_ForeGrip_ADS_02": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 1
+        },
+        "Mod_Optic_Variable_01": {
+          "inGameName": "2 - 4x Variable Optic",
+          "amount": 2
+        },
+        "Mod_Optic_8x_01": {
+          "inGameName": "8x Optic",
+          "amount": 2
+        },
+        "Mod_Optic_6x_01": {
+          "inGameName": "6x Optic",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1747,7 +2277,60 @@
           "amount": 8
         }
       },
-      "printing": {},
+      "printing": {
+        "CombatCPU_red": {
+          "inGameName": "Master Unit CPU",
+          "amount": 2
+        },
+        "Mod_Magazine_Light_03": {
+          "inGameName": "Light Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_03": {
+          "inGameName": "Medium Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_03": {
+          "inGameName": "Heavy Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Shotgun_03": {
+          "inGameName": "Shotgun Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Light_ReloadSpeed_04": {
+          "inGameName": "Light Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_Reloadspeed_04": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Heavy_ReloadSpeed_04": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_04": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Light_EXTReload_02": {
+          "inGameName": "Light Extended Quickdraw",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_EXTReload_02": {
+          "inGameName": "Medium Extended Quickdraw",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_ADSEquip_02": {
+          "inGameName": "MKM Ultralight Stock",
+          "amount": 2
+        },
+        "Mod_ForeGrip_ADS_03": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -1883,7 +2466,36 @@
           "amount": 12
         }
       },
-      "printing": {},
+      "printing": {
+        "CombatCPU_red": {
+          "inGameName": "Master Unit CPU",
+          "amount": 3
+        },
+        "Shield_03": {
+          "inGameName": "Reinforced Shields",
+          "amount": 2
+        },
+        "Shield_Tactical_03": {
+          "inGameName": "Reinforced Tactical Shields",
+          "amount": 2
+        },
+        "Shield_Tactical_05": {
+          "inGameName": "Enhanced Tactical Shields",
+          "amount": 3
+        },
+        "Shield_Restoration_02": {
+          "inGameName": "Reinforced Restorative Shields",
+          "amount": 2
+        },
+        "Mod_Magazine_Light_ReloadSpeed_03": {
+          "inGameName": "Light Quickdraw",
+          "amount": 1
+        },
+        "Mod_Magazine_Medium_Reloadspeed_03": {
+          "inGameName": "Medium Quickdraw",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -2055,7 +2667,16 @@
           "amount": 4
         }
       },
-      "printing": {},
+      "printing": {
+        "CombatCPU_red": {
+          "inGameName": "Master Unit CPU",
+          "amount": 1
+        },
+        "Mod_Stock_Standard_ADSEquip_02": {
+          "inGameName": "Ultralight Stock",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_StaminaRegenDelay_Storm": {
           "inGameName": "Stamina regenerates without delay during a Storm",
@@ -2117,7 +2738,20 @@
           "amount": 1
         }
       },
-      "printing": {},
+      "printing": {
+        "AutoLoader": {
+          "inGameName": "Autoloader",
+          "amount": 1
+        },
+        "Mod_Stock_Standard_ADSEquip_02": {
+          "inGameName": "Ultralight Stock",
+          "amount": 1
+        },
+        "Mod_Stock_Marksman_ADSEquip_02": {
+          "inGameName": "MKM Ultralight Stock",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -2178,7 +2812,32 @@
         }
       },
       "quarters": {},
-      "printing": {},
+      "printing": {
+        "Mod_Converter_Light_03": {
+          "inGameName": "Light Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_03": {
+          "inGameName": "Medium Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Heavy_03": {
+          "inGameName": "Heavy Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Shotgun_03": {
+          "inGameName": "Shotgun Converter",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_03": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_03": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -2259,7 +2918,28 @@
           "amount": 10
         }
       },
-      "printing": {},
+      "printing": {
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 5
+        },
+        "Consumable_Grenade_03": {
+          "inGameName": "Standard Grenade",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Recoil_03": {
+          "inGameName": "Small Muzzle Brake",
+          "amount": 3
+        },
+        "Mod_Muzzle_Standard_Recoil_03": {
+          "inGameName": "Medium Muzzle Brake",
+          "amount": 3
+        },
+        "Mod_Converter_Heavy_03": {
+          "inGameName": "Heavy Converter",
+          "amount": 5
+        }
+      },
       "forge": {}
     }
   },
@@ -2324,7 +3004,32 @@
           "amount": 9
         }
       },
-      "printing": {},
+      "printing": {
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 2
+        },
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 4
+        },
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 25
+        },
+        "Helmet_Tactical_03": {
+          "inGameName": "Reinforced Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Combat Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Enhanced Tactical Helmet",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -2457,7 +3162,28 @@
         }
       },
       "quarters": {},
-      "printing": {},
+      "printing": {
+        "Shield_Restoration_02": {
+          "inGameName": "Reinforced Restorative Shields",
+          "amount": 2
+        },
+        "Shield_Restoration_03": {
+          "inGameName": "Combat Restorative Shields",
+          "amount": 5
+        },
+        "Helmet_Restoration_02": {
+          "inGameName": "Reinforced Restorative Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Combat Restorative Helmet",
+          "amount": 3
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Enhanced Restorative Helmet",
+          "amount": 5
+        }
+      },
       "forge": {
         "Perk_HealthRegen": {
           "inGameName": "Health restoration per second",
@@ -2524,7 +3250,24 @@
           "amount": 8
         }
       },
-      "printing": {},
+      "printing": {
+        "Mod_Stock_Standard_02": {
+          "inGameName": "Standard Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Standard_ADS_01": {
+          "inGameName": "Tactical Stock",
+          "amount": 2
+        },
+        "Mod_Stock_Marksman_02": {
+          "inGameName": "Marksman Stock",
+          "amount": 3
+        },
+        "Mod_Stock_Marksman_ADS_01": {
+          "inGameName": "MKM Tactical Stock",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -2585,7 +3328,24 @@
           "amount": 3
         }
       },
-      "printing": {},
+      "printing": {
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 2
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 3
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Standard Tactical Shields",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -2642,7 +3402,16 @@
           "amount": 4
         }
       },
-      "printing": {},
+      "printing": {
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        },
+        "Shield_Tactical_04": {
+          "inGameName": "Combat Tactical Shields",
+          "amount": 2
+        }
+      },
       "forge": {
         "Perk_HealthRegen": {
           "inGameName": "Health restoration per second",
@@ -2708,7 +3477,28 @@
           "amount": 6
         }
       },
-      "printing": {},
+      "printing": {
+        "PrintResin": {
+          "inGameName": "Print Resin",
+          "amount": 3
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 1
+        },
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 1
+        },
+        "Shield_Tactical_03": {
+          "inGameName": "Reinforced Tactical Shields",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -2806,7 +3596,12 @@
           "amount": 11
         }
       },
-      "printing": {},
+      "printing": {
+        "Bag_03": {
+          "inGameName": "Large Backpack",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -2871,7 +3666,24 @@
           "amount": 15
         }
       },
-      "printing": {},
+      "printing": {
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 4
+        },
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 18
+        },
+        "Consumable_AudioDecoy_01": {
+          "inGameName": "Audio Decoy",
+          "amount": 2
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Standard Tactical Helmet",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -2927,7 +3739,16 @@
           "amount": 21
         }
       },
-      "printing": {},
+      "printing": {
+        "Mod_Magazine_Light_01": {
+          "inGameName": "Light Extended",
+          "amount": 2
+        },
+        "Mod_Magazine_Medium_01": {
+          "inGameName": "Medium Extended",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -2992,7 +3813,12 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "Consumable_Grenade_02": {
+          "inGameName": "Light Grenade",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3053,7 +3879,40 @@
           "amount": 2
         }
       },
-      "printing": {},
+      "printing": {
+        "PrintResin": {
+          "inGameName": "Print Resin",
+          "amount": 1
+        },
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 2
+        },
+        "Bag_04": {
+          "inGameName": "Heavy Duty Backpack",
+          "amount": 1
+        },
+        "Shield_04": {
+          "inGameName": "Combat Shields",
+          "amount": 2
+        },
+        "Shield_Tactical_04": {
+          "inGameName": "Combat Tactical Shields",
+          "amount": 2
+        },
+        "Shield_Restoration_03": {
+          "inGameName": "Combat Restorative Shields",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Supressor_01": {
+          "inGameName": "Small Suppressor",
+          "amount": 1
+        },
+        "Mod_Muzzle_Standard_Supressor_01": {
+          "inGameName": "Medium Suppressor",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -3145,7 +4004,16 @@
           "amount": 15
         }
       },
-      "printing": {},
+      "printing": {
+        "Mod_Magazine_Heavy_ReloadSpeed_03": {
+          "inGameName": "Heavy Quickdraw",
+          "amount": 3
+        },
+        "Mod_Magazine_Shotgun_ReloadSpeed_03": {
+          "inGameName": "Shotgun Quickdraw",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -3213,7 +4081,24 @@
           "amount": 15
         }
       },
-      "printing": {},
+      "printing": {
+        "DerelictExplosives": {
+          "inGameName": "Derelict Explosives",
+          "amount": 3
+        },
+        "Helmet_04": {
+          "inGameName": "Combat Helmet",
+          "amount": 4
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Combat Tactical Helmet",
+          "amount": 5
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Combat Restorative Helmet",
+          "amount": 5
+        }
+      },
       "forge": {}
     }
   },
@@ -3253,7 +4138,16 @@
         }
       },
       "quarters": {},
-      "printing": {},
+      "printing": {
+        "Consumable_Health_02": {
+          "inGameName": "Strong Stim",
+          "amount": 1
+        },
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3498,7 +4392,12 @@
           "amount": 6
         }
       },
-      "printing": {},
+      "printing": {
+        "PortableLabEquipmentBox": {
+          "inGameName": "Portable Lab",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3546,7 +4445,16 @@
           "amount": 20
         }
       },
-      "printing": {},
+      "printing": {
+        "Consumable_Health_05": {
+          "inGameName": "Strong Medkit",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -3753,7 +4661,40 @@
           "amount": 4
         }
       },
-      "printing": {},
+      "printing": {
+        "AutoLoader": {
+          "inGameName": "Autoloader",
+          "amount": 5
+        },
+        "QuestItem_OilPumpBeacon": {
+          "inGameName": "Oil Pump Beacon",
+          "amount": 12
+        },
+        "Consumable_Grenade_03": {
+          "inGameName": "Standard Grenade",
+          "amount": 1
+        },
+        "Helmet_03": {
+          "inGameName": "Reinforced Helmet",
+          "amount": 2
+        },
+        "Helmet_Tactical_03": {
+          "inGameName": "Reinforced Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_02": {
+          "inGameName": "Reinforced Restorative Helmet",
+          "amount": 2
+        },
+        "Mod_Muzzle_Small_Supressor_01": {
+          "inGameName": "Small Suppressor",
+          "amount": 3
+        },
+        "Mod_Muzzle_Standard_Supressor_01": {
+          "inGameName": "Medium Suppressor",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -3814,7 +4755,40 @@
           "amount": 6
         }
       },
-      "printing": {},
+      "printing": {
+        "Shield_02": {
+          "inGameName": "Standard Shields",
+          "amount": 5
+        },
+        "Shield_Tactical_02": {
+          "inGameName": "Standard Tactical Shields",
+          "amount": 5
+        },
+        "Shield_Restoration_01": {
+          "inGameName": "Standard Restorative Shields",
+          "amount": 5
+        },
+        "Helmet_02": {
+          "inGameName": "Standard Helmet",
+          "amount": 5
+        },
+        "Helmet_Tactical_02": {
+          "inGameName": "Standard Tactical Helmet",
+          "amount": 4
+        },
+        "Helmet_Restoration_01": {
+          "inGameName": "Standard Restorative Helmet",
+          "amount": 4
+        },
+        "Mod_Converter_Light_AIDMG_01": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 3
+        },
+        "Mod_Converter_Medium_AIDMG_01": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 3
+        }
+      },
       "forge": {}
     }
   },
@@ -3943,7 +4917,20 @@
         }
       },
       "quarters": {},
-      "printing": {},
+      "printing": {
+        "Consumable_GasGrenade_01": {
+          "inGameName": "Gas Grenade",
+          "amount": 1
+        },
+        "Mod_Converter_Light_AIDMG_02": {
+          "inGameName": "Light Creature Dmg",
+          "amount": 1
+        },
+        "Mod_Converter_Medium_AIDMG_02": {
+          "inGameName": "Medium Creature Dmg",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_StaminaConsumption": {
           "inGameName": "Less stamina consumption",
@@ -4272,7 +5259,12 @@
           "amount": 3
         }
       },
-      "printing": {},
+      "printing": {
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 8
+        }
+      },
       "forge": {}
     }
   },
@@ -4328,7 +5320,40 @@
           "amount": 3
         }
       },
-      "printing": {},
+      "printing": {
+        "Shield_03": {
+          "inGameName": "Reinforced Shields",
+          "amount": 5
+        },
+        "Shield_Tactical_03": {
+          "inGameName": "Reinforced Tactical Shields",
+          "amount": 8
+        },
+        "Shield_Restoration_02": {
+          "inGameName": "Reinforced Restorative Shields",
+          "amount": 8
+        },
+        "Helmet_03": {
+          "inGameName": "Reinforced Helmet",
+          "amount": 2
+        },
+        "Helmet_Tactical_03": {
+          "inGameName": "Reinforced Tactical Helmet",
+          "amount": 2
+        },
+        "Helmet_Restoration_02": {
+          "inGameName": "Reinforced Restorative Helmet",
+          "amount": 2
+        },
+        "Mod_ForeGrip_ADS_02": {
+          "inGameName": "Tactical Foregrip",
+          "amount": 2
+        },
+        "Mod_RearGrip_ADS_02": {
+          "inGameName": "Tactical Rear Grip",
+          "amount": 2
+        }
+      },
       "forge": {}
     }
   },
@@ -4401,7 +5426,32 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "Shield_04": {
+          "inGameName": "Combat Shields",
+          "amount": 2
+        },
+        "Shield_Tactical_04": {
+          "inGameName": "Combat Tactical Shields",
+          "amount": 3
+        },
+        "Shield_Restoration_03": {
+          "inGameName": "Combat Restorative Shields",
+          "amount": 3
+        },
+        "Helmet_04": {
+          "inGameName": "Combat Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_04": {
+          "inGameName": "Combat Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_03": {
+          "inGameName": "Combat Restorative Helmet",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_AIProtection": {
           "inGameName": "Less damage from hostile fauna attacks",
@@ -4459,7 +5509,32 @@
           "amount": 6
         }
       },
-      "printing": {},
+      "printing": {
+        "Shield_05": {
+          "inGameName": "Enhanced Shields",
+          "amount": 3
+        },
+        "Shield_Tactical_05": {
+          "inGameName": "Enhanced Tactical Shields",
+          "amount": 3
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Enhanced Restorative Shields",
+          "amount": 3
+        },
+        "Helmet_05": {
+          "inGameName": "Enhanced Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Enhanced Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Enhanced Restorative Helmet",
+          "amount": 1
+        }
+      },
       "forge": {
         "Perk_Armor_Helmet": {
           "inGameName": "Extra armor",
@@ -4520,7 +5595,20 @@
           "amount": 2
         }
       },
-      "printing": {},
+      "printing": {
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 3
+        },
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 3
+        },
+        "Helmet_NV_01": {
+          "inGameName": "NV Helmet",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -4787,7 +5875,12 @@
           "amount": 292
         }
       },
-      "printing": {},
+      "printing": {
+        "QuestItem_LaserDrillBeacon": {
+          "inGameName": "Laser Drill Beacon",
+          "amount": 80
+        }
+      },
       "forge": {}
     }
   },
@@ -4984,7 +6077,12 @@
           "amount": 292
         }
       },
-      "printing": {},
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 80
+        }
+      },
       "forge": {}
     }
   },
@@ -5169,7 +6267,12 @@
           "amount": 292
         }
       },
-      "printing": {},
+      "printing": {
+        "QuestItem_OilPumpBeacon": {
+          "inGameName": "Oil Pump Beacon",
+          "amount": 80
+        }
+      },
       "forge": {}
     }
   },
@@ -5222,7 +6325,12 @@
           "amount": 135
         }
       },
-      "printing": {},
+      "printing": {
+        "WP_A_Sniper_Gauss_01": {
+          "inGameName": "KARMA-1",
+          "amount": 75
+        }
+      },
       "forge": {
         "Recipe02": {
           "inGameName": "Recipe02",
@@ -5284,7 +6392,12 @@
           "amount": 53
         }
       },
-      "printing": {},
+      "printing": {
+        "WP_A_Launch_MSL_01": {
+          "inGameName": "KOMRAD",
+          "amount": 30
+        }
+      },
       "forge": {}
     }
   },
@@ -5429,7 +6542,12 @@
           "amount": 4
         }
       },
-      "printing": {},
+      "printing": {
+        "WP_G_HVY_Beam_01": {
+          "inGameName": "Zeus Beam",
+          "amount": 10
+        }
+      },
       "forge": {
         "Perk_MaxHealth": {
           "inGameName": "Maximum health",
@@ -5565,7 +6683,40 @@
           "amount": 2
         }
       },
-      "printing": {},
+      "printing": {
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
+          "amount": 1
+        },
+        "HowlerGrenade_01": {
+          "inGameName": "Howler Grenade",
+          "amount": 2
+        },
+        "Shield_05": {
+          "inGameName": "Enhanced Shields",
+          "amount": 2
+        },
+        "Shield_Tactical_05": {
+          "inGameName": "Enhanced Tactical Shields",
+          "amount": 2
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Enhanced Restorative Shields",
+          "amount": 2
+        },
+        "Helmet_05": {
+          "inGameName": "Enhanced Helmet",
+          "amount": 1
+        },
+        "Helmet_Tactical_05": {
+          "inGameName": "Enhanced Tactical Helmet",
+          "amount": 1
+        },
+        "Helmet_Restoration_04": {
+          "inGameName": "Enhanced Restorative Helmet",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
@@ -5726,7 +6877,20 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "Consumable_Health_04": {
+          "inGameName": "Combat Stim",
+          "amount": 1
+        },
+        "Consumable_Health_06": {
+          "inGameName": "Combat Medkit",
+          "amount": 1
+        },
+        "Shield_Restoration_04": {
+          "inGameName": "Enhanced Restorative Shields",
+          "amount": 3
+        }
+      },
       "forge": {
         "Perk_HealingAmount": {
           "inGameName": "Bonus to Stim and Medkit healing",
@@ -5783,7 +6947,12 @@
         }
       },
       "quarters": {},
-      "printing": {},
+      "printing": {
+        "Map03_KeyCard_04_AlienCorridor": {
+          "inGameName": "Progenitor Corridor Key",
+          "amount": 10
+        }
+      },
       "forge": {
         "Recipe01": {
           "inGameName": "Recipe01",
@@ -5917,7 +7086,12 @@
           "amount": 2
         }
       },
-      "printing": {},
+      "printing": {
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
+          "amount": 4
+        }
+      },
       "forge": {}
     }
   },
@@ -6200,7 +7374,16 @@
           "amount": 5
         }
       },
-      "printing": {},
+      "printing": {
+        "Consumable_Grenade_05": {
+          "inGameName": "Assault Grenade",
+          "amount": 8
+        },
+        "Map03_KeyCard_04_AlienCorridor": {
+          "inGameName": "Progenitor Corridor Key",
+          "amount": 20
+        }
+      },
       "forge": {
         "Perk_WeightConsumablesAmmo": {
           "inGameName": "Reduced weight of ammo and consumables carried in backpack",
@@ -6488,7 +7671,12 @@
         }
       },
       "quarters": {},
-      "printing": {},
+      "printing": {
+        "QuestItem_OrbitalCanonTargetBeacon": {
+          "inGameName": "Orbital Cannon Beacon",
+          "amount": 1
+        }
+      },
       "forge": {}
     }
   },
