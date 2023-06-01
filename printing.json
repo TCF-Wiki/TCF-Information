@@ -10,7 +10,8 @@
         "inGameName": "Flawed Veltecite",
         "amount": 5
       }
-    }
+    },
+    "type": "material"
   },
   "RareVeltecite": {
     "time": 540,
@@ -23,7 +24,8 @@
         "inGameName": "Cloudy Veltecite",
         "amount": 5
       }
-    }
+    },
+    "type": "material"
   },
   "EpicVeltecite": {
     "time": 900,
@@ -36,7 +38,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 5
       }
-    }
+    },
+    "type": "material"
   },
   "PureFocusCrystal": {
     "time": 900,
@@ -49,7 +52,8 @@
         "inGameName": "Focus Crystal",
         "amount": 9
       }
-    }
+    },
+    "type": "material"
   },
   "PureNickel": {
     "time": 180,
@@ -62,7 +66,8 @@
         "inGameName": "Nickel",
         "amount": 5
       }
-    }
+    },
+    "type": "material"
   },
   "TitanOre": {
     "time": 540,
@@ -75,7 +80,8 @@
         "inGameName": "Brittle Titan Ore",
         "amount": 6
       }
-    }
+    },
+    "type": "material"
   },
   "DerelictExplosives": {
     "time": 180,
@@ -96,7 +102,8 @@
         "inGameName": "Radio Equipment",
         "amount": 3
       }
-    }
+    },
+    "type": "material"
   },
   "PrintResin": {
     "time": 180,
@@ -113,7 +120,8 @@
         "inGameName": "Smart Mesh",
         "amount": 1
       }
-    }
+    },
+    "type": "material"
   },
   "CombatCPU_red": {
     "time": 900,
@@ -134,7 +142,8 @@
         "inGameName": "Salvaged CoTEC MultiTool",
         "amount": 2
       }
-    }
+    },
+    "type": "material"
   },
   "AutoLoader": {
     "time": 900,
@@ -155,7 +164,8 @@
         "inGameName": "Ball Bearings",
         "amount": 5
       }
-    }
+    },
+    "type": "material"
   },
   "PortableLabEquipmentBox": {
     "time": 900,
@@ -180,7 +190,8 @@
         "inGameName": "Biological Sampler",
         "amount": 2
       }
-    }
+    },
+    "type": "material"
   },
   "QuestItem_LaserDrillBeacon": {
     "time": 9000,
@@ -201,7 +212,8 @@
         "inGameName": "Korolev Scrip",
         "amount": 80
       }
-    }
+    },
+    "type": "questItem"
   },
   "QuestItem_OrbitalCanonTargetBeacon": {
     "time": 9000,
@@ -226,7 +238,8 @@
         "inGameName": "Osiris Scrip",
         "amount": 80
       }
-    }
+    },
+    "type": "questItem"
   },
   "QuestItem_OilPumpBeacon": {
     "time": 9000,
@@ -247,7 +260,8 @@
         "inGameName": "ICA Scrip",
         "amount": 80
       }
-    }
+    },
+    "type": "questItem"
   },
   "WP_A_Sniper_Gauss_01": {
     "time": 72000,
@@ -272,7 +286,8 @@
         "inGameName": "Alpha Crusher Heart",
         "amount": 3
       }
-    }
+    },
+    "type": "weapon"
   },
   "WP_A_Launch_MSL_01": {
     "time": 72000,
@@ -297,7 +312,8 @@
         "inGameName": "Crusher Flesh",
         "amount": 8
       }
-    }
+    },
+    "type": "weapon"
   },
   "WP_G_HVY_Beam_01": {
     "time": 72000,
@@ -322,7 +338,8 @@
         "inGameName": "Savage Marauder Flesh",
         "amount": 10
       }
-    }
+    },
+    "type": "weapon"
   },
   "Consumable_Health_02": {
     "time": 180,
@@ -343,7 +360,8 @@
         "inGameName": "Waterweed Filament",
         "amount": 1
       }
-    }
+    },
+    "type": "consumable"
   },
   "Consumable_Health_04": {
     "time": 540,
@@ -368,7 +386,8 @@
         "inGameName": "Pale Ivy Blossom",
         "amount": 1
       }
-    }
+    },
+    "type": "consumable"
   },
   "Consumable_Health_05": {
     "time": 180,
@@ -385,7 +404,8 @@
         "inGameName": "Brightcap Mushroom",
         "amount": 2
       }
-    }
+    },
+    "type": "consumable"
   },
   "Consumable_Health_06": {
     "time": 540,
@@ -410,7 +430,8 @@
         "inGameName": "Pale Ivy Blossom",
         "amount": 1
       }
-    }
+    },
+    "type": "consumable"
   },
   "Consumable_GasGrenade_01": {
     "time": 180,
@@ -427,7 +448,8 @@
         "inGameName": "Hardened Metals",
         "amount": 2
       }
-    }
+    },
+    "type": "consumable"
   },
   "Consumable_AudioDecoy_01": {
     "time": 180,
@@ -444,7 +466,8 @@
         "inGameName": "Hardened Metals",
         "amount": 2
       }
-    }
+    },
+    "type": "consumable"
   },
   "Consumable_Grenade_02": {
     "time": 180,
@@ -461,7 +484,8 @@
         "inGameName": "Hardened Metals",
         "amount": 2
       }
-    }
+    },
+    "type": "consumable"
   },
   "Consumable_Grenade_03": {
     "time": 540,
@@ -478,7 +502,8 @@
         "inGameName": "Magnetic Field Stabilizer",
         "amount": 2
       }
-    }
+    },
+    "type": "consumable"
   },
   "Consumable_Grenade_05": {
     "time": 1800,
@@ -499,7 +524,8 @@
         "inGameName": "Howler Dart",
         "amount": 1
       }
-    }
+    },
+    "type": "consumable"
   },
   "HowlerGrenade_01": {
     "time": 1800,
@@ -512,7 +538,8 @@
         "inGameName": "Howler Dart",
         "amount": 2
       }
-    }
+    },
+    "type": "consumable"
   },
   "Map03_KeyCard_04_AlienCorridor": {
     "time": 5400,
@@ -529,7 +556,8 @@
         "inGameName": "Tharis Iron",
         "amount": 10
       }
-    }
+    },
+    "type": "material"
   },
   "Bag_02": {
     "time": 900,
@@ -546,7 +574,8 @@
         "inGameName": "Altered Nickel",
         "amount": 2
       }
-    }
+    },
+    "type": "backpack"
   },
   "Bag_03": {
     "time": 2700,
@@ -567,7 +596,8 @@
         "inGameName": "Altered Nickel",
         "amount": 3
       }
-    }
+    },
+    "type": "backpack"
   },
   "Bag_04": {
     "time": 4500,
@@ -588,7 +618,8 @@
         "inGameName": "Titan Ore",
         "amount": 1
       }
-    }
+    },
+    "type": "backpack"
   },
   "Shield_02": {
     "time": 900,
@@ -605,7 +636,8 @@
         "inGameName": "Spinal Base",
         "amount": 5
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_03": {
     "time": 2700,
@@ -626,7 +658,8 @@
         "inGameName": "Rattler Skin",
         "amount": 5
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_04": {
     "time": 4500,
@@ -647,7 +680,8 @@
         "inGameName": "Hardened Bone Plates",
         "amount": 2
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_05": {
     "time": 9000,
@@ -668,7 +702,8 @@
         "inGameName": "Howler Dart",
         "amount": 2
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_Tactical_02": {
     "time": 900,
@@ -689,7 +724,8 @@
         "inGameName": "Spinal Base",
         "amount": 5
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_Tactical_03": {
     "time": 2700,
@@ -710,7 +746,8 @@
         "inGameName": "Rattler Skin",
         "amount": 8
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_Tactical_04": {
     "time": 4500,
@@ -731,7 +768,8 @@
         "inGameName": "Hardened Bone Plates",
         "amount": 3
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_Tactical_05": {
     "time": 9000,
@@ -756,7 +794,8 @@
         "inGameName": "Zero Systems CPU",
         "amount": 3
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_Restoration_01": {
     "time": 900,
@@ -777,7 +816,8 @@
         "inGameName": "Spinal Base",
         "amount": 5
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_Restoration_02": {
     "time": 2700,
@@ -798,7 +838,8 @@
         "inGameName": "Rattler Skin",
         "amount": 8
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_Restoration_03": {
     "time": 4500,
@@ -819,7 +860,8 @@
         "inGameName": "Hardened Bone Plates",
         "amount": 3
       }
-    }
+    },
+    "type": "shield"
   },
   "Shield_Restoration_04": {
     "time": 9000,
@@ -844,7 +886,8 @@
         "inGameName": "Howler Ichor Bulb",
         "amount": 3
       }
-    }
+    },
+    "type": "shield"
   },
   "Helmet_02": {
     "time": 900,
@@ -861,7 +904,8 @@
         "inGameName": "Spinal Base",
         "amount": 5
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_03": {
     "time": 2700,
@@ -878,7 +922,8 @@
         "inGameName": "Rattler Skin",
         "amount": 2
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_04": {
     "time": 4500,
@@ -895,7 +940,8 @@
         "inGameName": "Hardened Bone Plates",
         "amount": 1
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_05": {
     "time": 9000,
@@ -916,7 +962,8 @@
         "inGameName": "Crusher Hide",
         "amount": 1
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_Tactical_02": {
     "time": 900,
@@ -937,7 +984,8 @@
         "inGameName": "Spinal Base",
         "amount": 4
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_Tactical_03": {
     "time": 2700,
@@ -958,7 +1006,8 @@
         "inGameName": "Rattler Skin",
         "amount": 2
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_Tactical_04": {
     "time": 4500,
@@ -979,7 +1028,8 @@
         "inGameName": "Interactive Screen",
         "amount": 1
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_Tactical_05": {
     "time": 9000,
@@ -1004,7 +1054,8 @@
         "inGameName": "Interactive Screen",
         "amount": 3
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_Restoration_01": {
     "time": 900,
@@ -1025,7 +1076,8 @@
         "inGameName": "Spinal Base",
         "amount": 4
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_Restoration_02": {
     "time": 2700,
@@ -1046,7 +1098,8 @@
         "inGameName": "Rattler Skin",
         "amount": 2
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_Restoration_03": {
     "time": 4500,
@@ -1067,7 +1120,8 @@
         "inGameName": "Glowy Brightcap Mushroom",
         "amount": 3
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_Restoration_04": {
     "time": 9000,
@@ -1092,7 +1146,8 @@
         "inGameName": "Glowy Brightcap Mushroom",
         "amount": 5
       }
-    }
+    },
+    "type": "helmet"
   },
   "Helmet_NV_01": {
     "time": 36000,
@@ -1113,7 +1168,8 @@
         "inGameName": "Alpha Crusher Heart",
         "amount": 1
       }
-    }
+    },
+    "type": "helmet"
   },
   "Mod_Optic_4x_01": {
     "time": 1080,
@@ -1130,7 +1186,8 @@
         "inGameName": "Optic Glass",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Light_03": {
     "time": 1800,
@@ -1151,7 +1208,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Light_01": {
     "time": 360,
@@ -1168,7 +1226,8 @@
         "inGameName": "Salvaged Insulation",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Medium_01": {
     "time": 360,
@@ -1185,7 +1244,8 @@
         "inGameName": "Salvaged Insulation",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Heavy_01": {
     "time": 360,
@@ -1202,7 +1262,8 @@
         "inGameName": "Hardened Metals",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Shotgun_01": {
     "time": 360,
@@ -1219,7 +1280,8 @@
         "inGameName": "Hardened Metals",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Muzzle_Small_Supressor_01": {
     "time": 1080,
@@ -1240,7 +1302,8 @@
         "inGameName": "Aluminum Scrap",
         "amount": 3
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Muzzle_Standard_Supressor_01": {
     "time": 1080,
@@ -1261,7 +1324,8 @@
         "inGameName": "Aluminum Scrap",
         "amount": 3
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Light_01": {
     "time": 360,
@@ -1278,7 +1342,8 @@
         "inGameName": "Altered Nickel",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Medium_01": {
     "time": 360,
@@ -1295,7 +1360,8 @@
         "inGameName": "Altered Nickel",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Heavy_01": {
     "time": 360,
@@ -1312,7 +1378,8 @@
         "inGameName": "Ball Bearings",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Shotgun_01": {
     "time": 360,
@@ -1329,7 +1396,8 @@
         "inGameName": "Ball Bearings",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Medium_03": {
     "time": 1800,
@@ -1350,7 +1418,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Heavy_03": {
     "time": 1800,
@@ -1371,7 +1440,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Shotgun_03": {
     "time": 1800,
@@ -1392,7 +1462,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Light_ReloadSpeed_03": {
     "time": 1080,
@@ -1413,7 +1484,8 @@
         "inGameName": "Print Resin",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Light_ReloadSpeed_04": {
     "time": 1800,
@@ -1434,7 +1506,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Medium_Reloadspeed_03": {
     "time": 1080,
@@ -1455,7 +1528,8 @@
         "inGameName": "Print Resin",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Medium_Reloadspeed_04": {
     "time": 1800,
@@ -1476,7 +1550,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Heavy_ReloadSpeed_03": {
     "time": 1080,
@@ -1497,7 +1572,8 @@
         "inGameName": "Brittle Titan Ore",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Heavy_ReloadSpeed_04": {
     "time": 1800,
@@ -1518,7 +1594,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_03": {
     "time": 1080,
@@ -1539,7 +1616,8 @@
         "inGameName": "Brittle Titan Ore",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Shotgun_ReloadSpeed_04": {
     "time": 1800,
@@ -1560,7 +1638,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Light_EXTReload_02": {
     "time": 1800,
@@ -1581,7 +1660,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Magazine_Medium_EXTReload_02": {
     "time": 1800,
@@ -1602,7 +1682,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Stock_Standard_02": {
     "time": 360,
@@ -1619,7 +1700,8 @@
         "inGameName": "Metallic Alloys",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Stock_Standard_ADS_01": {
     "time": 360,
@@ -1636,7 +1718,8 @@
         "inGameName": "Metallic Alloys",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Stock_Standard_ADSEquip_02": {
     "time": 1800,
@@ -1653,7 +1736,8 @@
         "inGameName": "Miniature Reactor",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Stock_Marksman_02": {
     "time": 360,
@@ -1670,7 +1754,8 @@
         "inGameName": "Brittle Titan Ore",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Stock_Marksman_ADS_01": {
     "time": 360,
@@ -1687,7 +1772,8 @@
         "inGameName": "Brittle Titan Ore",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Stock_Marksman_ADSEquip_02": {
     "time": 1800,
@@ -1704,7 +1790,8 @@
         "inGameName": "Salvaged CoTEC MultiTool",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Muzzle_Small_Recoil_03": {
     "time": 1080,
@@ -1725,7 +1812,8 @@
         "inGameName": "Cloudy Veltecite",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Muzzle_Standard_Recoil_03": {
     "time": 1080,
@@ -1746,7 +1834,8 @@
         "inGameName": "Cloudy Veltecite",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Light_03": {
     "time": 1800,
@@ -1767,7 +1856,8 @@
         "inGameName": "Titan Ore",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Medium_03": {
     "time": 1800,
@@ -1788,7 +1878,8 @@
         "inGameName": "Titan Ore",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Heavy_03": {
     "time": 1800,
@@ -1809,7 +1900,8 @@
         "inGameName": "Magnetic Field Stabilizer",
         "amount": 5
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Shotgun_03": {
     "time": 1800,
@@ -1830,7 +1922,8 @@
         "inGameName": "Derelict Explosives",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Light_AIDMG_01": {
     "time": 360,
@@ -1847,7 +1940,8 @@
         "inGameName": "Spinal Base",
         "amount": 3
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Light_AIDMG_02": {
     "time": 1080,
@@ -1868,7 +1962,8 @@
         "inGameName": "Toxic Glands",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Light_AIDMG_03": {
     "time": 1800,
@@ -1889,7 +1984,8 @@
         "inGameName": "Titan Ore",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Medium_AIDMG_01": {
     "time": 360,
@@ -1906,7 +2002,8 @@
         "inGameName": "Spinal Base",
         "amount": 3
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Medium_AIDMG_02": {
     "time": 1080,
@@ -1927,7 +2024,8 @@
         "inGameName": "Toxic Glands",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Converter_Medium_AIDMG_03": {
     "time": 1800,
@@ -1948,7 +2046,8 @@
         "inGameName": "Titan Ore",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_ForeGrip_ADS_02": {
     "time": 1080,
@@ -1969,7 +2068,8 @@
         "inGameName": "Rattler Skin",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_ForeGrip_ADS_03": {
     "time": 1800,
@@ -1990,7 +2090,8 @@
         "inGameName": "Clear Veltecite",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_RearGrip_ADS_02": {
     "time": 360,
@@ -2007,7 +2108,8 @@
         "inGameName": "Rattler Skin",
         "amount": 2
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Optic_1x_02": {
     "time": 360,
@@ -2024,7 +2126,8 @@
         "inGameName": "Optic Glass",
         "amount": 1
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Optic_Variable_01": {
     "time": 1800,
@@ -2041,7 +2144,8 @@
         "inGameName": "Optic Glass",
         "amount": 3
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Optic_8x_01": {
     "time": 1800,
@@ -2058,7 +2162,8 @@
         "inGameName": "Optic Glass",
         "amount": 3
       }
-    }
+    },
+    "type": "attachment"
   },
   "Mod_Optic_6x_01": {
     "time": 1800,
@@ -2075,6 +2180,7 @@
         "inGameName": "Optic Glass",
         "amount": 3
       }
-    }
+    },
+    "type": "attachment"
   }
 }
