@@ -147,7 +147,7 @@
       "phases": [
         {
           "name": "Day",
-          "duration": 760,
+          "duration": 660,
           "gameplay": {
             "storm": false,
             "playerSpawning": true,
@@ -158,7 +158,7 @@
         },
         {
           "name": "Dusk",
-          "duration": 500,
+          "duration": 400,
           "gameplay": {
             "storm": false,
             "playerSpawning": false,
@@ -191,7 +191,7 @@
         },
         {
           "name": "Dawn",
-          "duration": 240,
+          "duration": 200,
           "gameplay": {
             "storm": false,
             "playerSpawning": true,
@@ -204,14 +204,14 @@
       "warnings": [
         {
           "name": "5 Min Storm Warning",
-          "time": 960
+          "time": 760
         },
         {
           "name": "1 Min Storm Warning",
-          "time": 1200
+          "time": 1000
         }
       ],
-      "totalTime": 1780
+      "totalTime": 1540
     }
   },
   "specialTimings": {}

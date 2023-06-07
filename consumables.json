@@ -642,7 +642,8 @@
     "description": "A thrown explosive device that detonates after a short delay.",
     "rarity": "Uncommon",
     "tags": [
-      "Equipment.Consumables"
+      "Equipment.Consumables",
+      "Damage.Explosive"
     ],
     "weight": 5,
     "stackSize": 4,
@@ -699,7 +700,8 @@
     "description": "A thrown explosive device that detonates after a short delay.",
     "rarity": "Rare",
     "tags": [
-      "Equipment.Consumables"
+      "Equipment.Consumables",
+      "Damage.Explosive"
     ],
     "weight": 5,
     "stackSize": 4,
@@ -756,7 +758,8 @@
     "description": "A thrown explosive device that detonates after a short delay.",
     "rarity": "Exotic",
     "tags": [
-      "Equipment.Consumables"
+      "Equipment.Consumables",
+      "Damage.Explosive"
     ],
     "weight": 5,
     "stackSize": 4,
@@ -815,7 +818,7 @@
   "HowlerGrenade_01": {
     "inGameName": "Howler Grenade",
     "description": "A thrown device, developed by Osiris, that detonates after a short delay and disorients and slows targets in a radius.",
-    "rarity": "Rare",
+    "rarity": "Exotic",
     "tags": [
       "Equipment.Consumables"
     ],

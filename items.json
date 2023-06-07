@@ -7215,7 +7215,7 @@
       "quarters": {
         "increase_bag_6.0": {
           "inGameName": "Increase Safe Pocket Size 10.1",
-          "amount": 3
+          "amount": 2
         },
         "aurum_passive_cap_4.3": {
           "inGameName": "Aurum Generator Cap 10.4",
@@ -11079,7 +11079,8 @@
     "factionRep": 2085,
     "tags": [
       "Weapon.Category.Launcher",
-      "Weapon.Ammo.Special_06_1"
+      "Weapon.Ammo.Special_06_1",
+      "Damage.Explosive"
     ],
     "stackSize": 1,
     "uses": {
@@ -12058,7 +12059,8 @@
     "sellValue": 152,
     "factionRep": 2,
     "tags": [
-      "Equipment.Consumables"
+      "Equipment.Consumables",
+      "Damage.Explosive"
     ],
     "stackSize": 4,
     "uses": {
@@ -12102,7 +12104,8 @@
     "sellValue": 456,
     "factionRep": 5,
     "tags": [
-      "Equipment.Consumables"
+      "Equipment.Consumables",
+      "Damage.Explosive"
     ],
     "stackSize": 4,
     "uses": {
@@ -12150,7 +12153,8 @@
     "sellValue": 1025,
     "factionRep": 10,
     "tags": [
-      "Equipment.Consumables"
+      "Equipment.Consumables",
+      "Damage.Explosive"
     ],
     "stackSize": 4,
     "uses": {
@@ -12165,7 +12169,7 @@
     "inGameName": "Howler Grenade",
     "description": "A thrown device, developed by Osiris, that detonates after a short delay and disorients and slows targets in a radius.",
     "type": "consumable",
-    "rarity": "Rare",
+    "rarity": "Exotic",
     "weight": 5,
     "cost": {
       "CraftingStation": {

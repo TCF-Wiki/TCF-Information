@@ -218,7 +218,7 @@
     },
     "VDP_Cupcake": {
       "ingamename": "Shop_Droppod_Operative",
-      "description": "Shop_Droppod_Operative",
+      "description": "Shop_Droppod_Cupcake",
       "image": "Vanity_Droppod_Cupcake",
       "shopImage": "Shop_Cupcake",
       "rarity": "Uncommon",
@@ -230,7 +230,7 @@
     },
     "VDP_Porcelain": {
       "ingamename": "Shop_Droppod_Operative",
-      "description": "Shop_Droppod_Operative",
+      "description": "Shop_Droppod_Porcelain",
       "image": "Vanity_Droppod_Porcelain",
       "shopImage": "Shop_Porcelain",
       "rarity": "Uncommon",
@@ -1003,11 +1003,11 @@
       "description": "Made from the Brightest Sands",
       "image": "Vanity_Charm_FortunaMarble01",
       "shopImage": "Shop_Placeholder",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponCharm"
       ],
-      "priceHardCurrency": 425,
+      "priceHardCurrency": 575,
       "priceRealMoney": 0
     },
     "Charm_Seven01": {
@@ -1279,6 +1279,138 @@
       "description": "Shop_Charm_BoomBox",
       "image": "Vanity_Charm_Speaker01",
       "shopImage": "Shop_CharmSpeaker",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_Skateboard01": {
+      "ingamename": "Shop_Charm_Skateboard",
+      "description": "Shop_Charm_Skateboard",
+      "image": "Vanity_Charm_Skate",
+      "shopImage": "Shop_Skate",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_Avocado01": {
+      "ingamename": "Shop_Charm_Avocado",
+      "description": "Shop_Charm_Avocado",
+      "image": "Vanity_Charm_Avocado",
+      "shopImage": "Shop_Avocado",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_Wooddoll01": {
+      "ingamename": "Shop_Charm_KokeshiDoll",
+      "description": "Shop_Charm_KokeshiDoll",
+      "image": "Vanity_Charm_VodooDoll",
+      "shopImage": "Shop_VodooDoll",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_LilypadTree01": {
+      "ingamename": "Shop_Charm_Leaf",
+      "description": "Shop_Charm_Leaf",
+      "image": "Vanity_Charm_Leaf",
+      "shopImage": "Shop_Leaf",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_Planet01": {
+      "ingamename": "Shop_Charm_Planet",
+      "description": "Shop_Charm_Planet",
+      "image": "Vanity_Charm_Planet",
+      "shopImage": "Shop_Planet",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_HowlerHead01": {
+      "ingamename": "Shop_Charm_HowlerHead",
+      "description": "Shop_Charm_HowlerHead",
+      "image": "Vanity_Charm_Howler",
+      "shopImage": "Shop_Howler",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_DinoOrigami01": {
+      "ingamename": "Shop_Charm_OrigamiRex",
+      "description": "Shop_Charm_OrigamiRex",
+      "image": "Vanity_Charm_OrigamiDino",
+      "shopImage": "Shop_OrigamiDino",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_Banana01": {
+      "ingamename": "Shop_Charm_Banana",
+      "description": "Shop_Charm_Banana",
+      "image": "Vanity_Charm_Banana",
+      "shopImage": "Shop_Banana",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_FortunaMarble02": {
+      "ingamename": "Fortuna Marble",
+      "description": "Made from the Brightest Sands",
+      "image": "Vanity_Charm_FortunaMarble02",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_FortunaMarble03": {
+      "ingamename": "Fortuna Marble",
+      "description": "Made from the Brightest Sands",
+      "image": "Vanity_Charm_FortunaMarble03",
+      "shopImage": "Shop_Placeholder",
+      "rarity": "Uncommon",
+      "tags": [
+        "Vanity.Type.WeaponCharm"
+      ],
+      "priceHardCurrency": 575,
+      "priceRealMoney": 0
+    },
+    "Charm_FortunaMarble04": {
+      "ingamename": "Fortuna Marble",
+      "description": "Made from the Brightest Sands",
+      "image": "Vanity_Charm_FortunaMarble04",
+      "shopImage": "Shop_Placeholder",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponCharm"
@@ -2832,7 +2964,7 @@
       "ingamename": "Blue & Orange",
       "description": "",
       "image": "Vanity_WeaponSkin_2_blue_orange_copy",
-      "shopImage": "Shop_BlueOrange01",
+      "shopImage": "Shop_BlueOrange",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -2858,7 +2990,7 @@
       "ingamename": "Shiny & Chrome",
       "description": "",
       "image": "Vanity_WeaponSkin_1_chrome",
-      "shopImage": "Shop_ShinyChrome",
+      "shopImage": "Shop_Chrome",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -2871,7 +3003,7 @@
       "ingamename": "Pink",
       "description": "",
       "image": "Vanity_WeaponSkin_2_pink_white",
-      "shopImage": "Shop_Pink",
+      "shopImage": "Shop_Gradient01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -2910,7 +3042,7 @@
       "ingamename": "Olive",
       "description": "",
       "image": "Vanity_WeaponSkin_1_green",
-      "shopImage": "",
+      "shopImage": "Shop_Millitary01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -2923,7 +3055,7 @@
       "ingamename": "Jungle Camo",
       "description": "",
       "image": "Vanity_WeaponSkin_Military",
-      "shopImage": "Shop_JungleCamo",
+      "shopImage": "Shop_Millitary02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -2936,7 +3068,7 @@
       "ingamename": "Urban Camo",
       "description": "",
       "image": "Vanity_WeaponSkin_Urban",
-      "shopImage": "Shop_Military03",
+      "shopImage": "Shop_Millitary03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -2949,7 +3081,7 @@
       "ingamename": "Ocean Camo",
       "description": "",
       "image": "Vanity_WeaponSkin_Marine",
-      "shopImage": "Shop_Military04",
+      "shopImage": "Shop_Millitary04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -2962,7 +3094,7 @@
       "ingamename": "Black & Gold",
       "description": "",
       "image": "Vanity_WeaponSkin_2_black_gold",
-      "shopImage": "",
+      "shopImage": "Shop_Founders01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -2975,7 +3107,7 @@
       "ingamename": "Foundation Green",
       "description": "",
       "image": "Vanity_WeaponSkin_2Highlight_grey_green_brown",
-      "shopImage": "",
+      "shopImage": "Shop_Founders02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3097,7 +3229,7 @@
       "ingamename": "Zebrawing Green",
       "description": "",
       "image": "Vanity_WeaponSkin_Zebrawing",
-      "shopImage": "",
+      "shopImage": "Shop_Season01_01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3110,7 +3242,7 @@
       "ingamename": "Scaledigger Dark",
       "description": "",
       "image": "Vanity_WeaponSkin_Scaledigger",
-      "shopImage": "",
+      "shopImage": "Shop_Season01_02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3123,7 +3255,7 @@
       "ingamename": "Brown & Blue",
       "description": "",
       "image": "Vanity_WeaponSkin_2_Brown_Blue",
-      "shopImage": "",
+      "shopImage": "Shop_Season01_03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3136,7 +3268,7 @@
       "ingamename": "White & Gold",
       "description": "",
       "image": "Vanity_WeaponSkin_White_orange",
-      "shopImage": "",
+      "shopImage": "Shop_Season01_04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3149,7 +3281,7 @@
       "ingamename": "Black & Red",
       "description": "",
       "image": "Vanity_WeaponSkin_2_Black_Red",
-      "shopImage": "",
+      "shopImage": "Shop_Season01_05",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3162,7 +3294,7 @@
       "ingamename": "Veltecite",
       "description": "",
       "image": "Vanity_WeaponSkin_Veltecite01",
-      "shopImage": "Shop_Season106",
+      "shopImage": "Shop_Season01_06",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3175,7 +3307,7 @@
       "ingamename": "Zeal",
       "description": "",
       "image": "Vanity_WeaponSkin_Zeal01",
-      "shopImage": "Shop_Season107",
+      "shopImage": "Shop_Season01_07",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3188,7 +3320,7 @@
       "ingamename": "Rust",
       "description": "",
       "image": "Vanity_WeaponSkin_Desolation",
-      "shopImage": "",
+      "shopImage": "Shop_Season01_08",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3201,7 +3333,7 @@
       "ingamename": "Zebrawing Blue",
       "description": "",
       "image": "Vanity_WeaponSkin_Zebrawing02",
-      "shopImage": "",
+      "shopImage": "Shop_Season01_09",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3227,7 +3359,7 @@
       "ingamename": "LootBoy",
       "description": "",
       "image": "Vanity_WeaponSkin_Redblue",
-      "shopImage": "",
+      "shopImage": "Shop_Lootboy",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3240,7 +3372,7 @@
       "ingamename": "Convention",
       "description": "",
       "image": "Vanity_WeaponSkin_Mag",
-      "shopImage": "",
+      "shopImage": "Shop_MAG",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3253,7 +3385,7 @@
       "ingamename": "Big Blue",
       "description": "",
       "image": "Vanity_WeaponSkin_Redblue",
-      "shopImage": "",
+      "shopImage": "Shop_Intel",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3266,7 +3398,7 @@
       "ingamename": "Topaz",
       "description": "",
       "image": "Vanity_WeaponSkin_Shatter01",
-      "shopImage": "Shop_Topaz",
+      "shopImage": "Shop_Shatter01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3279,7 +3411,7 @@
       "ingamename": "Ruby",
       "description": "",
       "image": "Vanity_WeaponSkin_Shatter02",
-      "shopImage": "Shop_Ruby",
+      "shopImage": "Shop_Shatter02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3292,7 +3424,7 @@
       "ingamename": "Emerald",
       "description": "",
       "image": "Vanity_WeaponSkin_Shatter03",
-      "shopImage": "Shop_Emerald",
+      "shopImage": "Shop_Shatter03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3318,7 +3450,7 @@
       "ingamename": "Opulence",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Aurum01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3331,7 +3463,7 @@
       "ingamename": "Decadent Gold",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Aurum02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3958,7 +4090,7 @@
       "ingamename": "Navy Division",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Anubis_01",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Anubis01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3971,7 +4103,7 @@
       "ingamename": "Azure",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Anubis_02",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Anubis02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3984,7 +4116,7 @@
       "ingamename": "Ultramarine Division",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Anubis_03",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Anubis03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -3997,7 +4129,7 @@
       "ingamename": "Demia Merc",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Runaway_01",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Runaway01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4010,7 +4142,7 @@
       "ingamename": "Violet & Pearl",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Runaway_02",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Runaway02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4023,7 +4155,7 @@
       "ingamename": "Hex-Net",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Runaway_03",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Runaway03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4036,7 +4168,7 @@
       "ingamename": "Neon Mesh",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Runaway_04",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Runaway04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4049,7 +4181,7 @@
       "ingamename": "Golden Dragon",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Runaway_05",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Runaway05",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4062,7 +4194,7 @@
       "ingamename": "River Wyrm",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Runaway_06",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Runaway06",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4075,7 +4207,7 @@
       "ingamename": "Paladin Standard",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Paladin01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4088,7 +4220,7 @@
       "ingamename": "Army Standard",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Paladin02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4101,7 +4233,7 @@
       "ingamename": "Ceremonial Finish",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Paladin03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4114,7 +4246,7 @@
       "ingamename": "Cold Iron",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Paladin04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4127,7 +4259,7 @@
       "ingamename": "Burnished Nickel",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Americana_01",
-      "shopImage": "Shop_Americana01",
+      "shopImage": "Shop_Season02_Americana01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4140,7 +4272,7 @@
       "ingamename": "Bronze Finish",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Americana_02",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Americana02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4153,7 +4285,7 @@
       "ingamename": "Polished Bronze",
       "description": "",
       "image": "Vanity_Season02_Coating_Vanity_All_Americana_03",
-      "shopImage": "Shop_Americana03",
+      "shopImage": "Shop_Season02_Americana03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4166,7 +4298,7 @@
       "ingamename": "Viridian Tessellation",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_TriGreen",
-      "shopImage": "Shop_TriGreen",
+      "shopImage": "Shop_Season02_TriGreen",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4179,7 +4311,7 @@
       "ingamename": "Crimson Tessellation",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_TriMagenta",
-      "shopImage": "Shop_CrimsonTesselation",
+      "shopImage": "Shop_Season02_TriMagenta",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4192,7 +4324,7 @@
       "ingamename": "Paradise",
       "description": "",
       "image": "Vanity_WeaponSkin_CircuitYellowBlue",
-      "shopImage": "Shop_CircuitBlueYellow",
+      "shopImage": "Shop_Season02_CircuitBlueYellow",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4205,7 +4337,7 @@
       "ingamename": "Ivory Tessellation",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_TriWhiteBlue",
-      "shopImage": "Shop_IvoryTesselation",
+      "shopImage": "Shop_Season02_TriWhiteBlue",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4218,7 +4350,7 @@
       "ingamename": "Striped - Poison",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_ZebraYellowGreen",
-      "shopImage": "Shop_ZebraYellowGreen",
+      "shopImage": "Shop_Season02_ZebraYellowGreen",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4244,7 +4376,7 @@
       "ingamename": "Striped - Runner",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_ZebraBlue",
-      "shopImage": "Shop_ZebraBlue",
+      "shopImage": "Shop_Season02_ZebraBlue",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4270,7 +4402,7 @@
       "ingamename": "Striped - Venom",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_ZebraPink",
-      "shopImage": "Shop_ZebraPink",
+      "shopImage": "Shop_Season02_ZebraPink",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4283,7 +4415,7 @@
       "ingamename": "Terminal Output",
       "description": "",
       "image": "Vanity_WeaponSkin_CircuitGreen",
-      "shopImage": "Shop_TerminalOutput",
+      "shopImage": "Shop_Season02_CircuitGreen",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4296,7 +4428,7 @@
       "ingamename": "Net Connector",
       "description": "",
       "image": "Vanity_WeaponSkin_CircuitBrown",
-      "shopImage": "Shop_CircuitBrown",
+      "shopImage": "Shop_Season02_CircuitBrown",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4309,7 +4441,7 @@
       "ingamename": "Speckled",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_DotsGrey",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_DotsGrey",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4322,7 +4454,7 @@
       "ingamename": "Party Dots",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_DotsPurple",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_DotsPurple",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4335,7 +4467,7 @@
       "ingamename": "Safari",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_28",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4348,7 +4480,7 @@
       "ingamename": "Forester",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_29",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4470,7 +4602,7 @@
       "ingamename": "Crimson Snow",
       "description": "",
       "image": "Vanity_WeaponSkin_Christmas02",
-      "shopImage": "",
+      "shopImage": "Shop_Christmas01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4483,7 +4615,7 @@
       "ingamename": "Winter Wishes",
       "description": "",
       "image": "Vanity_WeaponSkin_Christmas01",
-      "shopImage": "",
+      "shopImage": "Shop_Christmas02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4802,7 +4934,7 @@
       "ingamename": "Intricate Ivory",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Greek01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4815,7 +4947,7 @@
       "ingamename": "Intricate Gold",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Greek02",
-      "shopImage": "",
+      "shopImage": "Shop_Greek02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4828,7 +4960,7 @@
       "ingamename": "Intricate Jade",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Greek03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4841,7 +4973,7 @@
       "ingamename": "Intricate Cobalt",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Greek04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4854,7 +4986,7 @@
       "ingamename": "Caution",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Striped01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4867,7 +4999,7 @@
       "ingamename": "Scanner Lines",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Striped02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4880,7 +5012,7 @@
       "ingamename": "Researcher Green",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Striped03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4893,7 +5025,7 @@
       "ingamename": "Pink Pattern",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Striped04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4906,7 +5038,7 @@
       "ingamename": "Neon Blast",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Gradient02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4919,7 +5051,7 @@
       "ingamename": "Cool Breeze",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Gradient03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4932,7 +5064,7 @@
       "ingamename": "Cinder",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Gradient04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4945,7 +5077,7 @@
       "ingamename": "Evergreen",
       "description": "",
       "image": "Vanity_Coating_Vanity_FPO",
-      "shopImage": "",
+      "shopImage": "Shop_Gradient05",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -4958,7 +5090,7 @@
       "ingamename": "The Side Order",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Fries01",
-      "shopImage": "",
+      "shopImage": "Shop_Fries",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5064,7 +5196,7 @@
       "ingamename": "Korolev Officer KM-9 Scrapper",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ScrapperSeason02Reward",
-      "shopImage": "Shop_Scrapper_VeteranExplorer",
+      "shopImage": "Shop_Placeholder",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5095,7 +5227,7 @@
       "ingamename": "Biofusion Green",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Egg01",
-      "shopImage": "",
+      "shopImage": "Shop_Egg01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5108,7 +5240,7 @@
       "ingamename": "Biofusion Violet",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Egg02",
-      "shopImage": "",
+      "shopImage": "Shop_Egg02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5121,7 +5253,7 @@
       "ingamename": "Biofusion Gold",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Egg03",
-      "shopImage": "",
+      "shopImage": "Shop_Egg03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5134,7 +5266,7 @@
       "ingamename": "Biofusion Cyan",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Egg04",
-      "shopImage": "",
+      "shopImage": "Shop_Egg04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5177,7 +5309,7 @@
       "ingamename": "Pink Bands",
       "description": "",
       "image": "Vanity_WeaponSkin_Season3_1",
-      "shopImage": "",
+      "shopImage": "Shop_Season03_01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5190,7 +5322,7 @@
       "ingamename": "Ultraviolet",
       "description": "",
       "image": "Vanity_WeaponSkin_Season3_2",
-      "shopImage": "",
+      "shopImage": "Shop_Season03_02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5203,7 +5335,7 @@
       "ingamename": "Interstellar Orange",
       "description": "",
       "image": "Vanity_WeaponSkin_Season3_3",
-      "shopImage": "",
+      "shopImage": "Shop_Season03_03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5216,7 +5348,7 @@
       "ingamename": "Scanner Lines",
       "description": "",
       "image": "Vanity_WeaponSkin_Season3_4",
-      "shopImage": "",
+      "shopImage": "Shop_Season03_04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5229,7 +5361,7 @@
       "ingamename": "Toxic Warrior",
       "description": "",
       "image": "Vanity_WeaponSkin_Season3_5",
-      "shopImage": "",
+      "shopImage": "Shop_Season03_05",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5242,7 +5374,7 @@
       "ingamename": "Cool Blue",
       "description": "",
       "image": "Vanity_WeaponSkin_Season3_6",
-      "shopImage": "",
+      "shopImage": "Shop_Season03_06",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5472,7 +5604,7 @@
       "ingamename": "Art Deco Gorgon",
       "description": "Can be applied to any Gorgon you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_GorgonArtDeco",
-      "shopImage": "",
+      "shopImage": "Shop_Gorgon_ArtDeco",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5502,7 +5634,7 @@
       "ingamename": "Art Deco Advocate",
       "description": "Can be applied to any Advocate you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_AdvocateArtDeco",
-      "shopImage": "",
+      "shopImage": "Shop_Advocate_ArtDeco",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5762,7 +5894,7 @@
       "ingamename": "Expedition Master Kinetic Arbiter",
       "description": "",
       "image": "Vanity_WeaponSkin_P_ArbiterVeteran",
-      "shopImage": "",
+      "shopImage": "Shop_KineticArbiter_Veteran",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -5901,7 +6033,7 @@
       "ingamename": "Chrome Shift",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Gradient06",
-      "shopImage": "",
+      "shopImage": "Shop_Gradient06",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5914,7 +6046,7 @@
       "ingamename": "Dark Neon",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Gradient07",
-      "shopImage": "",
+      "shopImage": "Shop_Gradient07",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5927,7 +6059,7 @@
       "ingamename": "Lethal Red",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Striped05",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Striped05",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5940,7 +6072,7 @@
       "ingamename": "Kingsnake Stripes",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Striped06",
-      "shopImage": "",
+      "shopImage": "Shop_Season02_Striped06",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5953,7 +6085,7 @@
       "ingamename": "Jaded",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Shatter05",
-      "shopImage": "",
+      "shopImage": "Shop_Shatter05",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -5966,7 +6098,7 @@
       "ingamename": "Sapphire Warrior",
       "description": "",
       "image": "Vanity_Coating_Vanity_All_Shatter06",
-      "shopImage": "",
+      "shopImage": "Shop_Shatter06",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -6683,7 +6815,7 @@
       "ingamename": "Explorer's KM-9 Scrapper",
       "description": "Can be applied to any KM-9 Scrapper you own. Owned skins are not lost on the surface.",
       "image": "PlaceHolderAsset_Texture_M",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Scrapper_VeteranExplorer",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7131,7 +7263,7 @@
       "ingamename": "Explorer's AR-55",
       "description": "Can be applied to any AR-55 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_AR55VeteranExplorer",
-      "shopImage": "",
+      "shopImage": "Shop_AR55_VeteranExplorer",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7147,7 +7279,7 @@
       "ingamename": "Marshal AR-55",
       "description": "Can be applied to any AR-55 you own. Owned skins are not lost on the surface.",
       "image": "Vanity_WeaponSkin_P_Ar55Marshal",
-      "shopImage": "",
+      "shopImage": "Shop_AR55_Marshal",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7163,7 +7295,7 @@
       "ingamename": "Shop_Vanity_All_Christmas_03",
       "description": "Shop_Vanity_All_Christmas_03",
       "image": "Vanity_Coating_Vanity_All_Christmas03",
-      "shopImage": "Shop_Christmas_03",
+      "shopImage": "Shop_Christmas03",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -7176,7 +7308,7 @@
       "ingamename": "Shop_Vanity_All_Christmas_04",
       "description": "Shop_Vanity_All_Christmas_04",
       "image": "Vanity_Coating_Vanity_All_Christmas04",
-      "shopImage": "Shop_Christmas_04",
+      "shopImage": "Shop_Christmas04",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.WeaponCoating"
@@ -7809,7 +7941,7 @@
       "ingamename": "Vanity_MachineGun_ICA_Guarantee_HoneyFarmer",
       "description": "Vanity_MachineGun_ICA_Guarantee_HoneyFarmer",
       "image": "Vanity_WeaponSkin_P_MachinegunHoneyFarmer",
-      "shopImage": "Shop_PhasicLancer_ArtDeco",
+      "shopImage": "Shop_Guarantee_HoneyFarmer",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.WeaponSkin"
@@ -7822,15 +7954,15 @@
       ]
     },
     "Vanity_SniperRifle_ICA_KineticArbiter_HoneyFarmer": {
-      "ingamename": "Luxury Kinetic Arbiter",
-      "description": "A flash of gold, the last thing they'll ever see.  Can be applied to any Kinetic Arbiter you own. Owned skins are not lost on the surface.",
-      "image": "Vanity_WeaponSkin_P_ArbiterPrestige",
-      "shopImage": "Shop_PrestigKineticArbiter",
-      "rarity": "Uncommon",
+      "ingamename": "Vanity_SniperRifle_ICA_KineticArbiter_HoneyFarmer",
+      "description": "Vanity_SniperRifle_ICA_KineticArbiter_HoneyFarmer",
+      "image": "Vanity_WeaponSkin_P_ArbiterHoneyFarmer",
+      "shopImage": "Shop_KineticArbiter_HoneyFarmer",
+      "rarity": "Rare",
       "tags": [
         "Vanity.Type.WeaponSkin"
       ],
-      "priceHardCurrency": 775,
+      "priceHardCurrency": 1125,
       "priceRealMoney": 0,
       "exclusiveWeapon": [
         "Kinetic Arbiter"
@@ -7854,7 +7986,7 @@
       "ingamename": "Skinner",
       "description": "",
       "image": "Vanity_Melee_Machete02",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Machete02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -7902,7 +8034,7 @@
       "ingamename": "Hunter's Choice",
       "description": "",
       "image": "Vanity_Melee_Poacher01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Poacher01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -7926,7 +8058,7 @@
       "ingamename": "Combat Knife",
       "description": "",
       "image": "Vanity_Melee_Omega01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Knife",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -7938,7 +8070,7 @@
       "ingamename": "Station Wrench",
       "description": "",
       "image": "Vanity_Melee_Wrench01",
-      "shopImage": "",
+      "shopImage": "Shop_Wrench01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -7950,7 +8082,7 @@
       "ingamename": "The Hard Hitter",
       "description": "",
       "image": "Vanity_Melee_Wrench02",
-      "shopImage": "",
+      "shopImage": "Shop_Wrench02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8046,7 +8178,7 @@
       "ingamename": "SpecOps Blade",
       "description": "A wicked way to go.",
       "image": "Vanity_Melee_Paladin01",
-      "shopImage": "Shop_PaladinBlade06",
+      "shopImage": "Shop_Paladin01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8058,7 +8190,7 @@
       "ingamename": "Ardent Battle Blade",
       "description": "",
       "image": "Vanity_Melee_Paladin02",
-      "shopImage": "Shop_PaladinBlade01",
+      "shopImage": "Shop_Paladin02",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8070,7 +8202,7 @@
       "ingamename": "Paladin Battle Blade",
       "description": "",
       "image": "Vanity_Melee_Paladin03",
-      "shopImage": "Shop_PaladinBlade02",
+      "shopImage": "Shop_Paladin03",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8106,7 +8238,7 @@
       "ingamename": "228419EA44F5F460EAD978AC6992B7D0",
       "description": "",
       "image": "PlaceHolderAsset_Texture_M",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Paladin06",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8262,7 +8394,7 @@
       "ingamename": "Marshal's Baton",
       "description": "",
       "image": "Vanity_Melee_Marshal01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Marshal01",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8274,7 +8406,7 @@
       "ingamename": "Worn Baton",
       "description": "This piece has seen too much action already...",
       "image": "Vanity_Melee_Marshal02",
-      "shopImage": "Shop_WornBaton",
+      "shopImage": "Shop_Marshal02",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8298,7 +8430,7 @@
       "ingamename": "Bounty Hunter's Wrecker",
       "description": "",
       "image": "Vanity_Melee_BountyHunter01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_BountyHunter",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8358,7 +8490,7 @@
       "ingamename": "Well Used Knife",
       "description": "",
       "image": "Vanity_Melee_VeteranPack01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_VeteranPack",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8370,7 +8502,7 @@
       "ingamename": "Survivor's Blade",
       "description": "",
       "image": "Vanity_Melee_SurvivalFest01",
-      "shopImage": "Vanity_Melee_Ronin03",
+      "shopImage": "Shop_SurvivalFest",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8382,7 +8514,7 @@
       "ingamename": "Cultist Skewer",
       "description": "",
       "image": "Vanity_Meele_COT_CultistKnife",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_CultistKnife",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8394,7 +8526,7 @@
       "ingamename": "Burning Blade",
       "description": "",
       "image": "Vanity_Meele_UNI_CultistKnife_Molten",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_CultistKnifeMolten",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8430,7 +8562,7 @@
       "ingamename": "Explorer's Cleaver",
       "description": "",
       "image": "Vanity_Meele_OSI_ExplorerAxe01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_ExplorerAxe",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8478,7 +8610,7 @@
       "ingamename": "Shop_Melee_karambitSynth",
       "description": "Shop_Melee_karambitSynth",
       "image": "Vanity_Melee_Karambit01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_Karambit",
       "rarity": "Exotic",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8489,9 +8621,9 @@
     "Melee_LaserBlade01": {
       "ingamename": "Shop_Melee_LaserBlade01",
       "description": "Shop_Melee_LaserBlade01",
-      "image": "Items_Icon_Missing_256",
+      "image": "Vanity_Melee_LaserBlade01",
       "shopImage": "Shop_LaserBlade",
-      "rarity": "Epic",
+      "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
       ],
@@ -8502,7 +8634,7 @@
       "ingamename": "Shop_Melee_ScytheHive",
       "description": "Shop_Melee_ScytheHive",
       "image": "Vanity_Melee_HiveKnife01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_HiveKnife",
       "rarity": "Exotic",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8514,7 +8646,7 @@
       "ingamename": "Shop_Melee_RustedSonicBlade",
       "description": "Shop_Melee_RustedSonicBlade",
       "image": "Vanity_Melee_RustyTool01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_RustedToolPrimitiveBroken",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8550,7 +8682,7 @@
       "ingamename": "Shop_Melee_OperativeBlade01",
       "description": "Shop_Melee_OperativeBlade01",
       "image": "Vanity_Melee_Stealth01",
-      "shopImage": "Shop_StealthBlade",
+      "shopImage": "Shop_StealthBlade01",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8562,7 +8694,7 @@
       "ingamename": "Shop_Melee_OperativeBladePrismatic",
       "description": "Shop_Melee_OperativeBladePrismatic",
       "image": "Vanity_Melee_Stealth02",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_StealthBlade02",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8598,7 +8730,7 @@
       "ingamename": "Shop_Melee_GoldBoxCutter",
       "description": "Shop_Melee_GoldBoxCutter",
       "image": "Vanity_Melee_Cutter01",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_CutterGold",
       "rarity": "Uncommon",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8634,7 +8766,7 @@
       "ingamename": "Shop_Melee_OperativeKnife01",
       "description": "Shop_Melee_OperativeKnife01",
       "image": "Vanity_Melee_AuthorityOperativeKnife",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_AuthorityOperativeKnife",
       "rarity": "Common",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8706,7 +8838,7 @@
       "ingamename": "Purchase {OfferName}",
       "description": "",
       "image": "PlaceholderTexture_Banner_M",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_ChineseDaggerSteel",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8742,7 +8874,7 @@
       "ingamename": "Purchase {OfferName}",
       "description": "",
       "image": "PlaceholderTexture_Banner_M",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_ChineseDaggerPorcelain",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8754,7 +8886,7 @@
       "ingamename": "Shop_Melee_LivingKatana01",
       "description": "Shop_Melee_LivingKatana01",
       "image": "Vanity_Melee_Katana_Stickers",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_KatanaSticker",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8765,8 +8897,8 @@
     "Melee_Plasmacutter01": {
       "ingamename": "Shop_Melee_HoloBlade01",
       "description": "Shop_Melee_HoloBlade01",
-      "image": "PlaceholderTexture_Banner_M",
-      "shopImage": "Shop_Placeholder",
+      "image": "Vanity_Meele_Plasmacutter01",
+      "shopImage": "Shop_Plasmacutter",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
@@ -8778,7 +8910,7 @@
       "ingamename": "Shop_Melee_LaserBlade02",
       "description": "Shop_Melee_LaserBlade02",
       "image": "PlaceHolderAsset_Texture_M",
-      "shopImage": "Shop_Placeholder",
+      "shopImage": "Shop_StealthBlade03",
       "rarity": "Rare",
       "tags": [
         "Vanity.Type.MeleeWeapon"
