@@ -194,41 +194,41 @@
     "type": "material"
   },
   "QuestItem_LaserDrillBeacon": {
-    "time": 9000,
+    "time": 3000,
     "items": {
       "SoftCurrency": {
         "inGameName": "K-Marks",
-        "amount": 49000
+        "amount": 19000
       },
       "SmartMesh": {
         "inGameName": "Smart Mesh",
-        "amount": 2
+        "amount": 1
       },
       "Cables": {
         "inGameName": "Electronic Cables",
-        "amount": 18
+        "amount": 6
       },
       "KorolevScrip": {
         "inGameName": "Korolev Scrip",
-        "amount": 80
+        "amount": 30
       }
     },
     "type": "questItem"
   },
   "QuestItem_OrbitalCanonTargetBeacon": {
-    "time": 9000,
+    "time": 3000,
     "items": {
       "SoftCurrency": {
         "inGameName": "K-Marks",
-        "amount": 49000
+        "amount": 19000
       },
       "DerelictExplosives": {
         "inGameName": "Derelict Explosives",
-        "amount": 3
+        "amount": 1
       },
       "Datapad": {
         "inGameName": "Interactive Screen",
-        "amount": 4
+        "amount": 1
       },
       "HardDrive_legendary": {
         "inGameName": "Data Drive Tier 5",
@@ -236,29 +236,29 @@
       },
       "OsirisScrip": {
         "inGameName": "Osiris Scrip",
-        "amount": 80
+        "amount": 30
       }
     },
     "type": "questItem"
   },
   "QuestItem_OilPumpBeacon": {
-    "time": 9000,
+    "time": 3000,
     "items": {
       "SoftCurrency": {
         "inGameName": "K-Marks",
-        "amount": 49000
+        "amount": 19000
       },
       "HydraulicPiston": {
         "inGameName": "Hydraulic Piston",
-        "amount": 12
+        "amount": 4
       },
       "AluminumParts": {
         "inGameName": "Aluminum Scrap",
-        "amount": 12
+        "amount": 4
       },
       "ICAScrip": {
         "inGameName": "ICA Scrip",
-        "amount": 80
+        "amount": 30
       }
     },
     "type": "questItem"
